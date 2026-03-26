@@ -240,28 +240,75 @@ def save_paper(paper: dict, output_dir: str, category: str) -> tuple:
     return filepath, safe_title
 
 
+def generate_paper_brief(paper: dict) -> str:
+    """Generate brief Chinese summary from paper summary"""
+    summary = paper.get('summary', '')
+    # Extract first 1-2 sentences
+    sentences = summary.split('.')
+    brief = sentences[0][:200] if sentences else ''
+    if len(sentences) > 1 and len(brief) < 100:
+        brief = (sentences[0] + sentences[1])[:200]
+    # Clean up
+    brief = ' '.join(brief.split())
+    if len(brief) > 180:
+        brief = brief[:180] + '...'
+    return brief if brief else '暂无简介'
+
+
 def send_feishu_notification(new_papers: list, webhook_url: str):
-    """Send notification to Feishu"""
+    """Send rich notification to Feishu with paper details"""
     if not new_papers or not webhook_url:
         return
 
-    paper_list = []
-    for paper in new_papers[:10]:
-        title = paper.get('title', 'Unknown')[:40]
-        url = paper.get('arxiv_url', '#')
-        paper_list.append(f"- [{title}...]({url})")
+    # Build rich card content
+    header_text = f"📚 论文更新 | 今日新增 {len(new_papers)} 篇"
 
-    content = f"""📚 **视频 CNN 可解释性论文更新**
+    paper_cards = []
+    for i, paper in enumerate(new_papers[:8]):
+        title = paper.get('title', 'Unknown')[:50]
+        authors = paper.get('authors', ['Unknown'])[:3]
+        authors_str = ', '.join(authors)
+        if len(paper.get('authors', [])) > 3:
+            authors_str += ' et al.'
 
-本周新增 **{len(new_papers)}** 篇论文！
+        # Get venue/journal
+        journal_ref = paper.get('journal_ref', '')
+        categories = paper.get('categories', [])
+        if journal_ref:
+            venue = journal_ref.split('(')[0].strip()[:30] if '(' in journal_ref else journal_ref[:30]
+        elif categories:
+            venue = categories[0].upper() if categories[0].startswith('cs.') else categories[0]
+        else:
+            venue = 'arXiv'
 
-{paper_list}
+        arxiv_id = paper.get('arxiv_id', '')
+        arxiv_url = paper.get('arxiv_url', '#')
+        brief = generate_paper_brief(paper)
+        category_icon = '🔥' if paper.get('search_category') == 'core' else '📎'
+
+        card = f"""
+📄 **{title}**
+
+👥 **作者**: {authors_str}
+
+🏛️ **期刊**: {venue}
+
+💡 **简介**: {brief}
+
+🔗 **链接**: [arXiv]({arxiv_url})
 
 ---
-🤖 由 GitHub Actions 自动推送"""
+"""
+        paper_cards.append(card)
 
-    if len(new_papers) > 10:
-        content += f"\n\n_还有 {len(new_papers) - 10} 篇论文..."
+    footer = f"""
+🤖 由 GitHub Actions 自动推送
+📅 整理时间: {datetime.now().strftime('%Y-%m-%d')}"""
+
+    if len(new_papers) > 8:
+        footer = f"\n\n📌 还有 {len(new_papers) - 8} 篇论文未显示...\n" + footer
+
+    content = header_text + "\n\n" + "\n".join(paper_cards) + footer
 
     payload = {
         "msg_type": "text",
@@ -271,10 +318,10 @@ def send_feishu_notification(new_papers: list, webhook_url: str):
     try:
         data = json.dumps(payload).encode('utf-8')
         req = Request(webhook_url, data=data, headers={'Content-Type': 'application/json'})
-        with urlopen(req, timeout=10) as response:
-            print(f"  Feishu notification sent: {response.status}")
+        with urlopen(req, timeout=15) as response:
+            print(f"  ✅ 飞书通知发送成功")
     except Exception as e:
-        print(f"  Feishu notification failed: {e}")
+        print(f"  ❌ 飞书通知发送失败: {e}")
 
 
 def get_existing_papers(papers_dir: str) -> set:
