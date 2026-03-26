@@ -302,7 +302,7 @@ video-cnn-interpretability/
 
 ## ⚙️ 自动更新
 
-本项目通过 **GitHub Actions** 每周自动：
+本项目通过 **GitHub Actions** 每天自动：
 1. 搜索 arXiv 最新相关论文
 2. 生成论文总结
 3. 更新本 README
