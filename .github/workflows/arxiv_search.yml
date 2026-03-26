@@ -6,6 +6,9 @@ on:
     - cron: '0 1 * * 1'
   workflow_dispatch:  # 支持手动触发
 
+permissions:
+  contents: write
+
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
