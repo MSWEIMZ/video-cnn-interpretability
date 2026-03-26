@@ -27,9 +27,17 @@ def load_config(config_path: str) -> dict:
 
 
 def load_feishu_config(config_path: str) -> dict:
+    """Load Feishu configuration - prefers environment variable (GitHub Secret)"""
+    # First check environment variable (for GitHub Secrets)
+    webhook = os.environ.get('FEISHU_WEBHOOK', '')
+    if webhook:
+        return {"enabled": True, "feishu_webhook": webhook}
+
+    # Fallback to config file
     try:
         with open(config_path, 'r', encoding='utf-8') as f:
-            return json.load(f)
+            config = json.load(f)
+            return config
     except:
         return {"enabled": False}
 
@@ -294,9 +302,10 @@ def generate_readme(output_dir: str, papers: list):
             by_year[year] = []
         by_year[year].append(paper)
 
-    # Build table rows
-    table_rows = []
+    # Build tables grouped by year
+    year_tables = {}
     for year in sorted(by_year.keys(), reverse=True):
+        rows = []
         for paper in sorted(by_year[year], key=lambda x: x.get('title', '')):
             title = paper.get('title', 'Unknown')[:50]
             arxiv_url = paper.get('arxiv_url', '#')
@@ -304,6 +313,16 @@ def generate_readme(output_dir: str, papers: list):
             authors_str = ', '.join(authors)
             if len(paper.get('authors', [])) > 2:
                 authors_str += '+'
+
+            # Get venue from categories
+            categories = paper.get('categories', [])
+            venue = categories[0] if categories else 'arXiv'
+            if venue.startswith('cs.'):
+                venue = venue[3:].upper()
+
+            # Keywords from search query
+            keywords = paper.get('search_query', '')[:30]
+
             category = paper.get('search_category', 'related')
             cat_icon = '🔥' if category == 'core' else '📎'
 
@@ -319,9 +338,12 @@ def generate_readme(output_dir: str, papers: list):
                         md_file = f"papers/{year}/{category}/{safe_title}-{i}.md"
                         break
 
-            table_rows.append(f"| {year} | [{title}]({md_file}) | {authors_str} | {cat_icon} |")
+            rows.append(f"| {year} | [{title}]({md_file}) | {authors_str} | {venue} | {keywords} | {cat_icon} |")
 
-    # Generate README
+        if rows:
+            year_tables[year] = rows
+
+    # Generate README with year-based tables
     readme = f"""# 📚 视频 CNN 可解释性论文库
 
 > 自动化论文搜索与整理系统 | 专注于 3DCNN、R(2+1)D 模型及可解释性研究
@@ -347,13 +369,16 @@ def generate_readme(output_dir: str, papers: list):
 
 ---
 
-## 📋 论文列表
+"""
 
-| 年份 | 标题 | 作者 | 分类 |
-|------|------|------|------|
-{chr(10).join(table_rows) if table_rows else "| - | - | - | - |"}
+    for year in sorted(year_tables.keys(), reverse=True):
+        readme += f"## 📅 {year} 年\n\n"
+        readme += "| 年份 | 标题 | 作者 | 期刊/会议 | 关键字 | 分类 |\n"
+        readme += "|------|------|------|----------|--------|------|\n"
+        readme += '\n'.join(year_tables[year])
+        readme += "\n\n"
 
----
+    readme += f"""---
 
 ## 📁 项目结构
 
@@ -361,7 +386,6 @@ def generate_readme(output_dir: str, papers: list):
 video-cnn-interpretability/
 ├── arxiv_search.py          # arXiv 搜索脚本
 ├── search_config.json       # 搜索配置文件
-├── feishu_config.json       # 飞书通知配置
 ├── paper_template.md        # 论文总结模板
 ├── papers/                  # 论文总结 (按年份/分类)
 │   ├── 2024/

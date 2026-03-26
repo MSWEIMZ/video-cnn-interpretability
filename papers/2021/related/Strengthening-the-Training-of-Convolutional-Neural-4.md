@@ -1,0 +1,52 @@
+# Strengthening the Training of Convolutional Neural Networks By Using Walsh Matrix
+
+**作者**: Tamer Ölmez, Zümray Dokur
+
+**发表信息**: arXiv · 2021
+
+**论文链接**: [arXiv:2104.00035v1](http://arxiv.org/abs/2104.00035v1)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> DNN structures are continuously developing and achieving high performances in classification problems.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+DNN structures are continuously developing and achieving high performances in classification problems. Also, it is observed that success rates obtained with DNNs are higher than those obtained with traditional neural networks. In addition, one of the advantages of DNNs is that there is no need to spend an extra effort to determine the features; the CNN automatically extracts the features from the dataset during the training. Besides their benefits, the DNNs have the following three major drawbac
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-26
+- 分类: `相关领域`
+- arXiv ID: 2104.00035v1

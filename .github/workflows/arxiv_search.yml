@@ -22,6 +22,8 @@ jobs:
         run: pip install feedparser
 
       - name: Run paper search
+        env:
+          FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
         run: python arxiv_search.py
 
       - name: Commit and push
