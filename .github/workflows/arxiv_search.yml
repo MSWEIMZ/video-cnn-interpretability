@@ -1,0 +1,36 @@
+name: Weekly Paper Search
+
+on:
+  schedule:
+    # 每周一早上9点 (UTC+8 = 凌晨1点 UTC)
+    - cron: '0 1 * * 1'
+  workflow_dispatch:  # 支持手动触发
+
+jobs:
+  search-and-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install arxiv feedparser
+
+      - name: Run paper search
+        run: python arxiv_search.py
+
+      - name: Commit and push
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add -A
+          git diff --staged --quiet || git commit -m "Update papers - $(date +'%Y-%m-%d')"
+          git push
