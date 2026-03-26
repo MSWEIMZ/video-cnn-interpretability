@@ -1,0 +1,52 @@
+# Memorization in Deep Neural Networks: Does the Loss Function matter?
+
+**作者**: Deep Patel, P. S. Sastry
+
+**发表信息**: arXiv · 2021
+
+**论文链接**: [arXiv:2107.09957v2](http://arxiv.org/abs/2107.09957v2)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> Deep Neural Networks, often owing to the overparameterization, are shown to be capable of exactly memorizing even randomly labelled data.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+Deep Neural Networks, often owing to the overparameterization, are shown to be capable of exactly memorizing even randomly labelled data. Empirical studies have also shown that none of the standard regularization techniques mitigate such overfitting. We investigate whether the choice of the loss function can affect this memorization. We empirically show, with benchmark data sets MNIST and CIFAR-10, that a symmetric loss function, as opposed to either cross-entropy or squared error loss, results 
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-26
+- 分类: `相关领域`
+- arXiv ID: 2107.09957v2

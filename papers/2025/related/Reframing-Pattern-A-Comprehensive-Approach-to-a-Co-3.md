@@ -1,0 +1,52 @@
+# Reframing Pattern: A Comprehensive Approach to a Composite Visual Variable
+
+**作者**: Tingying He, Jason Dykes, Petra Isenberg, Tobias Isenberg
+
+**发表信息**: arXiv · 2025
+
+**论文链接**: [arXiv:2508.02639v3](http://arxiv.org/abs/2508.02639v3)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> We present a new comprehensive theory for explaining, exploring, and using pattern as a visual variable in visualization.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+We present a new comprehensive theory for explaining, exploring, and using pattern as a visual variable in visualization. Although patterns have long been used for data encoding and continue to be valuable today, their conceptual foundations are precarious: the concepts and terminology used across the research literature and in practice are inconsistent, making it challenging to use patterns effectively and to conduct research to inform their use. To address this problem, we conduct a comprehens
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-26
+- 分类: `相关领域`
+- arXiv ID: 2508.02639v3

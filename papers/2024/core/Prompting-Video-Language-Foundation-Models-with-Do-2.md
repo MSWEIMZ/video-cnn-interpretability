@@ -1,0 +1,52 @@
+# Prompting Video-Language Foundation Models with Domain-specific Fine-grained Heuristics for Video Question Answering
+
+**作者**: Ting Yu, Kunhao Fu, Shuhui Wang, Qingming Huang, Jun Yu
+
+**发表信息**: arXiv · 2024
+
+**论文链接**: [arXiv:2410.09380v1](http://arxiv.org/abs/2410.09380v1)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> Video Question Answering (VideoQA) represents a crucial intersection between video understanding and language processing, requiring both discriminative unimodal comprehension and sophisticated cross-modal interaction for accurate inference.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+Video Question Answering (VideoQA) represents a crucial intersection between video understanding and language processing, requiring both discriminative unimodal comprehension and sophisticated cross-modal interaction for accurate inference. Despite advancements in multi-modal pre-trained models and video-language foundation models, these systems often struggle with domain-specific VideoQA due to their generalized pre-training objectives. Addressing this gap necessitates bridging the divide betwe
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-26
+- 分类: `核心领域`
+- arXiv ID: 2410.09380v1

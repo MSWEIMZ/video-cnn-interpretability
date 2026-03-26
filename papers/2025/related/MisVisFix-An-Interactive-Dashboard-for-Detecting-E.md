@@ -1,0 +1,52 @@
+# MisVisFix: An Interactive Dashboard for Detecting, Explaining, and Correcting Misleading Visualizations using Large Language Models
+
+**作者**: Amit Kumar Das, Klaus Mueller
+
+**发表信息**: arXiv · 2025
+
+**论文链接**: [arXiv:2508.04679v1](http://arxiv.org/abs/2508.04679v1)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> Misleading visualizations pose a significant challenge to accurate data interpretation.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+Misleading visualizations pose a significant challenge to accurate data interpretation. While recent research has explored the use of Large Language Models (LLMs) for detecting such misinformation, practical tools that also support explanation and correction remain limited. We present MisVisFix, an interactive dashboard that leverages both Claude and GPT models to support the full workflow of detecting, explaining, and correcting misleading visualizations. MisVisFix correctly identifies 96% of v
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-26
+- 分类: `相关领域`
+- arXiv ID: 2508.04679v1

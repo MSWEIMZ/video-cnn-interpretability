@@ -1,0 +1,52 @@
+# ReViVD: Exploration and Filtering of Trajectories in an Immersive Environment using 3D Shapes
+
+**作者**: François Homps, Yohan Beugin, Romain Vuillemot
+
+**发表信息**: arXiv · 2022
+
+**论文链接**: [arXiv:2202.10545v1](http://arxiv.org/abs/2202.10545v1)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> We present ReViVD, a tool for exploring and filtering large trajectory-based datasets using virtual reality.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+We present ReViVD, a tool for exploring and filtering large trajectory-based datasets using virtual reality. ReViVD's novelty lies in using simple 3D shapes -- such as cuboids, spheres and cylinders -- as queries for users to select and filter groups of trajectories. Building on this simple paradigm, more complex queries can be created by combining previously made selection groups through a system of user-created Boolean operations. We demonstrate the use of ReViVD in different application domai
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-26
+- 分类: `核心领域`
+- arXiv ID: 2202.10545v1

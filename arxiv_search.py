@@ -14,7 +14,6 @@ from pathlib import Path
 from urllib.request import urlopen, Request
 from urllib.parse import urlencode
 
-# Try to use arxiv API library, fallback to manual implementation
 try:
     import arxiv
     USE_ARXIV_LIB = True
@@ -23,13 +22,11 @@ except ImportError:
 
 
 def load_config(config_path: str) -> dict:
-    """Load search configuration from JSON file"""
     with open(config_path, 'r', encoding='utf-8') as f:
         return json.load(f)
 
 
 def load_feishu_config(config_path: str) -> dict:
-    """Load Feishu configuration"""
     try:
         with open(config_path, 'r', encoding='utf-8') as f:
             return json.load(f)
@@ -37,12 +34,11 @@ def load_feishu_config(config_path: str) -> dict:
         return {"enabled": False}
 
 
-def escape_markdown(text: str) -> str:
-    """Escape special markdown characters"""
-    special_chars = ['*', '#', '`', '[', ']', '(', ')', '!', '-', '_']
-    for char in special_chars:
-        text = text.replace(char, '\\' + char)
-    return text
+def safe_filename(title: str, max_len: int = 50) -> str:
+    """Generate safe filename from title"""
+    safe = re.sub(r'[^\w\s-]', '', title)
+    safe = re.sub(r'\s+', '-', safe)
+    return safe[:max_len].strip('-')
 
 
 def extract_year_from_arxiv_id(arxiv_id: str) -> int:
@@ -59,15 +55,15 @@ def extract_year_from_arxiv_id(arxiv_id: str) -> int:
     return 2020
 
 
-def search_arxiv_manual(query: str, max_results: int = 20) -> list:
-    """Manual arXiv API search fallback"""
+def search_arxiv_manual(query: str, max_results: int = 50, sort_by: str = 'relevance') -> list:
+    """Manual arXiv API search"""
     base_url = 'http://export.arxiv.org/api/query?'
     search_query = f'all:{query}'
     params = {
         'search_query': search_query,
         'start': 0,
         'max_results': max_results,
-        'sortBy': 'submittedDate',
+        'sortBy': sort_by,
         'sortOrder': 'descending'
     }
     url = base_url + urlencode(params)
@@ -100,8 +96,7 @@ def parse_arxiv_response(xml_data: str) -> list:
         id_match = re.search(r'<id>(.*?)</id>', entry)
         if id_match:
             paper['arxiv_url'] = id_match.group(1)
-            arxiv_id = id_match.group(1).split('/')[-1]
-            paper['arxiv_id'] = arxiv_id
+            paper['arxiv_id'] = id_match.group(1).split('/')[-1]
         published_match = re.search(r'<published>(.*?)</published>', entry)
         if published_match:
             paper['published'] = published_match.group(1)[:10]
@@ -115,14 +110,14 @@ def parse_arxiv_response(xml_data: str) -> list:
     return papers
 
 
-def search_arxiv_with_lib(query: str, max_results: int = 20) -> list:
+def search_arxiv_with_lib(query: str, max_results: int = 50) -> list:
     """Search using arxiv library"""
     papers = []
     client = arxiv.Client()
     search = arxiv.Search(
         query=query,
         max_results=max_results,
-        sort_by=arxiv.SortCriterion.SubmittedDate,
+        sort_by=arxiv.SortCriterion.Relevance,
         sort_order=arxiv.SortOrder.Descending
     )
     for result in client.results(search):
@@ -141,23 +136,18 @@ def search_arxiv_with_lib(query: str, max_results: int = 20) -> list:
 
 
 def generate_paper_summary(paper: dict, category: str) -> str:
-    """Generate improved markdown summary for a paper"""
+    """Generate markdown summary for a paper"""
     title = paper.get('title', 'Unknown Title')
     authors = ', '.join(paper.get('authors', ['Unknown']))
     arxiv_url = paper.get('arxiv_url', '#')
     arxiv_id = paper.get('arxiv_id', '')
-    pdf_url = paper.get('pdf_url', '')
     published = paper.get('published', '')
     year = published[:4] if published else str(extract_year_from_arxiv_id(arxiv_id))
 
-    # Generate one-sentence summary
     summary = paper.get('summary', '')[:800]
     one_sentence = summary.split('.')[0] + '.' if '.' in summary else summary[:200] + '...'
 
-    # Extract key methods
-    summary_text = summary[:500]
-
-    md = f"""# {title}
+    return f"""# {title}
 
 **作者**: {authors}
 
@@ -178,7 +168,7 @@ def generate_paper_summary(paper: dict, category: str) -> str:
 ### 📖 方法论
 
 #### 核心思想
-{summary_text}
+{summary[:500]}
 
 ---
 
@@ -210,19 +200,17 @@ def generate_paper_summary(paper: dict, category: str) -> str:
 - 分类: `{"核心领域" if category == "core" else "相关领域"}`
 - arXiv ID: {arxiv_id}
 """
-    return md
 
 
-def save_paper(paper: dict, output_dir: str, category: str) -> str:
-    """Save paper summary to file"""
+def save_paper(paper: dict, output_dir: str, category: str) -> tuple:
+    """Save paper summary to file, returns (filepath, safe_title)"""
     published = paper.get('published', '')
     year = published[:4] if published else str(extract_year_from_arxiv_id(paper.get('arxiv_id', '')))
     year_dir = os.path.join(output_dir, year, category)
     os.makedirs(year_dir, exist_ok=True)
 
     title = paper.get('title', 'unknown')
-    safe_title = re.sub(r'[^\w\s-]', '', title)
-    safe_title = re.sub(r'\s+', '-', safe_title)[:50]
+    safe_title = safe_filename(title)
     filename = f"{safe_title}.md"
 
     filepath = os.path.join(year_dir, filename)
@@ -235,7 +223,7 @@ def save_paper(paper: dict, output_dir: str, category: str) -> str:
     content = generate_paper_summary(paper, category)
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(content)
-    return filepath
+    return filepath, safe_title
 
 
 def send_feishu_notification(new_papers: list, webhook_url: str):
@@ -243,11 +231,9 @@ def send_feishu_notification(new_papers: list, webhook_url: str):
     if not new_papers or not webhook_url:
         return
 
-    # Prepare paper list for Feishu
     paper_list = []
-    for paper in new_papers[:10]:  # Max 10 papers per notification
+    for paper in new_papers[:10]:
         title = paper.get('title', 'Unknown')[:40]
-        arxiv_id = paper.get('arxiv_id', '')
         url = paper.get('arxiv_url', '#')
         paper_list.append(f"- [{title}...]({url})")
 
@@ -259,6 +245,7 @@ def send_feishu_notification(new_papers: list, webhook_url: str):
 
 ---
 🤖 由 GitHub Actions 自动推送"""
+
     if len(new_papers) > 10:
         content += f"\n\n_还有 {len(new_papers) - 10} 篇论文..."
 
@@ -277,17 +264,16 @@ def send_feishu_notification(new_papers: list, webhook_url: str):
 
 
 def get_existing_papers(papers_dir: str) -> set:
-    """Get set of existing paper arxiv IDs to avoid duplicates"""
+    """Get set of existing paper arxiv IDs"""
     existing = set()
     if os.path.exists(papers_dir):
         for root, dirs, files in os.walk(papers_dir):
             for file in files:
-                if file.endswith('.md') and file != 'README.md':
+                if file.endswith('.md'):
                     filepath = os.path.join(root, file)
                     try:
                         with open(filepath, 'r', encoding='utf-8') as f:
                             content = f.read()
-                            # Extract arxiv ID from file content
                             match = re.search(r'arXiv ID: (\S+)', content)
                             if match:
                                 existing.add(match.group(1))
@@ -297,38 +283,43 @@ def get_existing_papers(papers_dir: str) -> set:
 
 
 def generate_readme(output_dir: str, papers: list):
-    """Generate improved README with table"""
-    # Group by year and category
+    """Generate README with proper table linking to paper files"""
+
+    # Group papers by year
     by_year = {}
     for paper in papers:
         published = paper.get('published', '')
         year = published[:4] if published else 'unknown'
         if year not in by_year:
-            by_year[year] = {'core': [], 'related': []}
-        category = paper.get('search_category', 'related')
-        by_year[year][category].append(paper)
+            by_year[year] = []
+        by_year[year].append(paper)
 
-    # Build table content
+    # Build table rows
     table_rows = []
     for year in sorted(by_year.keys(), reverse=True):
-        for category in ['core', 'related']:
-            papers_in_cat = by_year[year][category]
-            if not papers_in_cat:
-                continue
-            category_label = '🔥 核心' if category == 'core' else '📎 相关'
-            for paper in sorted(papers_in_cat, key=lambda x: x.get('title', '')):
-                title = paper.get('title', 'Unknown')[:45]
-                arxiv_url = paper.get('arxiv_url', '#')
-                arxiv_id = paper.get('arxiv_id', '')
-                authors = paper.get('authors', [])[:2]
-                authors_str = ', '.join(authors) + ('+' if len(paper.get('authors', [])) > 2 else '')
+        for paper in sorted(by_year[year], key=lambda x: x.get('title', '')):
+            title = paper.get('title', 'Unknown')[:50]
+            arxiv_url = paper.get('arxiv_url', '#')
+            authors = paper.get('authors', [])[:2]
+            authors_str = ', '.join(authors)
+            if len(paper.get('authors', [])) > 2:
+                authors_str += '+'
+            category = paper.get('search_category', 'related')
+            cat_icon = '🔥' if category == 'core' else '📎'
 
-                # Find the file path
-                safe_title = re.sub(r'[^\w\s-]', '', paper.get('title', 'unknown'))
-                safe_title = re.sub(r'\s+', '-', safe_title)[:50]
-                md_file = f"papers/{year}/{category}/{safe_title}.md"
+            # Build link to the actual paper file
+            safe_title = safe_filename(paper.get('title', 'unknown'))
+            md_file = f"papers/{year}/{category}/{safe_title}.md"
 
-                table_rows.append(f"| {year} | [{title}]({md_file}) | {authors_str} | {category_label} |")
+            # Check if file exists with different counter
+            base_path = os.path.join(output_dir, year, category, safe_title)
+            if not os.path.exists(base_path + '.md'):
+                for i in range(1, 10):
+                    if os.path.exists(f"{base_path}-{i}.md"):
+                        md_file = f"papers/{year}/{category}/{safe_title}-{i}.md"
+                        break
+
+            table_rows.append(f"| {year} | [{title}]({md_file}) | {authors_str} | {cat_icon} |")
 
     # Generate README
     readme = f"""# 📚 视频 CNN 可解释性论文库
@@ -400,6 +391,7 @@ video-cnn-interpretability/
 
 仅供学术研究使用
 """
+
     index_path = os.path.join(output_dir, '..', 'README.md')
     with open(index_path, 'w', encoding='utf-8') as f:
         f.write(readme)
@@ -420,18 +412,18 @@ def main():
     config = load_config(str(config_path))
     feishu_config = load_feishu_config(str(feishu_config_path))
     queries = config.get('search_queries', {})
-    max_results = config.get('max_results_per_query', 20)
+    max_results = config.get('max_results_per_query', 30)
 
     all_papers = []
 
-    # Search core queries
+    # Search core queries - use relevance sorting
     print("\n[核心领域搜索]")
     for query in queries.get('core', []):
         print(f"\nSearching: {query}")
         if USE_ARXIV_LIB:
             papers = search_arxiv_with_lib(query, max_results)
         else:
-            papers = search_arxiv_manual(query, max_results)
+            papers = search_arxiv_manual(query, max_results, 'relevance')
         print(f"  Found {len(papers)} papers")
         for paper in papers:
             paper['search_category'] = 'core'
@@ -445,7 +437,7 @@ def main():
         if USE_ARXIV_LIB:
             papers = search_arxiv_with_lib(query, max_results)
         else:
-            papers = search_arxiv_manual(query, max_results)
+            papers = search_arxiv_manual(query, max_results, 'relevance')
         print(f"  Found {len(papers)} papers")
         for paper in papers:
             paper['search_category'] = 'related'
@@ -461,26 +453,37 @@ def main():
             seen_ids.add(paper_id)
             unique_papers.append(paper)
 
-    print(f"\n总计找到 {len(unique_papers)} 篇不重复论文")
+    # Filter to only keep papers from 2021-2026
+    current_year = 2021
+    max_year = 2026
+    filtered_papers = []
+    for paper in unique_papers:
+        published = paper.get('published', '')
+        year = int(published[:4]) if published else extract_year_from_arxiv_id(paper.get('arxiv_id', ''))
+        if current_year <= year <= max_year:
+            filtered_papers.append(paper)
+
+    unique_papers = filtered_papers
+    print(f"\n总计找到 {len(unique_papers)} 篇不重复论文 (2021-{max_year})")
 
     # Check for existing papers
     existing_ids = get_existing_papers(str(output_dir))
     new_papers = [p for p in unique_papers if p.get('arxiv_id') not in existing_ids]
     print(f"新增论文: {len(new_papers)} 篇")
 
-    # Save new papers
+    # Save all papers (to update with latest template)
     print("\n[保存论文]")
     saved_files = []
     for paper in unique_papers:
         category = paper.get('search_category', 'related')
-        filepath = save_paper(paper, str(output_dir), category)
+        filepath, safe_title = save_paper(paper, str(output_dir), category)
         saved_files.append(filepath)
 
     # Update README
     print("\n[更新 README]")
     generate_readme(str(output_dir), unique_papers)
 
-    # Send Feishu notification for new papers
+    # Send Feishu notification
     if new_papers and feishu_config.get('enabled'):
         print("\n[发送飞书通知]")
         send_feishu_notification(new_papers, feishu_config.get('feishu_webhook', ''))

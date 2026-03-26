@@ -1,0 +1,52 @@
+# Evaluating the Stability of Semantic Concept Representations in CNNs for Robust Explainability
+
+**作者**: Georgii Mikriukov, Gesina Schwalbe, Christian Hellert, Korinna Bade
+
+**发表信息**: arXiv · 2023
+
+**论文链接**: [arXiv:2304.14864v1](http://arxiv.org/abs/2304.14864v1)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> Analysis of how semantic concepts are represented within Convolutional Neural Networks (CNNs) is a widely used approach in Explainable Artificial Intelligence (XAI) for interpreting CNNs.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+Analysis of how semantic concepts are represented within Convolutional Neural Networks (CNNs) is a widely used approach in Explainable Artificial Intelligence (XAI) for interpreting CNNs. A motivation is the need for transparency in safety-critical AI-based systems, as mandated in various domains like automated driving. However, to use the concept representations for safety-relevant purposes, like inspection or error retrieval, these must be of high quality and, in particular, stable. This paper
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-26
+- 分类: `相关领域`
+- arXiv ID: 2304.14864v1

@@ -1,0 +1,52 @@
+# Forgetting Transformer: Softmax Attention with a Forget Gate
+
+**作者**: Zhixuan Lin, Evgenii Nikishin, Xu Owen He, Aaron Courville
+
+**发表信息**: arXiv · 2025
+
+**论文链接**: [arXiv:2503.02130v2](http://arxiv.org/abs/2503.02130v2)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> An essential component of modern recurrent sequence models is the forget gate.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+An essential component of modern recurrent sequence models is the forget gate. While Transformers do not have an explicit recurrent form, we show that a forget gate can be naturally incorporated into Transformers by down-weighting the unnormalized attention scores in a data-dependent way. We name this attention mechanism Forgetting Attention and the resulting model the Forgetting Transformer (FoX). We show that FoX outperforms the Transformer on long-context language modeling, length extrapolati
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-26
+- 分类: `相关领域`
+- arXiv ID: 2503.02130v2

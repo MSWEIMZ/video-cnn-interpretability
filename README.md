@@ -1,91 +1,297 @@
-# 视频 CNN 可解释性论文索引
+# 📚 视频 CNN 可解释性论文库
 
-*最后更新: 2026-03-26 15:00:05*
+> 自动化论文搜索与整理系统 | 专注于 3DCNN、R(2+1)D 模型及可解释性研究
 
-总计: 82 篇论文
+[![GitHub Actions](https://github.com/MSWEIMZ/video-cnn-interpretability/actions/workflows/arxiv_search.yml/badge.svg)](https://github.com/MSWEIMZ/video-cnn-interpretability/actions)
 
-## 2026
+## 📊 论文统计
 
-- **[A Modular Platooning and Vehicle Coordination Simulator for Research and Education](http://arxiv.org/abs/2603.24540v1)** - Kevin Jamsahar, Adrian Wiltz, Maria Charitidou et al. `[core]`
-- **[A Sociolinguistic Analysis of Automatic Speech Recognition Bias in Newcastle English](http://arxiv.org/abs/2603.24549v1)** - Dana Serditova, Kevin Tang `[core]`
-- **[A generalization of the Froissart-Stora formula to piecewise-linear spin-orbit resonance crossings](http://arxiv.org/abs/2603.24510v1)** - Joseph P. Devlin, Georg H. Hoffstaetter, Desmond P. Barber et al. `[related]`
-- **[A visual introduction to curved geometry for physicists](http://arxiv.org/abs/2603.24409v1)** - Karol Urbański `[core]`
-- **[AVO: Agentic Variation Operators for Autonomous Evolutionary Search](http://arxiv.org/abs/2603.24517v1)** - Terry Chen, Zhifan Ye, Bing Xu et al. `[related]`
-- **[Anti-I2V: Safeguarding your photos from malicious image-to-video generation](http://arxiv.org/abs/2603.24570v1)** - Duc Vu, Anh Nguyen, Chi Tran et al. `[core]`
-- **[Basic Canonical Brackets and Nilpotency Property of Noether (anti-)BRST Charges: Non-Abeian 1-Form Gauge Theory](http://arxiv.org/abs/2603.24514v1)** - R. P. Malik `[related]`
-- **[CUA-Suite: Massive Human-annotated Video Demonstrations for Computer-Use Agents](http://arxiv.org/abs/2603.24440v1)** - Xiangru Jian, Shravan Nayak, Kevin Qinghong Lin et al. `[core]`
-- **[Cascading Failures and Critical Infrastructures in Future Renewable European Power Systems](http://arxiv.org/abs/2603.24529v1)** - Maurizio Titz, Franz Kaiser, Johannes Kruse et al. `[related]`
-- **[Chameleon: Episodic Memory for Long-Horizon Robotic Manipulation](http://arxiv.org/abs/2603.24576v1)** - Xinying Guo, Chenxi Jiang, Hyun Bin Kim et al. `[core]`
-- **[Chiral Epitaxy: Enantioselective Growth of Chiral Nanowires on Low-Symmetry Two-Dimensional Materials](http://arxiv.org/abs/2603.24565v1)** - Noya Ruth Itzhak, Kate Reidy, Maya Levy-Greenberg et al. `[core]`
-- **[CliPPER: Contextual Video-Language Pretraining on Long-form Intraoperative Surgical Procedures for Event Recognition](http://arxiv.org/abs/2603.24539v1)** - Florian Stilz, Vinkle Srivastav, Nassir Navab et al. `[core]`
-- **[Comparing Developer and LLM Biases in Code Evaluation](http://arxiv.org/abs/2603.24586v1)** - Aditya Mittal, Ryan Shar, Zichu Wu et al. `[core]`
-- **[Completeness of Unbounded Best-First Minimax and Descent Minimax](http://arxiv.org/abs/2603.24572v1)** - Quentin Cohen-Solal `[related]`
-- **[Continuous-Time Learning of Probability Distributions: A Case Study in a Digital Trial of Young Children with Type 1 Diabetes](http://arxiv.org/abs/2603.24427v1)** - Antonio Álvarez-López, Marcos Matabuena `[related]`
-- **[Controlled antivortex propagation at bifurcations in reconfigurable NdCo/NiFe racetracks](http://arxiv.org/abs/2603.24520v1)** - V. V. Fernandez, A. E. Herguedas-Alonso, C. Fernandez-Gonzalez et al. `[related]`
-- **[Coordinating Spot and Contract Supply in Freight Marketplaces](http://arxiv.org/abs/2603.24574v1)** - Philip Kaminsky, Rachitesh Kumar, Roger Lederman et al. `[core]`
-- **[Cross-Modal Prototype Alignment and Mixing for Training-Free Few-Shot Classification](http://arxiv.org/abs/2603.24528v1)** - Dipam Goswami, Simone Magistri, Gido M. van de Ven et al. `[related]`
-- **[Derivation of the injection spectrum of positrons and electrons from Geminga and Monogem](http://arxiv.org/abs/2603.24394v1)** - Qian Zhong `[related]`
-- **[Detection of local geometry in random graphs: information-theoretic and computational limits](http://arxiv.org/abs/2603.24545v1)** - Jinho Bok, Shuangping Li, Sophie H. Yu et al. `[related]`
-- **[DreamerAD: Efficient Reinforcement Learning via Latent World Model for Autonomous Driving](http://arxiv.org/abs/2603.24587v1)** - Pengxuan Yang, Yupeng Zheng, Deheng Qian et al. `[core]`
-- **[Dynamical Systems in Cosmology: Reviewing An Alternative Approach](http://arxiv.org/abs/2603.24568v1)** - Nandan Roy, L. Arturo Ureña-López `[related]`
-- **[E-values as statistical evidence: A comparison to Bayes factors, likelihoods, and p-values](http://arxiv.org/abs/2603.24421v1)** - Ben Chugg, Aaditya Ramdas, Peter Grünwald et al. `[related]`
-- **[EndoVGGT: GNN-Enhanced Depth Estimation for Surgical 3D Reconstruction](http://arxiv.org/abs/2603.24577v1)** - Falong Fan, Yi Xie, Arnis Lektauers et al. `[core]`
-- **[Enes Causal Discovery](http://arxiv.org/abs/2603.24436v1)** - Alexis Kafantaris `[core]`
-- **[Evaluating Chunking Strategies For Retrieval-Augmented Generation in Oil and Gas Enterprise Documents](http://arxiv.org/abs/2603.24556v1)** - Samuel Taiwo, Mohd Amaluddin Yusoff `[related]`
-- **[Fine-tuning universal machine learning potentials for transition state search in surface catalysis](http://arxiv.org/abs/2603.24482v1)** - Raffaele Cheula, Mie Andersen, John R. Kitchin et al. `[core]`
-- **[Flagging the Clifford hierarchy:~Fault-tolerant logical $\fracπ{2^l}$ rotations via measuring circuit gauge operators of non-Cliffords](http://arxiv.org/abs/2603.24573v1)** - Shival Dasu, Ben Criger `[core]`
-- **[From Liar Paradox to Incongruent Sets: A Normal Form for Self-Reference](http://arxiv.org/abs/2603.24527v1)** - Shalender Singh, Vishnu Priya Singh Parmar `[related]`
-- **[Generalized and Scalable Deep Gaussian Process Emulation](http://arxiv.org/abs/2603.24538v1)** - Deyu Ming, Daniel Williamson `[related]`
-- **[Infrastructure for Valuable, Tradable, and Verifiable Agent Memory](http://arxiv.org/abs/2603.24564v1)** - Mengyuan Li, Lei Gao, Haoxuan Xu et al. `[related]`
-- **[Integral Control Barrier Functions with Input Delay: Prediction, Feasibility, and Robustness](http://arxiv.org/abs/2603.24566v1)** - Adam K. Kiss, Ersin Das, Tamas G. Molnar et al. `[core]`
-- **[Integrating Causal Machine Learning into Clinical Decision Support Systems: Insights from Literature and Practice](http://arxiv.org/abs/2603.24448v1)** - Domenique Zipperling, Lukas Schmidt, Benedikt Hahn et al. `[related]`
-- **[JSSAnet: Theory-Guided Subchannel Partitioning and Joint Spatial Attention for Near-Field Channel Estimation](http://arxiv.org/abs/2603.24505v1)** - Zhiming Zhu, Shu Xu, Chunguo Li et al. `[core]`
-- **[Latent-WAM: Latent World Action Modeling for End-to-End Autonomous Driving](http://arxiv.org/abs/2603.24581v1)** - Linbo Wang, Yupeng Zheng, Qiang Chen et al. `[core]`
-- **[LensWalk: Agentic Video Understanding by Planning How You See in Videos](http://arxiv.org/abs/2603.24558v1)** - Keliang Li, Yansong Li, Hongze Shen et al. `[core]`
-- **[MARCH: Multi-Agent Reinforced Self-Check for LLM Hallucination](http://arxiv.org/abs/2603.24579v1)** - Zhuo Li, Yupeng Zhang, Pengyu Cheng et al. `[core]`
-- **[Mitigating Barren Plateaus via Domain Decomposition in Variational Quantum Algorithms for Nonlinear PDEs](http://arxiv.org/abs/2603.24523v1)** - Laila S. Busaleh, Jeonghyeuk Kwon, Orlane Zang et al. `[core]`
-- **[Model Predictive Path Integral Control as Preconditioned Gradient Descent](http://arxiv.org/abs/2603.24489v1)** - Mahyar Fazlyab, Sina Sharifi, Jiarui Wang et al. `[related]`
-- **[Models of 3D confluent tissue as under-constrained glasses](http://arxiv.org/abs/2603.24438v1)** - Chengling Li, Matthias Merkel, Daniel M. Sussman et al. `[core]`
-- **[MolEvolve: LLM-Guided Evolutionary Search for Interpretable Molecular Optimization](http://arxiv.org/abs/2603.24382v1)** - Xiangsen Chen, Ruilong Wu, Yanyan Lan et al. `[related]`
-- **[Multi-mission Investigation of X-ray Superorbital Modulation in the Supergiant High Mass X-ray Binary 4U 1538-52](http://arxiv.org/abs/2603.24561v1)** - H. I. Cohen, N. Islam, R. H. D. Corbet et al. `[core]`
-- **[Multiple Topological States in LaAgAs2, a Failed Square-Net Semimetal](http://arxiv.org/abs/2603.24513v1)** - Yang Liu, Tongrui Li, Xixi Yuan et al. `[core]`
-- **[Neural Network Models for Contextual Regression](http://arxiv.org/abs/2603.24400v1)** - Seksan Kiatsupaibul, Pakawan Chansiripas `[related]`
-- **[No Single Metric Tells the Whole Story: A Multi-Dimensional Evaluation Framework for Uncertainty Attributions](http://arxiv.org/abs/2603.24524v1)** - Emily Schiller, Teodor Chiaburu, Marco Zullich et al. `[core]`
-- **[OmniWeaving: Towards Unified Video Generation with Free-form Composition and Reasoning](http://arxiv.org/abs/2603.24458v1)** - Kaihang Pan, Qi Tian, Jianwei Zhang et al. `[core]`
-- **[Optimal Multidimensional Convolutional Codes](http://arxiv.org/abs/2603.24546v1)** - Z. Abreu, J. Lieb, R. Pinto et al. `[core]`
-- **[Orientation Reconstruction of Proteins using Coulomb Explosions](http://arxiv.org/abs/2603.24553v1)** - Tomas André, Alfredo Bellisario, Nicusor Timneanu et al. `[core]`
-- **[POLY-SIM: Polyglot Speaker Identification with Missing Modality Grand Challenge 2026 Evaluation Plan](http://arxiv.org/abs/2603.24569v1)** - Marta Moscati, Muhammad Saad Saeed, Marina Zanoni et al. `[core]`
-- **[Particle-Hole Pair Localization on the Fermi Surface and its Impact on the Correlation Energy](http://arxiv.org/abs/2603.24395v1)** - Niels Benedikter `[related]`
-- **[Plasmonic Mediated Atomically Engineered 2D Aluminium Quasicrystals for Dopamine Biosensing](http://arxiv.org/abs/2603.24390v1)** - Saswata Goswami, Guilherme S. L. Fabris, Diganta Mondal et al. `[related]`
-- **[Polynomial Speedup in Diffusion Models with the Multilevel Euler-Maruyama Method](http://arxiv.org/abs/2603.24594v1)** - Arthur Jacot `[core]`
-- **[Propagation of singularities and inverse problems for the viscoacoustic wave equation](http://arxiv.org/abs/2603.24497v1)** - Giovanni Covi, Maarten de Hoop, Mikko Salo et al. `[related]`
-- **[Pseudo-MDP Convolutional Codes for Burst Erasure Correction](http://arxiv.org/abs/2603.24516v1)** - Zita Abreu, Julia Lieb, Raquel Pinto et al. `[core]`
-- **[RKKY-dipolar Interactions and 3D Spin Supersolid on Stacked Triangular Lattice](http://arxiv.org/abs/2603.24446v1)** - Ning Xi, Xitong Xu, Guoliang Wu et al. `[core]`
-- **[Raman phonon dynamics and its control for enhanced optical frequency conversion](http://arxiv.org/abs/2603.24386v1)** - Yi-Hao Chen, Frank Wise `[related]`
-- **[Representation Learning to Study Temporal Dynamics in Tutorial Scaffolding](http://arxiv.org/abs/2603.24535v1)** - Conrad Borchers, Jiayi Zhang, Ashish Gurung et al. `[related]`
-- **[Retrieval Improvements Do Not Guarantee Better Answers: A Study of RAG for AI Policy QA](http://arxiv.org/abs/2603.24580v1)** - Saahil Mathur, Ryan David Rittner, Vedant Ajit Thakur et al. `[core]`
-- **[Robust Multilingual Text-to-Pictogram Mapping for Scalable Reading Rehabilitation](http://arxiv.org/abs/2603.24536v1)** - Soufiane Jhilal, Martina Galletti `[related]`
-- **[SEGAR: Selective Enhancement for Generative Augmented Reality](http://arxiv.org/abs/2603.24541v1)** - Fanjun Bu, Chenyang Yuan, Hiroshi Yasuda et al. `[core]`
-- **[Scaling Recurrence-aware Foundation Models for Clinical Records via Next-Visit Prediction](http://arxiv.org/abs/2603.24562v1)** - Haresh Rengaraj Rajamohan, Xiang Gao, Weicheng Zhu et al. `[core]`
-- **[Stable corrections for perturbed diagonally implicit Runge--Kutta methods](http://arxiv.org/abs/2603.24451v1)** - John Driscoll, Sigal Gottlieb, Zachary J. Grant et al. `[core]`
-- **[Study of Low-Frequency Core-Edge Coupling in a Tokamak: I. Experimental Observation in KSTAR](http://arxiv.org/abs/2603.24525v1)** - Wonjun Lee, Andreas Bierwage, Seungmin Bong et al. `[core]`
-- **[TAG: Target-Agnostic Guidance for Stable Object-Centric Inference in Vision-Language-Action Models](http://arxiv.org/abs/2603.24584v1)** - Jiaying Zhou, Zhihao Zhan, Ruifeng Zhai et al. `[core]`
-- **[The Free-Market Algorithm: Self-Organizing Optimization for Open-Ended Complex Systems](http://arxiv.org/abs/2603.24559v1)** - Martin Jaraiz `[core]`
-- **[The Gait Signature of Frailty: Transfer Learning based Deep Gait Models for Scalable Frailty Assessment](http://arxiv.org/abs/2603.24434v1)** - Laura McDaniel, Basudha Pal, Crystal Szczesny et al. `[related]`
-- **[The Stochastic Gap: A Markovian Framework for Pre-Deployment Reliability and Oversight-Cost Auditing in Agentic Artificial Intelligence](http://arxiv.org/abs/2603.24582v1)** - Biplab Pal, Santanu Bhattacharya `[core]`
-- **[The forgotten role of wave dynamics in modulating the low cloud response to warm pool warming](http://arxiv.org/abs/2603.24488v1)** - Cristian Proistosescu, Pappu Paul, Nicholas J. Lutsko et al. `[core]`
-- **[The role of spatial context and multitask learning in the detection of organic and conventional farming systems based on Sentinel-2 time series](http://arxiv.org/abs/2603.24552v1)** - Jan Hemmerling, Marcel Schwieder, Philippe Rufin et al. `[core]`
-- **[Toward Physically Consistent Driving Video World Models under Challenging Trajectories](http://arxiv.org/abs/2603.24506v1)** - Jiawei Zhou, Zhenxin Zhu, Lingyi Du et al. `[core]`
-- **[Towards Training-Free Scene Text Editing](http://arxiv.org/abs/2603.24571v1)** - Yubo Li, Xugong Qin, Peng Zhang et al. `[core]`
-- **[Trust Region Constrained Bayesian Optimization with Penalized Constraint Handling](http://arxiv.org/abs/2603.24567v1)** - Raju Chowdhury, Tanmay Sen, Prajamitra Bhuyan et al. `[core]`
-- **[Two-dimensional IR-Raman spectroscopy of vibrational polaritons: Role of dipole surfaces](http://arxiv.org/abs/2603.24521v1)** - Xinwei Ji, Tomislav Begusic, Tao E. Li et al. `[core]`
-- **[UI-Voyager: A Self-Evolving GUI Agent Learning via Failed Experience](http://arxiv.org/abs/2603.24533v1)** - Zichuan Lin, Feiyu Liu, Yijun Yang et al. `[related]`
-- **[Unleashing Vision-Language Semantics for Deepfake Video Detection](http://arxiv.org/abs/2603.24454v1)** - Jiawen Zhu, Yunqi Miao, Xueyi Zhang et al. `[core]`
-- **[Unlocking HST's Stellar Treasure Trove: Stellar Activity Minima for HAT-P-11 Offer Prime Windows for Transmission Spectroscopy](http://arxiv.org/abs/2603.24585v1)** - Prajwal Niraula, Benjamin V. Rackham, Julien de Wit et al. `[core]`
-- **[Using Educational Comics in Physics Teaching for Chemistry and Biochemistry Students: Impact on Motivation and Domain-Specific Conceptual Gains](http://arxiv.org/abs/2603.24498v1)** - Mauricio Echiburu, Camilo Henriquez, Rodrigo Valdés et al. `[core]`
-- **[VFIG: Vectorizing Complex Figures in SVG with Vision-Language Models](http://arxiv.org/abs/2603.24575v1)** - Qijia He, Xunmei Liu, Hammaad Memon et al. `[core]`
-- **[Vibe Coding XR: Accelerating AI + XR Prototyping with XR Blocks and Gemini](http://arxiv.org/abs/2603.24591v1)** - Ruofei Du, Benjamin Hersh, David Li et al. `[core]`
-- **[Video-Only ToM: Enhancing Theory of Mind in Multimodal Large Language Models](http://arxiv.org/abs/2603.24484v1)** - Siqi Liu, Xinyang Li, Bochao Zou et al. `[core]`
-- **[Vision-Language Models vs Human: Perceptual Image Quality Assessment](http://arxiv.org/abs/2603.24578v1)** - Imran Mehmood, Imad Ali Shah, Ming Ronnier Luo et al. `[core]`
-- **[YingMusic-Singer: Controllable Singing Voice Synthesis with Flexible Lyric Manipulation and Annotation-free Melody Guidance](http://arxiv.org/abs/2603.24589v1)** - Chunbo Hao, Junjie Zheng, Guobin Ma et al. `[related]`
+- **总计**: 230 篇论文
+- **最后更新**: 2026-03-26 16:10:52
 
+## 🔍 搜索领域
+
+### 核心领域
+- R(2+1)D video classification interpretability
+- 3D CNN video explainability
+- Spatiotemporal convolution video understanding
+
+### 相关领域
+- CNN interpretability explainability
+- Network dissection deep vision
+- Attention mechanism visualization
+
+---
+
+## 📋 论文列表
+
+| 年份 | 标题 | 作者 | 分类 |
+|------|------|------|------|
+| 2026 | [3D-RFT: Reinforcement Fine-Tuning for Video-based ](papers/2026/core/3D-RFT-Reinforcement-Fine-Tuning-for-Video-based-3.md) | Xiongkun Linghu, Jiangyong Huang+ | 🔥 |
+| 2026 | [Deep Search for Joint Sources of Gravitational Wav](papers/2026/core/Deep-Search-for-Joint-Sources-of-Gravitational-Wav.md) |  The IceCube Collaboration, R. Abbasi+ | 🔥 |
+| 2026 | [Fast Multirate Encoding for 360° Video in OMAF Str](papers/2026/related/Fast-Multirate-Encoding-for-360-Video-in-OMAF-Stre.md) | Amritha Premkumar, Christian Herglotz | 📎 |
+| 2026 | [Gated Sparse Attention: Combining Computational Ef](papers/2026/related/Gated-Sparse-Attention-Combining-Computational-Eff.md) | Alfred Shen, Aaron Shen | 📎 |
+| 2026 | [Midterm Status Report of the ILC Technology Networ](papers/2026/related/Midterm-Status-Report-of-the-ILC-Technology-Networ.md) | ILC Technology Network | 📎 |
+| 2026 | [Search for lepton-number-violating $B^-\to D^{(*)+](papers/2026/core/Search-for-lepton-number-violating-B-to-Dμ-μ--deca.md) |  LHCb collaboration, R. Aaij+ | 🔥 |
+| 2026 | [Video Understanding: From Geometry and Semantics t](papers/2026/core/Video-Understanding-From-Geometry-and-Semantics-to.md) | Zhaochong An, Zirui Li+ | 🔥 |
+| 2025 | [A Framework Combining 3D CNN and Transformer for V](papers/2025/core/A-Framework-Combining-3D-CNN-and-Transformer-for-V.md) | Xiuliang Zhang, Tadiwa Elisha Nyamasvisva+ | 🔥 |
+| 2025 | [A Hybrid Fully Convolutional CNN-Transformer Model](papers/2025/related/A-Hybrid-Fully-Convolutional-CNN-Transformer-Model.md) | Kerol Djoumessi, Samuel Ofosu Mensah+ | 📎 |
+| 2025 | [AceVFI: A Comprehensive Survey of Advances in Vide](papers/2025/core/AceVFI-A-Comprehensive-Survey-of-Advances-in-Video.md) | Dahyeon Kye, Changhyun Roh+ | 🔥 |
+| 2025 | [An Active Inference Model of Covert and Overt Visu](papers/2025/related/An-Active-Inference-Model-of-Covert-and-Overt-Visu.md) | Tin Mišić, Karlo Koledić+ | 📎 |
+| 2025 | [Anchoring and Alignment: Data Factors in Part-to-W](papers/2025/related/Anchoring-and-Alignment-Data-Factors-in-Part-to-Wh.md) | Connor Bailey, Michael Gleicher | 📎 |
+| 2025 | [Attention Debiasing for Token Pruning in Vision La](papers/2025/related/Attention-Debiasing-for-Token-Pruning-in-Vision-La.md) | Kai Zhao, Wubang Yuan+ | 📎 |
+| 2025 | [Beyond the ATE: Interpretable Modelling of Treatme](papers/2025/related/Beyond-the-ATE-Interpretable-Modelling-of-Treatmen.md) | Julianna Piskorz, Krzysztof Kacprzyk+ | 📎 |
+| 2025 | [Charts-of-Thought: Enhancing LLM Visualization Lit](papers/2025/related/Charts-of-Thought-Enhancing-LLM-Visualization-Lite.md) | Amit Kumar Das, Mohammad Tarun+ | 📎 |
+| 2025 | [CoS: Chain-of-Shot Prompting for Long Video Unders](papers/2025/core/CoS-Chain-of-Shot-Prompting-for-Long-Video-Underst.md) | Jian Hu, Zixu Cheng+ | 🔥 |
+| 2025 | [CompressedVQA-HDR: Generalized Full-reference and ](papers/2025/related/CompressedVQA-HDR-Generalized-Full-reference-and-N.md) | Wei Sun, Linhan Cao+ | 📎 |
+| 2025 | [DUNE Software and Computing Research and Developme](papers/2025/core/DUNE-Software-and-Computing-Research-and-Developme.md) |  DUNE Collaboration, A. Abed Abud+ | 🔥 |
+| 2025 | [Do You "Trust" This Visualization? An Inventory to](papers/2025/related/Do-You-Trust-This-Visualization-An-Inventory-to-Me.md) | Huichen Will Wang, Kylie Lin+ | 📎 |
+| 2025 | [Enhancing Explainability with Multimodal Context R](papers/2025/related/Enhancing-Explainability-with-Multimodal-Context-R.md) | Anargh Viswanath, Lokesh Veeramacheneni+ | 📎 |
+| 2025 | [Enhancing Video Understanding: Deep Neural Network](papers/2025/core/Enhancing-Video-Understanding-Deep-Neural-Networks.md) | Amir Hosein Fadaei, Mohammad-Reza A. Dehaqani | 🔥 |
+| 2025 | [European Contributions to Fermilab Accelerator Upg](papers/2025/core/European-Contributions-to-Fermilab-Accelerator-Upg.md) |  DUNE Collaboration, A. Abed Abud+ | 🔥 |
+| 2025 | [Evidence for $B^-\rightarrow D^{**0}τ^-\overline{ν](papers/2025/core/Evidence-for-B-rightarrow-D0τ-overlineν_τ-decays.md) |  LHCb collaboration, R. Aaij+ | 🔥 |
+| 2025 | [Explainable Information Retrieval in the Audit Dom](papers/2025/related/Explainable-Information-Retrieval-in-the-Audit-Dom.md) | Alexander Frummet, Emanuel Slany+ | 📎 |
+| 2025 | [Forgetting Transformer: Softmax Attention with a F](papers/2025/related/Forgetting-Transformer-Softmax-Attention-with-a-Fo.md) | Zhixuan Lin, Evgenii Nikishin+ | 📎 |
+| 2025 | [Generalized Regularized Evidential Deep Learning M](papers/2025/related/Generalized-Regularized-Evidential-Deep-Learning-M.md) | Deep Shankar Pandey, Hyomin Choi+ | 📎 |
+| 2025 | [Group Equivariance Meets Mechanistic Interpretabil](papers/2025/related/Group-Equivariance-Meets-Mechanistic-Interpretabil.md) | Ege Erdogan, Ana Lucic | 📎 |
+| 2025 | [Harnessing Synthetic Preference Data for Enhancing](papers/2025/core/Harnessing-Synthetic-Preference-Data-for-Enhancing.md) | Sameep Vani, Shreyas Jena+ | 🔥 |
+| 2025 | [How Much 3D Do Video Foundation Models Encode?](papers/2025/core/How-Much-3D-Do-Video-Foundation-Models-Encode.md) | Zixuan Huang, Xiang Li+ | 🔥 |
+| 2025 | [Interpreting Large Text-to-Image Diffusion Models ](papers/2025/related/Interpreting-Large-Text-to-Image-Diffusion-Models.md) | Stepan Shabalin, Ayush Panda+ | 📎 |
+| 2025 | [Learning Interpretable Features in Audio Latent Sp](papers/2025/related/Learning-Interpretable-Features-in-Audio-Latent-Sp.md) | Nathan Paek, Yongyi Zang+ | 📎 |
+| 2025 | [MT-Video-Bench: A Holistic Video Understanding Ben](papers/2025/core/MT-Video-Bench-A-Holistic-Video-Understanding-Benc.md) | Yaning Pan, Qianqian Xie+ | 🔥 |
+| 2025 | [Measurement of $C\!P$ asymmetry in $D^0 \to K^0_{\](papers/2025/core/Measurement-of-CP-asymmetry-in-D0-to-K0_rm-S-K0_rm.md) |  LHCb collaboration, R. Aaij+ | 🔥 |
+| 2025 | [MisVisFix: An Interactive Dashboard for Detecting,](papers/2025/related/MisVisFix-An-Interactive-Dashboard-for-Detecting-E.md) | Amit Kumar Das, Klaus Mueller | 📎 |
+| 2025 | [ObjFiller-3D: Consistent Multi-view 3D Inpainting ](papers/2025/core/ObjFiller-3D-Consistent-Multi-view-3D-Inpainting-v.md) | Haitang Feng, Jie Liu+ | 🔥 |
+| 2025 | [Observation of $B_c^+ \to D h^+ h^-$ decays](papers/2025/core/Observation-of-B_c-to-D-h-h--decays.md) |  LHCb collaboration, R. Aaij+ | 🔥 |
+| 2025 | [OmniVCus: Feedforward Subject-driven Video Customi](papers/2025/related/OmniVCus-Feedforward-Subject-driven-Video-Customiz.md) | Yuanhao Cai, He Zhang+ | 📎 |
+| 2025 | [Predicting concentration levels of air pollutants ](papers/2025/core/Predicting-concentration-levels-of-air-pollutants.md) | Iat Hang Fong, Tengyue Li+ | 🔥 |
+| 2025 | [Preliminary Quantitative Study on Explainability a](papers/2025/related/Preliminary-Quantitative-Study-on-Explainability-a.md) | Allen Daniel Sunny | 📎 |
+| 2025 | [Prisma: An Open Source Toolkit for Mechanistic Int](papers/2025/related/Prisma-An-Open-Source-Toolkit-for-Mechanistic-Inte.md) | Sonia Joseph, Praneet Suresh+ | 📎 |
+| 2025 | [Progressive Growing of Video Tokenizers for Tempor](papers/2025/core/Progressive-Growing-of-Video-Tokenizers-for-Tempor.md) | Aniruddha Mahapatra, Long Mai+ | 🔥 |
+| 2025 | [Puzzles: Unbounded Video-Depth Augmentation for Sc](papers/2025/core/Puzzles-Unbounded-Video-Depth-Augmentation-for-Sca.md) | Jiahao Ma, Lei Wang+ | 🔥 |
+| 2025 | [Reangle-A-Video: 4D Video Generation as Video-to-V](papers/2025/related/Reangle-A-Video-4D-Video-Generation-as-Video-to-Vi.md) | Hyeonho Jeong, Suhyeon Lee+ | 📎 |
+| 2025 | [Reframing Pattern: A Comprehensive Approach to a C](papers/2025/related/Reframing-Pattern-A-Comprehensive-Approach-to-a-Co.md) | Tingying He, Jason Dykes+ | 📎 |
+| 2025 | [SAM 3D: 3Dfy Anything in Images](papers/2025/core/SAM-3D-3Dfy-Anything-in-Images.md) |  SAM 3D Team, Xingyu Chen+ | 🔥 |
+| 2025 | [S^2VG: 3D Stereoscopic and Spatial Video Generatio](papers/2025/core/S2VG-3D-Stereoscopic-and-Spatial-Video-Generation.md) | Peng Dai, Feitong Tan+ | 🔥 |
+| 2025 | [Scalable Event-Based Video Streaming for Machines ](papers/2025/core/Scalable-Event-Based-Video-Streaming-for-Machines.md) | Andrew C. Freeman | 🔥 |
+| 2025 | [Search for charge-parity violation in semileptonic](papers/2025/core/Search-for-charge-parity-violation-in-semileptonic.md) |  LHCb collaboration, R. Aaij+ | 🔥 |
+| 2025 | [Study of charm mixing and CP violation with $D^0\t](papers/2025/core/Study-of-charm-mixing-and-CP-violation-with-D0to-K.md) |  LHCb collaboration, R. Aaij+ | 🔥 |
+| 2025 | [Tell Me Without Telling Me: Two-Way Prediction of ](papers/2025/related/Tell-Me-Without-Telling-Me-Two-Way-Prediction-of-V.md) | Minsuk Chang, Yao Wang+ | 📎 |
+| 2025 | [The DUNE Phase II Detectors](papers/2025/core/The-DUNE-Phase-II-Detectors.md) |  DUNE Collaboration, A. Abed Abud+ | 🔥 |
+| 2025 | [The DUNE Science Program](papers/2025/core/The-DUNE-Science-Program.md) |  DUNE Collaboration, A. Abed Abud+ | 🔥 |
+| 2025 | [The Road Less Traveled: Investigating Robustness a](papers/2025/related/The-Road-Less-Traveled-Investigating-Robustness-an.md) | Matteo Brosolo, Vinod Puthuvath+ | 📎 |
+| 2025 | [The Temporal Trap: Entanglement in Pre-Trained Vis](papers/2025/related/The-Temporal-Trap-Entanglement-in-Pre-Trained-Visu.md) | Nikolaos Tsagkas, Andreas Sochopoulos+ | 📎 |
+| 2025 | [TinyLLaVA-Video: Towards Smaller LMMs for Video Un](papers/2025/core/TinyLLaVA-Video-Towards-Smaller-LMMs-for-Video-Und.md) | Xingjian Zhang, Xi Weng+ | 🔥 |
+| 2025 | [Token Merging via Spatiotemporal Information Minin](papers/2025/core/Token-Merging-via-Spatiotemporal-Information-Minin.md) | Xixi Jiang, Chen Yang+ | 🔥 |
+| 2025 | [Towards Video Thinking Test: A Holistic Benchmark ](papers/2025/core/Towards-Video-Thinking-Test-A-Holistic-Benchmark-f.md) | Yuanhan Zhang, Yunice Chew+ | 🔥 |
+| 2025 | [TraNCE: Transformative Non-linear Concept Explaine](papers/2025/related/TraNCE-Transformative-Non-linear-Concept-Explainer.md) | Ugochukwu Ejike Akpudo, Yongsheng Gao+ | 📎 |
+| 2025 | [TransVFC: A Transformable Video Feature Compressio](papers/2025/related/TransVFC-A-Transformable-Video-Feature-Compression.md) | Yuxiao Sun, Yao Zhao+ | 📎 |
+| 2025 | [Transfer Learning from Visual Speech Recognition t](papers/2025/core/Transfer-Learning-from-Visual-Speech-Recognition-t.md) | Dinh Nam Pham, Eleftherios Avramidis | 🔥 |
+| 2025 | [Transform Trained Transformer: Accelerating Naive ](papers/2025/related/Transform-Trained-Transformer-Accelerating-Naive-4.md) | Jiangning Zhang, Junwei Zhu+ | 📎 |
+| 2025 | [Unified Video Action Model](papers/2025/core/Unified-Video-Action-Model.md) | Shuang Li, Yihuai Gao+ | 🔥 |
+| 2025 | [VL-KnG: Persistent Spatiotemporal Knowledge Graphs](papers/2025/core/VL-KnG-Persistent-Spatiotemporal-Knowledge-Graphs.md) | Mohamad Al Mdfaa, Svetlana Lukina+ | 🔥 |
+| 2025 | [Video-As-Prompt: Unified Semantic Control for Vide](papers/2025/related/Video-As-Prompt-Unified-Semantic-Control-for-Video.md) | Yuxuan Bian, Xin Chen+ | 📎 |
+| 2025 | [Video-CoT: A Comprehensive Dataset for Spatiotempo](papers/2025/core/Video-CoT-A-Comprehensive-Dataset-for-Spatiotempor.md) | Shuyi Zhang, Xiaoshuai Hao+ | 🔥 |
+| 2025 | [nnterp: A Standardized Interface for Mechanistic I](papers/2025/related/nnterp-A-Standardized-Interface-for-Mechanistic-In.md) | Clément Dumas | 📎 |
+| 2024 | [2D bidirectional gated recurrent unit convolutiona](papers/2024/core/2D-bidirectional-gated-recurrent-unit-convolutiona.md) | Abdarahmane Traoré, Moulay A. Akhloufi | 🔥 |
+| 2024 | [Amplitude analysis and branching fraction measurem](papers/2024/core/Amplitude-analysis-and-branching-fraction-measurem.md) |  LHCb collaboration, R. Aaij+ | 🔥 |
+| 2024 | [An Empirical Study of Counterfactual Visualization](papers/2024/related/An-Empirical-Study-of-Counterfactual-Visualization.md) | Arran Zeyu Wang, David Borland+ | 📎 |
+| 2024 | [Attention Guided CAM: Visual Explanations of Visio](papers/2024/related/Attention-Guided-CAM-Visual-Explanations-of-Vision.md) | Saebom Leem, Hyunseok Seo | 📎 |
+| 2024 | [Benign Overfitting in Token Selection of Attention](papers/2024/related/Benign-Overfitting-in-Token-Selection-of-Attention.md) | Keitaro Sakamoto, Issei Sato | 📎 |
+| 2024 | [Beware of Validation by Eye: Visual Validation of ](papers/2024/related/Beware-of-Validation-by-Eye-Visual-Validation-of-L.md) | Daniel Braun, Remco Chang+ | 📎 |
+| 2024 | [Can VLMs be used on videos for action recognition?](papers/2024/core/Can-VLMs-be-used-on-videos-for-action-recognition.md) | Harsh Lunia | 🔥 |
+| 2024 | [Challenges in Mechanistically Interpreting Model R](papers/2024/related/Challenges-in-Mechanistically-Interpreting-Model-R.md) | Satvik Golechha, James Dao | 📎 |
+| 2024 | [Crafting Large Language Models for Enhanced Interp](papers/2024/related/Crafting-Large-Language-Models-for-Enhanced-Interp.md) | Chung-En Sun, Tuomas Oikarinen+ | 📎 |
+| 2024 | [DUNE Phase II: Scientific Opportunities, Detector ](papers/2024/core/DUNE-Phase-II-Scientific-Opportunities-Detector-Co.md) |  DUNE Collaboration, A. Abed Abud+ | 🔥 |
+| 2024 | [EmoFace: Audio-driven Emotional 3D Face Animation](papers/2024/core/EmoFace-Audio-driven-Emotional-3D-Face-Animation.md) | Chang Liu, Qunfen Lin+ | 🔥 |
+| 2024 | [Enhancing Temporal Consistency in Video Editing by](papers/2024/core/Enhancing-Temporal-Consistency-in-Video-Editing-by.md) | Inkyu Shin, Qihang Yu+ | 🔥 |
+| 2024 | [Explaining Chest X-ray Pathology Models using Text](papers/2024/related/Explaining-Chest-X-ray-Pathology-Models-using-Text.md) | Vijay Sadashivaiah, Pingkun Yan+ | 📎 |
+| 2024 | [First observation of $Λ_{b}^{0} \rightarrow Σ_c^{(](papers/2024/core/First-observation-of-Λ_b0-rightarrow-Σ_c-D--K--dec.md) |  LHCb collaboration, R. Aaij+ | 🔥 |
+| 2024 | [First observation of the $Λ^0_b \to D^+ D^- Λ$ dec](papers/2024/core/First-observation-of-the-Λ0_b-to-D-D--Λ-decay.md) |  LHCb collaboration, R. Aaij+ | 🔥 |
+| 2024 | [Hand Gesture Classification Based on Forearm Ultra](papers/2024/related/Hand-Gesture-Classification-Based-on-Forearm-Ultra.md) | Keshav Bimbraw, Ankit Talele+ | 📎 |
+| 2024 | [Hybrid deep learning-based strategy for the hepato](papers/2024/related/Hybrid-deep-learning-based-strategy-for-the-hepato.md) | Ajinkya Deshpande, Deep Gupta+ | 📎 |
+| 2024 | [In My Perspective, In My Hands: Accurate Egocentri](papers/2024/core/In-My-Perspective-In-My-Hands-Accurate-Egocentric.md) | Wiktor Mucha, Martin Kampel | 🔥 |
+| 2024 | [InternVideo2: Scaling Foundation Models for Multim](papers/2024/core/InternVideo2-Scaling-Foundation-Models-for-Multimo.md) | Yi Wang, Kunchang Li+ | 🔥 |
+| 2024 | [Interpretability in Action: Exploratory Analysis o](papers/2024/related/Interpretability-in-Action-Exploratory-Analysis-of.md) | Karolis Jucys, George Adamopoulos+ | 📎 |
+| 2024 | [Learning interpretable positional encodings in tra](papers/2024/related/Learning-interpretable-positional-encodings-in-tra.md) | Takuya Ito, Luca Cocchi+ | 📎 |
+| 2024 | [LongVU: Spatiotemporal Adaptive Compression for Lo](papers/2024/core/LongVU-Spatiotemporal-Adaptive-Compression-for-Lon.md) | Xiaoqian Shen, Yunyang Xiong+ | 🔥 |
+| 2024 | [Measurement of $CP$ violation in ${B^0}\rightarrow](papers/2024/core/Measurement-of-CP-violation-in-B0rightarrowDD--and.md) |  LHCb collaboration, R. Aaij+ | 🔥 |
+| 2024 | [Measurement of $C\!P$ violation observables in $D^](papers/2024/core/Measurement-of-CP-violation-observables-in-Drighta.md) |  LHCb collaboration, R. Aaij+ | 🔥 |
+| 2024 | [Measurement of $D^0-\overline{D}^0$ mixing and sea](papers/2024/core/Measurement-of-D0-overlineD0-mixing-and-search-for.md) |  LHCb collaboration, R. Aaij+ | 🔥 |
+| 2024 | [Measurement of the CKM angle $γ$ in $B^{\pm} \to D](papers/2024/core/Measurement-of-the-CKM-angle-γ-in-Bpm-to-D-K892pm.md) |  LHCb collaboration, R. Aaij+ | 🔥 |
+| 2024 | [Measurement of the branching fraction ratios $R(D^](papers/2024/core/Measurement-of-the-branching-fraction-ratios-RD-an.md) |  LHCb collaboration, R. Aaij+ | 🔥 |
+| 2024 | [Motion Free B-frame Coding for Neural Video Compre](papers/2024/core/Motion-Free-B-frame-Coding-for-Neural-Video-Compre.md) | Van Thang Nguyen | 🔥 |
+| 2024 | [Multi-Class Abnormality Classification Task in Vid](papers/2024/related/Multi-Class-Abnormality-Classification-Task-in-Vid.md) | Dev Rishi Verma, Vibhor Saxena+ | 📎 |
+| 2024 | [Observation of the open-charm tetraquark candidate](papers/2024/core/Observation-of-the-open-charm-tetraquark-candidate.md) |  LHCb collaboration, R. Aaij+ | 🔥 |
+| 2024 | [PSO Fuzzy XGBoost Classifier Boosted with Neural G](papers/2024/core/PSO-Fuzzy-XGBoost-Classifier-Boosted-with-Neural-G.md) | Seyed Muhammad Hossein Mousavi | 🔥 |
+| 2024 | [Prompting Video-Language Foundation Models with Do](papers/2024/core/Prompting-Video-Language-Foundation-Models-with-Do.md) | Ting Yu, Kunhao Fu+ | 🔥 |
+| 2024 | [SHARP: Segmentation of Hands and Arms by Range usi](papers/2024/core/SHARP-Segmentation-of-Hands-and-Arms-by-Range-usin.md) | Wiktor Mucha, Michael Wray+ | 🔥 |
+| 2024 | [SVG: 3D Stereoscopic Video Generation via Denoisin](papers/2024/core/SVG-3D-Stereoscopic-Video-Generation-via-Denoising.md) | Peng Dai, Feitong Tan+ | 🔥 |
+| 2024 | [Search for $D^0$ meson decays to $π^+ π^- e^+ e^-$](papers/2024/core/Search-for-D0-meson-decays-to-π-π--e-e--and-K-K--e.md) |  LHCb collaboration, R. Aaij+ | 🔥 |
+| 2024 | [Simultaneous Estimation of Elliptic Flow Coefficie](papers/2024/related/Simultaneous-Estimation-of-Elliptic-Flow-Coefficie.md) | Praveen Murali, Sadhana Dash+ | 📎 |
+| 2024 | [Study of $D_{s1}(2460)^{+}\to D_{s}^{+}π^{+}π^{-}$](papers/2024/core/Study-of-D_s12460to-D_sππ--in-Bto-barDD_sππ--decay.md) |  LHCb collaboration, R. Aaij+ | 🔥 |
+| 2024 | [The SaTML '24 CNN Interpretability Competition: Ne](papers/2024/related/The-SaTML-24-CNN-Interpretability-Competition-New.md) | Stephen Casper, Jieun Yun+ | 📎 |
+| 2024 | [TracrBench: Generating Interpretability Testbeds w](papers/2024/related/TracrBench-Generating-Interpretability-Testbeds-wi.md) | Hannes Thurnherr, Jérémy Scheurer | 📎 |
+| 2024 | [Understanding attention-based encoder-decoder netw](papers/2024/core/Understanding-attention-based-encoder-decoder-netw.md) | Sergio Y. Hayashi, Nina S. T. Hirata | 🔥 |
+| 2024 | [VISTA: Enhancing Long-Duration and High-Resolution](papers/2024/core/VISTA-Enhancing-Long-Duration-and-High-Resolution.md) | Weiming Ren, Huan Yang+ | 🔥 |
+| 2024 | [Visual Story-Writing: Writing by Manipulating Visu](papers/2024/related/Visual-Story-Writing-Writing-by-Manipulating-Visua.md) | Damien Masson, Zixin Zhao+ | 📎 |
+| 2023 | [A Prototype-Based Neural Network for Image Anomaly](papers/2023/related/A-Prototype-Based-Neural-Network-for-Image-Anomaly.md) | Chao Huang, Zhao Kang+ | 📎 |
+| 2023 | [A Video Is Worth 4096 Tokens: Verbalize Videos To ](papers/2023/core/A-Video-Is-Worth-4096-Tokens-Verbalize-Videos-To-U.md) | Aanisha Bhattacharya, Yaman K Singla+ | 🔥 |
+| 2023 | [A model-independent measurement of the CKM angle $](papers/2023/core/A-model-independent-measurement-of-the-CKM-angle-γ.md) |  LHCb collaboration, R. Aaij+ | 🔥 |
+| 2023 | [Action Class Relation Detection and Classification](papers/2023/core/Action-Class-Relation-Detection-and-Classification.md) | Yuya Yoshikawa, Yutaro Shigeto+ | 🔥 |
+| 2023 | [Automata Quest: NCAs as a Video Game Life Mechanic](papers/2023/core/Automata-Quest-NCAs-as-a-Video-Game-Life-Mechanic.md) | Hiroki Sato, Tanner Lund+ | 🔥 |
+| 2023 | [Beyond English: Centering Multilingualism in Data ](papers/2023/related/Beyond-English-Centering-Multilingualism-in-Data-V.md) | Noëlle Rakotondravony, Priya Dhawka+ | 📎 |
+| 2023 | [Deep Learning and Computational Physics (Lecture N](papers/2023/related/Deep-Learning-and-Computational-Physics-Lecture-No.md) | Deep Ray, Orazio Pinti+ | 📎 |
+| 2023 | [Deep Neural Networks in Video Human Action Recogni](papers/2023/core/Deep-Neural-Networks-in-Video-Human-Action-Recogni.md) | Zihan Wang, Yang Yang+ | 🔥 |
+| 2023 | [Deep Video Codec Control for Vision Models](papers/2023/related/Deep-Video-Codec-Control-for-Vision-Models.md) | Christoph Reich, Biplob Debnath+ | 📎 |
+| 2023 | [Ensemble Modeling for Multimodal Visual Action Rec](papers/2023/core/Ensemble-Modeling-for-Multimodal-Visual-Action-Rec.md) | Jyoti Kini, Sarah Fleischer+ | 🔥 |
+| 2023 | [Evaluating the Stability of Semantic Concept Repre](papers/2023/related/Evaluating-the-Stability-of-Semantic-Concept-Repre.md) | Georgii Mikriukov, Gesina Schwalbe+ | 📎 |
+| 2023 | [Exploiting Optical Flow Guidance for Transformer-B](papers/2023/related/Exploiting-Optical-Flow-Guidance-for-Transformer-B.md) | Kaidong Zhang, Jialun Peng+ | 📎 |
+| 2023 | [Learn to Accumulate Evidence from All Training Sam](papers/2023/related/Learn-to-Accumulate-Evidence-from-All-Training-Sam.md) | Deep Pandey, Qi Yu | 📎 |
+| 2023 | [Learned Scalable Video Coding For Humans and Machi](papers/2023/related/Learned-Scalable-Video-Coding-For-Humans-and-Machi.md) | Hadi Hadizadeh, Ivan V. Bajić | 📎 |
+| 2023 | [MRET: Multi-resolution Transformer for Video Quali](papers/2023/related/MRET-Multi-resolution-Transformer-for-Video-Qualit.md) | Junjie Ke, Tianhao Zhang+ | 📎 |
+| 2023 | [MaskCRT: Masked Conditional Residual Transformer f](papers/2023/related/MaskCRT-Masked-Conditional-Residual-Transformer-fo.md) | Yi-Hsin Chen, Hong-Sheng Xie+ | 📎 |
+| 2023 | [Maximizing Spatio-Temporal Entropy of Deep 3D CNNs](papers/2023/core/Maximizing-Spatio-Temporal-Entropy-of-Deep-3D-CNNs.md) | Junyan Wang, Zhenhong Sun+ | 🔥 |
+| 2023 | [Measurement of the $D^{*}$ longitudinal polarizati](papers/2023/core/Measurement-of-the-D-longitudinal-polarization-in.md) |  LHCb collaboration, R. Aaij+ | 🔥 |
+| 2023 | [Measurement of the CKM angle $γ$ using the $B^{\pm](papers/2023/core/Measurement-of-the-CKM-angle-γ-using-the-Bpmrighta.md) |  LHCb collaboration, R. Aaij+ | 🔥 |
+| 2023 | [Mid-Long Term Daily Electricity Consumption Foreca](papers/2023/related/Mid-Long-Term-Daily-Electricity-Consumption-Foreca.md) | Zhou Lan, Ben Liu+ | 📎 |
+| 2023 | [NFTVis: Visual Analysis of NFT Performance](papers/2023/related/NFTVis-Visual-Analysis-of-NFT-Performance.md) | Fan Yan, Xumeng Wang+ | 📎 |
+| 2023 | [On the Relationship Between Interpretability and E](papers/2023/related/On-the-Relationship-Between-Interpretability-and-E.md) | Benjamin Leblanc, Pascal Germain | 📎 |
+| 2023 | [Parallel Neural Networks in Golang](papers/2023/related/Parallel-Neural-Networks-in-Golang.md) | Daniela Kalwarowskyj, Erich Schikuta | 📎 |
+| 2023 | [Pay Attention to What You Need](papers/2023/related/Pay-Attention-to-What-You-Need.md) | Yifei Gao, Shaohong Chen+ | 📎 |
+| 2023 | [Privacy-Preserving CNN Training with Transfer Lear](papers/2023/related/Privacy-Preserving-CNN-Training-with-Transfer-Lear.md) | John Chiang | 📎 |
+| 2023 | [Reality's Canvas, Language's Brush: Crafting 3D Av](papers/2023/core/Realitys-Canvas-Languages-Brush-Crafting-3D-Avatar.md) | Yuchen Rao, Eduardo Perez Pellitero+ | 🔥 |
+| 2023 | [Reclaiming the Horizon: Novel Visualization Design](papers/2023/related/Reclaiming-the-Horizon-Novel-Visualization-Designs.md) | Daniel Braun, Rita Borgo+ | 📎 |
+| 2023 | [Regionally Additive Models: Explainable-by-design ](papers/2023/related/Regionally-Additive-Models-Explainable-by-design-m.md) | Vasilis Gkolemis, Anargiros Tzerefos+ | 📎 |
+| 2023 | [Self-supervised Learning of Contextualized Local V](papers/2023/related/Self-supervised-Learning-of-Contextualized-Local-V.md) | Thalles Santos Silva, Helio Pedrini+ | 📎 |
+| 2023 | [Shape-aware Text-driven Layered Video Editing](papers/2023/core/Shape-aware-Text-driven-Layered-Video-Editing.md) | Yao-Chih Lee, Ji-Ze Genevieve Jang+ | 🔥 |
+| 2023 | [Spatial-Temporal Alignment Network for Action Reco](papers/2023/core/Spatial-Temporal-Alignment-Network-for-Action-Reco.md) | Jinhui Ye, Junwei Liang | 🔥 |
+| 2023 | [Test of lepton flavour universality using $B^0 \to](papers/2023/core/Test-of-lepton-flavour-universality-using-B0-to-D.md) |  LHCb collaboration, R. Aaij+ | 🔥 |
+| 2023 | [The Deep Arbitrary Polynomial Chaos Neural Network](papers/2023/core/The-Deep-Arbitrary-Polynomial-Chaos-Neural-Network.md) | Sergey Oladyshkin, Timothy Praditia+ | 🔥 |
+| 2023 | [Understanding Video Transformers for Segmentation:](papers/2023/related/Understanding-Video-Transformers-for-Segmentation.md) | Rezaul Karim, Richard P. Wildes | 📎 |
+| 2023 | [Unsupervised HDR Image and Video Tone Mapping via ](papers/2023/related/Unsupervised-HDR-Image-and-Video-Tone-Mapping-via.md) | Cong Cao, Huanjing Yue+ | 📎 |
+| 2023 | [VIVE3D: Viewpoint-Independent Video Editing using ](papers/2023/core/VIVE3D-Viewpoint-Independent-Video-Editing-using-3.md) | Anna Frühstück, Nikolaos Sarafianos+ | 🔥 |
+| 2023 | [Video Understanding with Large Language Models: A ](papers/2023/core/Video-Understanding-with-Large-Language-Models-A-S.md) | Yolo Y. Tang, Jing Bi+ | 🔥 |
+| 2022 | [3D Convolutional with Attention for Action Recogni](papers/2022/core/3D-Convolutional-with-Attention-for-Action-Recogni.md) | Labina Shrestha, Shikha Dubey+ | 🔥 |
+| 2022 | [A Class of Low-complexity DCT-like Transforms for ](papers/2022/related/A-Class-of-Low-complexity-DCT-like-Transforms-for.md) | T. L. T. da Silveira, D. R. Canterle+ | 📎 |
+| 2022 | [Acute Lymphoblastic Leukemia Detection Using Hyper](papers/2022/related/Acute-Lymphoblastic-Leukemia-Detection-Using-Hyper.md) | Guilherme Vieira, Marcos Eduardo Valle | 📎 |
+| 2022 | [Amplitude analysis of $B^0 \rightarrow \overline{D](papers/2022/core/Amplitude-analysis-of-B0-rightarrow-overlineD0-D_s.md) |  LHCb collaboration, R. Aaij+ | 🔥 |
+| 2022 | [BKinD-3D: Self-Supervised 3D Keypoint Discovery fr](papers/2022/core/BKinD-3D-Self-Supervised-3D-Keypoint-Discovery-fro.md) | Jennifer J. Sun, Lili Karashchuk+ | 🔥 |
+| 2022 | [ContextCLIP: Contextual Alignment of Image-Text pa](papers/2022/related/ContextCLIP-Contextual-Alignment-of-Image-Text-pai.md) | Chanda Grover, Indra Deep Mastan+ | 📎 |
+| 2022 | [Dual Accuracy-Quality-Driven Neural Network for Pr](papers/2022/related/Dual-Accuracy-Quality-Driven-Neural-Network-for-Pr.md) | Giorgio Morales, John W. Sheppard | 📎 |
+| 2022 | [Enhancing Deformable Convolution based Video Frame](papers/2022/core/Enhancing-Deformable-Convolution-based-Video-Frame.md) | Duolikun Danier, Fan Zhang+ | 🔥 |
+| 2022 | [Flow-Guided Sparse Transformer for Video Deblurrin](papers/2022/core/Flow-Guided-Sparse-Transformer-for-Video-Deblurrin.md) | Jing Lin, Yuanhao Cai+ | 🔥 |
+| 2022 | [Hierarchically Decomposed Graph Convolutional Netw](papers/2022/core/Hierarchically-Decomposed-Graph-Convolutional-Netw.md) | Jungho Lee, Minhyeok Lee+ | 🔥 |
+| 2022 | [How explainable are adversarially-robust CNNs?](papers/2022/related/How-explainable-are-adversarially-robust-CNNs.md) | Mehdi Nourelahi, Lars Kotthoff+ | 📎 |
+| 2022 | [Hybrid CNN -Interpreter: Interpret local and globa](papers/2022/related/Hybrid-CNN--Interpreter-Interpret-local-and-global.md) | Wenli Yang, Guan Huang+ | 📎 |
+| 2022 | [Iceberg Sensemaking: A Process Model for Critical ](papers/2022/related/Iceberg-Sensemaking-A-Process-Model-for-Critical-D.md) | Charles Berret, Tamara Munzner | 📎 |
+| 2022 | [Large-scale Robustness Analysis of Video Action Re](papers/2022/core/Large-scale-Robustness-Analysis-of-Video-Action-Re.md) | Madeline Chantry Schiappa, Naman Biyani+ | 🔥 |
+| 2022 | [MECCH: Metapath Context Convolution-based Heteroge](papers/2022/related/MECCH-Metapath-Context-Convolution-based-Heterogen.md) | Xinyu Fu, Irwin King | 📎 |
+| 2022 | [Measurement of the charm mixing parameter $y_{CP} ](papers/2022/core/Measurement-of-the-charm-mixing-parameter-y_CP---y.md) |  LHCb collaboration, R. Aaij+ | 🔥 |
+| 2022 | [NL2INTERFACE: Interactive Visualization Interface ](papers/2022/related/NL2INTERFACE-Interactive-Visualization-Interface-G.md) | Yiru Chen, Ryan Li+ | 📎 |
+| 2022 | [OCSampler: Compressing Videos to One Clip with Sin](papers/2022/core/OCSampler-Compressing-Videos-to-One-Clip-with-Sing.md) | Jintao Lin, Haodong Duan+ | 🔥 |
+| 2022 | [Observation of the $B^0_s\!\to D^{*+}D^{*-}$ decay](papers/2022/core/Observation-of-the-B0_sto-DD--decay.md) |  LHCb collaboration, R. Aaij+ | 🔥 |
+| 2022 | [Orthogonal dissection into few rectangles](papers/2022/related/Orthogonal-dissection-into-few-rectangles.md) | David Eppstein | 📎 |
+| 2022 | [Part-aware Prototypical Graph Network for One-shot](papers/2022/core/Part-aware-Prototypical-Graph-Network-for-One-shot.md) | Tailin Chen, Desen Zhou+ | 🔥 |
+| 2022 | [Perceptual Quality Assessment of Virtual Reality V](papers/2022/core/Perceptual-Quality-Assessment-of-Virtual-Reality-V.md) | Wen Wen, Mu Li+ | 🔥 |
+| 2022 | [PyramidTNT: Improved Transformer-in-Transformer Ba](papers/2022/related/PyramidTNT-Improved-Transformer-in-Transformer-Bas.md) | Kai Han, Jianyuan Guo+ | 📎 |
+| 2022 | [Rate-Distortion Optimal Transform Coefficient Sele](papers/2022/related/Rate-Distortion-Optimal-Transform-Coefficient-Sele.md) | Christian Herglotz, Nils Genser+ | 📎 |
+| 2022 | [ReViVD: Exploration and Filtering of Trajectories ](papers/2022/core/ReViVD-Exploration-and-Filtering-of-Trajectories-i.md) | François Homps, Yohan Beugin+ | 🔥 |
+| 2022 | [Representation-Agnostic Shape Fields](papers/2022/related/Representation-Agnostic-Shape-Fields.md) | Xiaoyang Huang, Jiancheng Yang+ | 📎 |
+| 2022 | [Search for continuous gravitational wave emission ](papers/2022/core/Search-for-continuous-gravitational-wave-emission.md) |  The LIGO Scientific Collaboration,  the Virgo Collaboration+ | 🔥 |
+| 2022 | [Skeletal Human Action Recognition using Hybrid Att](papers/2022/core/Skeletal-Human-Action-Recognition-using-Hybrid-Att.md) | Hao Xing, Darius Burschka | 🔥 |
+| 2022 | [Spatiotemporal Estimation of TROPOMI NO2 Column wi](papers/2022/core/Spatiotemporal-Estimation-of-TROPOMI-NO2-Column-wi.md) | Yannic Lops, Masoud Ghahremanloo+ | 🔥 |
+| 2022 | [Study of a committee of neural networks for biomet](papers/2022/core/Study-of-a-committee-of-neural-networks-for-biomet.md) | Marcos Faundez-Zanuy | 🔥 |
+| 2022 | [Synthesizing Light Field Video from Monocular Vide](papers/2022/core/Synthesizing-Light-Field-Video-from-Monocular-Vide.md) | Shrisudhan Govindarajan, Prasan Shedligeri+ | 🔥 |
+| 2022 | [Transformer-based Personalized Attention Mechanism](papers/2022/related/Transformer-based-Personalized-Attention-Mechanism.md) | Yusuke Takagi, Noriaki Hashimoto+ | 📎 |
+| 2022 | [Using explainability to design physics-aware CNNs ](papers/2022/related/Using-explainability-to-design-physics-aware-CNNs.md) | Jodie Crocker, Krishna Kumar+ | 📎 |
+| 2022 | [VRT: A Video Restoration Transformer](papers/2022/core/VRT-A-Video-Restoration-Transformer.md) | Jingyun Liang, Jiezhang Cao+ | 🔥 |
+| 2022 | [Variationally Mimetic Operator Networks](papers/2022/related/Variationally-Mimetic-Operator-Networks.md) | Dhruv Patel, Deep Ray+ | 📎 |
+| 2022 | [Video Restoration with a Deep Plug-and-Play Prior](papers/2022/core/Video-Restoration-with-a-Deep-Plug-and-Play-Prior.md) | Antoine Monod, Julie Delon+ | 🔥 |
+| 2022 | [Visual Attention Network](papers/2022/related/Visual-Attention-Network.md) | Meng-Hao Guo, Cheng-Ze Lu+ | 📎 |
+| 2021 | ["Knights": First Place Submission for VIPriors21 A](papers/2021/core/Knights-First-Place-Submission-for-VIPriors21-Acti.md) | Ishan Dave, Naman Biyani+ | 🔥 |
+| 2021 | [3D Convolutional Neural Networks for Ultrasound-Ba](papers/2021/related/3D-Convolutional-Neural-Networks-for-Ultrasound-Ba.md) | László Tóth, Amin Honarmandi Shandiz | 📎 |
+| 2021 | [A Latent Transformer for Disentangled Face Editing](papers/2021/related/A-Latent-Transformer-for-Disentangled-Face-Editing.md) | Xu Yao, Alasdair Newson+ | 📎 |
+| 2021 | [Action Transformer: A Self-Attention Model for Sho](papers/2021/core/Action-Transformer-A-Self-Attention-Model-for-Shor.md) | Vittorio Mazzia, Simone Angarano+ | 🔥 |
+| 2021 | [Adaptive Encoding for Constrained Video Delivery i](papers/2021/core/Adaptive-Encoding-for-Constrained-Video-Delivery-i.md) | Gangadharan Esakki | 🔥 |
+| 2021 | [Adaptive Video Encoding For Different Video Codecs](papers/2021/core/Adaptive-Video-Encoding-For-Different-Video-Codecs.md) | Gangadharan Esakki, Andreas Panayides+ | 🔥 |
+| 2021 | [All-sky Search for Continuous Gravitational Waves ](papers/2021/core/All-sky-Search-for-Continuous-Gravitational-Waves.md) |  The LIGO Scientific Collaboration,  the Virgo Collaboration+ | 🔥 |
+| 2021 | [All-sky search for gravitational wave emission fro](papers/2021/core/All-sky-search-for-gravitational-wave-emission-fro.md) |  The LIGO Scientific Collaboration,  the Virgo Collaboration+ | 🔥 |
+| 2021 | [Beyond Self-attention: External Attention using Tw](papers/2021/related/Beyond-Self-attention-External-Attention-using-Two.md) | Meng-Hao Guo, Zheng-Ning Liu+ | 📎 |
+| 2021 | [Compressive Visual Representations](papers/2021/related/Compressive-Visual-Representations.md) | Kuang-Huei Lee, Anurag Arnab+ | 📎 |
+| 2021 | [Constraints from LIGO O3 data on gravitational-wav](papers/2021/core/Constraints-from-LIGO-O3-data-on-gravitational-wav.md) |  The LIGO Scientific Collaboration,  the Virgo Collaboration+ | 🔥 |
+| 2021 | [Constraints on dark photon dark matter using data ](papers/2021/core/Constraints-on-dark-photon-dark-matter-using-data.md) |  The LIGO Scientific Collaboration,  the Virgo Collaboration+ | 🔥 |
+| 2021 | [Convolutional Neural Networks with Gated Recurrent](papers/2021/related/Convolutional-Neural-Networks-with-Gated-Recurrent.md) | Jianfeng Wang, Xiaolin Hu | 📎 |
+| 2021 | [Design and Analysis of a Robotic Lizard using Five](papers/2021/related/Design-and-Analysis-of-a-Robotic-Lizard-using-Five.md) | Rajashekhar V S, Dinakar Raj C K+ | 📎 |
+| 2021 | [ERANNs: Efficient Residual Audio Neural Networks f](papers/2021/core/ERANNs-Efficient-Residual-Audio-Neural-Networks-fo.md) | Sergey Verbitskiy, Vladimir Berikov+ | 🔥 |
+| 2021 | [Exploiting Emotional Dependencies with Graph Convo](papers/2021/core/Exploiting-Emotional-Dependencies-with-Graph-Convo.md) | Panagiotis Antoniadis, Panagiotis P. Filntisis+ | 🔥 |
+| 2021 | [Fusing Higher-order Features in Graph Neural Netwo](papers/2021/core/Fusing-Higher-order-Features-in-Graph-Neural-Netwo.md) | Zhenyue Qin, Yang Liu+ | 🔥 |
+| 2021 | [Improved CNN-based Learning of Interpolation Filte](papers/2021/core/Improved-CNN-based-Learning-of-Interpolation-Filte.md) | Luka Murn, Saverio Blasi+ | 🔥 |
+| 2021 | [Improving Automated Visual Fault Detection by Comb](papers/2021/related/Improving-Automated-Visual-Fault-Detection-by-Comb.md) | Frederik Beuth, Tobias Schlosser+ | 📎 |
+| 2021 | [Infinite-channel deep stable convolutional neural ](papers/2021/related/Infinite-channel-deep-stable-convolutional-neural.md) | Daniele Bracale, Stefano Favaro+ | 📎 |
+| 2021 | [Interpretable Propaganda Detection in News Article](papers/2021/related/Interpretable-Propaganda-Detection-in-News-Article.md) | Seunghak Yu, Giovanni Da San Martino+ | 📎 |
+| 2021 | [Joint Learning of Neural Transfer and Architecture](papers/2021/core/Joint-Learning-of-Neural-Transfer-and-Architecture.md) | Guangrun Wang, Liang Lin+ | 🔥 |
+| 2021 | [Learning to Cluster Faces via Transformer](papers/2021/related/Learning-to-Cluster-Faces-via-Transformer.md) | Jinxing Ye, Xioajiang Peng+ | 📎 |
+| 2021 | [Leveraging Semantic Scene Characteristics and Mult](papers/2021/core/Leveraging-Semantic-Scene-Characteristics-and-Mult.md) | Ioannis Pikoulis, Panagiotis P. Filntisis+ | 🔥 |
+| 2021 | [M2Lens: Visualizing and Explaining Multimodal Mode](papers/2021/related/M2Lens-Visualizing-and-Explaining-Multimodal-Model.md) | Xingbo Wang, Jianben He+ | 📎 |
+| 2021 | [Memorization in Deep Neural Networks: Does the Los](papers/2021/related/Memorization-in-Deep-Neural-Networks-Does-the-Loss.md) | Deep Patel, P. S. Sastry | 📎 |
+| 2021 | [Neural 3D Video Synthesis from Multi-view Video](papers/2021/related/Neural-3D-Video-Synthesis-from-Multi-view-Video.md) | Tianye Li, Mira Slavcheva+ | 📎 |
+| 2021 | [Neural Relighting and Expression Transfer On Video](papers/2021/related/Neural-Relighting-and-Expression-Transfer-On-Video.md) | Youjia Wang, Taotao Zhou+ | 📎 |
+| 2021 | [Observation of the $B^0\rightarrow\overline{D}^{*0](papers/2021/core/Observation-of-the-B0rightarrowoverlineD0Kπ--and-B.md) |  LHCb collaboration, R. Aaij+ | 🔥 |
+| 2021 | [On Fairness and Interpretability](papers/2021/related/On-Fairness-and-Interpretability.md) | Deepak P, Sanil V+ | 📎 |
+| 2021 | [Overview of Tencent Multi-modal Ads Video Understa](papers/2021/core/Overview-of-Tencent-Multi-modal-Ads-Video-Understa.md) | Zhenzhi Wang, Liyu Wu+ | 🔥 |
+| 2021 | [Physically Explainable CNN for SAR Image Classific](papers/2021/related/Physically-Explainable-CNN-for-SAR-Image-Classific.md) | Zhongling Huang, Xiwen Yao+ | 📎 |
+| 2021 | [PoliTO-IIT Submission to the EPIC-KITCHENS-100 Uns](papers/2021/core/PoliTO-IIT-Submission-to-the-EPIC-KITCHENS-100-Uns.md) | Chiara Plizzari, Mirco Planamente+ | 🔥 |
+| 2021 | [Real-time 3D human action recognition based on Hyp](papers/2021/core/Real-time-3D-human-action-recognition-based-on-Hyp.md) | Xing Li, Qian Huang+ | 🔥 |
+| 2021 | [Robust Pose Transfer with Dynamic Details using Ne](papers/2021/related/Robust-Pose-Transfer-with-Dynamic-Details-using-Ne.md) | Yang-tian Sun, Hao-zhi Huang+ | 📎 |
+| 2021 | [SAIC_Cambridge-HuPBA-FBK Submission to the EPIC-Ki](papers/2021/core/SAIC_Cambridge-HuPBA-FBK-Submission-to-the-EPIC-Ki.md) | Swathikiran Sudhakaran, Adrian Bulat+ | 🔥 |
+| 2021 | [Search for continuous gravitational waves from 20 ](papers/2021/core/Search-for-continuous-gravitational-waves-from-20.md) |  The LIGO Scientific Collaboration,  the Virgo Collaboration+ | 🔥 |
+| 2021 | [Search of the Early O3 LIGO Data for Continuous Gr](papers/2021/core/Search-of-the-Early-O3-LIGO-Data-for-Continuous-Gr.md) |  The LIGO Scientific Collaboration,  the Virgo Collaboration+ | 🔥 |
+| 2021 | [Searches for continuous gravitational waves from y](papers/2021/core/Searches-for-continuous-gravitational-waves-from-y.md) |  The LIGO Scientific Collaboration,  the Virgo Collaboration+ | 🔥 |
+| 2021 | [Solution of Physics-based Bayesian Inverse Problem](papers/2021/related/Solution-of-Physics-based-Bayesian-Inverse-Problem.md) | Dhruv V Patel, Deep Ray+ | 📎 |
+| 2021 | [Spatiotemporal Dilated Convolution with Uncertain ](papers/2021/core/Spatiotemporal-Dilated-Convolution-with-Uncertain.md) | Yu-Jen Ma, Hong-Han Shuai+ | 🔥 |
+| 2021 | [Strengthening the Training of Convolutional Neural](papers/2021/related/Strengthening-the-Training-of-Convolutional-Neural.md) | Tamer Ölmez, Zümray Dokur | 📎 |
+| 2021 | [Temporal Shuffling for Defending Deep Action Recog](papers/2021/core/Temporal-Shuffling-for-Defending-Deep-Action-Recog.md) | Jaehui Hwang, Huan Zhang+ | 🔥 |
+| 2021 | [Temporal-attentive Covariance Pooling Networks for](papers/2021/core/Temporal-attentive-Covariance-Pooling-Networks-for.md) | Zilin Gao, Qilong Wang+ | 🔥 |
+| 2021 | [Tests of General Relativity with GWTC-3](papers/2021/core/Tests-of-General-Relativity-with-GWTC-3.md) |  The LIGO Scientific Collaboration,  the Virgo Collaboration+ | 🔥 |
+| 2021 | [Towards a Survey on Static and Dynamic Hypergraph ](papers/2021/related/Towards-a-Survey-on-Static-and-Dynamic-Hypergraph.md) | Maximilian T. Fischer, Alexander Frings+ | 📎 |
+| 2021 | [Video Relation Detection via Tracklet based Visual](papers/2021/related/Video-Relation-Detection-via-Tracklet-based-Visual.md) | Kaifeng Gao, Long Chen+ | 📎 |
+| 2021 | [VisRuler: Visual Analytics for Extracting Decision](papers/2021/related/VisRuler-Visual-Analytics-for-Extracting-Decision.md) | Angelos Chatzimparmpas, Rafael M. Martins+ | 📎 |
+
+---
+
+## 📁 项目结构
+
+```
+video-cnn-interpretability/
+├── arxiv_search.py          # arXiv 搜索脚本
+├── search_config.json       # 搜索配置文件
+├── feishu_config.json       # 飞书通知配置
+├── paper_template.md        # 论文总结模板
+├── papers/                  # 论文总结 (按年份/分类)
+│   ├── 2024/
+│   │   ├── core/          # 核心领域论文
+│   │   └── related/       # 相关领域论文
+│   └── ...
+└── README.md              # 本文件
+```
+
+## ⚙️ 自动更新
+
+本项目通过 **GitHub Actions** 每周自动：
+1. 搜索 arXiv 最新相关论文
+2. 生成论文总结
+3. 更新本 README
+4. 推送更新到 GitHub
+5. 发送飞书群通知
+
+## 🤝 贡献
+
+欢迎：
+- 补充论文详情（方法论、实验结果等）
+- 修正论文分类
+- 提供代码链接
+
+## 📄 License
+
+仅供学术研究使用

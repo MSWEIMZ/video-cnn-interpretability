@@ -1,0 +1,52 @@
+# Dual Accuracy-Quality-Driven Neural Network for Prediction Interval Generation
+
+**作者**: Giorgio Morales, John W. Sheppard
+
+**发表信息**: arXiv · 2022
+
+**论文链接**: [arXiv:2212.06370v4](http://arxiv.org/abs/2212.06370v4)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> Accurate uncertainty quantification is necessary to enhance the reliability of deep learning models in real-world applications.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+Accurate uncertainty quantification is necessary to enhance the reliability of deep learning models in real-world applications. In the case of regression tasks, prediction intervals (PIs) should be provided along with the deterministic predictions of deep learning models. Such PIs are useful or "high-quality" as long as they are sufficiently narrow and capture most of the probability density. In this paper, we present a method to learn prediction intervals for regression-based neural networks au
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-26
+- 分类: `相关领域`
+- arXiv ID: 2212.06370v4

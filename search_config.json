@@ -4,27 +4,26 @@
       "R(2+1)D video classification interpretability",
       "3D CNN video explainability",
       "spatiotemporal convolution video understanding",
-      "video action recognition neural network interpretability",
-      "Decomposed 3D convolutions video"
+      "video action recognition neural network",
+      "Decomposed 3D convolutions action recognition"
     ],
     "related": [
       "CNN interpretability explainability",
-      "network dissection deep vision",
-      "attention mechanism visualization CNN",
-      "transformer video interpretability",
-      "deep learning video understanding XAI"
+      "network dissection deep visual representations",
+      "attention mechanism visualization",
+      "video transformer interpretability",
+      "3D convolution neural network video"
     ]
   },
   "arxiv_categories": [
     "cs.CV",
-    "cs.LG",
-    "cs.AI"
+    "cs.LG"
   ],
-  "max_results_per_query": 20,
+  "max_results_per_query": 50,
   "output_format": "markdown",
   "download_pdfs": false,
   "years_range": {
-    "from": 2017,
+    "from": 2015,
     "to": 2026
   }
 }

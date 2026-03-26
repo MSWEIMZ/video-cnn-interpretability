@@ -1,0 +1,52 @@
+# Interpretable Propaganda Detection in News Articles
+
+**作者**: Seunghak Yu, Giovanni Da San Martino, Mitra Mohtarami, James Glass, Preslav Nakov
+
+**发表信息**: arXiv · 2021
+
+**论文链接**: [arXiv:2108.12802v1](http://arxiv.org/abs/2108.12802v1)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> Online users today are exposed to misleading and propagandistic news articles and media posts on a daily basis.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+Online users today are exposed to misleading and propagandistic news articles and media posts on a daily basis. To counter thus, a number of approaches have been designed aiming to achieve a healthier and safer online news and media consumption. Automatic systems are able to support humans in detecting such content; yet, a major impediment to their broad adoption is that besides being accurate, the decisions of such systems need also to be interpretable in order to be trusted and widely adopted 
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-26
+- 分类: `相关领域`
+- arXiv ID: 2108.12802v1

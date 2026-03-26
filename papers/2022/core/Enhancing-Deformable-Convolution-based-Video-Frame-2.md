@@ -1,0 +1,52 @@
+# Enhancing Deformable Convolution based Video Frame Interpolation with Coarse-to-fine 3D CNN
+
+**作者**: Duolikun Danier, Fan Zhang, David Bull
+
+**发表信息**: arXiv · 2022
+
+**论文链接**: [arXiv:2202.07731v2](http://arxiv.org/abs/2202.07731v2)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> This paper presents a new deformable convolution-based video frame interpolation (VFI) method, using a coarse to fine 3D CNN to enhance the multi-flow prediction.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+This paper presents a new deformable convolution-based video frame interpolation (VFI) method, using a coarse to fine 3D CNN to enhance the multi-flow prediction. This model first extracts spatio-temporal features at multiple scales using a 3D CNN, and estimates multi-flows using these features in a coarse-to-fine manner. The estimated multi-flows are then used to warp the original input frames as well as context maps, and the warped results are fused by a synthesis network to produce the final 
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-26
+- 分类: `核心领域`
+- arXiv ID: 2202.07731v2

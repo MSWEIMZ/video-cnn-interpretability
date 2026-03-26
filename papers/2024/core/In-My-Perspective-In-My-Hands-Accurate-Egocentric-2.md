@@ -1,0 +1,52 @@
+# In My Perspective, In My Hands: Accurate Egocentric 2D Hand Pose and Action Recognition
+
+**作者**: Wiktor Mucha, Martin Kampel
+
+**发表信息**: arXiv · 2024
+
+**论文链接**: [arXiv:2404.09308v2](http://arxiv.org/abs/2404.09308v2)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> Action recognition is essential for egocentric video understanding, allowing automatic and continuous monitoring of Activities of Daily Living (ADLs) without user effort.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+Action recognition is essential for egocentric video understanding, allowing automatic and continuous monitoring of Activities of Daily Living (ADLs) without user effort. Existing literature focuses on 3D hand pose input, which requires computationally intensive depth estimation networks or wearing an uncomfortable depth sensor. In contrast, there has been insufficient research in understanding 2D hand pose for egocentric action recognition, despite the availability of user-friendly smart glasse
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-26
+- 分类: `核心领域`
+- arXiv ID: 2404.09308v2

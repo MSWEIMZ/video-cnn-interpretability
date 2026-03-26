@@ -1,0 +1,52 @@
+# Large-scale Robustness Analysis of Video Action Recognition Models
+
+**作者**: Madeline Chantry Schiappa, Naman Biyani, Prudvi Kamtam, Shruti Vyas, Hamid Palangi, Vibhav Vineet, Yogesh Rawat
+
+**发表信息**: arXiv · 2022
+
+**论文链接**: [arXiv:2207.01398v2](http://arxiv.org/abs/2207.01398v2)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> We have seen a great progress in video action recognition in recent years.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+We have seen a great progress in video action recognition in recent years. There are several models based on convolutional neural network (CNN) and some recent transformer based approaches which provide top performance on existing benchmarks. In this work, we perform a large-scale robustness analysis of these existing models for video action recognition. We focus on robustness against real-world distribution shift perturbations instead of adversarial perturbations. We propose four different benc
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-26
+- 分类: `核心领域`
+- arXiv ID: 2207.01398v2
