@@ -309,6 +309,165 @@ video-cnn-interpretability/
 4. 推送更新到 GitHub
 5. 发送飞书群通知
 
+## 📖 使用指南
+
+### 快速上手
+
+#### 1. Fork 本项目
+点击 GitHub 仓库右上角的 **Fork** 按钮，复制到你的账号下。
+
+#### 2. 修改搜索配置
+编辑 `search_config.json` 文件：
+
+```json
+{
+  "search_queries": {
+    "core": [
+      "R(2+1)D video classification interpretability",
+      "3D CNN video explainability",
+      "spatiotemporal convolution video understanding"
+    ],
+    "related": [
+      "CNN interpretability explainability",
+      "network dissection deep visual representations",
+      "attention mechanism visualization"
+    ]
+  },
+  "max_results_per_query": 50,
+  "years_range": {
+    "from": 2021,
+    "to": 2026
+  }
+}
+```
+
+**配置说明：**
+| 字段 | 说明 |
+|------|------|
+| `core` | 核心领域关键词（与你的研究方向最相关） |
+| `related` | 相关领域关键词（有一定关联但非核心） |
+| `max_results_per_query` | 每个关键词最多返回多少篇论文 |
+| `years_range.from` | 搜索起始年份 |
+| `years_range.to` | 搜索结束年份 |
+
+#### 3. 自定义定时任务周期
+编辑 `.github/workflows/arxiv_search.yml` 中的 cron 表达式：
+
+```yaml
+on:
+  schedule:
+    # 每周一早上9点 (UTC+8 = 凌晨1点 UTC)
+    - cron: '0 1 * * 1'
+```
+
+**常用 cron 表达式：**
+| 表达式 | 含义 |
+|--------|------|
+| `0 1 * * 1` | 每周一凌晨 1 点 |
+| `0 9 * * *` | 每天早上 9 点 |
+| `0 9 * * 0` | 每周日凌晨 9 点 |
+| `0 */6 * * *` | 每 6 小时一次 |
+| `0 9 1 * *` | 每月 1 日早上 9 点 |
+
+#### 4. 设置飞书通知（可选）
+1. 在飞书群中添加**自定义机器人**
+2. 复制机器人 Webhook URL
+3. 在 GitHub 仓库中进入 **Settings → Secrets and variables → Actions**
+4. 添加名为 `FEISHU_WEBHOOK` 的 Secret，值为你的 Webhook URL
+
+#### 5. 本地运行测试
+```bash
+# 克隆仓库
+git clone https://github.com/你的用户名/video-cnn-interpretability.git
+cd video-cnn-interpretability
+
+# 安装依赖
+pip install feedparser
+
+# 运行搜索脚本
+python arxiv_search.py
+```
+
+---
+
+### 🔧 二次开发指南
+
+如果你想基于此项目构建自己的论文追踪系统，只需修改以下内容：
+
+#### A. 修改搜索研究方向
+
+**Step 1:** 修改 `search_config.json` 中的关键词：
+
+```json
+"core": [
+  "你的核心研究方向1",
+  "你的核心研究方向2"
+],
+"related": [
+  "相关方向1",
+  "相关方向2"
+]
+```
+
+**Step 2:** 修改 `arxiv_search.py` 中的 README 描述（约第 357 行）：
+```python
+readme = f"""# 📚 你的研究方向论文库
+
+> 自动化论文搜索与整理系统 | 专注于 xxx 领域
+```
+
+**Step 3:** 修改 README 中的搜索领域说明：
+```markdown
+## 🔍 搜索领域
+
+### 核心领域
+- xxx
+- xxx
+
+### 相关领域
+- xxx
+```
+
+#### B. 修改论文年份范围
+
+编辑 `arxiv_search.py` 中的过滤逻辑（约第 491-498 行）：
+
+```python
+current_year = 2021  # 修改为你的起始年份
+max_year = 2026       # 修改为你的结束年份
+```
+
+#### C. 修改定时更新频率
+
+编辑 `.github/workflows/arxiv_search.yml`：
+
+```yaml
+on:
+  schedule:
+    # 示例：每3天运行一次
+    - cron: '0 1 */3 * *'
+```
+
+#### D. 修改论文模板格式
+
+编辑 `paper_template.md` 可以自定义每篇论文总结的格式。
+
+---
+
+### ❓ 常见问题
+
+**Q: 搜索结果太多/太少？**
+A: 调整 `search_config.json` 中的 `max_results_per_query`（默认 50）
+
+**Q: 想搜索特定年份的论文？**
+A: 修改 `years_range` 字段，或修改 `arxiv_search.py` 中的年份过滤逻辑
+
+**Q: 飞书没有收到通知？**
+A: 检查 GitHub Secrets 中的 `FEISHU_WEBHOOK` 是否正确设置
+
+**Q: 本地运行报错？**
+A: 确保 Python 版本 >= 3.7，并安装 `pip install feedparser`
+
 ## 🤝 贡献
 
 欢迎：
