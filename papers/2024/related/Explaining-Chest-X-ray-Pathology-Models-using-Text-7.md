@@ -1,0 +1,52 @@
+# Explaining Chest X-ray Pathology Models using Textual Concepts
+
+**作者**: Vijay Sadashivaiah, Pingkun Yan, James A. Hendler
+
+**发表信息**: arXiv · 2024
+
+**论文链接**: [arXiv:2407.00557v2](http://arxiv.org/abs/2407.00557v2)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> Deep learning models have revolutionized medical imaging and diagnostics, yet their opaque nature poses challenges for clinical adoption and trust.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+Deep learning models have revolutionized medical imaging and diagnostics, yet their opaque nature poses challenges for clinical adoption and trust. Amongst approaches to improve model interpretability, concept-based explanations aim to provide concise and human-understandable explanations of any arbitrary classifier. However, such methods usually require a large amount of manually collected data with concept annotation, which is often scarce in the medical domain. In this paper, we propose Conce
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-26
+- 分类: `相关领域`
+- arXiv ID: 2407.00557v2

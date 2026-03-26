@@ -1,0 +1,52 @@
+# Beyond English: Centering Multilingualism in Data Visualization
+
+**作者**: Noëlle Rakotondravony, Priya Dhawka, Melanie Bancilhon
+
+**发表信息**: arXiv · 2023
+
+**论文链接**: [arXiv:2309.06659v2](http://arxiv.org/abs/2309.06659v2)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> Information visualization and natural language are intricately linked.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+Information visualization and natural language are intricately linked. However, the majority of research and relevant work in information and data visualization (and human-computer interaction) involve English-speaking populations as both researchers and participants, are published in English, and are presented predominantly at English-speaking venues. Although several solutions can be proposed such as translating English texts in visualization to other languages, there is little research that l
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-26
+- 分类: `相关领域`
+- arXiv ID: 2309.06659v2

@@ -1,0 +1,52 @@
+# Fusing Higher-order Features in Graph Neural Networks for Skeleton-based Action Recognition
+
+**作者**: Zhenyue Qin, Yang Liu, Pan Ji, Dongwoo Kim, Lei Wang, Bob McKay, Saeed Anwar, Tom Gedeon
+
+**发表信息**: arXiv · 2021
+
+**论文链接**: [arXiv:2105.01563v5](http://arxiv.org/abs/2105.01563v5)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> Skeleton sequences are lightweight and compact, and thus are ideal candidates for action recognition on edge devices.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+Skeleton sequences are lightweight and compact, and thus are ideal candidates for action recognition on edge devices. Recent skeleton-based action recognition methods extract features from 3D joint coordinates as spatial-temporal cues, using these representations in a graph neural network for feature fusion to boost recognition performance. The use of first- and second-order features, i.e., joint and bone representations, has led to high accuracy. Nonetheless, many models are still confused by a
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-26
+- 分类: `核心领域`
+- arXiv ID: 2105.01563v5

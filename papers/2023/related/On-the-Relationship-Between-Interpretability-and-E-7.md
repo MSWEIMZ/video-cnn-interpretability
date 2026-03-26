@@ -1,0 +1,52 @@
+# On the Relationship Between Interpretability and Explainability in Machine Learning
+
+**作者**: Benjamin Leblanc, Pascal Germain
+
+**发表信息**: arXiv · 2023
+
+**论文链接**: [arXiv:2311.11491v2](http://arxiv.org/abs/2311.11491v2)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> Interpretability and explainability have gained more and more attention in the field of machine learning as they are crucial when it comes to high-stakes decisions and troubleshooting.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+Interpretability and explainability have gained more and more attention in the field of machine learning as they are crucial when it comes to high-stakes decisions and troubleshooting. Since both provide information about predictors and their decision process, they are often seen as two independent means for one single end. This view has led to a dichotomous literature: explainability techniques designed for complex black-box models, or interpretable approaches ignoring the many explainability t
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-26
+- 分类: `相关领域`
+- arXiv ID: 2311.11491v2

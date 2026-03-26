@@ -1,0 +1,52 @@
+# Beware of Validation by Eye: Visual Validation of Linear Trends in Scatterplots
+
+**作者**: Daniel Braun, Remco Chang, Michael Gleicher, Tatiana von Landesberger
+
+**发表信息**: arXiv · 2024
+
+**论文链接**: [arXiv:2407.11625v2](http://arxiv.org/abs/2407.11625v2)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> Visual validation of regression models in scatterplots is a common practice for assessing model quality, yet its efficacy remains unquantified.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+Visual validation of regression models in scatterplots is a common practice for assessing model quality, yet its efficacy remains unquantified. We conducted two empirical experiments to investigate individuals' ability to visually validate linear regression models (linear trends) and to examine the impact of common visualization designs on validation quality. The first experiment showed that the level of accuracy for visual estimation of slope (i.e., fitting a line to data) is higher than for vi
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-26
+- 分类: `相关领域`
+- arXiv ID: 2407.11625v2
