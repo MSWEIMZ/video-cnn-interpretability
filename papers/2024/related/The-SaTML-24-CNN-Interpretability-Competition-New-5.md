@@ -1,0 +1,52 @@
+# The SaTML '24 CNN Interpretability Competition: New Innovations for Concept-Level Interpretability
+
+**作者**: Stephen Casper, Jieun Yun, Joonhyuk Baek, Yeseong Jung, Minhwan Kim, Kiwan Kwon, Saerom Park, Hayden Moore, David Shriver, Marissa Connor, Keltin Grimes, Angus Nicolson, Arush Tagade, Jessica Rumbelow, Hieu Minh Nguyen, Dylan Hadfield-Menell
+
+**发表信息**: arXiv · 2024
+
+**论文链接**: [arXiv:2404.02949v1](http://arxiv.org/abs/2404.02949v1)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> Interpretability techniques are valuable for helping humans understand and oversee AI systems.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+Interpretability techniques are valuable for helping humans understand and oversee AI systems. The SaTML 2024 CNN Interpretability Competition solicited novel methods for studying convolutional neural networks (CNNs) at the ImageNet scale. The objective of the competition was to help human crowd-workers identify trojans in CNNs. This report showcases the methods and results of four featured competition entries. It remains challenging to help humans reliably diagnose trojans via interpretability 
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-26
+- 分类: `相关领域`
+- arXiv ID: 2404.02949v1

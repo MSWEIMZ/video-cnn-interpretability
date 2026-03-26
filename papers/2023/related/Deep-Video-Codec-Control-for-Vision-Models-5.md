@@ -1,0 +1,52 @@
+# Deep Video Codec Control for Vision Models
+
+**作者**: Christoph Reich, Biplob Debnath, Deep Patel, Tim Prangemeier, Daniel Cremers, Srimat Chakradhar
+
+**发表信息**: arXiv · 2023
+
+**论文链接**: [arXiv:2308.16215v6](http://arxiv.org/abs/2308.16215v6)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> Standardized lossy video coding is at the core of almost all real-world video processing pipelines.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+Standardized lossy video coding is at the core of almost all real-world video processing pipelines. Rate control is used to enable standard codecs to adapt to different network bandwidth conditions or storage constraints. However, standard video codecs (e.g., H.264) and their rate control modules aim to minimize video distortion w.r.t. human quality assessment. We demonstrate empirically that standard-coded videos vastly deteriorate the performance of deep vision models. To overcome the deterior
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-26
+- 分类: `相关领域`
+- arXiv ID: 2308.16215v6

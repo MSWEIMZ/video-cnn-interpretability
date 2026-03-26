@@ -1,0 +1,52 @@
+# Spatiotemporal Dilated Convolution with Uncertain Matching for Video-based Crowd Estimation
+
+**作者**: Yu-Jen Ma, Hong-Han Shuai, Wen-Huang Cheng
+
+**发表信息**: arXiv · 2021
+
+**论文链接**: [arXiv:2101.12439v1](http://arxiv.org/abs/2101.12439v1)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> In this paper, we propose a novel SpatioTemporal convolutional Dense Network (STDNet) to address the video-based crowd counting problem, which contains the decomposition of 3D convolution and the 3D spatiotemporal dilated dense convolution to alleviate the rapid growth of the model size caused by the Conv3D layer.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+In this paper, we propose a novel SpatioTemporal convolutional Dense Network (STDNet) to address the video-based crowd counting problem, which contains the decomposition of 3D convolution and the 3D spatiotemporal dilated dense convolution to alleviate the rapid growth of the model size caused by the Conv3D layer. Moreover, since the dilated convolution extracts the multiscale features, we combine the dilated convolution with the channel attention block to enhance the feature representations. Du
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-26
+- 分类: `核心领域`
+- arXiv ID: 2101.12439v1

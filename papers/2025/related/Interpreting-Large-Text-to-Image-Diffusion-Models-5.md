@@ -1,0 +1,52 @@
+# Interpreting Large Text-to-Image Diffusion Models with Dictionary Learning
+
+**作者**: Stepan Shabalin, Ayush Panda, Dmitrii Kharlapenko, Abdur Raheem Ali, Yixiong Hao, Arthur Conmy
+
+**发表信息**: arXiv · 2025
+
+**论文链接**: [arXiv:2505.24360v3](http://arxiv.org/abs/2505.24360v3)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> Sparse autoencoders are a promising new approach for decomposing language model activations for interpretation and control.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+Sparse autoencoders are a promising new approach for decomposing language model activations for interpretation and control. They have been applied successfully to vision transformer image encoders and to small-scale diffusion models. Inference-Time Decomposition of Activations (ITDA) is a recently proposed variant of dictionary learning that takes the dictionary to be a set of data points from the activation distribution and reconstructs them with gradient pursuit. We apply Sparse Autoencoders (
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-26
+- 分类: `相关领域`
+- arXiv ID: 2505.24360v3

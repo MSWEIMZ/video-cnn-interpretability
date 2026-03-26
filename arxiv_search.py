@@ -113,6 +113,12 @@ def parse_arxiv_response(xml_data: str) -> list:
             paper['pdf_url'] = pdf_match.group(1)
         categories = re.findall(r'<category term="([^"]*)"', entry)
         paper['categories'] = [c for c in categories if c.startswith('cs.')]
+        journal_match = re.search(r'<journal-ref>(.*?)</journal-ref>', entry, re.DOTALL)
+        if journal_match:
+            paper['journal_ref'] = journal_match.group(1).strip()
+        updated_match = re.search(r'<updated>(.*?)</updated>', entry)
+        if updated_match:
+            paper['updated'] = updated_match.group(1)[:10]
         if paper.get('title'):
             papers.append(paper)
     return papers
@@ -314,11 +320,15 @@ def generate_readme(output_dir: str, papers: list):
             if len(paper.get('authors', [])) > 2:
                 authors_str += '+'
 
-            # Get venue from categories
-            categories = paper.get('categories', [])
-            venue = categories[0] if categories else 'arXiv'
-            if venue.startswith('cs.'):
-                venue = venue[3:].upper()
+            # Get venue from journal-ref first, then fallback to categories
+            journal_ref = paper.get('journal_ref', '')
+            if journal_ref:
+                venue = journal_ref[:30]
+            else:
+                categories = paper.get('categories', [])
+                venue = categories[0] if categories else 'arXiv'
+                if venue.startswith('cs.'):
+                    venue = venue[3:].upper()
 
             # Keywords from search query
             keywords = paper.get('search_query', '')[:30]

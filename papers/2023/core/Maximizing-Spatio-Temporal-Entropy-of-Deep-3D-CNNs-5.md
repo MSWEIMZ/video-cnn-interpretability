@@ -1,0 +1,52 @@
+# Maximizing Spatio-Temporal Entropy of Deep 3D CNNs for Efficient Video Recognition
+
+**作者**: Junyan Wang, Zhenhong Sun, Yichen Qian, Dong Gong, Xiuyu Sun, Ming Lin, Maurice Pagnucco, Yang Song
+
+**发表信息**: arXiv · 2023
+
+**论文链接**: [arXiv:2303.02693v1](http://arxiv.org/abs/2303.02693v1)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> 3D convolution neural networks (CNNs) have been the prevailing option for video recognition.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+3D convolution neural networks (CNNs) have been the prevailing option for video recognition. To capture the temporal information, 3D convolutions are computed along the sequences, leading to cubically growing and expensive computations. To reduce the computational cost, previous methods resort to manually designed 3D/2D CNN structures with approximations or automatic search, which sacrifice the modeling ability or make training time-consuming. In this work, we propose to automatically design eff
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-26
+- 分类: `核心领域`
+- arXiv ID: 2303.02693v1

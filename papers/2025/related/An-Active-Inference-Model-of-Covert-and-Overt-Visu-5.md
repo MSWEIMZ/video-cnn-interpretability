@@ -1,0 +1,52 @@
+# An Active Inference Model of Covert and Overt Visual Attention
+
+**作者**: Tin Mišić, Karlo Koledić, Fabio Bonsignorio, Ivan Petrović, Ivan Marković
+
+**发表信息**: arXiv · 2025
+
+**论文链接**: [arXiv:2505.03856v1](http://arxiv.org/abs/2505.03856v1)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> The ability to selectively attend to relevant stimuli while filtering out distractions is essential for agents that process complex, high-dimensional sensory input.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+The ability to selectively attend to relevant stimuli while filtering out distractions is essential for agents that process complex, high-dimensional sensory input. This paper introduces a model of covert and overt visual attention through the framework of active inference, utilizing dynamic optimization of sensory precisions to minimize free-energy. The model determines visual sensory precisions based on both current environmental beliefs and sensory input, influencing attentional allocation in
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-26
+- 分类: `相关领域`
+- arXiv ID: 2505.03856v1

@@ -7,7 +7,7 @@
 ## 📊 论文统计
 
 - **总计**: 230 篇论文
-- **最后更新**: 2026-03-26 16:23:16
+- **最后更新**: 2026-03-26 18:38:17
 
 ## 🔍 搜索领域
 
@@ -307,13 +307,7 @@ video-cnn-interpretability/
 2. 生成论文总结
 3. 更新本 README
 4. 推送更新到 GitHub
-5. 发送飞书群通知（如已配置）
-
-## 🔐 安全配置
-
-飞书 Webhook 使用 GitHub Secrets 管理（敏感信息不暴露在代码中）：
-1. GitHub → Settings → Secrets → Actions
-2. 添加 `FEISHU_WEBHOOK`（飞书群机器人 Webhook URL）
+5. 发送飞书群通知
 
 ## 🤝 贡献
 

@@ -1,0 +1,52 @@
+# Mid-Long Term Daily Electricity Consumption Forecasting Based on Piecewise Linear Regression and Dilated Causal CNN
+
+**作者**: Zhou Lan, Ben Liu, Yi Feng, Danhuang Dong, Peng Zhang
+
+**发表信息**: arXiv · 2023
+
+**论文链接**: [arXiv:2310.15204v1](http://arxiv.org/abs/2310.15204v1)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> Daily electricity consumption forecasting is a classical problem.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+Daily electricity consumption forecasting is a classical problem. Existing forecasting algorithms tend to have decreased accuracy on special dates like holidays. This study decomposes the daily electricity consumption series into three components: trend, seasonal, and residual, and constructs a two-stage prediction method using piecewise linear regression as a filter and Dilated Causal CNN as a predictor. The specific steps involve setting breakpoints on the time axis and fitting the piecewise l
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-26
+- 分类: `相关领域`
+- arXiv ID: 2310.15204v1
