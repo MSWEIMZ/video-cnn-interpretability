@@ -1,94 +1,91 @@
-# video-cnn-interpretability
+# 视频 CNN 可解释性论文索引
 
-📚 视频 CNN 可解释性相关论文自动搜索与整理
+*最后更新: 2026-03-26 15:00:05*
 
-## 简介
+总计: 82 篇论文
 
-这是一个自动化的论文搜索与整理系统，专注于视频理解、3D CNN、R(2+1)D 模型及相关可解释性研究。
+## 2026
 
-## 搜索领域
+- **[A Modular Platooning and Vehicle Coordination Simulator for Research and Education](http://arxiv.org/abs/2603.24540v1)** - Kevin Jamsahar, Adrian Wiltz, Maria Charitidou et al. `[core]`
+- **[A Sociolinguistic Analysis of Automatic Speech Recognition Bias in Newcastle English](http://arxiv.org/abs/2603.24549v1)** - Dana Serditova, Kevin Tang `[core]`
+- **[A generalization of the Froissart-Stora formula to piecewise-linear spin-orbit resonance crossings](http://arxiv.org/abs/2603.24510v1)** - Joseph P. Devlin, Georg H. Hoffstaetter, Desmond P. Barber et al. `[related]`
+- **[A visual introduction to curved geometry for physicists](http://arxiv.org/abs/2603.24409v1)** - Karol Urbański `[core]`
+- **[AVO: Agentic Variation Operators for Autonomous Evolutionary Search](http://arxiv.org/abs/2603.24517v1)** - Terry Chen, Zhifan Ye, Bing Xu et al. `[related]`
+- **[Anti-I2V: Safeguarding your photos from malicious image-to-video generation](http://arxiv.org/abs/2603.24570v1)** - Duc Vu, Anh Nguyen, Chi Tran et al. `[core]`
+- **[Basic Canonical Brackets and Nilpotency Property of Noether (anti-)BRST Charges: Non-Abeian 1-Form Gauge Theory](http://arxiv.org/abs/2603.24514v1)** - R. P. Malik `[related]`
+- **[CUA-Suite: Massive Human-annotated Video Demonstrations for Computer-Use Agents](http://arxiv.org/abs/2603.24440v1)** - Xiangru Jian, Shravan Nayak, Kevin Qinghong Lin et al. `[core]`
+- **[Cascading Failures and Critical Infrastructures in Future Renewable European Power Systems](http://arxiv.org/abs/2603.24529v1)** - Maurizio Titz, Franz Kaiser, Johannes Kruse et al. `[related]`
+- **[Chameleon: Episodic Memory for Long-Horizon Robotic Manipulation](http://arxiv.org/abs/2603.24576v1)** - Xinying Guo, Chenxi Jiang, Hyun Bin Kim et al. `[core]`
+- **[Chiral Epitaxy: Enantioselective Growth of Chiral Nanowires on Low-Symmetry Two-Dimensional Materials](http://arxiv.org/abs/2603.24565v1)** - Noya Ruth Itzhak, Kate Reidy, Maya Levy-Greenberg et al. `[core]`
+- **[CliPPER: Contextual Video-Language Pretraining on Long-form Intraoperative Surgical Procedures for Event Recognition](http://arxiv.org/abs/2603.24539v1)** - Florian Stilz, Vinkle Srivastav, Nassir Navab et al. `[core]`
+- **[Comparing Developer and LLM Biases in Code Evaluation](http://arxiv.org/abs/2603.24586v1)** - Aditya Mittal, Ryan Shar, Zichu Wu et al. `[core]`
+- **[Completeness of Unbounded Best-First Minimax and Descent Minimax](http://arxiv.org/abs/2603.24572v1)** - Quentin Cohen-Solal `[related]`
+- **[Continuous-Time Learning of Probability Distributions: A Case Study in a Digital Trial of Young Children with Type 1 Diabetes](http://arxiv.org/abs/2603.24427v1)** - Antonio Álvarez-López, Marcos Matabuena `[related]`
+- **[Controlled antivortex propagation at bifurcations in reconfigurable NdCo/NiFe racetracks](http://arxiv.org/abs/2603.24520v1)** - V. V. Fernandez, A. E. Herguedas-Alonso, C. Fernandez-Gonzalez et al. `[related]`
+- **[Coordinating Spot and Contract Supply in Freight Marketplaces](http://arxiv.org/abs/2603.24574v1)** - Philip Kaminsky, Rachitesh Kumar, Roger Lederman et al. `[core]`
+- **[Cross-Modal Prototype Alignment and Mixing for Training-Free Few-Shot Classification](http://arxiv.org/abs/2603.24528v1)** - Dipam Goswami, Simone Magistri, Gido M. van de Ven et al. `[related]`
+- **[Derivation of the injection spectrum of positrons and electrons from Geminga and Monogem](http://arxiv.org/abs/2603.24394v1)** - Qian Zhong `[related]`
+- **[Detection of local geometry in random graphs: information-theoretic and computational limits](http://arxiv.org/abs/2603.24545v1)** - Jinho Bok, Shuangping Li, Sophie H. Yu et al. `[related]`
+- **[DreamerAD: Efficient Reinforcement Learning via Latent World Model for Autonomous Driving](http://arxiv.org/abs/2603.24587v1)** - Pengxuan Yang, Yupeng Zheng, Deheng Qian et al. `[core]`
+- **[Dynamical Systems in Cosmology: Reviewing An Alternative Approach](http://arxiv.org/abs/2603.24568v1)** - Nandan Roy, L. Arturo Ureña-López `[related]`
+- **[E-values as statistical evidence: A comparison to Bayes factors, likelihoods, and p-values](http://arxiv.org/abs/2603.24421v1)** - Ben Chugg, Aaditya Ramdas, Peter Grünwald et al. `[related]`
+- **[EndoVGGT: GNN-Enhanced Depth Estimation for Surgical 3D Reconstruction](http://arxiv.org/abs/2603.24577v1)** - Falong Fan, Yi Xie, Arnis Lektauers et al. `[core]`
+- **[Enes Causal Discovery](http://arxiv.org/abs/2603.24436v1)** - Alexis Kafantaris `[core]`
+- **[Evaluating Chunking Strategies For Retrieval-Augmented Generation in Oil and Gas Enterprise Documents](http://arxiv.org/abs/2603.24556v1)** - Samuel Taiwo, Mohd Amaluddin Yusoff `[related]`
+- **[Fine-tuning universal machine learning potentials for transition state search in surface catalysis](http://arxiv.org/abs/2603.24482v1)** - Raffaele Cheula, Mie Andersen, John R. Kitchin et al. `[core]`
+- **[Flagging the Clifford hierarchy:~Fault-tolerant logical $\fracπ{2^l}$ rotations via measuring circuit gauge operators of non-Cliffords](http://arxiv.org/abs/2603.24573v1)** - Shival Dasu, Ben Criger `[core]`
+- **[From Liar Paradox to Incongruent Sets: A Normal Form for Self-Reference](http://arxiv.org/abs/2603.24527v1)** - Shalender Singh, Vishnu Priya Singh Parmar `[related]`
+- **[Generalized and Scalable Deep Gaussian Process Emulation](http://arxiv.org/abs/2603.24538v1)** - Deyu Ming, Daniel Williamson `[related]`
+- **[Infrastructure for Valuable, Tradable, and Verifiable Agent Memory](http://arxiv.org/abs/2603.24564v1)** - Mengyuan Li, Lei Gao, Haoxuan Xu et al. `[related]`
+- **[Integral Control Barrier Functions with Input Delay: Prediction, Feasibility, and Robustness](http://arxiv.org/abs/2603.24566v1)** - Adam K. Kiss, Ersin Das, Tamas G. Molnar et al. `[core]`
+- **[Integrating Causal Machine Learning into Clinical Decision Support Systems: Insights from Literature and Practice](http://arxiv.org/abs/2603.24448v1)** - Domenique Zipperling, Lukas Schmidt, Benedikt Hahn et al. `[related]`
+- **[JSSAnet: Theory-Guided Subchannel Partitioning and Joint Spatial Attention for Near-Field Channel Estimation](http://arxiv.org/abs/2603.24505v1)** - Zhiming Zhu, Shu Xu, Chunguo Li et al. `[core]`
+- **[Latent-WAM: Latent World Action Modeling for End-to-End Autonomous Driving](http://arxiv.org/abs/2603.24581v1)** - Linbo Wang, Yupeng Zheng, Qiang Chen et al. `[core]`
+- **[LensWalk: Agentic Video Understanding by Planning How You See in Videos](http://arxiv.org/abs/2603.24558v1)** - Keliang Li, Yansong Li, Hongze Shen et al. `[core]`
+- **[MARCH: Multi-Agent Reinforced Self-Check for LLM Hallucination](http://arxiv.org/abs/2603.24579v1)** - Zhuo Li, Yupeng Zhang, Pengyu Cheng et al. `[core]`
+- **[Mitigating Barren Plateaus via Domain Decomposition in Variational Quantum Algorithms for Nonlinear PDEs](http://arxiv.org/abs/2603.24523v1)** - Laila S. Busaleh, Jeonghyeuk Kwon, Orlane Zang et al. `[core]`
+- **[Model Predictive Path Integral Control as Preconditioned Gradient Descent](http://arxiv.org/abs/2603.24489v1)** - Mahyar Fazlyab, Sina Sharifi, Jiarui Wang et al. `[related]`
+- **[Models of 3D confluent tissue as under-constrained glasses](http://arxiv.org/abs/2603.24438v1)** - Chengling Li, Matthias Merkel, Daniel M. Sussman et al. `[core]`
+- **[MolEvolve: LLM-Guided Evolutionary Search for Interpretable Molecular Optimization](http://arxiv.org/abs/2603.24382v1)** - Xiangsen Chen, Ruilong Wu, Yanyan Lan et al. `[related]`
+- **[Multi-mission Investigation of X-ray Superorbital Modulation in the Supergiant High Mass X-ray Binary 4U 1538-52](http://arxiv.org/abs/2603.24561v1)** - H. I. Cohen, N. Islam, R. H. D. Corbet et al. `[core]`
+- **[Multiple Topological States in LaAgAs2, a Failed Square-Net Semimetal](http://arxiv.org/abs/2603.24513v1)** - Yang Liu, Tongrui Li, Xixi Yuan et al. `[core]`
+- **[Neural Network Models for Contextual Regression](http://arxiv.org/abs/2603.24400v1)** - Seksan Kiatsupaibul, Pakawan Chansiripas `[related]`
+- **[No Single Metric Tells the Whole Story: A Multi-Dimensional Evaluation Framework for Uncertainty Attributions](http://arxiv.org/abs/2603.24524v1)** - Emily Schiller, Teodor Chiaburu, Marco Zullich et al. `[core]`
+- **[OmniWeaving: Towards Unified Video Generation with Free-form Composition and Reasoning](http://arxiv.org/abs/2603.24458v1)** - Kaihang Pan, Qi Tian, Jianwei Zhang et al. `[core]`
+- **[Optimal Multidimensional Convolutional Codes](http://arxiv.org/abs/2603.24546v1)** - Z. Abreu, J. Lieb, R. Pinto et al. `[core]`
+- **[Orientation Reconstruction of Proteins using Coulomb Explosions](http://arxiv.org/abs/2603.24553v1)** - Tomas André, Alfredo Bellisario, Nicusor Timneanu et al. `[core]`
+- **[POLY-SIM: Polyglot Speaker Identification with Missing Modality Grand Challenge 2026 Evaluation Plan](http://arxiv.org/abs/2603.24569v1)** - Marta Moscati, Muhammad Saad Saeed, Marina Zanoni et al. `[core]`
+- **[Particle-Hole Pair Localization on the Fermi Surface and its Impact on the Correlation Energy](http://arxiv.org/abs/2603.24395v1)** - Niels Benedikter `[related]`
+- **[Plasmonic Mediated Atomically Engineered 2D Aluminium Quasicrystals for Dopamine Biosensing](http://arxiv.org/abs/2603.24390v1)** - Saswata Goswami, Guilherme S. L. Fabris, Diganta Mondal et al. `[related]`
+- **[Polynomial Speedup in Diffusion Models with the Multilevel Euler-Maruyama Method](http://arxiv.org/abs/2603.24594v1)** - Arthur Jacot `[core]`
+- **[Propagation of singularities and inverse problems for the viscoacoustic wave equation](http://arxiv.org/abs/2603.24497v1)** - Giovanni Covi, Maarten de Hoop, Mikko Salo et al. `[related]`
+- **[Pseudo-MDP Convolutional Codes for Burst Erasure Correction](http://arxiv.org/abs/2603.24516v1)** - Zita Abreu, Julia Lieb, Raquel Pinto et al. `[core]`
+- **[RKKY-dipolar Interactions and 3D Spin Supersolid on Stacked Triangular Lattice](http://arxiv.org/abs/2603.24446v1)** - Ning Xi, Xitong Xu, Guoliang Wu et al. `[core]`
+- **[Raman phonon dynamics and its control for enhanced optical frequency conversion](http://arxiv.org/abs/2603.24386v1)** - Yi-Hao Chen, Frank Wise `[related]`
+- **[Representation Learning to Study Temporal Dynamics in Tutorial Scaffolding](http://arxiv.org/abs/2603.24535v1)** - Conrad Borchers, Jiayi Zhang, Ashish Gurung et al. `[related]`
+- **[Retrieval Improvements Do Not Guarantee Better Answers: A Study of RAG for AI Policy QA](http://arxiv.org/abs/2603.24580v1)** - Saahil Mathur, Ryan David Rittner, Vedant Ajit Thakur et al. `[core]`
+- **[Robust Multilingual Text-to-Pictogram Mapping for Scalable Reading Rehabilitation](http://arxiv.org/abs/2603.24536v1)** - Soufiane Jhilal, Martina Galletti `[related]`
+- **[SEGAR: Selective Enhancement for Generative Augmented Reality](http://arxiv.org/abs/2603.24541v1)** - Fanjun Bu, Chenyang Yuan, Hiroshi Yasuda et al. `[core]`
+- **[Scaling Recurrence-aware Foundation Models for Clinical Records via Next-Visit Prediction](http://arxiv.org/abs/2603.24562v1)** - Haresh Rengaraj Rajamohan, Xiang Gao, Weicheng Zhu et al. `[core]`
+- **[Stable corrections for perturbed diagonally implicit Runge--Kutta methods](http://arxiv.org/abs/2603.24451v1)** - John Driscoll, Sigal Gottlieb, Zachary J. Grant et al. `[core]`
+- **[Study of Low-Frequency Core-Edge Coupling in a Tokamak: I. Experimental Observation in KSTAR](http://arxiv.org/abs/2603.24525v1)** - Wonjun Lee, Andreas Bierwage, Seungmin Bong et al. `[core]`
+- **[TAG: Target-Agnostic Guidance for Stable Object-Centric Inference in Vision-Language-Action Models](http://arxiv.org/abs/2603.24584v1)** - Jiaying Zhou, Zhihao Zhan, Ruifeng Zhai et al. `[core]`
+- **[The Free-Market Algorithm: Self-Organizing Optimization for Open-Ended Complex Systems](http://arxiv.org/abs/2603.24559v1)** - Martin Jaraiz `[core]`
+- **[The Gait Signature of Frailty: Transfer Learning based Deep Gait Models for Scalable Frailty Assessment](http://arxiv.org/abs/2603.24434v1)** - Laura McDaniel, Basudha Pal, Crystal Szczesny et al. `[related]`
+- **[The Stochastic Gap: A Markovian Framework for Pre-Deployment Reliability and Oversight-Cost Auditing in Agentic Artificial Intelligence](http://arxiv.org/abs/2603.24582v1)** - Biplab Pal, Santanu Bhattacharya `[core]`
+- **[The forgotten role of wave dynamics in modulating the low cloud response to warm pool warming](http://arxiv.org/abs/2603.24488v1)** - Cristian Proistosescu, Pappu Paul, Nicholas J. Lutsko et al. `[core]`
+- **[The role of spatial context and multitask learning in the detection of organic and conventional farming systems based on Sentinel-2 time series](http://arxiv.org/abs/2603.24552v1)** - Jan Hemmerling, Marcel Schwieder, Philippe Rufin et al. `[core]`
+- **[Toward Physically Consistent Driving Video World Models under Challenging Trajectories](http://arxiv.org/abs/2603.24506v1)** - Jiawei Zhou, Zhenxin Zhu, Lingyi Du et al. `[core]`
+- **[Towards Training-Free Scene Text Editing](http://arxiv.org/abs/2603.24571v1)** - Yubo Li, Xugong Qin, Peng Zhang et al. `[core]`
+- **[Trust Region Constrained Bayesian Optimization with Penalized Constraint Handling](http://arxiv.org/abs/2603.24567v1)** - Raju Chowdhury, Tanmay Sen, Prajamitra Bhuyan et al. `[core]`
+- **[Two-dimensional IR-Raman spectroscopy of vibrational polaritons: Role of dipole surfaces](http://arxiv.org/abs/2603.24521v1)** - Xinwei Ji, Tomislav Begusic, Tao E. Li et al. `[core]`
+- **[UI-Voyager: A Self-Evolving GUI Agent Learning via Failed Experience](http://arxiv.org/abs/2603.24533v1)** - Zichuan Lin, Feiyu Liu, Yijun Yang et al. `[related]`
+- **[Unleashing Vision-Language Semantics for Deepfake Video Detection](http://arxiv.org/abs/2603.24454v1)** - Jiawen Zhu, Yunqi Miao, Xueyi Zhang et al. `[core]`
+- **[Unlocking HST's Stellar Treasure Trove: Stellar Activity Minima for HAT-P-11 Offer Prime Windows for Transmission Spectroscopy](http://arxiv.org/abs/2603.24585v1)** - Prajwal Niraula, Benjamin V. Rackham, Julien de Wit et al. `[core]`
+- **[Using Educational Comics in Physics Teaching for Chemistry and Biochemistry Students: Impact on Motivation and Domain-Specific Conceptual Gains](http://arxiv.org/abs/2603.24498v1)** - Mauricio Echiburu, Camilo Henriquez, Rodrigo Valdés et al. `[core]`
+- **[VFIG: Vectorizing Complex Figures in SVG with Vision-Language Models](http://arxiv.org/abs/2603.24575v1)** - Qijia He, Xunmei Liu, Hammaad Memon et al. `[core]`
+- **[Vibe Coding XR: Accelerating AI + XR Prototyping with XR Blocks and Gemini](http://arxiv.org/abs/2603.24591v1)** - Ruofei Du, Benjamin Hersh, David Li et al. `[core]`
+- **[Video-Only ToM: Enhancing Theory of Mind in Multimodal Large Language Models](http://arxiv.org/abs/2603.24484v1)** - Siqi Liu, Xinyang Li, Bochao Zou et al. `[core]`
+- **[Vision-Language Models vs Human: Perceptual Image Quality Assessment](http://arxiv.org/abs/2603.24578v1)** - Imran Mehmood, Imad Ali Shah, Ming Ronnier Luo et al. `[core]`
+- **[YingMusic-Singer: Controllable Singing Voice Synthesis with Flexible Lyric Manipulation and Annotation-free Melody Guidance](http://arxiv.org/abs/2603.24589v1)** - Chunbo Hao, Junjie Zheng, Guobin Ma et al. `[related]`
 
-### 核心领域
-- R(2+1)D video classification interpretability
-- 3D CNN video explainability
-- Spatiotemporal convolution video understanding
-- Video action recognition neural network
-
-### 相关领域
-- CNN interpretability explainability
-- Network dissection deep vision
-- Attention mechanism visualization
-- Transformer video interpretability
-
-## 项目结构
-
-```
-video-cnn-interpretability/
-├── arxiv_search.py          # arXiv 搜索脚本
-├── search_config.json       # 搜索配置文件
-├── paper_template.md        # 论文总结模板
-├── papers/
-│   ├── 2017/
-│   ├── 2018/
-│   ├── ...
-│   └── 2026/
-│       ├── core/           # 核心领域论文
-│       └── related/        # 相关领域论文
-└── README.md               # 论文索引
-```
-
-## 使用方法
-
-### 安装依赖
-
-```bash
-pip install arxiv
-```
-
-### 运行搜索
-
-```bash
-python arxiv_search.py
-```
-
-### 配置搜索关键词
-
-编辑 `search_config.json` 来自定义搜索查询：
-
-```json
-{
-  "search_queries": {
-    "core": ["your core topic queries"],
-    "related": ["your related topic queries"]
-  },
-  "max_results_per_query": 20
-}
-```
-
-## 论文总结模板
-
-每篇论文按以下格式整理：
-
-- **基本信息**: 作者、发表、会议/期刊、arXiv链接、代码链接
-- **一句话概括**: 论文核心贡献的简短描述
-- **方法论**: 详细方法描述
-- **实验**: 数据集和主要结果
-- **总结**: 论文意义和局限性
-- **后续改进**: 可能的改进方向
-
-## 自动更新
-
-可配合 cron/任务计划程序定期运行搜索脚本：
-
-```bash
-# 每周一早上9点运行
-0 9 * * 1 python /path/to/arxiv_search.py
-```
-
-## 贡献
-
-欢迎提交 Issue 或 Pull Request 来补充论文信息！
-
-## 许可
-
-本项目仅用于学术研究目的。
