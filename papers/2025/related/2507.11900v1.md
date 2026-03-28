@@ -1,0 +1,52 @@
+# CompressedVQA-HDR: Generalized Full-reference and No-reference Quality Assessment Models for Compressed High Dynamic Range Videos
+
+**作者**: Wei Sun, Linhan Cao, Kang Fu, Dandan Zhu, Jun Jia, Menghan Hu, Xiongkuo Min, Guangtao Zhai
+
+**发表信息**: arXiv · 2025
+
+**论文链接**: [arXiv:2507.11900v1](http://arxiv.org/abs/2507.11900v1)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> Video compression is a standard procedure applied to all videos to minimize storage and transmission demands while preserving visual quality as much as possible.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+Video compression is a standard procedure applied to all videos to minimize storage and transmission demands while preserving visual quality as much as possible. Therefore, evaluating the visual quality of compressed videos is crucial for guiding the practical usage and further development of video compression algorithms. Although numerous compressed video quality assessment (VQA) methods have been proposed, they often lack the generalization capability needed to handle the increasing diversity 
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-28
+- 分类: `相关领域`
+- arXiv ID: 2507.11900v1

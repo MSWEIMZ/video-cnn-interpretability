@@ -1,0 +1,52 @@
+# Neural Relighting and Expression Transfer On Video Portraits
+
+**作者**: Youjia Wang, Taotao Zhou, Minzhang Li, Teng Xu, Minye Wu, Lan Xu, Jingyi Yu
+
+**发表信息**: arXiv · 2021
+
+**论文链接**: [arXiv:2107.14735v4](http://arxiv.org/abs/2107.14735v4)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> Photo-realistic video portrait reenactment benefits virtual production and numerous VR/AR experiences.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+Photo-realistic video portrait reenactment benefits virtual production and numerous VR/AR experiences. The task remains challenging as the reenacted expression should match the source while the lighting should be adjustable to new environments. We present a neural relighting and expression transfer technique to transfer the facial expressions from a source performer to a portrait video of a target performer while enabling dynamic relighting. Our approach employs 4D reflectance field learning, mo
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-28
+- 分类: `相关领域`
+- arXiv ID: 2107.14735v4

@@ -1,0 +1,52 @@
+# Reclaiming the Horizon: Novel Visualization Designs for Time-Series Data with Large Value Ranges
+
+**作者**: Daniel Braun, Rita Borgo, Max Sondag, Tatiana von Landesberger
+
+**发表信息**: arXiv · 2023
+
+**论文链接**: [arXiv:2307.10278v2](http://arxiv.org/abs/2307.10278v2)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> We introduce two novel visualization designs to support practitioners in performing identification and discrimination tasks on large value ranges (i.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+We introduce two novel visualization designs to support practitioners in performing identification and discrimination tasks on large value ranges (i.e., several orders of magnitude) in time-series data: (1) The order of magnitude horizon graph, which extends the classic horizon graph; and (2) the order of magnitude line chart, which adapts the log-line chart. These new visualization designs visualize large value ranges by explicitly splitting the mantissa m and exponent e of a value v = m * 10e 
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-28
+- 分类: `相关领域`
+- arXiv ID: 2307.10278v2

@@ -1,0 +1,52 @@
+# Reangle-A-Video: 4D Video Generation as Video-to-Video Translation
+
+**作者**: Hyeonho Jeong, Suhyeon Lee, Jong Chul Ye
+
+**发表信息**: arXiv · 2025
+
+**论文链接**: [arXiv:2503.09151v3](http://arxiv.org/abs/2503.09151v3)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> We introduce Reangle-A-Video, a unified framework for generating synchronized multi-view videos from a single input video.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+We introduce Reangle-A-Video, a unified framework for generating synchronized multi-view videos from a single input video. Unlike mainstream approaches that train multi-view video diffusion models on large-scale 4D datasets, our method reframes the multi-view video generation task as video-to-videos translation, leveraging publicly available image and video diffusion priors. In essence, Reangle-A-Video operates in two stages. (1) Multi-View Motion Learning: An image-to-video diffusion transforme
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-28
+- 分类: `相关领域`
+- arXiv ID: 2503.09151v3

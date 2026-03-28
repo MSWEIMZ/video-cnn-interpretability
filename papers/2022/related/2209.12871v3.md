@@ -1,0 +1,52 @@
+# Variationally Mimetic Operator Networks
+
+**作者**: Dhruv Patel, Deep Ray, Michael R. A. Abdelmalik, Thomas J. R. Hughes, Assad A. Oberai
+
+**发表信息**: arXiv · 2022
+
+**论文链接**: [arXiv:2209.12871v3](http://arxiv.org/abs/2209.12871v3)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> In recent years operator networks have emerged as promising deep learning tools for approximating the solution to partial differential equations (PDEs).
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+In recent years operator networks have emerged as promising deep learning tools for approximating the solution to partial differential equations (PDEs). These networks map input functions that describe material properties, forcing functions and boundary data to the solution of a PDE. This work describes a new architecture for operator networks that mimics the form of the numerical solution obtained from an approximate variational or weak formulation of the problem. The application of these ideas
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-28
+- 分类: `相关领域`
+- arXiv ID: 2209.12871v3

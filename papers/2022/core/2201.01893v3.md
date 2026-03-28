@@ -1,0 +1,52 @@
+# Flow-Guided Sparse Transformer for Video Deblurring
+
+**作者**: Jing Lin, Yuanhao Cai, Xiaowan Hu, Haoqian Wang, Youliang Yan, Xueyi Zou, Henghui Ding, Yulun Zhang, Radu Timofte, Luc Van Gool
+
+**发表信息**: arXiv · 2022
+
+**论文链接**: [arXiv:2201.01893v3](http://arxiv.org/abs/2201.01893v3)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> Exploiting similar and sharper scene patches in spatio-temporal neighborhoods is critical for video deblurring.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+Exploiting similar and sharper scene patches in spatio-temporal neighborhoods is critical for video deblurring. However, CNN-based methods show limitations in capturing long-range dependencies and modeling non-local self-similarity. In this paper, we propose a novel framework, Flow-Guided Sparse Transformer (FGST), for video deblurring. In FGST, we customize a self-attention module, Flow-Guided Sparse Window-based Multi-head Self-Attention (FGSW-MSA). For each $query$ element on the blurry refer
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-28
+- 分类: `核心领域`
+- arXiv ID: 2201.01893v3

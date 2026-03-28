@@ -1,0 +1,52 @@
+# Temporal-attentive Covariance Pooling Networks for Video Recognition
+
+**作者**: Zilin Gao, Qilong Wang, Bingbing Zhang, Qinghua Hu, Peihua Li
+
+**发表信息**: arXiv · 2021
+
+**论文链接**: [arXiv:2110.14381v3](http://arxiv.org/abs/2110.14381v3)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> For video recognition task, a global representation summarizing the whole contents of the video snippets plays an important role for the final performance.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+For video recognition task, a global representation summarizing the whole contents of the video snippets plays an important role for the final performance. However, existing video architectures usually generate it by using a simple, global average pooling (GAP) method, which has limited ability to capture complex dynamics of videos. For image recognition task, there exist evidences showing that covariance pooling has stronger representation ability than GAP. Unfortunately, such plain covariance 
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-28
+- 分类: `核心领域`
+- arXiv ID: 2110.14381v3

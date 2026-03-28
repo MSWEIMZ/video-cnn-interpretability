@@ -1,0 +1,52 @@
+# CoS: Chain-of-Shot Prompting for Long Video Understanding
+
+**作者**: Jian Hu, Zixu Cheng, Chenyang Si, Wei Li, Shaogang Gong
+
+**发表信息**: arXiv · 2025
+
+**论文链接**: [arXiv:2502.06428v2](http://arxiv.org/abs/2502.06428v2)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> Multi-modal Large Language Models (MLLMs) struggle with long videos due to the need for excessive visual tokens.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+Multi-modal Large Language Models (MLLMs) struggle with long videos due to the need for excessive visual tokens. These tokens exceed massively the context length of MLLMs, resulting in filled by redundant task-irrelevant shots. How to select shots is an unsolved critical problem: sparse sampling risks missing key details, while exhaustive sampling overwhelms the model with irrelevant content, leading to video misunderstanding. To solve this problem, we propose Chain-of-Shot prompting (CoS). The 
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-28
+- 分类: `核心领域`
+- arXiv ID: 2502.06428v2

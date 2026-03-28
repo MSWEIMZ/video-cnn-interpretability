@@ -1,0 +1,52 @@
+# Parallel Neural Networks in Golang
+
+**作者**: Daniela Kalwarowskyj, Erich Schikuta
+
+**发表信息**: arXiv · 2023
+
+**论文链接**: [arXiv:2304.09590v1](http://arxiv.org/abs/2304.09590v1)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> This paper describes the design and implementation of parallel neural networks (PNNs) with the novel programming language Golang.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+This paper describes the design and implementation of parallel neural networks (PNNs) with the novel programming language Golang. We follow in our approach the classical Single-Program Multiple-Data (SPMD) model where a PNN is composed of several sequential neural networks, which are trained with a proportional share of the training dataset. We used for this purpose the MNIST dataset, which contains binary images of handwritten digits. Our analysis focusses on different activation functions and 
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-28
+- 分类: `相关领域`
+- arXiv ID: 2304.09590v1

@@ -1,0 +1,52 @@
+# Adaptive Video Encoding For Different Video Codecs
+
+**作者**: Gangadharan Esakki, Andreas Panayides, Venkatesh Jatla, Marios Pattichis
+
+**发表信息**: arXiv · 2021
+
+**论文链接**: [arXiv:2105.08191v1](http://arxiv.org/abs/2105.08191v1)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> By 2022, we expect video traffic to reach 82% of the total internet traffic.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+By 2022, we expect video traffic to reach 82% of the total internet traffic. Undoubtedly, the abundance of video-driven applications will likely lead internet video traffic percentage to a further increase in the near future, enabled by associate advances in video devices' capabilities. In response to this ever-growing demand, the Alliance for Open Media (AOM) and the Joint Video Experts Team (JVET) have demonstrated strong and renewed interest in developing new video codecs. In the fast-changin
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-28
+- 分类: `核心领域`
+- arXiv ID: 2105.08191v1

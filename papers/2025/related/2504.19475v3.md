@@ -1,0 +1,52 @@
+# Prisma: An Open Source Toolkit for Mechanistic Interpretability in Vision and Video
+
+**作者**: Sonia Joseph, Praneet Suresh, Lorenz Hufe, Edward Stevinson, Robert Graham, Yash Vadi, Danilo Bzdok, Sebastian Lapuschkin, Lee Sharkey, Blake Aaron Richards
+
+**发表信息**: arXiv · 2025
+
+**论文链接**: [arXiv:2504.19475v3](http://arxiv.org/abs/2504.19475v3)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> Robust tooling and publicly available pre-trained models have helped drive recent advances in mechanistic interpretability for language models.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+Robust tooling and publicly available pre-trained models have helped drive recent advances in mechanistic interpretability for language models. However, similar progress in vision mechanistic interpretability has been hindered by the lack of accessible frameworks and pre-trained weights. We present Prisma (Access the codebase here: https://github.com/Prisma-Multimodal/ViT-Prisma), an open-source framework designed to accelerate vision mechanistic interpretability research, providing a unified to
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-28
+- 分类: `相关领域`
+- arXiv ID: 2504.19475v3

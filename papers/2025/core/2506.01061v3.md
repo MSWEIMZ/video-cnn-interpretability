@@ -1,0 +1,52 @@
+# AceVFI: A Comprehensive Survey of Advances in Video Frame Interpolation
+
+**作者**: Dahyeon Kye, Changhyun Roh, Sukhun Ko, Chanho Eom, Jihyong Oh
+
+**发表信息**: arXiv · 2025
+
+**论文链接**: [arXiv:2506.01061v3](http://arxiv.org/abs/2506.01061v3)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> Video Frame Interpolation (VFI) is a core low-level vision task that synthesizes intermediate frames between existing ones while ensuring spatial and temporal coherence.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+Video Frame Interpolation (VFI) is a core low-level vision task that synthesizes intermediate frames between existing ones while ensuring spatial and temporal coherence. Over the past decades, VFI methodologies have evolved from classical motion compensation-based approach to a wide spectrum of deep learning-based approaches, including kernel-, flow-, hybrid-, phase-, GAN-, Transformer-, Mamba-, and most recently, diffusion-based models. We introduce AceVFI, a comprehensive and up-to-date review
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-28
+- 分类: `核心领域`
+- arXiv ID: 2506.01061v3

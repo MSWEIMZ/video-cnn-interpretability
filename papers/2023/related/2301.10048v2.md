@@ -1,0 +1,52 @@
+# Exploiting Optical Flow Guidance for Transformer-Based Video Inpainting
+
+**作者**: Kaidong Zhang, Jialun Peng, Jingjing Fu, Dong Liu
+
+**发表信息**: arXiv · 2023
+
+**论文链接**: [arXiv:2301.10048v2](http://arxiv.org/abs/2301.10048v2)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> Transformers have been widely used for video processing owing to the multi-head self attention (MHSA) mechanism.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+Transformers have been widely used for video processing owing to the multi-head self attention (MHSA) mechanism. However, the MHSA mechanism encounters an intrinsic difficulty for video inpainting, since the features associated with the corrupted regions are degraded and incur inaccurate self attention. This problem, termed query degradation, may be mitigated by first completing optical flows and then using the flows to guide the self attention, which was verified in our previous work - flow-gui
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-28
+- 分类: `相关领域`
+- arXiv ID: 2301.10048v2

@@ -1,0 +1,52 @@
+# Study of a committee of neural networks for biometric hand-geometry recognition
+
+**作者**: Marcos Faundez-Zanuy
+
+**发表信息**: arXiv · 2022
+
+**论文链接**: [arXiv:2204.03935v1](http://arxiv.org/abs/2204.03935v1)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> This Paper studies different committees of neural networks for biometric pattern recognition.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+This Paper studies different committees of neural networks for biometric pattern recognition. We use the neural nets as classifiers for identification and verification purposes. We show that a committee of nets can improve the recognition rates when compared with a multi-start initialization algo-rithm that just picks up the neural net which offers the best performance. On the other hand, we found that there is no strong correlation between identifi-cation and verification applications using the
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-28
+- 分类: `核心领域`
+- arXiv ID: 2204.03935v1

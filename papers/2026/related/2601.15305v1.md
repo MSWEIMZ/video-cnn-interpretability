@@ -1,0 +1,52 @@
+# Gated Sparse Attention: Combining Computational Efficiency with Training Stability for Long-Context Language Models
+
+**作者**: Alfred Shen, Aaron Shen
+
+**发表信息**: arXiv · 2026
+
+**论文链接**: [arXiv:2601.15305v1](http://arxiv.org/abs/2601.15305v1)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> The computational burden of attention in long-context language models has motivated two largely independent lines of work: sparse attention mechanisms that reduce complexity by attending to selected tokens, and gated attention variants that improve training sta-bility while mitigating the attention sink phenomenon.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+The computational burden of attention in long-context language models has motivated two largely independent lines of work: sparse attention mechanisms that reduce complexity by attending to selected tokens, and gated attention variants that improve training sta-bility while mitigating the attention sink phenomenon. We observe that these approaches address complementary weaknesses and propose Gated Sparse Attention (GSA), an architecture that realizes the benefits of both. GSA incorporates a gate
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-28
+- 分类: `相关领域`
+- arXiv ID: 2601.15305v1

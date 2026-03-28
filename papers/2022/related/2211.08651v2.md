@@ -1,0 +1,52 @@
+# Using explainability to design physics-aware CNNs for solving subsurface inverse problems
+
+**作者**: Jodie Crocker, Krishna Kumar, Brady R. Cox
+
+**发表信息**: arXiv · 2022
+
+**论文链接**: [arXiv:2211.08651v2](http://arxiv.org/abs/2211.08651v2)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> We present a novel method of using explainability techniques to design physics-aware neural networks.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+We present a novel method of using explainability techniques to design physics-aware neural networks. We demonstrate our approach by developing a convolutional neural network (CNN) for solving an inverse problem for shallow subsurface imaging. Although CNNs have gained popularity in recent years across many fields, the development of CNNs remains an art, as there are no clear guidelines regarding the selection of hyperparameters that will yield the best network. While optimization algorithms may
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-28
+- 分类: `相关领域`
+- arXiv ID: 2211.08651v2
