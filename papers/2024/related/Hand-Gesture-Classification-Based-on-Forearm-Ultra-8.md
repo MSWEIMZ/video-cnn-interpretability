@@ -1,0 +1,52 @@
+# Hand Gesture Classification Based on Forearm Ultrasound Video Snippets Using 3D Convolutional Neural Networks
+
+**作者**: Keshav Bimbraw, Ankit Talele, Haichong K. Zhang
+
+**发表信息**: arXiv · 2024
+
+**论文链接**: [arXiv:2409.16431v1](http://arxiv.org/abs/2409.16431v1)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> Ultrasound based hand movement estimation is a crucial area of research with applications in human-machine interaction.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+Ultrasound based hand movement estimation is a crucial area of research with applications in human-machine interaction. Forearm ultrasound offers detailed information about muscle morphology changes during hand movement which can be used to estimate hand gestures. Previous work has focused on analyzing 2-Dimensional (2D) ultrasound image frames using techniques such as convolutional neural networks (CNNs). However, such 2D techniques do not capture temporal features from segments of ultrasound d
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-28
+- 分类: `相关领域`
+- arXiv ID: 2409.16431v1

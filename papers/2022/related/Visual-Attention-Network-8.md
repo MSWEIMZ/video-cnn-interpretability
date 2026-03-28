@@ -1,0 +1,52 @@
+# Visual Attention Network
+
+**作者**: Meng-Hao Guo, Cheng-Ze Lu, Zheng-Ning Liu, Ming-Ming Cheng, Shi-Min Hu
+
+**发表信息**: arXiv · 2022
+
+**论文链接**: [arXiv:2202.09741v5](http://arxiv.org/abs/2202.09741v5)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> While originally designed for natural language processing tasks, the self-attention mechanism has recently taken various computer vision areas by storm.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+While originally designed for natural language processing tasks, the self-attention mechanism has recently taken various computer vision areas by storm. However, the 2D nature of images brings three challenges for applying self-attention in computer vision. (1) Treating images as 1D sequences neglects their 2D structures. (2) The quadratic complexity is too expensive for high-resolution images. (3) It only captures spatial adaptability but ignores channel adaptability. In this paper, we propose 
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-28
+- 分类: `相关领域`
+- arXiv ID: 2202.09741v5

@@ -1,0 +1,52 @@
+# MaskCRT: Masked Conditional Residual Transformer for Learned Video Compression
+
+**作者**: Yi-Hsin Chen, Hong-Sheng Xie, Cheng-Wei Chen, Zong-Lin Gao, Martin Benjak, Wen-Hsiao Peng, Jörn Ostermann
+
+**发表信息**: arXiv · 2023
+
+**论文链接**: [arXiv:2312.15829v2](http://arxiv.org/abs/2312.15829v2)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> Conditional coding has lately emerged as the mainstream approach to learned video compression.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+Conditional coding has lately emerged as the mainstream approach to learned video compression. However, a recent study shows that it may perform worse than residual coding when the information bottleneck arises. Conditional residual coding was thus proposed, creating a new school of thought to improve on conditional coding. Notably, conditional residual coding relies heavily on the assumption that the residual frame has a lower entropy rate than that of the intra frame. Recognizing that this ass
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-28
+- 分类: `相关领域`
+- arXiv ID: 2312.15829v2

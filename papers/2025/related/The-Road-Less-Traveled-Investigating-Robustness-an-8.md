@@ -1,0 +1,52 @@
+# The Road Less Traveled: Investigating Robustness and Explainability in CNN Malware Detection
+
+**作者**: Matteo Brosolo, Vinod Puthuvath, Mauro Conti
+
+**发表信息**: arXiv · 2025
+
+**论文链接**: [arXiv:2503.01391v1](http://arxiv.org/abs/2503.01391v1)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> Machine learning has become a key tool in cybersecurity, improving both attack strategies and defense mechanisms.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+Machine learning has become a key tool in cybersecurity, improving both attack strategies and defense mechanisms. Deep learning models, particularly Convolutional Neural Networks (CNNs), have demonstrated high accuracy in detecting malware images generated from binary data. However, the decision-making process of these black-box models remains difficult to interpret. This study addresses this challenge by integrating quantitative analysis with explainability tools such as Occlusion Maps, HiResCA
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-28
+- 分类: `相关领域`
+- arXiv ID: 2503.01391v1

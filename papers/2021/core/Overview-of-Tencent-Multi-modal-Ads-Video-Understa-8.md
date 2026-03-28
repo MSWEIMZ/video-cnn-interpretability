@@ -1,0 +1,52 @@
+# Overview of Tencent Multi-modal Ads Video Understanding Challenge
+
+**作者**: Zhenzhi Wang, Liyu Wu, Zhimin Li, Jiangfeng Xiong, Qinglin Lu
+
+**发表信息**: arXiv · 2021
+
+**论文链接**: [arXiv:2109.07951v1](http://arxiv.org/abs/2109.07951v1)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> Multi-modal Ads Video Understanding Challenge is the first grand challenge aiming to comprehensively understand ads videos.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+Multi-modal Ads Video Understanding Challenge is the first grand challenge aiming to comprehensively understand ads videos. Our challenge includes two tasks: video structuring in the temporal dimension and multi-modal video classification. It asks the participants to accurately predict both the scene boundaries and the multi-label categories of each scene based on a fine-grained and ads-related category hierarchy. Therefore, our task has four distinguishing features from previous ones: ads domai
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-28
+- 分类: `核心领域`
+- arXiv ID: 2109.07951v1

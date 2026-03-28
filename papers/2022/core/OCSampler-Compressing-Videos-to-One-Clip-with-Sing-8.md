@@ -1,0 +1,52 @@
+# OCSampler: Compressing Videos to One Clip with Single-step Sampling
+
+**作者**: Jintao Lin, Haodong Duan, Kai Chen, Dahua Lin, Limin Wang
+
+**发表信息**: arXiv · 2022
+
+**论文链接**: [arXiv:2201.04388v1](http://arxiv.org/abs/2201.04388v1)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> In this paper, we propose a framework named OCSampler to explore a compact yet effective video representation with one short clip for efficient video recognition.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+In this paper, we propose a framework named OCSampler to explore a compact yet effective video representation with one short clip for efficient video recognition. Recent works prefer to formulate frame sampling as a sequential decision task by selecting frames one by one according to their importance, while we present a new paradigm of learning instance-specific video condensation policies to select informative frames for representing the entire video only in a single step. Our basic motivation 
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-28
+- 分类: `核心领域`
+- arXiv ID: 2201.04388v1

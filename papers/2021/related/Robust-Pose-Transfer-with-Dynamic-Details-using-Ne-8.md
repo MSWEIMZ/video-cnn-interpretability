@@ -1,0 +1,52 @@
+# Robust Pose Transfer with Dynamic Details using Neural Video Rendering
+
+**作者**: Yang-tian Sun, Hao-zhi Huang, Xuan Wang, Yu-kun Lai, Wei Liu, Lin Gao
+
+**发表信息**: arXiv · 2021
+
+**论文链接**: [arXiv:2106.14132v3](http://arxiv.org/abs/2106.14132v3)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> Pose transfer of human videos aims to generate a high fidelity video of a target person imitating actions of a source person.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+Pose transfer of human videos aims to generate a high fidelity video of a target person imitating actions of a source person. A few studies have made great progress either through image translation with deep latent features or neural rendering with explicit 3D features. However, both of them rely on large amounts of training data to generate realistic results, and the performance degrades on more accessible internet videos due to insufficient training frames. In this paper, we demonstrate that t
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-28
+- 分类: `相关领域`
+- arXiv ID: 2106.14132v3

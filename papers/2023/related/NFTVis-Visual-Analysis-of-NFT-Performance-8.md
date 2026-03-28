@@ -1,0 +1,52 @@
+# NFTVis: Visual Analysis of NFT Performance
+
+**作者**: Fan Yan, Xumeng Wang, Ketian Mao, Wei Zhang, Wei Chen
+
+**发表信息**: arXiv · 2023
+
+**论文链接**: [arXiv:2306.02712v1](http://arxiv.org/abs/2306.02712v1)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> A non-fungible token (NFT) is a data unit stored on the blockchain.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+A non-fungible token (NFT) is a data unit stored on the blockchain. Nowadays, more and more investors and collectors (NFT traders), who participate in transactions of NFTs, have an urgent need to assess the performance of NFTs. However, there are two challenges for NFT traders when analyzing the performance of NFT. First, the current rarity models have flaws and are sometimes not convincing. In addition, NFT performance is dependent on multiple factors, such as images (high-dimensional data), hi
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-28
+- 分类: `相关领域`
+- arXiv ID: 2306.02712v1

@@ -1,0 +1,52 @@
+# How Much 3D Do Video Foundation Models Encode?
+
+**作者**: Zixuan Huang, Xiang Li, Zhaoyang Lv, James M. Rehg
+
+**发表信息**: arXiv · 2025
+
+**论文链接**: [arXiv:2512.19949v1](http://arxiv.org/abs/2512.19949v1)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> Videos are continuous 2D projections of 3D worlds.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+Videos are continuous 2D projections of 3D worlds. After training on large video data, will global 3D understanding naturally emerge? We study this by quantifying the 3D understanding of existing Video Foundation Models (VidFMs) pretrained on vast video data. We propose the first model-agnostic framework that measures the 3D awareness of various VidFMs by estimating multiple 3D properties from their features via shallow read-outs. Our study presents meaningful findings regarding the 3D awareness
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-28
+- 分类: `核心领域`
+- arXiv ID: 2512.19949v1

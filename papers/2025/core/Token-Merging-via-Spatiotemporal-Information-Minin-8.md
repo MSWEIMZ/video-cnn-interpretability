@@ -1,0 +1,52 @@
+# Token Merging via Spatiotemporal Information Mining for Surgical Video Understanding
+
+**作者**: Xixi Jiang, Chen Yang, Dong Zhang, Pingcheng Dong, Xin Yang, Kwang-Ting Cheng
+
+**发表信息**: arXiv · 2025
+
+**论文链接**: [arXiv:2509.23672v1](http://arxiv.org/abs/2509.23672v1)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> Vision Transformer models have shown impressive effectiveness in the surgical video understanding tasks through long-range dependency modeling.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+Vision Transformer models have shown impressive effectiveness in the surgical video understanding tasks through long-range dependency modeling. However, current methods suffer from prohibitive computational costs due to processing massive spatiotemporal tokens across video frames. While prior work on token merging has advanced model efficiency, they fail to adequately consider the inherent spatiotemporal structure of video data and overlook the heterogeneous nature of information distribution, l
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-28
+- 分类: `核心领域`
+- arXiv ID: 2509.23672v1

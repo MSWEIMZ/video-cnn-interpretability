@@ -1,0 +1,52 @@
+# A Class of Low-complexity DCT-like Transforms for Image and Video Coding
+
+**作者**: T. L. T. da Silveira, D. R. Canterle, D. F. G. Coelho, V. A. Coutinho, F. M. Bayer, R. J. Cintra
+
+**发表信息**: arXiv · 2022
+
+**论文链接**: [arXiv:2206.00122v2](http://arxiv.org/abs/2206.00122v2)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> The discrete cosine transform (DCT) is a relevant tool in signal processing applications, mainly known for its good decorrelation properties.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+The discrete cosine transform (DCT) is a relevant tool in signal processing applications, mainly known for its good decorrelation properties. Current image and video coding standards -- such as JPEG and HEVC -- adopt the DCT as a fundamental building block for compression. Recent works have introduced low-complexity approximations for the DCT, which become paramount in applications demanding real-time computation and low-power consumption. The design of DCT approximations involves a trade-off be
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-28
+- 分类: `相关领域`
+- arXiv ID: 2206.00122v2

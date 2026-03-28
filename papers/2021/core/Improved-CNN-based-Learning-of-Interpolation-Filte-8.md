@@ -1,0 +1,52 @@
+# Improved CNN-based Learning of Interpolation Filters for Low-Complexity Inter Prediction in Video Coding
+
+**作者**: Luka Murn, Saverio Blasi, Alan F. Smeaton, Marta Mrak
+
+**发表信息**: arXiv · 2021
+
+**论文链接**: [arXiv:2106.08936v1](http://arxiv.org/abs/2106.08936v1)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> The versatility of recent machine learning approaches makes them ideal for improvement of next generation video compression solutions.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+The versatility of recent machine learning approaches makes them ideal for improvement of next generation video compression solutions. Unfortunately, these approaches typically bring significant increases in computational complexity and are difficult to interpret into explainable models, affecting their potential for implementation within practical video coding applications. This paper introduces a novel explainable neural network-based inter-prediction scheme, to improve the interpolation of re
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-28
+- 分类: `核心领域`
+- arXiv ID: 2106.08936v1

@@ -1,0 +1,52 @@
+# Learned Scalable Video Coding For Humans and Machines
+
+**作者**: Hadi Hadizadeh, Ivan V. Bajić
+
+**发表信息**: arXiv · 2023
+
+**论文链接**: [arXiv:2307.08978v2](http://arxiv.org/abs/2307.08978v2)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> Video coding has traditionally been developed to support services such as video streaming, videoconferencing, digital TV, and so on.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+Video coding has traditionally been developed to support services such as video streaming, videoconferencing, digital TV, and so on. The main intent was to enable human viewing of the encoded content. However, with the advances in deep neural networks (DNNs), encoded video is increasingly being used for automatic video analytics performed by machines. In applications such as automatic traffic monitoring, analytics such as vehicle detection, tracking and counting, would run continuously, while hu
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-28
+- 分类: `相关领域`
+- arXiv ID: 2307.08978v2

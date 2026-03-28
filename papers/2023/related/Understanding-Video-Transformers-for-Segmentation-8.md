@@ -1,0 +1,52 @@
+# Understanding Video Transformers for Segmentation: A Survey of Application and Interpretability
+
+**作者**: Rezaul Karim, Richard P. Wildes
+
+**发表信息**: arXiv · 2023
+
+**论文链接**: [arXiv:2310.12296v1](http://arxiv.org/abs/2310.12296v1)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> Video segmentation encompasses a wide range of categories of problem formulation, e.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+Video segmentation encompasses a wide range of categories of problem formulation, e.g., object, scene, actor-action and multimodal video segmentation, for delineating task-specific scene components with pixel-level masks. Recently, approaches in this research area shifted from concentrating on ConvNet-based to transformer-based models. In addition, various interpretability approaches have appeared for transformer models and video temporal dynamics, motivated by the growing interest in basic scie
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-28
+- 分类: `相关领域`
+- arXiv ID: 2310.12296v1

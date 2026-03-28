@@ -1,0 +1,52 @@
+# Do You "Trust" This Visualization? An Inventory to Measure Trust in Visualizations
+
+**作者**: Huichen Will Wang, Kylie Lin, Andrew Cohen, Ryan Kennedy, Zach Zwald, Carolina Nobre, Cindy Xiong Bearfield
+
+**发表信息**: arXiv · 2025
+
+**论文链接**: [arXiv:2503.17670v2](http://arxiv.org/abs/2503.17670v2)
+
+**代码链接**: (待补充)
+
+---
+
+### 🎯 一句话概括
+
+> Trust plays a critical role in visual data communication and decision-making, yet existing visualization research employs varied trust measures, making it challenging to compare and synthesize findings across studies.
+
+---
+
+### 📖 方法论
+
+#### 核心思想
+Trust plays a critical role in visual data communication and decision-making, yet existing visualization research employs varied trust measures, making it challenging to compare and synthesize findings across studies. In this work, we first took a bottom-up, data-driven approach to understand what visualization readers mean when they say they "trust" a visualization. We compiled and adapted a broad set of trust-related statements from existing inventories and collected responses to visualization
+
+---
+
+### 📊 实验
+
+**数据集**: (待补充)
+
+**主要结果**: (待补充)
+
+---
+
+### 💡 总结与思考
+
+**论文贡献**: (待整理)
+
+**局限性**: (待分析)
+
+---
+
+### 🔄 后续改进方向
+
+1. (待分析)
+2. (待分析)
+
+---
+
+**整理信息**
+- 整理时间: 2026-03-28
+- 分类: `相关领域`
+- arXiv ID: 2503.17670v2
