@@ -217,27 +217,21 @@ def generate_paper_summary(paper: dict, category: str) -> str:
 
 
 def save_paper(paper: dict, output_dir: str, category: str) -> tuple:
-    """Save paper summary to file, returns (filepath, safe_title)"""
+    """Save paper summary to file, uses arxiv_id as filename to prevent duplicates"""
     published = paper.get('published', '')
     year = published[:4] if published else str(extract_year_from_arxiv_id(paper.get('arxiv_id', '')))
     year_dir = os.path.join(output_dir, year, category)
     os.makedirs(year_dir, exist_ok=True)
 
-    title = paper.get('title', 'unknown')
-    safe_title = safe_filename(title)
-    filename = f"{safe_title}.md"
-
+    # Use arxiv_id as filename to prevent duplicates
+    arxiv_id = paper.get('arxiv_id', 'unknown')
+    filename = f"{arxiv_id}.md"
     filepath = os.path.join(year_dir, filename)
-    counter = 1
-    while os.path.exists(filepath):
-        filename = f"{safe_title}-{counter}.md"
-        filepath = os.path.join(year_dir, filename)
-        counter += 1
 
     content = generate_paper_summary(paper, category)
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(content)
-    return filepath, safe_title
+    return filepath, arxiv_id
 
 
 def generate_paper_brief(paper: dict) -> str:
@@ -383,17 +377,9 @@ def generate_readme(output_dir: str, papers: list):
             category = paper.get('search_category', 'related')
             cat_icon = '🔥' if category == 'core' else '📎'
 
-            # Build link to the actual paper file
-            safe_title = safe_filename(paper.get('title', 'unknown'))
-            md_file = f"papers/{year}/{category}/{safe_title}.md"
-
-            # Check if file exists with different counter
-            base_path = os.path.join(output_dir, year, category, safe_title)
-            if not os.path.exists(base_path + '.md'):
-                for i in range(1, 10):
-                    if os.path.exists(f"{base_path}-{i}.md"):
-                        md_file = f"papers/{year}/{category}/{safe_title}-{i}.md"
-                        break
+            # Build link to the actual paper file using arxiv_id
+            arxiv_id = paper.get('arxiv_id', '')
+            md_file = f"papers/{year}/{category}/{arxiv_id}.md"
 
             rows.append(f"| {year} | [{title}]({md_file}) | {authors_str} | {venue} | {keywords} | {cat_icon} |")
 
