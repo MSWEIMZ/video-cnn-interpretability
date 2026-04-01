@@ -6,8 +6,8 @@
 
 ## 📊 论文统计
 
-- **总计**: 229 篇论文
-- **最后更新**: 2026-03-31 03:52:58
+- **总计**: 230 篇论文
+- **最后更新**: 2026-04-01 04:14:49
 
 ## 🔍 搜索领域
 
@@ -33,6 +33,7 @@
 | 2026 | [Gated Sparse Attention: Combining Computational Ef](papers/2026/related/2601.15305v1.md) | Alfred Shen, Aaron Shen | AI | attention mechanism visualizat | 📎 |
 | 2026 | [Measurement of CP asymmetries in $\kern 0.18em\ove](papers/2026/core/2603.28132v1.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
 | 2026 | [Midterm Status Report of the ILC Technology Networ](papers/2026/related/2603.01172v1.md) | ILC Technology Network | arXiv | network dissection deep visual | 📎 |
+| 2026 | [Monodense Deep Neural Model for Determining Item P](papers/2026/related/2603.29261v1.md) | Lakshya Garg, Sai Yaswanth+ | LG | network dissection deep visual | 📎 |
 | 2026 | [Search for lepton-number-violating $B^-\to D^{(*)+](papers/2026/core/2601.07657v1.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
 | 2026 | [TTE-CAM: Built-in Class Activation Maps for Test-T](papers/2026/core/2603.26885v1.md) | Kerol Djoumessi, Philipp Berens | CV | 3D CNN video explainability | 🔥 |
 | 2026 | [Video Understanding: From Geometry and Semantics t](papers/2026/core/2603.17840v1.md) | Zhaochong An, Zirui Li+ | CV | spatiotemporal convolution vid | 🔥 |
