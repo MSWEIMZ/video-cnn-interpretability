@@ -6,8 +6,8 @@
 
 ## 📊 论文统计
 
-- **总计**: 231 篇论文
-- **最后更新**: 2026-04-07 03:51:37
+- **总计**: 233 篇论文
+- **最后更新**: 2026-04-08 03:54:00
 
 ## 🔍 搜索领域
 
@@ -32,12 +32,15 @@
 | 2026 | [Fast Multirate Encoding for 360° Video in OMAF Str](papers/2026/related/2601.17568v1.md) | Amritha Premkumar, Christian Herglotz | MM | video transformer interpretabi | 📎 |
 | 2026 | [Gated Sparse Attention: Combining Computational Ef](papers/2026/related/2601.15305v1.md) | Alfred Shen, Aaron Shen | AI | attention mechanism visualizat | 📎 |
 | 2026 | [Measurement of CP asymmetries in $\kern 0.18em\ove](papers/2026/core/2603.28132v1.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2026 | [Measurement of the CKM angle $γ$ in $B^{\pm} \righ](papers/2026/core/2604.05701v1.md) | The BESIII, LHCb Collaborations+ | arXiv | R(2+1)D video classification i | 🔥 |
 | 2026 | [Midterm Status Report of the ILC Technology Networ](papers/2026/related/2603.01172v1.md) | ILC Technology Network | arXiv | network dissection deep visual | 📎 |
 | 2026 | [Monodense Deep Neural Model for Determining Item P](papers/2026/related/2603.29261v1.md) | Lakshya Garg, Sai Yaswanth+ | LG | network dissection deep visual | 📎 |
+| 2026 | [Precise measurement of the CKM angle $γ$ with a no](papers/2026/core/2604.05712v1.md) | The BESIII, LHCb Collaborations+ | arXiv | R(2+1)D video classification i | 🔥 |
 | 2026 | [Search for lepton-number-violating $B^-\to D^{(*)+](papers/2026/core/2601.07657v1.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
 | 2026 | [Searches for Continuous Gravitational Waves from S](papers/2026/core/2603.25808v2.md) |  The LIGO Scientific Collaboration,  the Virgo Collaboration+ | arXiv | R(2+1)D video classification i | 🔥 |
 | 2026 | [TTE-CAM: Built-in Class Activation Maps for Test-T](papers/2026/core/2603.26885v1.md) | Kerol Djoumessi, Philipp Berens | CV | 3D CNN video explainability | 🔥 |
 | 2026 | [Video Understanding: From Geometry and Semantics t](papers/2026/core/2603.17840v1.md) | Zhaochong An, Zirui Li+ | CV | spatiotemporal convolution vid | 🔥 |
+| 2026 | [Video-MME-v2: Towards the Next Stage in Benchmarks](papers/2026/core/2604.05015v1.md) | Chaoyou Fu, Haozhi Yuan+ | CV | spatiotemporal convolution vid | 🔥 |
 
 ## 📅 2025 年
 
@@ -155,7 +158,6 @@
 |------|------|------|----------|--------|------|
 | 2023 | [A Prototype-Based Neural Network for Image Anomaly](papers/2023/related/2310.02576v2.md) | Chao Huang, Zhao Kang+ | CV | 3D convolution neural network  | 📎 |
 | 2023 | [A Video Is Worth 4096 Tokens: Verbalize Videos To ](papers/2023/core/2305.09758v3.md) | Aanisha Bhattacharya, Yaman K Singla+ | CV | spatiotemporal convolution vid | 🔥 |
-| 2023 | [A model-independent measurement of the CKM angle $](papers/2023/core/2311.10434v2.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
 | 2023 | [Action Class Relation Detection and Classification](papers/2023/core/2308.07558v1.md) | Yuya Yoshikawa, Yutaro Shigeto+ | CV | video action recognition neura | 🔥 |
 | 2023 | [Automata Quest: NCAs as a Video Game Life Mechanic](papers/2023/core/2309.14364v1.md) | Hiroki Sato, Tanner Lund+ | HC | 3D CNN video explainability | 🔥 |
 | 2023 | [Beyond English: Centering Multilingualism in Data ](papers/2023/related/2309.06659v2.md) | Noëlle Rakotondravony, Priya Dhawka+ | HC | attention mechanism visualizat | 📎 |
@@ -178,6 +180,7 @@
 | 2023 | [Parallel Neural Networks in Golang](papers/2023/related/2304.09590v1.md) | Daniela Kalwarowskyj, Erich Schikuta | NE | 3D convolution neural network  | 📎 |
 | 2023 | [Pay Attention to What You Need](papers/2023/related/2307.13365v3.md) | Yifei Gao, Shaohong Chen+ | CL | attention mechanism visualizat | 📎 |
 | 2023 | [Privacy-Preserving CNN Training with Transfer Lear](papers/2023/related/2304.03807v5.md) | John Chiang | CR | CNN interpretability explainab | 📎 |
+| 2023 | [Reality's Canvas, Language's Brush: Crafting 3D Av](papers/2023/core/2312.04784v2.md) | Yuchen Rao, Eduardo Perez Pellitero+ | CV | 3D CNN video explainability | 🔥 |
 | 2023 | [Reclaiming the Horizon: Novel Visualization Design](papers/2023/related/2307.10278v2.md) | Daniel Braun, Rita Borgo+ | HC | attention mechanism visualizat | 📎 |
 | 2023 | [Regionally Additive Models: Explainable-by-design ](papers/2023/related/2309.12215v1.md) | Vasilis Gkolemis, Anargiros Tzerefos+ | LG | CNN interpretability explainab | 📎 |
 | 2023 | [Self-supervised Learning of Contextualized Local V](papers/2023/related/2310.00527v3.md) | Thalles Santos Silva, Helio Pedrini+ | CV | network dissection deep visual | 📎 |
@@ -202,7 +205,7 @@
 | 2022 | [ContextCLIP: Contextual Alignment of Image-Text pa](papers/2022/related/2211.07122v1.md) | Chanda Grover, Indra Deep Mastan+ | CV | network dissection deep visual | 📎 |
 | 2022 | [Dual Accuracy-Quality-Driven Neural Network for Pr](papers/2022/related/2212.06370v4.md) | Giorgio Morales, John W. Sheppard | LG | 3D convolution neural network  | 📎 |
 | 2022 | [Enhancing Deformable Convolution based Video Frame](papers/2022/core/2202.07731v2.md) | Duolikun Danier, Fan Zhang+ | CV | 3D CNN video explainability | 🔥 |
-| 2022 | [Flow-Guided Sparse Transformer for Video Deblurrin](papers/2022/core/2201.01893v3.md) | Jing Lin, Yuanhao Cai+ | CV | 3D CNN video explainability | 🔥 |
+| 2022 | [Flow-Guided Sparse Transformer for Video Deblurrin](papers/2022/related/2201.01893v3.md) | Jing Lin, Yuanhao Cai+ | CV | video transformer interpretabi | 📎 |
 | 2022 | [Hierarchically Decomposed Graph Convolutional Netw](papers/2022/core/2208.10741v3.md) | Jungho Lee, Minhyeok Lee+ | CV | Decomposed 3D convolutions act | 🔥 |
 | 2022 | [How explainable are adversarially-robust CNNs?](papers/2022/related/2205.13042v2.md) | Mehdi Nourelahi, Lars Kotthoff+ | CV | CNN interpretability explainab | 📎 |
 | 2022 | [Hybrid CNN -Interpreter: Interpret local and globa](papers/2022/related/2211.00185v1.md) | Wenli Yang, Guan Huang+ | LG | CNN interpretability explainab | 📎 |
@@ -242,7 +245,6 @@
 | 2021 | [Action Transformer: A Self-Attention Model for Sho](papers/2021/core/2107.00606v6.md) | Vittorio Mazzia, Simone Angarano+ | CV | video action recognition neura | 🔥 |
 | 2021 | [Adaptive Encoding for Constrained Video Delivery i](papers/2021/core/2104.12770v1.md) | Gangadharan Esakki | MM | 3D CNN video explainability | 🔥 |
 | 2021 | [Adaptive Video Encoding For Different Video Codecs](papers/2021/core/2105.08191v1.md) | Gangadharan Esakki, Andreas Panayides+ | MM | 3D CNN video explainability | 🔥 |
-| 2021 | [All-sky Search for Continuous Gravitational Waves ](papers/2021/core/2107.00600v2.md) |  The LIGO Scientific Collaboration,  the Virgo Collaboration+ | arXiv | R(2+1)D video classification i | 🔥 |
 | 2021 | [All-sky search for gravitational wave emission fro](papers/2021/core/2111.15507v2.md) |  The LIGO Scientific Collaboration,  the Virgo Collaboration+ | arXiv | R(2+1)D video classification i | 🔥 |
 | 2021 | [Beyond Self-attention: External Attention using Tw](papers/2021/related/2105.02358v2.md) | Meng-Hao Guo, Zheng-Ning Liu+ | CV | attention mechanism visualizat | 📎 |
 | 2021 | [Compressive Visual Representations](papers/2021/related/2109.12909v3.md) | Kuang-Huei Lee, Anurag Arnab+ | LG | network dissection deep visual | 📎 |
