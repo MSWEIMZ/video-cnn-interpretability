@@ -6,8 +6,8 @@
 
 ## 📊 论文统计
 
-- **总计**: 233 篇论文
-- **最后更新**: 2026-04-19 04:17:20
+- **总计**: 234 篇论文
+- **最后更新**: 2026-04-20 04:23:12
 
 ## 🔍 搜索领域
 
@@ -28,6 +28,7 @@
 | 年份 | 标题 | 作者 | 期刊/会议 | 关键字 | 分类 |
 |------|------|------|----------|--------|------|
 | 2026 | [3D-RFT: Reinforcement Fine-Tuning for Video-based ](papers/2026/core/2603.04976v1.md) | Xiongkun Linghu, Jiangyong Huang+ | CV | 3D CNN video explainability | 🔥 |
+| 2026 | [Applied Explainability for Large Language Models: ](papers/2026/related/2604.15371v1.md) | Venkata Abhinandan Kancharla | CL | CNN interpretability explainab | 📎 |
 | 2026 | [Deep Search for Joint Sources of Gravitational Wav](papers/2026/core/2601.07595v3.md) |  The IceCube Collaboration, R. Abbasi+ | arXiv | R(2+1)D video classification i | 🔥 |
 | 2026 | [Fast Multirate Encoding for 360° Video in OMAF Str](papers/2026/related/2601.17568v1.md) | Amritha Premkumar, Christian Herglotz | MM | video transformer interpretabi | 📎 |
 | 2026 | [Gated Sparse Attention: Combining Computational Ef](papers/2026/related/2601.15305v1.md) | Alfred Shen, Aaron Shen | AI | attention mechanism visualizat | 📎 |
