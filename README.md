@@ -6,8 +6,8 @@
 
 ## 📊 论文统计
 
-- **总计**: 235 篇论文
-- **最后更新**: 2026-05-16 04:32:53
+- **总计**: 234 篇论文
+- **最后更新**: 2026-05-17 04:56:19
 
 ## 🔍 搜索领域
 
@@ -171,7 +171,6 @@
 | 2023 | [Exploiting Optical Flow Guidance for Transformer-B](papers/2023/related/2301.10048v2.md) | Kaidong Zhang, Jialun Peng+ | CV | video transformer interpretabi | 📎 |
 | 2023 | [Learn to Accumulate Evidence from All Training Sam](papers/2023/related/2306.11113v2.md) | Deep Pandey, Qi Yu | LG | network dissection deep visual | 📎 |
 | 2023 | [Learned Scalable Video Coding For Humans and Machi](papers/2023/related/2307.08978v2.md) | Hadi Hadizadeh, Ivan V. Bajić | CV | video transformer interpretabi | 📎 |
-| 2023 | [Learning to Compress Unmanned Aerial Vehicle (UAV)](papers/2023/related/2301.06115v1.md) | Chuanmin Jia, Feng Ye+ | CV | video transformer interpretabi | 📎 |
 | 2023 | [MRET: Multi-resolution Transformer for Video Quali](papers/2023/related/2303.07489v2.md) | Junjie Ke, Tianhao Zhang+ | CV | video transformer interpretabi | 📎 |
 | 2023 | [MaskCRT: Masked Conditional Residual Transformer f](papers/2023/related/2312.15829v2.md) | Yi-Hsin Chen, Hong-Sheng Xie+ | arXiv | video transformer interpretabi | 📎 |
 | 2023 | [Maximizing Spatio-Temporal Entropy of Deep 3D CNNs](papers/2023/core/2303.02693v1.md) | Junyan Wang, Zhenhong Sun+ | CV | 3D CNN video explainability | 🔥 |
