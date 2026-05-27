@@ -6,8 +6,8 @@
 
 ## 📊 论文统计
 
-- **总计**: 236 篇论文
-- **最后更新**: 2026-05-26 05:08:09
+- **总计**: 235 篇论文
+- **最后更新**: 2026-05-27 05:22:34
 
 ## 🔍 搜索领域
 
@@ -37,7 +37,7 @@
 | 2026 | [Midterm Status Report of the ILC Technology Networ](papers/2026/related/2603.01172v1.md) | ILC Technology Network | arXiv | network dissection deep visual | 📎 |
 | 2026 | [Monodense Deep Neural Model for Determining Item P](papers/2026/related/2603.29261v1.md) | Lakshya Garg, Sai Yaswanth+ | LG | network dissection deep visual | 📎 |
 | 2026 | [Precise measurement of the CKM angle $γ$ with a no](papers/2026/core/2604.05712v1.md) | The BESIII, LHCb Collaborations+ | arXiv | R(2+1)D video classification i | 🔥 |
-| 2026 | [Search for lepton-number-violating $B^-\to D^{(*)+](papers/2026/core/2601.07657v1.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2026 | [Search for lepton-number-violating $B^-\to D^{(*)+](papers/2026/core/2601.07657v2.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
 | 2026 | [Searches for Continuous Gravitational Waves from S](papers/2026/core/2603.25808v2.md) |  The LIGO Scientific Collaboration,  the Virgo Collaboration+ | arXiv | R(2+1)D video classification i | 🔥 |
 | 2026 | [TTE-CAM: Built-in Class Activation Maps for Test-T](papers/2026/core/2603.26885v1.md) | Kerol Djoumessi, Philipp Berens | CV | 3D CNN video explainability | 🔥 |
 | 2026 | [Video Understanding: From Geometry and Semantics t](papers/2026/core/2603.17840v1.md) | Zhaochong An, Zirui Li+ | CV | spatiotemporal convolution vid | 🔥 |
@@ -183,7 +183,6 @@
 | 2023 | [Parallel Neural Networks in Golang](papers/2023/related/2304.09590v1.md) | Daniela Kalwarowskyj, Erich Schikuta | NE | 3D convolution neural network  | 📎 |
 | 2023 | [Pay Attention to What You Need](papers/2023/related/2307.13365v3.md) | Yifei Gao, Shaohong Chen+ | CL | attention mechanism visualizat | 📎 |
 | 2023 | [Privacy-Preserving CNN Training with Transfer Lear](papers/2023/related/2304.03807v5.md) | John Chiang | CR | CNN interpretability explainab | 📎 |
-| 2023 | [Reality's Canvas, Language's Brush: Crafting 3D Av](papers/2023/core/2312.04784v2.md) | Yuchen Rao, Eduardo Perez Pellitero+ | CV | 3D CNN video explainability | 🔥 |
 | 2023 | [Reclaiming the Horizon: Novel Visualization Design](papers/2023/related/2307.10278v2.md) | Daniel Braun, Rita Borgo+ | HC | attention mechanism visualizat | 📎 |
 | 2023 | [Regionally Additive Models: Explainable-by-design ](papers/2023/related/2309.12215v1.md) | Vasilis Gkolemis, Anargiros Tzerefos+ | LG | CNN interpretability explainab | 📎 |
 | 2023 | [Self-supervised Learning of Contextualized Local V](papers/2023/related/2310.00527v3.md) | Thalles Santos Silva, Helio Pedrini+ | CV | network dissection deep visual | 📎 |
@@ -208,7 +207,7 @@
 | 2022 | [ContextCLIP: Contextual Alignment of Image-Text pa](papers/2022/related/2211.07122v1.md) | Chanda Grover, Indra Deep Mastan+ | CV | network dissection deep visual | 📎 |
 | 2022 | [Dual Accuracy-Quality-Driven Neural Network for Pr](papers/2022/related/2212.06370v4.md) | Giorgio Morales, John W. Sheppard | LG | 3D convolution neural network  | 📎 |
 | 2022 | [Enhancing Deformable Convolution based Video Frame](papers/2022/core/2202.07731v2.md) | Duolikun Danier, Fan Zhang+ | CV | 3D CNN video explainability | 🔥 |
-| 2022 | [Flow-Guided Sparse Transformer for Video Deblurrin](papers/2022/related/2201.01893v3.md) | Jing Lin, Yuanhao Cai+ | CV | video transformer interpretabi | 📎 |
+| 2022 | [Flow-Guided Sparse Transformer for Video Deblurrin](papers/2022/core/2201.01893v3.md) | Jing Lin, Yuanhao Cai+ | CV | 3D CNN video explainability | 🔥 |
 | 2022 | [Hierarchically Decomposed Graph Convolutional Netw](papers/2022/core/2208.10741v3.md) | Jungho Lee, Minhyeok Lee+ | CV | Decomposed 3D convolutions act | 🔥 |
 | 2022 | [How explainable are adversarially-robust CNNs?](papers/2022/related/2205.13042v2.md) | Mehdi Nourelahi, Lars Kotthoff+ | CV | CNN interpretability explainab | 📎 |
 | 2022 | [Hybrid CNN -Interpreter: Interpret local and globa](papers/2022/related/2211.00185v1.md) | Wenli Yang, Guan Huang+ | LG | CNN interpretability explainab | 📎 |
