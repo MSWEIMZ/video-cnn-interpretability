@@ -7,7 +7,7 @@
 ## 📊 论文统计
 
 - **总计**: 235 篇论文
-- **最后更新**: 2026-05-27 05:22:34
+- **最后更新**: 2026-05-28 05:13:56
 
 ## 🔍 搜索领域
 
@@ -74,7 +74,6 @@
 | 2025 | [MT-Video-Bench: A Holistic Video Understanding Ben](papers/2025/core/2510.17722v2.md) | Yaning Pan, Qianqian Xie+ | CV | spatiotemporal convolution vid | 🔥 |
 | 2025 | [Measurement of $C\!P$ asymmetry in $D^0 \to K^0_{\](papers/2025/core/2510.14732v2.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
 | 2025 | [MisVisFix: An Interactive Dashboard for Detecting,](papers/2025/related/2508.04679v1.md) | Amit Kumar Das, Klaus Mueller | HC | attention mechanism visualizat | 📎 |
-| 2025 | [ObjFiller-3D: Consistent Multi-view 3D Inpainting ](papers/2025/core/2508.18271v1.md) | Haitang Feng, Jie Liu+ | CV | 3D CNN video explainability | 🔥 |
 | 2025 | [Observation of $B_c^+ \to D h^+ h^-$ decays](papers/2025/core/2509.15873v3.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
 | 2025 | [OmniVCus: Feedforward Subject-driven Video Customi](papers/2025/related/2506.23361v3.md) | Yuanhao Cai, He Zhang+ | CV | video transformer interpretabi | 📎 |
 | 2025 | [Predicting concentration levels of air pollutants ](papers/2025/core/2502.01654v1.md) | Iat Hang Fong, Tengyue Li+ | LG | video action recognition neura | 🔥 |
@@ -183,6 +182,7 @@
 | 2023 | [Parallel Neural Networks in Golang](papers/2023/related/2304.09590v1.md) | Daniela Kalwarowskyj, Erich Schikuta | NE | 3D convolution neural network  | 📎 |
 | 2023 | [Pay Attention to What You Need](papers/2023/related/2307.13365v3.md) | Yifei Gao, Shaohong Chen+ | CL | attention mechanism visualizat | 📎 |
 | 2023 | [Privacy-Preserving CNN Training with Transfer Lear](papers/2023/related/2304.03807v5.md) | John Chiang | CR | CNN interpretability explainab | 📎 |
+| 2023 | [Reality's Canvas, Language's Brush: Crafting 3D Av](papers/2023/core/2312.04784v2.md) | Yuchen Rao, Eduardo Perez Pellitero+ | CV | 3D CNN video explainability | 🔥 |
 | 2023 | [Reclaiming the Horizon: Novel Visualization Design](papers/2023/related/2307.10278v2.md) | Daniel Braun, Rita Borgo+ | HC | attention mechanism visualizat | 📎 |
 | 2023 | [Regionally Additive Models: Explainable-by-design ](papers/2023/related/2309.12215v1.md) | Vasilis Gkolemis, Anargiros Tzerefos+ | LG | CNN interpretability explainab | 📎 |
 | 2023 | [Self-supervised Learning of Contextualized Local V](papers/2023/related/2310.00527v3.md) | Thalles Santos Silva, Helio Pedrini+ | CV | network dissection deep visual | 📎 |
