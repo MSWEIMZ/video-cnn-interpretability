@@ -6,8 +6,8 @@
 
 ## 📊 论文统计
 
-- **总计**: 234 篇论文
-- **最后更新**: 2026-06-01 06:09:33
+- **总计**: 236 篇论文
+- **最后更新**: 2026-06-02 05:54:29
 
 ## 🔍 搜索领域
 
@@ -224,11 +224,13 @@
 | 2022 | [Rate-Distortion Optimal Transform Coefficient Sele](papers/2022/related/2206.12186v1.md) | Christian Herglotz, Nils Genser+ | arXiv | video transformer interpretabi | 📎 |
 | 2022 | [ReViVD: Exploration and Filtering of Trajectories ](papers/2022/core/2202.10545v1.md) | François Homps, Yohan Beugin+ | HC | 3D CNN video explainability | 🔥 |
 | 2022 | [Representation-Agnostic Shape Fields](papers/2022/related/2203.10259v1.md) | Xiaoyang Huang, Jiancheng Yang+ | CV | network dissection deep visual | 📎 |
+| 2022 | [Representation-Centric Survey of Supervised Skelet](papers/2022/core/2205.02071v7.md) | Yang Liu, Jiyao Yang+ | CV | Decomposed 3D convolutions act | 🔥 |
 | 2022 | [Search for continuous gravitational wave emission ](papers/2022/core/2204.04523v1.md) |  The LIGO Scientific Collaboration,  the Virgo Collaboration+ | arXiv | R(2+1)D video classification i | 🔥 |
 | 2022 | [Skeletal Human Action Recognition using Hybrid Att](papers/2022/core/2207.05493v1.md) | Hao Xing, Darius Burschka | CV | Decomposed 3D convolutions act | 🔥 |
 | 2022 | [Spatiotemporal Estimation of TROPOMI NO2 Column wi](papers/2022/core/2204.05917v1.md) | Yannic Lops, Masoud Ghahremanloo+ | AI | spatiotemporal convolution vid | 🔥 |
 | 2022 | [Study of a committee of neural networks for biomet](papers/2022/core/2204.03935v1.md) | Marcos Faundez-Zanuy | CV | video action recognition neura | 🔥 |
 | 2022 | [Synthesizing Light Field Video from Monocular Vide](papers/2022/core/2207.10357v1.md) | Shrisudhan Govindarajan, Prasan Shedligeri+ | arXiv | 3D CNN video explainability | 🔥 |
+| 2022 | [Testing predictions of representation cost theory ](papers/2022/related/2210.01257v3.md) | Charles Godfrey, Elise Bishoff+ | LG | CNN interpretability explainab | 📎 |
 | 2022 | [Transformer-based Personalized Attention Mechanism](papers/2022/related/2206.03003v2.md) | Yusuke Takagi, Noriaki Hashimoto+ | CV | attention mechanism visualizat | 📎 |
 | 2022 | [Using explainability to design physics-aware CNNs ](papers/2022/related/2211.08651v2.md) | Jodie Crocker, Krishna Kumar+ | LG | CNN interpretability explainab | 📎 |
 | 2022 | [VRT: A Video Restoration Transformer](papers/2022/core/2201.12288v2.md) | Jingyun Liang, Jiezhang Cao+ | CV | 3D CNN video explainability | 🔥 |
