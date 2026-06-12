@@ -6,8 +6,8 @@
 
 ## 📊 论文统计
 
-- **总计**: 236 篇论文
-- **最后更新**: 2026-06-11 05:56:55
+- **总计**: 237 篇论文
+- **最后更新**: 2026-06-12 05:54:15
 
 ## 🔍 搜索领域
 
@@ -40,6 +40,7 @@
 | 2026 | [Precise measurement of the CKM angle $γ$ with a no](papers/2026/core/2604.05712v1.md) | The BESIII, LHCb Collaborations+ | arXiv | R(2+1)D video classification i | 🔥 |
 | 2026 | [Search for lepton-number-violating $B^-\to D^{(*)+](papers/2026/core/2601.07657v2.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
 | 2026 | [Searches for Continuous Gravitational Waves from S](papers/2026/core/2603.25808v2.md) |  The LIGO Scientific Collaboration,  the Virgo Collaboration+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2026 | [VISTA: Video Interaction Spatio-Temporal Analysis ](papers/2026/core/2605.01391v2.md) | Alejandro Aparcedo, Akash Kumar+ | CV | spatiotemporal convolution vid | 🔥 |
 | 2026 | [Video Understanding: From Geometry and Semantics t](papers/2026/core/2603.17840v1.md) | Zhaochong An, Zirui Li+ | CV | spatiotemporal convolution vid | 🔥 |
 | 2026 | [Video-MME-v2: Towards the Next Stage in Benchmarks](papers/2026/core/2604.05015v1.md) | Chaoyou Fu, Haozhi Yuan+ | CV | spatiotemporal convolution vid | 🔥 |
 
