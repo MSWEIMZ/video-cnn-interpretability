@@ -6,8 +6,8 @@
 
 ## 📊 论文统计
 
-- **总计**: 237 篇论文
-- **最后更新**: 2026-06-14 05:57:15
+- **总计**: 236 篇论文
+- **最后更新**: 2026-06-15 06:30:50
 
 ## 🔍 搜索领域
 
@@ -27,7 +27,7 @@
 
 | 年份 | 标题 | 作者 | 期刊/会议 | 关键字 | 分类 |
 |------|------|------|----------|--------|------|
-| 2026 | [3D-RFT: Reinforcement Fine-Tuning for Video-based ](papers/2026/core/2603.04976v1.md) | Xiongkun Linghu, Jiangyong Huang+ | CV | 3D CNN video explainability | 🔥 |
+| 2026 | [3D-RFT: Reinforcement Fine-Tuning for Video-based ](papers/2026/core/2603.04976v2.md) | Xiongkun Linghu, Jiangyong Huang+ | CV | 3D CNN video explainability | 🔥 |
 | 2026 | [Applied Explainability for Large Language Models: ](papers/2026/related/2604.15371v1.md) | Venkata Abhinandan Kancharla | CL | CNN interpretability explainab | 📎 |
 | 2026 | [Deep Search for Joint Sources of Gravitational Wav](papers/2026/core/2601.07595v3.md) |  The IceCube Collaboration, R. Abbasi+ | arXiv | R(2+1)D video classification i | 🔥 |
 | 2026 | [Fast Multirate Encoding for 360° Video in OMAF Str](papers/2026/related/2601.17568v1.md) | Amritha Premkumar, Christian Herglotz | MM | video transformer interpretabi | 📎 |
@@ -263,7 +263,6 @@
 | 2021 | [Infinite-channel deep stable convolutional neural ](papers/2021/related/2102.03739v2.md) | Daniele Bracale, Stefano Favaro+ | LG | 3D convolution neural network  | 📎 |
 | 2021 | [Interpretable Propaganda Detection in News Article](papers/2021/related/2108.12802v1.md) | Seunghak Yu, Giovanni Da San Martino+ | CL | CNN interpretability explainab | 📎 |
 | 2021 | [Joint Learning of Neural Transfer and Architecture](papers/2021/core/2103.16889v1.md) | Guangrun Wang, Liang Lin+ | CV | video action recognition neura | 🔥 |
-| 2021 | [Learning to Cluster Faces via Transformer](papers/2021/related/2104.11502v1.md) | Jinxing Ye, Xioajiang Peng+ | CV | video transformer interpretabi | 📎 |
 | 2021 | [Leveraging Semantic Scene Characteristics and Mult](papers/2021/core/2105.07484v1.md) | Ioannis Pikoulis, Panagiotis P. Filntisis+ | CV | Decomposed 3D convolutions act | 🔥 |
 | 2021 | [M2Lens: Visualizing and Explaining Multimodal Mode](papers/2021/related/2107.08264v4.md) | Xingbo Wang, Jianben He+ | LG | attention mechanism visualizat | 📎 |
 | 2021 | [Memorization in Deep Neural Networks: Does the Los](papers/2021/related/2107.09957v2.md) | Deep Patel, P. S. Sastry | LG | network dissection deep visual | 📎 |
