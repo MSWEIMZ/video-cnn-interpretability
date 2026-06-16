@@ -6,8 +6,8 @@
 
 ## 📊 论文统计
 
-- **总计**: 236 篇论文
-- **最后更新**: 2026-06-15 06:30:50
+- **总计**: 238 篇论文
+- **最后更新**: 2026-06-16 06:37:22
 
 ## 🔍 搜索领域
 
@@ -38,6 +38,7 @@
 | 2026 | [Monodense Deep Neural Model for Determining Item P](papers/2026/related/2603.29261v1.md) | Lakshya Garg, Sai Yaswanth+ | LG | network dissection deep visual | 📎 |
 | 2026 | [Neural Networks and Schramm-Loewner Evolutions](papers/2026/related/2606.02682v1.md) | Neilesh Shrotri, Vlad Margarint | arXiv | 3D convolution neural network  | 📎 |
 | 2026 | [Precise measurement of the CKM angle $γ$ with a no](papers/2026/core/2604.05712v1.md) | The BESIII, LHCb Collaborations+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2026 | [Scalable Circuit Learning for Interpreting Large L](papers/2026/related/2606.16939v1.md) | Naiyu Yin, Dennis Wei+ | LG | CNN interpretability explainab | 📎 |
 | 2026 | [Search for lepton-number-violating $B^-\to D^{(*)+](papers/2026/core/2601.07657v2.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
 | 2026 | [Searches for Continuous Gravitational Waves from S](papers/2026/core/2603.25808v2.md) |  The LIGO Scientific Collaboration,  the Virgo Collaboration+ | arXiv | R(2+1)D video classification i | 🔥 |
 | 2026 | [VISTA: Video Interaction Spatio-Temporal Analysis ](papers/2026/core/2605.01391v2.md) | Alejandro Aparcedo, Akash Kumar+ | CV | spatiotemporal convolution vid | 🔥 |
@@ -263,6 +264,7 @@
 | 2021 | [Infinite-channel deep stable convolutional neural ](papers/2021/related/2102.03739v2.md) | Daniele Bracale, Stefano Favaro+ | LG | 3D convolution neural network  | 📎 |
 | 2021 | [Interpretable Propaganda Detection in News Article](papers/2021/related/2108.12802v1.md) | Seunghak Yu, Giovanni Da San Martino+ | CL | CNN interpretability explainab | 📎 |
 | 2021 | [Joint Learning of Neural Transfer and Architecture](papers/2021/core/2103.16889v1.md) | Guangrun Wang, Liang Lin+ | CV | video action recognition neura | 🔥 |
+| 2021 | [Learning to Cluster Faces via Transformer](papers/2021/related/2104.11502v1.md) | Jinxing Ye, Xioajiang Peng+ | CV | video transformer interpretabi | 📎 |
 | 2021 | [Leveraging Semantic Scene Characteristics and Mult](papers/2021/core/2105.07484v1.md) | Ioannis Pikoulis, Panagiotis P. Filntisis+ | CV | Decomposed 3D convolutions act | 🔥 |
 | 2021 | [M2Lens: Visualizing and Explaining Multimodal Mode](papers/2021/related/2107.08264v4.md) | Xingbo Wang, Jianben He+ | LG | attention mechanism visualizat | 📎 |
 | 2021 | [Memorization in Deep Neural Networks: Does the Los](papers/2021/related/2107.09957v2.md) | Deep Patel, P. S. Sastry | LG | network dissection deep visual | 📎 |
