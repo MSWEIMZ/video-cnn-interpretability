@@ -6,8 +6,8 @@
 
 ## 📊 论文统计
 
-- **总计**: 238 篇论文
-- **最后更新**: 2026-06-17 06:20:48
+- **总计**: 240 篇论文
+- **最后更新**: 2026-06-18 06:01:11
 
 ## 🔍 搜索领域
 
@@ -29,6 +29,7 @@
 |------|------|------|----------|--------|------|
 | 2026 | [3D-RFT: Reinforcement Fine-Tuning for Video-based ](papers/2026/core/2603.04976v2.md) | Xiongkun Linghu, Jiangyong Huang+ | CV | 3D CNN video explainability | 🔥 |
 | 2026 | [Applied Explainability for Large Language Models: ](papers/2026/related/2604.15371v1.md) | Venkata Abhinandan Kancharla | CL | CNN interpretability explainab | 📎 |
+| 2026 | [DVANet: Degradation-aware Visual-prior Alignment N](papers/2026/related/2606.19097v1.md) | Yanjie Tu, Qingsen Yan+ | CV | network dissection deep visual | 📎 |
 | 2026 | [Deep Search for Joint Sources of Gravitational Wav](papers/2026/core/2601.07595v3.md) |  The IceCube Collaboration, R. Abbasi+ | arXiv | R(2+1)D video classification i | 🔥 |
 | 2026 | [Fast Multirate Encoding for 360° Video in OMAF Str](papers/2026/related/2601.17568v1.md) | Amritha Premkumar, Christian Herglotz | MM | video transformer interpretabi | 📎 |
 | 2026 | [Gated Sparse Attention: Combining Computational Ef](papers/2026/related/2601.15305v1.md) | Alfred Shen, Aaron Shen | AI | attention mechanism visualizat | 📎 |
@@ -44,6 +45,7 @@
 | 2026 | [VISTA: Video Interaction Spatio-Temporal Analysis ](papers/2026/core/2605.01391v2.md) | Alejandro Aparcedo, Akash Kumar+ | CV | spatiotemporal convolution vid | 🔥 |
 | 2026 | [Video Understanding: From Geometry and Semantics t](papers/2026/core/2603.17840v1.md) | Zhaochong An, Zirui Li+ | CV | spatiotemporal convolution vid | 🔥 |
 | 2026 | [Video-MME-v2: Towards the Next Stage in Benchmarks](papers/2026/core/2604.05015v1.md) | Chaoyou Fu, Haozhi Yuan+ | CV | spatiotemporal convolution vid | 🔥 |
+| 2026 | [Visual Boosting Techniques for Spatiotemporal Dens](papers/2026/related/2604.25298v1.md) | Julius Rauscher, Frederik L. Dennig+ | HC | network dissection deep visual | 📎 |
 
 ## 📅 2025 年
 
