@@ -7,7 +7,7 @@
 ## 📊 论文统计
 
 - **总计**: 240 篇论文
-- **最后更新**: 2026-06-22 06:34:31
+- **最后更新**: 2026-06-23 05:08:22
 
 ## 🔍 搜索领域
 
@@ -88,7 +88,7 @@
 | 2025 | [Reangle-A-Video: 4D Video Generation as Video-to-V](papers/2025/related/2503.09151v3.md) | Hyeonho Jeong, Suhyeon Lee+ | CV | video transformer interpretabi | 📎 |
 | 2025 | [Reframing Pattern: A Comprehensive Approach to a C](papers/2025/related/2508.02639v3.md) | Tingying He, Jason Dykes+ | HC | attention mechanism visualizat | 📎 |
 | 2025 | [SAM 3D: 3Dfy Anything in Images](papers/2025/core/2511.16624v2.md) |  SAM 3D Team, Xingyu Chen+ | CV | 3D CNN video explainability | 🔥 |
-| 2025 | [S^2VG: 3D Stereoscopic and Spatial Video Generatio](papers/2025/core/2508.08048v1.md) | Peng Dai, Feitong Tan+ | CV | 3D CNN video explainability | 🔥 |
+| 2025 | [S^2VG: 3D Stereoscopic and Spatial Video Generatio](papers/2025/core/2508.08048v2.md) | Peng Dai, Feitong Tan+ | CV | 3D CNN video explainability | 🔥 |
 | 2025 | [Scalable Event-Based Video Streaming for Machines ](papers/2025/core/2508.15003v1.md) | Andrew C. Freeman | CV | 3D CNN video explainability | 🔥 |
 | 2025 | [Search for charge-parity violation in semileptonic](papers/2025/core/2501.11635v2.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
 | 2025 | [Study of charm mixing and CP violation with $D^0\t](papers/2025/core/2510.04963v2.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
@@ -115,7 +115,6 @@
 | 年份 | 标题 | 作者 | 期刊/会议 | 关键字 | 分类 |
 |------|------|------|----------|--------|------|
 | 2024 | [2D bidirectional gated recurrent unit convolutiona](papers/2024/core/2409.07588v1.md) | Abdarahmane Traoré, Moulay A. Akhloufi | CV | video action recognition neura | 🔥 |
-| 2024 | [Amplitude analysis and branching fraction measurem](papers/2024/core/2405.00098v2.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
 | 2024 | [An Empirical Study of Counterfactual Visualization](papers/2024/related/2401.08822v1.md) | Arran Zeyu Wang, David Borland+ | HC | attention mechanism visualizat | 📎 |
 | 2024 | [Attention Guided CAM: Visual Explanations of Visio](papers/2024/related/2402.04563v1.md) | Saebom Leem, Hyunseok Seo | CV | attention mechanism visualizat | 📎 |
 | 2024 | [Benign Overfitting in Token Selection of Attention](papers/2024/related/2409.17625v3.md) | Keitaro Sakamoto, Issei Sato | LG | attention mechanism visualizat | 📎 |
@@ -163,6 +162,7 @@
 |------|------|------|----------|--------|------|
 | 2023 | [A Prototype-Based Neural Network for Image Anomaly](papers/2023/related/2310.02576v2.md) | Chao Huang, Zhao Kang+ | CV | 3D convolution neural network  | 📎 |
 | 2023 | [A Video Is Worth 4096 Tokens: Verbalize Videos To ](papers/2023/core/2305.09758v3.md) | Aanisha Bhattacharya, Yaman K Singla+ | CV | spatiotemporal convolution vid | 🔥 |
+| 2023 | [A model-independent measurement of the CKM angle $](papers/2023/core/2311.10434v2.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
 | 2023 | [Action Class Relation Detection and Classification](papers/2023/core/2308.07558v1.md) | Yuya Yoshikawa, Yutaro Shigeto+ | CV | video action recognition neura | 🔥 |
 | 2023 | [Automata Quest: NCAs as a Video Game Life Mechanic](papers/2023/core/2309.14364v1.md) | Hiroki Sato, Tanner Lund+ | HC | 3D CNN video explainability | 🔥 |
 | 2023 | [Beyond English: Centering Multilingualism in Data ](papers/2023/related/2309.06659v2.md) | Noëlle Rakotondravony, Priya Dhawka+ | HC | attention mechanism visualizat | 📎 |
