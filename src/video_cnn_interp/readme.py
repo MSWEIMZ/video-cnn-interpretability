@@ -7,10 +7,29 @@ from collections import defaultdict
 def generate_main_readme(records: list[dict], stats: dict) -> str:
     """生成主 README，包含精选视图 + 年份折叠视图"""
     now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    now_month = datetime.now().strftime("%Y-%m")
     total = stats.get("total", len(records))
     by_label = stats.get("by_label", {})
     core_count = by_label.get("core", 0)
     strong_count = by_label.get("strongly_related", 0)
+
+    # 本月新增
+    monthly_new = sum(
+        1 for r in records
+        if r.get("published", "").startswith(now_month)
+    )
+
+    # 高引用论文 Top 5
+    cited_papers = [r for r in records if r.get("citation_count", 0) > 0]
+    cited_papers.sort(key=lambda r: -r.get("citation_count", 0))
+    top5_cited = cited_papers[:5]
+
+    # 来源分布
+    source_counts: dict[str, int] = defaultdict(int)
+    for r in records:
+        source_counts[r.get("source", "arxiv")] += 1
+    arxiv_count = source_counts.get("arxiv", 0)
+    ss_count = source_counts.get("semantic_scholar", 0)
 
     # 精选区：最新核心论文 top 20
     core_papers = [r for r in records if r.get("quality_label") == "core"]
@@ -32,8 +51,25 @@ def generate_main_readme(records: list[dict], stats: dict) -> str:
     lines.append(f"- **论文总数**: {total} 篇")
     lines.append(f"- **核心论文**: {core_count} 篇")
     lines.append(f"- **高相关论文**: {strong_count} 篇")
+    lines.append(f"- **本月新增**: {monthly_new} 篇")
+    lines.append(f"- **来源分布**: arXiv {arxiv_count} 篇 | Semantic Scholar {ss_count} 篇")
     lines.append(f"- **最后更新**: {now}")
     lines.append("")
+
+    # 高引用论文 Top 5
+    if top5_cited:
+        lines.append("## 🏆 高引用论文 Top 5")
+        lines.append("")
+        lines.append("| 排名 | 标题 | 引用数 | 分数 |")
+        lines.append("|------|------|--------|------|")
+        for idx, p in enumerate(top5_cited, 1):
+            title = p.get("title", "")[:60]
+            citations = p.get("citation_count", 0)
+            score = p.get("relevance_score", 0)
+            url = p.get("url", "#")
+            lines.append(f"| {idx} | [{title}]({url}) | {citations} | {score} |")
+        lines.append("")
+
     lines.append("---")
     lines.append("")
 
@@ -77,7 +113,7 @@ def generate_main_readme(records: list[dict], stats: dict) -> str:
     lines.append("---")
     lines.append("")
 
-    # 年份折叠视图
+    # 年份折叠视图（增加来源列）
     by_year: dict[int, list[dict]] = defaultdict(list)
     for r in records:
         if r.get("quality_label") in ("core", "strongly_related", "weakly_related"):
@@ -89,8 +125,8 @@ def generate_main_readme(records: list[dict], stats: dict) -> str:
         lines.append(f"<details>")
         lines.append(f"<summary>📅 {year} 年 ({len(year_papers)} 篇)</summary>")
         lines.append("")
-        lines.append("| 标签 | 标题 | 作者 | 分数 |")
-        lines.append("|------|------|------|------|")
+        lines.append("| 标签 | 标题 | 作者 | 分数 | 来源 |")
+        lines.append("|------|------|------|------|------|")
         for p in year_papers:
             icon = label_icon.get(p.get("quality_label", ""), "📝")
             title = p.get("title", "")[:60]
@@ -99,7 +135,9 @@ def generate_main_readme(records: list[dict], stats: dict) -> str:
                 authors += "+"
             score = p.get("relevance_score", 0)
             url = p.get("url", "#")
-            lines.append(f"| {icon} | [{title}]({url}) | {authors} | {score} |")
+            source = p.get("source", "arxiv")
+            source_display = "arxiv" if source == "arxiv" else "semantic_scholar"
+            lines.append(f"| {icon} | [{title}]({url}) | {authors} | {score} | {source_display} |")
         lines.append("")
         lines.append("</details>")
         lines.append("")
@@ -141,8 +179,8 @@ def generate_all_papers(records: list[dict]) -> str:
         year_papers = sorted(by_year[year], key=lambda r: -r.get("relevance_score", 0))
         lines.append(f"## {year} 年 ({len(year_papers)} 篇)")
         lines.append("")
-        lines.append("| 标签 | 标题 | 作者 | 分数 | 查询类型 |")
-        lines.append("|------|------|------|------|----------|")
+        lines.append("| 标签 | 标题 | 作者 | 分数 | 查询类型 | 来源 |")
+        lines.append("|------|------|------|------|----------|------|")
         for p in year_papers:
             icon = label_icon.get(p.get("quality_label", ""), "📝")
             title = p.get("title", "")[:60]
@@ -152,7 +190,9 @@ def generate_all_papers(records: list[dict]) -> str:
             score = p.get("relevance_score", 0)
             qt = p.get("query_type", "")
             url = p.get("url", "#")
-            lines.append(f"| {icon} | [{title}]({url}) | {authors} | {score} | {qt} |")
+            source = p.get("source", "arxiv")
+            source_display = "arxiv" if source == "arxiv" else "semantic_scholar"
+            lines.append(f"| {icon} | [{title}]({url}) | {authors} | {score} | {qt} | {source_display} |")
         lines.append("")
 
     return "\n".join(lines)

@@ -9,21 +9,29 @@ from pathlib import Path
 class FilterConfig:
     years_from: int = 2015
     years_to: int = 2026
-    allowed_categories: list[str] = field(default_factory=lambda: ["cs.CV", "cs.LG"])
+    allowed_categories: list[str] = field(default_factory=lambda: ["cs.CV", "cs.LG", "cs.AI"])
     blocked_keywords: list[str] = field(default_factory=list)
     required_topic_keywords: list[str] = field(default_factory=list)
 
 
 @dataclass
 class ScoringConfig:
-    min_relevance_score: float = 2.0
+    min_relevance_score: float = 2.5
     core_threshold: float = 4.0
     strongly_related_threshold: float = 2.5
     keyword_weights: dict[str, float] = field(default_factory=lambda: {"core": 2.0, "expanded": 1.0, "exploratory": 0.5})
-    category_bonus: dict[str, float] = field(default_factory=lambda: {"cs.CV": 1.0, "cs.LG": 0.5})
+    category_bonus: dict[str, float] = field(default_factory=lambda: {"cs.CV": 1.0, "cs.LG": 0.5, "cs.AI": 0.3})
     topic_bonus_per_hit: float = 0.3
     blocked_penalty: float = 10.0
     video_in_title_bonus: float = 0.5
+    survey_bonus: float = 0.8
+    venue_bonus: dict[str, float] = field(default_factory=lambda: {
+        "CVPR": 0.5, "ICCV": 0.5, "ECCV": 0.5,
+        "NeurIPS": 0.4, "ICML": 0.4, "ICLR": 0.4,
+        "AAAI": 0.3,
+    })
+    citation_bonus_threshold: int = 50
+    citation_bonus: float = 0.5
 
 
 @dataclass
@@ -63,21 +71,28 @@ def load_app_config(path: str | Path) -> AppConfig:
     filters = FilterConfig(
         years_from=f_raw.get("years_from", 2015),
         years_to=f_raw.get("years_to", 2026),
-        allowed_categories=f_raw.get("allowed_categories", ["cs.CV", "cs.LG"]),
+        allowed_categories=f_raw.get("allowed_categories", ["cs.CV", "cs.LG", "cs.AI"]),
         blocked_keywords=f_raw.get("blocked_keywords", []),
         required_topic_keywords=f_raw.get("required_topic_keywords", []),
     )
 
     s_raw = raw.get("scoring", {})
     scoring = ScoringConfig(
-        min_relevance_score=s_raw.get("min_relevance_score", 2.0),
+        min_relevance_score=s_raw.get("min_relevance_score", 2.5),
         core_threshold=s_raw.get("core_threshold", 4.0),
         strongly_related_threshold=s_raw.get("strongly_related_threshold", 2.5),
         keyword_weights=s_raw.get("keyword_weights", {"core": 2.0, "expanded": 1.0, "exploratory": 0.5}),
-        category_bonus=s_raw.get("category_bonus", {"cs.CV": 1.0, "cs.LG": 0.5}),
+        category_bonus=s_raw.get("category_bonus", {"cs.CV": 1.0, "cs.LG": 0.5, "cs.AI": 0.3}),
         topic_bonus_per_hit=s_raw.get("topic_bonus_per_hit", 0.3),
         blocked_penalty=s_raw.get("blocked_penalty", 10.0),
         video_in_title_bonus=s_raw.get("video_in_title_bonus", 0.5),
+        survey_bonus=s_raw.get("survey_bonus", 0.8),
+        venue_bonus=s_raw.get("venue_bonus", {
+            "CVPR": 0.5, "ICCV": 0.5, "ECCV": 0.5,
+            "NeurIPS": 0.4, "ICML": 0.4, "ICLR": 0.4, "AAAI": 0.3,
+        }),
+        citation_bonus_threshold=s_raw.get("citation_bonus_threshold", 50),
+        citation_bonus=s_raw.get("citation_bonus", 0.5),
     )
 
     r_raw = raw.get("runtime", {})
@@ -99,3 +114,4 @@ def load_app_config(path: str | Path) -> AppConfig:
         scoring=scoring,
         runtime=runtime,
     )
+

@@ -1,14 +1,15 @@
-"""arXiv 论文收集模块"""
+"""arXiv 论文收集模块（支持多源：arXiv + Semantic Scholar）"""
 from __future__ import annotations
 import re
 import ssl
 import time
+from difflib import SequenceMatcher
 from urllib.request import urlopen, Request
 from urllib.parse import urlencode
 
 from .config import AppConfig
+from .sources.semantic_scholar import search_semantic_scholar
 
-# 尝试使用 arxiv 库，否则回退到手动 API
 try:
     import arxiv
     USE_ARXIV_LIB = True
@@ -39,6 +40,9 @@ def _search_arxiv_lib(query: str, max_results: int) -> list[dict]:
             "categories": [c for c in result.categories if c.startswith("cs.")],
             "primary_category": result.primary_category,
             "journal_ref": getattr(result, "journal_ref", None) or "",
+            "citation_count": 0,
+            "venue": "",
+            "source": "arxiv",
         })
     return papers
 
@@ -90,7 +94,7 @@ def _parse_arxiv_xml(xml_data: str) -> list[dict]:
         upd_m = re.search(r"<updated>(.*?)</updated>", entry)
         if upd_m:
             paper["updated"] = upd_m.group(1)[:10]
-        pdf_m = re.search(r'<link title="pdf" href="(.*?)"', entry)
+        pdf_m = re.search(r'<link[^>]*title="pdf"[^>]*href="(.*?)"', entry)
         if pdf_m:
             paper["pdf_url"] = pdf_m.group(1)
         cats = re.findall(r'<category term="([^"]*)"', entry)
@@ -98,13 +102,16 @@ def _parse_arxiv_xml(xml_data: str) -> list[dict]:
         paper["primary_category"] = paper["categories"][0] if paper["categories"] else ""
         jr_m = re.search(r"<journal-ref>(.*?)</journal-ref>", entry, re.DOTALL)
         paper["journal_ref"] = jr_m.group(1).strip() if jr_m else ""
+        paper["citation_count"] = 0
+        paper["venue"] = ""
+        paper["source"] = "arxiv"
         if paper.get("title"):
             papers.append(paper)
     return papers
 
 
 def _search_one_query(query: str, max_results: int) -> list[dict]:
-    """执行单条查询"""
+    """执行单条 arXiv 查询"""
     if USE_ARXIV_LIB:
         return _search_arxiv_lib(query, max_results)
     return _search_arxiv_manual(query, max_results)
@@ -116,16 +123,49 @@ def _pre_filter(paper: dict, blocked_keywords: list[str]) -> bool:
     return any(kw.lower() in text for kw in blocked_keywords)
 
 
+def _is_duplicate(paper_a: dict, paper_b: dict) -> bool:
+    """判断两篇论文是否为重复论文"""
+    id_a = paper_a.get("arxiv_id", "")
+    id_b = paper_b.get("arxiv_id", "")
+    if id_a and id_b and id_a == id_b:
+        return True
+    title_a = (paper_a.get("title") or "").lower().strip()
+    title_b = (paper_b.get("title") or "").lower().strip()
+    if title_a and title_b:
+        ratio = SequenceMatcher(None, title_a, title_b).ratio()
+        if ratio > 0.85:
+            return True
+    return False
+
+
+def _deduplicate(papers: list[dict], seen_ids: set[str]) -> list[dict]:
+    """对论文列表去重，返回不重复的新论文"""
+    unique = []
+    for paper in papers:
+        pid = paper.get("arxiv_id", "") or paper.get("title", "")
+        if pid in seen_ids:
+            continue
+        is_dup = False
+        for existing in unique:
+            if _is_duplicate(paper, existing):
+                is_dup = True
+                break
+        if not is_dup:
+            seen_ids.add(pid)
+            unique.append(paper)
+    return unique
+
+
 def collect_candidates(config: AppConfig) -> list[tuple[str, str, dict]]:
-    """收集候选论文，返回 [(query_type, search_query, paper_dict), ...]
-    
-    流程:
-    1. 按 core -> expanded -> exploratory 顺序搜索
-    2. 对每篇论文做黑名单预过滤
-    3. 返回通过预过滤的候选论文
-    """
+    """收集候选论文（调用多源版本）"""
+    return collect_candidates_multi_source(config)
+
+
+def collect_candidates_multi_source(config: AppConfig) -> list[tuple[str, str, dict]]:
+    """多源收集候选论文，返回 [(query_type, search_query, paper_dict), ...]"""
     max_results = config.runtime.max_results_per_query
     blocked = config.filters.blocked_keywords
+    year_range = f"{config.filters.years_from}-{config.filters.years_to}"
     candidates: list[tuple[str, str, dict]] = []
     seen_ids: set[str] = set()
 
@@ -135,30 +175,53 @@ def collect_candidates(config: AppConfig) -> list[tuple[str, str, dict]]:
         ("exploratory", config.exploratory_queries),
     ]
 
+    print("\n" + "=" * 50)
+    print("阶段 1：arXiv 搜索")
+    print("=" * 50)
     for query_type, queries in query_groups:
         print(f"\n[{query_type} 查询]")
         for query in queries:
             print(f"  搜索: {query}")
             raw_papers = _search_one_query(query, max_results)
             print(f"  原始结果: {len(raw_papers)} 篇")
-
             kept = 0
             for paper in raw_papers:
                 pid = paper.get("arxiv_id", "")
                 if pid in seen_ids:
                     continue
                 seen_ids.add(pid)
-
-                # 黑名单预过滤
                 if _pre_filter(paper, blocked):
                     continue
-
                 candidates.append((query_type, query, paper))
                 kept += 1
-
             print(f"  通过预过滤: {kept} 篇")
-            # arXiv API 限流：每次请求间隔 3 秒
             time.sleep(3)
 
-    print(f"\n候选池总计: {len(candidates)} 篇论文")
+    print("\n" + "=" * 50)
+    print("阶段 2：Semantic Scholar 搜索")
+    print("=" * 50)
+    ss_groups = [
+        ("core", config.core_queries),
+        ("expanded", config.expanded_queries),
+    ]
+    for query_type, queries in ss_groups:
+        print(f"\n[{query_type} 查询 - Semantic Scholar]")
+        for query in queries:
+            print(f"  搜索: {query}")
+            raw_papers = search_semantic_scholar(
+                query=query,
+                year_range=year_range,
+                max_results=max_results,
+            )
+            print(f"  原始结果: {len(raw_papers)} 篇")
+            new_papers = _deduplicate(raw_papers, seen_ids)
+            kept = 0
+            for paper in new_papers:
+                if _pre_filter(paper, blocked):
+                    continue
+                candidates.append((query_type, query, paper))
+                kept += 1
+            print(f"  去重后新论文: {len(new_papers)} 篇，通过预过滤: {kept} 篇")
+
+    print(f"\n候选池总计: {len(candidates)} 篇论文（多源合并后）")
     return candidates

@@ -1,10 +1,9 @@
-name: Weekly Paper Search
+name: Daily Paper Search
 
 on:
   schedule:
-    # 每天早上9点 (UTC+8 = 凌晨1点 UTC)
     - cron: '0 1 * * *'
-  workflow_dispatch:  # 支持手动触发
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -25,17 +24,17 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install feedparser
+        run: pip install arxiv feedparser requests
 
       - name: Run paper search
         env:
           FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
-        run: python arxiv_search.py
+        run: PYTHONPATH=src python -m video_cnn_interp.cli run-daily
 
-      - name: Commit and push
+      - name: Commit and push (whitelist)
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add -A
+          git add papers/index.jsonl README.md ALL_PAPERS.md TOPICS.md dashboard.html papers/
           git diff --staged --quiet || git commit -m "Update papers - $(date +'%Y-%m-%d')"
           git push

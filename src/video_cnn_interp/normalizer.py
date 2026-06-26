@@ -27,6 +27,9 @@ class PaperRecord:
     relevance_score: float = 0.0
     quality_label: str = ""     # core / strongly_related / weakly_related / noise
     markdown_path: str = ""
+    citation_count: int = 0
+    venue: str = ""
+    source: str = "arxiv"       # arxiv / semantic_scholar
 
     def to_dict(self) -> dict:
         return {
@@ -50,6 +53,9 @@ class PaperRecord:
             "relevance_score": self.relevance_score,
             "quality_label": self.quality_label,
             "markdown_path": self.markdown_path,
+            "citation_count": self.citation_count,
+            "venue": self.venue,
+            "source": self.source,
         }
 
 
@@ -96,18 +102,46 @@ def extract_year(published: str, arxiv_id: str) -> int:
 
 
 def build_paper_record(raw: dict, query_type: str, search_query: str) -> PaperRecord:
-    """从 arXiv API 原始数据构建标准化论文记录"""
-    raw_id = raw.get("arxiv_id", raw.get("arxiv_url", "").split("/")[-1])
-    canonical_id, version = normalize_arxiv_id(raw_id)
-    published = raw.get("published", "")
-    year = extract_year(published, canonical_id)
+    """从原始数据构建标准化论文记录，支持 arXiv 和 Semantic Scholar 来源"""
+    source = raw.get("source", "arxiv")
+
+    # ---------- canonical_id 逻辑 ----------
+    # 优先使用 arxiv_id，其次用 semantic_scholar paperId
+    raw_arxiv_id = raw.get("arxiv_id", raw.get("arxiv_url", "").split("/")[-1])
+    ss_paper_id = raw.get("paperId", "")
+
+    if raw_arxiv_id:
+        canonical_id, version = normalize_arxiv_id(raw_arxiv_id)
+    elif ss_paper_id:
+        canonical_id = ss_paper_id
+        version = 1
+    else:
+        canonical_id = "unknown"
+        version = 1
+
+    published = raw.get("published", raw.get("publicationDate", ""))
+    year = extract_year(published, canonical_id if raw_arxiv_id else "")
     categories = raw.get("categories", [])
     primary = categories[0] if categories else ""
+
+    # ---------- Semantic Scholar 字段优先 ----------
+    if source == "semantic_scholar":
+        citation_count = raw.get("citation_count", raw.get("citationCount", 0))
+        venue = raw.get("venue", raw.get("journal", {}).get("name", "") if isinstance(raw.get("journal"), dict) else raw.get("venue", ""))
+        abstract = raw.get("summary", raw.get("abstract", "")).strip()
+        url = raw.get("url", raw.get("arxiv_url", ""))
+        if not url and ss_paper_id:
+            url = f"https://www.semanticscholar.org/paper/{ss_paper_id}"
+    else:
+        citation_count = raw.get("citation_count", 0)
+        venue = raw.get("venue", "")
+        abstract = raw.get("summary", "").strip()
+        url = raw.get("arxiv_url", "")
 
     return PaperRecord(
         canonical_id=canonical_id,
         version=version,
-        arxiv_id=raw_id,
+        arxiv_id=raw_arxiv_id or "",
         title=raw.get("title", "").strip(),
         authors=raw.get("authors", []),
         year=year,
@@ -115,10 +149,13 @@ def build_paper_record(raw: dict, query_type: str, search_query: str) -> PaperRe
         updated=raw.get("updated", ""),
         primary_category=primary,
         categories=categories,
-        abstract=raw.get("summary", "").strip(),
-        url=raw.get("arxiv_url", ""),
+        abstract=abstract,
+        url=url,
         pdf_url=raw.get("pdf_url", ""),
-        journal_ref=raw.get("journal_ref", ""),
+        journal_ref=raw.get("journal_ref", raw.get("venue", "")),
         query_type=query_type,
         search_query=search_query,
+        citation_count=citation_count,
+        venue=venue,
+        source=source,
     )

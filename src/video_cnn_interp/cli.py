@@ -14,6 +14,7 @@ from .notify import send_daily_digest, send_error_alert
 from .topics import classify_paper_topics, generate_topics_markdown
 from .summarizer import enhance_record
 from .dashboard import generate_dashboard_html
+from .trends import generate_trends_markdown
 
 
 def run_daily(base_dir: str | Path | None = None) -> None:
@@ -117,6 +118,11 @@ def run_daily(base_dir: str | Path | None = None) -> None:
     for rec in all_records:
         rec["topics"] = classify_paper_topics(rec)
         upsert_paper(index_path, rec)
+
+    print("\n[6.5/8] Generate trends report...")
+    trends_content = generate_trends_markdown(all_records)
+    (base / "TRENDS.md").write_text(trends_content, encoding="utf-8")
+    print("  TRENDS.md updated")
 
     print("\n[7/8] Generate topics + dashboard...")
     (base / "TOPICS.md").write_text(generate_topics_markdown(all_records), encoding="utf-8")

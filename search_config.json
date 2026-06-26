@@ -1,29 +1,113 @@
 {
-  "search_queries": {
+  "queries": {
     "core": [
       "R(2+1)D video classification interpretability",
       "3D CNN video explainability",
       "spatiotemporal convolution video understanding",
       "video action recognition neural network",
-      "Decomposed 3D convolutions action recognition"
+      "Decomposed 3D convolutions action recognition",
+      "video CNN saliency visualization",
+      "3D convolutional neural network temporal reasoning"
     ],
-    "related": [
-      "CNN interpretability explainability",
-      "network dissection deep visual representations",
-      "attention mechanism visualization",
+    "expanded": [
+      "Grad-CAM video action recognition",
+      "SHAP LIME video deep learning",
+      "attention rollout video transformer",
+      "video saliency prediction deep learning",
+      "network dissection visual representations",
       "video transformer interpretability",
-      "3D convolution neural network video"
+      "spatiotemporal attention mechanism",
+      "video feature visualization",
+      "SlowFast TimeSformer VideoMAE explainability",
+      "video action recognition benchmark"
+    ],
+    "exploratory": [
+      "explainable AI video understanding",
+      "video representation learning interpretability",
+      "perturbation-based explanation video",
+      "concept bottleneck video model",
+      "visual reasoning video neural network",
+      "video understanding foundation model",
+      "video temporal grounding explanation"
     ]
   },
-  "arxiv_categories": [
-    "cs.CV",
-    "cs.LG"
-  ],
-  "max_results_per_query": 50,
-  "output_format": "markdown",
-  "download_pdfs": false,
-  "years_range": {
-    "from": 2015,
-    "to": 2026
+  "filters": {
+    "years_from": 2015,
+    "years_to": 2026,
+    "allowed_categories": ["cs.CV", "cs.LG", "cs.AI"],
+    "blocked_keywords": [
+      "gravitational",
+      "particle physics",
+      "IoT intrusion",
+      "sign language mouthing",
+      "scatterplot",
+      "hyperspectral",
+      "recommendation system",
+      "speech recognition",
+      "music generation",
+      "text generation",
+      "image generation",
+      "GAN inversion",
+      "neural architecture search",
+      "federated learning"
+    ],
+    "required_topic_keywords": [
+      "video",
+      "action",
+      "temporal",
+      "spatiotemporal",
+      "3D convolution",
+      "R(2+1)D",
+      "CNN",
+      "interpretability",
+      "explainability",
+      "saliency",
+      "attention",
+      "visualization",
+      "Grad-CAM",
+      "feature map",
+      "activation",
+      "attribution",
+      "ablation",
+      "dissection"
+    ]
+  },
+  "scoring": {
+    "min_relevance_score": 2.0,
+    "core_threshold": 4.0,
+    "strongly_related_threshold": 2.5,
+    "keyword_weights": {
+      "core": 2.0,
+      "expanded": 1.0,
+      "exploratory": 0.5
+    },
+    "category_bonus": {
+      "cs.CV": 1.0,
+      "cs.LG": 0.5,
+      "cs.AI": 0.3
+    },
+    "topic_bonus_per_hit": 0.3,
+    "blocked_penalty": 10.0,
+    "video_in_title_bonus": 0.5,
+    "survey_bonus": 0.8,
+    "venue_bonus": {
+      "CVPR": 0.5,
+      "ICCV": 0.5,
+      "ECCV": 0.5,
+      "NeurIPS": 0.4,
+      "ICML": 0.4,
+      "ICLR": 0.4,
+      "AAAI": 0.3
+    },
+    "citation_bonus_threshold": 50,
+    "citation_bonus": 0.5
+  },
+  "runtime": {
+    "max_results_per_query": 30,
+    "output_dir": "papers",
+    "index_format": "jsonl",
+    "write_markdown_cards": true,
+    "write_readme": true,
+    "notify_feishu": true
   }
 }
