@@ -1,6 +1,6 @@
 # 📚 完整论文列表
 
-> 最后更新: 2026-06-26 15:24:06 | 共 200 篇
+> 最后更新: 2026-06-26 17:53:57 | 共 201 篇
 
 ---
 
@@ -180,7 +180,7 @@
 | 📝 | [Interpretable Representations in Explainable AI: From Theory](http://arxiv.org/abs/2008.07007v4) | Kacper Sokol, Peter Flach | 2.1 | expanded |
 | 📝 | [3D Quasi-Recurrent Neural Network for Hyperspectral Image De](http://arxiv.org/abs/2003.04547v1) | Kaixuan Wei, Ying Fu+ | 2.1 | exploratory |
 
-## 2019 年 (13 篇)
+## 2019 年 (14 篇)
 
 | 标签 | 标题 | 作者 | 分数 | 查询类型 |
 |------|------|------|------|----------|
@@ -193,6 +193,7 @@
 | 📎 | [FBK-HUPBA Submission to the EPIC-Kitchens 2019 Action Recogn](http://arxiv.org/abs/1906.08960v1) | Swathikiran Sudhakaran, Sergio Escalera+ | 3.8 | core |
 | 📎 | [Spatio-Temporal FAST 3D Convolutions for Human Action Recogn](http://arxiv.org/abs/1909.13474v2) | Alexandros Stergiou, Ronald Poppe | 3.7 | expanded |
 | 📎 | [C3DVQA: Full-Reference Video Quality Assessment with 3D Conv](http://arxiv.org/abs/1910.13646v2) | Munan Xu, Junming Chen+ | 3.5 | exploratory |
+| 📎 | [Resource Efficient 3D Convolutional Neural Networks](http://arxiv.org/abs/1904.02422v5) | Okan Köpüklü, Neslihan Kose+ | 3.0 | exploratory |
 | 📎 | [Deep 3D Convolutional Neural Network for Automated Lung Canc](http://arxiv.org/abs/1906.01054v1) | Sumita Mishra, Naresh Kumar Chaudhary+ | 2.7 | exploratory |
 | 📎 | [Demonstration of Vector Flow Imaging using Convolutional Neu](http://arxiv.org/abs/1903.06254v1) | Thomas Robins, Antonio Stanziola+ | 2.7 | exploratory |
 | 📎 | [Deep Features Analysis with Attention Networks](http://arxiv.org/abs/1901.10042v1) | Shipeng Xie, Da Chen+ | 2.6 | exploratory |
