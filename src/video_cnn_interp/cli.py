@@ -164,11 +164,79 @@ def _write_paper_card(path: Path, record) -> None:
     path.write_text(content, encoding="utf-8")
 
 
+def run_backfill(base_dir: str | Path | None = None) -> None:
+    """回填现有论文的增强字段（summary_zh, method_type, topics, citation_count 等）"""
+    if base_dir is None:
+        base_dir = Path(__file__).parent.parent.parent
+    base = Path(base_dir)
+    config_path = base / "search_config.json"
+
+    print("=" * 60)
+    print("Backfill: re-process existing papers")
+    print("=" * 60)
+
+    config = load_app_config(config_path)
+    output_dir = base / config.runtime.output_dir
+    index_path = output_dir / "index.jsonl"
+
+    if not index_path.exists():
+        print("  [ERROR] index.jsonl does not exist, run run-daily first")
+        return
+
+    all_records = get_all_records(index_path)
+    print(f"Loaded existing papers: {len(all_records)}")
+
+    print("Enhance fields (summary_zh, method_type, topics, r2plus1d)...")
+    enhanced = 0
+    for rec in all_records:
+        old_summary = rec.get("summary_zh", "")
+        old_method = rec.get("method_type", "other")
+        rec = enhance_record(rec)
+        rec["topics"] = classify_paper_topics(rec)
+        if rec.get("summary_zh", "") != old_summary or rec.get("method_type", "other") != old_method:
+            enhanced += 1
+    print(f"  Enhanced {enhanced} papers")
+
+    print("Re-scoring...")
+    rescored = 0
+    for rec in all_records:
+        old_score = rec.get("relevance_score", 0)
+        old_label = rec.get("quality_label", "")
+        query_type = rec.get("query_type", "core")
+        score = compute_relevance_score(rec, query_type, config)
+        label = assign_quality_label(score, config)
+        rec["relevance_score"] = score
+        rec["quality_label"] = label
+        if score != old_score or label != old_label:
+            rescored += 1
+    print(f"  Re-scored {rescored} papers")
+
+    print("Write back index + regenerate display files...")
+    for rec in all_records:
+        upsert_paper(index_path, rec)
+
+    stats = get_stats(index_path)
+    readme_content = generate_main_readme(all_records, stats)
+    (base / "README.md").write_text(readme_content, encoding="utf-8")
+    all_papers_content = generate_all_papers(all_records)
+    (base / "ALL_PAPERS.md").write_text(all_papers_content, encoding="utf-8")
+    (base / "TOPICS.md").write_text(generate_topics_markdown(all_records), encoding="utf-8")
+    trends_content = generate_trends_markdown(all_records)
+    (base / "TRENDS.md").write_text(trends_content, encoding="utf-8")
+    (base / "dashboard.html").write_text(generate_dashboard_html(all_records, stats), encoding="utf-8")
+    print("  All display files updated")
+
+    print(f"DONE: enhanced={enhanced} rescored={rescored} total={len(all_records)}")
+
+
 def main() -> None:
     if len(sys.argv) > 1 and sys.argv[1] == "run-daily":
         run_daily()
+    elif len(sys.argv) > 1 and sys.argv[1] == "run-backfill":
+        run_backfill()
     else:
         print("usage: python -m video_cnn_interp.cli run-daily")
+        print("       python -m video_cnn_interp.cli run-backfill")
         sys.exit(1)
 
 
