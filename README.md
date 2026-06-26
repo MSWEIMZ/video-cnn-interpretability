@@ -2,360 +2,330 @@
 
 > 自动化论文搜索与整理系统 | 专注于 3DCNN、R(2+1)D 模型及可解释性研究
 
-## 📊 统计概览
+[![GitHub Actions](https://github.com/MSWEIMZ/video-cnn-interpretability/actions/workflows/arxiv_search.yml/badge.svg)](https://github.com/MSWEIMZ/video-cnn-interpretability/actions)
 
-- **论文总数**: 200 篇
-- **核心论文**: 80 篇
-- **高相关论文**: 93 篇
-- **最后更新**: 2026-06-26 15:24:06
+## 📊 论文统计
 
----
+- **总计**: 241 篇论文
+- **最后更新**: 2026-06-26 05:14:56
 
-## 🔥 最新核心论文
+## 🔍 搜索领域
 
-| 年份 | 标题 | 作者 | 分数 |
-|------|------|------|------|
-| 2026 | [Video Understanding: From Geometry and Semantics to Unified ](http://arxiv.org/abs/2603.17840v1) | Zhaochong An, Zirui Li+ | 4.4 |
-| 2025 | [Enhancing Video Understanding: Deep Neural Networks for Spat](http://arxiv.org/abs/2502.07277v1) | Amir Hosein Fadaei, Mohammad-Reza A. Dehaqani | 5.0 |
-| 2025 | [Token Merging via Spatiotemporal Information Mining for Surg](http://arxiv.org/abs/2509.23672v1) | Xixi Jiang, Chen Yang+ | 4.7 |
-| 2025 | [Video-CoT: A Comprehensive Dataset for Spatiotemporal Unders](http://arxiv.org/abs/2506.08817v3) | Shuyi Zhang, Xiaoshuai Hao+ | 4.4 |
-| 2025 | [V-STaR: Benchmarking Video-LLMs on Video Spatio-Temporal Rea](http://arxiv.org/abs/2503.11495v1) | Zixu Cheng, Jian Hu+ | 4.4 |
-| 2025 | [Progressive Growing of Video Tokenizers for Temporally Compa](http://arxiv.org/abs/2501.05442v2) | Aniruddha Mahapatra, Long Mai+ | 4.4 |
-| 2025 | [AlcheMinT: Fine-grained Temporal Control for Multi-Reference](http://arxiv.org/abs/2512.10943v1) | Sharath Girish, Viacheslav Ivanov+ | 4.4 |
-| 2025 | [Radial Attention: $O(n\log n)$ Sparse Attention with Energy ](http://arxiv.org/abs/2506.19852v2) | Xingyang Li, Muyang Li+ | 4.2 |
-| 2025 | [S^2VG: 3D Stereoscopic and Spatial Video Generation via Deno](http://arxiv.org/abs/2508.08048v2) | Peng Dai, Feitong Tan+ | 4.1 |
-| 2025 | [CoS: Chain-of-Shot Prompting for Long Video Understanding](http://arxiv.org/abs/2502.06428v2) | Jian Hu, Zixu Cheng+ | 4.1 |
-| 2025 | [Harnessing Synthetic Preference Data for Enhancing Temporal ](http://arxiv.org/abs/2510.03955v1) | Sameep Vani, Shreyas Jena+ | 4.1 |
-| 2025 | [TinyLLaVA-Video: Towards Smaller LMMs for Video Understandin](http://arxiv.org/abs/2501.15513v2) | Xingjian Zhang, Xi Weng+ | 4.1 |
-| 2025 | [AceVFI: A Comprehensive Survey of Advances in Video Frame In](http://arxiv.org/abs/2506.01061v3) | Dahyeon Kye, Changhyun Roh+ | 4.1 |
-| 2025 | [Unified Video Action Model](http://arxiv.org/abs/2503.00200v3) | Shuang Li, Yihuai Gao+ | 4.1 |
-| 2024 | [InternVideo2: Scaling Foundation Models for Multimodal Video](http://arxiv.org/abs/2403.15377v4) | Yi Wang, Kunchang Li+ | 4.4 |
-| 2024 | [Can VLMs be used on videos for action recognition? LLMs are ](http://arxiv.org/abs/2407.14834v1) | Harsh Lunia | 4.4 |
-| 2024 | [Exploring Explainability in Video Action Recognition](http://arxiv.org/abs/2404.09067v1) | Avinab Saha, Shashank Gupta+ | 4.3 |
-| 2024 | [Prompting Video-Language Foundation Models with Domain-speci](http://arxiv.org/abs/2410.09380v1) | Ting Yu, Kunhao Fu+ | 4.1 |
-| 2024 | [Enhancing Temporal Consistency in Video Editing by Reconstru](http://arxiv.org/abs/2406.02541v4) | Inkyu Shin, Qihang Yu+ | 4.1 |
-| 2024 | [Towards Synthetic Data Generation for Improved Pain Recognit](http://arxiv.org/abs/2409.16382v1) | Jonas Nasimzada, Jens Kleesiek+ | 4.1 |
+### 核心领域
+- R(2+1)D video classification interpretability
+- 3D CNN video explainability
+- Spatiotemporal convolution video understanding
 
-## 📎 高相关论文
-
-| 年份 | 标题 | 作者 | 分数 |
-|------|------|------|------|
-| 2026 | [3D-RFT: Reinforcement Fine-Tuning for Video-based 3D Scene U](http://arxiv.org/abs/2603.04976v2) | Xiongkun Linghu, Jiangyong Huang+ | 3.8 |
-| 2026 | [ViASNet: A Video Ad Saliency Network for Predicting Dynamic ](http://arxiv.org/abs/2605.29302v1) | Jianping Ye, Michel Wedel | 3.4 |
-| 2026 | [GEM-4D: Geometry-Enhanced Video World Models for Robot Manip](http://arxiv.org/abs/2605.22882v3) | Kaichen Zhou, Yuzhen Chen+ | 3.1 |
-| 2025 | [How Much 3D Do Video Foundation Models Encode?](http://arxiv.org/abs/2512.19949v1) | Zixuan Huang, Xiang Li+ | 3.8 |
-| 2025 | [Towards Video Thinking Test: A Holistic Benchmark for Advanc](http://arxiv.org/abs/2507.15028v1) | Yuanhan Zhang, Yunice Chew+ | 3.8 |
-| 2025 | [Sphere-GAN: a GAN-based Approach for Saliency Estimation in ](http://arxiv.org/abs/2509.11948v1) | Mahmoud Z. A. Wahba, Sara Baldoni+ | 3.4 |
-| 2025 | [Text-Audio-Visual-conditioned Diffusion Model for Video Sali](http://arxiv.org/abs/2504.14267v1) | Li Yu, Xuanzhe Sun+ | 3.4 |
-| 2025 | [Prisma: An Open Source Toolkit for Mechanistic Interpretabil](http://arxiv.org/abs/2504.19475v3) | Sonia Joseph, Praneet Suresh+ | 3.1 |
-| 2025 | [SAM 3D: 3Dfy Anything in Images](http://arxiv.org/abs/2511.16624v2) |  SAM 3D Team, Xingyu Chen+ | 3.0 |
-| 2025 | [Scalable Event-Based Video Streaming for Machines with MoQ](http://arxiv.org/abs/2508.15003v1) | Andrew C. Freeman | 2.8 |
+### 相关领域
+- CNN interpretability explainability
+- Network dissection deep vision
+- Attention mechanism visualization
 
 ---
 
-<details>
-<summary>📅 2026 年 (4 篇)</summary>
+## 📅 2026 年
 
-| 标签 | 标题 | 作者 | 分数 |
-|------|------|------|------|
-| 🔥 | [Video Understanding: From Geometry and Semantics to Unified ](http://arxiv.org/abs/2603.17840v1) | Zhaochong An, Zirui Li+ | 4.4 |
-| 📎 | [3D-RFT: Reinforcement Fine-Tuning for Video-based 3D Scene U](http://arxiv.org/abs/2603.04976v2) | Xiongkun Linghu, Jiangyong Huang+ | 3.8 |
-| 📎 | [ViASNet: A Video Ad Saliency Network for Predicting Dynamic ](http://arxiv.org/abs/2605.29302v1) | Jianping Ye, Michel Wedel | 3.4 |
-| 📎 | [GEM-4D: Geometry-Enhanced Video World Models for Robot Manip](http://arxiv.org/abs/2605.22882v3) | Kaichen Zhou, Yuzhen Chen+ | 3.1 |
+| 年份 | 标题 | 作者 | 期刊/会议 | 关键字 | 分类 |
+|------|------|------|----------|--------|------|
+| 2026 | [3D-RFT: Reinforcement Fine-Tuning for Video-based ](papers/2026/core/2603.04976v2.md) | Xiongkun Linghu, Jiangyong Huang+ | CV | 3D CNN video explainability | 🔥 |
+| 2026 | [Applied Explainability for Large Language Models: ](papers/2026/related/2604.15371v1.md) | Venkata Abhinandan Kancharla | CL | CNN interpretability explainab | 📎 |
+| 2026 | [DVANet: Degradation-aware Visual-prior Alignment N](papers/2026/related/2606.19097v1.md) | Yanjie Tu, Qingsen Yan+ | CV | network dissection deep visual | 📎 |
+| 2026 | [Deep Search for Joint Sources of Gravitational Wav](papers/2026/core/2601.07595v3.md) |  The IceCube Collaboration, R. Abbasi+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2026 | [Fast Multirate Encoding for 360° Video in OMAF Str](papers/2026/related/2601.17568v1.md) | Amritha Premkumar, Christian Herglotz | MM | video transformer interpretabi | 📎 |
+| 2026 | [Gated Sparse Attention: Combining Computational Ef](papers/2026/related/2601.15305v1.md) | Alfred Shen, Aaron Shen | AI | attention mechanism visualizat | 📎 |
+| 2026 | [Interpreting "Interpretability" and Explaining "Ex](papers/2026/related/2606.26228v1.md) | Rikab Gambhir, Luisa Lucie-Smith+ | LG | CNN interpretability explainab | 📎 |
+| 2026 | [Measurement of CP asymmetries in $\kern 0.18em\ove](papers/2026/core/2603.28132v1.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2026 | [Measurement of the CKM angle $γ$ in $B^{\pm} \righ](papers/2026/core/2604.05701v1.md) | The BESIII, LHCb Collaborations+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2026 | [Midterm Status Report of the ILC Technology Networ](papers/2026/related/2603.01172v1.md) | ILC Technology Network | arXiv | network dissection deep visual | 📎 |
+| 2026 | [Monodense Deep Neural Model for Determining Item P](papers/2026/related/2603.29261v1.md) | Lakshya Garg, Sai Yaswanth+ | LG | network dissection deep visual | 📎 |
+| 2026 | [Neural Networks and Schramm-Loewner Evolutions](papers/2026/related/2606.02682v1.md) | Neilesh Shrotri, Vlad Margarint | arXiv | 3D convolution neural network  | 📎 |
+| 2026 | [Precise measurement of the CKM angle $γ$ with a no](papers/2026/core/2604.05712v1.md) | The BESIII, LHCb Collaborations+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2026 | [Scalable Circuit Learning for Interpreting Large L](papers/2026/related/2606.16939v1.md) | Naiyu Yin, Dennis Wei+ | LG | CNN interpretability explainab | 📎 |
+| 2026 | [Search for lepton-number-violating $B^-\to D^{(*)+](papers/2026/core/2601.07657v2.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2026 | [Searches for Continuous Gravitational Waves from S](papers/2026/core/2603.25808v2.md) |  The LIGO Scientific Collaboration,  the Virgo Collaboration+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2026 | [VISTA: Video Interaction Spatio-Temporal Analysis ](papers/2026/core/2605.01391v2.md) | Alejandro Aparcedo, Akash Kumar+ | CV | spatiotemporal convolution vid | 🔥 |
+| 2026 | [Video Understanding: From Geometry and Semantics t](papers/2026/core/2603.17840v1.md) | Zhaochong An, Zirui Li+ | CV | spatiotemporal convolution vid | 🔥 |
+| 2026 | [Video-MME-v2: Towards the Next Stage in Benchmarks](papers/2026/core/2604.05015v1.md) | Chaoyou Fu, Haozhi Yuan+ | CV | spatiotemporal convolution vid | 🔥 |
+| 2026 | [Visual Boosting Techniques for Spatiotemporal Dens](papers/2026/related/2604.25298v1.md) | Julius Rauscher, Frederik L. Dennig+ | HC | network dissection deep visual | 📎 |
 
-</details>
+## 📅 2025 年
 
-<details>
-<summary>📅 2025 年 (23 篇)</summary>
+| 年份 | 标题 | 作者 | 期刊/会议 | 关键字 | 分类 |
+|------|------|------|----------|--------|------|
+| 2025 | [A Framework Combining 3D CNN and Transformer for V](papers/2025/core/2508.06528v1.md) | Xiuliang Zhang, Tadiwa Elisha Nyamasvisva+ | CV | 3D CNN video explainability | 🔥 |
+| 2025 | [A Hybrid Fully Convolutional CNN-Transformer Model](papers/2025/related/2504.08481v4.md) | Kerol Djoumessi, Samuel Ofosu Mensah+ | CV | CNN interpretability explainab | 📎 |
+| 2025 | [AceVFI: A Comprehensive Survey of Advances in Vide](papers/2025/core/2506.01061v3.md) | Dahyeon Kye, Changhyun Roh+ | CV | 3D CNN video explainability | 🔥 |
+| 2025 | [An Active Inference Model of Covert and Overt Visu](papers/2025/related/2505.03856v1.md) | Tin Mišić, Karlo Koledić+ | CV | attention mechanism visualizat | 📎 |
+| 2025 | [Anchoring and Alignment: Data Factors in Part-to-W](papers/2025/related/2508.01881v1.md) | Connor Bailey, Michael Gleicher | HC | attention mechanism visualizat | 📎 |
+| 2025 | [Attention Debiasing for Token Pruning in Vision La](papers/2025/related/2508.17807v2.md) | Kai Zhao, Wubang Yuan+ | CV | attention mechanism visualizat | 📎 |
+| 2025 | [Beyond the ATE: Interpretable Modelling of Treatme](papers/2025/related/2507.07271v2.md) | Julianna Piskorz, Krzysztof Kacprzyk+ | LG | CNN interpretability explainab | 📎 |
+| 2025 | [Charts-of-Thought: Enhancing LLM Visualization Lit](papers/2025/related/2508.04842v1.md) | Amit Kumar Das, Mohammad Tarun+ | HC | attention mechanism visualizat | 📎 |
+| 2025 | [CoS: Chain-of-Shot Prompting for Long Video Unders](papers/2025/core/2502.06428v2.md) | Jian Hu, Zixu Cheng+ | CV | spatiotemporal convolution vid | 🔥 |
+| 2025 | [CompressedVQA-HDR: Generalized Full-reference and ](papers/2025/related/2507.11900v1.md) | Wei Sun, Linhan Cao+ | CV | video transformer interpretabi | 📎 |
+| 2025 | [DUNE Software and Computing Research and Developme](papers/2025/core/2503.23743v1.md) |  DUNE Collaboration, A. Abed Abud+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2025 | [Do You "Trust" This Visualization? An Inventory to](papers/2025/related/2503.17670v2.md) | Huichen Will Wang, Kylie Lin+ | HC | attention mechanism visualizat | 📎 |
+| 2025 | [Enhancing Explainability with Multimodal Context R](papers/2025/related/2503.16467v1.md) | Anargh Viswanath, Lokesh Veeramacheneni+ | HC | CNN interpretability explainab | 📎 |
+| 2025 | [Enhancing Video Understanding: Deep Neural Network](papers/2025/core/2502.07277v1.md) | Amir Hosein Fadaei, Mohammad-Reza A. Dehaqani | CV | spatiotemporal convolution vid | 🔥 |
+| 2025 | [European Contributions to Fermilab Accelerator Upg](papers/2025/core/2503.23744v1.md) |  DUNE Collaboration, A. Abed Abud+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2025 | [Evidence for $B^-\rightarrow D^{**0}τ^-\overline{ν](papers/2025/core/2501.14943v3.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2025 | [Explainable Information Retrieval in the Audit Dom](papers/2025/related/2507.03479v1.md) | Alexander Frummet, Emanuel Slany+ | IR | CNN interpretability explainab | 📎 |
+| 2025 | [Forgetting Transformer: Softmax Attention with a F](papers/2025/related/2503.02130v2.md) | Zhixuan Lin, Evgenii Nikishin+ | LG | attention mechanism visualizat | 📎 |
+| 2025 | [Generalized Regularized Evidential Deep Learning M](papers/2025/related/2512.23753v1.md) | Deep Shankar Pandey, Hyomin Choi+ | LG | network dissection deep visual | 📎 |
+| 2025 | [Group Equivariance Meets Mechanistic Interpretabil](papers/2025/related/2511.09432v1.md) | Ege Erdogan, Ana Lucic | LG | CNN interpretability explainab | 📎 |
+| 2025 | [Harnessing Synthetic Preference Data for Enhancing](papers/2025/core/2510.03955v1.md) | Sameep Vani, Shreyas Jena+ | CV | spatiotemporal convolution vid | 🔥 |
+| 2025 | [How Much 3D Do Video Foundation Models Encode?](papers/2025/core/2512.19949v1.md) | Zixuan Huang, Xiang Li+ | CV | 3D CNN video explainability | 🔥 |
+| 2025 | [Interpreting Large Text-to-Image Diffusion Models ](papers/2025/related/2505.24360v3.md) | Stepan Shabalin, Ayush Panda+ | LG | CNN interpretability explainab | 📎 |
+| 2025 | [Learning Interpretable Features in Audio Latent Sp](papers/2025/related/2510.23802v1.md) | Nathan Paek, Yongyi Zang+ | LG | CNN interpretability explainab | 📎 |
+| 2025 | [MT-Video-Bench: A Holistic Video Understanding Ben](papers/2025/core/2510.17722v2.md) | Yaning Pan, Qianqian Xie+ | CV | spatiotemporal convolution vid | 🔥 |
+| 2025 | [Measurement of $C\!P$ asymmetry in $D^0 \to K^0_{\](papers/2025/core/2510.14732v2.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2025 | [MisVisFix: An Interactive Dashboard for Detecting,](papers/2025/related/2508.04679v1.md) | Amit Kumar Das, Klaus Mueller | HC | attention mechanism visualizat | 📎 |
+| 2025 | [Observation of $B_c^+ \to D h^+ h^-$ decays](papers/2025/core/2509.15873v3.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2025 | [OmniVCus: Feedforward Subject-driven Video Customi](papers/2025/related/2506.23361v3.md) | Yuanhao Cai, He Zhang+ | CV | video transformer interpretabi | 📎 |
+| 2025 | [Predicting concentration levels of air pollutants ](papers/2025/core/2502.01654v1.md) | Iat Hang Fong, Tengyue Li+ | LG | video action recognition neura | 🔥 |
+| 2025 | [Preliminary Quantitative Study on Explainability a](papers/2025/related/2510.15769v1.md) | Allen Daniel Sunny | AI | CNN interpretability explainab | 📎 |
+| 2025 | [Prisma: An Open Source Toolkit for Mechanistic Int](papers/2025/related/2504.19475v3.md) | Sonia Joseph, Praneet Suresh+ | CV | video transformer interpretabi | 📎 |
+| 2025 | [Progressive Growing of Video Tokenizers for Tempor](papers/2025/core/2501.05442v2.md) | Aniruddha Mahapatra, Long Mai+ | CV | spatiotemporal convolution vid | 🔥 |
+| 2025 | [Puzzles: Unbounded Video-Depth Augmentation for Sc](papers/2025/core/2506.23863v1.md) | Jiahao Ma, Lei Wang+ | CV | 3D CNN video explainability | 🔥 |
+| 2025 | [Reangle-A-Video: 4D Video Generation as Video-to-V](papers/2025/related/2503.09151v3.md) | Hyeonho Jeong, Suhyeon Lee+ | CV | video transformer interpretabi | 📎 |
+| 2025 | [Reframing Pattern: A Comprehensive Approach to a C](papers/2025/related/2508.02639v3.md) | Tingying He, Jason Dykes+ | HC | attention mechanism visualizat | 📎 |
+| 2025 | [SAM 3D: 3Dfy Anything in Images](papers/2025/core/2511.16624v2.md) |  SAM 3D Team, Xingyu Chen+ | CV | 3D CNN video explainability | 🔥 |
+| 2025 | [S^2VG: 3D Stereoscopic and Spatial Video Generatio](papers/2025/core/2508.08048v2.md) | Peng Dai, Feitong Tan+ | CV | 3D CNN video explainability | 🔥 |
+| 2025 | [Scalable Event-Based Video Streaming for Machines ](papers/2025/core/2508.15003v1.md) | Andrew C. Freeman | CV | 3D CNN video explainability | 🔥 |
+| 2025 | [Search for charge-parity violation in semileptonic](papers/2025/core/2501.11635v2.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2025 | [Study of charm mixing and CP violation with $D^0\t](papers/2025/core/2510.04963v2.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2025 | [Tell Me Without Telling Me: Two-Way Prediction of ](papers/2025/related/2508.03713v1.md) | Minsuk Chang, Yao Wang+ | HC | attention mechanism visualizat | 📎 |
+| 2025 | [The DUNE Phase II Detectors](papers/2025/core/2503.23293v1.md) |  DUNE Collaboration, A. Abed Abud+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2025 | [The DUNE Science Program](papers/2025/core/2503.23291v1.md) |  DUNE Collaboration, A. Abed Abud+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2025 | [The Road Less Traveled: Investigating Robustness a](papers/2025/related/2503.01391v1.md) | Matteo Brosolo, Vinod Puthuvath+ | CR | CNN interpretability explainab | 📎 |
+| 2025 | [The Temporal Trap: Entanglement in Pre-Trained Vis](papers/2025/related/2502.03270v3.md) | Nikolaos Tsagkas, Andreas Sochopoulos+ | RO | network dissection deep visual | 📎 |
+| 2025 | [TinyLLaVA-Video: Towards Smaller LMMs for Video Un](papers/2025/core/2501.15513v2.md) | Xingjian Zhang, Xi Weng+ | CV | spatiotemporal convolution vid | 🔥 |
+| 2025 | [Token Merging via Spatiotemporal Information Minin](papers/2025/core/2509.23672v1.md) | Xixi Jiang, Chen Yang+ | CV | spatiotemporal convolution vid | 🔥 |
+| 2025 | [Towards Video Thinking Test: A Holistic Benchmark ](papers/2025/core/2507.15028v1.md) | Yuanhan Zhang, Yunice Chew+ | CV | spatiotemporal convolution vid | 🔥 |
+| 2025 | [TraNCE: Transformative Non-linear Concept Explaine](papers/2025/related/2503.20230v1.md) | Ugochukwu Ejike Akpudo, Yongsheng Gao+ | CV | CNN interpretability explainab | 📎 |
+| 2025 | [TransVFC: A Transformable Video Feature Compressio](papers/2025/related/2503.23772v2.md) | Yuxiao Sun, Yao Zhao+ | arXiv | video transformer interpretabi | 📎 |
+| 2025 | [Transfer Learning from Visual Speech Recognition t](papers/2025/core/2505.13784v2.md) | Dinh Nam Pham, Eleftherios Avramidis | CV | Decomposed 3D convolutions act | 🔥 |
+| 2025 | [Transform Trained Transformer: Accelerating Naive ](papers/2025/related/2512.13492v1.md) | Jiangning Zhang, Junwei Zhu+ | CV | video transformer interpretabi | 📎 |
+| 2025 | [Unified Video Action Model](papers/2025/core/2503.00200v3.md) | Shuang Li, Yihuai Gao+ | RO | video action recognition neura | 🔥 |
+| 2025 | [VL-KnG: Persistent Spatiotemporal Knowledge Graphs](papers/2025/core/2510.01483v2.md) | Mohamad Al Mdfaa, Svetlana Lukina+ | RO | spatiotemporal convolution vid | 🔥 |
+| 2025 | [Video-As-Prompt: Unified Semantic Control for Vide](papers/2025/related/2510.20888v1.md) | Yuxuan Bian, Xin Chen+ | CV | video transformer interpretabi | 📎 |
+| 2025 | [Video-CoT: A Comprehensive Dataset for Spatiotempo](papers/2025/core/2506.08817v3.md) | Shuyi Zhang, Xiaoshuai Hao+ | CV | spatiotemporal convolution vid | 🔥 |
+| 2025 | [nnterp: A Standardized Interface for Mechanistic I](papers/2025/related/2511.14465v2.md) | Clément Dumas | LG | video transformer interpretabi | 📎 |
 
-| 标签 | 标题 | 作者 | 分数 |
-|------|------|------|------|
-| 🔥 | [Enhancing Video Understanding: Deep Neural Networks for Spat](http://arxiv.org/abs/2502.07277v1) | Amir Hosein Fadaei, Mohammad-Reza A. Dehaqani | 5.0 |
-| 🔥 | [Token Merging via Spatiotemporal Information Mining for Surg](http://arxiv.org/abs/2509.23672v1) | Xixi Jiang, Chen Yang+ | 4.7 |
-| 🔥 | [Video-CoT: A Comprehensive Dataset for Spatiotemporal Unders](http://arxiv.org/abs/2506.08817v3) | Shuyi Zhang, Xiaoshuai Hao+ | 4.4 |
-| 🔥 | [V-STaR: Benchmarking Video-LLMs on Video Spatio-Temporal Rea](http://arxiv.org/abs/2503.11495v1) | Zixu Cheng, Jian Hu+ | 4.4 |
-| 🔥 | [Progressive Growing of Video Tokenizers for Temporally Compa](http://arxiv.org/abs/2501.05442v2) | Aniruddha Mahapatra, Long Mai+ | 4.4 |
-| 🔥 | [AlcheMinT: Fine-grained Temporal Control for Multi-Reference](http://arxiv.org/abs/2512.10943v1) | Sharath Girish, Viacheslav Ivanov+ | 4.4 |
-| 🔥 | [Radial Attention: $O(n\log n)$ Sparse Attention with Energy ](http://arxiv.org/abs/2506.19852v2) | Xingyang Li, Muyang Li+ | 4.2 |
-| 🔥 | [S^2VG: 3D Stereoscopic and Spatial Video Generation via Deno](http://arxiv.org/abs/2508.08048v2) | Peng Dai, Feitong Tan+ | 4.1 |
-| 🔥 | [CoS: Chain-of-Shot Prompting for Long Video Understanding](http://arxiv.org/abs/2502.06428v2) | Jian Hu, Zixu Cheng+ | 4.1 |
-| 🔥 | [Harnessing Synthetic Preference Data for Enhancing Temporal ](http://arxiv.org/abs/2510.03955v1) | Sameep Vani, Shreyas Jena+ | 4.1 |
-| 🔥 | [TinyLLaVA-Video: Towards Smaller LMMs for Video Understandin](http://arxiv.org/abs/2501.15513v2) | Xingjian Zhang, Xi Weng+ | 4.1 |
-| 🔥 | [AceVFI: A Comprehensive Survey of Advances in Video Frame In](http://arxiv.org/abs/2506.01061v3) | Dahyeon Kye, Changhyun Roh+ | 4.1 |
-| 🔥 | [Unified Video Action Model](http://arxiv.org/abs/2503.00200v3) | Shuang Li, Yihuai Gao+ | 4.1 |
-| 📎 | [How Much 3D Do Video Foundation Models Encode?](http://arxiv.org/abs/2512.19949v1) | Zixuan Huang, Xiang Li+ | 3.8 |
-| 📎 | [Towards Video Thinking Test: A Holistic Benchmark for Advanc](http://arxiv.org/abs/2507.15028v1) | Yuanhan Zhang, Yunice Chew+ | 3.8 |
-| 📎 | [Sphere-GAN: a GAN-based Approach for Saliency Estimation in ](http://arxiv.org/abs/2509.11948v1) | Mahmoud Z. A. Wahba, Sara Baldoni+ | 3.4 |
-| 📎 | [Text-Audio-Visual-conditioned Diffusion Model for Video Sali](http://arxiv.org/abs/2504.14267v1) | Li Yu, Xuanzhe Sun+ | 3.4 |
-| 📎 | [Prisma: An Open Source Toolkit for Mechanistic Interpretabil](http://arxiv.org/abs/2504.19475v3) | Sonia Joseph, Praneet Suresh+ | 3.1 |
-| 📎 | [SAM 3D: 3Dfy Anything in Images](http://arxiv.org/abs/2511.16624v2) |  SAM 3D Team, Xingyu Chen+ | 3.0 |
-| 📎 | [Scalable Event-Based Video Streaming for Machines with MoQ](http://arxiv.org/abs/2508.15003v1) | Andrew C. Freeman | 2.8 |
-| 📎 | [Tell Me Without Telling Me: Two-Way Prediction of Visualizat](http://arxiv.org/abs/2508.03713v1) | Minsuk Chang, Yao Wang+ | 2.6 |
-| 📎 | [CST-AFNet: A dual attention-based deep learning framework fo](http://arxiv.org/abs/2510.02717v1) | Waqas Ishtiaq, Ashrafun Zannat+ | 2.5 |
-| 📝 | [Transfer Learning from Visual Speech Recognition to Mouthing](http://arxiv.org/abs/2505.13784v2) | Dinh Nam Pham, Eleftherios Avramidis | 2.0 |
+## 📅 2024 年
 
-</details>
+| 年份 | 标题 | 作者 | 期刊/会议 | 关键字 | 分类 |
+|------|------|------|----------|--------|------|
+| 2024 | [2D bidirectional gated recurrent unit convolutiona](papers/2024/core/2409.07588v1.md) | Abdarahmane Traoré, Moulay A. Akhloufi | CV | video action recognition neura | 🔥 |
+| 2024 | [An Empirical Study of Counterfactual Visualization](papers/2024/related/2401.08822v1.md) | Arran Zeyu Wang, David Borland+ | HC | attention mechanism visualizat | 📎 |
+| 2024 | [Attention Guided CAM: Visual Explanations of Visio](papers/2024/related/2402.04563v1.md) | Saebom Leem, Hyunseok Seo | CV | attention mechanism visualizat | 📎 |
+| 2024 | [Benign Overfitting in Token Selection of Attention](papers/2024/related/2409.17625v3.md) | Keitaro Sakamoto, Issei Sato | LG | attention mechanism visualizat | 📎 |
+| 2024 | [Beware of Validation by Eye: Visual Validation of ](papers/2024/related/2407.11625v2.md) | Daniel Braun, Remco Chang+ | CV | attention mechanism visualizat | 📎 |
+| 2024 | [Can VLMs be used on videos for action recognition?](papers/2024/core/2407.14834v1.md) | Harsh Lunia | CV | video action recognition neura | 🔥 |
+| 2024 | [Challenges in Mechanistically Interpreting Model R](papers/2024/related/2402.03855v2.md) | Satvik Golechha, James Dao | LG | CNN interpretability explainab | 📎 |
+| 2024 | [Crafting Large Language Models for Enhanced Interp](papers/2024/related/2407.04307v1.md) | Chung-En Sun, Tuomas Oikarinen+ | CL | CNN interpretability explainab | 📎 |
+| 2024 | [DUNE Phase II: Scientific Opportunities, Detector ](papers/2024/core/2408.12725v1.md) |  DUNE Collaboration, A. Abed Abud+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2024 | [EmoFace: Audio-driven Emotional 3D Face Animation](papers/2024/core/2407.12501v1.md) | Chang Liu, Qunfen Lin+ | CV | 3D CNN video explainability | 🔥 |
+| 2024 | [Enhancing Temporal Consistency in Video Editing by](papers/2024/core/2406.02541v4.md) | Inkyu Shin, Qihang Yu+ | CV | 3D CNN video explainability | 🔥 |
+| 2024 | [Explaining Chest X-ray Pathology Models using Text](papers/2024/related/2407.00557v2.md) | Vijay Sadashivaiah, Pingkun Yan+ | CV | CNN interpretability explainab | 📎 |
+| 2024 | [First observation of $Λ_{b}^{0} \rightarrow Σ_c^{(](papers/2024/core/2404.19510v3.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2024 | [First observation of the $Λ^0_b \to D^+ D^- Λ$ dec](papers/2024/core/2403.03586v3.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2024 | [Hand Gesture Classification Based on Forearm Ultra](papers/2024/related/2409.16431v1.md) | Keshav Bimbraw, Ankit Talele+ | CV | 3D convolution neural network  | 📎 |
+| 2024 | [Hybrid deep learning-based strategy for the hepato](papers/2024/related/2412.03084v2.md) | Ajinkya Deshpande, Deep Gupta+ | CV | network dissection deep visual | 📎 |
+| 2024 | [In My Perspective, In My Hands: Accurate Egocentri](papers/2024/core/2404.09308v2.md) | Wiktor Mucha, Martin Kampel | CV | Decomposed 3D convolutions act | 🔥 |
+| 2024 | [InternVideo2: Scaling Foundation Models for Multim](papers/2024/core/2403.15377v4.md) | Yi Wang, Kunchang Li+ | CV | spatiotemporal convolution vid | 🔥 |
+| 2024 | [Learning interpretable positional encodings in tra](papers/2024/related/2406.08272v4.md) | Takuya Ito, Luca Cocchi+ | LG | CNN interpretability explainab | 📎 |
+| 2024 | [LongVU: Spatiotemporal Adaptive Compression for Lo](papers/2024/core/2410.17434v1.md) | Xiaoqian Shen, Yunyang Xiong+ | CV | spatiotemporal convolution vid | 🔥 |
+| 2024 | [Measurement of $CP$ violation in ${B^0}\rightarrow](papers/2024/core/2409.03009v2.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2024 | [Measurement of $C\!P$ violation observables in $D^](papers/2024/core/2409.01414v2.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2024 | [Measurement of $D^0-\overline{D}^0$ mixing and sea](papers/2024/core/2407.18001v2.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2024 | [Measurement of the CKM angle $γ$ in $B^{\pm} \to D](papers/2024/core/2410.21115v2.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2024 | [Measurement of the branching fraction ratios $R(D^](papers/2024/core/2406.03387v2.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2024 | [Motion Free B-frame Coding for Neural Video Compre](papers/2024/core/2411.17160v1.md) | Van Thang Nguyen | CV | 3D CNN video explainability | 🔥 |
+| 2024 | [Multi-Class Abnormality Classification Task in Vid](papers/2024/related/2410.19973v3.md) | Dev Rishi Verma, Vibhor Saxena+ | CV | video transformer interpretabi | 📎 |
+| 2024 | [Observation of the open-charm tetraquark candidate](papers/2024/core/2411.19781v3.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2024 | [PSO Fuzzy XGBoost Classifier Boosted with Neural G](papers/2024/core/2407.09950v2.md) | Seyed Muhammad Hossein Mousavi | LG | video action recognition neura | 🔥 |
+| 2024 | [Prompting Video-Language Foundation Models with Do](papers/2024/core/2410.09380v1.md) | Ting Yu, Kunhao Fu+ | CV | 3D CNN video explainability | 🔥 |
+| 2024 | [SHARP: Segmentation of Hands and Arms by Range usi](papers/2024/core/2408.10037v1.md) | Wiktor Mucha, Michael Wray+ | CV | Decomposed 3D convolutions act | 🔥 |
+| 2024 | [SVG: 3D Stereoscopic Video Generation via Denoisin](papers/2024/core/2407.00367v1.md) | Peng Dai, Feitong Tan+ | CV | 3D CNN video explainability | 🔥 |
+| 2024 | [Search for $D^0$ meson decays to $π^+ π^- e^+ e^-$](papers/2024/core/2412.09414v4.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2024 | [Simultaneous Estimation of Elliptic Flow Coefficie](papers/2024/related/2411.11001v1.md) | Praveen Murali, Sadhana Dash+ | arXiv | CNN interpretability explainab | 📎 |
+| 2024 | [Study of $D_{s1}(2460)^{+}\to D_{s}^{+}π^{+}π^{-}$](papers/2024/core/2411.03399v3.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2024 | [The SaTML '24 CNN Interpretability Competition: Ne](papers/2024/related/2404.02949v1.md) | Stephen Casper, Jieun Yun+ | LG | CNN interpretability explainab | 📎 |
+| 2024 | [TracrBench: Generating Interpretability Testbeds w](papers/2024/related/2409.13714v1.md) | Hannes Thurnherr, Jérémy Scheurer | CL | CNN interpretability explainab | 📎 |
+| 2024 | [Understanding attention-based encoder-decoder netw](papers/2024/core/2406.06538v1.md) | Sergio Y. Hayashi, Nina S. T. Hirata | CV | video action recognition neura | 🔥 |
+| 2024 | [VISTA: Enhancing Long-Duration and High-Resolution](papers/2024/core/2412.00927v1.md) | Weiming Ren, Huan Yang+ | CV | spatiotemporal convolution vid | 🔥 |
+| 2024 | [Video-Language Understanding: A Survey from Model ](papers/2024/core/2406.05615v4.md) | Thong Nguyen, Yi Bin+ | CL | spatiotemporal convolution vid | 🔥 |
+| 2024 | [Visual Story-Writing: Writing by Manipulating Visu](papers/2024/related/2410.07486v2.md) | Damien Masson, Zixin Zhao+ | HC | network dissection deep visual | 📎 |
 
-<details>
-<summary>📅 2024 年 (20 篇)</summary>
+## 📅 2023 年
 
-| 标签 | 标题 | 作者 | 分数 |
-|------|------|------|------|
-| 🔥 | [InternVideo2: Scaling Foundation Models for Multimodal Video](http://arxiv.org/abs/2403.15377v4) | Yi Wang, Kunchang Li+ | 4.4 |
-| 🔥 | [Can VLMs be used on videos for action recognition? LLMs are ](http://arxiv.org/abs/2407.14834v1) | Harsh Lunia | 4.4 |
-| 🔥 | [Exploring Explainability in Video Action Recognition](http://arxiv.org/abs/2404.09067v1) | Avinab Saha, Shashank Gupta+ | 4.3 |
-| 🔥 | [Prompting Video-Language Foundation Models with Domain-speci](http://arxiv.org/abs/2410.09380v1) | Ting Yu, Kunhao Fu+ | 4.1 |
-| 🔥 | [Enhancing Temporal Consistency in Video Editing by Reconstru](http://arxiv.org/abs/2406.02541v4) | Inkyu Shin, Qihang Yu+ | 4.1 |
-| 🔥 | [Towards Synthetic Data Generation for Improved Pain Recognit](http://arxiv.org/abs/2409.16382v1) | Jonas Nasimzada, Jens Kleesiek+ | 4.1 |
-| 🔥 | [Temporal Reasoning Transfer from Text to Video](http://arxiv.org/abs/2410.06166v1) | Lei Li, Yuanxin Liu+ | 4.1 |
-| 📎 | [Learning Video Temporal Dynamics with Cross-Modal Attention ](http://arxiv.org/abs/2407.03563v3) | Sungnyun Kim, Kangwook Jang+ | 3.9 |
-| 📎 | [SVG: 3D Stereoscopic Video Generation via Denoising Frame Ma](http://arxiv.org/abs/2407.00367v1) | Peng Dai, Feitong Tan+ | 3.8 |
-| 📎 | [Hand Gesture Classification Based on Forearm Ultrasound Vide](http://arxiv.org/abs/2409.16431v1) | Keshav Bimbraw, Ankit Talele+ | 3.8 |
-| 📎 | [FreeMask: Rethinking the Importance of Attention Masks for Z](http://arxiv.org/abs/2409.20500v1) | Lingling Cai, Kang Zhao+ | 3.4 |
-| 📎 | [Spatio-Temporal Side Tuning Pre-trained Foundation Models fo](http://arxiv.org/abs/2404.17929v1) | Xiao Wang, Qian Zhu+ | 3.4 |
-| 📎 | [Understanding attention-based encoder-decoder networks: a ca](http://arxiv.org/abs/2406.06538v1) | Sergio Y. Hayashi, Nina S. T. Hirata | 3.1 |
-| 📎 | [Multi-Class Abnormality Classification Task in Video Capsule](http://arxiv.org/abs/2410.19973v3) | Dev Rishi Verma, Vibhor Saxena+ | 2.9 |
-| 📎 | [Hybrid deep learning-based strategy for the hepatocellular c](http://arxiv.org/abs/2412.03084v2) | Ajinkya Deshpande, Deep Gupta+ | 2.9 |
-| 📎 | [Correlation of Object Detection Performance with Visual Sali](http://arxiv.org/abs/2411.02844v1) | Matthias Bartolo, Dylan Seychell | 2.8 |
-| 📎 | [Exploring the Design Space of Visual Context Representation ](http://arxiv.org/abs/2410.13694v1) | Yifan Du, Yuqi Huo+ | 2.8 |
-| 📎 | [Motion Free B-frame Coding for Neural Video Compression](http://arxiv.org/abs/2411.17160v1) | Van Thang Nguyen | 2.8 |
-| 📎 | [SHARP: Segmentation of Hands and Arms by Range using Pseudo-](http://arxiv.org/abs/2408.10037v1) | Wiktor Mucha, Michael Wray+ | 2.8 |
-| 📝 | [Beware of Validation by Eye: Visual Validation of Linear Tre](http://arxiv.org/abs/2407.11625v2) | Daniel Braun, Remco Chang+ | 2.0 |
+| 年份 | 标题 | 作者 | 期刊/会议 | 关键字 | 分类 |
+|------|------|------|----------|--------|------|
+| 2023 | [A Prototype-Based Neural Network for Image Anomaly](papers/2023/related/2310.02576v2.md) | Chao Huang, Zhao Kang+ | CV | 3D convolution neural network  | 📎 |
+| 2023 | [A Video Is Worth 4096 Tokens: Verbalize Videos To ](papers/2023/core/2305.09758v3.md) | Aanisha Bhattacharya, Yaman K Singla+ | CV | spatiotemporal convolution vid | 🔥 |
+| 2023 | [A model-independent measurement of the CKM angle $](papers/2023/core/2311.10434v2.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2023 | [Action Class Relation Detection and Classification](papers/2023/core/2308.07558v1.md) | Yuya Yoshikawa, Yutaro Shigeto+ | CV | video action recognition neura | 🔥 |
+| 2023 | [Automata Quest: NCAs as a Video Game Life Mechanic](papers/2023/core/2309.14364v1.md) | Hiroki Sato, Tanner Lund+ | HC | 3D CNN video explainability | 🔥 |
+| 2023 | [Beyond English: Centering Multilingualism in Data ](papers/2023/related/2309.06659v2.md) | Noëlle Rakotondravony, Priya Dhawka+ | HC | attention mechanism visualizat | 📎 |
+| 2023 | [Deep Learning and Computational Physics (Lecture N](papers/2023/related/2301.00942v1.md) | Deep Ray, Orazio Pinti+ | LG | network dissection deep visual | 📎 |
+| 2023 | [Deep Neural Networks in Video Human Action Recogni](papers/2023/core/2305.15692v1.md) | Zihan Wang, Yang Yang+ | CV | video action recognition neura | 🔥 |
+| 2023 | [Deep Video Codec Control for Vision Models](papers/2023/related/2308.16215v6.md) | Christoph Reich, Biplob Debnath+ | CV | network dissection deep visual | 📎 |
+| 2023 | [Ensemble Modeling for Multimodal Visual Action Rec](papers/2023/core/2308.05430v2.md) | Jyoti Kini, Sarah Fleischer+ | CV | video action recognition neura | 🔥 |
+| 2023 | [Evaluating the Stability of Semantic Concept Repre](papers/2023/related/2304.14864v1.md) | Georgii Mikriukov, Gesina Schwalbe+ | AI | CNN interpretability explainab | 📎 |
+| 2023 | [Exploiting Optical Flow Guidance for Transformer-B](papers/2023/related/2301.10048v2.md) | Kaidong Zhang, Jialun Peng+ | CV | video transformer interpretabi | 📎 |
+| 2023 | [Learn to Accumulate Evidence from All Training Sam](papers/2023/related/2306.11113v2.md) | Deep Pandey, Qi Yu | LG | network dissection deep visual | 📎 |
+| 2023 | [Learned Scalable Video Coding For Humans and Machi](papers/2023/related/2307.08978v2.md) | Hadi Hadizadeh, Ivan V. Bajić | CV | video transformer interpretabi | 📎 |
+| 2023 | [Learning to Compress Unmanned Aerial Vehicle (UAV)](papers/2023/related/2301.06115v1.md) | Chuanmin Jia, Feng Ye+ | CV | video transformer interpretabi | 📎 |
+| 2023 | [MRET: Multi-resolution Transformer for Video Quali](papers/2023/related/2303.07489v2.md) | Junjie Ke, Tianhao Zhang+ | CV | video transformer interpretabi | 📎 |
+| 2023 | [MaskCRT: Masked Conditional Residual Transformer f](papers/2023/related/2312.15829v2.md) | Yi-Hsin Chen, Hong-Sheng Xie+ | arXiv | video transformer interpretabi | 📎 |
+| 2023 | [Maximizing Spatio-Temporal Entropy of Deep 3D CNNs](papers/2023/core/2303.02693v1.md) | Junyan Wang, Zhenhong Sun+ | CV | 3D CNN video explainability | 🔥 |
+| 2023 | [Measurement of the $D^{*}$ longitudinal polarizati](papers/2023/core/2311.05224v2.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2023 | [Measurement of the CKM angle $γ$ using the $B^{\pm](papers/2023/core/2310.04277v5.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2023 | [Mid-Long Term Daily Electricity Consumption Foreca](papers/2023/related/2310.15204v1.md) | Zhou Lan, Ben Liu+ | LG | CNN interpretability explainab | 📎 |
+| 2023 | [NFTVis: Visual Analysis of NFT Performance](papers/2023/related/2306.02712v1.md) | Fan Yan, Xumeng Wang+ | CV | attention mechanism visualizat | 📎 |
+| 2023 | [On the Relationship Between Interpretability and E](papers/2023/related/2311.11491v2.md) | Benjamin Leblanc, Pascal Germain | LG | CNN interpretability explainab | 📎 |
+| 2023 | [Parallel Neural Networks in Golang](papers/2023/related/2304.09590v1.md) | Daniela Kalwarowskyj, Erich Schikuta | NE | 3D convolution neural network  | 📎 |
+| 2023 | [Pay Attention to What You Need](papers/2023/related/2307.13365v3.md) | Yifei Gao, Shaohong Chen+ | CL | attention mechanism visualizat | 📎 |
+| 2023 | [Privacy-Preserving CNN Training with Transfer Lear](papers/2023/related/2304.03807v5.md) | John Chiang | CR | CNN interpretability explainab | 📎 |
+| 2023 | [Reality's Canvas, Language's Brush: Crafting 3D Av](papers/2023/core/2312.04784v2.md) | Yuchen Rao, Eduardo Perez Pellitero+ | CV | 3D CNN video explainability | 🔥 |
+| 2023 | [Reclaiming the Horizon: Novel Visualization Design](papers/2023/related/2307.10278v2.md) | Daniel Braun, Rita Borgo+ | HC | attention mechanism visualizat | 📎 |
+| 2023 | [Regionally Additive Models: Explainable-by-design ](papers/2023/related/2309.12215v1.md) | Vasilis Gkolemis, Anargiros Tzerefos+ | LG | CNN interpretability explainab | 📎 |
+| 2023 | [Self-supervised Learning of Contextualized Local V](papers/2023/related/2310.00527v3.md) | Thalles Santos Silva, Helio Pedrini+ | CV | network dissection deep visual | 📎 |
+| 2023 | [Shape-aware Text-driven Layered Video Editing](papers/2023/core/2301.13173v1.md) | Yao-Chih Lee, Ji-Ze Genevieve Jang+ | CV | 3D CNN video explainability | 🔥 |
+| 2023 | [Spatial-Temporal Alignment Network for Action Reco](papers/2023/core/2308.09897v1.md) | Jinhui Ye, Junwei Liang | CV | video action recognition neura | 🔥 |
+| 2023 | [Test of lepton flavour universality using $B^0 \to](papers/2023/core/2305.01463v2.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2023 | [The Deep Arbitrary Polynomial Chaos Neural Network](papers/2023/core/2306.14753v1.md) | Sergey Oladyshkin, Timothy Praditia+ | NE | video action recognition neura | 🔥 |
+| 2023 | [Understanding Video Transformers for Segmentation:](papers/2023/related/2310.12296v1.md) | Rezaul Karim, Richard P. Wildes | CV | video transformer interpretabi | 📎 |
+| 2023 | [Unsupervised HDR Image and Video Tone Mapping via ](papers/2023/related/2303.07327v2.md) | Cong Cao, Huanjing Yue+ | CV | video transformer interpretabi | 📎 |
+| 2023 | [VIVE3D: Viewpoint-Independent Video Editing using ](papers/2023/core/2303.15893v1.md) | Anna Frühstück, Nikolaos Sarafianos+ | CV | 3D CNN video explainability | 🔥 |
+| 2023 | [Video Understanding with Large Language Models: A ](papers/2023/core/2312.17432v8.md) | Yolo Y. Tang, Jing Bi+ | CV | spatiotemporal convolution vid | 🔥 |
 
-</details>
+## 📅 2022 年
 
-<details>
-<summary>📅 2023 年 (17 篇)</summary>
+| 年份 | 标题 | 作者 | 期刊/会议 | 关键字 | 分类 |
+|------|------|------|----------|--------|------|
+| 2022 | [3D Convolutional with Attention for Action Recogni](papers/2022/core/2206.02203v1.md) | Labina Shrestha, Shikha Dubey+ | CV | Decomposed 3D convolutions act | 🔥 |
+| 2022 | [A Class of Low-complexity DCT-like Transforms for ](papers/2022/related/2206.00122v2.md) | T. L. T. da Silveira, D. R. Canterle+ | MM | video transformer interpretabi | 📎 |
+| 2022 | [Acute Lymphoblastic Leukemia Detection Using Hyper](papers/2022/related/2205.13273v1.md) | Guilherme Vieira, Marcos Eduardo Valle | CV | 3D convolution neural network  | 📎 |
+| 2022 | [Amplitude analysis of $B^0 \rightarrow \overline{D](papers/2022/core/2212.02717v3.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2022 | [BKinD-3D: Self-Supervised 3D Keypoint Discovery fr](papers/2022/core/2212.07401v3.md) | Jennifer J. Sun, Lili Karashchuk+ | CV | 3D CNN video explainability | 🔥 |
+| 2022 | [ContextCLIP: Contextual Alignment of Image-Text pa](papers/2022/related/2211.07122v1.md) | Chanda Grover, Indra Deep Mastan+ | CV | network dissection deep visual | 📎 |
+| 2022 | [Dual Accuracy-Quality-Driven Neural Network for Pr](papers/2022/related/2212.06370v4.md) | Giorgio Morales, John W. Sheppard | LG | 3D convolution neural network  | 📎 |
+| 2022 | [Enhancing Deformable Convolution based Video Frame](papers/2022/core/2202.07731v2.md) | Duolikun Danier, Fan Zhang+ | CV | 3D CNN video explainability | 🔥 |
+| 2022 | [Flow-Guided Sparse Transformer for Video Deblurrin](papers/2022/core/2201.01893v3.md) | Jing Lin, Yuanhao Cai+ | CV | 3D CNN video explainability | 🔥 |
+| 2022 | [Hierarchically Decomposed Graph Convolutional Netw](papers/2022/core/2208.10741v3.md) | Jungho Lee, Minhyeok Lee+ | CV | Decomposed 3D convolutions act | 🔥 |
+| 2022 | [How explainable are adversarially-robust CNNs?](papers/2022/related/2205.13042v2.md) | Mehdi Nourelahi, Lars Kotthoff+ | CV | CNN interpretability explainab | 📎 |
+| 2022 | [Hybrid CNN -Interpreter: Interpret local and globa](papers/2022/related/2211.00185v1.md) | Wenli Yang, Guan Huang+ | LG | CNN interpretability explainab | 📎 |
+| 2022 | [Iceberg Sensemaking: A Process Model for Critical ](papers/2022/related/2204.04758v5.md) | Charles Berret, Tamara Munzner | HC | attention mechanism visualizat | 📎 |
+| 2022 | [Large-scale Robustness Analysis of Video Action Re](papers/2022/core/2207.01398v2.md) | Madeline Chantry Schiappa, Naman Biyani+ | CV | video action recognition neura | 🔥 |
+| 2022 | [MECCH: Metapath Context Convolution-based Heteroge](papers/2022/related/2211.12792v2.md) | Xinyu Fu, Irwin King | LG | 3D convolution neural network  | 📎 |
+| 2022 | [Measurement of the charm mixing parameter $y_{CP} ](papers/2022/core/2202.09106v2.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2022 | [NL2INTERFACE: Interactive Visualization Interface ](papers/2022/related/2209.08834v2.md) | Yiru Chen, Ryan Li+ | HC | attention mechanism visualizat | 📎 |
+| 2022 | [OCSampler: Compressing Videos to One Clip with Sin](papers/2022/core/2201.04388v1.md) | Jintao Lin, Haodong Duan+ | CV | video action recognition neura | 🔥 |
+| 2022 | [Observation of the $B^0_s\!\to D^{*+}D^{*-}$ decay](papers/2022/core/2210.14945v2.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2022 | [Orthogonal dissection into few rectangles](papers/2022/related/2206.10675v2.md) | David Eppstein | CG | network dissection deep visual | 📎 |
+| 2022 | [Part-aware Prototypical Graph Network for One-shot](papers/2022/core/2208.09150v1.md) | Tailin Chen, Desen Zhou+ | CV | video action recognition neura | 🔥 |
+| 2022 | [Perceptual Quality Assessment of Virtual Reality V](papers/2022/core/2206.08751v3.md) | Wen Wen, Mu Li+ | CV | spatiotemporal convolution vid | 🔥 |
+| 2022 | [PyramidTNT: Improved Transformer-in-Transformer Ba](papers/2022/related/2201.00978v1.md) | Kai Han, Jianyuan Guo+ | CV | video transformer interpretabi | 📎 |
+| 2022 | [Rate-Distortion Optimal Transform Coefficient Sele](papers/2022/related/2206.12186v1.md) | Christian Herglotz, Nils Genser+ | arXiv | video transformer interpretabi | 📎 |
+| 2022 | [ReViVD: Exploration and Filtering of Trajectories ](papers/2022/core/2202.10545v1.md) | François Homps, Yohan Beugin+ | HC | 3D CNN video explainability | 🔥 |
+| 2022 | [Representation-Agnostic Shape Fields](papers/2022/related/2203.10259v1.md) | Xiaoyang Huang, Jiancheng Yang+ | CV | network dissection deep visual | 📎 |
+| 2022 | [Representation-Centric Survey of Supervised Skelet](papers/2022/core/2205.02071v7.md) | Yang Liu, Jiyao Yang+ | CV | Decomposed 3D convolutions act | 🔥 |
+| 2022 | [Search for continuous gravitational wave emission ](papers/2022/core/2204.04523v1.md) |  The LIGO Scientific Collaboration,  the Virgo Collaboration+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2022 | [Skeletal Human Action Recognition using Hybrid Att](papers/2022/core/2207.05493v1.md) | Hao Xing, Darius Burschka | CV | Decomposed 3D convolutions act | 🔥 |
+| 2022 | [Spatiotemporal Estimation of TROPOMI NO2 Column wi](papers/2022/core/2204.05917v1.md) | Yannic Lops, Masoud Ghahremanloo+ | AI | spatiotemporal convolution vid | 🔥 |
+| 2022 | [Study of a committee of neural networks for biomet](papers/2022/core/2204.03935v1.md) | Marcos Faundez-Zanuy | CV | video action recognition neura | 🔥 |
+| 2022 | [Synthesizing Light Field Video from Monocular Vide](papers/2022/core/2207.10357v1.md) | Shrisudhan Govindarajan, Prasan Shedligeri+ | arXiv | 3D CNN video explainability | 🔥 |
+| 2022 | [Transformer-based Personalized Attention Mechanism](papers/2022/related/2206.03003v2.md) | Yusuke Takagi, Noriaki Hashimoto+ | CV | attention mechanism visualizat | 📎 |
+| 2022 | [Using explainability to design physics-aware CNNs ](papers/2022/related/2211.08651v2.md) | Jodie Crocker, Krishna Kumar+ | LG | CNN interpretability explainab | 📎 |
+| 2022 | [VRT: A Video Restoration Transformer](papers/2022/core/2201.12288v2.md) | Jingyun Liang, Jiezhang Cao+ | CV | 3D CNN video explainability | 🔥 |
+| 2022 | [Variationally Mimetic Operator Networks](papers/2022/related/2209.12871v3.md) | Dhruv Patel, Deep Ray+ | LG | network dissection deep visual | 📎 |
+| 2022 | [Video Restoration with a Deep Plug-and-Play Prior](papers/2022/core/2209.02854v2.md) | Antoine Monod, Julie Delon+ | CV | spatiotemporal convolution vid | 🔥 |
+| 2022 | [Visual Attention Network](papers/2022/related/2202.09741v5.md) | Meng-Hao Guo, Cheng-Ze Lu+ | CV | network dissection deep visual | 📎 |
 
-| 标签 | 标题 | 作者 | 分数 |
-|------|------|------|------|
-| 🔥 | [Video-FocalNets: Spatio-Temporal Focal Modulation for Video ](http://arxiv.org/abs/2307.06947v4) | Syed Talal Wasim, Muhammad Uzair Khattak+ | 5.0 |
-| 🔥 | [Video Understanding with Large Language Models: A Survey](http://arxiv.org/abs/2312.17432v8) | Yolo Y. Tang, Jing Bi+ | 4.4 |
-| 🔥 | [Spatial-Temporal Alignment Network for Action Recognition](http://arxiv.org/abs/2308.09897v1) | Jinhui Ye, Junwei Liang | 4.1 |
-| 📎 | [VMC: Video Motion Customization using Temporal Attention Ada](http://arxiv.org/abs/2312.00845v1) | Hyeonho Jeong, Geon Yeong Park+ | 3.9 |
-| 📎 | [A Video Is Worth 4096 Tokens: Verbalize Videos To Understand](http://arxiv.org/abs/2305.09758v3) | Aanisha Bhattacharya, Yaman K Singla+ | 3.8 |
-| 📎 | [Ensemble Modeling for Multimodal Visual Action Recognition](http://arxiv.org/abs/2308.05430v2) | Jyoti Kini, Sarah Fleischer+ | 3.8 |
-| 📎 | [Understanding Video Transformers for Segmentation: A Survey ](http://arxiv.org/abs/2310.12296v1) | Rezaul Karim, Richard P. Wildes | 3.5 |
-| 📎 | [FLATTEN: optical FLow-guided ATTENtion for consistent text-t](http://arxiv.org/abs/2310.05922v3) | Yuren Cong, Mengmeng Xu+ | 3.4 |
-| 📎 | [Towards Visual Saliency Explanations of Face Verification](http://arxiv.org/abs/2305.08546v4) | Yuhang Lu, Zewei Xu+ | 3.2 |
-| 📎 | [Video-P2P: Video Editing with Cross-attention Control](http://arxiv.org/abs/2303.04761v1) | Shaoteng Liu, Yuechen Zhang+ | 3.1 |
-| 📎 | [Shape-aware Text-driven Layered Video Editing](http://arxiv.org/abs/2301.13173v1) | Yao-Chih Lee, Ji-Ze Genevieve Jang+ | 3.1 |
-| 📎 | [Exploiting Optical Flow Guidance for Transformer-Based Video](http://arxiv.org/abs/2301.10048v2) | Kaidong Zhang, Jialun Peng+ | 2.9 |
-| 📎 | [Automata Quest: NCAs as a Video Game Life Mechanic](http://arxiv.org/abs/2309.14364v1) | Hiroki Sato, Tanner Lund+ | 2.8 |
-| 📎 | [MRET: Multi-resolution Transformer for Video Quality Assessm](http://arxiv.org/abs/2303.07489v2) | Junjie Ke, Tianhao Zhang+ | 2.6 |
-| 📝 | [Self-supervised Learning of Contextualized Local Visual Embe](http://arxiv.org/abs/2310.00527v3) | Thalles Santos Silva, Helio Pedrini+ | 2.4 |
-| 📝 | [Learn to Accumulate Evidence from All Training Samples: Theo](http://arxiv.org/abs/2306.11113v2) | Deep Pandey, Qi Yu | 2.3 |
-| 📝 | [Reclaiming the Horizon: Novel Visualization Designs for Time](http://arxiv.org/abs/2307.10278v2) | Daniel Braun, Rita Borgo+ | 2.0 |
+## 📅 2021 年
 
-</details>
-
-<details>
-<summary>📅 2022 年 (21 篇)</summary>
-
-| 标签 | 标题 | 作者 | 分数 |
-|------|------|------|------|
-| 🔥 | [Large-scale Robustness Analysis of Video Action Recognition ](http://arxiv.org/abs/2207.01398v2) | Madeline Chantry Schiappa, Naman Biyani+ | 5.0 |
-| 🔥 | [Time Is MattEr: Temporal Self-supervision for Video Transfor](http://arxiv.org/abs/2207.09067v1) | Sukmin Yun, Jaehyung Kim+ | 4.9 |
-| 🔥 | [VRT: A Video Restoration Transformer](http://arxiv.org/abs/2201.12288v2) | Jingyun Liang, Jiezhang Cao+ | 4.7 |
-| 🔥 | [Enhancing Deformable Convolution based Video Frame Interpola](http://arxiv.org/abs/2202.07731v2) | Duolikun Danier, Fan Zhang+ | 4.7 |
-| 🔥 | [Deep Video Prior for Video Consistency and Propagation](http://arxiv.org/abs/2201.11632v1) | Chenyang Lei, Yazhou Xing+ | 4.7 |
-| 🔥 | [Exploiting Feature Diversity for Make-up Temporal Video Grou](http://arxiv.org/abs/2208.06179v1) | Xiujun Shu, Wei Wen+ | 4.4 |
-| 🔥 | [Spatiotemporal Estimation of TROPOMI NO2 Column with Depthwi](http://arxiv.org/abs/2204.05917v1) | Yannic Lops, Masoud Ghahremanloo+ | 4.2 |
-| 🔥 | [Part-aware Prototypical Graph Network for One-shot Skeleton-](http://arxiv.org/abs/2208.09150v1) | Tailin Chen, Desen Zhou+ | 4.1 |
-| 🔥 | [Team PKU-WICT-MIPL PIC Makeup Temporal Video Grounding Chall](http://arxiv.org/abs/2207.02687v1) | Minghang Zheng, Dejie Yang+ | 4.1 |
-| 🔥 | [Temporally Consistent Semantic Video Editing](http://arxiv.org/abs/2206.10590v1) | Yiran Xu, Badour AlBahar+ | 4.1 |
-| 🔥 | [3D Convolutional with Attention for Action Recognition](http://arxiv.org/abs/2206.02203v1) | Labina Shrestha, Shikha Dubey+ | 4.0 |
-| 📎 | [Synthesizing Light Field Video from Monocular Video](http://arxiv.org/abs/2207.10357v1) | Shrisudhan Govindarajan, Prasan Shedligeri+ | 3.1 |
-| 📎 | [Perceptual Quality Assessment of Virtual Reality Videos in t](http://arxiv.org/abs/2206.08751v3) | Wen Wen, Mu Li+ | 3.1 |
-| 📎 | [ReViVD: Exploration and Filtering of Trajectories in an Imme](http://arxiv.org/abs/2202.10545v1) | François Homps, Yohan Beugin+ | 3.0 |
-| 📎 | [Comprehensive Saliency Fusion for Object Co-segmentation](http://arxiv.org/abs/2201.12828v1) | Harshit Singh Chhabra, Koteswar Rao Jerripothula | 2.9 |
-| 📎 | [Visual Attention Network](http://arxiv.org/abs/2202.09741v5) | Meng-Hao Guo, Cheng-Ze Lu+ | 2.9 |
-| 📎 | [Flow-Guided Sparse Transformer for Video Deblurring](http://arxiv.org/abs/2201.01893v3) | Jing Lin, Yuanhao Cai+ | 2.9 |
-| 📎 | [Recent Trends in 2D Object Detection and Applications in Vid](http://arxiv.org/abs/2202.03206v1) | Prithwish Jana, Partha Pratim Mohanta | 2.8 |
-| 📎 | [OCSampler: Compressing Videos to One Clip with Single-step S](http://arxiv.org/abs/2201.04388v1) | Jintao Lin, Haodong Duan+ | 2.8 |
-| 📎 | [Acute Lymphoblastic Leukemia Detection Using Hypercomplex-Va](http://arxiv.org/abs/2205.13273v1) | Guilherme Vieira, Marcos Eduardo Valle | 2.6 |
-| 📝 | [CorrLoss: Integrating Co-Occurrence Domain Knowledge for Aff](http://arxiv.org/abs/2210.17233v1) | Ines Rieger, Jaspar Pahl+ | 2.3 |
-
-</details>
-
-<details>
-<summary>📅 2021 年 (25 篇)</summary>
-
-| 标签 | 标题 | 作者 | 分数 |
-|------|------|------|------|
-| 🔥 | [Improved CNN-based Learning of Interpolation Filters for Low](http://arxiv.org/abs/2106.08936v1) | Luka Murn, Saverio Blasi+ | 5.5 |
-| 🔥 | [Spatiotemporal Dilated Convolution with Uncertain Matching f](http://arxiv.org/abs/2101.12439v1) | Yu-Jen Ma, Hong-Han Shuai+ | 5.5 |
-| 🔥 | [Action Transformer: A Self-Attention Model for Short-Time Po](http://arxiv.org/abs/2107.00606v6) | Vittorio Mazzia, Simone Angarano+ | 5.5 |
-| 🔥 | [Temporal-attentive Covariance Pooling Networks for Video Rec](http://arxiv.org/abs/2110.14381v3) | Zilin Gao, Qilong Wang+ | 4.9 |
-| 🔥 | [SAIC_Cambridge-HuPBA-FBK Submission to the EPIC-Kitchens-100](http://arxiv.org/abs/2110.02902v1) | Swathikiran Sudhakaran, Adrian Bulat+ | 4.7 |
-| 🔥 | [TAda! Temporally-Adaptive Convolutions for Video Understandi](http://arxiv.org/abs/2110.06178v4) | Ziyuan Huang, Shiwei Zhang+ | 4.7 |
-| 🔥 | ["Knights": First Place Submission for VIPriors21 Action Reco](http://arxiv.org/abs/2110.07758v1) | Ishan Dave, Naman Biyani+ | 4.4 |
-| 🔥 | [Overview of Tencent Multi-modal Ads Video Understanding Chal](http://arxiv.org/abs/2109.07951v1) | Zhenzhi Wang, Liyu Wu+ | 4.1 |
-| 🔥 | [Leveraging Semantic Scene Characteristics and Multi-Stream C](http://arxiv.org/abs/2105.07484v1) | Ioannis Pikoulis, Panagiotis P. Filntisis+ | 4.0 |
-| 📎 | [TSGB: Target-Selective Gradient Backprop for Probing CNN Vis](http://arxiv.org/abs/2110.05182v2) | Lin Cheng, Pengfei Fang+ | 3.7 |
-| 📎 | [Temporal-Spatial Feature Pyramid for Video Saliency Detectio](http://arxiv.org/abs/2105.04213v2) | Qinyao Chang, Shiping Zhu | 3.7 |
-| 📎 | [Deep Saliency Prior for Reducing Visual Distraction](http://arxiv.org/abs/2109.01980v1) | Kfir Aberman, Junfeng He+ | 3.6 |
-| 📎 | [Video Relation Detection via Tracklet based Visual Transform](http://arxiv.org/abs/2108.08669v1) | Kaifeng Gao, Long Chen+ | 3.2 |
-| 📎 | [A temporal network version of Watts's cascade model](http://arxiv.org/abs/2103.13604v1) | Fariba Karimi, Petter Holme | 3.1 |
-| 📎 | [Audiovisual Saliency Prediction in Uncategorized Video Seque](http://arxiv.org/abs/2101.03966v1) | Maryam Qamar Butt, Anis Ur Rahman | 3.1 |
-| 📎 | [Real-time 3D human action recognition based on Hyperpoint se](http://arxiv.org/abs/2111.08492v3) | Xing Li, Qian Huang+ | 3.1 |
-| 📎 | [Adaptive Video Encoding For Different Video Codecs](http://arxiv.org/abs/2105.08191v1) | Gangadharan Esakki, Andreas Panayides+ | 2.8 |
-| 📎 | [Adaptive Encoding for Constrained Video Delivery in HEVC, VP](http://arxiv.org/abs/2104.12770v1) | Gangadharan Esakki | 2.8 |
-| 📎 | [A map of approaches to temporal networks](http://arxiv.org/abs/2103.13615v1) | Petter Holme, Jari Saramäki | 2.8 |
-| 📎 | [Strengthening the Training of Convolutional Neural Networks ](http://arxiv.org/abs/2104.00035v1) | Tamer Ölmez, Zümray Dokur | 2.6 |
-| 📝 | [Memorization in Deep Neural Networks: Does the Loss Function](http://arxiv.org/abs/2107.09957v2) | Deep Patel, P. S. Sastry | 2.3 |
-| 📝 | [Neural 3D Video Synthesis from Multi-view Video](http://arxiv.org/abs/2103.02597v2) | Tianye Li, Mira Slavcheva+ | 2.3 |
-| 📝 | [VisRuler: Visual Analytics for Extracting Decision Rules fro](http://arxiv.org/abs/2112.00334v5) | Angelos Chatzimparmpas, Rafael M. Martins+ | 2.1 |
-| 📝 | [Convolutional Neural Networks with Gated Recurrent Connectio](http://arxiv.org/abs/2106.02859v1) | Jianfeng Wang, Xiaolin Hu | 2.1 |
-| 📝 | [Compressive Visual Representations](http://arxiv.org/abs/2109.12909v3) | Kuang-Huei Lee, Anurag Arnab+ | 2.0 |
-
-</details>
-
-<details>
-<summary>📅 2020 年 (31 篇)</summary>
-
-| 标签 | 标题 | 作者 | 分数 |
-|------|------|------|------|
-| 🔥 | [Dissected 3D CNNs: Temporal Skip Connections for Efficient O](http://arxiv.org/abs/2009.14639v2) | Okan Köpüklü, Stefan Hörmann+ | 6.1 |
-| 🔥 | [Would Mega-scale Datasets Further Enhance Spatiotemporal 3D ](http://arxiv.org/abs/2004.04968v1) | Hirokatsu Kataoka, Tenga Wakamiya+ | 5.3 |
-| 🔥 | [RANP: Resource Aware Neuron Pruning at Initialization for 3D](http://arxiv.org/abs/2010.02488v3) | Zhiwei Xu, Thalaiyasingam Ajanthan+ | 5.2 |
-| 🔥 | [Deep Analysis of CNN-based Spatio-temporal Representations f](http://arxiv.org/abs/2010.11757v4) | Chun-Fu Chen, Rameswar Panda+ | 5.0 |
-| 🔥 | [TEA: Temporal Excitation and Aggregation for Action Recognit](http://arxiv.org/abs/2004.01398v1) | Yan Li, Bin Ji+ | 5.0 |
-| 🔥 | [Challenge report:VIPriors Action Recognition Challenge](http://arxiv.org/abs/2007.08180v1) | Zhipeng Luo, Dawei Xu+ | 4.7 |
-| 🔥 | [Res3ATN -- Deep 3D Residual Attention Network for Hand Gestu](http://arxiv.org/abs/2001.01083v1) | Naina Dhingra, Andreas Kunz | 4.6 |
-| 🔥 | [CNN Explainer: Learning Convolutional Neural Networks with I](http://arxiv.org/abs/2004.15004v3) | Zijie J. Wang, Robert Turko+ | 4.4 |
-| 🔥 | [Toward Accurate Person-level Action Recognition in Videos of](http://arxiv.org/abs/2010.08365v1) | Li Yuan, Yichen Zhou+ | 4.4 |
-| 🔥 | [FBK-HUPBA Submission to the EPIC-Kitchens Action Recognition](http://arxiv.org/abs/2006.13725v1) | Swathikiran Sudhakaran, Sergio Escalera+ | 4.4 |
-| 🔥 | [2nd Place Scheme on Action Recognition Track of ECCV 2020 VI](http://arxiv.org/abs/2008.03996v1) | Haoyu Chen, Zitong Yu+ | 4.4 |
-| 🔥 | [Semantics-aware Adaptive Knowledge Distillation for Sensor-t](http://arxiv.org/abs/2009.00210v5) | Yang Liu, Keze Wang+ | 4.4 |
-| 🔥 | [Developing Motion Code Embedding for Action Recognition in V](http://arxiv.org/abs/2012.05438v1) | Maxat Alibayev, David Paulius+ | 4.4 |
-| 🔥 | [Blind Video Temporal Consistency via Deep Video Prior](http://arxiv.org/abs/2010.11838v1) | Chenyang Lei, Yazhou Xing+ | 4.4 |
-| 🔥 | [Roweisposes, Including Eigenposes, Supervised Eigenposes, an](http://arxiv.org/abs/2006.15736v1) | Benyamin Ghojogh, Fakhri Karray+ | 4.3 |
-| 🔥 | [TAM: Temporal Adaptive Module for Video Recognition](http://arxiv.org/abs/2005.06803v3) | Zhaoyang Liu, Limin Wang+ | 4.1 |
-| 📎 | [A Plug-and-play Scheme to Adapt Image Saliency Deep Model fo](http://arxiv.org/abs/2008.09103v1) | Yunxiao Li, Shuai Li+ | 3.9 |
-| 📎 | [Learnable Sampling 3D Convolution for Video Enhancement and ](http://arxiv.org/abs/2011.10974v1) | Shuyang Gu, Jianmin Bao+ | 3.7 |
-| 📎 | [Unified Image and Video Saliency Modeling](http://arxiv.org/abs/2003.05477v3) | Richard Droste, Jianbo Jiao+ | 3.6 |
-| 📎 | [Audeo: Audio Generation for a Silent Performance Video](http://arxiv.org/abs/2006.14348v1) | Kun Su, Xiulong Liu+ | 3.6 |
-| 📎 | [Adaptive Compact Attention For Few-shot Video-to-video Trans](http://arxiv.org/abs/2011.14695v1) | Risheng Huang, Li Shen+ | 3.4 |
-| 📎 | [Self-supervised Video Representation Learning Using Inter-in](http://arxiv.org/abs/2008.02531v2) | Li Tao, Xueting Wang+ | 3.4 |
-| 📎 | [Attention-Driven Body Pose Encoding for Human Activity Recog](http://arxiv.org/abs/2009.14326v2) | B Debnath, M O'brien+ | 3.4 |
-| 📎 | [GeoConv: Geodesic Guided Convolution for Facial Action Unit ](http://arxiv.org/abs/2003.03055v1) | Yuedong Chen, Guoxian Song+ | 3.4 |
-| 📎 | [Effective Fusion of Deep Multitasking Representations for Ro](http://arxiv.org/abs/2004.01382v2) | Seyed Mojtaba Marvasti-Zadeh, Hossein Ghanei-Yakhdan+ | 3.2 |
-| 📎 | [Primal-Dual Mesh Convolutional Neural Networks](http://arxiv.org/abs/2010.12455v1) | Francesco Milano, Antonio Loquercio+ | 2.9 |
-| 📎 | [Combining Deep Learning Classifiers for 3D Action Recognitio](http://arxiv.org/abs/2004.10314v1) | Jan Sedmidubsky, Pavel Zezula | 2.8 |
-| 📝 | [Déjà vu: A Contextualized Temporal Attention Mechanism for S](http://arxiv.org/abs/2002.00741v1) | Jibang Wu, Renqin Cai+ | 2.4 |
-| 📝 | [Visual Analytics for Temporal Hypergraph Model Exploration](http://arxiv.org/abs/2008.07299v2) | Maximilian T. Fischer, Devanshu Arya+ | 2.1 |
-| 📝 | [Interpretable Representations in Explainable AI: From Theory](http://arxiv.org/abs/2008.07007v4) | Kacper Sokol, Peter Flach | 2.1 |
-| 📝 | [3D Quasi-Recurrent Neural Network for Hyperspectral Image De](http://arxiv.org/abs/2003.04547v1) | Kaixuan Wei, Ying Fu+ | 2.1 |
-
-</details>
-
-<details>
-<summary>📅 2019 年 (13 篇)</summary>
-
-| 标签 | 标题 | 作者 | 分数 |
-|------|------|------|------|
-| 🔥 | [An Efficient 3D CNN for Action/Object Segmentation in Video](http://arxiv.org/abs/1907.08895v1) | Rui Hou, Chen Chen+ | 5.3 |
-| 🔥 | [Image and Video Compression with Neural Networks: A Review](http://arxiv.org/abs/1904.03567v2) | Siwei Ma, Xinfeng Zhang+ | 4.4 |
-| 🔥 | [Explainable Deep Learning for Video Recognition Tasks: A Fra](http://arxiv.org/abs/1909.05667v1) | Liam Hiley, Alun Preece+ | 4.2 |
-| 🔥 | [Predicting 3D Human Dynamics from Video](http://arxiv.org/abs/1908.04781v2) | Jason Y. Zhang, Panna Felsen+ | 4.1 |
-| 🔥 | [Egocentric Hand Track and Object-based Human Action Recognit](http://arxiv.org/abs/1905.00742v1) | Georgios Kapidis, Ronald Poppe+ | 4.1 |
-| 📎 | [Semantic-Aware Scene Recognition](http://arxiv.org/abs/1909.02410v3) | Alejandro López-Cifuentes, Marcos Escudero-Viñolo+ | 3.9 |
-| 📎 | [FBK-HUPBA Submission to the EPIC-Kitchens 2019 Action Recogn](http://arxiv.org/abs/1906.08960v1) | Swathikiran Sudhakaran, Sergio Escalera+ | 3.8 |
-| 📎 | [Spatio-Temporal FAST 3D Convolutions for Human Action Recogn](http://arxiv.org/abs/1909.13474v2) | Alexandros Stergiou, Ronald Poppe | 3.7 |
-| 📎 | [C3DVQA: Full-Reference Video Quality Assessment with 3D Conv](http://arxiv.org/abs/1910.13646v2) | Munan Xu, Junming Chen+ | 3.5 |
-| 📎 | [Deep 3D Convolutional Neural Network for Automated Lung Canc](http://arxiv.org/abs/1906.01054v1) | Sumita Mishra, Naresh Kumar Chaudhary+ | 2.7 |
-| 📎 | [Demonstration of Vector Flow Imaging using Convolutional Neu](http://arxiv.org/abs/1903.06254v1) | Thomas Robins, Antonio Stanziola+ | 2.7 |
-| 📎 | [Deep Features Analysis with Attention Networks](http://arxiv.org/abs/1901.10042v1) | Shipeng Xie, Da Chen+ | 2.6 |
-| 📝 | [A Universal Logic Operator for Interpretable Deep Convolutio](http://arxiv.org/abs/1901.08551v1) | KamWoh Ng, Lixin Fan+ | 2.2 |
-
-</details>
-
-<details>
-<summary>📅 2018 年 (21 篇)</summary>
-
-| 标签 | 标题 | 作者 | 分数 |
-|------|------|------|------|
-| 🔥 | [Interpretable Spatio-temporal Attention for Video Action Rec](http://arxiv.org/abs/1810.04511v2) | Lili Meng, Bo Zhao+ | 6.1 |
-| 🔥 | [Reduced-Gate Convolutional LSTM Using Predictive Coding for ](http://arxiv.org/abs/1810.07251v11) | Nelly Elsayed, Anthony S. Maida+ | 5.2 |
-| 🔥 | [Activity Recognition on a Large Scale in Short Videos - Mome](http://arxiv.org/abs/1809.00241v2) | Ankit Shah, Harini Kesavamoorthy+ | 4.9 |
-| 🔥 | [Morph: Flexible Acceleration for 3D CNN-based Video Understa](http://arxiv.org/abs/1810.06807v1) | Kartik Hegde, Rohit Agrawal+ | 4.8 |
-| 🔥 | [Saliency for Fine-grained Object Recognition in Domains with](http://arxiv.org/abs/1808.00262v3) | Carola Figueroa Flores, Abel Gonzalez-García+ | 4.5 |
-| 🔥 | [ECO: Efficient Convolutional Network for Online Video Unders](http://arxiv.org/abs/1804.09066v2) | Mohammadreza Zolfaghari, Kamaljeet Singh+ | 4.4 |
-| 🔥 | [Video Saliency Detection by 3D Convolutional Neural Networks](http://arxiv.org/abs/1807.04514v1) | Guanqun Ding, Yuming Fang | 4.3 |
-| 🔥 | [Non-Local Video Denoising by CNN](http://arxiv.org/abs/1811.12758v2) | Axel Davy, Thibaud Ehret+ | 4.1 |
-| 🔥 | [Video to Fully Automatic 3D Hair Model](http://arxiv.org/abs/1809.04765v1) | Shu Liang, Xiufeng Huang+ | 4.1 |
-| 📎 | [Non-local NetVLAD Encoding for Video Classification](http://arxiv.org/abs/1810.00207v1) | Yongyi Tang, Xing Zhang+ | 3.8 |
-| 📎 | [Learning for Video Compression](http://arxiv.org/abs/1804.09869v2) | Zhibo Chen, Tianyu He+ | 3.7 |
-| 📎 | [Revisiting Video Saliency: A Large-scale Benchmark and a New](http://arxiv.org/abs/1801.07424v3) | Wenguan Wang, Jianbing Shen+ | 3.7 |
-| 📎 | [Non-Volume Preserving-based Fusion to Group-Level Emotion Re](http://arxiv.org/abs/1811.11849v4) | Kha Gia Quach, Ngan Le+ | 3.1 |
-| 📎 | [The Effect of Frame Rate on 3D Video Quality and Bitrate](http://arxiv.org/abs/1803.04826v1) | Amin Banitalebi-Dehkordi, Mahsa T. Pourazad+ | 2.8 |
-| 📎 | [Introducing A Public Stereoscopic 3D High Dynamic Range (SHD](http://arxiv.org/abs/1803.04847v1) | Amin Banitalebi-Dehkordi | 2.8 |
-| 📎 | [Chinese Herbal Recognition based on Competitive Attentional ](http://arxiv.org/abs/1812.09648v1) | Yingxue Xu, Guihua Wen+ | 2.6 |
-| 📝 | [Benchmark 3D eye-tracking dataset for visual saliency predic](http://arxiv.org/abs/1803.04845v1) | Amin Banitalebi-Dehkordi, Eleni Nasiopoulos+ | 2.4 |
-| 📝 | [Deep saliency: What is learnt by a deep network about salien](http://arxiv.org/abs/1801.04261v2) | Sen He, Nicolas Pugeault | 2.4 |
-| 📝 | [Corresponding Supine and Prone Colon Visualization Using Eig](http://arxiv.org/abs/1810.08850v1) | Saad Nadeem, Joseph Marino+ | 2.3 |
-| 📝 | [Improving Transferability of Deep Neural Networks](http://arxiv.org/abs/1807.11459v1) | Parijat Dube, Bishwaranjan Bhattacharjee+ | 2.3 |
-| 📝 | [LMap: Shape-Preserving Local Mappings for Biomedical Visuali](http://arxiv.org/abs/1809.06442v2) | Saad Nadeem, Xianfeng Gu+ | 2.0 |
-
-</details>
-
-<details>
-<summary>📅 2017 年 (17 篇)</summary>
-
-| 标签 | 标题 | 作者 | 分数 |
-|------|------|------|------|
-| 🔥 | [Video Classification With CNNs: Using The Codec As A Spatio-](http://arxiv.org/abs/1710.05112v2) | Aaron Chadha, Alhabib Abbas+ | 5.0 |
-| 🔥 | [The Monkeytyping Solution to the YouTube-8M Video Understand](http://arxiv.org/abs/1706.05150v1) | He-Da Wang, Teng Zhang+ | 4.4 |
-| 🔥 | [Predicting Video Saliency with Object-to-Motion CNN and Two-](http://arxiv.org/abs/1709.06316v3) | Lai Jiang, Mai Xu+ | 4.3 |
-| 🔥 | [Hierarchical Deep Recurrent Architecture for Video Understan](http://arxiv.org/abs/1707.03296v1) | Luming Tang, Boyang Deng+ | 4.1 |
-| 🔥 | [Graph-Theoretic Spatiotemporal Context Modeling for Video Sa](http://arxiv.org/abs/1707.07815v1) | Lina Wei, Fangfang Wang+ | 4.0 |
-| 📎 | [Spatio-Temporal Facial Expression Recognition Using Convolut](http://arxiv.org/abs/1703.06995v2) | Behzad Hasani, Mohammad H. Mahoor | 3.7 |
-| 📎 | [Facial Expression Recognition Using Enhanced Deep 3D Convolu](http://arxiv.org/abs/1705.07871v1) | Behzad Hasani, Mohammad H. Mahoor | 3.2 |
-| 📎 | [An Introduction to Deep Visual Explanation](http://arxiv.org/abs/1711.09482v2) | Housam Khalifa Bashier Babiker, Randy Goebel | 2.9 |
-| 📎 | [Assessing Visual Quality of Omnidirectional Videos](http://arxiv.org/abs/1709.06342v4) | Mai Xu, Chen Li+ | 2.8 |
-| 📎 | [Deep Visual Attention Prediction](http://arxiv.org/abs/1705.02544v3) | Wenguan Wang, Jianbing Shen | 2.7 |
-| 📎 | [Saliency Fusion in Eigenvector Space with Multi-Channel Puls](http://arxiv.org/abs/1703.00160v1) | Nevrez Imamoglu, Zhixuan Wei+ | 2.6 |
-| 📎 | [A Brief Survey of Deep Reinforcement Learning](http://arxiv.org/abs/1708.05866v2) | Kai Arulkumaran, Marc Peter Deisenroth+ | 2.6 |
-| 📝 | [Interpreting Deep Visual Representations via Network Dissect](http://arxiv.org/abs/1711.05611v2) | Bolei Zhou, David Bau+ | 2.4 |
-| 📝 | [Network Dissection: Quantifying Interpretability of Deep Vis](http://arxiv.org/abs/1704.05796v1) | David Bau, Bolei Zhou+ | 2.1 |
-| 📝 | [Generalizing the Convolution Operator in Convolutional Neura](http://arxiv.org/abs/1707.09864v1) | Kamaledin Ghiasi-Shirazi | 2.1 |
-| 📝 | [HMM-based Indic Handwritten Word Recognition using Zone Segm](http://arxiv.org/abs/1708.00227v1) | Partha Pratim Roy, Ayan Kumar Bhunia+ | 2.0 |
-| 📝 | [A multitask deep learning model for real-time deployment in ](http://arxiv.org/abs/1711.00146v1) | Miquel Martí, Atsuto Maki | 2.0 |
-
-</details>
-
-<details>
-<summary>📅 2016 年 (2 篇)</summary>
-
-| 标签 | 标题 | 作者 | 分数 |
-|------|------|------|------|
-| 📎 | [Saliency Integration: An Arbitrator Model](http://arxiv.org/abs/1608.01536v2) | Yingyue Xu, Xiaopeng Hong+ | 2.6 |
-| 📝 | [Large-Scale Shape Retrieval with Sparse 3D Convolutional Neu](http://arxiv.org/abs/1611.09159v2) | Alexandr Notchenko, Ermek Kapushev+ | 2.1 |
-
-</details>
-
-<details>
-<summary>📅 2015 年 (6 篇)</summary>
-
-| 标签 | 标题 | 作者 | 分数 |
-|------|------|------|------|
-| 🔥 | [Intra-and-Inter-Constraint-based Video Enhancement based on ](http://arxiv.org/abs/1502.06080v1) | Yuanzhe Chen, Weiyao Lin+ | 4.1 |
-| 📎 | [Activity Recognition Using A Combination of Category Compone](http://arxiv.org/abs/1503.00081v1) | Weiyao Lin, Ming-Ting Sun+ | 3.8 |
-| 📎 | [A new network-based algorithm for human activity recognition](http://arxiv.org/abs/1502.06075v1) | Weiyao Lin, Yuanzhe Chen+ | 3.8 |
-| 📎 | [End-to-end Convolutional Network for Saliency Prediction](http://arxiv.org/abs/1507.01422v1) | Junting Pan, Xavier Giró-i-Nieto | 3.1 |
-| 📎 | [Group Event Detection with a Varying Number of Group Members](http://arxiv.org/abs/1503.00082v1) | Weiyao Lin, Ming-Ting Sun+ | 2.6 |
-| 📎 | [Towards Dropout Training for Convolutional Neural Networks](http://arxiv.org/abs/1512.00242v1) | Haibing Wu, Xiaodong Gu | 2.6 |
-
-</details>
+| 年份 | 标题 | 作者 | 期刊/会议 | 关键字 | 分类 |
+|------|------|------|----------|--------|------|
+| 2021 | ["Knights": First Place Submission for VIPriors21 A](papers/2021/core/2110.07758v1.md) | Ishan Dave, Naman Biyani+ | CV | video action recognition neura | 🔥 |
+| 2021 | [3D Convolutional Neural Networks for Ultrasound-Ba](papers/2021/related/2104.11532v1.md) | László Tóth, Amin Honarmandi Shandiz | SD | 3D convolution neural network  | 📎 |
+| 2021 | [A Latent Transformer for Disentangled Face Editing](papers/2021/related/2106.11895v2.md) | Xu Yao, Alasdair Newson+ | CV | video transformer interpretabi | 📎 |
+| 2021 | [Action Transformer: A Self-Attention Model for Sho](papers/2021/core/2107.00606v6.md) | Vittorio Mazzia, Simone Angarano+ | CV | video action recognition neura | 🔥 |
+| 2021 | [Adaptive Encoding for Constrained Video Delivery i](papers/2021/core/2104.12770v1.md) | Gangadharan Esakki | MM | 3D CNN video explainability | 🔥 |
+| 2021 | [Adaptive Video Encoding For Different Video Codecs](papers/2021/core/2105.08191v1.md) | Gangadharan Esakki, Andreas Panayides+ | MM | 3D CNN video explainability | 🔥 |
+| 2021 | [All-sky search for gravitational wave emission fro](papers/2021/core/2111.15507v2.md) |  The LIGO Scientific Collaboration,  the Virgo Collaboration+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2021 | [Beyond Self-attention: External Attention using Tw](papers/2021/related/2105.02358v2.md) | Meng-Hao Guo, Zheng-Ning Liu+ | CV | attention mechanism visualizat | 📎 |
+| 2021 | [Compressive Visual Representations](papers/2021/related/2109.12909v3.md) | Kuang-Huei Lee, Anurag Arnab+ | LG | network dissection deep visual | 📎 |
+| 2021 | [Constraints from LIGO O3 data on gravitational-wav](papers/2021/core/2104.14417v2.md) |  The LIGO Scientific Collaboration,  the Virgo Collaboration+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2021 | [Convolutional Neural Networks with Gated Recurrent](papers/2021/related/2106.02859v1.md) | Jianfeng Wang, Xiaolin Hu | CV | 3D convolution neural network  | 📎 |
+| 2021 | [Design and Analysis of a Robotic Lizard using Five](papers/2021/related/2107.12614v1.md) | Rajashekhar V S, Dinakar Raj C K+ | RO | attention mechanism visualizat | 📎 |
+| 2021 | [ERANNs: Efficient Residual Audio Neural Networks f](papers/2021/core/2106.01621v7.md) | Sergey Verbitskiy, Vladimir Berikov+ | SD | video action recognition neura | 🔥 |
+| 2021 | [Exploiting Emotional Dependencies with Graph Convo](papers/2021/core/2106.03487v2.md) | Panagiotis Antoniadis, Panagiotis P. Filntisis+ | CV | Decomposed 3D convolutions act | 🔥 |
+| 2021 | [Fusing Higher-order Features in Graph Neural Netwo](papers/2021/core/2105.01563v5.md) | Zhenyue Qin, Yang Liu+ | CV | video action recognition neura | 🔥 |
+| 2021 | [Improved CNN-based Learning of Interpolation Filte](papers/2021/core/2106.08936v1.md) | Luka Murn, Saverio Blasi+ | CV | 3D CNN video explainability | 🔥 |
+| 2021 | [Improving Automated Visual Fault Detection by Comb](papers/2021/related/2102.06955v1.md) | Frederik Beuth, Tobias Schlosser+ | CV | attention mechanism visualizat | 📎 |
+| 2021 | [Infinite-channel deep stable convolutional neural ](papers/2021/related/2102.03739v2.md) | Daniele Bracale, Stefano Favaro+ | LG | 3D convolution neural network  | 📎 |
+| 2021 | [Interpretable Propaganda Detection in News Article](papers/2021/related/2108.12802v1.md) | Seunghak Yu, Giovanni Da San Martino+ | CL | CNN interpretability explainab | 📎 |
+| 2021 | [Joint Learning of Neural Transfer and Architecture](papers/2021/core/2103.16889v1.md) | Guangrun Wang, Liang Lin+ | CV | video action recognition neura | 🔥 |
+| 2021 | [Learning to Cluster Faces via Transformer](papers/2021/related/2104.11502v1.md) | Jinxing Ye, Xioajiang Peng+ | CV | video transformer interpretabi | 📎 |
+| 2021 | [Leveraging Semantic Scene Characteristics and Mult](papers/2021/core/2105.07484v1.md) | Ioannis Pikoulis, Panagiotis P. Filntisis+ | CV | Decomposed 3D convolutions act | 🔥 |
+| 2021 | [M2Lens: Visualizing and Explaining Multimodal Mode](papers/2021/related/2107.08264v4.md) | Xingbo Wang, Jianben He+ | LG | attention mechanism visualizat | 📎 |
+| 2021 | [Memorization in Deep Neural Networks: Does the Los](papers/2021/related/2107.09957v2.md) | Deep Patel, P. S. Sastry | LG | network dissection deep visual | 📎 |
+| 2021 | [Neural 3D Video Synthesis from Multi-view Video](papers/2021/related/2103.02597v2.md) | Tianye Li, Mira Slavcheva+ | CV | 3D convolution neural network  | 📎 |
+| 2021 | [Neural Relighting and Expression Transfer On Video](papers/2021/related/2107.14735v4.md) | Youjia Wang, Taotao Zhou+ | CV | 3D convolution neural network  | 📎 |
+| 2021 | [Observation of the $B^0\rightarrow\overline{D}^{*0](papers/2021/core/2112.11428v2.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2021 | [On Fairness and Interpretability](papers/2021/related/2106.13271v1.md) | Deepak P, Sanil V+ | CY | CNN interpretability explainab | 📎 |
+| 2021 | [Overview of Tencent Multi-modal Ads Video Understa](papers/2021/core/2109.07951v1.md) | Zhenzhi Wang, Liyu Wu+ | CV | spatiotemporal convolution vid | 🔥 |
+| 2021 | [Physically Explainable CNN for SAR Image Classific](papers/2021/related/2110.14144v2.md) | Zhongling Huang, Xiwen Yao+ | CV | CNN interpretability explainab | 📎 |
+| 2021 | [PoliTO-IIT Submission to the EPIC-KITCHENS-100 Uns](papers/2021/core/2107.00337v1.md) | Chiara Plizzari, Mirco Planamente+ | CV | Decomposed 3D convolutions act | 🔥 |
+| 2021 | [Real-time 3D human action recognition based on Hyp](papers/2021/core/2111.08492v3.md) | Xing Li, Qian Huang+ | CV | Decomposed 3D convolutions act | 🔥 |
+| 2021 | [Robust Pose Transfer with Dynamic Details using Ne](papers/2021/related/2106.14132v3.md) | Yang-tian Sun, Hao-zhi Huang+ | CV | 3D convolution neural network  | 📎 |
+| 2021 | [SAIC_Cambridge-HuPBA-FBK Submission to the EPIC-Ki](papers/2021/core/2110.02902v1.md) | Swathikiran Sudhakaran, Adrian Bulat+ | CV | video action recognition neura | 🔥 |
+| 2021 | [Search for continuous gravitational waves from 20 ](papers/2021/core/2109.09255v2.md) |  The LIGO Scientific Collaboration,  the Virgo Collaboration+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2021 | [Search of the Early O3 LIGO Data for Continuous Gr](papers/2021/core/2111.15116v2.md) |  The LIGO Scientific Collaboration,  the Virgo Collaboration+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2021 | [Searches for continuous gravitational waves from y](papers/2021/core/2105.11641v2.md) |  The LIGO Scientific Collaboration,  the Virgo Collaboration+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2021 | [Solution of Physics-based Bayesian Inverse Problem](papers/2021/related/2107.02926v2.md) | Dhruv V Patel, Deep Ray+ | LG | network dissection deep visual | 📎 |
+| 2021 | [Spatiotemporal Dilated Convolution with Uncertain ](papers/2021/core/2101.12439v1.md) | Yu-Jen Ma, Hong-Han Shuai+ | CV | spatiotemporal convolution vid | 🔥 |
+| 2021 | [Strengthening the Training of Convolutional Neural](papers/2021/related/2104.00035v1.md) | Tamer Ölmez, Zümray Dokur | LG | 3D convolution neural network  | 📎 |
+| 2021 | [Temporal Shuffling for Defending Deep Action Recog](papers/2021/core/2112.07921v2.md) | Jaehui Hwang, Huan Zhang+ | CV | video action recognition neura | 🔥 |
+| 2021 | [Temporal-attentive Covariance Pooling Networks for](papers/2021/core/2110.14381v3.md) | Zilin Gao, Qilong Wang+ | CV | video action recognition neura | 🔥 |
+| 2021 | [Tests of General Relativity with GWTC-3](papers/2021/core/2112.06861v3.md) |  The LIGO Scientific Collaboration,  the Virgo Collaboration+ | arXiv | R(2+1)D video classification i | 🔥 |
+| 2021 | [Towards a Survey on Static and Dynamic Hypergraph ](papers/2021/related/2107.13936v1.md) | Maximilian T. Fischer, Alexander Frings+ | HC | attention mechanism visualizat | 📎 |
+| 2021 | [Video Relation Detection via Tracklet based Visual](papers/2021/related/2108.08669v1.md) | Kaifeng Gao, Long Chen+ | CV | video transformer interpretabi | 📎 |
+| 2021 | [VisRuler: Visual Analytics for Extracting Decision](papers/2021/related/2112.00334v5.md) | Angelos Chatzimparmpas, Rafael M. Martins+ | LG | attention mechanism visualizat | 📎 |
 
 ---
 
-📄 **完整论文列表**: [ALL_PAPERS.md](ALL_PAPERS.md)
+## 📁 项目结构
+
+```
+video-cnn-interpretability/
+├── arxiv_search.py          # arXiv 搜索脚本
+├── search_config.json       # 搜索配置文件
+├── paper_template.md        # 论文总结模板
+├── papers/                  # 论文总结 (按年份/分类)
+│   ├── 2024/
+│   │   ├── core/          # 核心领域论文
+│   │   └── related/       # 相关领域论文
+│   └── ...
+└── README.md              # 本文件
+```
 
 ## ⚙️ 自动更新
 
-本项目通过 **GitHub Actions** 每天自动搜索 arXiv 最新论文，经评分筛选后入库。
+本项目通过 **GitHub Actions** 每周自动：
+1. 搜索 arXiv 最新相关论文
+2. 生成论文总结
+3. 更新本 README
+4. 推送更新到 GitHub
+5. 发送飞书群通知
+
+## 🤝 贡献
+
+欢迎：
+- 补充论文详情（方法论、实验结果等）
+- 修正论文分类
+- 提供代码链接
 
 ## 📄 License
 
