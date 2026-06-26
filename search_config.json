@@ -1,0 +1,82 @@
+{
+  "queries": {
+    "core": [
+      "R(2+1)D video classification interpretability",
+      "3D CNN video explainability",
+      "spatiotemporal convolution video understanding",
+      "video action recognition interpretability",
+      "temporal convolution video explanation"
+    ],
+    "expanded": [
+      "video model explanation saliency",
+      "video attention visualization",
+      "interpretable video representation",
+      "explainable video recognition",
+      "decomposed 3D convolutions action recognition"
+    ],
+    "exploratory": [
+      "video transformer interpretability",
+      "CNN interpretability explainability video",
+      "attention mechanism visualization deep learning",
+      "network dissection deep visual representations",
+      "3D convolution neural network video"
+    ]
+  },
+  "filters": {
+    "years_from": 2015,
+    "years_to": 2026,
+    "allowed_categories": ["cs.CV", "cs.LG"],
+    "blocked_keywords": [
+      "gravitational",
+      "particle physics",
+      "collider",
+      "cosmology",
+      "LHCb",
+      "BESIII",
+      "ILC Technology",
+      "radiology",
+      "biomedical imaging",
+      "Schramm-Loewner"
+    ],
+    "required_topic_keywords": [
+      "video",
+      "temporal",
+      "action",
+      "3D CNN",
+      "spatiotemporal",
+      "R(2+1)D",
+      "interpretab",
+      "explainab",
+      "saliency",
+      "attention",
+      "convolution",
+      "neural network"
+    ]
+  },
+  "scoring": {
+    "min_relevance_score": 2.0,
+    "core_threshold": 4.0,
+    "strongly_related_threshold": 2.5,
+    "keyword_weights": {
+      "core": 2.0,
+      "expanded": 1.0,
+      "exploratory": 0.5
+    },
+    "category_bonus": {
+      "cs.CV": 1.0,
+      "cs.LG": 0.5
+    },
+    "topic_bonus_per_hit": 0.3,
+    "blocked_penalty": 10.0,
+    "video_in_title_bonus": 0.5
+  },
+  "runtime": {
+    "max_results_per_query": 30,
+    "output_dir": "papers",
+    "index_format": "jsonl",
+    "write_markdown_cards": true,
+    "write_readme": true,
+    "notify_feishu": true,
+    "legacy_years_filter": [2015, 2026]
+  }
+}

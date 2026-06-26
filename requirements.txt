@@ -1,0 +1,6 @@
+arxiv
+requests
+feedparser
+pytest
+ruff
+

@@ -1,0 +1,38 @@
+name: Daily Paper Search
+
+on:
+  schedule:
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  search-and-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run daily search
+        env:
+          FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
+          PYTHONPATH: src
+        run: python -m video_cnn_interp.cli run-daily
+
+      - name: Commit updates
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add papers/ README.md ALL_PAPERS.md
+          git diff --staged --quiet || git commit -m "Update papers - $(date +'%Y-%m-%d')"
+          git push
