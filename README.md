@@ -6,8 +6,8 @@
 
 ## 📊 论文统计
 
-- **总计**: 240 篇论文
-- **最后更新**: 2026-06-25 05:09:56
+- **总计**: 241 篇论文
+- **最后更新**: 2026-06-26 05:14:56
 
 ## 🔍 搜索领域
 
@@ -33,6 +33,7 @@
 | 2026 | [Deep Search for Joint Sources of Gravitational Wav](papers/2026/core/2601.07595v3.md) |  The IceCube Collaboration, R. Abbasi+ | arXiv | R(2+1)D video classification i | 🔥 |
 | 2026 | [Fast Multirate Encoding for 360° Video in OMAF Str](papers/2026/related/2601.17568v1.md) | Amritha Premkumar, Christian Herglotz | MM | video transformer interpretabi | 📎 |
 | 2026 | [Gated Sparse Attention: Combining Computational Ef](papers/2026/related/2601.15305v1.md) | Alfred Shen, Aaron Shen | AI | attention mechanism visualizat | 📎 |
+| 2026 | [Interpreting "Interpretability" and Explaining "Ex](papers/2026/related/2606.26228v1.md) | Rikab Gambhir, Luisa Lucie-Smith+ | LG | CNN interpretability explainab | 📎 |
 | 2026 | [Measurement of CP asymmetries in $\kern 0.18em\ove](papers/2026/core/2603.28132v1.md) |  LHCb collaboration, R. Aaij+ | arXiv | R(2+1)D video classification i | 🔥 |
 | 2026 | [Measurement of the CKM angle $γ$ in $B^{\pm} \righ](papers/2026/core/2604.05701v1.md) | The BESIII, LHCb Collaborations+ | arXiv | R(2+1)D video classification i | 🔥 |
 | 2026 | [Midterm Status Report of the ILC Technology Networ](papers/2026/related/2603.01172v1.md) | ILC Technology Network | arXiv | network dissection deep visual | 📎 |
@@ -108,7 +109,7 @@
 | 2025 | [VL-KnG: Persistent Spatiotemporal Knowledge Graphs](papers/2025/core/2510.01483v2.md) | Mohamad Al Mdfaa, Svetlana Lukina+ | RO | spatiotemporal convolution vid | 🔥 |
 | 2025 | [Video-As-Prompt: Unified Semantic Control for Vide](papers/2025/related/2510.20888v1.md) | Yuxuan Bian, Xin Chen+ | CV | video transformer interpretabi | 📎 |
 | 2025 | [Video-CoT: A Comprehensive Dataset for Spatiotempo](papers/2025/core/2506.08817v3.md) | Shuyi Zhang, Xiaoshuai Hao+ | CV | spatiotemporal convolution vid | 🔥 |
-| 2025 | [nnterp: A Standardized Interface for Mechanistic I](papers/2025/related/2511.14465v2.md) | Clément Dumas | LG | CNN interpretability explainab | 📎 |
+| 2025 | [nnterp: A Standardized Interface for Mechanistic I](papers/2025/related/2511.14465v2.md) | Clément Dumas | LG | video transformer interpretabi | 📎 |
 
 ## 📅 2024 年
 
