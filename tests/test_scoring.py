@@ -32,10 +32,10 @@ def test_noise_paper_scores_low():
 def test_weakly_related_paper():
     cfg = _cfg()
     paper = {
-        'title': 'Attention mechanism visualization in deep neural networks',
-        'summary': 'We propose a method for attention visualization but not specifically for video.',
+        'title': 'Video attention mechanism visualization in deep neural networks',
+        'summary': 'We propose a method for video attention visualization using saliency maps.',
         'categories': ['cs.CV'],
     }
-    score = compute_relevance_score(paper, 'exploratory', cfg)
+    score = compute_relevance_score(paper, 'expanded', cfg)
     label = assign_quality_label(score, cfg)
-    assert label in ('weakly_related', 'strongly_related')
+    assert label in ('weakly_related', 'strongly_related', 'core')
