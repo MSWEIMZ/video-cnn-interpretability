@@ -138,7 +138,7 @@ def run_daily(base_dir: str | Path | None = None) -> None:
             errors if errors else None,
         )
 
-    print(f"\n✅ 完成！新增 {added} 篇，更新 {updated} 篇，噪声拦截 {noise_blocked} 篇")
+    print(f"\n[DONE] added={added} updated={updated} noise_blocked={noise_blocked}")
 
 
 def _write_paper_card(path: Path, record) -> None:
@@ -177,3 +177,6 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+
+
