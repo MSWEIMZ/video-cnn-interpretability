@@ -1,6 +1,6 @@
-# 📚 Complete Paper List
+# 📚 Complete Paper List — Video CNN/XAI Research Hub
 
-> Last updated: 2026-06-27 15:19:53 | 445 papers total
+> Last updated: 2026-06-27 15:39:53 | 445 papers total
 
 ---
 

@@ -1,8 +1,8 @@
 **English** | [中文](README_zh.md)
 
-# 📚 Video CNN Interpretability Paper Library
+# 📚 Video CNN/XAI Research Hub
 
-> Automated paper search & curation | Focused on 3DCNN, R(2+1)D models & interpretability research
+> Automated paper curation for video deep learning & explainability research
 
 ## 📊 Overview
 
@@ -11,7 +11,7 @@
 - **Strongly Related**: 276
 - **New This Month**: 1
 - **Sources**: arXiv 329 | Semantic Scholar 110
-- **Last Updated**: 2026-06-27 15:32:09
+- **Last Updated**: 2026-06-27 15:39:53
 
 ## 🏆 Top 5 Most Cited
 

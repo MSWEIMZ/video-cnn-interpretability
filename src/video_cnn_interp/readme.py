@@ -6,8 +6,8 @@ from collections import defaultdict
 # ── 语言包 ──────────────────────────────────────────────────────────────────
 _I18N = {
     "zh": {
-        "title": "# 📚 视频 CNN 可解释性论文库",
-        "subtitle": "> 自动化论文搜索与整理系统 | 专注于 3DCNN、R(2+1)D 模型及可解释性研究",
+        "title": "# 📚 Video CNN/XAI Research Hub",
+        "subtitle": "> 视频深度学习与可解释性论文自动搜集系统",
         "stats": "## 📊 统计概览",
         "total": "论文总数", "core": "核心论文", "strong": "高相关论文",
         "monthly": "本月新增", "sources": "来源分布",
@@ -27,7 +27,7 @@ _I18N = {
         "auto_desc": "本项目通过 **GitHub Actions** 每天自动搜索 arXiv 最新论文，经评分筛选后入库。",
         "license": "## 📄 License",
         "license_text": "仅供学术研究使用",
-        "all_title": "# 📚 完整论文列表",
+        "all_title": "# 📚 完整论文列表 — Video CNN/XAI Research Hub",
         "all_subtitle": "> 最后更新: {now} | 共 {total} 篇",
         "query_type": "查询类型", "source_col": "来源",
         "lang_switch": "[English](README.md) | **中文**",
@@ -35,8 +35,8 @@ _I18N = {
         "year": "年份",
     },
     "en": {
-        "title": "# 📚 Video CNN Interpretability Paper Library",
-        "subtitle": "> Automated paper search & curation | Focused on 3DCNN, R(2+1)D models & interpretability research",
+        "title": "# 📚 Video CNN/XAI Research Hub",
+        "subtitle": "> Automated paper curation for video deep learning & explainability research",
         "stats": "## 📊 Overview",
         "total": "Total Papers", "core": "Core Papers", "strong": "Strongly Related",
         "monthly": "New This Month", "sources": "Sources",
@@ -56,7 +56,7 @@ _I18N = {
         "auto_desc": "This project uses **GitHub Actions** to search arXiv daily, score & filter papers before adding them to the index.",
         "license": "## 📄 License",
         "license_text": "For academic research use only",
-        "all_title": "# 📚 Complete Paper List",
+        "all_title": "# 📚 Complete Paper List — Video CNN/XAI Research Hub",
         "all_subtitle": "> Last updated: {now} | {total} papers total",
         "query_type": "Query Type", "source_col": "Source",
         "lang_switch": "**English** | [中文](README_zh.md)",
