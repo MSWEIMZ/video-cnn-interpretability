@@ -1,17 +1,42 @@
 [English](README.md) | **中文**
 
-# 📚 Video CNN/XAI Research Hub
+<p align="center">
+  <h1>📚 Video CNN/XAI Research Hub</h1>
+  <p><em>视频深度学习与可解释性论文自动搜集系统</em></p>
+</p>
 
-> 视频深度学习与可解释性论文自动搜集系统
+<p align="center">
+  <img src="https://img.shields.io/badge/papers-445-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/core-156-green" alt="core" />
+  <img src="https://img.shields.io/badge/strongly_related-276-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/arXiv-329-critical" alt="arXiv" />
+  <img src="https://img.shields.io/badge/Semantic_Scholar-110-blueviolet" alt="Semantic Scholar" />
+  <img src="https://img.shields.io/badge/last_update-2026-06-27-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
+</p>
+
+---
+
+**Quick Navigation** | 
+[🏆 Top Cited](#-top-5-most-cited) | 
+[🔥 Trending](#-latest-trending-2024-2026) | 
+[📄 Core Papers](#-latest-core-papers) | 
+[📎 Strongly Related](#-strongly-related-papers) | 
+[📋 Full List](ALL_PAPERS.md)
+
+---
 
 ## 📊 统计概览
 
-- **论文总数**: 445
-- **核心论文**: 156
-- **高相关论文**: 276
-- **本月新增**: 1
-- **来源分布**: arXiv 329 篇 | Semantic Scholar 110 篇
-- **最后更新**: 2026-06-27 15:39:53
+| 指标 | 数量 |
+|------|------|
+| 📚 论文总数 | **445** |
+| 🔥 核心论文 | **156** |
+| 📎 高相关论文 | **276** |
+| 🆕 本月新增 | **1** |
+| 📡 arXiv | 329 |
+| 🔬 Semantic Scholar | 110 |
+| ⏰ 最后更新 | 2026-06-27 18:30:42 |
 
 ## 🏆 高引用论文 Top 5
 
@@ -618,6 +643,50 @@
 ---
 
 📄 **完整论文列表**: [ALL_PAPERS.md](ALL_PAPERS.md)
+
+## 🏗️ 系统架构
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    search_config.json                       │
+│              (24 条查询 × 3 层深度)                         │
+└───────────────────────────┬─────────────────────────────────┘
+                            │
+                            ▼
+┌─────────────────────────────────────────────────────────────┐
+│                     Collector                               │
+│         arXiv API  ◄────  Semantic Scholar API              │
+└───────────────────────────┬─────────────────────────────────┘
+                            │
+                            ▼
+┌─────────────────────────────────────────────────────────────┐
+│                      Scorer                                 │
+│    关键词匹配 + 引用量 + Venue + 综述加分                   │
+└───────────────────────────┬─────────────────────────────────┘
+                            │
+                            ▼
+┌─────────────────────────────────────────────────────────────┐
+│                      Storage                                │
+│              papers/index.jsonl (主索引)                    │
+└───────────────────────────┬─────────────────────────────────┘
+                            │
+          ┌─────────────────┼─────────────────┐
+          ▼                 ▼                 ▼
+    ┌──────────┐     ┌──────────┐     ┌──────────┐
+    │ README   │     │ 飞书通知  │     │ Dashboard │
+    │ (展示层) │     │ (推送层)  │     │ (看板层)  │
+    └──────────┘     └──────────┘     └──────────┘
+```
+
+## ✨ 核心特性
+
+| 🎯 智能搜索 | 📊 数据增强 | 🌐 多源聚合 | 🔔 自动通知 |
+|:----------:|:----------:|:----------:|:----------:|
+| 每日自动搜索 arXiv | CrossRef 引用回填 | arXiv + Semantic Scholar | 飞书 Webhook |
+| 24 条分层查询 | 中英文摘要生成 | 标题去重 + ID 规范化 | 成功/失败通知 |
+| 评分筛选入库 | 主题聚类分析 | 引用量 + Venue 增强 | GitHub Actions |
+
+---
 
 ## ⚙️ 自动更新
 

@@ -1,17 +1,42 @@
 **English** | [中文](README_zh.md)
 
-# 📚 Video CNN/XAI Research Hub
+<p align="center">
+  <h1>📚 Video CNN/XAI Research Hub</h1>
+  <p><em>Automated paper curation for video deep learning & explainability research</em></p>
+</p>
 
-> Automated paper curation for video deep learning & explainability research
+<p align="center">
+  <img src="https://img.shields.io/badge/papers-445-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/core-156-green" alt="core" />
+  <img src="https://img.shields.io/badge/strongly_related-276-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/arXiv-329-critical" alt="arXiv" />
+  <img src="https://img.shields.io/badge/Semantic_Scholar-110-blueviolet" alt="Semantic Scholar" />
+  <img src="https://img.shields.io/badge/last_update-2026-06-27-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
+</p>
+
+---
+
+**Quick Navigation** | 
+[🏆 Top Cited](#-top-5-most-cited) | 
+[🔥 Trending](#-latest-trending-2024-2026) | 
+[📄 Core Papers](#-latest-core-papers) | 
+[📎 Strongly Related](#-strongly-related-papers) | 
+[📋 Full List](ALL_PAPERS.md)
+
+---
 
 ## 📊 Overview
 
-- **Total Papers**: 445
-- **Core Papers**: 156
-- **Strongly Related**: 276
-- **New This Month**: 1
-- **Sources**: arXiv 329 | Semantic Scholar 110
-- **Last Updated**: 2026-06-27 15:39:53
+| Metric | Count |
+|--------|-------|
+| 📚 Total Papers | **445** |
+| 🔥 Core Papers | **156** |
+| 📎 Strongly Related | **276** |
+| 🆕 New This Month | **1** |
+| 📡 arXiv | 329 |
+| 🔬 Semantic Scholar | 110 |
+| ⏰ Last Updated | 2026-06-27 18:30:42 |
 
 ## 🏆 Top 5 Most Cited
 
@@ -618,6 +643,50 @@
 ---
 
 📄 **Full paper list**: [ALL_PAPERS.md](ALL_PAPERS.md)
+
+## 🏗️ Architecture
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    search_config.json                       │
+│              (24 queries × 3 depth layers)                  │
+└───────────────────────────┬─────────────────────────────────┘
+                            │
+                            ▼
+┌─────────────────────────────────────────────────────────────┐
+│                     Collector                               │
+│         arXiv API  ◄────  Semantic Scholar API              │
+└───────────────────────────┬─────────────────────────────────┘
+                            │
+                            ▼
+┌─────────────────────────────────────────────────────────────┐
+│                      Scorer                                 │
+│    Keyword Match + Citations + Venue + Survey Bonus          │
+└───────────────────────────┬─────────────────────────────────┘
+                            │
+                            ▼
+┌─────────────────────────────────────────────────────────────┐
+│                      Storage                                │
+│              papers/index.jsonl (Main Index)                │
+└───────────────────────────┬─────────────────────────────────┘
+                            │
+          ┌─────────────────┼─────────────────┐
+          ▼                 ▼                 ▼
+    ┌──────────┐     ┌──────────┐     ┌──────────┐
+    │ README   │     │ Feishu   │     │ Dashboard │
+    │ (Display)│     │ (Notify) │     │  (HTML)   │
+    └──────────┘     └──────────┘     └──────────┘
+```
+
+## ✨ Features
+
+| 🎯 Smart Search | 📊 Data Enhancement | 🌐 Multi-Source | 🔔 Auto Notify |
+|:--------------:|:------------------:|:--------------:|:--------------:|
+| Daily arXiv search | CrossRef citation backfill | arXiv + Semantic Scholar | Feishu Webhook |
+| 24 layered queries | CN/EN summary generation | Title dedup + ID norm | Success/Failure alerts |
+| Score-based filtering | Topic clustering | Citation + Venue boost | GitHub Actions |
+
+---
 
 ## ⚙️ Auto Update
 
