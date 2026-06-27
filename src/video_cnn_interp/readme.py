@@ -77,17 +77,18 @@ def generate_main_readme(records: list[dict], stats: dict) -> str:
     lines.append("## 🔥 最新核心论文")
     lines.append("")
     if latest_core:
-        lines.append("| 年份 | 标题 | 作者 | 分数 |")
-        lines.append("|------|------|------|------|")
+        lines.append("| 年份 | 标题 | 摘要 | 作者 | 分数 |")
+        lines.append("|------|------|------|------|------|")
         for p in latest_core:
             title = p.get("title", "")[:60]
+            summary = p.get("summary_zh", "")[:80]
             authors = ", ".join(p.get("authors", [])[:2])
             if len(p.get("authors", [])) > 2:
                 authors += "+"
             year = p.get("year", "")
             score = p.get("relevance_score", 0)
             url = p.get("url", "#")
-            lines.append(f"| {year} | [{title}]({url}) | {authors} | {score} |")
+            lines.append(f"| {year} | [{title}]({url}) | {summary} | {authors} | {score} |")
     else:
         lines.append("*暂无核心论文*")
     lines.append("")
@@ -96,17 +97,18 @@ def generate_main_readme(records: list[dict], stats: dict) -> str:
     lines.append("## 📎 高相关论文")
     lines.append("")
     if latest_strong:
-        lines.append("| 年份 | 标题 | 作者 | 分数 |")
-        lines.append("|------|------|------|------|")
+        lines.append("| 年份 | 标题 | 摘要 | 作者 | 分数 |")
+        lines.append("|------|------|------|------|------|")
         for p in latest_strong:
             title = p.get("title", "")[:60]
+            summary = p.get("summary_zh", "")[:80]
             authors = ", ".join(p.get("authors", [])[:2])
             if len(p.get("authors", [])) > 2:
                 authors += "+"
             year = p.get("year", "")
             score = p.get("relevance_score", 0)
             url = p.get("url", "#")
-            lines.append(f"| {year} | [{title}]({url}) | {authors} | {score} |")
+            lines.append(f"| {year} | [{title}]({url}) | {summary} | {authors} | {score} |")
     else:
         lines.append("*暂无高相关论文*")
     lines.append("")
@@ -125,19 +127,18 @@ def generate_main_readme(records: list[dict], stats: dict) -> str:
         lines.append(f"<details>")
         lines.append(f"<summary>📅 {year} 年 ({len(year_papers)} 篇)</summary>")
         lines.append("")
-        lines.append("| 标签 | 标题 | 作者 | 分数 | 来源 |")
+        lines.append("| 标签 | 标题 | 摘要 | 作者 | 分数 |")
         lines.append("|------|------|------|------|------|")
         for p in year_papers:
             icon = label_icon.get(p.get("quality_label", ""), "📝")
-            title = p.get("title", "")[:60]
+            title = p.get("title", "")[:50]
+            summary = p.get("summary_zh", "")[:70]
             authors = ", ".join(p.get("authors", [])[:2])
             if len(p.get("authors", [])) > 2:
                 authors += "+"
             score = p.get("relevance_score", 0)
             url = p.get("url", "#")
-            source = p.get("source", "arxiv")
-            source_display = "arxiv" if source == "arxiv" else "semantic_scholar"
-            lines.append(f"| {icon} | [{title}]({url}) | {authors} | {score} | {source_display} |")
+            lines.append(f"| {icon} | [{title}]({url}) | {summary} | {authors} | {score} |")
         lines.append("")
         lines.append("</details>")
         lines.append("")
@@ -179,8 +180,8 @@ def generate_all_papers(records: list[dict]) -> str:
         year_papers = sorted(by_year[year], key=lambda r: -r.get("relevance_score", 0))
         lines.append(f"## {year} 年 ({len(year_papers)} 篇)")
         lines.append("")
-        lines.append("| 标签 | 标题 | 作者 | 分数 | 查询类型 | 来源 |")
-        lines.append("|------|------|------|------|----------|------|")
+        lines.append("| 标签 | 标题 | 摘要 | 作者 | 分数 | 查询类型 | 来源 |")
+        lines.append("|------|------|------|------|----------|------|--------|")
         for p in year_papers:
             icon = label_icon.get(p.get("quality_label", ""), "📝")
             title = p.get("title", "")[:60]
@@ -192,7 +193,8 @@ def generate_all_papers(records: list[dict]) -> str:
             url = p.get("url", "#")
             source = p.get("source", "arxiv")
             source_display = "arxiv" if source == "arxiv" else "semantic_scholar"
-            lines.append(f"| {icon} | [{title}]({url}) | {authors} | {score} | {qt} | {source_display} |")
+            summary = p.get("summary_zh", "")[:60]
+            lines.append(f"| {icon} | [{title}]({url}) | {summary} | {authors} | {score} | {qt} | {source_display} |")
         lines.append("")
 
     return "\n".join(lines)
