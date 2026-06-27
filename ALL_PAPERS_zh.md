@@ -1,12 +1,12 @@
-# 📚 Complete Paper List
+# 📚 完整论文列表
 
-> Last updated: 2026-06-27 15:19:53 | 445 papers total
+> 最后更新: 2026-06-27 15:19:53 | 共 445 篇
 
 ---
 
-## 2026 (16 papers)
+## 2026 年 (16 篇)
 
-| Tag | Title | Summary | Author | Score | Query Type | Source |
+| 标签 | 标题 | 摘要 | 作者 | 分数 | 查询类型 | 来源 |
 |------|------|------|------|----------|------|--------|
 | 🔥 | [Video Understanding: From Geometry and Semantics to Unified ](http://arxiv.org/abs/2603.17840v1) | Video understanding aims to enable models to perceive, reaso | Zhaochong An, Zirui Li+ | 5.2 | core | arxiv |
 | 🔥 | [3D-RFT: Reinforcement Fine-Tuning for Video-based 3D Scene U](http://arxiv.org/abs/2603.04976v2) | Reinforcement Learning with Verifiable Rewards ( RLVR ) has  | Xiongkun Linghu, Jiangyong Huang+ | 4.9 | core | arxiv |
@@ -25,9 +25,9 @@
 | 📎 | [Energy-Gated Attention and Wavelet Positional Encoding: Comp](http://arxiv.org/abs/2605.26355v1) | Standard transformer attention computes pairwise token simil | Athanasios Zeris | 2.9 | expanded | arxiv |
 | 📎 | [GEM-4D: Geometry-Enhanced Video World Models for Robot Manip](http://arxiv.org/abs/2605.22882v3) | Video world models can generate realistic futures from a sin | Kaichen Zhou, Yuzhen Chen+ | 2.6 | exploratory | arxiv |
 
-## 2025 (77 papers)
+## 2025 年 (77 篇)
 
-| Tag | Title | Summary | Author | Score | Query Type | Source |
+| 标签 | 标题 | 摘要 | 作者 | 分数 | 查询类型 | 来源 |
 |------|------|------|------|----------|------|--------|
 | 🔥 | [Enhancing Video Understanding: Deep Neural Networks for Spat](http://arxiv.org/abs/2502.07277v1) | It's no secret that video has become the primary way we shar | Amir Hosein Fadaei, Mohammad-Reza A. Dehaqani | 5.8 | core | arxiv |
 | 🔥 | [Fine tuning 3D Convolutional Networks for enhanced Action Re](https://www.semanticscholar.org/paper/5117082498715afed2125ea29c0db60380ff027c) | The study of Human Activity Recognition (HAR) has attracted  | Abir Frad, Hend Basly+ | 5.4 | core | semantic_scholar |
@@ -36,7 +36,7 @@
 | 🔥 | [TinyLLaVA-Video: Towards Smaller LMMs for Video Understandin](http://arxiv.org/abs/2501.15513v2) | Video behavior recognition and scene understanding are funda | Xingjian Zhang, Xi Weng+ | 4.9 | core | arxiv |
 | 🔥 | [Harnessing Synthetic Preference Data for Enhancing Temporal ](http://arxiv.org/abs/2510.03955v1) | While Video Large Language Models (Video-LLMs) have demonstr | Sameep Vani, Shreyas Jena+ | 4.9 | core | arxiv |
 | 🔥 | [AceVFI: A Comprehensive Survey of Advances in Video Frame In](http://arxiv.org/abs/2506.01061v3) | Video Frame Interpolation (VFI) is a core low-level vision t | Dahyeon Kye, Changhyun Roh+ | 4.9 | core | arxiv |
-| 🔥 | [How Much 3D Do Video Foundation Models Encode?](http://arxiv.org/abs/2512.19949v1) | Videos are continuous 2D projections of 3D worlds. After tra | Zixuan Huang, Xiang Li+ | 4.9 | core | arxiv |
+| 🔥 | [How Much 3D Do Video Foundation Models Encode?](http://arxiv.org/abs/2512.19949v1) | Videos are continuous 2D projections of 3D worlds | Zixuan Huang, Xiang Li+ | 4.9 | core | arxiv |
 | 🔥 | [RepAttn3D: Re-parameterizing 3D attention with spatiotempora](https://www.semanticscholar.org/paper/10363be6ea7467ba7979e10a46379c461ee93c2b) | The technique of structural re-parameterization has been wid | Xiusheng Lu, Lechao Cheng+ | 4.8 | core | semantic_scholar |
 | 🔥 | [Human Action Recognition Based on 3D Convolution and Multi-A](https://www.semanticscholar.org/paper/778274e1b626aff5327dfe9cf4234ed6d55c2ea7) | To address the limitations of traditional two-stream network | Minghua Liu, Wenjing Li+ | 4.8 | core | semantic_scholar |
 | 🔥 | [Token Merging via Spatiotemporal Information Mining for Surg](http://arxiv.org/abs/2509.23672v1) | Vision Transformer models have shown impressive effectivenes | Xixi Jiang, Chen Yang+ | 4.7 | core | arxiv |
@@ -47,7 +47,7 @@
 | 🔥 | [Prisma: An Open Source Toolkit for Mechanistic Interpretabil](http://arxiv.org/abs/2504.19475v3) | Robust tooling and publicly available pre-trained models hav | Sonia Joseph, Praneet Suresh+ | 4.5 | expanded | arxiv |
 | 🔥 | [Dynamic Attention Mechanism in Spatiotemporal Memory Network](http://arxiv.org/abs/2503.16768v1) | Mainstream visual object tracking frameworks predominantly r | Meng Zhou, Jiadong Xie+ | 4.5 | expanded | arxiv |
 | 🔥 | [Point Long-Term Locality-Aware Transformer for Point Cloud V](https://www.semanticscholar.org/paper/d3f84ce51f30436a0a0d07739420780a3a2b8343) | Point cloud videos are widely applied in understanding 3D dy | Zhi Zuo, Pan Gao+ | 4.5 | core | semantic_scholar |
-| 🔥 | [Spatiotemporal decoupling attention transformer for 3D skele](https://www.semanticscholar.org/paper/6720b67b81aa46686f53380456436f41127c470e) | Driver action recognition is crucial for in-vehicle safety.  | Zhuoyan Xu, Jingke Xu | 4.5 | core | semantic_scholar |
+| 🔥 | [Spatiotemporal decoupling attention transformer for 3D skele](https://www.semanticscholar.org/paper/6720b67b81aa46686f53380456436f41127c470e) | Driver action recognition is crucial for in-vehicle safety | Zhuoyan Xu, Jingke Xu | 4.5 | core | semantic_scholar |
 | 🔥 | [Concepts in Motion: Temporal Concept Bottleneck Model for In](http://arxiv.org/abs/2509.20899v3) | Concept Bottleneck Models (CBMs) enable interpretable image  | Patrick Knab, Sascha Marton+ | 4.3 | exploratory | arxiv |
 | 🔥 | [EFNet: estimation of left ventricular ejection fraction from](https://www.semanticscholar.org/paper/f0be5de4d966ee634c9c10407c60adde395c11d3) | The ejection fraction (EF) is a vital metric for assessing c | Waqas Ali, Wesam H. Alsabban+ | 4.3 | core | semantic_scholar |
 | 🔥 | [IDG-ViolenceNet: A Video Violence Detection Model Integratin](https://www.semanticscholar.org/paper/2ca23e2ac47a9906c614fc82d66232291d124ff3) | Highlights What are the main findings? The proposed method e | Hong Huang, Qingping Jiang | 4.3 | core | semantic_scholar |
@@ -107,9 +107,9 @@
 | ❌ | [Text-Audio-Visual-conditioned Diffusion Model for Video Sali](http://arxiv.org/abs/2504.14267v1) | Video saliency prediction is crucial for downstream applicat | Li Yu, Xuanzhe Sun+ | -6.6 | expanded | arxiv |
 | ❌ | [Transfer Learning from Visual Speech Recognition to Mouthing](http://arxiv.org/abs/2505.13784v2) | Sign Language Recognition (SLR) systems primarily focus on m | Dinh Nam Pham, Eleftherios Avramidis | -8.0 | expanded | arxiv |
 
-## 2024 (76 papers)
+## 2024 年 (76 篇)
 
-| Tag | Title | Summary | Author | Score | Query Type | Source |
+| 标签 | 标题 | 摘要 | 作者 | 分数 | 查询类型 | 来源 |
 |------|------|------|------|----------|------|--------|
 | 🔥 | [InternVideo2: Scaling Foundation Models for Multimodal Video](http://arxiv.org/abs/2403.15377v4) | We introduce InternVideo2, a new family of video foundation  | Yi Wang, Kunchang Li+ | 5.2 | core | arxiv |
 | 🔥 | [Exploring Explainability in Video Action Recognition](http://arxiv.org/abs/2404.09067v1) | Image Classification and Video Action Recognition are perhap | Avinab Saha, Shashank Gupta+ | 4.9 | expanded | arxiv |
@@ -188,9 +188,9 @@
 | ❌ | [Learning Video Temporal Dynamics with Cross-Modal Attention ](http://arxiv.org/abs/2407.03563v3) | Audio-visual speech recognition (AVSR) aims to transcribe hu | Sungnyun Kim, Kangwook Jang+ | -5.0 | core | arxiv |
 | ❌ | [Beware of Validation by Eye: Visual Validation of Linear Tre](http://arxiv.org/abs/2407.11625v2) | Visual validation of regression models in scatterplots is a  | Daniel Braun, Remco Chang+ | -7.7 | expanded | arxiv |
 
-## 2023 (47 papers)
+## 2023 年 (47 篇)
 
-| Tag | Title | Summary | Author | Score | Query Type | Source |
+| 标签 | 标题 | 摘要 | 作者 | 分数 | 查询类型 | 来源 |
 |------|------|------|------|----------|------|--------|
 | 🔥 | [Video-FocalNets: Spatio-Temporal Focal Modulation for Video ](http://arxiv.org/abs/2307.06947v4) | Recent video recognition models utilize Transformer models f | Syed Talal Wasim, Muhammad Uzair Khattak+ | 5.5 | core | arxiv |
 | 🔥 | [Deep Neural Networks in Video Human Action Recognition: A Re](http://arxiv.org/abs/2305.15692v1) | Currently, video behavior recognition is one of the most fou | Zihan Wang, Yang Yang+ | 5.5 | core | arxiv |
@@ -240,12 +240,12 @@
 | 📎 | [CausalVLR: A Toolbox and Benchmark for Visual-Linguistic Cau](http://arxiv.org/abs/2306.17462v2) | We present CausalVLR (Causal Visual-Linguistic Reasoning), a | Yang Liu, Weixing Chen+ | 2.6 | exploratory | arxiv |
 | ❌ | [Video-P2P: Video Editing with Cross-attention Control](http://arxiv.org/abs/2303.04761v1) | This paper presents Video-P2P, a novel framework for real-wo | Shaoteng Liu, Yuechen Zhang+ | -5.9 | expanded | arxiv |
 
-## 2022 (45 papers)
+## 2022 年 (45 篇)
 
-| Tag | Title | Summary | Author | Score | Query Type | Source |
+| 标签 | 标题 | 摘要 | 作者 | 分数 | 查询类型 | 来源 |
 |------|------|------|------|----------|------|--------|
 | 🔥 | [Large-scale Robustness Analysis of Video Action Recognition ](http://arxiv.org/abs/2207.01398v2) | We have seen a great progress in video action recognition in | Madeline Chantry Schiappa, Naman Biyani+ | 5.5 | core | arxiv |
-| 🔥 | [VRT: A Video Restoration Transformer](http://arxiv.org/abs/2201.12288v2) | Video restoration (e. g. , video super-resolution) aims to r | Jingyun Liang, Jiezhang Cao+ | 5.5 | core | arxiv |
+| 🔥 | [VRT: A Video Restoration Transformer](http://arxiv.org/abs/2201.12288v2) | Video restoration (e. g | Jingyun Liang, Jiezhang Cao+ | 5.5 | core | arxiv |
 | 🔥 | [3D Convolutional with Attention for Action Recognition](http://arxiv.org/abs/2206.02203v1) | Human action recognition is one of the challenging tasks in  | Labina Shrestha, Shikha Dubey+ | 5.0 | core | arxiv |
 | 🔥 | [UniFormerV2: Spatiotemporal Learning by Arming Image ViTs wi](https://arxiv.org/abs/2211.09552) | Learning discriminative spatiotemporal representation is the | Kunchang Li, Yali Wang+ | 5.0 | core | semantic_scholar |
 | 🔥 | [Video Human Action Recognition Algorithm Based on Double Bra](https://www.semanticscholar.org/paper/c2424880775f037a531c36342120f87733886c3a) | The traditional action recognition algorithm based on manual | Yu Wang, Jiaxi Sun | 4.8 | core | semantic_scholar |
@@ -268,7 +268,7 @@
 | 📎 | [YogaTube: A Video Benchmark for Yoga Action Recognition](https://www.semanticscholar.org/paper/07bc8f2b55d84f5a44688ce2a9865ce9bae8e962) | Yoga can be seen as a set of fitness exercises involving var | Santosh Kumar Yadav, Guntaas Singh+ | 3.5 | expanded | semantic_scholar |
 | 📎 | [Visual Attention Network](http://arxiv.org/abs/2202.09741v5) | While originally designed for natural language processing ta | Meng-Hao Guo, Cheng-Ze Lu+ | 3.4 | expanded | arxiv |
 | 📎 | [Exploring adaptation of VideoMAE for Audio-Visual Diarizatio](http://arxiv.org/abs/2211.16206v1) | In this report, we present the transferring pretrained video | Yinan He, Guo Chen | 3.4 | expanded | arxiv |
-| 📎 | [Video-based Anomalous Activity Detection Using 3D-CNN and Tr](https://www.semanticscholar.org/paper/800ae8c976a0386e58a71697e8f0fef6eff75987) | Video surveillance is used to observe various behaviour. It  | R. Mahajan, Namrata K. Pathare+ | 3.4 | core | semantic_scholar |
+| 📎 | [Video-based Anomalous Activity Detection Using 3D-CNN and Tr](https://www.semanticscholar.org/paper/800ae8c976a0386e58a71697e8f0fef6eff75987) | Video surveillance is used to observe various behaviour | R. Mahajan, Namrata K. Pathare+ | 3.4 | core | semantic_scholar |
 | 📎 | [Exploiting Feature Diversity for Make-up Temporal Video Grou](http://arxiv.org/abs/2208.06179v1) | This technical report presents the 3rd winning solution for  | Xiujun Shu, Wei Wen+ | 3.2 | exploratory | arxiv |
 | 📎 | [Synthesizing Light Field Video from Monocular Video](http://arxiv.org/abs/2207.10357v1) | The hardware challenges associated with light-field(LF) imag | Shrisudhan Govindarajan, Prasan Shedligeri+ | 3.1 | core | arxiv |
 | 📎 | [Recent Trends in 2D Object Detection and Applications in Vid](http://arxiv.org/abs/2202.03206v1) | Object detection serves as a significant step in improving p | Prithwish Jana, Partha Pratim Mohanta | 3.1 | expanded | arxiv |
@@ -290,9 +290,9 @@
 | 📎 | [Radiomics-enhanced Deep Multi-task Learning for Outcome Pred](http://arxiv.org/abs/2211.05409v1) | Outcome prediction is crucial for head and neck cancer patie | Mingyuan Meng, Lei Bi+ | 2.5 | expanded | arxiv |
 | ❌ | [Temporally Consistent Semantic Video Editing](http://arxiv.org/abs/2206.10590v1) | Generative adversarial networks (GANs) have demonstrated imp | Yiran Xu, Badour AlBahar+ | -5.9 | core | arxiv |
 
-## 2021 (46 papers)
+## 2021 年 (46 篇)
 
-| Tag | Title | Summary | Author | Score | Query Type | Source |
+| 标签 | 标题 | 摘要 | 作者 | 分数 | 查询类型 | 来源 |
 |------|------|------|------|----------|------|--------|
 | 🔥 | [Spatiotemporal Dilated Convolution with Uncertain Matching f](http://arxiv.org/abs/2101.12439v1) | In this paper, we propose a novel SpatioTemporal convolution | Yu-Jen Ma, Hong-Han Shuai+ | 6.3 | core | arxiv |
 | 🔥 | [Action Transformer: A Self-Attention Model for Short-Time Po](http://arxiv.org/abs/2107.00606v6) | Deep neural networks based purely on attention have been suc | Vittorio Mazzia, Simone Angarano+ | 5.7 | core | arxiv |
@@ -309,8 +309,8 @@
 | 🔥 | ["Knights": First Place Submission for VIPriors21 Action Reco](http://arxiv.org/abs/2110.07758v1) | This technical report presents our approach "Knights" to sol | Ishan Dave, Naman Biyani+ | 4.4 | core | arxiv |
 | 🔥 | [SCINet: Time Series Modeling and Forecasting with Sample Con](http://arxiv.org/abs/2106.09305v3) | One unique property of time series is that the temporal rela | Minhao Liu, Ailing Zeng+ | 4.3 | core | arxiv |
 | 🔥 | [Recent Advances in Video Action Recognition with 3D Convolut](https://www.semanticscholar.org/paper/662288676e52adf90909b6e1ebce4192570a35da) | SUMMARY The performance of video action recognition has impr | Kensho Hara | 4.3 | core | semantic_scholar |
-| 🔥 | [Temporal-Spatial Feature Pyramid for Video Saliency Detectio](http://arxiv.org/abs/2105.04213v2) | Multi-level features are important for saliency detection. B | Qinyao Chang, Shiping Zhu | 4.2 | expanded | arxiv |
-| 🔥 | [Space-time Mixing Attention for Video Transformer](http://arxiv.org/abs/2106.05968v2) | This paper is on video recognition using Transformers. Very  | Adrian Bulat, Juan-Manuel Perez-Rua+ | 4.2 | expanded | arxiv |
+| 🔥 | [Temporal-Spatial Feature Pyramid for Video Saliency Detectio](http://arxiv.org/abs/2105.04213v2) | Multi-level features are important for saliency detection | Qinyao Chang, Shiping Zhu | 4.2 | expanded | arxiv |
+| 🔥 | [Space-time Mixing Attention for Video Transformer](http://arxiv.org/abs/2106.05968v2) | This paper is on video recognition using Transformers | Adrian Bulat, Juan-Manuel Perez-Rua+ | 4.2 | expanded | arxiv |
 | 🔥 | [Overview of Tencent Multi-modal Ads Video Understanding Chal](http://arxiv.org/abs/2109.07951v1) | Multi-modal Ads Video Understanding Challenge is the first g | Zhenzhi Wang, Liyu Wu+ | 4.1 | core | arxiv |
 | 🔥 | [Real-time 3D human action recognition based on Hyperpoint se](http://arxiv.org/abs/2111.08492v3) | Real-time 3D human action recognition has broad industrial a | Xing Li, Qian Huang+ | 4.1 | core | arxiv |
 | 🔥 | [Audiovisual Saliency Prediction in Uncategorized Video Seque](http://arxiv.org/abs/2101.03966v1) | Substantial research has been done in saliency modeling to d | Maryam Qamar Butt, Anis Ur Rahman | 4.1 | core | arxiv |
@@ -341,15 +341,15 @@
 | 📎 | [Compressive Visual Representations](http://arxiv.org/abs/2109.12909v3) | Learning effective visual representations that generalize we | Kuang-Huei Lee, Anurag Arnab+ | 2.5 | expanded | arxiv |
 | ❌ | [VisRuler: Visual Analytics for Extracting Decision Rules fro](http://arxiv.org/abs/2112.00334v5) | Bagging and boosting are two popular ensemble methods in mac | Angelos Chatzimparmpas, Rafael M. Martins+ | 1.8 | expanded | arxiv |
 
-## 2020 (43 papers)
+## 2020 年 (43 篇)
 
-| Tag | Title | Summary | Author | Score | Query Type | Source |
+| 标签 | 标题 | 摘要 | 作者 | 分数 | 查询类型 | 来源 |
 |------|------|------|------|----------|------|--------|
 | 🔥 | [Deep Analysis of CNN-based Spatio-temporal Representations f](http://arxiv.org/abs/2010.11757v4) | In recent years, a number of approaches based on 2D or 3D co | Chun-Fu Chen, Rameswar Panda+ | 5.8 | core | arxiv |
 | 🔥 | [Unified Image and Video Saliency Modeling](http://arxiv.org/abs/2003.05477v3) | Visual saliency modeling for images and videos is treated as | Richard Droste, Jianbo Jiao+ | 5.7 | expanded | arxiv |
 | 🔥 | [TAM: Temporal Adaptive Module for Video Recognition](http://arxiv.org/abs/2005.06803v3) | Video data is with complex temporal dynamics due to various  | Zhaoyang Liu, Limin Wang+ | 5.7 | core | arxiv |
 | 🔥 | [Dissected 3D CNNs: Temporal Skip Connections for Efficient O](http://arxiv.org/abs/2009.14639v2) | Convolutional Neural Networks with 3D kernels (3D-CNNs) curr | Okan Köpüklü, Stefan Hörmann+ | 5.5 | core | arxiv |
-| 🔥 | [TEA: Temporal Excitation and Aggregation for Action Recognit](http://arxiv.org/abs/2004.01398v1) | Temporal modeling is key for action recognition in videos. I | Yan Li, Bin Ji+ | 5.5 | core | arxiv |
+| 🔥 | [TEA: Temporal Excitation and Aggregation for Action Recognit](http://arxiv.org/abs/2004.01398v1) | Temporal modeling is key for action recognition in videos | Yan Li, Bin Ji+ | 5.5 | core | arxiv |
 | 🔥 | [CNN Explainer: Learning Convolutional Neural Networks with I](http://arxiv.org/abs/2004.15004v3) | Deep learning's great success motivates many practitioners a | Zijie J. Wang, Robert Turko+ | 5.5 | core | arxiv |
 | 🔥 | [RANP: Resource Aware Neuron Pruning at Initialization for 3D](http://arxiv.org/abs/2010.02488v3) | Although 3D Convolutional Neural Networks (CNNs) are essenti | Zhiwei Xu, Thalaiyasingam Ajanthan+ | 5.2 | core | arxiv |
 | 🔥 | [Developing Motion Code Embedding for Action Recognition in V](http://arxiv.org/abs/2012.05438v1) | In this work, we propose a motion embedding strategy known a | Maxat Alibayev, David Paulius+ | 5.2 | core | arxiv |
@@ -389,9 +389,9 @@
 | ❌ | [Semantics-aware Adaptive Knowledge Distillation for Sensor-t](http://arxiv.org/abs/2009.00210v5) | Existing vision-based action recognition is susceptible to o | Yang Liu, Keze Wang+ | -4.8 | core | arxiv |
 | ❌ | [3D Quasi-Recurrent Neural Network for Hyperspectral Image De](http://arxiv.org/abs/2003.04547v1) | In this paper, we propose an alternating directional 3D quas | Kaixuan Wei, Ying Fu+ | -7.7 | exploratory | arxiv |
 
-## 2019 (19 papers)
+## 2019 年 (19 篇)
 
-| Tag | Title | Summary | Author | Score | Query Type | Source |
+| 标签 | 标题 | 摘要 | 作者 | 分数 | 查询类型 | 来源 |
 |------|------|------|------|----------|------|--------|
 | 🔥 | [Spatio-Temporal FAST 3D Convolutions for Human Action Recogn](http://arxiv.org/abs/1909.13474v2) | Effective processing of video input is essential for the rec | Alexandros Stergiou, Ronald Poppe | 5.8 | core | arxiv |
 | 🔥 | [Resource Efficient 3D Convolutional Neural Networks](http://arxiv.org/abs/1904.02422v5) | Recently, convolutional neural networks with 3D kernels (3D  | Okan Köpüklü, Neslihan Kose+ | 5.0 | core | arxiv |
@@ -413,9 +413,9 @@
 | 📎 | [Demand Forecasting from Spatiotemporal Data with Graph Netwo](http://arxiv.org/abs/1905.10709v2) | Short-term demand forecasting models commonly combine convol | Doyup Lee, Suehun Jung+ | 2.6 | expanded | arxiv |
 | ❌ | [A Universal Logic Operator for Interpretable Deep Convolutio](http://arxiv.org/abs/1901.08551v1) | Explaining neural network computation in terms of probabilis | KamWoh Ng, Lixin Fan+ | 1.6 | exploratory | arxiv |
 
-## 2018 (33 papers)
+## 2018 年 (33 篇)
 
-| Tag | Title | Summary | Author | Score | Query Type | Source |
+| 标签 | 标题 | 摘要 | 作者 | 分数 | 查询类型 | 来源 |
 |------|------|------|------|----------|------|--------|
 | 🔥 | [Interpretable Spatio-temporal Attention for Video Action Rec](http://arxiv.org/abs/1810.04511v2) | Inspired by the observation that humans are able to process  | Lili Meng, Bo Zhao+ | 7.4 | core | arxiv |
 | 🔥 | [Revisiting Video Saliency: A Large-scale Benchmark and a New](http://arxiv.org/abs/1801.07424v3) | In this work, we contribute to video saliency research in tw | Wenguan Wang, Jianbing Shen+ | 5.3 | expanded | arxiv |
@@ -431,7 +431,7 @@
 | 🔥 | [Video to Fully Automatic 3D Hair Model](http://arxiv.org/abs/1809.04765v1) | Imagine taking a selfie video with your mobile phone and get | Shu Liang, Xiufeng Huang+ | 4.1 | core | arxiv |
 | 🔥 | [A survey of methods for explaining Black Box Models](https://arxiv.org/abs/1802.01933) | In recent years, many accurate decision support systems have | Riccardo Guidotti, Anna Monreale+ | 4.1 | core | manual |
 | 🔥 | [Video Saliency Detection by 3D Convolutional Neural Networks](http://arxiv.org/abs/1807.04514v1) | Different from salient object detection methods for still im | Guanqun Ding, Yuming Fang | 4.0 | expanded | arxiv |
-| 📎 | [Activity Recognition on a Large Scale in Short Videos - Mome](http://arxiv.org/abs/1809.00241v2) | Moments capture a huge part of our lives. Accurate recogniti | Ankit Shah, Harini Kesavamoorthy+ | 3.9 | expanded | arxiv |
+| 📎 | [Activity Recognition on a Large Scale in Short Videos - Mome](http://arxiv.org/abs/1809.00241v2) | Moments capture a huge part of our lives | Ankit Shah, Harini Kesavamoorthy+ | 3.9 | expanded | arxiv |
 | 📎 | [Non-Volume Preserving-based Fusion to Group-Level Emotion Re](http://arxiv.org/abs/1811.11849v4) | Group-level emotion recognition (ER) is a growing research a | Kha Gia Quach, Ngan Le+ | 3.9 | expanded | arxiv |
 | 📎 | [Chinese Herbal Recognition based on Competitive Attentional ](http://arxiv.org/abs/1812.09648v1) | Convolution neural netwotks (CNNs) are successfully applied  | Yingxue Xu, Guihua Wen+ | 3.9 | core | arxiv |
 | 📎 | [Deep saliency: What is learnt by a deep network about salien](http://arxiv.org/abs/1801.04261v2) | Deep convolutional neural networks have achieved impressive  | Sen He, Nicolas Pugeault | 3.8 | expanded | arxiv |
@@ -451,9 +451,9 @@
 | 📎 | [Corresponding Supine and Prone Colon Visualization Using Eig](http://arxiv.org/abs/1810.08850v1) | We present a method for registration and visualization of co | Saad Nadeem, Joseph Marino+ | 2.6 | expanded | arxiv |
 | ❌ | [Improving Transferability of Deep Neural Networks](http://arxiv.org/abs/1807.11459v1) | Learning from small amounts of labeled data is a challenge i | Parijat Dube, Bishwaranjan Bhattacharjee+ | 2.0 | exploratory | arxiv |
 
-## 2017 (25 papers)
+## 2017 年 (25 篇)
 
-| Tag | Title | Summary | Author | Score | Query Type | Source |
+| 标签 | 标题 | 摘要 | 作者 | 分数 | 查询类型 | 来源 |
 |------|------|------|------|----------|------|--------|
 | 🔥 | [Grad-CAM: Visual Explanations from Deep Networks via Gradien](https://arxiv.org/abs/1610.02391) | We propose Gradient-weighted Class Activation Mapping (Grad- | Ramprasaath R. Selvaraju, Michael Cogswell+ | 5.5 | core | manual |
 | 🔥 | [The Monkeytyping Solution to the YouTube-8M Video Understand](http://arxiv.org/abs/1706.05150v1) | This article describes the final solution of team monkeytypi | He-Da Wang, Teng Zhang+ | 5.2 | core | arxiv |
@@ -481,9 +481,9 @@
 | 📎 | [A multitask deep learning model for real-time deployment in ](http://arxiv.org/abs/1711.00146v1) | We propose an approach to Multitask Learning (MTL) to make d | Miquel Martí, Atsuto Maki | 2.5 | expanded | arxiv |
 | ❌ | [Generalizing the Convolution Operator in Convolutional Neura](http://arxiv.org/abs/1707.09864v1) | Convolutional neural networks have become a main tool for so | Kamaledin Ghiasi-Shirazi | 2.1 | exploratory | arxiv |
 
-## 2016 (8 papers)
+## 2016 年 (8 篇)
 
-| Tag | Title | Summary | Author | Score | Query Type | Source |
+| 标签 | 标题 | 摘要 | 作者 | 分数 | 查询类型 | 来源 |
 |------|------|------|------|----------|------|--------|
 | 🔥 | [Visual Saliency Detection Based on Multiscale Deep CNN Featu](http://arxiv.org/abs/1609.02077v1) | Visual saliency is a fundamental problem in both cognitive a | Guanbin Li, Yizhou Yu | 4.7 | core | arxiv |
 | 🔥 | [Large-Scale Shape Retrieval with Sparse 3D Convolutional Neu](http://arxiv.org/abs/1611.09159v2) | In this paper we present results of performance evaluation o | Alexandr Notchenko, Ermek Kapushev+ | 4.4 | core | arxiv |
@@ -494,9 +494,9 @@
 | 📎 | [Saliency Integration: An Arbitrator Model](http://arxiv.org/abs/1608.01536v2) | Saliency integration has attracted much attention on unifyin | Yingyue Xu, Xiaopeng Hong+ | 2.6 | expanded | arxiv |
 | 📎 | [A Deep Learning Approach for Joint Video Frame and Reward Pr](http://arxiv.org/abs/1611.07078v2) | Reinforcement learning is concerned with identifying reward- | Felix Leibfried, Nate Kushman+ | 2.6 | expanded | arxiv |
 
-## 2015 (8 papers)
+## 2015 年 (8 篇)
 
-| Tag | Title | Summary | Author | Score | Query Type | Source |
+| 标签 | 标题 | 摘要 | 作者 | 分数 | 查询类型 | 来源 |
 |------|------|------|------|----------|------|--------|
 | 🔥 | [C3D: Generic Features for Video Analysis](https://arxiv.org/abs/1412.4314) | We propose a simple yet effective approach for spatiotempora | Du Tran, Lubomir Bourdev+ | 5.7 | core | manual |
 | 🔥 | [Intra-and-Inter-Constraint-based Video Enhancement based on ](http://arxiv.org/abs/1502.06080v1) | Video enhancement plays an important role in various video a | Yuanzhe Chen, Weiyao Lin+ | 4.1 | core | arxiv |
@@ -507,9 +507,9 @@
 | 📎 | [Generalizing Pooling Functions in Convolutional Neural Netwo](http://arxiv.org/abs/1509.08985v2) | We seek to improve deep neural networks by generalizing the  | Chen-Yu Lee, Patrick W. Gallagher+ | 3.3 | core | arxiv |
 | 📎 | [Group Event Detection with a Varying Number of Group Members](http://arxiv.org/abs/1503.00082v1) | This paper presents a novel approach for automatic recogniti | Weiyao Lin, Ming-Ting Sun+ | 2.9 | exploratory | arxiv |
 
-## 2014 (2 papers)
+## 2014 年 (2 篇)
 
-| Tag | Title | Summary | Author | Score | Query Type | Source |
+| 标签 | 标题 | 摘要 | 作者 | 分数 | 查询类型 | 来源 |
 |------|------|------|------|----------|------|--------|
 | 🔥 | [Visualizing and Understanding Convolutional Networks](https://arxiv.org/abs/1312.6034) | Large Convolutional Network models have recently demonstrate | Matthew D. Zeiler, Rob Fergus | 5.4 | core | manual |
 | 📎 | [Deep Inside Convolutional Networks: Visualising Image Classi](https://arxiv.org/abs/1312.6034) | This paper addresses the visualisation of image classificati | Karen Simonyan, Andrea Vedaldi+ | 3.7 | core | manual |
