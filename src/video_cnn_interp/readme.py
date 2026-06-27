@@ -77,8 +77,15 @@ def generate_main_readme(records: list[dict], stats: dict, lang: str = "zh") -> 
         1 for r in records if r.get("published", "").startswith(now_month)
     )
 
-    cited_papers = [r for r in records if r.get("citation_count", 0) > 0]
-    cited_papers.sort(key=lambda r: -r.get("citation_count", 0))
+    # Top 5: core + strongly_related, sorted by sqrt(citation) * relevance
+    cited_papers = [
+        r for r in records
+        if r.get("citation_count", 0) > 0
+        and r.get("quality_label") in ("core", "strongly_related")
+    ]
+    cited_papers.sort(
+        key=lambda r: -(r["citation_count"] ** 0.5 * r.get("relevance_score", 1))
+    )
     top5_cited = cited_papers[:5]
 
     source_counts: dict[str, int] = defaultdict(int)

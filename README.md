@@ -11,16 +11,16 @@
 - **Strongly Related**: 276
 - **New This Month**: 1
 - **Sources**: arXiv 329 | Semantic Scholar 110
-- **Last Updated**: 2026-06-27 15:19:53
+- **Last Updated**: 2026-06-27 15:27:33
 
 ## 🏆 Top 5 Most Cited
 
 | Rank | Title | Citations | Score |
 |------|------|--------|------|
-| 1 | [Quo Vadis, Action Recognition? A New Model and the Kinetics ](https://arxiv.org/abs/1705.07750) | 9608 | 3.7 |
-| 2 | [Visualizing and Understanding Convolutional Networks](https://arxiv.org/abs/1312.6034) | 7502 | 5.4 |
-| 3 | [Grad-CAM: Visual Explanations from Deep Networks via Gradien](https://arxiv.org/abs/1610.02391) | 5324 | 5.5 |
-| 4 | [A Brief Survey of Deep Reinforcement Learning](http://arxiv.org/abs/1708.05866v2) | 3901 | 3.9 |
+| 1 | [Visualizing and Understanding Convolutional Networks](https://arxiv.org/abs/1312.6034) | 7502 | 5.4 |
+| 2 | [Grad-CAM: Visual Explanations from Deep Networks via Gradien](https://arxiv.org/abs/1610.02391) | 5324 | 5.5 |
+| 3 | [Quo Vadis, Action Recognition? A New Model and the Kinetics ](https://arxiv.org/abs/1705.07750) | 9608 | 3.7 |
+| 4 | [Is Space-Time Attention All You Need for Video Understanding](https://arxiv.org/abs/2102.05095) | 3073 | 5.6 |
 | 5 | [A Closer Look at Spatiotemporal Convolutions for Action Reco](https://arxiv.org/abs/1711.11248) | 3605 | 5.1 |
 
 ---
