@@ -132,7 +132,15 @@ def run_daily(base_dir: str | Path | None = None) -> None:
     print("\n[8/8] Notify...")
     if config.runtime.notify_feishu:
         send_daily_digest(
-            [{"quality_label": r.get("quality_label"), "title": r.get("title")} for r in new_records],
+            [{
+                "quality_label": r.get("quality_label"),
+                "title": r.get("title"),
+                "authors": r.get("authors", []),
+                "url": r.get("url", ""),
+                "relevance_score": r.get("relevance_score", 0),
+                "citation_count": r.get("citation_count", 0),
+                "venue": r.get("venue", ""),
+            } for r in new_records],
             stats,
             errors or None,
         )
