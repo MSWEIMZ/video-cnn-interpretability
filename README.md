@@ -5,21 +5,21 @@
 ## 📊 统计概览
 
 - **论文总数**: 445 篇
-- **核心论文**: 154 篇
-- **高相关论文**: 277 篇
+- **核心论文**: 156 篇
+- **高相关论文**: 276 篇
 - **本月新增**: 1 篇
 - **来源分布**: arXiv 329 篇 | Semantic Scholar 110 篇
-- **最后更新**: 2026-06-27 05:06:41
+- **最后更新**: 2026-06-27 14:03:58
 
 ## 🏆 高引用论文 Top 5
 
 | 排名 | 标题 | 引用数 | 分数 |
 |------|------|--------|------|
 | 1 | [Quo Vadis, Action Recognition? A New Model and the Kinetics ](https://arxiv.org/abs/1705.07750) | 9608 | 3.7 |
-| 2 | [Visualizing and Understanding Convolutional Networks](https://arxiv.org/abs/1312.6034) | 7502 | 4.9 |
-| 3 | [Grad-CAM: Visual Explanations from Deep Networks via Gradien](https://arxiv.org/abs/1610.02391) | 5324 | 5.0 |
+| 2 | [Visualizing and Understanding Convolutional Networks](https://arxiv.org/abs/1312.6034) | 7502 | 5.4 |
+| 3 | [Grad-CAM: Visual Explanations from Deep Networks via Gradien](https://arxiv.org/abs/1610.02391) | 5324 | 5.5 |
 | 4 | [A Closer Look at Spatiotemporal Convolutions for Action Reco](https://arxiv.org/abs/1711.11248) | 3605 | 5.1 |
-| 5 | [A survey of methods for explaining Black Box Models](https://arxiv.org/abs/1802.01933) | 3548 | 3.6 |
+| 5 | [A survey of methods for explaining Black Box Models](https://arxiv.org/abs/1802.01933) | 3548 | 4.1 |
 
 ---
 
@@ -264,8 +264,8 @@
 | 🔥 | [Video Understanding with Large Language Models: A Survey](http://arxiv.org/abs/2312.17432v8) | Yolo Y. Tang, Jing Bi+ | 5.2 | arxiv |
 | 🔥 | [Audio-visual Saliency for Omnidirectional Videos](http://arxiv.org/abs/2311.05190v1) | Yuxin Zhu, Xilei Zhu+ | 5.2 | arxiv |
 | 🔥 | [Understanding Video Transformers for Segmentation: A Survey ](http://arxiv.org/abs/2310.12296v1) | Rezaul Karim, Richard P. Wildes | 4.8 | arxiv |
+| 🔥 | [VMC: Video Motion Customization using Temporal Attention Ada](http://arxiv.org/abs/2312.00845v1) | Hyeonho Jeong, Geon Yeong Park+ | 4.7 | arxiv |
 | 🔥 | [A Video Is Worth 4096 Tokens: Verbalize Videos To Understand](http://arxiv.org/abs/2305.09758v3) | Aanisha Bhattacharya, Yaman K Singla+ | 4.6 | arxiv |
-| 🔥 | [VMC: Video Motion Customization using Temporal Attention Ada](http://arxiv.org/abs/2312.00845v1) | Hyeonho Jeong, Geon Yeong Park+ | 4.2 | arxiv |
 | 🔥 | [FLATTEN: optical FLow-guided ATTENtion for consistent text-t](http://arxiv.org/abs/2310.05922v3) | Yuren Cong, Mengmeng Xu+ | 4.2 | arxiv |
 | 🔥 | [Self-supervised Learning of Contextualized Local Visual Embe](http://arxiv.org/abs/2310.00527v3) | Thalles Santos Silva, Helio Pedrini+ | 4.2 | arxiv |
 | 🔥 | [Spatial-Temporal Alignment Network for Action Recognition](http://arxiv.org/abs/2308.09897v1) | Jinhui Ye, Junwei Liang | 4.1 | arxiv |
@@ -324,6 +324,7 @@
 | 🔥 | [Spatiotemporal Estimation of TROPOMI NO2 Column with Depthwi](http://arxiv.org/abs/2204.05917v1) | Yannic Lops, Masoud Ghahremanloo+ | 4.2 | arxiv |
 | 🔥 | [Representation-Centric Survey of Supervised Skeletal Action ](http://arxiv.org/abs/2205.02071v7) | Yang Liu, Jiyao Yang+ | 4.2 | arxiv |
 | 🔥 | [Part-aware Prototypical Graph Network for One-shot Skeleton-](http://arxiv.org/abs/2208.09150v1) | Tailin Chen, Desen Zhou+ | 4.1 | arxiv |
+| 🔥 | [OCSampler: Compressing Videos to One Clip with Single-step S](http://arxiv.org/abs/2201.04388v1) | Jintao Lin, Haodong Duan+ | 4.1 | arxiv |
 | 📎 | [Acute Lymphoblastic Leukemia Detection Using Hypercomplex-Va](http://arxiv.org/abs/2205.13273v1) | Guilherme Vieira, Marcos Eduardo Valle | 3.8 | arxiv |
 | 📎 | [Towards Clinical Practice: Design and Implementation of Conv](http://arxiv.org/abs/2203.10596v1) | Daniel Kvak, Marian Bendik+ | 3.8 | arxiv |
 | 📎 | [MS-KARD: A Benchmark for Multimodal Karate Action Recognitio](https://www.semanticscholar.org/paper/254e1def8716ebe3ede330853ad8be1491f62bea) | Santosh Kumar Yadav, Aditya R Deshmukh+ | 3.8 | semantic_scholar |
@@ -333,7 +334,6 @@
 | 📎 | [Polyp detection on video colonoscopy using a hybrid 2D/3D CN](https://www.semanticscholar.org/paper/5a4502241d80b5adaaae077f0a5d8c6fe3c0c138) | Juana González-Bueno Puyal, P. Brandao+ | 3.7 | semantic_scholar |
 | 📎 | [Improving Video Model Transfer with Dynamic Representation L](https://www.semanticscholar.org/paper/a304f10b6d16b19faa5319ec68f25cd690667c04) | Yi Li, N. Vasconcelos | 3.7 | semantic_scholar |
 | 📎 | [Video Test-Time Adaptation for Action Recognition](https://arxiv.org/abs/2211.15393) | Wei Lin, M. J. Mirza+ | 3.7 | semantic_scholar |
-| 📎 | [OCSampler: Compressing Videos to One Clip with Single-step S](http://arxiv.org/abs/2201.04388v1) | Jintao Lin, Haodong Duan+ | 3.6 | arxiv |
 | 📎 | [YogaTube: A Video Benchmark for Yoga Action Recognition](https://www.semanticscholar.org/paper/07bc8f2b55d84f5a44688ce2a9865ce9bae8e962) | Santosh Kumar Yadav, Guntaas Singh+ | 3.5 | semantic_scholar |
 | 📎 | [Visual Attention Network](http://arxiv.org/abs/2202.09741v5) | Meng-Hao Guo, Cheng-Ze Lu+ | 3.4 | arxiv |
 | 📎 | [Exploring adaptation of VideoMAE for Audio-Visual Diarizatio](http://arxiv.org/abs/2211.16206v1) | Yinan He, Guo Chen | 3.4 | arxiv |
@@ -396,6 +396,7 @@
 | 📎 | [Bi-branch network for dynamic scene deblurring](https://www.semanticscholar.org/paper/6b246717103c240b44b420daf5ff6686f52c557c) | Yao Luo, Z. Duan+ | 3.5 | semantic_scholar |
 | 📎 | [3D Convolutional Neural Networks for Ultrasound-Based Silent](https://arxiv.org/abs/2104.11532) | L. Tóth, Amin Honarmandi Shandiz | 3.5 | semantic_scholar |
 | 📎 | [Memorization in Deep Neural Networks: Does the Loss Function](http://arxiv.org/abs/2107.09957v2) | Deep Patel, P. S. Sastry | 3.3 | arxiv |
+| 📎 | [Neural 3D Video Synthesis from Multi-view Video](http://arxiv.org/abs/2103.02597v2) | Tianye Li, Mira Slavcheva+ | 3.3 | arxiv |
 | 📎 | [NetTraj: A Network-based Vehicle Trajectory Prediction Model](http://arxiv.org/abs/2106.11175v2) | Yuebing Liang, Zhan Zhao | 3.2 | arxiv |
 | 📎 | [A temporal network version of Watts's cascade model](http://arxiv.org/abs/2103.13604v1) | Fariba Karimi, Petter Holme | 3.1 | arxiv |
 | 📎 | [Effect of Input Data Video Interval and Input Data Image Sim](https://www.semanticscholar.org/paper/cffcac4cce04ef4392de7941c4fde4c38a9e6e85) | Heeil Kim, Yeongjee Chung | 3.1 | semantic_scholar |
@@ -409,7 +410,6 @@
 | 📎 | [Interpreting Face Inference Models using Hierarchical Networ](http://arxiv.org/abs/2108.10360v2) | Divyang Teotia, Agata Lapedriza+ | 2.6 | arxiv |
 | 📎 | [V-SlowFast Network for Efficient Visual Sound Separation](http://arxiv.org/abs/2109.08867v2) | Lingyu Zhu, Esa Rahtu | 2.6 | arxiv |
 | 📎 | [Compressive Visual Representations](http://arxiv.org/abs/2109.12909v3) | Kuang-Huei Lee, Anurag Arnab+ | 2.5 | arxiv |
-| 📝 | [Neural 3D Video Synthesis from Multi-view Video](http://arxiv.org/abs/2103.02597v2) | Tianye Li, Mira Slavcheva+ | 2.3 | arxiv |
 
 </details>
 
@@ -419,17 +419,17 @@
 | 标签 | 标题 | 作者 | 分数 | 来源 |
 |------|------|------|------|------|
 | 🔥 | [Deep Analysis of CNN-based Spatio-temporal Representations f](http://arxiv.org/abs/2010.11757v4) | Chun-Fu Chen, Rameswar Panda+ | 5.8 | arxiv |
+| 🔥 | [Unified Image and Video Saliency Modeling](http://arxiv.org/abs/2003.05477v3) | Richard Droste, Jianbo Jiao+ | 5.7 | arxiv |
+| 🔥 | [TAM: Temporal Adaptive Module for Video Recognition](http://arxiv.org/abs/2005.06803v3) | Zhaoyang Liu, Limin Wang+ | 5.7 | arxiv |
 | 🔥 | [Dissected 3D CNNs: Temporal Skip Connections for Efficient O](http://arxiv.org/abs/2009.14639v2) | Okan Köpüklü, Stefan Hörmann+ | 5.5 | arxiv |
 | 🔥 | [TEA: Temporal Excitation and Aggregation for Action Recognit](http://arxiv.org/abs/2004.01398v1) | Yan Li, Bin Ji+ | 5.5 | arxiv |
 | 🔥 | [CNN Explainer: Learning Convolutional Neural Networks with I](http://arxiv.org/abs/2004.15004v3) | Zijie J. Wang, Robert Turko+ | 5.5 | arxiv |
 | 🔥 | [RANP: Resource Aware Neuron Pruning at Initialization for 3D](http://arxiv.org/abs/2010.02488v3) | Zhiwei Xu, Thalaiyasingam Ajanthan+ | 5.2 | arxiv |
 | 🔥 | [Developing Motion Code Embedding for Action Recognition in V](http://arxiv.org/abs/2012.05438v1) | Maxat Alibayev, David Paulius+ | 5.2 | arxiv |
-| 🔥 | [Unified Image and Video Saliency Modeling](http://arxiv.org/abs/2003.05477v3) | Richard Droste, Jianbo Jiao+ | 5.2 | arxiv |
 | 🔥 | [GeoConv: Geodesic Guided Convolution for Facial Action Unit ](http://arxiv.org/abs/2003.03055v1) | Yuedong Chen, Guoxian Song+ | 5.2 | arxiv |
 | 🔥 | [Would Mega-scale Datasets Further Enhance Spatiotemporal 3D ](http://arxiv.org/abs/2004.04968v1) | Hirokatsu Kataoka, Tenga Wakamiya+ | 5.0 | arxiv |
 | 🔥 | [Learnable Sampling 3D Convolution for Video Enhancement and ](http://arxiv.org/abs/2011.10974v1) | Shuyang Gu, Jianmin Bao+ | 5.0 | arxiv |
 | 🔥 | [Challenge report:VIPriors Action Recognition Challenge](http://arxiv.org/abs/2007.08180v1) | Zhipeng Luo, Dawei Xu+ | 4.7 | arxiv |
-| 🔥 | [TAM: Temporal Adaptive Module for Video Recognition](http://arxiv.org/abs/2005.06803v3) | Zhaoyang Liu, Limin Wang+ | 4.7 | arxiv |
 | 🔥 | [Res3ATN -- Deep 3D Residual Attention Network for Hand Gestu](http://arxiv.org/abs/2001.01083v1) | Naina Dhingra, Andreas Kunz | 4.6 | arxiv |
 | 🔥 | [Axiom-based Grad-CAM: Towards Accurate Visualization and Exp](http://arxiv.org/abs/2008.02312v4) | Ruigang Fu, Qingyong Hu+ | 4.6 | arxiv |
 | 🔥 | [Toward Accurate Person-level Action Recognition in Videos of](http://arxiv.org/abs/2010.08365v1) | Li Yuan, Yichen Zhou+ | 4.4 | arxiv |
@@ -475,9 +475,9 @@
 | 📎 | [Deep 3D Convolutional Neural Network for Automated Lung Canc](http://arxiv.org/abs/1906.01054v1) | Sumita Mishra, Naresh Kumar Chaudhary+ | 3.9 | arxiv |
 | 📎 | [Demonstration of Vector Flow Imaging using Convolutional Neu](http://arxiv.org/abs/1903.06254v1) | Thomas Robins, Antonio Stanziola+ | 3.9 | arxiv |
 | 📎 | [An Efficient 3D CNN for Action/Object Segmentation in Video](https://arxiv.org/abs/1907.08895) | Rui Hou, Chen Chen+ | 3.7 | semantic_scholar |
+| 📎 | [C3DVQA: Full-Reference Video Quality Assessment with 3D Conv](http://arxiv.org/abs/1910.13646v2) | Munan Xu, Junming Chen+ | 3.7 | arxiv |
 | 📎 | [Semantic-Aware Scene Recognition](http://arxiv.org/abs/1909.02410v3) | Alejandro López-Cifuentes, Marcos Escudero-Viñolo+ | 3.6 | arxiv |
 | 📎 | [Neural Reasoning, Fast and Slow, for Video Question Answerin](http://arxiv.org/abs/1907.04553v2) | Thao Minh Le, Vuong Le+ | 3.4 | arxiv |
-| 📎 | [C3DVQA: Full-Reference Video Quality Assessment with 3D Conv](http://arxiv.org/abs/1910.13646v2) | Munan Xu, Junming Chen+ | 3.2 | arxiv |
 | 📎 | [Egocentric Hand Track and Object-based Human Action Recognit](http://arxiv.org/abs/1905.00742v1) | Georgios Kapidis, Ronald Poppe+ | 3.1 | arxiv |
 | 📎 | [Spatiotemporal Attention Networks for Wind Power Forecasting](http://arxiv.org/abs/1909.07369v2) | Xingbo Fu, Feng Gao+ | 2.9 | arxiv |
 | 📎 | [Powerset Convolutional Neural Networks](http://arxiv.org/abs/1909.02253v4) | Chris Wendler, Dan Alistarh+ | 2.8 | arxiv |
@@ -488,15 +488,15 @@
 </details>
 
 <details>
-<summary>📅 2018 年 (33 篇)</summary>
+<summary>📅 2018 年 (32 篇)</summary>
 
 | 标签 | 标题 | 作者 | 分数 | 来源 |
 |------|------|------|------|------|
-| 🔥 | [Interpretable Spatio-temporal Attention for Video Action Rec](http://arxiv.org/abs/1810.04511v2) | Lili Meng, Bo Zhao+ | 6.4 | arxiv |
+| 🔥 | [Interpretable Spatio-temporal Attention for Video Action Rec](http://arxiv.org/abs/1810.04511v2) | Lili Meng, Bo Zhao+ | 7.4 | arxiv |
+| 🔥 | [Revisiting Video Saliency: A Large-scale Benchmark and a New](http://arxiv.org/abs/1801.07424v3) | Wenguan Wang, Jianbing Shen+ | 5.3 | arxiv |
 | 🔥 | [Saliency for Fine-grained Object Recognition in Domains with](http://arxiv.org/abs/1808.00262v3) | Carola Figueroa Flores, Abel Gonzalez-García+ | 5.0 | arxiv |
 | 🔥 | [Review of Visual Saliency Detection with Comprehensive Infor](http://arxiv.org/abs/1803.03391v2) | Runmin Cong, Jianjun Lei+ | 5.0 | arxiv |
 | 🔥 | [Reduced-Gate Convolutional LSTM Using Predictive Coding for ](http://arxiv.org/abs/1810.07251v11) | Nelly Elsayed, Anthony S. Maida+ | 4.9 | arxiv |
-| 🔥 | [Revisiting Video Saliency: A Large-scale Benchmark and a New](http://arxiv.org/abs/1801.07424v3) | Wenguan Wang, Jianbing Shen+ | 4.8 | arxiv |
 | 🔥 | [Non-local NetVLAD Encoding for Video Classification](http://arxiv.org/abs/1810.00207v1) | Yongyi Tang, Xing Zhang+ | 4.6 | arxiv |
 | 🔥 | [Morph: Flexible Acceleration for 3D CNN-Based Video Understa](https://arxiv.org/abs/1810.06807) | Kartik Hegde, R. Agrawal+ | 4.5 | semantic_scholar |
 | 🔥 | [ECO: Efficient Convolutional Network for Online Video Unders](http://arxiv.org/abs/1804.09066v2) | Mohammadreza Zolfaghari, Kamaljeet Singh+ | 4.4 | arxiv |
@@ -504,6 +504,7 @@
 | 🔥 | [Benchmark 3D eye-tracking dataset for visual saliency predic](http://arxiv.org/abs/1803.04845v1) | Amin Banitalebi-Dehkordi, Eleni Nasiopoulos+ | 4.2 | arxiv |
 | 🔥 | [SlowFast Networks for Video Recognition](http://arxiv.org/abs/1812.03982v3) | Christoph Feichtenhofer, Haoqi Fan+ | 4.2 | arxiv |
 | 🔥 | [Video to Fully Automatic 3D Hair Model](http://arxiv.org/abs/1809.04765v1) | Shu Liang, Xiufeng Huang+ | 4.1 | arxiv |
+| 🔥 | [A survey of methods for explaining Black Box Models](https://arxiv.org/abs/1802.01933) | Riccardo Guidotti, Anna Monreale+ | 4.1 | semantic_scholar |
 | 🔥 | [Video Saliency Detection by 3D Convolutional Neural Networks](http://arxiv.org/abs/1807.04514v1) | Guanqun Ding, Yuming Fang | 4.0 | arxiv |
 | 📎 | [Activity Recognition on a Large Scale in Short Videos - Mome](http://arxiv.org/abs/1809.00241v2) | Ankit Shah, Harini Kesavamoorthy+ | 3.9 | arxiv |
 | 📎 | [Non-Volume Preserving-based Fusion to Group-Level Emotion Re](http://arxiv.org/abs/1811.11849v4) | Kha Gia Quach, Ngan Le+ | 3.9 | arxiv |
@@ -511,7 +512,6 @@
 | 📎 | [Deep saliency: What is learnt by a deep network about salien](http://arxiv.org/abs/1801.04261v2) | Sen He, Nicolas Pugeault | 3.8 | arxiv |
 | 📎 | [Multi-scale Spatiotemporal Information Fusion Network for Vi](https://www.semanticscholar.org/paper/e51635fe9554db3b10a262cc113c237ffcb759bf) | Yutong Cai, Weiyao Lin+ | 3.8 | semantic_scholar |
 | 📎 | [Learning for Video Compression](http://arxiv.org/abs/1804.09869v2) | Zhibo Chen, Tianyu He+ | 3.7 | arxiv |
-| 📎 | [A survey of methods for explaining Black Box Models](https://arxiv.org/abs/1802.01933) | Riccardo Guidotti, Anna Monreale+ | 3.6 | semantic_scholar |
 | 📎 | [Recognition of Acoustic Events Using Masked Conditional Neur](http://arxiv.org/abs/1802.02617v2) | Fady Medhat, David Chesmore+ | 3.5 | arxiv |
 | 📎 | [LMap: Shape-Preserving Local Mappings for Biomedical Visuali](http://arxiv.org/abs/1809.06442v2) | Saad Nadeem, Xianfeng Gu+ | 3.3 | arxiv |
 | 📎 | [GAN Dissection: Visualizing and Understanding Generative Adv](http://arxiv.org/abs/1811.10597v2) | David Bau, Jun-Yan Zhu+ | 3.1 | arxiv |
@@ -524,18 +524,17 @@
 | 📎 | [Masked Conditional Neural Networks for Audio Classification](http://arxiv.org/abs/1803.02421v2) | Fady Medhat, David Chesmore+ | 2.8 | arxiv |
 | 📎 | [POLITECNICO DI TORINO Master of Science in Mathematical Engi](https://www.semanticscholar.org/paper/08d9bea632aa3e32fe6b5436b147edacb69e4660) |  | 2.8 | semantic_scholar |
 | 📎 | [Corresponding Supine and Prone Colon Visualization Using Eig](http://arxiv.org/abs/1810.08850v1) | Saad Nadeem, Joseph Marino+ | 2.6 | arxiv |
-| 📝 | [Improving Transferability of Deep Neural Networks](http://arxiv.org/abs/1807.11459v1) | Parijat Dube, Bishwaranjan Bhattacharjee+ | 2.0 | arxiv |
 
 </details>
 
 <details>
-<summary>📅 2017 年 (25 篇)</summary>
+<summary>📅 2017 年 (24 篇)</summary>
 
 | 标签 | 标题 | 作者 | 分数 | 来源 |
 |------|------|------|------|------|
+| 🔥 | [Grad-CAM: Visual Explanations from Deep Networks via Gradien](https://arxiv.org/abs/1610.02391) | Ramprasaath R. Selvaraju, Michael Cogswell+ | 5.5 | semantic_scholar |
 | 🔥 | [The Monkeytyping Solution to the YouTube-8M Video Understand](http://arxiv.org/abs/1706.05150v1) | He-Da Wang, Teng Zhang+ | 5.2 | arxiv |
 | 🔥 | [A Closer Look at Spatiotemporal Convolutions for Action Reco](https://arxiv.org/abs/1711.11248) | Du Tran, Heng Wang+ | 5.1 | semantic_scholar |
-| 🔥 | [Grad-CAM: Visual Explanations from Deep Networks via Gradien](https://arxiv.org/abs/1610.02391) | Ramprasaath R. Selvaraju, Michael Cogswell+ | 5.0 | semantic_scholar |
 | 🔥 | [Predicting Video Saliency with Object-to-Motion CNN and Two-](http://arxiv.org/abs/1709.06316v3) | Lai Jiang, Mai Xu+ | 5.0 | arxiv |
 | 🔥 | [Hierarchical Deep Recurrent Architecture for Video Understan](http://arxiv.org/abs/1707.03296v1) | Luming Tang, Boyang Deng+ | 4.9 | arxiv |
 | 🔥 | [Graph-Theoretic Spatiotemporal Context Modeling for Video Sa](http://arxiv.org/abs/1707.07815v1) | Lina Wei, Fangfang Wang+ | 4.8 | arxiv |
@@ -545,7 +544,7 @@
 | 📎 | [A Brief Survey of Deep Reinforcement Learning](http://arxiv.org/abs/1708.05866v2) | Kai Arulkumaran, Marc Peter Deisenroth+ | 3.9 | arxiv |
 | 📎 | [Rethinking Spatiotemporal Feature Learning For Video Underst](https://www.semanticscholar.org/paper/4fa0d73b8ba114578744c2ebaf610d2ca9694f45) | Saining Xie, Chen Sun+ | 3.9 | semantic_scholar |
 | 📎 | [Quo Vadis, Action Recognition? A New Model and the Kinetics ](https://arxiv.org/abs/1705.07750) | João Carreira, Andrew Zisserman | 3.7 | semantic_scholar |
-| 📎 | [Deep Visual Attention Prediction](http://arxiv.org/abs/1705.02544v3) | Wenguan Wang, Jianbing Shen | 3.2 | arxiv |
+| 📎 | [Deep Visual Attention Prediction](http://arxiv.org/abs/1705.02544v3) | Wenguan Wang, Jianbing Shen | 3.7 | arxiv |
 | 📎 | [Network Dissection: Quantifying Interpretability of Deep Vis](http://arxiv.org/abs/1704.05796v1) | David Bau, Bolei Zhou+ | 3.2 | arxiv |
 | 📎 | [Beyond Frame-level CNN: Saliency-Aware 3-D CNN With LSTM for](https://www.semanticscholar.org/paper/4d972b4b6d2eae0bc810225dc3fd3b89e861dd56) | Xuanhan Wang, Lianli Gao+ | 3.2 | semantic_scholar |
 | 📎 | [HMM-based Indic Handwritten Word Recognition using Zone Segm](http://arxiv.org/abs/1708.00227v1) | Partha Pratim Roy, Ayan Kumar Bhunia+ | 3.0 | arxiv |
@@ -557,7 +556,6 @@
 | 📎 | [Network Coding Algorithms for Multi-Layered Video Broadcast](http://arxiv.org/abs/1712.06435v1) | Erika R. Bérczi-Kovács, Zoltán Király | 2.8 | arxiv |
 | 📎 | [Saliency Fusion in Eigenvector Space with Multi-Channel Puls](http://arxiv.org/abs/1703.00160v1) | Nevrez Imamoglu, Zhixuan Wei+ | 2.6 | arxiv |
 | 📎 | [A multitask deep learning model for real-time deployment in ](http://arxiv.org/abs/1711.00146v1) | Miquel Martí, Atsuto Maki | 2.5 | arxiv |
-| 📝 | [Generalizing the Convolution Operator in Convolutional Neura](http://arxiv.org/abs/1707.09864v1) | Kamaledin Ghiasi-Shirazi | 2.1 | arxiv |
 
 </details>
 
@@ -598,7 +596,7 @@
 
 | 标签 | 标题 | 作者 | 分数 | 来源 |
 |------|------|------|------|------|
-| 🔥 | [Visualizing and Understanding Convolutional Networks](https://arxiv.org/abs/1312.6034) | Matthew D. Zeiler, Rob Fergus | 4.9 | semantic_scholar |
+| 🔥 | [Visualizing and Understanding Convolutional Networks](https://arxiv.org/abs/1312.6034) | Matthew D. Zeiler, Rob Fergus | 5.4 | semantic_scholar |
 | 📎 | [Deep Inside Convolutional Networks: Visualising Image Classi](https://arxiv.org/abs/1312.6034) | Karen Simonyan, Andrea Vedaldi+ | 3.7 | semantic_scholar |
 
 </details>

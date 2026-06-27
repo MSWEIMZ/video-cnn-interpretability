@@ -49,31 +49,52 @@ def generate_one_line_summary(record: dict) -> str:
 
 
 def generate_summary_zh(record: dict) -> str:
-    """生成一句话中文摘要
-    
-    从 abstract 中提取前 2 句话，截断到 100 字以内。
+    """生成一句话精炼摘要（≤80字），让人一眼知道这篇论文干什么。
+
+    提取逻辑：
+    1. 优先从 abstract 的第一句提取核心方法和贡献
+    2. 如果第一句太短或太泛，取前两句
+    3. 截断到 80 字以内，保持语句完整
     """
     abstract = record.get("abstract", "")
+    title = record.get("title", "")
+
     if not abstract:
-        return record.get("title", "暂无摘要")[:100]
+        return title[:80] if title else "暂无摘要"
 
-    sentences = abstract.replace("\n", " ").split(".")
-    collected: list[str] = []
-    for s in sentences:
-        s = s.strip()
-        if not s:
-            continue
-        collected.append(s)
-        if len(collected) >= 2:
-            break
+    # 清理换行，按句号分句
+    clean = abstract.replace("\n", " ").replace("\r", " ")
+    sentences = [s.strip() for s in clean.split(".") if s.strip()]
 
-    summary = ". ".join(collected)
-    if not summary:
-        return abstract[:100]
+    if not sentences:
+        return abstract[:80]
 
-    # 截断到 100 字以内
-    if len(summary) > 100:
-        summary = summary[:97] + "..."
+    # 取第一句
+    first = sentences[0]
+
+    # 如果第一句太短（<30字）或太泛（只说了领域没说方法），加上第二句
+    generic_starters = [
+        "in this paper", "we propose", "we present", "we introduce",
+        "recently", "deep learning", "neural network",
+    ]
+    first_lower = first.lower()
+    is_generic = any(first_lower.startswith(g) for g in generic_starters) and len(first) < 60
+
+    if is_generic and len(sentences) > 1:
+        summary = first + ". " + sentences[1]
+    elif len(first) < 30 and len(sentences) > 1:
+        summary = first + ". " + sentences[1]
+    else:
+        summary = first
+
+    # 截断到 80 字以内，不在单词中间截断
+    if len(summary) > 80:
+        summary = summary[:77]
+        # 找最后一个空格截断，保持单词完整
+        last_space = summary.rfind(" ")
+        if last_space > 50:
+            summary = summary[:last_space]
+        summary += "..."
 
     return summary
 

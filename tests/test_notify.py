@@ -1,11 +1,11 @@
 """飞书通知模块测试"""
-import sys, pathlib, json
+import sys, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / "src"))
 from video_cnn_interp.notify import _build_daily_content, _build_no_new_content
 
 
 def test_daily_content_with_papers():
-    """有新增论文时，通知内容应包含统计、论文链接、引用量、作者"""
+    """有新增论文时，通知内容应包含统计、论文链接、引用量、作者、摘要"""
     new_records = [
         {
             "quality_label": "core",
@@ -15,6 +15,7 @@ def test_daily_content_with_papers():
             "relevance_score": 7.5,
             "citation_count": 3500,
             "venue": "CVPR 2018",
+            "summary_zh": "提出分解3D卷积为独立的空间和时间分量，在Kinetics上达到SOTA。",
         },
         {
             "quality_label": "strongly_related",
@@ -24,6 +25,7 @@ def test_daily_content_with_papers():
             "relevance_score": 4.0,
             "citation_count": 835,
             "venue": "CVPR 2017",
+            "summary_zh": "量化CNN隐藏层中可解释概念的对齐程度，提出网络解剖框架。",
         },
     ]
     stats = {
@@ -32,21 +34,17 @@ def test_daily_content_with_papers():
         "noise_blocked_today": 3,
     }
     content = _build_daily_content(new_records, stats)
-    # 应包含统计
     assert "200" in content
     assert "97" in content
-    # 应包含论文标题
     assert "R(2+1)D" in content
-    # 应包含链接
     assert "arxiv.org" in content
-    # 应包含引用量
     assert "3500" in content
-    # 应包含作者
     assert "Du Tran" in content
-    # 应包含 venue
     assert "CVPR" in content
-    # 应包含噪声拦截数
     assert "3" in content
+    # 应包含中文摘要
+    assert "分解3D卷积" in content
+    assert "网络解剖" in content
 
 
 def test_daily_content_no_new_papers():
@@ -58,7 +56,7 @@ def test_daily_content_no_new_papers():
     }
     content = _build_no_new_content(stats)
     assert "无新增" in content or "0" in content
-    assert "200" in content  # 总数仍在
+    assert "200" in content
 
 
 def test_daily_content_truncates_long_title():
@@ -72,11 +70,11 @@ def test_daily_content_truncates_long_title():
             "relevance_score": 5.0,
             "citation_count": 0,
             "venue": "",
+            "summary_zh": "test summary",
         },
     ]
     stats = {"total": 1, "by_label": {"core": 1}, "noise_blocked_today": 0}
     content = _build_daily_content(new_records, stats)
-    # 标题应被截断到合理长度
     assert "A" * 80 not in content
 
 
@@ -91,6 +89,7 @@ def test_daily_content_no_url():
             "relevance_score": 5.0,
             "citation_count": 0,
             "venue": "",
+            "summary_zh": "",
         },
     ]
     stats = {"total": 1, "by_label": {"core": 1}, "noise_blocked_today": 0}
@@ -110,6 +109,7 @@ def test_daily_content_limits_papers():
             "relevance_score": 5.0,
             "citation_count": 0,
             "venue": "",
+            "summary_zh": f"Summary {i}",
         })
     for i in range(5):
         new_records.append({
@@ -120,14 +120,13 @@ def test_daily_content_limits_papers():
             "relevance_score": 3.0,
             "citation_count": 0,
             "venue": "",
+            "summary_zh": f"Strong summary {i}",
         })
     stats = {"total": 100, "by_label": {"core": 50, "strongly_related": 40}, "noise_blocked_today": 0}
     content = _build_daily_content(new_records, stats)
-    # 只显示 5 篇核心
     assert "Core Paper 0" in content
     assert "Core Paper 4" in content
     assert "Core Paper 9" not in content
-    # 只显示 3 篇强相关
     assert "Strong Paper 0" in content
     assert "Strong Paper 2" in content
     assert "Strong Paper 4" not in content

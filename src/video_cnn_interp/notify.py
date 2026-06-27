@@ -58,6 +58,11 @@ def _format_paper_line(p: dict, icon: str) -> str:
     if details:
         parts.append(f" ({', '.join(details)})")
 
+    # 加上一句话摘要
+    summary = p.get("summary_zh", "")
+    if summary:
+        parts.append(f"\n  {summary}")
+
     return "".join(parts)
 
 

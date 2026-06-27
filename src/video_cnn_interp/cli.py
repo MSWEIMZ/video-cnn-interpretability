@@ -140,6 +140,7 @@ def run_daily(base_dir: str | Path | None = None) -> None:
                 "relevance_score": r.get("relevance_score", 0),
                 "citation_count": r.get("citation_count", 0),
                 "venue": r.get("venue", ""),
+                "summary_zh": r.get("summary_zh", ""),
             } for r in new_records],
             stats,
             errors or None,
