@@ -15,6 +15,9 @@ _I18N = {
         "top_cited": "## 🏆 高引用论文 Top 5",
         "rank": "排名", "citations": "引用数", "score": "分数",
         "latest_core": "## 🔥 最新核心论文",
+        "trending": "## 🔥 近期热门 (2024-2026)",
+        "trending_desc": "近两年高引用核心论文",
+        "citations": "引用数",
         "strong_section": "## 📎 高相关论文",
         "year_label": "年", "papers_label": "篇",
         "tag": "标签", "summary": "摘要", "author": "作者",
@@ -41,6 +44,9 @@ _I18N = {
         "top_cited": "## 🏆 Top 5 Most Cited",
         "rank": "Rank", "citations": "Citations", "score": "Score",
         "latest_core": "## 🔥 Latest Core Papers",
+        "trending": "## 🔥 Latest Trending (2024-2026)",
+        "trending_desc": "Top cited core papers from recent years",
+        "citations": "Citations",
         "strong_section": "## 📎 Strongly Related Papers",
         "year_label": "", "papers_label": "papers",
         "tag": "Tag", "summary": "Summary", "author": "Author",
@@ -142,6 +148,35 @@ def generate_main_readme(records: list[dict], stats: dict, lang: str = "zh") -> 
             lines.append(f"| {idx} | [{title}]({url}) | {citations} | {score} |")
         lines.append("")
 
+    lines.append("---")
+    lines.append("")
+
+    # 近期热门 (2024-2026 core, by citation)
+    trending = [
+        r for r in records
+        if r.get("quality_label") == "core"
+        and r.get("year", 0) >= 2024
+        and r.get("citation_count", 0) > 0
+    ]
+    trending.sort(key=lambda r: -r["citation_count"])
+    trending_top = trending[:5]
+
+    lines.append(T("trending"))
+    lines.append("")
+    if trending_top:
+        lines.append(f"| {T('year')} | {T('col_title')} | {T('summary')} | {T('citations')} | {T('score')} |")
+        lines.append("|------|------|------|--------|------|")
+        for p in trending_top:
+            title = p.get("title", "")[:60]
+            summary = p.get(summary_key, p.get("one_line_summary", ""))[:80]
+            citations = p.get("citation_count", 0)
+            year = p.get("year", "")
+            score = p.get("relevance_score", 0)
+            url = p.get("url", "#")
+            lines.append(f"| {year} | [{title}]({url}) | {summary} | {citations} | {score} |")
+    else:
+        lines.append(T("no_core"))
+    lines.append("")
     lines.append("---")
     lines.append("")
 

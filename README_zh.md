@@ -11,7 +11,7 @@
 - **高相关论文**: 276
 - **本月新增**: 1
 - **来源分布**: arXiv 329 篇 | Semantic Scholar 110 篇
-- **最后更新**: 2026-06-27 15:27:33
+- **最后更新**: 2026-06-27 15:32:09
 
 ## 🏆 高引用论文 Top 5
 
@@ -22,6 +22,18 @@
 | 3 | [Quo Vadis, Action Recognition? A New Model and the Kinetics ](https://arxiv.org/abs/1705.07750) | 9608 | 3.7 |
 | 4 | [Is Space-Time Attention All You Need for Video Understanding](https://arxiv.org/abs/2102.05095) | 3073 | 5.6 |
 | 5 | [A Closer Look at Spatiotemporal Convolutions for Action Reco](https://arxiv.org/abs/1711.11248) | 3605 | 5.1 |
+
+---
+
+## 🔥 近期热门 (2024-2026)
+
+| 年份 | 标题 | 摘要 | 引用数 | 分数 |
+|------|------|------|--------|------|
+| 2024 | [VideoMamba: State Space Model for Efficient Video Understand](https://arxiv.org/abs/2403.06977) | Addressing the dual challenges of local redundancy and global dependencies... | 535 | 4.7 |
+| 2024 | [LongVU: Spatiotemporal Adaptive Compression for Long Video-L](https://arxiv.org/abs/2410.17434) | Multimodal Large Language Models (MLLMs) have shown promising progress in... | 290 | 4.7 |
+| 2024 | [InternVideo2: Scaling Foundation Models for Multimodal Video](http://arxiv.org/abs/2403.15377v4) | We introduce InternVideo2, a new family of video foundation models (ViFM)... | 171 | 5.2 |
+| 2024 | [Benchmarking Micro-Action Recognition: Dataset, Methods, and](https://arxiv.org/abs/2403.05234) | Micro-action is an imperceptible non-verbal behaviour characterised by... | 133 | 4.0 |
+| 2025 | [StreamForest: Efficient Online Video Understanding with Pers](https://arxiv.org/abs/2509.24871) | Multimodal Large Language Models (MLLMs) have recently achieved remarkable... | 40 | 4.2 |
 
 ---
 
