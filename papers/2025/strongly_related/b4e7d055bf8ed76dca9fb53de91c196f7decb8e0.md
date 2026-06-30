@@ -1,6 +1,6 @@
 # Combating Deepfakes: A Transformer - Obtained and Explainable Frameworks for Robust Video Integrity Verification
 
-**authors**: Lavanya T, C. Pandeeswaran, L. Morin
+**authors**: L. T, C. Pandeeswaran, L. Morin
 
 **year**: 2025 | **label**: strongly_related | **score**: 3.5
 
@@ -16,4 +16,4 @@ A The fast-growing development of deepfake technology poses serious threats to d
 
 ---
 
-*generated at 2026-06-29 06:06*
+*generated at 2026-06-30 05:20*
