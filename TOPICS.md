@@ -1,19 +1,19 @@
 # 📂 主题视图
 
-> 共 8 个主题 | 最后更新: 2026-07-01 05:55
+> 共 8 个主题 | 最后更新: 2026-07-02 05:13
 
 ## 📊 主题概览
 
 | 主题 | 论文数 | 核心论文 | 说明 |
 |------|--------|----------|------|
-| 时序解释 | 428 | 147 | 聚焦于视频时序维度的可解释性研究 |
-| 动作识别可解释性 | 204 | 94 | 视频动作识别 / 分类任务的可解释性研究 |
-| 视频 Transformer 可解释性 | 156 | 52 | Vision Transformer / Video Transformer 的可解释性 |
-| 网络解剖 | 118 | 35 | 网络内部单元 / 特征可视化与解剖 |
-| 注意力与归因 | 101 | 31 | 注意力机制分析与梯度归因方法 |
-| 视频显著性 | 99 | 34 | 视频/空间显著性检测与可视化 |
-| 3D CNN 解释 | 73 | 38 | 3D 卷积网络 / R(2+1)D 等时空卷积模型的可解释性 |
-| 鲁棒性与对抗 | 47 | 12 | 视频模型的鲁棒性与对抗攻击/防御 |
+| 时序解释 | 439 | 146 | 聚焦于视频时序维度的可解释性研究 |
+| 动作识别可解释性 | 205 | 93 | 视频动作识别 / 分类任务的可解释性研究 |
+| 视频 Transformer 可解释性 | 167 | 52 | Vision Transformer / Video Transformer 的可解释性 |
+| 网络解剖 | 121 | 34 | 网络内部单元 / 特征可视化与解剖 |
+| 注意力与归因 | 105 | 31 | 注意力机制分析与梯度归因方法 |
+| 视频显著性 | 100 | 33 | 视频/空间显著性检测与可视化 |
+| 3D CNN 解释 | 74 | 37 | 3D 卷积网络 / R(2+1)D 等时空卷积模型的可解释性 |
+| 鲁棒性与对抗 | 48 | 12 | 视频模型的鲁棒性与对抗攻击/防御 |
 | 未分类 | 35 | - | - |
 
 ---
@@ -40,7 +40,7 @@
 | 🔥 | [Large-scale Robustness Analysis of Video Action Recognition ](http://arxiv.org/abs/2207.01398v2) | 2022 | 5.5 |
 | 🔥 | [VRT: A Video Restoration Transformer](http://arxiv.org/abs/2201.12288v2) | 2022 | 5.5 |
 
-*... 共 428 篇，仅显示前 15 篇*
+*... 共 439 篇，仅显示前 15 篇*
 
 ---
 
@@ -66,7 +66,7 @@
 | 🔥 | [Spatiotemporal distilled dense-connectivity network for vide](https://www.semanticscholar.org/paper/04d27bbbc875bd8fe52521112841d47b21950e7c) | 2019 | 5.3 |
 | 🔥 | [Video Understanding: From Geometry and Semantics to Unified ](http://arxiv.org/abs/2603.17840v1) | 2026 | 5.2 |
 
-*... 共 204 篇，仅显示前 15 篇*
+*... 共 205 篇，仅显示前 15 篇*
 
 ---
 
@@ -92,7 +92,7 @@
 | 🔥 | [RepAttn3D: Re-parameterizing 3D attention with spatiotempora](https://www.semanticscholar.org/paper/10363be6ea7467ba7979e10a46379c461ee93c2b) | 2025 | 4.8 |
 | 🔥 | [Human Action Recognition Based on 3D Convolution and Multi-A](https://www.semanticscholar.org/paper/778274e1b626aff5327dfe9cf4234ed6d55c2ea7) | 2025 | 4.8 |
 
-*... 共 156 篇，仅显示前 15 篇*
+*... 共 167 篇，仅显示前 15 篇*
 
 ---
 
@@ -118,7 +118,7 @@
 | 🔥 | [STORM: Token-Efficient Long Video Understanding for Multimod](https://arxiv.org/abs/2503.04130) | 2025 | 4.7 |
 | 🔥 | [AMS-Net: Modeling Adaptive Multi-Granularity Spatio-Temporal](https://www.semanticscholar.org/paper/2f896991a8bbf875a09ced66c88d8edd270b4fac) | 2023 | 4.5 |
 
-*... 共 118 篇，仅显示前 15 篇*
+*... 共 121 篇，仅显示前 15 篇*
 
 ---
 
@@ -144,7 +144,7 @@
 | 🔥 | [Radial Attention: $O(n\log n)$ Sparse Attention with Energy ](http://arxiv.org/abs/2506.19852v2) | 2025 | 4.5 |
 | 🔥 | [Dynamic Attention Mechanism in Spatiotemporal Memory Network](http://arxiv.org/abs/2503.16768v1) | 2025 | 4.5 |
 
-*... 共 101 篇，仅显示前 15 篇*
+*... 共 105 篇，仅显示前 15 篇*
 
 ---
 
@@ -170,7 +170,7 @@
 | 🔥 | [TSGB: Target-Selective Gradient Backprop for Probing CNN Vis](http://arxiv.org/abs/2110.05182v2) | 2021 | 4.7 |
 | 🔥 | [Visual Saliency Detection Based on Multiscale Deep CNN Featu](http://arxiv.org/abs/1609.02077v1) | 2016 | 4.7 |
 
-*... 共 99 篇，仅显示前 15 篇*
+*... 共 100 篇，仅显示前 15 篇*
 
 ---
 
@@ -196,7 +196,7 @@
 | 🔥 | [Resource Efficient 3D Convolutional Neural Networks](http://arxiv.org/abs/1904.02422v5) | 2019 | 5.0 |
 | 🔥 | [Human Action Recognition Based on 3D Convolution and Multi-A](https://www.semanticscholar.org/paper/778274e1b626aff5327dfe9cf4234ed6d55c2ea7) | 2025 | 4.8 |
 
-*... 共 73 篇，仅显示前 15 篇*
+*... 共 74 篇，仅显示前 15 篇*
 
 ---
 
@@ -222,4 +222,4 @@
 | 📎 | [Non-Volume Preserving-based Fusion to Group-Level Emotion Re](http://arxiv.org/abs/1811.11849v4) | 2018 | 3.9 |
 | 📎 | [MAF-Net: A multimodal data fusion approach for human action ](https://www.semanticscholar.org/paper/90df6b152572998168021197f16ffea960e79ea1) | 2025 | 3.8 |
 
-*... 共 47 篇，仅显示前 15 篇*
+*... 共 48 篇，仅显示前 15 篇*
