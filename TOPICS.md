@@ -1,19 +1,19 @@
 # 📂 主题视图
 
-> 共 8 个主题 | 最后更新: 2026-07-14 04:18
+> 共 8 个主题 | 最后更新: 2026-07-15 04:19
 
 ## 📊 主题概览
 
 | 主题 | 论文数 | 核心论文 | 说明 |
 |------|--------|----------|------|
-| 时序解释 | 503 | 179 | 聚焦于视频时序维度的可解释性研究 |
+| 时序解释 | 505 | 178 | 聚焦于视频时序维度的可解释性研究 |
 | 动作识别可解释性 | 225 | 107 | 视频动作识别 / 分类任务的可解释性研究 |
-| 视频 Transformer 可解释性 | 188 | 62 | Vision Transformer / Video Transformer 的可解释性 |
+| 视频 Transformer 可解释性 | 188 | 61 | Vision Transformer / Video Transformer 的可解释性 |
 | 网络解剖 | 140 | 42 | 网络内部单元 / 特征可视化与解剖 |
 | 视频显著性 | 125 | 43 | 视频/空间显著性检测与可视化 |
-| 注意力与归因 | 120 | 39 | 注意力机制分析与梯度归因方法 |
+| 注意力与归因 | 122 | 39 | 注意力机制分析与梯度归因方法 |
 | 3D CNN 解释 | 117 | 59 | 3D 卷积网络 / R(2+1)D 等时空卷积模型的可解释性 |
-| 鲁棒性与对抗 | 61 | 14 | 视频模型的鲁棒性与对抗攻击/防御 |
+| 鲁棒性与对抗 | 62 | 14 | 视频模型的鲁棒性与对抗攻击/防御 |
 | 未分类 | 41 | - | - |
 
 ---
@@ -40,7 +40,7 @@
 | 🔥 | [Deep Neural Networks in Video Human Action Recognition: A Re](http://arxiv.org/abs/2305.15692v1) | 2023 | 5.5 |
 | 🔥 | [Large-scale Robustness Analysis of Video Action Recognition ](http://arxiv.org/abs/2207.01398v2) | 2022 | 5.5 |
 
-*... 共 503 篇，仅显示前 15 篇*
+*... 共 505 篇，仅显示前 15 篇*
 
 ---
 
@@ -170,7 +170,7 @@
 | 🔥 | [Isolated Video-Based Sign Language Recognition Using a Hybri](https://www.semanticscholar.org/paper/fef413d4970c737ebf559fcf39e766910716795b) | 2024 | 4.7 |
 | 🔥 | [TSGB: Target-Selective Gradient Backprop for Probing CNN Vis](http://arxiv.org/abs/2110.05182v2) | 2021 | 4.7 |
 
-*... 共 120 篇，仅显示前 15 篇*
+*... 共 122 篇，仅显示前 15 篇*
 
 ---
 
@@ -222,4 +222,4 @@
 | 🔥 | [Basketball technique action recognition using 3D convolution](https://www.semanticscholar.org/paper/8547a6fe9b60ebcdfcd53926750c621899ac8c92) | 2024 | 4.0 |
 | 📎 | [Demonstration of Vector Flow Imaging using Convolutional Neu](http://arxiv.org/abs/1903.06254v1) | 2019 | 3.9 |
 
-*... 共 61 篇，仅显示前 15 篇*
+*... 共 62 篇，仅显示前 15 篇*
