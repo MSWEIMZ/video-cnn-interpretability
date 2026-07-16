@@ -13,8 +13,8 @@ def test_summary_zh_with_abstract():
     summary = generate_summary_zh(rec)
     assert len(summary) > 0
     assert len(summary) <= 80
-    # 应包含核心信息
-    assert "R(2+1)D" in summary or "spatiotemporal" in summary.lower() or "convolution" in summary.lower()
+    assert any("\u4e00" <= ch <= "\u9fff" for ch in summary)
+    assert "视频" in summary or "时空" in summary or "卷积" in summary
 
 
 def test_summary_zh_no_abstract():
@@ -23,6 +23,7 @@ def test_summary_zh_no_abstract():
     summary = generate_summary_zh(rec)
     assert len(summary) > 0
     assert len(summary) <= 80
+    assert any("\u4e00" <= ch <= "\u9fff" for ch in summary)
 
 
 def test_summary_zh_truncates():
@@ -45,3 +46,28 @@ def test_summary_zh_in_enhance_record():
     result = enhance_record(rec)
     assert "summary_zh" in result
     assert len(result["summary_zh"]) > 0
+    assert any("\u4e00" <= ch <= "\u9fff" for ch in result["summary_zh"])
+    assert result["summary_source"] == "rule_v2"
+
+
+def test_evaluation_mention_does_not_turn_regular_paper_into_benchmark_summary():
+    rec = {
+        "title": "Video Action Recognition with 3D CNNs",
+        "abstract": "We propose a classifier and provide extensive evaluation on two datasets.",
+    }
+
+    summary = generate_summary_zh(rec)
+
+    assert "构建或评估基准" not in summary
+    assert "识别或分类" in summary
+
+
+def test_manual_chinese_summary_is_preserved():
+    rec = {
+        "title": "Video Model",
+        "abstract": "We propose a video model.",
+        "summary_zh": "人工整理的准确导读。",
+        "summary_source": "manual",
+    }
+
+    assert generate_summary_zh(rec) == "人工整理的准确导读。"

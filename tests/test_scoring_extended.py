@@ -87,3 +87,24 @@ def test_survey_paper_not_noise():
     }
     score = compute_relevance_score(paper, 'exploratory', cfg)
     assert score >= cfg.scoring.min_relevance_score
+
+
+def test_scoring_uses_configured_bonus_values():
+    cfg = _cfg()
+    cfg.scoring.citation_bonus_threshold = 1
+    cfg.scoring.citation_bonus = 2.0
+    cfg.scoring.survey_bonus = 1.7
+    cfg.scoring.venue_bonus = {"CVPR": 1.3}
+    paper = {
+        "title": "A survey of video understanding",
+        "summary": "A review of temporal models.",
+        "categories": [],
+        "citation_count": 1,
+        "venue": "CVPR 2026",
+    }
+
+    score = compute_relevance_score(paper, "exploratory", cfg)
+    baseline = cfg.scoring.keyword_weights["exploratory"]
+    topic_hits = 2 * cfg.scoring.topic_bonus_per_hit
+    title_bonus = cfg.scoring.video_in_title_bonus
+    assert score == round(baseline + topic_hits + title_bonus + 2.0 + 1.7 + 1.3, 2)

@@ -1,13 +1,14 @@
 """arXiv 论文收集模块（支持多源：arXiv + Semantic Scholar）"""
 from __future__ import annotations
 import re
-import ssl
 import time
+from datetime import date, datetime, timedelta
 from difflib import SequenceMatcher
-from urllib.request import urlopen, Request
+from urllib.request import urlopen
 from urllib.parse import urlencode
 
 from .config import AppConfig
+from .normalizer import normalize_arxiv_id
 from .sources.semantic_scholar import search_semantic_scholar
 
 try:
@@ -17,14 +18,25 @@ except ImportError:
     USE_ARXIV_LIB = False
 
 
-def _search_arxiv_lib(query: str, max_results: int) -> list[dict]:
+def _with_date_window(query: str, lookback_days: int | None) -> str:
+    if not lookback_days:
+        return query
+    end = datetime.utcnow()
+    start = end - timedelta(days=lookback_days)
+    return (
+        f"({query}) AND submittedDate:"
+        f"[{start.strftime('%Y%m%d0000')} TO {end.strftime('%Y%m%d2359')}]"
+    )
+
+
+def _search_arxiv_lib(query: str, max_results: int, lookback_days: int | None = None) -> list[dict]:
     """使用 arxiv 库搜索"""
     papers = []
     client = arxiv.Client()
     search = arxiv.Search(
-        query=query,
+        query=_with_date_window(query, lookback_days),
         max_results=max_results,
-        sort_by=arxiv.SortCriterion.Relevance,
+        sort_by=arxiv.SortCriterion.SubmittedDate,
         sort_order=arxiv.SortOrder.Descending,
     )
     for result in client.results(search):
@@ -47,27 +59,20 @@ def _search_arxiv_lib(query: str, max_results: int) -> list[dict]:
     return papers
 
 
-def _search_arxiv_manual(query: str, max_results: int) -> list[dict]:
+def _search_arxiv_manual(query: str, max_results: int, lookback_days: int | None = None) -> list[dict]:
     """手动调用 arXiv API 搜索"""
-    base_url = "http://export.arxiv.org/api/query?"
+    base_url = "https://export.arxiv.org/api/query?"
     params = {
-        "search_query": f"all:{query}",
+        "search_query": _with_date_window(f"all:{query}", lookback_days),
         "start": 0,
         "max_results": max_results,
-        "sortBy": "relevance",
+        "sortBy": "submittedDate",
         "sortOrder": "descending",
     }
     url = base_url + urlencode(params)
-    ctx = ssl.create_default_context()
-    ctx.check_hostname = False
-    ctx.verify_mode = ssl.CERT_NONE
-    try:
-        with urlopen(url, timeout=30, context=ctx) as resp:
-            data = resp.read().decode("utf-8")
-            return _parse_arxiv_xml(data)
-    except Exception as e:
-        print(f"  [WARN] arXiv API 请求失败: {e}")
-        return []
+    with urlopen(url, timeout=30) as resp:
+        data = resp.read().decode("utf-8")
+        return _parse_arxiv_xml(data)
 
 
 def _parse_arxiv_xml(xml_data: str) -> list[dict]:
@@ -110,11 +115,11 @@ def _parse_arxiv_xml(xml_data: str) -> list[dict]:
     return papers
 
 
-def _search_one_query(query: str, max_results: int) -> list[dict]:
+def _search_one_query(query: str, max_results: int, lookback_days: int | None = None) -> list[dict]:
     """执行单条 arXiv 查询"""
     if USE_ARXIV_LIB:
-        return _search_arxiv_lib(query, max_results)
-    return _search_arxiv_manual(query, max_results)
+        return _search_arxiv_lib(query, max_results, lookback_days)
+    return _search_arxiv_manual(query, max_results, lookback_days)
 
 
 def _pre_filter(paper: dict, blocked_keywords: list[str]) -> bool:
@@ -127,8 +132,11 @@ def _is_duplicate(paper_a: dict, paper_b: dict) -> bool:
     """判断两篇论文是否为重复论文"""
     id_a = paper_a.get("arxiv_id", "")
     id_b = paper_b.get("arxiv_id", "")
-    if id_a and id_b and id_a == id_b:
-        return True
+    if id_a and id_b:
+        canonical_a, _ = normalize_arxiv_id(id_a)
+        canonical_b, _ = normalize_arxiv_id(id_b)
+        if canonical_a == canonical_b:
+            return True
     title_a = (paper_a.get("title") or "").lower().strip()
     title_b = (paper_b.get("title") or "").lower().strip()
     if title_a and title_b:
@@ -156,6 +164,68 @@ def _deduplicate(papers: list[dict], seen_ids: set[str]) -> list[dict]:
     return unique
 
 
+def _title_key(title: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "", (title or "").lower())
+
+
+def _merge_raw_papers(existing: dict, incoming: dict) -> dict:
+    merged = dict(existing)
+    merged["citation_count"] = max(
+        int(existing.get("citation_count", 0) or 0),
+        int(incoming.get("citation_count", 0) or 0),
+    )
+    for field in ["venue", "journal_ref", "pdf_url", "summary", "categories", "primary_category"]:
+        if not merged.get(field) and incoming.get(field):
+            merged[field] = incoming[field]
+    sources = []
+    for source in [
+        *(existing.get("sources", []) or []),
+        existing.get("source"),
+        *(incoming.get("sources", []) or []),
+        incoming.get("source"),
+    ]:
+        if source and source not in sources:
+            sources.append(source)
+    if sources:
+        merged["sources"] = sources
+    return merged
+
+
+def _deduplicate_candidates(
+    candidates: list[tuple[str, str, dict]],
+) -> list[tuple[str, str, dict]]:
+    """按 arXiv ID 和规范化标题做跨来源去重，同时合并引用与 venue。"""
+    result: list[tuple[str, str, dict]] = []
+    id_to_position: dict[str, int] = {}
+    title_to_position: dict[str, int] = {}
+    query_priority = {"core": 3, "expanded": 2, "exploratory": 1}
+
+    for query_type, query, paper in candidates:
+        raw_id = paper.get("arxiv_id", "")
+        canonical_id, _ = normalize_arxiv_id(raw_id) if raw_id else ("", 1)
+        title_key = _title_key(paper.get("title", ""))
+        position = id_to_position.get(canonical_id) if canonical_id else None
+        if position is None and title_key:
+            position = title_to_position.get(title_key)
+
+        if position is None:
+            position = len(result)
+            result.append((query_type, query, dict(paper)))
+        else:
+            old_type, old_query, old_paper = result[position]
+            merged_paper = _merge_raw_papers(old_paper, paper)
+            if query_priority.get(query_type, 0) > query_priority.get(old_type, 0):
+                result[position] = (query_type, query, merged_paper)
+            else:
+                result[position] = (old_type, old_query, merged_paper)
+
+        if canonical_id:
+            id_to_position[canonical_id] = position
+        if title_key:
+            title_to_position[title_key] = position
+    return result
+
+
 def collect_candidates(config: AppConfig) -> list[tuple[str, str, dict]]:
     """收集候选论文（调用多源版本）"""
     return collect_candidates_multi_source(config)
@@ -164,6 +234,7 @@ def collect_candidates(config: AppConfig) -> list[tuple[str, str, dict]]:
 def collect_candidates_multi_source(config: AppConfig) -> list[tuple[str, str, dict]]:
     """多源收集候选论文，返回 [(query_type, search_query, paper_dict), ...]"""
     max_results = config.runtime.max_results_per_query
+    lookback_days = config.runtime.lookback_days
     blocked = config.filters.blocked_keywords
     year_range = f"{config.filters.years_from}-{config.filters.years_to}"
     candidates: list[tuple[str, str, dict]] = []
@@ -182,7 +253,7 @@ def collect_candidates_multi_source(config: AppConfig) -> list[tuple[str, str, d
         print(f"\n[{query_type} 查询]")
         for query in queries:
             print(f"  搜索: {query}")
-            raw_papers = _search_one_query(query, max_results)
+            raw_papers = _search_one_query(query, max_results, lookback_days)
             print(f"  原始结果: {len(raw_papers)} 篇")
             kept = 0
             for paper in raw_papers:
@@ -200,28 +271,44 @@ def collect_candidates_multi_source(config: AppConfig) -> list[tuple[str, str, d
     print("\n" + "=" * 50)
     print("阶段 2：Semantic Scholar 搜索")
     print("=" * 50)
-    ss_groups = [
-        ("core", config.core_queries),
-        ("expanded", config.expanded_queries),
+    ss_queries = [
+        (query_type, query)
+        for query_type, queries in [
+            ("core", config.core_queries),
+            ("expanded", config.expanded_queries),
+        ]
+        for query in queries
     ]
-    for query_type, queries in ss_groups:
-        print(f"\n[{query_type} 查询 - Semantic Scholar]")
-        for query in queries:
-            print(f"  搜索: {query}")
-            raw_papers = search_semantic_scholar(
-                query=query,
-                year_range=year_range,
-                max_results=max_results,
-            )
-            print(f"  原始结果: {len(raw_papers)} 篇")
-            new_papers = _deduplicate(raw_papers, seen_ids)
-            kept = 0
-            for paper in new_papers:
-                if _pre_filter(paper, blocked):
-                    continue
-                candidates.append((query_type, query, paper))
-                kept += 1
-            print(f"  去重后新论文: {len(new_papers)} 篇，通过预过滤: {kept} 篇")
+    ss_limit = config.runtime.semantic_scholar_queries_per_run
+    if ss_queries and ss_limit:
+        offset = date.today().toordinal() % len(ss_queries)
+        ss_queries = (ss_queries[offset:] + ss_queries[:offset])[:ss_limit]
+    else:
+        ss_queries = []
+    if not config.runtime.semantic_scholar_enabled:
+        ss_queries = []
 
-    print(f"\n候选池总计: {len(candidates)} 篇论文（多源合并后）")
-    return candidates
+    for query_type, query in ss_queries:
+        print(f"\n[{query_type} 查询 - Semantic Scholar]")
+        print(f"  搜索: {query}")
+        raw_papers = search_semantic_scholar(
+            query=query,
+            year_range=year_range,
+            max_results=max_results,
+        )
+        if raw_papers is None:
+            print("  [WARN] Semantic Scholar 当前不可用，本轮停止继续请求")
+            break
+        print(f"  原始结果: {len(raw_papers)} 篇")
+        new_papers = _deduplicate(raw_papers, seen_ids)
+        kept = 0
+        for paper in new_papers:
+            if _pre_filter(paper, blocked):
+                continue
+            candidates.append((query_type, query, paper))
+            kept += 1
+        print(f"  去重后新论文: {len(new_papers)} 篇，通过预过滤: {kept} 篇")
+
+    deduplicated = _deduplicate_candidates(candidates)
+    print(f"\n候选池总计: {len(deduplicated)} 篇论文（多源合并后）")
+    return deduplicated

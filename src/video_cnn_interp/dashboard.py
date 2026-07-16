@@ -22,10 +22,18 @@ def generate_dashboard_html(records: list[dict], stats: dict) -> str:
             by_topic[t] += 1
 
     year_data = [{"year": y, "count": by_year[y]} for y in sorted(by_year.keys())]
-    year_json = json.dumps(year_data, ensure_ascii=False)
+    def safe_json(value) -> str:
+        return (
+            json.dumps(value, ensure_ascii=False)
+            .replace("<", "\\u003c")
+            .replace(">", "\\u003e")
+            .replace("&", "\\u0026")
+        )
+
+    year_json = safe_json(year_data)
 
     topic_data = [{"topic": t, "count": c} for t, c in sorted(by_topic.items(), key=lambda x: -x[1])][:10]
-    topic_json = json.dumps(topic_data, ensure_ascii=False)
+    topic_json = safe_json(topic_data)
 
     recent = sorted(records, key=lambda r: (-r.get("year", 0), -r.get("relevance_score", 0)))[:50]
     recent_rows = []
@@ -42,7 +50,7 @@ def generate_dashboard_html(records: list[dict], stats: dict) -> str:
             "method_type": r.get("method_type", ""),
             "relation": r.get("relation_to_r2plus1d", ""),
         })
-    recent_json = json.dumps(recent_rows, ensure_ascii=False)
+    recent_json = safe_json(recent_rows)
 
     core_papers = [r for r in records if r.get("quality_label") == "core"]
     core_papers.sort(key=lambda r: (-r.get("year", 0), -r.get("relevance_score", 0)))
@@ -56,14 +64,14 @@ def generate_dashboard_html(records: list[dict], stats: dict) -> str:
             "url": r.get("url", "#"),
             "method_type": r.get("method_type", ""),
         })
-    core_json = json.dumps(core_rows, ensure_ascii=False)
+    core_json = safe_json(core_rows)
 
     html = r"""<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>视频 CNN 可解释性论文库 - 看板</title>
+  <title>Video CNN/XAI Research Hub - 看板</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#f5f7fa;color:#333}
@@ -102,8 +110,8 @@ a:hover{text-decoration:underline}
 </head>
 <body>
 <div class="header">
-<h1>视频 CNN 可解释性论文库</h1>
-<p>自动化论文搜索与整理 | 3DCNN / R(2+1)D / 可解释性</p>
+<h1>Video CNN/XAI Research Hub</h1>
+<p>视频深度学习、时空建模与可解释性论文情报</p>
 <p style="margin-top:.5rem;opacity:.7">最后更新: NOW_PLACEHOLDER</p>
 </div>
 <div class="container">
@@ -118,16 +126,18 @@ a:hover{text-decoration:underline}
 <div class="section"><h2>核心论文 Top 20</h2><table><thead><tr><th></th><th>标题</th><th>年份</th><th>分数</th><th>方法</th></tr></thead><tbody id="ct"></tbody></table></div>
 <div class="section"><h2>最新论文 Top 50</h2><div class="filter-bar"><button class="fbtn active" onclick="ft('all',this)">全部</button><button class="fbtn" onclick="ft('core',this)">核心</button><button class="fbtn" onclick="ft('strongly_related',this)">高相关</button><button class="fbtn" onclick="ft('weakly_related',this)">弱相关</button></div><table><thead><tr><th></th><th>标题</th><th>年份</th><th>分数</th><th>方法</th><th>与R(2+1)D关系</th></tr></thead><tbody id="rt"></tbody></table></div>
 </div>
-<div class="footer">视频 CNN 可解释性论文库 v2.0 | 自动生成</div>
+<div class="footer">Video CNN/XAI Research Hub | 自动生成</div>
 <script>
 const YD=YEAR_JSON, RD=RECENT_JSON, CD=CORE_JSON;
 const mx=Math.max(...YD.map(d=>d.count));
 const yc=document.getElementById('yc'),yl=document.getElementById('yl');
-YD.forEach(d=>{const b=document.createElement('div');b.className='bar';b.style.height=(d.count/mx*100)+'%';b.innerHTML='<span class="tip">'+d.year+': '+d.count+'</span>';yc.appendChild(b);const l=document.createElement('span');l.textContent=d.year;yl.appendChild(l)});
+YD.forEach(d=>{const b=document.createElement('div');b.className='bar';b.style.height=(d.count/mx*100)+'%';const tip=document.createElement('span');tip.className='tip';tip.textContent=d.year+': '+d.count;b.appendChild(tip);yc.appendChild(b);const l=document.createElement('span');l.textContent=d.year;yl.appendChild(l)});
+function td(tr,text){const c=document.createElement('td');c.textContent=text??'';tr.appendChild(c);return c}
+function linkTd(tr,title,url){const c=document.createElement('td');const a=document.createElement('a');a.textContent=title;a.href=url||'#';a.target='_blank';a.rel='noopener noreferrer';c.appendChild(a);tr.appendChild(c)}
 const ct=document.getElementById('ct');
-CD.forEach(r=>{ct.innerHTML+='<tr><td>'+r.icon+'</td><td><a href="'+r.url+'" target="_blank">'+r.title+'</a></td><td>'+r.year+'</td><td>'+r.score+'</td><td>'+r.method_type+'</td></tr>'});
+CD.forEach(r=>{const tr=document.createElement('tr');td(tr,r.icon);linkTd(tr,r.title,r.url);td(tr,r.year);td(tr,r.score);td(tr,r.method_type);ct.appendChild(tr)});
 const rt=document.getElementById('rt');
-function rr(data){rt.innerHTML='';data.forEach(r=>{rt.innerHTML+='<tr data-l="'+r.label+'"><td><span class="badge badge-'+r.label+'">'+r.icon+'</span></td><td><a href="'+r.url+'" target="_blank">'+r.title+'</a></td><td>'+r.year+'</td><td>'+r.score+'</td><td>'+r.method_type+'</td><td>'+r.relation+'</td></tr>'})}
+function rr(data){rt.replaceChildren();data.forEach(r=>{const tr=document.createElement('tr');tr.dataset.l=r.label;const first=td(tr,'');const badge=document.createElement('span');badge.className='badge badge-'+r.label;badge.textContent=r.icon;first.appendChild(badge);linkTd(tr,r.title,r.url);td(tr,r.year);td(tr,r.score);td(tr,r.method_type);td(tr,r.relation);rt.appendChild(tr)})}
 rr(RD);
 function ft(l,btn){document.querySelectorAll('.fbtn').forEach(b=>b.classList.remove('active'));btn.classList.add('active');l==='all'?rr(RD):rr(RD.filter(r=>r.label===l))}
 </script>

@@ -33,7 +33,7 @@
   },
   "filters": {
     "years_from": 2015,
-    "years_to": 2026,
+    "years_to": "current",
     "allowed_categories": [
       "cs.CV",
       "cs.LG",
@@ -54,6 +54,18 @@
       "GAN inversion",
       "neural architecture search",
       "federated learning"
+    ],
+    "required_domain_keywords": [
+      "video",
+      "action recognition",
+      "spatiotemporal",
+      "spatio-temporal",
+      "space-time",
+      "3d cnn",
+      "3d convolution",
+      "optical flow",
+      "video frame",
+      "frame interpolation"
     ],
     "required_topic_keywords": [
       "video",
@@ -110,8 +122,13 @@
     "max_results_per_query": 30,
     "output_dir": "papers",
     "index_format": "jsonl",
-    "write_markdown_cards": true,
+    "write_markdown_cards": false,
     "write_readme": true,
-    "notify_feishu": true
+    "notify_feishu": true,
+    "lookback_days": 14,
+    "semantic_scholar_enabled": true,
+    "semantic_scholar_queries_per_run": 2,
+    "crossref_enabled": true,
+    "crossref_max_new_per_run": 20
   }
 }

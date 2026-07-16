@@ -22,6 +22,13 @@ def _text_contains(text: str, keywords: list[str]) -> list[str]:
     return [kw for kw in keywords if kw.lower() in text_lower]
 
 
+def is_video_domain_relevant(paper: dict, domain_keywords: list[str]) -> bool:
+    """要求标题或摘要包含明确的视频/时空视觉领域证据。"""
+    title = paper.get("title", "")
+    abstract = paper.get("summary", paper.get("abstract", ""))
+    return bool(_text_contains(f"{title} {abstract}", domain_keywords))
+
+
 # ---------- 新增辅助函数 ----------
 
 def _detect_venue_bonus(text: str, venue_bonuses: dict[str, float] | None = None) -> float:
@@ -31,16 +38,16 @@ def _detect_venue_bonus(text: str, venue_bonuses: dict[str, float] | None = None
     text_lower = text.lower()
     best_bonus = 0.0
     for venue, bonus in venue_bonuses.items():
-        if venue in text_lower:
+        if venue.lower() in text_lower:
             best_bonus = max(best_bonus, bonus)
     return best_bonus
 
 
-def _detect_survey_bonus(text: str) -> float:
-    """检测综述/基准关键词，命中则返回 0.8 分"""
+def _detect_survey_bonus(text: str, bonus: float = 0.8) -> float:
+    """检测综述/基准关键词，命中则返回配置的加分。"""
     text_lower = text.lower()
     if any(kw in text_lower for kw in _SURVEY_KEYWORDS):
-        return 0.8
+        return bonus
     return 0.0
 
 
@@ -90,14 +97,18 @@ def compute_relevance_score(paper: dict, query_type: str, config: AppConfig) -> 
 
     # 引用量信号
     citation_count = paper.get("citation_count", 0)
-    score += _apply_citation_bonus(citation_count)
+    score += _apply_citation_bonus(
+        citation_count,
+        threshold=sc.citation_bonus_threshold,
+        bonus=sc.citation_bonus,
+    )
 
     # Venue 加分：从 venue 和 journal_ref 字段检测
     venue_text = f"{paper.get('venue', '')} {paper.get('journal_ref', '')}"
-    score += _detect_venue_bonus(venue_text)
+    score += _detect_venue_bonus(venue_text, sc.venue_bonus)
 
     # 综述/基准识别
-    score += _detect_survey_bonus(combined)
+    score += _detect_survey_bonus(combined, sc.survey_bonus)
 
     # 阻断关键词惩罚
     blocked_hits = _text_contains(combined, config.filters.blocked_keywords)
