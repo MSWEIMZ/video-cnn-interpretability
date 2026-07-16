@@ -49,54 +49,65 @@ def generate_one_line_summary(record: dict) -> str:
 
 
 def generate_summary_zh(record: dict) -> str:
-    """生成一句话精炼摘要（≤80字），让人一眼知道这篇论文干什么。
+    """基于标题和摘要生成不夸大结论的中文导读（≤80字）。"""
+    existing = str(record.get("summary_zh", "") or "").strip()
+    if record.get("summary_source") == "manual" and existing:
+        return existing[:80]
 
-    提取逻辑：
-    1. 优先从 abstract 的第一句提取核心方法和贡献
-    2. 如果第一句太短或太泛，取前两句
-    3. 截断到 80 字以内，保持语句完整
-    """
-    abstract = record.get("abstract", "")
-    title = record.get("title", "")
+    title_text = str(record.get("title", "") or "").lower()
+    abstract_text = str(record.get("abstract", "") or "").lower()
+    text = f"{title_text} {abstract_text}"
 
-    if not abstract:
-        return title[:80] if title else "暂无摘要"
-
-    # 清理换行，按句号分句
-    clean = abstract.replace("\n", " ").replace("\r", " ")
-    sentences = [s.strip() for s in clean.split(".") if s.strip()]
-
-    if not sentences:
-        return abstract[:80]
-
-    # 取第一句
-    first = sentences[0]
-
-    # 如果第一句太短（<30字）或太泛（只说了领域没说方法），加上第二句
-    generic_starters = [
-        "in this paper", "we propose", "we present", "we introduce",
-        "recently", "deep learning", "neural network",
-    ]
-    first_lower = first.lower()
-    is_generic = any(first_lower.startswith(g) for g in generic_starters) and len(first) < 60
-
-    if is_generic and len(sentences) > 1:
-        summary = first + ". " + sentences[1]
-    elif len(first) < 30 and len(sentences) > 1:
-        summary = first + ". " + sentences[1]
+    if any(term in text for term in ["r(2+1)d", "r2plus1d", "decomposed 3d", "factored convolution"]):
+        focus = "视频动作识别与时空建模"
+        method = "分解式时空卷积"
+    elif any(term in text for term in ["grad-cam", "gradcam", "saliency", "attribution", "explainab", "interpretab"]):
+        focus = "视频模型可解释性"
+        method = "梯度归因、显著性或概念分析"
+    elif any(term in text for term in ["video-llm", "video language", "multimodal", "vision-language"]):
+        focus = "多模态视频理解"
+        method = "视觉语言联合建模"
+    elif any(term in text for term in ["3d cnn", "3d convolution", "c3d", "i3d", "x3d"]):
+        focus = "视频时空表征学习"
+        method = "三维卷积网络"
+    elif any(term in text for term in ["transformer", "self-attention", "attention"]):
+        focus = "视频理解与时序推理"
+        method = "时空注意力或 Transformer"
+    elif any(term in text for term in ["action recognition", "activity recognition", "video classification"]):
+        focus = "视频动作识别"
+        method = "深度时空特征建模"
+    elif "video" in text or "temporal" in text or "spatiotemporal" in text:
+        focus = "视频理解与时序建模"
+        method = "深度学习与时空特征分析"
     else:
-        summary = first
+        focus = "视觉深度学习"
+        method = "神经网络建模与实验分析"
 
-    # 截断到 80 字以内，不在单词中间截断
-    if len(summary) > 80:
-        summary = summary[:77]
-        # 找最后一个空格截断，保持单词完整
-        last_space = summary.rfind(" ")
-        if last_space > 50:
-            summary = summary[:last_space]
-        summary += "..."
+    if any(term in title_text for term in ["survey", "review", "taxonomy"]):
+        goal = "系统梳理相关方法、数据集与研究趋势"
+    elif any(term in title_text for term in ["benchmark", "dataset"]):
+        goal = "构建或评估基准并比较不同方法"
+    elif any(term in title_text for term in ["explain", "interpret", "visualization", "saliency", "attribution"]):
+        goal = "分析模型依据及关键空间或时间区域"
+    elif any(term in title_text for term in ["classification", "recognition", "detection"]):
+        goal = "完成识别或分类任务并评估模型表现"
+    elif any(
+        phrase in abstract_text
+        for phrase in [
+            "introduce a benchmark", "present a benchmark", "propose a benchmark",
+            "introduce a dataset", "present a dataset", "release a dataset",
+        ]
+    ):
+        goal = "构建或评估基准并比较不同方法"
+    elif any(term in text for term in ["explain", "interpret", "visualization", "saliency", "attribution"]):
+        goal = "分析模型依据及关键空间或时间区域"
+    elif any(term in text for term in ["classification", "recognition", "detection", "classifier"]):
+        goal = "完成识别或分类任务并评估模型表现"
+    else:
+        goal = "研究模型表示、推理能力及应用效果"
 
-    return summary
+    summary = f"本文聚焦{focus}，采用{method}，主要用于{goal}。"
+    return summary[:80]
 
 
 def analyze_method_type(record: dict) -> str:
@@ -176,6 +187,8 @@ def enhance_record(record: dict) -> dict:
     """为一条论文记录添加摘要增强字段"""
     record["one_line_summary"] = generate_one_line_summary(record)
     record["summary_zh"] = generate_summary_zh(record)
+    if record.get("summary_source") != "manual":
+        record["summary_source"] = "rule_v2"
     record["method_type"] = analyze_method_type(record)
     record["relation_to_r2plus1d"] = analyze_relation_to_r2plus1d(record)
 

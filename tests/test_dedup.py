@@ -1,7 +1,8 @@
 """多源去重测试"""
 import sys, pathlib
+import pytest
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / "src"))
-from video_cnn_interp.collector import _is_duplicate, _deduplicate
+from video_cnn_interp.collector import _is_duplicate, _deduplicate, _search_arxiv_manual
 
 
 def test_same_arxiv_id_is_duplicate():
@@ -40,3 +41,19 @@ def test_deduplicate_respects_seen_ids():
     result = _deduplicate(papers, seen)
     assert len(result) == 1
     assert result[0]["arxiv_id"] == "2401.00002"
+
+
+def test_different_arxiv_versions_are_duplicate():
+    a = {"arxiv_id": "2401.12345v1", "title": "Original title"}
+    b = {"arxiv_id": "2401.12345v3", "title": "Revised title"}
+    assert _is_duplicate(a, b) is True
+
+
+def test_manual_arxiv_transport_failure_is_not_reported_as_empty_results(monkeypatch):
+    def fail(*args, **kwargs):
+        raise OSError("network unavailable")
+
+    monkeypatch.setattr("video_cnn_interp.collector.urlopen", fail)
+
+    with pytest.raises(OSError, match="network unavailable"):
+        _search_arxiv_manual("video", 10)

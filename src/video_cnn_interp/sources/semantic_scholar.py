@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import time
+import os
 from urllib.request import urlopen, Request
 from urllib.parse import urlencode
 from urllib.error import HTTPError
@@ -12,7 +13,7 @@ _BASE_URL = "https://api.semanticscholar.org/graph/v1/paper/search"
 _FIELDS = "title,authors,abstract,year,citationCount,url,externalIds,venue,publicationTypes"
 _RATE_LIMIT_DELAY = 1.0  # 请求间隔（秒）
 _RETRY_DELAY = 5.0  # 429 退避（秒）
-_MAX_RETRIES = 3
+_MAX_RETRIES = 2
 
 
 def _normalize_paper(raw: dict) -> dict:
@@ -58,12 +59,17 @@ def _api_request(url: str) -> dict | None:
     """发送 GET 请求，带 429 重试逻辑"""
     for attempt in range(_MAX_RETRIES):
         try:
-            req = Request(url, headers={"User-Agent": "video-cnn-interp/2.0"})
+            headers = {"User-Agent": "video-cnn-interp/2.0"}
+            api_key = os.environ.get("SEMANTIC_SCHOLAR_API_KEY", "")
+            if api_key:
+                headers["x-api-key"] = api_key
+            req = Request(url, headers=headers)
             with urlopen(req, timeout=30) as resp:
                 return json.loads(resp.read().decode("utf-8"))
         except HTTPError as e:
             if e.code == 429:
-                wait = _RETRY_DELAY * (attempt + 1)
+                retry_after = e.headers.get("Retry-After") if e.headers else None
+                wait = float(retry_after) if retry_after else _RETRY_DELAY * (attempt + 1)
                 print(f"  [WARN] Semantic Scholar 429 限流，等待 {wait}s 后重试...")
                 time.sleep(wait)
             else:
@@ -81,7 +87,7 @@ def search_semantic_scholar(
     year_range: str = "2015-2026",
     max_results: int = 30,
     fields_of_study: str = "Computer Science",
-) -> list[dict]:
+) -> list[dict] | None:
     """搜索 Semantic Scholar 并返回标准化论文列表
     
     Args:
@@ -103,7 +109,9 @@ def search_semantic_scholar(
     url = f"{_BASE_URL}?{urlencode(params)}"
     
     data = _api_request(url)
-    if not data or "data" not in data:
+    if data is None:
+        return None
+    if "data" not in data:
         return []
 
     papers = []

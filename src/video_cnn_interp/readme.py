@@ -12,19 +12,19 @@ _I18N = {
         "total": "论文总数", "core": "核心论文", "strong": "高相关论文",
         "monthly": "本月新增", "sources": "来源分布",
         "last_update": "最后更新",
-        "top_cited": "## 🏆 高引用论文 Top 5",
+        "top_cited": "## 🏆 高影响力论文 Top 5",
         "rank": "排名", "citations": "引用数", "score": "分数",
         "latest_core": "## 🔥 最新核心论文",
-        "trending": "## 🔥 近期热门 (2024-2026)",
+        "trending": "## 🔥 近期热门",
         "trending_desc": "近两年高引用核心论文",
         "citations": "引用数",
         "strong_section": "## 📎 高相关论文",
         "year_label": "年", "papers_label": "篇",
         "tag": "标签", "summary": "摘要", "author": "作者",
         "no_core": "*暂无核心论文*", "no_strong": "*暂无高相关论文*",
-        "full_list": "📄 **完整论文列表**: [ALL_PAPERS.md](ALL_PAPERS.md)",
+        "full_list": "📄 **完整论文列表**: [ALL_PAPERS_zh.md](ALL_PAPERS_zh.md)",
         "auto_update": "## ⚙️ 自动更新",
-        "auto_desc": "本项目通过 **GitHub Actions** 每天自动搜索 arXiv 最新论文，经评分筛选后入库。",
+        "auto_desc": "本项目通过 **GitHub Actions** 每天聚合 arXiv 与 Semantic Scholar，经规范化、去重、评分和 CrossRef 增强后入库。",
         "license": "## 📄 License",
         "license_text": "仅供学术研究使用",
         "all_title": "# 📚 完整论文列表 — Video CNN/XAI Research Hub",
@@ -41,10 +41,10 @@ _I18N = {
         "total": "Total Papers", "core": "Core Papers", "strong": "Strongly Related",
         "monthly": "New This Month", "sources": "Sources",
         "last_update": "Last Updated",
-        "top_cited": "## 🏆 Top 5 Most Cited",
+        "top_cited": "## 🏆 Top 5 Most Influential",
         "rank": "Rank", "citations": "Citations", "score": "Score",
         "latest_core": "## 🔥 Latest Core Papers",
-        "trending": "## 🔥 Latest Trending (2024-2026)",
+        "trending": "## 🔥 Latest Trending",
         "trending_desc": "Top cited core papers from recent years",
         "citations": "Citations",
         "strong_section": "## 📎 Strongly Related Papers",
@@ -53,7 +53,7 @@ _I18N = {
         "no_core": "*No core papers yet*", "no_strong": "*No strongly related papers yet*",
         "full_list": "📄 **Full paper list**: [ALL_PAPERS.md](ALL_PAPERS.md)",
         "auto_update": "## ⚙️ Auto Update",
-        "auto_desc": "This project uses **GitHub Actions** to search arXiv daily, score & filter papers before adding them to the index.",
+        "auto_desc": "GitHub Actions aggregates arXiv and Semantic Scholar daily, then normalizes, deduplicates, scores, and enriches accepted papers with CrossRef.",
         "license": "## 📄 License",
         "license_text": "For academic research use only",
         "all_title": "# 📚 Complete Paper List — Video CNN/XAI Research Hub",
@@ -70,10 +70,20 @@ def _t(lang: str, key: str) -> str:
     return _I18N.get(lang, _I18N["zh"]).get(key, key)
 
 
+def _md_cell(value, limit: int | None = None) -> str:
+    """转义 Markdown 表格单元格中的控制字符。"""
+    text = str(value or "").replace("\r", " ").replace("\n", " ")
+    if limit is not None:
+        text = text[:limit]
+    return text.replace("\\", "\\\\").replace("|", "\\|").replace("[", "\\[").replace("]", "\\]")
+
+
 def generate_main_readme(records: list[dict], stats: dict, lang: str = "zh") -> str:
     """生成主 README，包含精选视图 + 年份折叠视图"""
     now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     now_month = datetime.now().strftime("%Y-%m")
+    current_year = datetime.now().year
+    trending_start_year = current_year - 2
     total = stats.get("total", len(records))
     by_label = stats.get("by_label", {})
     core_count = by_label.get("core", 0)
@@ -83,11 +93,11 @@ def generate_main_readme(records: list[dict], stats: dict, lang: str = "zh") -> 
         1 for r in records if r.get("published", "").startswith(now_month)
     )
 
-    # Top 5: core + strongly_related, sorted by sqrt(citation) * relevance
+    # Top 5: 仅核心论文，避免通用高引用论文挤占主题相关结果。
     cited_papers = [
         r for r in records
         if r.get("citation_count", 0) > 0
-        and r.get("quality_label") in ("core", "strongly_related")
+        and r.get("quality_label") == "core"
     ]
     cited_papers.sort(
         key=lambda r: -(r["citation_count"] ** 0.5 * r.get("relevance_score", 1))
@@ -96,9 +106,12 @@ def generate_main_readme(records: list[dict], stats: dict, lang: str = "zh") -> 
 
     source_counts: dict[str, int] = defaultdict(int)
     for r in records:
-        source_counts[r.get("source", "arxiv")] += 1
+        source_counts[r.get("source") or "unknown"] += 1
     arxiv_count = source_counts.get("arxiv", 0)
     ss_count = source_counts.get("semantic_scholar", 0)
+    manual_count = source_counts.get("manual", 0)
+    unknown_count = source_counts.get("unknown", 0)
+    crossref_count = sum(1 for r in records if "crossref" in (r.get("sources", []) or []))
 
     core_papers = [r for r in records if r.get("quality_label") == "core"]
     core_papers.sort(key=lambda r: (-r.get("year", 0), -r.get("relevance_score", 0)))
@@ -118,10 +131,8 @@ def generate_main_readme(records: list[dict], stats: dict, lang: str = "zh") -> 
     lines.append("")
     
     # ── Hero Section (centered) ──
-    lines.append('<p align="center">')
-    lines.append('  <h1>📚 Video CNN/XAI Research Hub</h1>')
-    lines.append(f'  <p><em>{T("subtitle").replace("> ", "")}</em></p>')
-    lines.append('</p>')
+    lines.append('<h1 align="center">📚 Video CNN/XAI Research Hub</h1>')
+    lines.append(f'<p align="center"><em>{T("subtitle").replace("> ", "")}</em></p>')
     lines.append("")
     
     # ── Badges ──
@@ -139,12 +150,22 @@ def generate_main_readme(records: list[dict], stats: dict, lang: str = "zh") -> 
     # ── Quick Navigation ──
     lines.append("---")
     lines.append("")
-    lines.append("**Quick Navigation** | ")
-    lines.append("[🏆 Top Cited](#-top-5-most-cited) | ")
-    lines.append("[🔥 Trending](#-latest-trending-2024-2026) | ")
-    lines.append("[📄 Core Papers](#-latest-core-papers) | ")
-    lines.append("[📎 Strongly Related](#-strongly-related-papers) | ")
-    lines.append(f"[📋 Full List]({T('full_list').split('(')[1].split(')')[0] if '(' in T('full_list') else 'ALL_PAPERS.md'})")
+    if lang == "zh":
+        lines.append(
+            "**快速导航** · [🏆 高影响力](#-高影响力论文-top-5) · "
+            f"[🔥 近期热门](#-近期热门-{trending_start_year}-{current_year}) · "
+            "[📄 核心论文](#-最新核心论文) · [📎 高相关](#-高相关论文) · "
+            "[🏷️ 主题](TOPICS.md) · [📈 趋势](TRENDS.md) · "
+            "[🖥️ 看板](dashboard.html) · [📋 完整列表](ALL_PAPERS_zh.md)"
+        )
+    else:
+        lines.append(
+            "**Quick Navigation** · [🏆 Influential](#-top-5-most-influential) · "
+            f"[🔥 Trending](#-latest-trending-{trending_start_year}-{current_year}) · "
+            "[📄 Core](#-latest-core-papers) · [📎 Strongly Related](#-strongly-related-papers) · "
+            "[🏷️ Topics](TOPICS.md) · [📈 Trends](TRENDS.md) · "
+            "[🖥️ Dashboard](dashboard.html) · [📋 Full List](ALL_PAPERS.md)"
+        )
     lines.append("")
     lines.append("---")
     lines.append("")
@@ -161,6 +182,10 @@ def generate_main_readme(records: list[dict], stats: dict, lang: str = "zh") -> 
         lines.append(f"| 🆕 {T('monthly')} | **{monthly_new}** |")
         lines.append(f"| 📡 arXiv | {arxiv_count} |")
         lines.append(f"| 🔬 Semantic Scholar | {ss_count} |")
+        lines.append(f"| 🔗 CrossRef 增强 | {crossref_count} |")
+        lines.append(f"| ✍️ 手工整理 | {manual_count} |")
+        if unknown_count:
+            lines.append(f"| ❓ 来源待修复 | {unknown_count} |")
         lines.append(f"| ⏰ {T('last_update')} | {now} |")
     else:
         lines.append(f"| Metric | Count |")
@@ -171,6 +196,10 @@ def generate_main_readme(records: list[dict], stats: dict, lang: str = "zh") -> 
         lines.append(f"| 🆕 {T('monthly')} | **{monthly_new}** |")
         lines.append(f"| 📡 arXiv | {arxiv_count} |")
         lines.append(f"| 🔬 Semantic Scholar | {ss_count} |")
+        lines.append(f"| 🔗 CrossRef Enriched | {crossref_count} |")
+        lines.append(f"| ✍️ Manual | {manual_count} |")
+        if unknown_count:
+            lines.append(f"| ❓ Unknown Source | {unknown_count} |")
         lines.append(f"| ⏰ {T('last_update')} | {now} |")
     lines.append("")
 
@@ -178,10 +207,16 @@ def generate_main_readme(records: list[dict], stats: dict, lang: str = "zh") -> 
     if top5_cited:
         lines.append(T("top_cited"))
         lines.append("")
+        lines.append(
+            "> 该榜单强调长期学术影响；关注新论文请查看下方“近期热门”。"
+            if lang == "zh"
+            else "> This list highlights long-term impact; see Trending for recent work."
+        )
+        lines.append("")
         lines.append(f"| {T('rank')} | {T('col_title')} | {T('citations')} | {T('score')} |")
         lines.append("|------|------|--------|------|")
         for idx, p in enumerate(top5_cited, 1):
-            title = p.get("title", "")[:60]
+            title = _md_cell(p.get("title", ""), 60)
             citations = p.get("citation_count", 0)
             score = p.get("relevance_score", 0)
             url = p.get("url", "#")
@@ -191,24 +226,24 @@ def generate_main_readme(records: list[dict], stats: dict, lang: str = "zh") -> 
     lines.append("---")
     lines.append("")
 
-    # 近期热门 (2024-2026 core, by citation)
+    # 近期热门（动态最近三年）
     trending = [
         r for r in records
         if r.get("quality_label") == "core"
-        and r.get("year", 0) >= 2024
+        and r.get("year", 0) >= trending_start_year
         and r.get("citation_count", 0) > 0
     ]
     trending.sort(key=lambda r: -r["citation_count"])
     trending_top = trending[:5]
 
-    lines.append(T("trending"))
+    lines.append(f"{T('trending')} ({trending_start_year}-{current_year})")
     lines.append("")
     if trending_top:
         lines.append(f"| {T('year')} | {T('col_title')} | {T('summary')} | {T('citations')} | {T('score')} |")
         lines.append("|------|------|------|--------|------|")
         for p in trending_top:
-            title = p.get("title", "")[:60]
-            summary = p.get(summary_key, p.get("one_line_summary", ""))[:80]
+            title = _md_cell(p.get("title", ""), 60)
+            summary = _md_cell(p.get(summary_key, p.get("one_line_summary", "")), 80)
             citations = p.get("citation_count", 0)
             year = p.get("year", "")
             score = p.get("relevance_score", 0)
@@ -227,11 +262,12 @@ def generate_main_readme(records: list[dict], stats: dict, lang: str = "zh") -> 
         lines.append(f"| {T('year')} | {T('col_title')} | {T('summary')} | {T('author')} | {T('score')} |")
         lines.append("|------|------|------|------|------|")
         for p in latest_core:
-            title = p.get("title", "")[:60]
-            summary = p.get(summary_key, p.get("one_line_summary", ""))[:80]
+            title = _md_cell(p.get("title", ""), 60)
+            summary = _md_cell(p.get(summary_key, p.get("one_line_summary", "")), 80)
             authors = ", ".join(p.get("authors", [])[:2])
             if len(p.get("authors", [])) > 2:
                 authors += "+"
+            authors = _md_cell(authors)
             year = p.get("year", "")
             score = p.get("relevance_score", 0)
             url = p.get("url", "#")
@@ -247,11 +283,12 @@ def generate_main_readme(records: list[dict], stats: dict, lang: str = "zh") -> 
         lines.append(f"| {T('year')} | {T('col_title')} | {T('summary')} | {T('author')} | {T('score')} |")
         lines.append("|------|------|------|------|------|")
         for p in latest_strong:
-            title = p.get("title", "")[:60]
-            summary = p.get(summary_key, p.get("one_line_summary", ""))[:80]
+            title = _md_cell(p.get("title", ""), 60)
+            summary = _md_cell(p.get(summary_key, p.get("one_line_summary", "")), 80)
             authors = ", ".join(p.get("authors", [])[:2])
             if len(p.get("authors", [])) > 2:
                 authors += "+"
+            authors = _md_cell(authors)
             year = p.get("year", "")
             score = p.get("relevance_score", 0)
             url = p.get("url", "#")
@@ -281,17 +318,24 @@ def generate_main_readme(records: list[dict], stats: dict, lang: str = "zh") -> 
         lines.append("")
         lines.append(f"| {T('tag')} | {T('col_title')} | {T('summary')} | {T('author')} | {T('score')} |")
         lines.append("|------|------|------|------|------|")
-        for p in year_papers:
+        for p in year_papers[:12]:
             icon = label_icon.get(p.get("quality_label", ""), "📝")
-            title = p.get("title", "")[:50]
-            summary = p.get(summary_key, p.get("one_line_summary", ""))[:70]
+            title = _md_cell(p.get("title", ""), 50)
+            summary = _md_cell(p.get(summary_key, p.get("one_line_summary", "")), 70)
             authors = ", ".join(p.get("authors", [])[:2])
             if len(p.get("authors", [])) > 2:
                 authors += "+"
+            authors = _md_cell(authors)
             score = p.get("relevance_score", 0)
             url = p.get("url", "#")
             lines.append(f"| {icon} | [{title}]({url}) | {summary} | {authors} | {score} |")
         lines.append("")
+        if len(year_papers) > 12:
+            if lang == "zh":
+                lines.append(f"*仅展示前 12 篇，完整 {len(year_papers)} 篇请查看 [ALL_PAPERS_zh.md](ALL_PAPERS_zh.md)。*")
+            else:
+                lines.append(f"*Showing 12 of {len(year_papers)} papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*")
+            lines.append("")
         lines.append("</details>")
         lines.append("")
 
@@ -313,7 +357,13 @@ def generate_main_readme(records: list[dict], stats: dict, lang: str = "zh") -> 
         lines.append("                            ▼")
         lines.append("┌─────────────────────────────────────────────────────────────┐")
         lines.append("│                     Collector                               │")
-        lines.append("│         arXiv API  ◄────  Semantic Scholar API              │")
+        lines.append("│         arXiv API  +  Semantic Scholar API                  │")
+        lines.append("└───────────────────────────┬─────────────────────────────────┘")
+        lines.append("                            │")
+        lines.append("                            ▼")
+        lines.append("┌─────────────────────────────────────────────────────────────┐")
+        lines.append("│              Normalizer + CrossRef Enrichment               │")
+        lines.append("│        ID/版本规范化、跨源去重、引用与 Venue 增强           │")
         lines.append("└───────────────────────────┬─────────────────────────────────┘")
         lines.append("                            │")
         lines.append("                            ▼")
@@ -325,7 +375,7 @@ def generate_main_readme(records: list[dict], stats: dict, lang: str = "zh") -> 
         lines.append("                            ▼")
         lines.append("┌─────────────────────────────────────────────────────────────┐")
         lines.append("│                      Storage                                │")
-        lines.append("│              papers/index.jsonl (主索引)                    │")
+        lines.append("│   papers/index.jsonl + papers/quarantine.jsonl              │")
         lines.append("└───────────────────────────┬─────────────────────────────────┘")
         lines.append("                            │")
         lines.append("          ┌─────────────────┼─────────────────┐")
@@ -347,7 +397,13 @@ def generate_main_readme(records: list[dict], stats: dict, lang: str = "zh") -> 
         lines.append("                            ▼")
         lines.append("┌─────────────────────────────────────────────────────────────┐")
         lines.append("│                     Collector                               │")
-        lines.append("│         arXiv API  ◄────  Semantic Scholar API              │")
+        lines.append("│         arXiv API  +  Semantic Scholar API                  │")
+        lines.append("└───────────────────────────┬─────────────────────────────────┘")
+        lines.append("                            │")
+        lines.append("                            ▼")
+        lines.append("┌─────────────────────────────────────────────────────────────┐")
+        lines.append("│              Normalizer + CrossRef Enrichment               │")
+        lines.append("│        ID/version normalization, dedup, citations           │")
         lines.append("└───────────────────────────┬─────────────────────────────────┘")
         lines.append("                            │")
         lines.append("                            ▼")
@@ -359,7 +415,7 @@ def generate_main_readme(records: list[dict], stats: dict, lang: str = "zh") -> 
         lines.append("                            ▼")
         lines.append("┌─────────────────────────────────────────────────────────────┐")
         lines.append("│                      Storage                                │")
-        lines.append("│              papers/index.jsonl (Main Index)                │")
+        lines.append("│   papers/index.jsonl + papers/quarantine.jsonl              │")
         lines.append("└───────────────────────────┬─────────────────────────────────┘")
         lines.append("                            │")
         lines.append("          ┌─────────────────┼─────────────────┐")
@@ -385,7 +441,7 @@ def generate_main_readme(records: list[dict], stats: dict, lang: str = "zh") -> 
         lines.append("")
         lines.append("| 🎯 Smart Search | 📊 Data Enhancement | 🌐 Multi-Source | 🔔 Auto Notify |")
         lines.append("|:--------------:|:------------------:|:--------------:|:--------------:|")
-        lines.append("| Daily arXiv search | CrossRef citation backfill | arXiv + Semantic Scholar | Feishu Webhook |")
+        lines.append("| Daily arXiv search | CrossRef enrichment for new papers | arXiv + Semantic Scholar | Feishu Webhook |")
         lines.append("| 24 layered queries | CN/EN summary generation | Title dedup + ID norm | Success/Failure alerts |")
         lines.append("| Score-based filtering | Topic clustering | Citation + Venue boost | GitHub Actions |")
     lines.append("")
@@ -437,15 +493,16 @@ def generate_all_papers(records: list[dict], lang: str = "zh") -> str:
         lines.append("|------|------|------|------|----------|------|--------|")
         for p in year_papers:
             icon = label_icon.get(p.get("quality_label", ""), "📝")
-            title = p.get("title", "")[:60]
+            title = _md_cell(p.get("title", ""), 60)
             authors = ", ".join(p.get("authors", [])[:2])
             if len(p.get("authors", [])) > 2:
                 authors += "+"
             score = p.get("relevance_score", 0)
-            qt = p.get("query_type", "")
+            authors = _md_cell(authors)
+            qt = _md_cell(p.get("query_type", ""))
             url = p.get("url", "#")
-            source = p.get("source", "arxiv")
-            summary = p.get(summary_key, p.get("one_line_summary", ""))[:60]
+            source = _md_cell(p.get("source", "unknown"))
+            summary = _md_cell(p.get(summary_key, p.get("one_line_summary", "")), 60)
             lines.append(f"| {icon} | [{title}]({url}) | {summary} | {authors} | {score} | {qt} | {source} |")
         lines.append("")
 
