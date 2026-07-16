@@ -1,18 +1,18 @@
 # 📂 主题视图
 
-> 共 8 个主题 | 最后更新: 2026-07-15 04:19
+> 共 8 个主题 | 最后更新: 2026-07-16 04:22
 
 ## 📊 主题概览
 
 | 主题 | 论文数 | 核心论文 | 说明 |
 |------|--------|----------|------|
-| 时序解释 | 505 | 178 | 聚焦于视频时序维度的可解释性研究 |
-| 动作识别可解释性 | 225 | 107 | 视频动作识别 / 分类任务的可解释性研究 |
+| 时序解释 | 506 | 176 | 聚焦于视频时序维度的可解释性研究 |
+| 动作识别可解释性 | 226 | 105 | 视频动作识别 / 分类任务的可解释性研究 |
 | 视频 Transformer 可解释性 | 188 | 61 | Vision Transformer / Video Transformer 的可解释性 |
 | 网络解剖 | 140 | 42 | 网络内部单元 / 特征可视化与解剖 |
-| 视频显著性 | 125 | 43 | 视频/空间显著性检测与可视化 |
-| 注意力与归因 | 122 | 39 | 注意力机制分析与梯度归因方法 |
-| 3D CNN 解释 | 117 | 59 | 3D 卷积网络 / R(2+1)D 等时空卷积模型的可解释性 |
+| 视频显著性 | 125 | 41 | 视频/空间显著性检测与可视化 |
+| 注意力与归因 | 123 | 36 | 注意力机制分析与梯度归因方法 |
+| 3D CNN 解释 | 117 | 58 | 3D 卷积网络 / R(2+1)D 等时空卷积模型的可解释性 |
 | 鲁棒性与对抗 | 62 | 14 | 视频模型的鲁棒性与对抗攻击/防御 |
 | 未分类 | 41 | - | - |
 
@@ -40,7 +40,7 @@
 | 🔥 | [Deep Neural Networks in Video Human Action Recognition: A Re](http://arxiv.org/abs/2305.15692v1) | 2023 | 5.5 |
 | 🔥 | [Large-scale Robustness Analysis of Video Action Recognition ](http://arxiv.org/abs/2207.01398v2) | 2022 | 5.5 |
 
-*... 共 505 篇，仅显示前 15 篇*
+*... 共 506 篇，仅显示前 15 篇*
 
 ---
 
@@ -66,7 +66,7 @@
 | 🔥 | [A review of Convolutional-Neural-Network-based action recogn](https://www.semanticscholar.org/paper/2c12495bfb2f47881191ce0cb672f0372c6a31e2) | 2019 | 5.3 |
 | 🔥 | [Spatiotemporal distilled dense-connectivity network for vide](https://www.semanticscholar.org/paper/04d27bbbc875bd8fe52521112841d47b21950e7c) | 2019 | 5.3 |
 
-*... 共 225 篇，仅显示前 15 篇*
+*... 共 226 篇，仅显示前 15 篇*
 
 ---
 
@@ -140,9 +140,9 @@
 | 🔥 | [Saliency for Fine-grained Object Recognition in Domains with](http://arxiv.org/abs/1808.00262v3) | 2018 | 5.0 |
 | 🔥 | [Review of Visual Saliency Detection with Comprehensive Infor](http://arxiv.org/abs/1803.03391v2) | 2018 | 5.0 |
 | 🔥 | [Predicting Video Saliency with Object-to-Motion CNN and Two-](http://arxiv.org/abs/1709.06316v3) | 2017 | 5.0 |
-| 🔥 | [Exploring Explainability in Video Action Recognition](http://arxiv.org/abs/2404.09067v1) | 2024 | 4.9 |
 | 🔥 | [No-Reference Video Quality Assessment Using Multi-Pooled, Sa](https://www.semanticscholar.org/paper/0d15b4ca86a7b7a8f26c4957a8f7b86b4e5fc3e6) | 2022 | 4.8 |
 | 🔥 | [Graph-Theoretic Spatiotemporal Context Modeling for Video Sa](http://arxiv.org/abs/1707.07815v1) | 2017 | 4.8 |
+| 🔥 | [Token Merging via Spatiotemporal Information Mining for Surg](http://arxiv.org/abs/2509.23672v1) | 2025 | 4.7 |
 
 *... 共 125 篇，仅显示前 15 篇*
 
@@ -164,13 +164,13 @@
 | 🔥 | [RANP: Resource Aware Neuron Pruning at Initialization for 3D](http://arxiv.org/abs/2010.02488v3) | 2020 | 5.2 |
 | 🔥 | [IVEX-WA and IVEX-MetaStack Ensemble Models: A Transfer Learn](https://www.semanticscholar.org/paper/95b40a68c7bc69ad435a644ae21803289f429352) | 2026 | 5.0 |
 | 🔥 | [3D Convolutional with Attention for Action Recognition](http://arxiv.org/abs/2206.02203v1) | 2022 | 5.0 |
-| 🔥 | [Exploring Explainability in Video Action Recognition](http://arxiv.org/abs/2404.09067v1) | 2024 | 4.9 |
 | 🔥 | [RepAttn3D: Re-parameterizing 3D attention with spatiotempora](https://www.semanticscholar.org/paper/10363be6ea7467ba7979e10a46379c461ee93c2b) | 2025 | 4.8 |
 | 🔥 | [Human Action Recognition Based on 3D Convolution and Multi-A](https://www.semanticscholar.org/paper/778274e1b626aff5327dfe9cf4234ed6d55c2ea7) | 2025 | 4.8 |
 | 🔥 | [Isolated Video-Based Sign Language Recognition Using a Hybri](https://www.semanticscholar.org/paper/fef413d4970c737ebf559fcf39e766910716795b) | 2024 | 4.7 |
 | 🔥 | [TSGB: Target-Selective Gradient Backprop for Probing CNN Vis](http://arxiv.org/abs/2110.05182v2) | 2021 | 4.7 |
+| 🔥 | [Effects of Different Attention Mechanisms Applied on 3D Mode](https://arxiv.org/abs/2601.10854) | 2026 | 4.6 |
 
-*... 共 122 篇，仅显示前 15 篇*
+*... 共 123 篇，仅显示前 15 篇*
 
 ---
 
