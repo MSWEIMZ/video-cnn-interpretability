@@ -4,12 +4,12 @@
 <p align="center"><em>Automated paper curation for video deep learning & explainability research</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-524-blue" alt="papers" />
-  <img src="https://img.shields.io/badge/core-187-green" alt="core" />
-  <img src="https://img.shields.io/badge/strongly_related-337-yellow" alt="strongly_related" />
-  <img src="https://img.shields.io/badge/arXiv-208-critical" alt="arXiv" />
+  <img src="https://img.shields.io/badge/papers-536-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/core-190-green" alt="core" />
+  <img src="https://img.shields.io/badge/strongly_related-346-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/arXiv-220-critical" alt="arXiv" />
   <img src="https://img.shields.io/badge/Semantic_Scholar-311-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-07-16-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/last_update-2026-07-17-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -23,15 +23,15 @@
 
 | Metric | Count |
 |--------|-------|
-| 📚 Total Papers | **524** |
-| 🔥 Core Papers | **187** |
-| 📎 Strongly Related | **337** |
-| 🆕 New This Month | **1** |
-| 📡 arXiv | 208 |
+| 📚 Total Papers | **536** |
+| 🔥 Core Papers | **190** |
+| 📎 Strongly Related | **346** |
+| 🆕 New This Month | **13** |
+| 📡 arXiv | 220 |
 | 🔬 Semantic Scholar | 311 |
 | 🔗 CrossRef Enriched | 0 |
 | ✍️ Manual | 5 |
-| ⏰ Last Updated | 2026-07-16 15:05:18 |
+| ⏰ Last Updated | 2026-07-17 04:14:10 |
 
 ## 🏆 Top 5 Most Influential
 
@@ -65,6 +65,7 @@
 |------|------|------|------|------|
 | 2026 | [Video Understanding: From Geometry and Semantics to Unified ](http://arxiv.org/abs/2603.17840v1) | Video understanding aims to enable models to perceive, reason about, and interac | Zhaochong An, Zirui Li+ | 5.2 |
 | 2026 | [IVEX-WA and IVEX-MetaStack Ensemble Models: A Transfer Learn](https://www.semanticscholar.org/paper/95b40a68c7bc69ad435a644ae21803289f429352) | Human action recognition (HAR) using deep learning approaches has significantly  | Md Tasnim Alam, Subhram Dasgupta+ | 5.0 |
+| 2026 | [Hierarchical Denoising For Multi-Step Visual Reasoning](http://arxiv.org/abs/2607.15278v1) | Video models are evolving into vision foundation models, yet they still lack hum | Zezhong Qian, Xiaowei Chi+ | 5.0 |
 | 2026 | [3D-RFT: Reinforcement Fine-Tuning for Video-based 3D Scene U](http://arxiv.org/abs/2603.04976v2) | Reinforcement Learning with Verifiable Rewards ( RLVR ) has emerged as a transfo | Xiongkun Linghu, Jiangyong Huang+ | 4.9 |
 | 2026 | [Video-Oasis: Rethinking Evaluation of Video Understanding](http://arxiv.org/abs/2603.29616v2) | The inherent complexity of video understanding makes it difficult to determine w | Geuntaek Lim, Sungjune Park+ | 4.9 |
 | 2026 | [A Very Big Video Reasoning Suite](http://arxiv.org/abs/2602.20159v2) | Rapid progress in video models has largely focused on visual quality, leaving th | Maijunxian Wang, Ruisi Wang+ | 4.8 |
@@ -72,6 +73,8 @@
 | 2026 | [A Systematic Benchmarking of XAI Methods for Weapon Recognit](https://www.semanticscholar.org/paper/448aa4c4137b0f5c237acb22c10ea007953e562b) | Automated analysis of surveillance video plays a critical role in modern securit | H. Alsuwaidi, Fatih Kurugollu+ | 4.4 |
 | 2026 | [BCAT-Net: Binocular Cross-Attention Transformer Network for ](https://www.semanticscholar.org/paper/54fcb1e69b041e5ce6be3c7132457b81e80fd163) | The selective nature of human visual attention is fundamentally altered under st | Kaushal Kumar | 4.1 |
 | 2026 | [Beyond CNNs: A Comparative Framework for Explainable and Hyb](https://www.semanticscholar.org/paper/6361115ec031c08a1ebc6131f50842a10ad558a8) | Unstructured environments, shifting motion patterns, and a lack of labelled anom | Akshita M B, Abhinay Kumar+ | 4.1 |
+| 2026 | [Online Neural Space Time Memory for Dynamic Novel View Synth](http://arxiv.org/abs/2607.15271v1) | Online novel view synthesis from multi-view streaming videos faces a fundamental | Baback Elmieh, Lynn Tsai+ | 4.1 |
+| 2026 | [Video = World + Event Stream](http://arxiv.org/abs/2607.15038v1) | We present Wan-Streamer v0. 3, which reframes our native-streaming interaction m | Lianghua Huang, Zhi-Fan Wu+ | 4.1 |
 | 2025 | [Enhancing Video Understanding: Deep Neural Networks for Spat](http://arxiv.org/abs/2502.07277v1) | It's no secret that video has become the primary way we share information online | Amir Hosein Fadaei, Mohammad-Reza A. Dehaqani | 5.8 |
 | 2025 | [Fine tuning 3D Convolutional Networks for enhanced Action Re](https://www.semanticscholar.org/paper/5117082498715afed2125ea29c0db60380ff027c) | The study of Human Activity Recognition (HAR) has attracted considerable attenti | Abir Frad, Hend Basly+ | 5.4 |
 | 2025 | [A Hybrid 3D CNNs Transformer Architecture for Video-Based Hu](https://www.semanticscholar.org/paper/e6b804076db44eb636ebe9d8ec47bcd3aa31a067) | Video-Based Human Action Recognition (HAR) remains challenging due to inter-clas | Engin Seven, Eylem Yücel Demirel | 5.4 |
@@ -80,15 +83,14 @@
 | 2025 | [Video deepfake detection using a hybrid CNN-LSTM-Transformer](https://www.semanticscholar.org/paper/e17c9359b8cbf6f327523694fcf4019a65134a09) | The proliferation of deepfake technology poses significant challenges due to its | G. Petmezas, Vazgken Vanian+ | 5.0 |
 | 2025 | [TinyLLaVA-Video: Towards Smaller LMMs for Video Understandin](http://arxiv.org/abs/2501.15513v2) | Video behavior recognition and scene understanding are fundamental tasks in mult | Xingjian Zhang, Xi Weng+ | 4.9 |
 | 2025 | [Harnessing Synthetic Preference Data for Enhancing Temporal ](http://arxiv.org/abs/2510.03955v1) | While Video Large Language Models (Video-LLMs) have demonstrated remarkable perf | Sameep Vani, Shreyas Jena+ | 4.9 |
-| 2025 | [AceVFI: A Comprehensive Survey of Advances in Video Frame In](http://arxiv.org/abs/2506.01061v3) | Video Frame Interpolation (VFI) is a core low-level vision task that synthesizes | Dahyeon Kye, Changhyun Roh+ | 4.9 |
-| 2025 | [How Much 3D Do Video Foundation Models Encode?](http://arxiv.org/abs/2512.19949v1) | Videos are continuous 2D projections of 3D worlds. After training on large video | Zixuan Huang, Xiang Li+ | 4.9 |
-| 2025 | [A Novel 3D Convolutional Neural Network-Based Deep Learning ](https://www.semanticscholar.org/paper/6641c1664e33a1a7c43c67a39d9c8bc570b3f34f) | Accurate analysis of medical videos remains a major challenge in deep learning ( | M. K. Dhar, Mou Deb+ | 4.9 |
 
 ## 📎 Strongly Related Papers
 
 | Year | Title | Summary | Author | Score |
 |------|------|------|------|------|
 | 2026 | [PSAM: Parameter-Free Spatiotemporal Attention Mechanism for ](https://www.semanticscholar.org/paper/3711f35824427708f33895b6529bb278c18de98b) | Spatiotemporal attention learning has always been a challenging research task in | Fuwei Zhang, Ruomei Wang+ | 3.8 |
+| 2026 | [MeanFlowNFT: Bringing Forward-Process RL to Average-Velocity](http://arxiv.org/abs/2607.15273v1) | MeanFlow generators achieve fast few-step sampling by predicting average velocit | Yushi Huang, Xiangxin Zhou+ | 3.8 |
+| 2026 | [MAGiSt3R: Multi-Agent Feed-forward 3D Reconstruction from Mo](http://arxiv.org/abs/2607.15211v1) | This paper presents MAGiSt3R, a multi-agent 3D reconstruction framework performi | Ziren Gong, Xiaohan Li+ | 3.8 |
 | 2026 | [ViASNet: A Video Ad Saliency Network for Predicting Dynamic ](http://arxiv.org/abs/2605.29302v1) | The digital media landscape has seen a pervasive shift toward short-form video a | Jianping Ye, Michel Wedel | 3.7 |
 | 2026 | [Genflow Ad Studio: A Compound AI Architecture for Brand-Alig](http://arxiv.org/abs/2605.16748v1) | Recent advancements in generative video models demonstrate high visual fidelity, | Debanshu Das, Lavi Nigam+ | 3.7 |
 | 2026 | [Learning Face–Hand Interaction With a Convolutional Network ](https://www.semanticscholar.org/paper/075576f9c5f52bf17751c4862834a56290e4749d) | Understanding sign language requires careful consideration of the relationships  | Jiin Takeda, N. Mukai+ | 3.7 |
@@ -96,18 +98,17 @@
 | 2026 | [A Deep Learning Based Approach to Real Time Video Content An](https://www.semanticscholar.org/paper/5a5505995fce05952158e1df54ec57d0e0150d8b) | This study explores the integration of deep learning based approaches in real ti | Arsito Ari Kuncoro, Siswanto Siswanto+ | 3.5 |
 | 2026 | [Neuro-Prismatic Video Models for Causality-Aware Action Reco](https://www.semanticscholar.org/paper/3c101fad76600998d739be5500075ef386087a50) | Video-based action recognition for neural rehabilitation—spanning stroke recover | Hend Alshaya | 3.5 |
 | 2026 | [Artificial Intelligence-Based Visualization System for Preci](https://www.semanticscholar.org/paper/a36e9843d1cca4b2936cf182a4511fb64e858063) | With the widespread application of AI in sports training, this paper proposes a  | Shuiting Pei | 3.5 |
-| 2026 | [Grounding Video Reasoning in Physical Signals](http://arxiv.org/abs/2604.21873v1) | Physical video understanding requires more than naming an event correctly. A mod | Alibay Osmanli, Zixu Cheng+ | 3.4 |
-| 2026 | [EvoGround: Self-Evolving Video Agents for Video Temporal Gro](http://arxiv.org/abs/2605.13803v1) | Video temporal grounding (VTG) takes an untrimmed video and a natural-language q | Minjoon Jung, Byoung-Tak Zhang+ | 3.4 |
 
 ---
 
 <details>
-<summary>📅 2026 (30 papers)</summary>
+<summary>📅 2026 (42 papers)</summary>
 
 | Tag | Title | Summary | Author | Score |
 |------|------|------|------|------|
 | 🔥 | [Video Understanding: From Geometry and Semantics t](http://arxiv.org/abs/2603.17840v1) | Video understanding aims to enable models to perceive, reason about, a | Zhaochong An, Zirui Li+ | 5.2 |
 | 🔥 | [IVEX-WA and IVEX-MetaStack Ensemble Models: A Tran](https://www.semanticscholar.org/paper/95b40a68c7bc69ad435a644ae21803289f429352) | Human action recognition (HAR) using deep learning approaches has sign | Md Tasnim Alam, Subhram Dasgupta+ | 5.0 |
+| 🔥 | [Hierarchical Denoising For Multi-Step Visual Reaso](http://arxiv.org/abs/2607.15278v1) | Video models are evolving into vision foundation models, yet they stil | Zezhong Qian, Xiaowei Chi+ | 5.0 |
 | 🔥 | [3D-RFT: Reinforcement Fine-Tuning for Video-based ](http://arxiv.org/abs/2603.04976v2) | Reinforcement Learning with Verifiable Rewards ( RLVR ) has emerged as | Xiongkun Linghu, Jiangyong Huang+ | 4.9 |
 | 🔥 | [Video-Oasis: Rethinking Evaluation of Video Unders](http://arxiv.org/abs/2603.29616v2) | The inherent complexity of video understanding makes it difficult to d | Geuntaek Lim, Sungjune Park+ | 4.9 |
 | 🔥 | [A Very Big Video Reasoning Suite](http://arxiv.org/abs/2602.20159v2) | Rapid progress in video models has largely focused on visual quality,  | Maijunxian Wang, Ruisi Wang+ | 4.8 |
@@ -115,11 +116,10 @@
 | 🔥 | [A Systematic Benchmarking of XAI Methods for Weapo](https://www.semanticscholar.org/paper/448aa4c4137b0f5c237acb22c10ea007953e562b) | Automated analysis of surveillance video plays a critical role in mode | H. Alsuwaidi, Fatih Kurugollu+ | 4.4 |
 | 🔥 | [BCAT-Net: Binocular Cross-Attention Transformer Ne](https://www.semanticscholar.org/paper/54fcb1e69b041e5ce6be3c7132457b81e80fd163) | The selective nature of human visual attention is fundamentally altere | Kaushal Kumar | 4.1 |
 | 🔥 | [Beyond CNNs: A Comparative Framework for Explainab](https://www.semanticscholar.org/paper/6361115ec031c08a1ebc6131f50842a10ad558a8) | Unstructured environments, shifting motion patterns, and a lack of lab | Akshita M B, Abhinay Kumar+ | 4.1 |
-| 📎 | [PSAM: Parameter-Free Spatiotemporal Attention Mech](https://www.semanticscholar.org/paper/3711f35824427708f33895b6529bb278c18de98b) | Spatiotemporal attention learning has always been a challenging resear | Fuwei Zhang, Ruomei Wang+ | 3.8 |
-| 📎 | [ViASNet: A Video Ad Saliency Network for Predictin](http://arxiv.org/abs/2605.29302v1) | The digital media landscape has seen a pervasive shift toward short-fo | Jianping Ye, Michel Wedel | 3.7 |
-| 📎 | [Genflow Ad Studio: A Compound AI Architecture for ](http://arxiv.org/abs/2605.16748v1) | Recent advancements in generative video models demonstrate high visual | Debanshu Das, Lavi Nigam+ | 3.7 |
+| 🔥 | [Online Neural Space Time Memory for Dynamic Novel ](http://arxiv.org/abs/2607.15271v1) | Online novel view synthesis from multi-view streaming videos faces a f | Baback Elmieh, Lynn Tsai+ | 4.1 |
+| 🔥 | [Video = World + Event Stream](http://arxiv.org/abs/2607.15038v1) | We present Wan-Streamer v0. 3, which reframes our native-streaming int | Lianghua Huang, Zhi-Fan Wu+ | 4.1 |
 
-*Showing 12 of 30 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
+*Showing 12 of 42 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
 
 </details>
 
