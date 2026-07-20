@@ -1,6 +1,6 @@
 # 📈 论文趋势报告
 
-> 生成时间: 2026-07-18 04:06:38 | 共 536 篇论文
+> 生成时间: 2026-07-20 04:42:25 | 共 556 篇论文
 
 ---
 
@@ -8,7 +8,7 @@
 
 | 季度 | 数量 |
 |------|------|
-| 2026 Q3 | 13 |
+| 2026 Q3 | 33 |
 | 2026 Q2 | 6 |
 | 2026 Q1 | 23 |
 | 2025 Q4 | 6 |
@@ -60,14 +60,14 @@
 
 | 主题 | 数量 |
 |------|------|
-| temporal_explanation | 445 |
-| action_recognition_interpretability | 226 |
-| video_transformer | 159 |
-| network_dissection | 118 |
+| temporal_explanation | 465 |
+| action_recognition_interpretability | 227 |
+| video_transformer | 164 |
+| network_dissection | 124 |
 | 3d_cnn_explanation | 115 |
-| attention_attribution | 95 |
+| attention_attribution | 97 |
 | video_saliency | 91 |
-| robustness_adversarial | 50 |
+| robustness_adversarial | 51 |
 
 ---
 
@@ -75,16 +75,16 @@
 
 | 方法类型 | 数量 |
 |------|------|
-| benchmark | 377 |
-| attention-based | 210 |
-| generative | 89 |
-| visualization | 86 |
-| perturbation-based | 66 |
-| other | 58 |
-| gradient-based | 45 |
-| concept-based | 25 |
-| decomposition | 21 |
-| probing | 6 |
+| benchmark | 388 |
+| attention-based | 219 |
+| generative | 95 |
+| visualization | 87 |
+| perturbation-based | 69 |
+| other | 61 |
+| gradient-based | 46 |
+| concept-based | 28 |
+| decomposition | 23 |
+| probing | 8 |
 
 ---
 
@@ -93,5 +93,5 @@
 | 来源 | 数量 |
 |------|------|
 | semantic_scholar | 311 |
-| arxiv | 220 |
+| arxiv | 240 |
 | manual | 5 |
