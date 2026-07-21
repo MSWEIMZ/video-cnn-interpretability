@@ -1,16 +1,16 @@
 # 📂 主题视图
 
-> 共 8 个主题 | 最后更新: 2026-07-20 04:42
+> 共 8 个主题 | 最后更新: 2026-07-21 04:21
 
 ## 📊 主题概览
 
 | 主题 | 论文数 | 核心论文 | 说明 |
 |------|--------|----------|------|
-| 时序解释 | 465 | 181 | 聚焦于视频时序维度的可解释性研究 |
-| 动作识别可解释性 | 227 | 105 | 视频动作识别 / 分类任务的可解释性研究 |
-| 视频 Transformer 可解释性 | 164 | 61 | Vision Transformer / Video Transformer 的可解释性 |
-| 网络解剖 | 124 | 42 | 网络内部单元 / 特征可视化与解剖 |
-| 3D CNN 解释 | 115 | 58 | 3D 卷积网络 / R(2+1)D 等时空卷积模型的可解释性 |
+| 时序解释 | 480 | 191 | 聚焦于视频时序维度的可解释性研究 |
+| 动作识别可解释性 | 228 | 106 | 视频动作识别 / 分类任务的可解释性研究 |
+| 视频 Transformer 可解释性 | 168 | 63 | Vision Transformer / Video Transformer 的可解释性 |
+| 网络解剖 | 127 | 43 | 网络内部单元 / 特征可视化与解剖 |
+| 3D CNN 解释 | 116 | 59 | 3D 卷积网络 / R(2+1)D 等时空卷积模型的可解释性 |
 | 注意力与归因 | 97 | 35 | 注意力机制分析与梯度归因方法 |
 | 视频显著性 | 91 | 33 | 视频/空间显著性检测与可视化 |
 | 鲁棒性与对抗 | 51 | 15 | 视频模型的鲁棒性与对抗攻击/防御 |
@@ -40,7 +40,7 @@
 | 🔥 | [Video-FocalNets: Spatio-Temporal Focal Modulation for Video ](http://arxiv.org/abs/2307.06947v4) | 2023 | 5.5 |
 | 🔥 | [Deep Neural Networks in Video Human Action Recognition: A Re](http://arxiv.org/abs/2305.15692v1) | 2023 | 5.5 |
 
-*... 共 465 篇，仅显示前 15 篇*
+*... 共 480 篇，仅显示前 15 篇*
 
 ---
 
@@ -66,7 +66,7 @@
 | 🔥 | [A review of Convolutional-Neural-Network-based action recogn](https://www.semanticscholar.org/paper/2c12495bfb2f47881191ce0cb672f0372c6a31e2) | 2019 | 5.3 |
 | 🔥 | [Spatiotemporal distilled dense-connectivity network for vide](https://www.semanticscholar.org/paper/04d27bbbc875bd8fe52521112841d47b21950e7c) | 2019 | 5.3 |
 
-*... 共 227 篇，仅显示前 15 篇*
+*... 共 228 篇，仅显示前 15 篇*
 
 ---
 
@@ -92,7 +92,7 @@
 | 🔥 | [Video deepfake detection using a hybrid CNN-LSTM-Transformer](https://www.semanticscholar.org/paper/e17c9359b8cbf6f327523694fcf4019a65134a09) | 2025 | 5.0 |
 | 🔥 | [UniFormerV2: Spatiotemporal Learning by Arming Image ViTs wi](https://arxiv.org/abs/2211.09552) | 2022 | 5.0 |
 
-*... 共 164 篇，仅显示前 15 篇*
+*... 共 168 篇，仅显示前 15 篇*
 
 ---
 
@@ -118,7 +118,7 @@
 | 🔥 | [Token Shift Transformer for Video Classification](https://arxiv.org/abs/2108.02432) | 2021 | 5.0 |
 | 🔥 | [Would Mega-scale Datasets Further Enhance Spatiotemporal 3D ](http://arxiv.org/abs/2004.04968v1) | 2020 | 5.0 |
 
-*... 共 124 篇，仅显示前 15 篇*
+*... 共 127 篇，仅显示前 15 篇*
 
 ---
 
@@ -144,7 +144,7 @@
 | 🔥 | [3D Convolutional with Attention for Action Recognition](http://arxiv.org/abs/2206.02203v1) | 2022 | 5.0 |
 | 🔥 | [Would Mega-scale Datasets Further Enhance Spatiotemporal 3D ](http://arxiv.org/abs/2004.04968v1) | 2020 | 5.0 |
 
-*... 共 115 篇，仅显示前 15 篇*
+*... 共 116 篇，仅显示前 15 篇*
 
 ---
 

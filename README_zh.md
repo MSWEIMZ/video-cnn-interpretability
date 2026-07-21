@@ -4,12 +4,12 @@
 <p align="center"><em>视频深度学习与可解释性论文自动搜集系统</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-556-blue" alt="papers" />
-  <img src="https://img.shields.io/badge/core-199-green" alt="core" />
-  <img src="https://img.shields.io/badge/strongly_related-357-yellow" alt="strongly_related" />
-  <img src="https://img.shields.io/badge/arXiv-240-critical" alt="arXiv" />
+  <img src="https://img.shields.io/badge/papers-571-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/core-209-green" alt="core" />
+  <img src="https://img.shields.io/badge/strongly_related-362-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/arXiv-255-critical" alt="arXiv" />
   <img src="https://img.shields.io/badge/Semantic_Scholar-311-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-07-20-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/last_update-2026-07-21-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -23,15 +23,15 @@
 
 | 指标 | 数量 |
 |------|------|
-| 📚 论文总数 | **556** |
-| 🔥 核心论文 | **199** |
-| 📎 高相关论文 | **357** |
-| 🆕 本月新增 | **33** |
-| 📡 arXiv | 240 |
+| 📚 论文总数 | **571** |
+| 🔥 核心论文 | **209** |
+| 📎 高相关论文 | **362** |
+| 🆕 本月新增 | **48** |
+| 📡 arXiv | 255 |
 | 🔬 Semantic Scholar | 311 |
 | 🔗 CrossRef 增强 | 2 |
 | ✍️ 手工整理 | 5 |
-| ⏰ 最后更新 | 2026-07-20 04:42:25 |
+| ⏰ 最后更新 | 2026-07-21 04:21:15 |
 
 ## 🏆 高影响力论文 Top 5
 
@@ -66,23 +66,23 @@
 | 2026 | [Searching Videos as Trees: Self-Correcting Agents for Ground](http://arxiv.org/abs/2607.16189v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Ce Zhang, Ziyang Wang+ | 5.5 |
 | 2026 | [Video Understanding: From Geometry and Semantics to Unified ](http://arxiv.org/abs/2603.17840v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Zhaochong An, Zirui Li+ | 5.2 |
 | 2026 | [Audio-Visual Flamingo: Open Audio-Visual Intelligence for Lo](http://arxiv.org/abs/2607.16107v1) | 本文聚焦视频模型可解释性，采用梯度归因、显著性或概念分析，主要用于分析模型依据及关键空间或时间区域。 | Sreyan Ghosh, Arushi Goel+ | 5.2 |
+| 2026 | [Sparse Evidence Can Suffice: Agentic Evidence Seeking for Mu](http://arxiv.org/abs/2607.18080v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于完成识别或分类任务并评估模型表现。 | Haochen Zhao, Yongxiu Xu+ | 5.2 |
+| 2026 | [HAS: Highlight-guided Attention Steering for Multimodal LLM ](http://arxiv.org/abs/2607.17994v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于研究模型表示、推理能力及应用效果。 | Rui Chu, Yingjie Lao | 5.2 |
 | 2026 | [IVEX-WA and IVEX-MetaStack Ensemble Models: A Transfer Learn](https://www.semanticscholar.org/paper/95b40a68c7bc69ad435a644ae21803289f429352) | 本文聚焦视频模型可解释性，采用梯度归因、显著性或概念分析，主要用于分析模型依据及关键空间或时间区域。 | Md Tasnim Alam, Subhram Dasgupta+ | 5.0 |
 | 2026 | [Hierarchical Denoising For Multi-Step Visual Reasoning](http://arxiv.org/abs/2607.15278v1) | 本文聚焦视频理解与时序推理，采用时空注意力或 Transformer，主要用于研究模型表示、推理能力及应用效果。 | Zezhong Qian, Xiaowei Chi+ | 5.0 |
 | 2026 | [Exo2EgoPose: Leveraging Exocentric Demonstrations for Vision](http://arxiv.org/abs/2607.15890v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于研究模型表示、推理能力及应用效果。 | Zhaofeng Shi, Heqian Qiu+ | 5.0 |
 | 2026 | [3D-RFT: Reinforcement Fine-Tuning for Video-based 3D Scene U](http://arxiv.org/abs/2603.04976v2) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于完成识别或分类任务并评估模型表现。 | Xiongkun Linghu, Jiangyong Huang+ | 4.9 |
 | 2026 | [Video-Oasis: Rethinking Evaluation of Video Understanding](http://arxiv.org/abs/2603.29616v2) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于研究模型表示、推理能力及应用效果。 | Geuntaek Lim, Sungjune Park+ | 4.9 |
 | 2026 | [Knowing the Self, Understanding the World: A Dual-Cognition ](http://arxiv.org/abs/2607.16193v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于构建或评估基准并比较不同方法。 | Like Liu, Zhengzheng Xu+ | 4.9 |
+| 2026 | [SGA: Plug&Play Geometric Verification for Educational Video ](http://arxiv.org/abs/2607.18116v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Lopez Jhon, Hinojosa Carlos+ | 4.9 |
 | 2026 | [A Very Big Video Reasoning Suite](http://arxiv.org/abs/2602.20159v2) | 本文聚焦视频模型可解释性，采用梯度归因、显著性或概念分析，主要用于分析模型依据及关键空间或时间区域。 | Maijunxian Wang, Ruisi Wang+ | 4.8 |
+| 2026 | [O-VAD: Industrial Video Anomaly Detection through Object-Cen](http://arxiv.org/abs/2607.18142v1) | 本文聚焦视频模型可解释性，采用梯度归因、显著性或概念分析，主要用于完成识别或分类任务并评估模型表现。 | Mei Yuan, Qi Long+ | 4.7 |
 | 2026 | [Effects of Different Attention Mechanisms Applied on 3D Mode](https://arxiv.org/abs/2601.10854) | 本文聚焦视频动作识别与时空建模，采用分解式时空卷积，主要用于完成识别或分类任务并评估模型表现。 | Mohammad Rasras, Iuliana Marin+ | 4.6 |
 | 2026 | [Physics-Based Deep Spatiotemporal Hyperlocal Radar Nowcastin](http://arxiv.org/abs/2607.16080v1) | 本文聚焦视频模型可解释性，采用梯度归因、显著性或概念分析，主要用于分析模型依据及关键空间或时间区域。 | Akshay Sunil, Muhammed Rashid+ | 4.5 |
 | 2026 | [A Systematic Benchmarking of XAI Methods for Weapon Recognit](https://www.semanticscholar.org/paper/448aa4c4137b0f5c237acb22c10ea007953e562b) | 本文聚焦视频模型可解释性，采用梯度归因、显著性或概念分析，主要用于构建或评估基准并比较不同方法。 | H. Alsuwaidi, Fatih Kurugollu+ | 4.4 |
 | 2026 | [FVAttn: Adaptive Sparse Attention with Runtime Load Balancin](http://arxiv.org/abs/2607.16190v1) | 本文聚焦视频理解与时序推理，采用时空注意力或 Transformer，主要用于研究模型表示、推理能力及应用效果。 | Hao Liu, Chenghuan Huang+ | 4.4 |
-| 2026 | [BCAT-Net: Binocular Cross-Attention Transformer Network for ](https://www.semanticscholar.org/paper/54fcb1e69b041e5ce6be3c7132457b81e80fd163) | 本文聚焦视频模型可解释性，采用梯度归因、显著性或概念分析，主要用于分析模型依据及关键空间或时间区域。 | Kaushal Kumar | 4.1 |
-| 2026 | [Beyond CNNs: A Comparative Framework for Explainable and Hyb](https://www.semanticscholar.org/paper/6361115ec031c08a1ebc6131f50842a10ad558a8) | 本文聚焦视频模型可解释性，采用梯度归因、显著性或概念分析，主要用于分析模型依据及关键空间或时间区域。 | Akshita M B, Abhinay Kumar+ | 4.1 |
-| 2026 | [Online Neural Space Time Memory for Dynamic Novel View Synth](http://arxiv.org/abs/2607.15271v1) | 本文聚焦视频理解与时序推理，采用时空注意力或 Transformer，主要用于研究模型表示、推理能力及应用效果。 | Baback Elmieh, Lynn Tsai+ | 4.1 |
-| 2026 | [Video = World + Event Stream](http://arxiv.org/abs/2607.15038v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于研究模型表示、推理能力及应用效果。 | Lianghua Huang, Zhi-Fan Wu+ | 4.1 |
-| 2026 | [MotionForesight: Re-purposing Video Models for Future 3D Sce](http://arxiv.org/abs/2607.16192v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Homanga Bharadhwaj, Yash Jangir | 4.1 |
-| 2026 | [Vision-Language Assistant for Emotional Reactions to Risky D](http://arxiv.org/abs/2607.16181v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于研究模型表示、推理能力及应用效果。 | Harine Choi, Eun Hak Lee+ | 4.1 |
+| 2026 | [FlowMimic: Mask-free Visual Editing and Generation with Pixe](http://arxiv.org/abs/2607.18227v1) | 本文聚焦视频理解与时序推理，采用时空注意力或 Transformer，主要用于研究模型表示、推理能力及应用效果。 | Dingyun Zhang, Lixue Gong+ | 4.4 |
+| 2026 | [HOMIE: Human-object Centric Video Personalization via Multim](http://arxiv.org/abs/2607.18217v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于研究模型表示、推理能力及应用效果。 | Yiyang Cai, Nan Chen+ | 4.4 |
 
 ## 📎 高相关论文
 
@@ -102,24 +102,24 @@
 ---
 
 <details>
-<summary>📅 2026 年 (62 篇)</summary>
+<summary>📅 2026 年 (77 篇)</summary>
 
 | 标签 | 标题 | 摘要 | 作者 | 分数 |
 |------|------|------|------|------|
 | 🔥 | [Searching Videos as Trees: Self-Correcting Agents ](http://arxiv.org/abs/2607.16189v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Ce Zhang, Ziyang Wang+ | 5.5 |
 | 🔥 | [Video Understanding: From Geometry and Semantics t](http://arxiv.org/abs/2603.17840v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Zhaochong An, Zirui Li+ | 5.2 |
 | 🔥 | [Audio-Visual Flamingo: Open Audio-Visual Intellige](http://arxiv.org/abs/2607.16107v1) | 本文聚焦视频模型可解释性，采用梯度归因、显著性或概念分析，主要用于分析模型依据及关键空间或时间区域。 | Sreyan Ghosh, Arushi Goel+ | 5.2 |
+| 🔥 | [Sparse Evidence Can Suffice: Agentic Evidence Seek](http://arxiv.org/abs/2607.18080v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于完成识别或分类任务并评估模型表现。 | Haochen Zhao, Yongxiu Xu+ | 5.2 |
+| 🔥 | [HAS: Highlight-guided Attention Steering for Multi](http://arxiv.org/abs/2607.17994v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于研究模型表示、推理能力及应用效果。 | Rui Chu, Yingjie Lao | 5.2 |
 | 🔥 | [IVEX-WA and IVEX-MetaStack Ensemble Models: A Tran](https://www.semanticscholar.org/paper/95b40a68c7bc69ad435a644ae21803289f429352) | 本文聚焦视频模型可解释性，采用梯度归因、显著性或概念分析，主要用于分析模型依据及关键空间或时间区域。 | Md Tasnim Alam, Subhram Dasgupta+ | 5.0 |
 | 🔥 | [Hierarchical Denoising For Multi-Step Visual Reaso](http://arxiv.org/abs/2607.15278v1) | 本文聚焦视频理解与时序推理，采用时空注意力或 Transformer，主要用于研究模型表示、推理能力及应用效果。 | Zezhong Qian, Xiaowei Chi+ | 5.0 |
 | 🔥 | [Exo2EgoPose: Leveraging Exocentric Demonstrations ](http://arxiv.org/abs/2607.15890v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于研究模型表示、推理能力及应用效果。 | Zhaofeng Shi, Heqian Qiu+ | 5.0 |
 | 🔥 | [3D-RFT: Reinforcement Fine-Tuning for Video-based ](http://arxiv.org/abs/2603.04976v2) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于完成识别或分类任务并评估模型表现。 | Xiongkun Linghu, Jiangyong Huang+ | 4.9 |
 | 🔥 | [Video-Oasis: Rethinking Evaluation of Video Unders](http://arxiv.org/abs/2603.29616v2) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于研究模型表示、推理能力及应用效果。 | Geuntaek Lim, Sungjune Park+ | 4.9 |
 | 🔥 | [Knowing the Self, Understanding the World: A Dual-](http://arxiv.org/abs/2607.16193v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于构建或评估基准并比较不同方法。 | Like Liu, Zhengzheng Xu+ | 4.9 |
-| 🔥 | [A Very Big Video Reasoning Suite](http://arxiv.org/abs/2602.20159v2) | 本文聚焦视频模型可解释性，采用梯度归因、显著性或概念分析，主要用于分析模型依据及关键空间或时间区域。 | Maijunxian Wang, Ruisi Wang+ | 4.8 |
-| 🔥 | [Effects of Different Attention Mechanisms Applied ](https://arxiv.org/abs/2601.10854) | 本文聚焦视频动作识别与时空建模，采用分解式时空卷积，主要用于完成识别或分类任务并评估模型表现。 | Mohammad Rasras, Iuliana Marin+ | 4.6 |
-| 🔥 | [Physics-Based Deep Spatiotemporal Hyperlocal Radar](http://arxiv.org/abs/2607.16080v1) | 本文聚焦视频模型可解释性，采用梯度归因、显著性或概念分析，主要用于分析模型依据及关键空间或时间区域。 | Akshay Sunil, Muhammed Rashid+ | 4.5 |
+| 🔥 | [SGA: Plug&Play Geometric Verification for Educatio](http://arxiv.org/abs/2607.18116v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Lopez Jhon, Hinojosa Carlos+ | 4.9 |
 
-*仅展示前 12 篇，完整 62 篇请查看 [ALL_PAPERS_zh.md](ALL_PAPERS_zh.md)。*
+*仅展示前 12 篇，完整 77 篇请查看 [ALL_PAPERS_zh.md](ALL_PAPERS_zh.md)。*
 
 </details>
 
