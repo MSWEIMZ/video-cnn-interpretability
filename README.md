@@ -4,12 +4,12 @@
 <p align="center"><em>Automated paper curation for video deep learning & explainability research</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-589-blue" alt="papers" />
-  <img src="https://img.shields.io/badge/core-216-green" alt="core" />
-  <img src="https://img.shields.io/badge/strongly_related-373-yellow" alt="strongly_related" />
-  <img src="https://img.shields.io/badge/arXiv-273-critical" alt="arXiv" />
+  <img src="https://img.shields.io/badge/papers-596-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/core-222-green" alt="core" />
+  <img src="https://img.shields.io/badge/strongly_related-374-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/arXiv-280-critical" alt="arXiv" />
   <img src="https://img.shields.io/badge/Semantic_Scholar-311-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-07-22-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/last_update-2026-07-23-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -23,15 +23,15 @@
 
 | Metric | Count |
 |--------|-------|
-| 📚 Total Papers | **589** |
-| 🔥 Core Papers | **216** |
-| 📎 Strongly Related | **373** |
-| 🆕 New This Month | **66** |
-| 📡 arXiv | 273 |
+| 📚 Total Papers | **596** |
+| 🔥 Core Papers | **222** |
+| 📎 Strongly Related | **374** |
+| 🆕 New This Month | **73** |
+| 📡 arXiv | 280 |
 | 🔬 Semantic Scholar | 311 |
 | 🔗 CrossRef Enriched | 3 |
 | ✍️ Manual | 5 |
-| ⏰ Last Updated | 2026-07-22 04:23:00 |
+| ⏰ Last Updated | 2026-07-23 04:22:09 |
 
 ## 🏆 Top 5 Most Influential
 
@@ -76,13 +76,13 @@
 | 2026 | [Knowing the Self, Understanding the World: A Dual-Cognition ](http://arxiv.org/abs/2607.16193v1) | Multimodal large language models have achieved strong performance across diverse | Like Liu, Zhengzheng Xu+ | 4.9 |
 | 2026 | [SGA: Plug&Play Geometric Verification for Educational Video ](http://arxiv.org/abs/2607.18116v1) | Recent work leverages Large Language Models (LLMs) to generate executable code f | Lopez Jhon, Hinojosa Carlos+ | 4.9 |
 | 2026 | [OmniReasoner: Thinking with Long Audio-Video via Native Tool](http://arxiv.org/abs/2607.19339v1) | Long audio-video reasoning is difficult for omnimodal LLMs because the decisive  | Yu Chen, Caorui Li+ | 4.9 |
+| 2026 | [HeadCast: Casting Attention Heads for Efficient Autoregressi](http://arxiv.org/abs/2607.20125v1) | Autoregressive (AR) video diffusion models have become a promising paradigm for  | Jinliang Shen, Lianghao Su+ | 4.9 |
 | 2026 | [A Very Big Video Reasoning Suite](http://arxiv.org/abs/2602.20159v2) | Rapid progress in video models has largely focused on visual quality, leaving th | Maijunxian Wang, Ruisi Wang+ | 4.8 |
 | 2026 | [O-VAD: Industrial Video Anomaly Detection through Object-Cen](http://arxiv.org/abs/2607.18142v1) | Industrial Video Anomaly Detection (IVAD) aims to identify anomalous objects and | Mei Yuan, Qi Long+ | 4.7 |
 | 2026 | [InstructMixup: Instruction-Guided Salient Patch Editing for ](http://arxiv.org/abs/2607.19324v1) | In image and video technologies, data augmentation is widely used to improve the | Khawar Islam, Arif Mahmood+ | 4.7 |
 | 2026 | [ABot-World-0: Infinite Interactive World Rollout on a Single](http://arxiv.org/abs/2607.19191v1) | We present ABot-World-0, an action-conditioned video world model for real-time,  | Fan Jiang, Zhaoxu Sun+ | 4.7 |
+| 2026 | [StreamHOI: Interaction-aware Temporal Memory Adaptation for ](http://arxiv.org/abs/2607.20174v1) | Existing human--object interaction (HOI) video generation methods are largely li | Zejing Rao, Haoxian Zhang+ | 4.7 |
 | 2026 | [Effects of Different Attention Mechanisms Applied on 3D Mode](https://arxiv.org/abs/2601.10854) | Human action recognition has become an important research focus in computer visi | Mohammad Rasras, Iuliana Marin+ | 4.6 |
-| 2026 | [Physics-Based Deep Spatiotemporal Hyperlocal Radar Nowcastin](http://arxiv.org/abs/2607.16080v1) | Precipitation nowcasting over the immediate 10-90 min period is important for fl | Akshay Sunil, Muhammed Rashid+ | 4.5 |
-| 2026 | [A Systematic Benchmarking of XAI Methods for Weapon Recognit](https://www.semanticscholar.org/paper/448aa4c4137b0f5c237acb22c10ea007953e562b) | Automated analysis of surveillance video plays a critical role in modern securit | H. Alsuwaidi, Fatih Kurugollu+ | 4.4 |
 
 ## 📎 Strongly Related Papers
 
@@ -102,7 +102,7 @@
 ---
 
 <details>
-<summary>📅 2026 (95 papers)</summary>
+<summary>📅 2026 (102 papers)</summary>
 
 | Tag | Title | Summary | Author | Score |
 |------|------|------|------|------|
@@ -119,7 +119,7 @@
 | 🔥 | [Knowing the Self, Understanding the World: A Dual-](http://arxiv.org/abs/2607.16193v1) | Multimodal large language models have achieved strong performance acro | Like Liu, Zhengzheng Xu+ | 4.9 |
 | 🔥 | [SGA: Plug&Play Geometric Verification for Educatio](http://arxiv.org/abs/2607.18116v1) | Recent work leverages Large Language Models (LLMs) to generate executa | Lopez Jhon, Hinojosa Carlos+ | 4.9 |
 
-*Showing 12 of 95 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
+*Showing 12 of 102 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
 
 </details>
 

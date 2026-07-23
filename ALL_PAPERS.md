@@ -1,10 +1,10 @@
 # 📚 Complete Paper List — Video CNN/XAI Research Hub
 
-> Last updated: 2026-07-22 04:23:00 | 589 papers total
+> Last updated: 2026-07-23 04:22:09 | 596 papers total
 
 ---
 
-## 2026 (95 papers)
+## 2026 (102 papers)
 
 | Tag | Title | Summary | Author | Score | Query Type | Source |
 |------|------|------|------|----------|------|--------|
@@ -21,10 +21,12 @@
 | 🔥 | [Knowing the Self, Understanding the World: A Dual-Cognition ](http://arxiv.org/abs/2607.16193v1) | Multimodal large language models have achieved strong perfor | Like Liu, Zhengzheng Xu+ | 4.9 | core | arxiv |
 | 🔥 | [SGA: Plug&Play Geometric Verification for Educational Video ](http://arxiv.org/abs/2607.18116v1) | Recent work leverages Large Language Models (LLMs) to genera | Lopez Jhon, Hinojosa Carlos+ | 4.9 | core | arxiv |
 | 🔥 | [OmniReasoner: Thinking with Long Audio-Video via Native Tool](http://arxiv.org/abs/2607.19339v1) | Long audio-video reasoning is difficult for omnimodal LLMs b | Yu Chen, Caorui Li+ | 4.9 | core | arxiv |
+| 🔥 | [HeadCast: Casting Attention Heads for Efficient Autoregressi](http://arxiv.org/abs/2607.20125v1) | Autoregressive (AR) video diffusion models have become a pro | Jinliang Shen, Lianghao Su+ | 4.9 | core | arxiv |
 | 🔥 | [A Very Big Video Reasoning Suite](http://arxiv.org/abs/2602.20159v2) | Rapid progress in video models has largely focused on visual | Maijunxian Wang, Ruisi Wang+ | 4.8 | exploratory | arxiv |
 | 🔥 | [O-VAD: Industrial Video Anomaly Detection through Object-Cen](http://arxiv.org/abs/2607.18142v1) | Industrial Video Anomaly Detection (IVAD) aims to identify a | Mei Yuan, Qi Long+ | 4.7 | core | arxiv |
 | 🔥 | [InstructMixup: Instruction-Guided Salient Patch Editing for ](http://arxiv.org/abs/2607.19324v1) | In image and video technologies, data augmentation is widely | Khawar Islam, Arif Mahmood+ | 4.7 | core | arxiv |
 | 🔥 | [ABot-World-0: Infinite Interactive World Rollout on a Single](http://arxiv.org/abs/2607.19191v1) | We present ABot-World-0, an action-conditioned video world m | Fan Jiang, Zhaoxu Sun+ | 4.7 | core | arxiv |
+| 🔥 | [StreamHOI: Interaction-aware Temporal Memory Adaptation for ](http://arxiv.org/abs/2607.20174v1) | Existing human--object interaction (HOI) video generation me | Zejing Rao, Haoxian Zhang+ | 4.7 | core | arxiv |
 | 🔥 | [Effects of Different Attention Mechanisms Applied on 3D Mode](https://arxiv.org/abs/2601.10854) | Human action recognition has become an important research fo | Mohammad Rasras, Iuliana Marin+ | 4.6 | core | semantic_scholar |
 | 🔥 | [Physics-Based Deep Spatiotemporal Hyperlocal Radar Nowcastin](http://arxiv.org/abs/2607.16080v1) | Precipitation nowcasting over the immediate 10-90 min period | Akshay Sunil, Muhammed Rashid+ | 4.5 | core | arxiv |
 | 🔥 | [A Systematic Benchmarking of XAI Methods for Weapon Recognit](https://www.semanticscholar.org/paper/448aa4c4137b0f5c237acb22c10ea007953e562b) | Automated analysis of surveillance video plays a critical ro | H. Alsuwaidi, Fatih Kurugollu+ | 4.4 | expanded | semantic_scholar |
@@ -33,6 +35,10 @@
 | 🔥 | [HOMIE: Human-object Centric Video Personalization via Multim](http://arxiv.org/abs/2607.18217v1) | Human-object centric video personalization (HOCVP) is a core | Yiyang Cai, Nan Chen+ | 4.4 | core | arxiv |
 | 🔥 | [Keyframe-Anchored Identity Preservation for Sequential-Actio](http://arxiv.org/abs/2607.17985v1) | Identity-preserving text-to-video generation aims to synthes | Zhenjie Liu, Binyan Chen+ | 4.4 | core | arxiv |
 | 🔥 | [MeetingToM: Evaluating Multimodal LLMs on Theory-of-Mind Rea](http://arxiv.org/abs/2607.19235v1) | Theory of Mind (ToM), the ability to infer other's beliefs,  | Ziyi Wang, Yuhang Wu+ | 4.4 | core | arxiv |
+| 🔥 | [PercepCap: Video Captioner with Structured Spatio-Temporal P](http://arxiv.org/abs/2607.20389v1) | Video captioning requires fine-grained spatio-temporal under | Yifan Xu, Zihao Wang+ | 4.4 | core | arxiv |
+| 🔥 | [Self Gradient Forcing: Native Long Video Extrapolation](http://arxiv.org/abs/2607.20368v1) | Recent autoregressive video diffusion methods are increasing | Junhao Zhuang, Shiyi Zhang+ | 4.4 | core | arxiv |
+| 🔥 | [Vera: Identity-Faithful Human Subject-to-Video Generation](http://arxiv.org/abs/2607.20247v1) | Subject-to-video (S2V) generation has made substantial progr | Yulong Xu, Xinyue Liu+ | 4.4 | core | arxiv |
+| 🔥 | [PerceptDrive: Perception Prior World-Action Modeling with Ad](http://arxiv.org/abs/2607.20175v1) | Frozen perception foundation models encode rich geometric, s | Yushan Liu, Tianxiong Lv+ | 4.4 | core | arxiv |
 | 🔥 | [QuantiSpect: A Structure-Aware Lightweight 3D CNN Pre-Decode](http://arxiv.org/abs/2607.18204v1) | Real-time decoding is a critical bottleneck for large-scale  | Pan Gao, Xu-Sheng Xu+ | 4.2 | core | arxiv |
 | 🔥 | [BCAT-Net: Binocular Cross-Attention Transformer Network for ](https://www.semanticscholar.org/paper/54fcb1e69b041e5ce6be3c7132457b81e80fd163) | The selective nature of human visual attention is fundamenta | Kaushal Kumar | 4.1 | expanded | semantic_scholar |
 | 🔥 | [Beyond CNNs: A Comparative Framework for Explainable and Hyb](https://www.semanticscholar.org/paper/6361115ec031c08a1ebc6131f50842a10ad558a8) | Unstructured environments, shifting motion patterns, and a l | Akshita M B, Abhinay Kumar+ | 4.1 | expanded | semantic_scholar |
@@ -76,6 +82,7 @@
 | 📎 | [An Implicit Time-Domain Harmonic Balance Method for Radio-Fr](http://arxiv.org/abs/2607.18103v1) | Fast and accurate fluid simulation of radio-frequency capaci | Yuze Zhu, Yufeng Wei+ | 3.4 | core | arxiv |
 | 📎 | [Direct Spatiotemporal Imaging of Charge Carrier Dynamics in ](http://arxiv.org/abs/2607.19157v1) | Understanding charge carrier dynamics within electronic devi | Adriano Cola, Antonio Valletta+ | 3.4 | core | arxiv |
 | 📎 | [Mitigating Modality and Language-Style Gaps for Zero-Shot Vi](http://arxiv.org/abs/2607.19027v1) | Zero-shot video moment retrieval aims to overcome the limita | Jihyun Lee, Cheol-Ho Cho+ | 3.4 | exploratory | arxiv |
+| 📎 | [Capturing Inner Experience At Scale: An AI Interviewer Co-De](http://arxiv.org/abs/2607.20310v1) | Subjective experience is central to psychological science, y | Jona Carmon, Clara Bersch+ | 3.4 | core | arxiv |
 | 📎 | [Motion-Conditioned Multi-View Fusion for Myocardial Infarcti](http://arxiv.org/abs/2607.15268v1) | Myocardial infarction (MI) remains a leading cause of mortal | Guang Yang, Wentian Xu+ | 3.3 | core | arxiv |
 | 📎 | [Robust Multimodal Dynamic Object Segmentation](http://arxiv.org/abs/2607.18153v1) | Dynamic object segmentation plays a critical role in many vi | Zhe Xin, Hanzhi Chang+ | 3.3 | core | arxiv |
 | 📎 | [Latent Riemannian Flow Matching for Geometry-Grounded 3D Fou](http://arxiv.org/abs/2607.19120v1) | Geometric foundation models, such as the Visual Geometry Gro | Lisa Weijler, Irene Ballester+ | 3.3 | core | arxiv |

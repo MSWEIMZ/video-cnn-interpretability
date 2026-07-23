@@ -1,17 +1,17 @@
 # 📂 主题视图
 
-> 共 8 个主题 | 最后更新: 2026-07-22 04:23
+> 共 8 个主题 | 最后更新: 2026-07-23 04:22
 
 ## 📊 主题概览
 
 | 主题 | 论文数 | 核心论文 | 说明 |
 |------|--------|----------|------|
-| 时序解释 | 495 | 195 | 聚焦于视频时序维度的可解释性研究 |
+| 时序解释 | 502 | 201 | 聚焦于视频时序维度的可解释性研究 |
 | 动作识别可解释性 | 228 | 106 | 视频动作识别 / 分类任务的可解释性研究 |
-| 视频 Transformer 可解释性 | 174 | 66 | Vision Transformer / Video Transformer 的可解释性 |
-| 网络解剖 | 131 | 44 | 网络内部单元 / 特征可视化与解剖 |
+| 视频 Transformer 可解释性 | 175 | 67 | Vision Transformer / Video Transformer 的可解释性 |
+| 网络解剖 | 133 | 46 | 网络内部单元 / 特征可视化与解剖 |
 | 3D CNN 解释 | 116 | 59 | 3D 卷积网络 / R(2+1)D 等时空卷积模型的可解释性 |
-| 注意力与归因 | 98 | 36 | 注意力机制分析与梯度归因方法 |
+| 注意力与归因 | 99 | 37 | 注意力机制分析与梯度归因方法 |
 | 视频显著性 | 92 | 34 | 视频/空间显著性检测与可视化 |
 | 鲁棒性与对抗 | 52 | 16 | 视频模型的鲁棒性与对抗攻击/防御 |
 | 未分类 | 22 | - | - |
@@ -40,7 +40,7 @@
 | 🔥 | [Video-FocalNets: Spatio-Temporal Focal Modulation for Video ](http://arxiv.org/abs/2307.06947v4) | 2023 | 5.5 |
 | 🔥 | [Deep Neural Networks in Video Human Action Recognition: A Re](http://arxiv.org/abs/2305.15692v1) | 2023 | 5.5 |
 
-*... 共 495 篇，仅显示前 15 篇*
+*... 共 502 篇，仅显示前 15 篇*
 
 ---
 
@@ -92,7 +92,7 @@
 | 🔥 | [Video deepfake detection using a hybrid CNN-LSTM-Transformer](https://www.semanticscholar.org/paper/e17c9359b8cbf6f327523694fcf4019a65134a09) | 2025 | 5.0 |
 | 🔥 | [UniFormerV2: Spatiotemporal Learning by Arming Image ViTs wi](https://arxiv.org/abs/2211.09552) | 2022 | 5.0 |
 
-*... 共 174 篇，仅显示前 15 篇*
+*... 共 175 篇，仅显示前 15 篇*
 
 ---
 
@@ -118,7 +118,7 @@
 | 🔥 | [Token Shift Transformer for Video Classification](https://arxiv.org/abs/2108.02432) | 2021 | 5.0 |
 | 🔥 | [Would Mega-scale Datasets Further Enhance Spatiotemporal 3D ](http://arxiv.org/abs/2004.04968v1) | 2020 | 5.0 |
 
-*... 共 131 篇，仅显示前 15 篇*
+*... 共 133 篇，仅显示前 15 篇*
 
 ---
 
@@ -170,7 +170,7 @@
 | 🔥 | [Effects of Different Attention Mechanisms Applied on 3D Mode](https://arxiv.org/abs/2601.10854) | 2026 | 4.6 |
 | 🔥 | [Physics-Based Deep Spatiotemporal Hyperlocal Radar Nowcastin](http://arxiv.org/abs/2607.16080v1) | 2026 | 4.5 |
 
-*... 共 98 篇，仅显示前 15 篇*
+*... 共 99 篇，仅显示前 15 篇*
 
 ---
 

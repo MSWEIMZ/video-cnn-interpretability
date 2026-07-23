@@ -4,12 +4,12 @@
 <p align="center"><em>视频深度学习与可解释性论文自动搜集系统</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-589-blue" alt="papers" />
-  <img src="https://img.shields.io/badge/core-216-green" alt="core" />
-  <img src="https://img.shields.io/badge/strongly_related-373-yellow" alt="strongly_related" />
-  <img src="https://img.shields.io/badge/arXiv-273-critical" alt="arXiv" />
+  <img src="https://img.shields.io/badge/papers-596-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/core-222-green" alt="core" />
+  <img src="https://img.shields.io/badge/strongly_related-374-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/arXiv-280-critical" alt="arXiv" />
   <img src="https://img.shields.io/badge/Semantic_Scholar-311-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-07-22-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/last_update-2026-07-23-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -23,15 +23,15 @@
 
 | 指标 | 数量 |
 |------|------|
-| 📚 论文总数 | **589** |
-| 🔥 核心论文 | **216** |
-| 📎 高相关论文 | **373** |
-| 🆕 本月新增 | **66** |
-| 📡 arXiv | 273 |
+| 📚 论文总数 | **596** |
+| 🔥 核心论文 | **222** |
+| 📎 高相关论文 | **374** |
+| 🆕 本月新增 | **73** |
+| 📡 arXiv | 280 |
 | 🔬 Semantic Scholar | 311 |
 | 🔗 CrossRef 增强 | 3 |
 | ✍️ 手工整理 | 5 |
-| ⏰ 最后更新 | 2026-07-22 04:23:00 |
+| ⏰ 最后更新 | 2026-07-23 04:22:09 |
 
 ## 🏆 高影响力论文 Top 5
 
@@ -76,13 +76,13 @@
 | 2026 | [Knowing the Self, Understanding the World: A Dual-Cognition ](http://arxiv.org/abs/2607.16193v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于构建或评估基准并比较不同方法。 | Like Liu, Zhengzheng Xu+ | 4.9 |
 | 2026 | [SGA: Plug&Play Geometric Verification for Educational Video ](http://arxiv.org/abs/2607.18116v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Lopez Jhon, Hinojosa Carlos+ | 4.9 |
 | 2026 | [OmniReasoner: Thinking with Long Audio-Video via Native Tool](http://arxiv.org/abs/2607.19339v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Yu Chen, Caorui Li+ | 4.9 |
+| 2026 | [HeadCast: Casting Attention Heads for Efficient Autoregressi](http://arxiv.org/abs/2607.20125v1) | 本文聚焦视频理解与时序推理，采用时空注意力或 Transformer，主要用于完成识别或分类任务并评估模型表现。 | Jinliang Shen, Lianghao Su+ | 4.9 |
 | 2026 | [A Very Big Video Reasoning Suite](http://arxiv.org/abs/2602.20159v2) | 本文聚焦视频模型可解释性，采用梯度归因、显著性或概念分析，主要用于分析模型依据及关键空间或时间区域。 | Maijunxian Wang, Ruisi Wang+ | 4.8 |
 | 2026 | [O-VAD: Industrial Video Anomaly Detection through Object-Cen](http://arxiv.org/abs/2607.18142v1) | 本文聚焦视频模型可解释性，采用梯度归因、显著性或概念分析，主要用于完成识别或分类任务并评估模型表现。 | Mei Yuan, Qi Long+ | 4.7 |
 | 2026 | [InstructMixup: Instruction-Guided Salient Patch Editing for ](http://arxiv.org/abs/2607.19324v1) | 本文聚焦视频模型可解释性，采用梯度归因、显著性或概念分析，主要用于分析模型依据及关键空间或时间区域。 | Khawar Islam, Arif Mahmood+ | 4.7 |
 | 2026 | [ABot-World-0: Infinite Interactive World Rollout on a Single](http://arxiv.org/abs/2607.19191v1) | 本文聚焦视频理解与时序推理，采用时空注意力或 Transformer，主要用于研究模型表示、推理能力及应用效果。 | Fan Jiang, Zhaoxu Sun+ | 4.7 |
+| 2026 | [StreamHOI: Interaction-aware Temporal Memory Adaptation for ](http://arxiv.org/abs/2607.20174v1) | 本文聚焦视频理解与时序推理，采用时空注意力或 Transformer，主要用于研究模型表示、推理能力及应用效果。 | Zejing Rao, Haoxian Zhang+ | 4.7 |
 | 2026 | [Effects of Different Attention Mechanisms Applied on 3D Mode](https://arxiv.org/abs/2601.10854) | 本文聚焦视频动作识别与时空建模，采用分解式时空卷积，主要用于完成识别或分类任务并评估模型表现。 | Mohammad Rasras, Iuliana Marin+ | 4.6 |
-| 2026 | [Physics-Based Deep Spatiotemporal Hyperlocal Radar Nowcastin](http://arxiv.org/abs/2607.16080v1) | 本文聚焦视频模型可解释性，采用梯度归因、显著性或概念分析，主要用于分析模型依据及关键空间或时间区域。 | Akshay Sunil, Muhammed Rashid+ | 4.5 |
-| 2026 | [A Systematic Benchmarking of XAI Methods for Weapon Recognit](https://www.semanticscholar.org/paper/448aa4c4137b0f5c237acb22c10ea007953e562b) | 本文聚焦视频模型可解释性，采用梯度归因、显著性或概念分析，主要用于构建或评估基准并比较不同方法。 | H. Alsuwaidi, Fatih Kurugollu+ | 4.4 |
 
 ## 📎 高相关论文
 
@@ -102,7 +102,7 @@
 ---
 
 <details>
-<summary>📅 2026 年 (95 篇)</summary>
+<summary>📅 2026 年 (102 篇)</summary>
 
 | 标签 | 标题 | 摘要 | 作者 | 分数 |
 |------|------|------|------|------|
@@ -119,7 +119,7 @@
 | 🔥 | [Knowing the Self, Understanding the World: A Dual-](http://arxiv.org/abs/2607.16193v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于构建或评估基准并比较不同方法。 | Like Liu, Zhengzheng Xu+ | 4.9 |
 | 🔥 | [SGA: Plug&Play Geometric Verification for Educatio](http://arxiv.org/abs/2607.18116v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Lopez Jhon, Hinojosa Carlos+ | 4.9 |
 
-*仅展示前 12 篇，完整 95 篇请查看 [ALL_PAPERS_zh.md](ALL_PAPERS_zh.md)。*
+*仅展示前 12 篇，完整 102 篇请查看 [ALL_PAPERS_zh.md](ALL_PAPERS_zh.md)。*
 
 </details>
 
