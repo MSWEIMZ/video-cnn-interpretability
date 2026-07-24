@@ -4,12 +4,12 @@
 <p align="center"><em>Automated paper curation for video deep learning & explainability research</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-596-blue" alt="papers" />
-  <img src="https://img.shields.io/badge/core-222-green" alt="core" />
-  <img src="https://img.shields.io/badge/strongly_related-374-yellow" alt="strongly_related" />
-  <img src="https://img.shields.io/badge/arXiv-280-critical" alt="arXiv" />
+  <img src="https://img.shields.io/badge/papers-614-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/core-231-green" alt="core" />
+  <img src="https://img.shields.io/badge/strongly_related-383-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/arXiv-298-critical" alt="arXiv" />
   <img src="https://img.shields.io/badge/Semantic_Scholar-311-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-07-23-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/last_update-2026-07-24-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -23,15 +23,15 @@
 
 | Metric | Count |
 |--------|-------|
-| 📚 Total Papers | **596** |
-| 🔥 Core Papers | **222** |
-| 📎 Strongly Related | **374** |
-| 🆕 New This Month | **73** |
-| 📡 arXiv | 280 |
+| 📚 Total Papers | **614** |
+| 🔥 Core Papers | **231** |
+| 📎 Strongly Related | **383** |
+| 🆕 New This Month | **91** |
+| 📡 arXiv | 298 |
 | 🔬 Semantic Scholar | 311 |
 | 🔗 CrossRef Enriched | 3 |
 | ✍️ Manual | 5 |
-| ⏰ Last Updated | 2026-07-23 04:22:09 |
+| ⏰ Last Updated | 2026-07-24 04:21:52 |
 
 ## 🏆 Top 5 Most Influential
 
@@ -102,7 +102,7 @@
 ---
 
 <details>
-<summary>📅 2026 (102 papers)</summary>
+<summary>📅 2026 (120 papers)</summary>
 
 | Tag | Title | Summary | Author | Score |
 |------|------|------|------|------|
@@ -119,7 +119,7 @@
 | 🔥 | [Knowing the Self, Understanding the World: A Dual-](http://arxiv.org/abs/2607.16193v1) | Multimodal large language models have achieved strong performance acro | Like Liu, Zhengzheng Xu+ | 4.9 |
 | 🔥 | [SGA: Plug&Play Geometric Verification for Educatio](http://arxiv.org/abs/2607.18116v1) | Recent work leverages Large Language Models (LLMs) to generate executa | Lopez Jhon, Hinojosa Carlos+ | 4.9 |
 
-*Showing 12 of 102 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
+*Showing 12 of 120 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
 
 </details>
 
