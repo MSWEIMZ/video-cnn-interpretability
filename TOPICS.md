@@ -1,20 +1,20 @@
 # 📂 主题视图
 
-> 共 8 个主题 | 最后更新: 2026-07-26 04:33
+> 共 8 个主题 | 最后更新: 2026-07-27 04:43
 
 ## 📊 主题概览
 
 | 主题 | 论文数 | 核心论文 | 说明 |
 |------|--------|----------|------|
-| 时序解释 | 517 | 208 | 聚焦于视频时序维度的可解释性研究 |
+| 时序解释 | 530 | 216 | 聚焦于视频时序维度的可解释性研究 |
 | 动作识别可解释性 | 229 | 106 | 视频动作识别 / 分类任务的可解释性研究 |
-| 视频 Transformer 可解释性 | 181 | 70 | Vision Transformer / Video Transformer 的可解释性 |
-| 网络解剖 | 137 | 49 | 网络内部单元 / 特征可视化与解剖 |
+| 视频 Transformer 可解释性 | 186 | 72 | Vision Transformer / Video Transformer 的可解释性 |
+| 网络解剖 | 140 | 50 | 网络内部单元 / 特征可视化与解剖 |
 | 3D CNN 解释 | 116 | 59 | 3D 卷积网络 / R(2+1)D 等时空卷积模型的可解释性 |
-| 注意力与归因 | 100 | 38 | 注意力机制分析与梯度归因方法 |
-| 视频显著性 | 92 | 34 | 视频/空间显著性检测与可视化 |
-| 鲁棒性与对抗 | 52 | 16 | 视频模型的鲁棒性与对抗攻击/防御 |
-| 未分类 | 23 | - | - |
+| 注意力与归因 | 102 | 38 | 注意力机制分析与梯度归因方法 |
+| 视频显著性 | 93 | 35 | 视频/空间显著性检测与可视化 |
+| 鲁棒性与对抗 | 53 | 16 | 视频模型的鲁棒性与对抗攻击/防御 |
+| 未分类 | 24 | - | - |
 
 ---
 
@@ -40,7 +40,7 @@
 | 🔥 | [Video-FocalNets: Spatio-Temporal Focal Modulation for Video ](http://arxiv.org/abs/2307.06947v4) | 2023 | 5.5 |
 | 🔥 | [Deep Neural Networks in Video Human Action Recognition: A Re](http://arxiv.org/abs/2305.15692v1) | 2023 | 5.5 |
 
-*... 共 517 篇，仅显示前 15 篇*
+*... 共 530 篇，仅显示前 15 篇*
 
 ---
 
@@ -92,7 +92,7 @@
 | 🔥 | [Video deepfake detection using a hybrid CNN-LSTM-Transformer](https://www.semanticscholar.org/paper/e17c9359b8cbf6f327523694fcf4019a65134a09) | 2025 | 5.0 |
 | 🔥 | [UniFormerV2: Spatiotemporal Learning by Arming Image ViTs wi](https://arxiv.org/abs/2211.09552) | 2022 | 5.0 |
 
-*... 共 181 篇，仅显示前 15 篇*
+*... 共 186 篇，仅显示前 15 篇*
 
 ---
 
@@ -118,7 +118,7 @@
 | 🔥 | [Token Shift Transformer for Video Classification](https://arxiv.org/abs/2108.02432) | 2021 | 5.0 |
 | 🔥 | [Would Mega-scale Datasets Further Enhance Spatiotemporal 3D ](http://arxiv.org/abs/2004.04968v1) | 2020 | 5.0 |
 
-*... 共 137 篇，仅显示前 15 篇*
+*... 共 140 篇，仅显示前 15 篇*
 
 ---
 
@@ -170,7 +170,7 @@
 | 🔥 | [Effects of Different Attention Mechanisms Applied on 3D Mode](https://arxiv.org/abs/2601.10854) | 2026 | 4.6 |
 | 🔥 | [Physics-Based Deep Spatiotemporal Hyperlocal Radar Nowcastin](http://arxiv.org/abs/2607.16080v1) | 2026 | 4.5 |
 
-*... 共 100 篇，仅显示前 15 篇*
+*... 共 102 篇，仅显示前 15 篇*
 
 ---
 
@@ -188,15 +188,15 @@
 | 🔥 | [Revisiting Video Saliency: A Large-scale Benchmark and a New](http://arxiv.org/abs/1801.07424v3) | 2018 | 5.3 |
 | 🔥 | [Audio-visual Saliency for Omnidirectional Videos](http://arxiv.org/abs/2311.05190v1) | 2023 | 5.2 |
 | 🔥 | [IVEX-WA and IVEX-MetaStack Ensemble Models: A Transfer Learn](https://www.semanticscholar.org/paper/95b40a68c7bc69ad435a644ae21803289f429352) | 2026 | 5.0 |
+| 🔥 | [CARA: Concept-Aware Risk Attention for Interpretable Collisi](http://arxiv.org/abs/2607.22494v1) | 2026 | 5.0 |
 | 🔥 | [Review of Visual Saliency Detection with Comprehensive Infor](http://arxiv.org/abs/1803.03391v2) | 2018 | 5.0 |
 | 🔥 | [Predicting Video Saliency with Object-to-Motion CNN and Two-](http://arxiv.org/abs/1709.06316v3) | 2017 | 5.0 |
 | 🔥 | [No-Reference Video Quality Assessment Using Multi-Pooled, Sa](https://www.semanticscholar.org/paper/0d15b4ca86a7b7a8f26c4957a8f7b86b4e5fc3e6) | 2022 | 4.8 |
 | 🔥 | [Graph-Theoretic Spatiotemporal Context Modeling for Video Sa](http://arxiv.org/abs/1707.07815v1) | 2017 | 4.8 |
 | 🔥 | [InstructMixup: Instruction-Guided Salient Patch Editing for ](http://arxiv.org/abs/2607.19324v1) | 2026 | 4.7 |
 | 🔥 | [Token Merging via Spatiotemporal Information Mining for Surg](http://arxiv.org/abs/2509.23672v1) | 2025 | 4.7 |
-| 🔥 | [Dynamic Attention Mechanism in Spatiotemporal Memory Network](http://arxiv.org/abs/2503.16768v1) | 2025 | 4.5 |
 
-*... 共 92 篇，仅显示前 15 篇*
+*... 共 93 篇，仅显示前 15 篇*
 
 ---
 
@@ -222,4 +222,4 @@
 | 🔥 | [Sphere-GAN: a GAN-based Approach for Saliency Estimation in ](http://arxiv.org/abs/2509.11948v1) | 2025 | 4.1 |
 | 🔥 | [Visual Semantic Knowledge Discovery for Multimodal Intent Re](https://www.semanticscholar.org/paper/fe4effd689bfad626dd6d5ecf2f7df61087abb4f) | 2025 | 4.1 |
 
-*... 共 52 篇，仅显示前 15 篇*
+*... 共 53 篇，仅显示前 15 篇*

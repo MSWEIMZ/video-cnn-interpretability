@@ -4,12 +4,12 @@
 <p align="center"><em>Automated paper curation for video deep learning & explainability research</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-614-blue" alt="papers" />
-  <img src="https://img.shields.io/badge/core-231-green" alt="core" />
-  <img src="https://img.shields.io/badge/strongly_related-383-yellow" alt="strongly_related" />
-  <img src="https://img.shields.io/badge/arXiv-298-critical" alt="arXiv" />
+  <img src="https://img.shields.io/badge/papers-628-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/core-239-green" alt="core" />
+  <img src="https://img.shields.io/badge/strongly_related-389-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/arXiv-312-critical" alt="arXiv" />
   <img src="https://img.shields.io/badge/Semantic_Scholar-311-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-07-26-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/last_update-2026-07-27-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -23,15 +23,15 @@
 
 | Metric | Count |
 |--------|-------|
-| 📚 Total Papers | **614** |
-| 🔥 Core Papers | **231** |
-| 📎 Strongly Related | **383** |
-| 🆕 New This Month | **91** |
-| 📡 arXiv | 298 |
+| 📚 Total Papers | **628** |
+| 🔥 Core Papers | **239** |
+| 📎 Strongly Related | **389** |
+| 🆕 New This Month | **105** |
+| 📡 arXiv | 312 |
 | 🔬 Semantic Scholar | 311 |
 | 🔗 CrossRef Enriched | 3 |
 | ✍️ Manual | 5 |
-| ⏰ Last Updated | 2026-07-26 04:33:06 |
+| ⏰ Last Updated | 2026-07-27 04:43:34 |
 
 ## 🏆 Top 5 Most Influential
 
@@ -68,9 +68,11 @@
 | 2026 | [Audio-Visual Flamingo: Open Audio-Visual Intelligence for Lo](http://arxiv.org/abs/2607.16107v1) | We present Audio-Visual Flamingo (AV-Flamingo), a fully open state-of-the-art au | Sreyan Ghosh, Arushi Goel+ | 5.2 |
 | 2026 | [Sparse Evidence Can Suffice: Agentic Evidence Seeking for Mu](http://arxiv.org/abs/2607.18080v1) | Multimodal video misinformation detection is commonly formulated as a holistic v | Haochen Zhao, Yongxiu Xu+ | 5.2 |
 | 2026 | [HAS: Highlight-guided Attention Steering for Multimodal LLM ](http://arxiv.org/abs/2607.17994v1) | Video understanding has become more and more important with the growth of Artifi | Rui Chu, Yingjie Lao | 5.2 |
+| 2026 | [Time-Reversed Imaging: A Multimodal Benchmark and Framework ](http://arxiv.org/abs/2607.22352v1) | We introduce time-reversed imaging, a new paradigm that infers what just happene | Jorge Bacca, Kebin Contreras+ | 5.2 |
 | 2026 | [IVEX-WA and IVEX-MetaStack Ensemble Models: A Transfer Learn](https://www.semanticscholar.org/paper/95b40a68c7bc69ad435a644ae21803289f429352) | Human action recognition (HAR) using deep learning approaches has significantly  | Md Tasnim Alam, Subhram Dasgupta+ | 5.0 |
 | 2026 | [Hierarchical Denoising For Multi-Step Visual Reasoning](http://arxiv.org/abs/2607.15278v1) | Video models are evolving into vision foundation models, yet they still lack hum | Zezhong Qian, Xiaowei Chi+ | 5.0 |
 | 2026 | [Exo2EgoPose: Leveraging Exocentric Demonstrations for Vision](http://arxiv.org/abs/2607.15890v1) | Perceiving multimodal cues and forecasting fine-grained actions from an egocentr | Zhaofeng Shi, Heqian Qiu+ | 5.0 |
+| 2026 | [CARA: Concept-Aware Risk Attention for Interpretable Collisi](http://arxiv.org/abs/2607.22494v1) | Collision anticipation in autonomous driving requires not only accurate early wa | Zhishan Tao, Ruoyu Wang+ | 5.0 |
 | 2026 | [3D-RFT: Reinforcement Fine-Tuning for Video-based 3D Scene U](http://arxiv.org/abs/2603.04976v2) | Reinforcement Learning with Verifiable Rewards ( RLVR ) has emerged as a transfo | Xiongkun Linghu, Jiangyong Huang+ | 4.9 |
 | 2026 | [Video-Oasis: Rethinking Evaluation of Video Understanding](http://arxiv.org/abs/2603.29616v2) | The inherent complexity of video understanding makes it difficult to determine w | Geuntaek Lim, Sungjune Park+ | 4.9 |
 | 2026 | [Knowing the Self, Understanding the World: A Dual-Cognition ](http://arxiv.org/abs/2607.16193v1) | Multimodal large language models have achieved strong performance across diverse | Like Liu, Zhengzheng Xu+ | 4.9 |
@@ -81,13 +83,12 @@
 | 2026 | [O-VAD: Industrial Video Anomaly Detection through Object-Cen](http://arxiv.org/abs/2607.18142v1) | Industrial Video Anomaly Detection (IVAD) aims to identify anomalous objects and | Mei Yuan, Qi Long+ | 4.7 |
 | 2026 | [InstructMixup: Instruction-Guided Salient Patch Editing for ](http://arxiv.org/abs/2607.19324v1) | In image and video technologies, data augmentation is widely used to improve the | Khawar Islam, Arif Mahmood+ | 4.7 |
 | 2026 | [ABot-World-0: Infinite Interactive World Rollout on a Single](http://arxiv.org/abs/2607.19191v1) | We present ABot-World-0, an action-conditioned video world model for real-time,  | Fan Jiang, Zhaoxu Sun+ | 4.7 |
-| 2026 | [StreamHOI: Interaction-aware Temporal Memory Adaptation for ](http://arxiv.org/abs/2607.20174v1) | Existing human--object interaction (HOI) video generation methods are largely li | Zejing Rao, Haoxian Zhang+ | 4.7 |
-| 2026 | [Effects of Different Attention Mechanisms Applied on 3D Mode](https://arxiv.org/abs/2601.10854) | Human action recognition has become an important research focus in computer visi | Mohammad Rasras, Iuliana Marin+ | 4.6 |
 
 ## 📎 Strongly Related Papers
 
 | Year | Title | Summary | Author | Score |
 |------|------|------|------|------|
+| 2026 | [SM4RT: Learning Structured Motion Geometry for 4D Reconstruc](http://arxiv.org/abs/2607.22534v1) | Geometry Foundation Models (GFMs) have substantially advanced monocular 3D recon | Shing Ho J. Lin, Wenzhao Zheng+ | 3.9 |
 | 2026 | [PSAM: Parameter-Free Spatiotemporal Attention Mechanism for ](https://www.semanticscholar.org/paper/3711f35824427708f33895b6529bb278c18de98b) | Spatiotemporal attention learning has always been a challenging research task in | Fuwei Zhang, Ruomei Wang+ | 3.8 |
 | 2026 | [MeanFlowNFT: Bringing Forward-Process RL to Average-Velocity](http://arxiv.org/abs/2607.15273v1) | MeanFlow generators achieve fast few-step sampling by predicting average velocit | Yushi Huang, Xiangxin Zhou+ | 3.8 |
 | 2026 | [MAGiSt3R: Multi-Agent Feed-forward 3D Reconstruction from Mo](http://arxiv.org/abs/2607.15211v1) | This paper presents MAGiSt3R, a multi-agent 3D reconstruction framework performi | Ziren Gong, Xiaohan Li+ | 3.8 |
@@ -97,12 +98,11 @@
 | 2026 | [Genflow Ad Studio: A Compound AI Architecture for Brand-Alig](http://arxiv.org/abs/2605.16748v1) | Recent advancements in generative video models demonstrate high visual fidelity, | Debanshu Das, Lavi Nigam+ | 3.7 |
 | 2026 | [Learning Face–Hand Interaction With a Convolutional Network ](https://www.semanticscholar.org/paper/075576f9c5f52bf17751c4862834a56290e4749d) | Understanding sign language requires careful consideration of the relationships  | Jiin Takeda, N. Mukai+ | 3.7 |
 | 2026 | [Causal Physics Steering in Video World Models via Concept Ac](http://arxiv.org/abs/2605.24322v1) | Video world models learn representations of physical dynamics, but controlling t | Nahid Alam | 3.7 |
-| 2026 | [Scaling Hawkes Processes](http://arxiv.org/abs/2607.16081v1) | Hawkes processes (HP) are a large class of stochastic point process models scien | Seyoon Ko, Jasen Zhang+ | 3.7 |
 
 ---
 
 <details>
-<summary>📅 2026 (120 papers)</summary>
+<summary>📅 2026 (134 papers)</summary>
 
 | Tag | Title | Summary | Author | Score |
 |------|------|------|------|------|
@@ -111,15 +111,15 @@
 | 🔥 | [Audio-Visual Flamingo: Open Audio-Visual Intellige](http://arxiv.org/abs/2607.16107v1) | We present Audio-Visual Flamingo (AV-Flamingo), a fully open state-of- | Sreyan Ghosh, Arushi Goel+ | 5.2 |
 | 🔥 | [Sparse Evidence Can Suffice: Agentic Evidence Seek](http://arxiv.org/abs/2607.18080v1) | Multimodal video misinformation detection is commonly formulated as a  | Haochen Zhao, Yongxiu Xu+ | 5.2 |
 | 🔥 | [HAS: Highlight-guided Attention Steering for Multi](http://arxiv.org/abs/2607.17994v1) | Video understanding has become more and more important with the growth | Rui Chu, Yingjie Lao | 5.2 |
+| 🔥 | [Time-Reversed Imaging: A Multimodal Benchmark and ](http://arxiv.org/abs/2607.22352v1) | We introduce time-reversed imaging, a new paradigm that infers what ju | Jorge Bacca, Kebin Contreras+ | 5.2 |
 | 🔥 | [IVEX-WA and IVEX-MetaStack Ensemble Models: A Tran](https://www.semanticscholar.org/paper/95b40a68c7bc69ad435a644ae21803289f429352) | Human action recognition (HAR) using deep learning approaches has sign | Md Tasnim Alam, Subhram Dasgupta+ | 5.0 |
 | 🔥 | [Hierarchical Denoising For Multi-Step Visual Reaso](http://arxiv.org/abs/2607.15278v1) | Video models are evolving into vision foundation models, yet they stil | Zezhong Qian, Xiaowei Chi+ | 5.0 |
 | 🔥 | [Exo2EgoPose: Leveraging Exocentric Demonstrations ](http://arxiv.org/abs/2607.15890v1) | Perceiving multimodal cues and forecasting fine-grained actions from a | Zhaofeng Shi, Heqian Qiu+ | 5.0 |
+| 🔥 | [CARA: Concept-Aware Risk Attention for Interpretab](http://arxiv.org/abs/2607.22494v1) | Collision anticipation in autonomous driving requires not only accurat | Zhishan Tao, Ruoyu Wang+ | 5.0 |
 | 🔥 | [3D-RFT: Reinforcement Fine-Tuning for Video-based ](http://arxiv.org/abs/2603.04976v2) | Reinforcement Learning with Verifiable Rewards ( RLVR ) has emerged as | Xiongkun Linghu, Jiangyong Huang+ | 4.9 |
 | 🔥 | [Video-Oasis: Rethinking Evaluation of Video Unders](http://arxiv.org/abs/2603.29616v2) | The inherent complexity of video understanding makes it difficult to d | Geuntaek Lim, Sungjune Park+ | 4.9 |
-| 🔥 | [Knowing the Self, Understanding the World: A Dual-](http://arxiv.org/abs/2607.16193v1) | Multimodal large language models have achieved strong performance acro | Like Liu, Zhengzheng Xu+ | 4.9 |
-| 🔥 | [SGA: Plug&Play Geometric Verification for Educatio](http://arxiv.org/abs/2607.18116v1) | Recent work leverages Large Language Models (LLMs) to generate executa | Lopez Jhon, Hinojosa Carlos+ | 4.9 |
 
-*Showing 12 of 120 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
+*Showing 12 of 134 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
 
 </details>
 
