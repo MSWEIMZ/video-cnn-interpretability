@@ -4,12 +4,12 @@
 <p align="center"><em>Automated paper curation for video deep learning & explainability research</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-640-blue" alt="papers" />
-  <img src="https://img.shields.io/badge/core-247-green" alt="core" />
-  <img src="https://img.shields.io/badge/strongly_related-393-yellow" alt="strongly_related" />
-  <img src="https://img.shields.io/badge/arXiv-324-critical" alt="arXiv" />
+  <img src="https://img.shields.io/badge/papers-657-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/core-255-green" alt="core" />
+  <img src="https://img.shields.io/badge/strongly_related-402-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/arXiv-341-critical" alt="arXiv" />
   <img src="https://img.shields.io/badge/Semantic_Scholar-311-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-07-28-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/last_update-2026-07-29-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -23,15 +23,15 @@
 
 | Metric | Count |
 |--------|-------|
-| 📚 Total Papers | **640** |
-| 🔥 Core Papers | **247** |
-| 📎 Strongly Related | **393** |
-| 🆕 New This Month | **117** |
-| 📡 arXiv | 324 |
+| 📚 Total Papers | **657** |
+| 🔥 Core Papers | **255** |
+| 📎 Strongly Related | **402** |
+| 🆕 New This Month | **134** |
+| 📡 arXiv | 341 |
 | 🔬 Semantic Scholar | 311 |
 | 🔗 CrossRef Enriched | 3 |
 | ✍️ Manual | 5 |
-| ⏰ Last Updated | 2026-07-28 04:17:11 |
+| ⏰ Last Updated | 2026-07-29 04:19:15 |
 
 ## 🏆 Top 5 Most Influential
 
@@ -82,7 +82,7 @@
 | 2026 | [SGA: Plug&Play Geometric Verification for Educational Video ](http://arxiv.org/abs/2607.18116v1) | Recent work leverages Large Language Models (LLMs) to generate executable code f | Lopez Jhon, Hinojosa Carlos+ | 4.9 |
 | 2026 | [OmniReasoner: Thinking with Long Audio-Video via Native Tool](http://arxiv.org/abs/2607.19339v1) | Long audio-video reasoning is difficult for omnimodal LLMs because the decisive  | Yu Chen, Caorui Li+ | 4.9 |
 | 2026 | [HeadCast: Casting Attention Heads for Efficient Autoregressi](http://arxiv.org/abs/2607.20125v1) | Autoregressive (AR) video diffusion models have become a promising paradigm for  | Jinliang Shen, Lianghao Su+ | 4.9 |
-| 2026 | [A Very Big Video Reasoning Suite](http://arxiv.org/abs/2602.20159v2) | Rapid progress in video models has largely focused on visual quality, leaving th | Maijunxian Wang, Ruisi Wang+ | 4.8 |
+| 2026 | [Knowledge-Guided Multimodal Reasoning over Interacting Strea](http://arxiv.org/abs/2607.25961v1) | Ambivalence and hesitancy (A/H) are conflicting affective states that precede th | Podakanti Satyajith Chary, Barath Parthiban+ | 4.9 |
 
 ## 📎 Strongly Related Papers
 
@@ -95,14 +95,14 @@
 | 2026 | [MAGiSt3R: Multi-Agent Feed-forward 3D Reconstruction from Mo](http://arxiv.org/abs/2607.15211v1) | This paper presents MAGiSt3R, a multi-agent 3D reconstruction framework performi | Ziren Gong, Xiaohan Li+ | 3.8 |
 | 2026 | [DebrisTracer: Reliable Tracking in Hypervelocity Impact Fast](http://arxiv.org/abs/2607.15986v1) | This application paper presents DebrisTracer, a framework for the reliable track | Théophane Loloum, Fabien Vivodtzev+ | 3.8 |
 | 2026 | [Context-structured Video Anomaly Detection with Large Vision](http://arxiv.org/abs/2607.19077v1) | Training video anomaly detectors is challenging due to the difficulty and cost o | Dongjun Kim, Changjae Oh+ | 3.8 |
+| 2026 | [Impact Detection in Fall Events: Leveraging Spatio-Temporal ](http://arxiv.org/abs/2607.25710v1) | Fall represents a significant risk of accidental death among individuals aged ov | Tresor Y. Koffi, Youssef Mourchid+ | 3.8 |
 | 2026 | [ViASNet: A Video Ad Saliency Network for Predicting Dynamic ](http://arxiv.org/abs/2605.29302v1) | The digital media landscape has seen a pervasive shift toward short-form video a | Jianping Ye, Michel Wedel | 3.7 |
 | 2026 | [Genflow Ad Studio: A Compound AI Architecture for Brand-Alig](http://arxiv.org/abs/2605.16748v1) | Recent advancements in generative video models demonstrate high visual fidelity, | Debanshu Das, Lavi Nigam+ | 3.7 |
-| 2026 | [Learning Face–Hand Interaction With a Convolutional Network ](https://www.semanticscholar.org/paper/075576f9c5f52bf17751c4862834a56290e4749d) | Understanding sign language requires careful consideration of the relationships  | Jiin Takeda, N. Mukai+ | 3.7 |
 
 ---
 
 <details>
-<summary>📅 2026 (146 papers)</summary>
+<summary>📅 2026 (163 papers)</summary>
 
 | Tag | Title | Summary | Author | Score |
 |------|------|------|------|------|
@@ -119,7 +119,7 @@
 | 🔥 | [Hierarchical Denoising For Multi-Step Visual Reaso](http://arxiv.org/abs/2607.15278v1) | Video models are evolving into vision foundation models, yet they stil | Zezhong Qian, Xiaowei Chi+ | 5.0 |
 | 🔥 | [Exo2EgoPose: Leveraging Exocentric Demonstrations ](http://arxiv.org/abs/2607.15890v1) | Perceiving multimodal cues and forecasting fine-grained actions from a | Zhaofeng Shi, Heqian Qiu+ | 5.0 |
 
-*Showing 12 of 146 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
+*Showing 12 of 163 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
 
 </details>
 
