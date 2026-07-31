@@ -4,12 +4,12 @@
 <p align="center"><em>Automated paper curation for video deep learning & explainability research</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-670-blue" alt="papers" />
-  <img src="https://img.shields.io/badge/core-260-green" alt="core" />
-  <img src="https://img.shields.io/badge/strongly_related-410-yellow" alt="strongly_related" />
-  <img src="https://img.shields.io/badge/arXiv-354-critical" alt="arXiv" />
+  <img src="https://img.shields.io/badge/papers-686-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/core-271-green" alt="core" />
+  <img src="https://img.shields.io/badge/strongly_related-415-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/arXiv-370-critical" alt="arXiv" />
   <img src="https://img.shields.io/badge/Semantic_Scholar-311-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-07-30-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/last_update-2026-07-31-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -23,15 +23,15 @@
 
 | Metric | Count |
 |--------|-------|
-| 📚 Total Papers | **670** |
-| 🔥 Core Papers | **260** |
-| 📎 Strongly Related | **410** |
-| 🆕 New This Month | **147** |
-| 📡 arXiv | 354 |
+| 📚 Total Papers | **686** |
+| 🔥 Core Papers | **271** |
+| 📎 Strongly Related | **415** |
+| 🆕 New This Month | **163** |
+| 📡 arXiv | 370 |
 | 🔬 Semantic Scholar | 311 |
 | 🔗 CrossRef Enriched | 3 |
 | ✍️ Manual | 5 |
-| ⏰ Last Updated | 2026-07-30 04:12:25 |
+| ⏰ Last Updated | 2026-07-31 04:29:58 |
 
 ## 🏆 Top 5 Most Influential
 
@@ -91,18 +91,18 @@
 | 2026 | [SM4RT: Learning Structured Motion Geometry for 4D Reconstruc](http://arxiv.org/abs/2607.22534v1) | Geometry Foundation Models (GFMs) have substantially advanced monocular 3D recon | Shing Ho J. Lin, Wenzhao Zheng+ | 3.9 |
 | 2026 | [From Local Payoffs to Global Instabilities: A Spectral Carto](http://arxiv.org/abs/2607.24638v1) | We develop a motif-based framework for spatiotemporal chaos in spatial evolution | Ozgur Aydogmus | 3.9 |
 | 2026 | [From Passive Video to Editable Experience: Physically Ground](http://arxiv.org/abs/2607.26903v1) | The key bottleneck in embodied AI is not model architecture but data. Although b | Jia Luo | 3.9 |
+| 2026 | [QAdapt: A Noise-Adaptive Neural Pre-Decoding Framework for Q](http://arxiv.org/abs/2607.28422v1) | Fault-tolerant quantum computing (FTQC) relies on quantum error correction to su | Ran Miao, Rui Luo+ | 3.9 |
 | 2026 | [PSAM: Parameter-Free Spatiotemporal Attention Mechanism for ](https://www.semanticscholar.org/paper/3711f35824427708f33895b6529bb278c18de98b) | Spatiotemporal attention learning has always been a challenging research task in | Fuwei Zhang, Ruomei Wang+ | 3.8 |
 | 2026 | [MeanFlowNFT: Bringing Forward-Process RL to Average-Velocity](http://arxiv.org/abs/2607.15273v1) | MeanFlow generators achieve fast few-step sampling by predicting average velocit | Yushi Huang, Xiangxin Zhou+ | 3.8 |
 | 2026 | [MAGiSt3R: Multi-Agent Feed-forward 3D Reconstruction from Mo](http://arxiv.org/abs/2607.15211v1) | This paper presents MAGiSt3R, a multi-agent 3D reconstruction framework performi | Ziren Gong, Xiaohan Li+ | 3.8 |
 | 2026 | [DebrisTracer: Reliable Tracking in Hypervelocity Impact Fast](http://arxiv.org/abs/2607.15986v1) | This application paper presents DebrisTracer, a framework for the reliable track | Théophane Loloum, Fabien Vivodtzev+ | 3.8 |
 | 2026 | [Context-structured Video Anomaly Detection with Large Vision](http://arxiv.org/abs/2607.19077v1) | Training video anomaly detectors is challenging due to the difficulty and cost o | Dongjun Kim, Changjae Oh+ | 3.8 |
 | 2026 | [Impact Detection in Fall Events: Leveraging Spatio-Temporal ](http://arxiv.org/abs/2607.25710v1) | Fall represents a significant risk of accidental death among individuals aged ov | Tresor Y. Koffi, Youssef Mourchid+ | 3.8 |
-| 2026 | [DistillAlign: Coordinating Mode Covering and Mode Seeking in](http://arxiv.org/abs/2607.26811v1) | Existing autoregressive video distillation methods commonly adopt a Distribution | Jiaxing Li, Kai Zou+ | 3.8 |
 
 ---
 
 <details>
-<summary>📅 2026 (176 papers)</summary>
+<summary>📅 2026 (192 papers)</summary>
 
 | Tag | Title | Summary | Author | Score |
 |------|------|------|------|------|
@@ -119,7 +119,7 @@
 | 🔥 | [IVEX-WA and IVEX-MetaStack Ensemble Models: A Tran](https://www.semanticscholar.org/paper/95b40a68c7bc69ad435a644ae21803289f429352) | Human action recognition (HAR) using deep learning approaches has sign | Md Tasnim Alam, Subhram Dasgupta+ | 5.0 |
 | 🔥 | [Hierarchical Denoising For Multi-Step Visual Reaso](http://arxiv.org/abs/2607.15278v1) | Video models are evolving into vision foundation models, yet they stil | Zezhong Qian, Xiaowei Chi+ | 5.0 |
 
-*Showing 12 of 176 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
+*Showing 12 of 192 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
 
 </details>
 
