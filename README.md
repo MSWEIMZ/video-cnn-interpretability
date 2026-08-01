@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/strongly_related-415-yellow" alt="strongly_related" />
   <img src="https://img.shields.io/badge/arXiv-370-critical" alt="arXiv" />
   <img src="https://img.shields.io/badge/Semantic_Scholar-311-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-07-31-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/last_update-2026-08-01-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -26,12 +26,12 @@
 | 📚 Total Papers | **686** |
 | 🔥 Core Papers | **271** |
 | 📎 Strongly Related | **415** |
-| 🆕 New This Month | **163** |
+| 🆕 New This Month | **0** |
 | 📡 arXiv | 370 |
 | 🔬 Semantic Scholar | 311 |
 | 🔗 CrossRef Enriched | 3 |
 | ✍️ Manual | 5 |
-| ⏰ Last Updated | 2026-07-31 04:29:58 |
+| ⏰ Last Updated | 2026-08-01 04:26:25 |
 
 ## 🏆 Top 5 Most Influential
 

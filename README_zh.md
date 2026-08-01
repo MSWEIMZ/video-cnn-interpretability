@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/strongly_related-415-yellow" alt="strongly_related" />
   <img src="https://img.shields.io/badge/arXiv-370-critical" alt="arXiv" />
   <img src="https://img.shields.io/badge/Semantic_Scholar-311-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-07-31-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/last_update-2026-08-01-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -26,12 +26,12 @@
 | 📚 论文总数 | **686** |
 | 🔥 核心论文 | **271** |
 | 📎 高相关论文 | **415** |
-| 🆕 本月新增 | **163** |
+| 🆕 本月新增 | **0** |
 | 📡 arXiv | 370 |
 | 🔬 Semantic Scholar | 311 |
 | 🔗 CrossRef 增强 | 3 |
 | ✍️ 手工整理 | 5 |
-| ⏰ 最后更新 | 2026-07-31 04:29:58 |
+| ⏰ 最后更新 | 2026-08-01 04:26:25 |
 
 ## 🏆 高影响力论文 Top 5
 
