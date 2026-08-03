@@ -4,12 +4,12 @@
 <p align="center"><em>视频深度学习与可解释性论文自动搜集系统</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-686-blue" alt="papers" />
-  <img src="https://img.shields.io/badge/core-271-green" alt="core" />
-  <img src="https://img.shields.io/badge/strongly_related-415-yellow" alt="strongly_related" />
-  <img src="https://img.shields.io/badge/arXiv-370-critical" alt="arXiv" />
+  <img src="https://img.shields.io/badge/papers-697-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/core-279-green" alt="core" />
+  <img src="https://img.shields.io/badge/strongly_related-418-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/arXiv-381-critical" alt="arXiv" />
   <img src="https://img.shields.io/badge/Semantic_Scholar-311-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-08-02-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/last_update-2026-08-03-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -23,15 +23,15 @@
 
 | 指标 | 数量 |
 |------|------|
-| 📚 论文总数 | **686** |
-| 🔥 核心论文 | **271** |
-| 📎 高相关论文 | **415** |
+| 📚 论文总数 | **697** |
+| 🔥 核心论文 | **279** |
+| 📎 高相关论文 | **418** |
 | 🆕 本月新增 | **0** |
-| 📡 arXiv | 370 |
+| 📡 arXiv | 381 |
 | 🔬 Semantic Scholar | 311 |
 | 🔗 CrossRef 增强 | 3 |
 | ✍️ 手工整理 | 5 |
-| ⏰ 最后更新 | 2026-08-02 04:29:48 |
+| ⏰ 最后更新 | 2026-08-03 04:36:59 |
 
 ## 🏆 高影响力论文 Top 5
 
@@ -102,7 +102,7 @@
 ---
 
 <details>
-<summary>📅 2026 年 (192 篇)</summary>
+<summary>📅 2026 年 (203 篇)</summary>
 
 | 标签 | 标题 | 摘要 | 作者 | 分数 |
 |------|------|------|------|------|
@@ -119,7 +119,7 @@
 | 🔥 | [IVEX-WA and IVEX-MetaStack Ensemble Models: A Tran](https://www.semanticscholar.org/paper/95b40a68c7bc69ad435a644ae21803289f429352) | 本文聚焦视频模型可解释性，采用梯度归因、显著性或概念分析，主要用于分析模型依据及关键空间或时间区域。 | Md Tasnim Alam, Subhram Dasgupta+ | 5.0 |
 | 🔥 | [Hierarchical Denoising For Multi-Step Visual Reaso](http://arxiv.org/abs/2607.15278v1) | 本文聚焦视频理解与时序推理，采用时空注意力或 Transformer，主要用于研究模型表示、推理能力及应用效果。 | Zezhong Qian, Xiaowei Chi+ | 5.0 |
 
-*仅展示前 12 篇，完整 192 篇请查看 [ALL_PAPERS_zh.md](ALL_PAPERS_zh.md)。*
+*仅展示前 12 篇，完整 203 篇请查看 [ALL_PAPERS_zh.md](ALL_PAPERS_zh.md)。*
 
 </details>
 

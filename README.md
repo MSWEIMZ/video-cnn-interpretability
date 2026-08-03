@@ -4,12 +4,12 @@
 <p align="center"><em>Automated paper curation for video deep learning & explainability research</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-686-blue" alt="papers" />
-  <img src="https://img.shields.io/badge/core-271-green" alt="core" />
-  <img src="https://img.shields.io/badge/strongly_related-415-yellow" alt="strongly_related" />
-  <img src="https://img.shields.io/badge/arXiv-370-critical" alt="arXiv" />
+  <img src="https://img.shields.io/badge/papers-697-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/core-279-green" alt="core" />
+  <img src="https://img.shields.io/badge/strongly_related-418-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/arXiv-381-critical" alt="arXiv" />
   <img src="https://img.shields.io/badge/Semantic_Scholar-311-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-08-02-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/last_update-2026-08-03-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -23,15 +23,15 @@
 
 | Metric | Count |
 |--------|-------|
-| 📚 Total Papers | **686** |
-| 🔥 Core Papers | **271** |
-| 📎 Strongly Related | **415** |
+| 📚 Total Papers | **697** |
+| 🔥 Core Papers | **279** |
+| 📎 Strongly Related | **418** |
 | 🆕 New This Month | **0** |
-| 📡 arXiv | 370 |
+| 📡 arXiv | 381 |
 | 🔬 Semantic Scholar | 311 |
 | 🔗 CrossRef Enriched | 3 |
 | ✍️ Manual | 5 |
-| ⏰ Last Updated | 2026-08-02 04:29:48 |
+| ⏰ Last Updated | 2026-08-03 04:36:59 |
 
 ## 🏆 Top 5 Most Influential
 
@@ -102,7 +102,7 @@
 ---
 
 <details>
-<summary>📅 2026 (192 papers)</summary>
+<summary>📅 2026 (203 papers)</summary>
 
 | Tag | Title | Summary | Author | Score |
 |------|------|------|------|------|
@@ -119,7 +119,7 @@
 | 🔥 | [IVEX-WA and IVEX-MetaStack Ensemble Models: A Tran](https://www.semanticscholar.org/paper/95b40a68c7bc69ad435a644ae21803289f429352) | Human action recognition (HAR) using deep learning approaches has sign | Md Tasnim Alam, Subhram Dasgupta+ | 5.0 |
 | 🔥 | [Hierarchical Denoising For Multi-Step Visual Reaso](http://arxiv.org/abs/2607.15278v1) | Video models are evolving into vision foundation models, yet they stil | Zezhong Qian, Xiaowei Chi+ | 5.0 |
 
-*Showing 12 of 192 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
+*Showing 12 of 203 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
 
 </details>
 
