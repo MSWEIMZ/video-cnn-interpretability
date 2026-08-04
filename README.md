@@ -4,12 +4,12 @@
 <p align="center"><em>Automated paper curation for video deep learning & explainability research</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-697-blue" alt="papers" />
-  <img src="https://img.shields.io/badge/core-279-green" alt="core" />
-  <img src="https://img.shields.io/badge/strongly_related-418-yellow" alt="strongly_related" />
-  <img src="https://img.shields.io/badge/arXiv-381-critical" alt="arXiv" />
+  <img src="https://img.shields.io/badge/papers-711-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/core-285-green" alt="core" />
+  <img src="https://img.shields.io/badge/strongly_related-426-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/arXiv-395-critical" alt="arXiv" />
   <img src="https://img.shields.io/badge/Semantic_Scholar-311-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-08-03-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/last_update-2026-08-04-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -23,15 +23,15 @@
 
 | Metric | Count |
 |--------|-------|
-| 📚 Total Papers | **697** |
-| 🔥 Core Papers | **279** |
-| 📎 Strongly Related | **418** |
-| 🆕 New This Month | **0** |
-| 📡 arXiv | 381 |
+| 📚 Total Papers | **711** |
+| 🔥 Core Papers | **285** |
+| 📎 Strongly Related | **426** |
+| 🆕 New This Month | **14** |
+| 📡 arXiv | 395 |
 | 🔬 Semantic Scholar | 311 |
-| 🔗 CrossRef Enriched | 3 |
+| 🔗 CrossRef Enriched | 4 |
 | ✍️ Manual | 5 |
-| ⏰ Last Updated | 2026-08-03 04:36:59 |
+| ⏰ Last Updated | 2026-08-04 04:19:47 |
 
 ## 🏆 Top 5 Most Influential
 
@@ -64,6 +64,7 @@
 | Year | Title | Summary | Author | Score |
 |------|------|------|------|------|
 | 2026 | [Searching Videos as Trees: Self-Correcting Agents for Ground](http://arxiv.org/abs/2607.16189v1) | Grounded long-video question answering (Grounded LVQA) requires answering a ques | Ce Zhang, Ziyang Wang+ | 5.5 |
+| 2026 | [GROVE: Growing and Reasoning over Temporally Stratified Memo](http://arxiv.org/abs/2608.02392v1) | A wearable assistant should both answer questions about its visual history and r | Sitong Gong, Caixin Kang+ | 5.5 |
 | 2026 | [Video Understanding: From Geometry and Semantics to Unified ](http://arxiv.org/abs/2603.17840v1) | Video understanding aims to enable models to perceive, reason about, and interac | Zhaochong An, Zirui Li+ | 5.2 |
 | 2026 | [Audio-Visual Flamingo: Open Audio-Visual Intelligence for Lo](http://arxiv.org/abs/2607.16107v1) | We present Audio-Visual Flamingo (AV-Flamingo), a fully open state-of-the-art au | Sreyan Ghosh, Arushi Goel+ | 5.2 |
 | 2026 | [Sparse Evidence Can Suffice: Agentic Evidence Seeking for Mu](http://arxiv.org/abs/2607.18080v1) | Multimodal video misinformation detection is commonly formulated as a holistic v | Haochen Zhao, Yongxiu Xu+ | 5.2 |
@@ -73,6 +74,7 @@
 | 2026 | [CADER: Confidence-Aware Dynamic Evidence Reasoning for Long-](http://arxiv.org/abs/2607.24582v1) | Long-video understanding increasingly relies on large vision-language models and | Jinlong Yang, Wenhao Zhang+ | 5.2 |
 | 2026 | [EgoPlay: Event-Triggered Video Editing for Egocentric Stream](http://arxiv.org/abs/2607.24560v1) | We introduce EgoPlay, an event-triggered video-to-video editor for egocentric st | Jinjie Mai, Gordon Guocheng Qian+ | 5.2 |
 | 2026 | [Ripple: Real-Time Streaming Audio-Video Generation With Cros](http://arxiv.org/abs/2607.26818v1) | Audio-video generative models achieve impressive quality but suffer from high la | Yanbo Ding, Zhizhi Guo+ | 5.2 |
+| 2026 | [EchoCache: Energy-Guided Cross-Modal Caching for Efficient A](http://arxiv.org/abs/2608.02474v1) | Audio-driven video generation (A2V) has achieved promising progress in synthesiz | Jiayu Chen, Xiaoyu Wu+ | 5.2 |
 | 2026 | [IVEX-WA and IVEX-MetaStack Ensemble Models: A Transfer Learn](https://www.semanticscholar.org/paper/95b40a68c7bc69ad435a644ae21803289f429352) | Human action recognition (HAR) using deep learning approaches has significantly  | Md Tasnim Alam, Subhram Dasgupta+ | 5.0 |
 | 2026 | [Hierarchical Denoising For Multi-Step Visual Reasoning](http://arxiv.org/abs/2607.15278v1) | Video models are evolving into vision foundation models, yet they still lack hum | Zezhong Qian, Xiaowei Chi+ | 5.0 |
 | 2026 | [Exo2EgoPose: Leveraging Exocentric Demonstrations for Vision](http://arxiv.org/abs/2607.15890v1) | Perceiving multimodal cues and forecasting fine-grained actions from an egocentr | Zhaofeng Shi, Heqian Qiu+ | 5.0 |
@@ -81,8 +83,6 @@
 | 2026 | [3D-RFT: Reinforcement Fine-Tuning for Video-based 3D Scene U](http://arxiv.org/abs/2603.04976v2) | Reinforcement Learning with Verifiable Rewards ( RLVR ) has emerged as a transfo | Xiongkun Linghu, Jiangyong Huang+ | 4.9 |
 | 2026 | [Video-Oasis: Rethinking Evaluation of Video Understanding](http://arxiv.org/abs/2603.29616v2) | The inherent complexity of video understanding makes it difficult to determine w | Geuntaek Lim, Sungjune Park+ | 4.9 |
 | 2026 | [Knowing the Self, Understanding the World: A Dual-Cognition ](http://arxiv.org/abs/2607.16193v1) | Multimodal large language models have achieved strong performance across diverse | Like Liu, Zhengzheng Xu+ | 4.9 |
-| 2026 | [SGA: Plug&Play Geometric Verification for Educational Video ](http://arxiv.org/abs/2607.18116v1) | Recent work leverages Large Language Models (LLMs) to generate executable code f | Lopez Jhon, Hinojosa Carlos+ | 4.9 |
-| 2026 | [OmniReasoner: Thinking with Long Audio-Video via Native Tool](http://arxiv.org/abs/2607.19339v1) | Long audio-video reasoning is difficult for omnimodal LLMs because the decisive  | Yu Chen, Caorui Li+ | 4.9 |
 
 ## 📎 Strongly Related Papers
 
@@ -92,21 +92,22 @@
 | 2026 | [From Local Payoffs to Global Instabilities: A Spectral Carto](http://arxiv.org/abs/2607.24638v1) | We develop a motif-based framework for spatiotemporal chaos in spatial evolution | Ozgur Aydogmus | 3.9 |
 | 2026 | [From Passive Video to Editable Experience: Physically Ground](http://arxiv.org/abs/2607.26903v1) | The key bottleneck in embodied AI is not model architecture but data. Although b | Jia Luo | 3.9 |
 | 2026 | [QAdapt: A Noise-Adaptive Neural Pre-Decoding Framework for Q](http://arxiv.org/abs/2607.28422v1) | Fault-tolerant quantum computing (FTQC) relies on quantum error correction to su | Ran Miao, Rui Luo+ | 3.9 |
+| 2026 | [Faster-WAM: Do World Action Models Need Deep Action Modules?](http://arxiv.org/abs/2608.02365v1) | World Action Models (WAMs) couple robot action prediction with video world model | Liheng Ma, Rui Heng Yang+ | 3.9 |
+| 2026 | [Context-Aware Mixture of Domain Experts for Bodily Expressio](http://arxiv.org/abs/2608.02331v1) | The same body posture can convey entirely different emotions depending on its su | Mohammad Mahdi Dehshibi, David Masip | 3.9 |
 | 2026 | [PSAM: Parameter-Free Spatiotemporal Attention Mechanism for ](https://www.semanticscholar.org/paper/3711f35824427708f33895b6529bb278c18de98b) | Spatiotemporal attention learning has always been a challenging research task in | Fuwei Zhang, Ruomei Wang+ | 3.8 |
 | 2026 | [MeanFlowNFT: Bringing Forward-Process RL to Average-Velocity](http://arxiv.org/abs/2607.15273v1) | MeanFlow generators achieve fast few-step sampling by predicting average velocit | Yushi Huang, Xiangxin Zhou+ | 3.8 |
 | 2026 | [MAGiSt3R: Multi-Agent Feed-forward 3D Reconstruction from Mo](http://arxiv.org/abs/2607.15211v1) | This paper presents MAGiSt3R, a multi-agent 3D reconstruction framework performi | Ziren Gong, Xiaohan Li+ | 3.8 |
 | 2026 | [DebrisTracer: Reliable Tracking in Hypervelocity Impact Fast](http://arxiv.org/abs/2607.15986v1) | This application paper presents DebrisTracer, a framework for the reliable track | Théophane Loloum, Fabien Vivodtzev+ | 3.8 |
-| 2026 | [Context-structured Video Anomaly Detection with Large Vision](http://arxiv.org/abs/2607.19077v1) | Training video anomaly detectors is challenging due to the difficulty and cost o | Dongjun Kim, Changjae Oh+ | 3.8 |
-| 2026 | [Impact Detection in Fall Events: Leveraging Spatio-Temporal ](http://arxiv.org/abs/2607.25710v1) | Fall represents a significant risk of accidental death among individuals aged ov | Tresor Y. Koffi, Youssef Mourchid+ | 3.8 |
 
 ---
 
 <details>
-<summary>📅 2026 (203 papers)</summary>
+<summary>📅 2026 (217 papers)</summary>
 
 | Tag | Title | Summary | Author | Score |
 |------|------|------|------|------|
 | 🔥 | [Searching Videos as Trees: Self-Correcting Agents ](http://arxiv.org/abs/2607.16189v1) | Grounded long-video question answering (Grounded LVQA) requires answer | Ce Zhang, Ziyang Wang+ | 5.5 |
+| 🔥 | [GROVE: Growing and Reasoning over Temporally Strat](http://arxiv.org/abs/2608.02392v1) | A wearable assistant should both answer questions about its visual his | Sitong Gong, Caixin Kang+ | 5.5 |
 | 🔥 | [Video Understanding: From Geometry and Semantics t](http://arxiv.org/abs/2603.17840v1) | Video understanding aims to enable models to perceive, reason about, a | Zhaochong An, Zirui Li+ | 5.2 |
 | 🔥 | [Audio-Visual Flamingo: Open Audio-Visual Intellige](http://arxiv.org/abs/2607.16107v1) | We present Audio-Visual Flamingo (AV-Flamingo), a fully open state-of- | Sreyan Ghosh, Arushi Goel+ | 5.2 |
 | 🔥 | [Sparse Evidence Can Suffice: Agentic Evidence Seek](http://arxiv.org/abs/2607.18080v1) | Multimodal video misinformation detection is commonly formulated as a  | Haochen Zhao, Yongxiu Xu+ | 5.2 |
@@ -116,10 +117,9 @@
 | 🔥 | [CADER: Confidence-Aware Dynamic Evidence Reasoning](http://arxiv.org/abs/2607.24582v1) | Long-video understanding increasingly relies on large vision-language  | Jinlong Yang, Wenhao Zhang+ | 5.2 |
 | 🔥 | [EgoPlay: Event-Triggered Video Editing for Egocent](http://arxiv.org/abs/2607.24560v1) | We introduce EgoPlay, an event-triggered video-to-video editor for ego | Jinjie Mai, Gordon Guocheng Qian+ | 5.2 |
 | 🔥 | [Ripple: Real-Time Streaming Audio-Video Generation](http://arxiv.org/abs/2607.26818v1) | Audio-video generative models achieve impressive quality but suffer fr | Yanbo Ding, Zhizhi Guo+ | 5.2 |
-| 🔥 | [IVEX-WA and IVEX-MetaStack Ensemble Models: A Tran](https://www.semanticscholar.org/paper/95b40a68c7bc69ad435a644ae21803289f429352) | Human action recognition (HAR) using deep learning approaches has sign | Md Tasnim Alam, Subhram Dasgupta+ | 5.0 |
-| 🔥 | [Hierarchical Denoising For Multi-Step Visual Reaso](http://arxiv.org/abs/2607.15278v1) | Video models are evolving into vision foundation models, yet they stil | Zezhong Qian, Xiaowei Chi+ | 5.0 |
+| 🔥 | [EchoCache: Energy-Guided Cross-Modal Caching for E](http://arxiv.org/abs/2608.02474v1) | Audio-driven video generation (A2V) has achieved promising progress in | Jiayu Chen, Xiaoyu Wu+ | 5.2 |
 
-*Showing 12 of 203 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
+*Showing 12 of 217 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
 
 </details>
 
