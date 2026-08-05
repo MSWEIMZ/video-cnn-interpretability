@@ -4,12 +4,12 @@
 <p align="center"><em>Automated paper curation for video deep learning & explainability research</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-711-blue" alt="papers" />
-  <img src="https://img.shields.io/badge/core-285-green" alt="core" />
-  <img src="https://img.shields.io/badge/strongly_related-426-yellow" alt="strongly_related" />
-  <img src="https://img.shields.io/badge/arXiv-395-critical" alt="arXiv" />
+  <img src="https://img.shields.io/badge/papers-723-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/core-290-green" alt="core" />
+  <img src="https://img.shields.io/badge/strongly_related-433-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/arXiv-407-critical" alt="arXiv" />
   <img src="https://img.shields.io/badge/Semantic_Scholar-311-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-08-04-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/last_update-2026-08-05-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -23,15 +23,15 @@
 
 | Metric | Count |
 |--------|-------|
-| 📚 Total Papers | **711** |
-| 🔥 Core Papers | **285** |
-| 📎 Strongly Related | **426** |
-| 🆕 New This Month | **14** |
-| 📡 arXiv | 395 |
+| 📚 Total Papers | **723** |
+| 🔥 Core Papers | **290** |
+| 📎 Strongly Related | **433** |
+| 🆕 New This Month | **26** |
+| 📡 arXiv | 407 |
 | 🔬 Semantic Scholar | 311 |
-| 🔗 CrossRef Enriched | 4 |
+| 🔗 CrossRef Enriched | 6 |
 | ✍️ Manual | 5 |
-| ⏰ Last Updated | 2026-08-04 04:19:47 |
+| ⏰ Last Updated | 2026-08-05 04:17:50 |
 
 ## 🏆 Top 5 Most Influential
 
@@ -65,6 +65,7 @@
 |------|------|------|------|------|
 | 2026 | [Searching Videos as Trees: Self-Correcting Agents for Ground](http://arxiv.org/abs/2607.16189v1) | Grounded long-video question answering (Grounded LVQA) requires answering a ques | Ce Zhang, Ziyang Wang+ | 5.5 |
 | 2026 | [GROVE: Growing and Reasoning over Temporally Stratified Memo](http://arxiv.org/abs/2608.02392v1) | A wearable assistant should both answer questions about its visual history and r | Sitong Gong, Caixin Kang+ | 5.5 |
+| 2026 | [Video-DeepResearch: Towards the Next-Generation Multimodal D](http://arxiv.org/abs/2608.03979v1) | We introduce Video-DeepResearch (Video-DR), extending multimodal agents from sta | Zhen Fang, Yu Zeng+ | 5.5 |
 | 2026 | [Video Understanding: From Geometry and Semantics to Unified ](http://arxiv.org/abs/2603.17840v1) | Video understanding aims to enable models to perceive, reason about, and interac | Zhaochong An, Zirui Li+ | 5.2 |
 | 2026 | [Audio-Visual Flamingo: Open Audio-Visual Intelligence for Lo](http://arxiv.org/abs/2607.16107v1) | We present Audio-Visual Flamingo (AV-Flamingo), a fully open state-of-the-art au | Sreyan Ghosh, Arushi Goel+ | 5.2 |
 | 2026 | [Sparse Evidence Can Suffice: Agentic Evidence Seeking for Mu](http://arxiv.org/abs/2607.18080v1) | Multimodal video misinformation detection is commonly formulated as a holistic v | Haochen Zhao, Yongxiu Xu+ | 5.2 |
@@ -82,7 +83,6 @@
 | 2026 | [DLAM: Distributional Latent Actions with Temporal Constraint](http://arxiv.org/abs/2607.27138v1) | Vision-language-action (VLA) models remain constrained by scarce action-labeled  | Zuojin Tang, Feifan Luo+ | 5.0 |
 | 2026 | [3D-RFT: Reinforcement Fine-Tuning for Video-based 3D Scene U](http://arxiv.org/abs/2603.04976v2) | Reinforcement Learning with Verifiable Rewards ( RLVR ) has emerged as a transfo | Xiongkun Linghu, Jiangyong Huang+ | 4.9 |
 | 2026 | [Video-Oasis: Rethinking Evaluation of Video Understanding](http://arxiv.org/abs/2603.29616v2) | The inherent complexity of video understanding makes it difficult to determine w | Geuntaek Lim, Sungjune Park+ | 4.9 |
-| 2026 | [Knowing the Self, Understanding the World: A Dual-Cognition ](http://arxiv.org/abs/2607.16193v1) | Multimodal large language models have achieved strong performance across diverse | Like Liu, Zhengzheng Xu+ | 4.9 |
 
 ## 📎 Strongly Related Papers
 
@@ -94,20 +94,21 @@
 | 2026 | [QAdapt: A Noise-Adaptive Neural Pre-Decoding Framework for Q](http://arxiv.org/abs/2607.28422v1) | Fault-tolerant quantum computing (FTQC) relies on quantum error correction to su | Ran Miao, Rui Luo+ | 3.9 |
 | 2026 | [Faster-WAM: Do World Action Models Need Deep Action Modules?](http://arxiv.org/abs/2608.02365v1) | World Action Models (WAMs) couple robot action prediction with video world model | Liheng Ma, Rui Heng Yang+ | 3.9 |
 | 2026 | [Context-Aware Mixture of Domain Experts for Bodily Expressio](http://arxiv.org/abs/2608.02331v1) | The same body posture can convey entirely different emotions depending on its su | Mohammad Mahdi Dehshibi, David Masip | 3.9 |
+| 2026 | [Identity-Faithful Audio-Visual Target Speaker Extraction wit](http://arxiv.org/abs/2608.03964v1) | Audio-visual target speaker extraction should return the speaker indicated by th | Peijun Yang, Zhan Jin+ | 3.9 |
 | 2026 | [PSAM: Parameter-Free Spatiotemporal Attention Mechanism for ](https://www.semanticscholar.org/paper/3711f35824427708f33895b6529bb278c18de98b) | Spatiotemporal attention learning has always been a challenging research task in | Fuwei Zhang, Ruomei Wang+ | 3.8 |
 | 2026 | [MeanFlowNFT: Bringing Forward-Process RL to Average-Velocity](http://arxiv.org/abs/2607.15273v1) | MeanFlow generators achieve fast few-step sampling by predicting average velocit | Yushi Huang, Xiangxin Zhou+ | 3.8 |
 | 2026 | [MAGiSt3R: Multi-Agent Feed-forward 3D Reconstruction from Mo](http://arxiv.org/abs/2607.15211v1) | This paper presents MAGiSt3R, a multi-agent 3D reconstruction framework performi | Ziren Gong, Xiaohan Li+ | 3.8 |
-| 2026 | [DebrisTracer: Reliable Tracking in Hypervelocity Impact Fast](http://arxiv.org/abs/2607.15986v1) | This application paper presents DebrisTracer, a framework for the reliable track | Théophane Loloum, Fabien Vivodtzev+ | 3.8 |
 
 ---
 
 <details>
-<summary>📅 2026 (217 papers)</summary>
+<summary>📅 2026 (229 papers)</summary>
 
 | Tag | Title | Summary | Author | Score |
 |------|------|------|------|------|
 | 🔥 | [Searching Videos as Trees: Self-Correcting Agents ](http://arxiv.org/abs/2607.16189v1) | Grounded long-video question answering (Grounded LVQA) requires answer | Ce Zhang, Ziyang Wang+ | 5.5 |
 | 🔥 | [GROVE: Growing and Reasoning over Temporally Strat](http://arxiv.org/abs/2608.02392v1) | A wearable assistant should both answer questions about its visual his | Sitong Gong, Caixin Kang+ | 5.5 |
+| 🔥 | [Video-DeepResearch: Towards the Next-Generation Mu](http://arxiv.org/abs/2608.03979v1) | We introduce Video-DeepResearch (Video-DR), extending multimodal agent | Zhen Fang, Yu Zeng+ | 5.5 |
 | 🔥 | [Video Understanding: From Geometry and Semantics t](http://arxiv.org/abs/2603.17840v1) | Video understanding aims to enable models to perceive, reason about, a | Zhaochong An, Zirui Li+ | 5.2 |
 | 🔥 | [Audio-Visual Flamingo: Open Audio-Visual Intellige](http://arxiv.org/abs/2607.16107v1) | We present Audio-Visual Flamingo (AV-Flamingo), a fully open state-of- | Sreyan Ghosh, Arushi Goel+ | 5.2 |
 | 🔥 | [Sparse Evidence Can Suffice: Agentic Evidence Seek](http://arxiv.org/abs/2607.18080v1) | Multimodal video misinformation detection is commonly formulated as a  | Haochen Zhao, Yongxiu Xu+ | 5.2 |
@@ -117,9 +118,8 @@
 | 🔥 | [CADER: Confidence-Aware Dynamic Evidence Reasoning](http://arxiv.org/abs/2607.24582v1) | Long-video understanding increasingly relies on large vision-language  | Jinlong Yang, Wenhao Zhang+ | 5.2 |
 | 🔥 | [EgoPlay: Event-Triggered Video Editing for Egocent](http://arxiv.org/abs/2607.24560v1) | We introduce EgoPlay, an event-triggered video-to-video editor for ego | Jinjie Mai, Gordon Guocheng Qian+ | 5.2 |
 | 🔥 | [Ripple: Real-Time Streaming Audio-Video Generation](http://arxiv.org/abs/2607.26818v1) | Audio-video generative models achieve impressive quality but suffer fr | Yanbo Ding, Zhizhi Guo+ | 5.2 |
-| 🔥 | [EchoCache: Energy-Guided Cross-Modal Caching for E](http://arxiv.org/abs/2608.02474v1) | Audio-driven video generation (A2V) has achieved promising progress in | Jiayu Chen, Xiaoyu Wu+ | 5.2 |
 
-*Showing 12 of 217 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
+*Showing 12 of 229 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
 
 </details>
 
