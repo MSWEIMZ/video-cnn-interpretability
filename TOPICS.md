@@ -1,20 +1,20 @@
 # 📂 主题视图
 
-> 共 8 个主题 | 最后更新: 2026-08-06 04:20
+> 共 8 个主题 | 最后更新: 2026-08-07 03:55
 
 ## 📊 主题概览
 
 | 主题 | 论文数 | 核心论文 | 说明 |
 |------|--------|----------|------|
-| 时序解释 | 625 | 268 | 聚焦于视频时序维度的可解释性研究 |
+| 时序解释 | 636 | 272 | 聚焦于视频时序维度的可解释性研究 |
 | 动作识别可解释性 | 238 | 113 | 视频动作识别 / 分类任务的可解释性研究 |
-| 视频 Transformer 可解释性 | 213 | 88 | Vision Transformer / Video Transformer 的可解释性 |
-| 网络解剖 | 170 | 64 | 网络内部单元 / 特征可视化与解剖 |
+| 视频 Transformer 可解释性 | 216 | 90 | Vision Transformer / Video Transformer 的可解释性 |
+| 网络解剖 | 173 | 65 | 网络内部单元 / 特征可视化与解剖 |
 | 3D CNN 解释 | 117 | 59 | 3D 卷积网络 / R(2+1)D 等时空卷积模型的可解释性 |
-| 注意力与归因 | 106 | 39 | 注意力机制分析与梯度归因方法 |
+| 注意力与归因 | 110 | 41 | 注意力机制分析与梯度归因方法 |
 | 视频显著性 | 95 | 37 | 视频/空间显著性检测与可视化 |
 | 鲁棒性与对抗 | 64 | 22 | 视频模型的鲁棒性与对抗攻击/防御 |
-| 未分类 | 31 | - | - |
+| 未分类 | 32 | - | - |
 
 ---
 
@@ -40,7 +40,7 @@
 | 🔥 | [GROVE: Growing and Reasoning over Temporally Stratified Memo](http://arxiv.org/abs/2608.02392v1) | 2026 | 5.5 |
 | 🔥 | [Video-DeepResearch: Towards the Next-Generation Multimodal D](http://arxiv.org/abs/2608.03979v1) | 2026 | 5.5 |
 
-*... 共 625 篇，仅显示前 15 篇*
+*... 共 636 篇，仅显示前 15 篇*
 
 ---
 
@@ -87,12 +87,12 @@
 | 🔥 | [A Hybrid 3D CNNs Transformer Architecture for Video-Based Hu](https://www.semanticscholar.org/paper/e6b804076db44eb636ebe9d8ec47bcd3aa31a067) | 2025 | 5.4 |
 | 🔥 | [Spatiotemporal distilled dense-connectivity network for vide](https://www.semanticscholar.org/paper/04d27bbbc875bd8fe52521112841d47b21950e7c) | 2019 | 5.3 |
 | 🔥 | [EgoPlay: Event-Triggered Video Editing for Egocentric Stream](http://arxiv.org/abs/2607.24560v1) | 2026 | 5.2 |
+| 🔥 | [HOPE: Hand-Object Pressure Estimation from Monocular Videos](http://arxiv.org/abs/2608.06192v1) | 2026 | 5.2 |
 | 🔥 | [Efficient Action Recognition with Introducing R(2+1)D Convol](https://www.semanticscholar.org/paper/3baee2afb894b99d52b24a3ccd45788036fd07c9) | 2021 | 5.2 |
 | 🔥 | [RANP: Resource Aware Neuron Pruning at Initialization for 3D](http://arxiv.org/abs/2010.02488v3) | 2020 | 5.2 |
 | 🔥 | [IVEX-WA and IVEX-MetaStack Ensemble Models: A Transfer Learn](https://www.semanticscholar.org/paper/95b40a68c7bc69ad435a644ae21803289f429352) | 2026 | 5.0 |
-| 🔥 | [Exo2EgoPose: Leveraging Exocentric Demonstrations for Vision](http://arxiv.org/abs/2607.15890v1) | 2026 | 5.0 |
 
-*... 共 213 篇，仅显示前 15 篇*
+*... 共 216 篇，仅显示前 15 篇*
 
 ---
 
@@ -118,7 +118,7 @@
 | 🔥 | [Exo2EgoPose: Leveraging Exocentric Demonstrations for Vision](http://arxiv.org/abs/2607.15890v1) | 2026 | 5.0 |
 | 🔥 | [UniFormerV2: Spatiotemporal Learning by Arming Image ViTs wi](https://arxiv.org/abs/2211.09552) | 2022 | 5.0 |
 
-*... 共 170 篇，仅显示前 15 篇*
+*... 共 173 篇，仅显示前 15 篇*
 
 ---
 
@@ -159,6 +159,7 @@
 | 🔥 | [A Hybrid 3D CNNs Transformer Architecture for Video-Based Hu](https://www.semanticscholar.org/paper/e6b804076db44eb636ebe9d8ec47bcd3aa31a067) | 2025 | 5.4 |
 | 🔥 | [Revisiting Video Saliency Prediction in the Deep Learning Er](https://www.semanticscholar.org/paper/124fd51a1d09fdfa340414c9719f797133507583) | 2021 | 5.3 |
 | 🔥 | [Revisiting Video Saliency: A Large-scale Benchmark and a New](http://arxiv.org/abs/1801.07424v3) | 2018 | 5.3 |
+| 🔥 | [HOPE: Hand-Object Pressure Estimation from Monocular Videos](http://arxiv.org/abs/2608.06192v1) | 2026 | 5.2 |
 | 🔥 | [RANP: Resource Aware Neuron Pruning at Initialization for 3D](http://arxiv.org/abs/2010.02488v3) | 2020 | 5.2 |
 | 🔥 | [IVEX-WA and IVEX-MetaStack Ensemble Models: A Transfer Learn](https://www.semanticscholar.org/paper/95b40a68c7bc69ad435a644ae21803289f429352) | 2026 | 5.0 |
 | 🔥 | [Hierarchical Denoising For Multi-Step Visual Reasoning](http://arxiv.org/abs/2607.15278v1) | 2026 | 5.0 |
@@ -168,9 +169,8 @@
 | 🔥 | [Human Action Recognition Based on 3D Convolution and Multi-A](https://www.semanticscholar.org/paper/778274e1b626aff5327dfe9cf4234ed6d55c2ea7) | 2025 | 4.8 |
 | 🔥 | [Isolated Video-Based Sign Language Recognition Using a Hybri](https://www.semanticscholar.org/paper/fef413d4970c737ebf559fcf39e766910716795b) | 2024 | 4.7 |
 | 🔥 | [Effects of Different Attention Mechanisms Applied on 3D Mode](https://arxiv.org/abs/2601.10854) | 2026 | 4.6 |
-| 🔥 | [Physics-Based Deep Spatiotemporal Hyperlocal Radar Nowcastin](http://arxiv.org/abs/2607.16080v1) | 2026 | 4.5 |
 
-*... 共 106 篇，仅显示前 15 篇*
+*... 共 110 篇，仅显示前 15 篇*
 
 ---
 
