@@ -4,12 +4,12 @@
 <p align="center"><em>Automated paper curation for video deep learning & explainability research</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-747-blue" alt="papers" />
-  <img src="https://img.shields.io/badge/core-302-green" alt="core" />
-  <img src="https://img.shields.io/badge/strongly_related-445-yellow" alt="strongly_related" />
-  <img src="https://img.shields.io/badge/arXiv-431-critical" alt="arXiv" />
+  <img src="https://img.shields.io/badge/papers-762-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/core-310-green" alt="core" />
+  <img src="https://img.shields.io/badge/strongly_related-452-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/arXiv-446-critical" alt="arXiv" />
   <img src="https://img.shields.io/badge/Semantic_Scholar-311-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-08-09-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/last_update-2026-08-10-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -23,15 +23,15 @@
 
 | Metric | Count |
 |--------|-------|
-| 📚 Total Papers | **747** |
-| 🔥 Core Papers | **302** |
-| 📎 Strongly Related | **445** |
-| 🆕 New This Month | **50** |
-| 📡 arXiv | 431 |
+| 📚 Total Papers | **762** |
+| 🔥 Core Papers | **310** |
+| 📎 Strongly Related | **452** |
+| 🆕 New This Month | **65** |
+| 📡 arXiv | 446 |
 | 🔬 Semantic Scholar | 311 |
 | 🔗 CrossRef Enriched | 6 |
 | ✍️ Manual | 5 |
-| ⏰ Last Updated | 2026-08-09 03:05:35 |
+| ⏰ Last Updated | 2026-08-10 03:16:06 |
 
 ## 🏆 Top 5 Most Influential
 
@@ -63,6 +63,7 @@
 
 | Year | Title | Summary | Author | Score |
 |------|------|------|------|------|
+| 2026 | [Addressable Memory for Video World Models](http://arxiv.org/abs/2608.07408v1) | We study visual persistence in interactive video world models. These models rely | Xindi Wu, Sven Elflein+ | 5.7 |
 | 2026 | [Searching Videos as Trees: Self-Correcting Agents for Ground](http://arxiv.org/abs/2607.16189v1) | Grounded long-video question answering (Grounded LVQA) requires answering a ques | Ce Zhang, Ziyang Wang+ | 5.5 |
 | 2026 | [GROVE: Growing and Reasoning over Temporally Stratified Memo](http://arxiv.org/abs/2608.02392v1) | A wearable assistant should both answer questions about its visual history and r | Sitong Gong, Caixin Kang+ | 5.5 |
 | 2026 | [Video-DeepResearch: Towards the Next-Generation Multimodal D](http://arxiv.org/abs/2608.03979v1) | We introduce Video-DeepResearch (Video-DR), extending multimodal agents from sta | Zhen Fang, Yu Zeng+ | 5.5 |
@@ -80,9 +81,8 @@
 | 2026 | [EchoCache: Energy-Guided Cross-Modal Caching for Efficient A](http://arxiv.org/abs/2608.02474v1) | Audio-driven video generation (A2V) has achieved promising progress in synthesiz | Jiayu Chen, Xiaoyu Wu+ | 5.2 |
 | 2026 | [Robust and Efficient Motion Reasoning for Privacy-Aware Clas](http://arxiv.org/abs/2608.05115v1) | Can computer vision help make classrooms safer? In this pilot study, we investig | Paritosh Parmar, Landy Lan+ | 5.2 |
 | 2026 | [HOPE: Hand-Object Pressure Estimation from Monocular Videos](http://arxiv.org/abs/2608.06192v1) | Estimating physical pressure from vision is essential for understanding contact- | Subin Jeon, Byungjun Kim+ | 5.2 |
-| 2026 | [IVEX-WA and IVEX-MetaStack Ensemble Models: A Transfer Learn](https://www.semanticscholar.org/paper/95b40a68c7bc69ad435a644ae21803289f429352) | Human action recognition (HAR) using deep learning approaches has significantly  | Md Tasnim Alam, Subhram Dasgupta+ | 5.0 |
-| 2026 | [Hierarchical Denoising For Multi-Step Visual Reasoning](http://arxiv.org/abs/2607.15278v1) | Video models are evolving into vision foundation models, yet they still lack hum | Zezhong Qian, Xiaowei Chi+ | 5.0 |
-| 2026 | [Exo2EgoPose: Leveraging Exocentric Demonstrations for Vision](http://arxiv.org/abs/2607.15890v1) | Perceiving multimodal cues and forecasting fine-grained actions from an egocentr | Zhaofeng Shi, Heqian Qiu+ | 5.0 |
+| 2026 | [Conformal Coverage Guarantees for Any Video Temporal Grounde](http://arxiv.org/abs/2608.07434v1) | Event boundaries in continuous video are ambiguous: re-annotate the same query-v | Aseel Mohamed, Rasul Khanbayov+ | 5.2 |
+| 2026 | [I Seek You in Videos: Identity-Conditioned Queries for Perso](http://arxiv.org/abs/2608.07417v1) | Real-world video reasoning often involves multimodal, multi-source inputs, where | Shibo Gao, Chongxiao Wang+ | 5.2 |
 
 ## 📎 Strongly Related Papers
 
@@ -97,15 +97,16 @@
 | 2026 | [Identity-Faithful Audio-Visual Target Speaker Extraction wit](http://arxiv.org/abs/2608.03964v1) | Audio-visual target speaker extraction should return the speaker indicated by th | Peijun Yang, Zhan Jin+ | 3.9 |
 | 2026 | [Multimodal Spatiotemporal Atmospheric Data Assimilation with](http://arxiv.org/abs/2608.05103v1) | Data assimilation (DA) uses Bayesian inference to update the state of a numerica | Dibyajyoti Chakraborty, Romit Maulik | 3.9 |
 | 2026 | [BendTwin: Robust Dense-to-Sparse Physical Reconstruction wit](http://arxiv.org/abs/2608.06164v1) | Reconstructing objects with mechanical properties from video observations enable | Yixiong Jing, Qi Wang+ | 3.9 |
-| 2026 | [PSAM: Parameter-Free Spatiotemporal Attention Mechanism for ](https://www.semanticscholar.org/paper/3711f35824427708f33895b6529bb278c18de98b) | Spatiotemporal attention learning has always been a challenging research task in | Fuwei Zhang, Ruomei Wang+ | 3.8 |
+| 2026 | [Geometry-Aware Camera Localization for Bronchoscopy](http://arxiv.org/abs/2608.07116v1) | Camera localization in bronchoscopy remains a challenging problem due to stringe | Lumin Chen, Qingyao Tian+ | 3.9 |
 
 ---
 
 <details>
-<summary>📅 2026 (253 papers)</summary>
+<summary>📅 2026 (268 papers)</summary>
 
 | Tag | Title | Summary | Author | Score |
 |------|------|------|------|------|
+| 🔥 | [Addressable Memory for Video World Models](http://arxiv.org/abs/2608.07408v1) | We study visual persistence in interactive video world models. These m | Xindi Wu, Sven Elflein+ | 5.7 |
 | 🔥 | [Searching Videos as Trees: Self-Correcting Agents ](http://arxiv.org/abs/2607.16189v1) | Grounded long-video question answering (Grounded LVQA) requires answer | Ce Zhang, Ziyang Wang+ | 5.5 |
 | 🔥 | [GROVE: Growing and Reasoning over Temporally Strat](http://arxiv.org/abs/2608.02392v1) | A wearable assistant should both answer questions about its visual his | Sitong Gong, Caixin Kang+ | 5.5 |
 | 🔥 | [Video-DeepResearch: Towards the Next-Generation Mu](http://arxiv.org/abs/2608.03979v1) | We introduce Video-DeepResearch (Video-DR), extending multimodal agent | Zhen Fang, Yu Zeng+ | 5.5 |
@@ -117,9 +118,8 @@
 | 🔥 | [HAS: Highlight-guided Attention Steering for Multi](http://arxiv.org/abs/2607.17994v1) | Video understanding has become more and more important with the growth | Rui Chu, Yingjie Lao | 5.2 |
 | 🔥 | [Time-Reversed Imaging: A Multimodal Benchmark and ](http://arxiv.org/abs/2607.22352v1) | We introduce time-reversed imaging, a new paradigm that infers what ju | Jorge Bacca, Kebin Contreras+ | 5.2 |
 | 🔥 | [Test-Time Adaptation via Dual Distillation for Vid](http://arxiv.org/abs/2607.24611v1) | Deep learning models have achieved state-of-the-art performance in sev | André Sacilotti, Samuel Felipe dos Santos+ | 5.2 |
-| 🔥 | [CADER: Confidence-Aware Dynamic Evidence Reasoning](http://arxiv.org/abs/2607.24582v1) | Long-video understanding increasingly relies on large vision-language  | Jinlong Yang, Wenhao Zhang+ | 5.2 |
 
-*Showing 12 of 253 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
+*Showing 12 of 268 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
 
 </details>
 

@@ -1,19 +1,19 @@
 # 📂 主题视图
 
-> 共 8 个主题 | 最后更新: 2026-08-09 03:05
+> 共 8 个主题 | 最后更新: 2026-08-10 03:16
 
 ## 📊 主题概览
 
 | 主题 | 论文数 | 核心论文 | 说明 |
 |------|--------|----------|------|
-| 时序解释 | 636 | 272 | 聚焦于视频时序维度的可解释性研究 |
+| 时序解释 | 649 | 279 | 聚焦于视频时序维度的可解释性研究 |
 | 动作识别可解释性 | 238 | 113 | 视频动作识别 / 分类任务的可解释性研究 |
-| 视频 Transformer 可解释性 | 216 | 90 | Vision Transformer / Video Transformer 的可解释性 |
-| 网络解剖 | 173 | 65 | 网络内部单元 / 特征可视化与解剖 |
+| 视频 Transformer 可解释性 | 220 | 91 | Vision Transformer / Video Transformer 的可解释性 |
+| 网络解剖 | 175 | 66 | 网络内部单元 / 特征可视化与解剖 |
 | 3D CNN 解释 | 117 | 59 | 3D 卷积网络 / R(2+1)D 等时空卷积模型的可解释性 |
-| 注意力与归因 | 110 | 41 | 注意力机制分析与梯度归因方法 |
+| 注意力与归因 | 112 | 42 | 注意力机制分析与梯度归因方法 |
 | 视频显著性 | 95 | 37 | 视频/空间显著性检测与可视化 |
-| 鲁棒性与对抗 | 64 | 22 | 视频模型的鲁棒性与对抗攻击/防御 |
+| 鲁棒性与对抗 | 65 | 22 | 视频模型的鲁棒性与对抗攻击/防御 |
 | 未分类 | 32 | - | - |
 
 ---
@@ -29,6 +29,7 @@
 | 🔥 | [Enhancing Video Understanding: Deep Neural Networks for Spat](http://arxiv.org/abs/2502.07277v1) | 2025 | 5.8 |
 | 🔥 | [Deep Analysis of CNN-based Spatio-temporal Representations f](http://arxiv.org/abs/2010.11757v4) | 2020 | 5.8 |
 | 🔥 | [Spatio-Temporal FAST 3D Convolutions for Human Action Recogn](http://arxiv.org/abs/1909.13474v2) | 2019 | 5.8 |
+| 🔥 | [Addressable Memory for Video World Models](http://arxiv.org/abs/2608.07408v1) | 2026 | 5.7 |
 | 🔥 | [Hierarchical Spatiotemporal Feature Fusion Network For Video](https://www.semanticscholar.org/paper/dace1a1869929071f20269cb375ebd5c25b74b7c) | 2023 | 5.7 |
 | 🔥 | [Action Transformer: A Self-Attention Model for Short-Time Po](http://arxiv.org/abs/2107.00606v6) | 2021 | 5.7 |
 | 🔥 | [Temporal-attentive Covariance Pooling Networks for Video Rec](http://arxiv.org/abs/2110.14381v3) | 2021 | 5.7 |
@@ -38,9 +39,8 @@
 | 🔥 | [Is Space-Time Attention All You Need for Video Understanding](https://arxiv.org/abs/2102.05095) | 2021 | 5.6 |
 | 🔥 | [Searching Videos as Trees: Self-Correcting Agents for Ground](http://arxiv.org/abs/2607.16189v1) | 2026 | 5.5 |
 | 🔥 | [GROVE: Growing and Reasoning over Temporally Stratified Memo](http://arxiv.org/abs/2608.02392v1) | 2026 | 5.5 |
-| 🔥 | [Video-DeepResearch: Towards the Next-Generation Multimodal D](http://arxiv.org/abs/2608.03979v1) | 2026 | 5.5 |
 
-*... 共 636 篇，仅显示前 15 篇*
+*... 共 649 篇，仅显示前 15 篇*
 
 ---
 
@@ -92,7 +92,7 @@
 | 🔥 | [RANP: Resource Aware Neuron Pruning at Initialization for 3D](http://arxiv.org/abs/2010.02488v3) | 2020 | 5.2 |
 | 🔥 | [IVEX-WA and IVEX-MetaStack Ensemble Models: A Transfer Learn](https://www.semanticscholar.org/paper/95b40a68c7bc69ad435a644ae21803289f429352) | 2026 | 5.0 |
 
-*... 共 216 篇，仅显示前 15 篇*
+*... 共 220 篇，仅显示前 15 篇*
 
 ---
 
@@ -118,7 +118,7 @@
 | 🔥 | [Exo2EgoPose: Leveraging Exocentric Demonstrations for Vision](http://arxiv.org/abs/2607.15890v1) | 2026 | 5.0 |
 | 🔥 | [UniFormerV2: Spatiotemporal Learning by Arming Image ViTs wi](https://arxiv.org/abs/2211.09552) | 2022 | 5.0 |
 
-*... 共 173 篇，仅显示前 15 篇*
+*... 共 175 篇，仅显示前 15 篇*
 
 ---
 
@@ -167,10 +167,10 @@
 | 🔥 | [3D Convolutional with Attention for Action Recognition](http://arxiv.org/abs/2206.02203v1) | 2022 | 5.0 |
 | 🔥 | [RepAttn3D: Re-parameterizing 3D attention with spatiotempora](https://www.semanticscholar.org/paper/10363be6ea7467ba7979e10a46379c461ee93c2b) | 2025 | 4.8 |
 | 🔥 | [Human Action Recognition Based on 3D Convolution and Multi-A](https://www.semanticscholar.org/paper/778274e1b626aff5327dfe9cf4234ed6d55c2ea7) | 2025 | 4.8 |
+| 🔥 | [UniJEPA: A Unified Joint-Embedding Predictive Architecture f](http://arxiv.org/abs/2608.07409v1) | 2026 | 4.7 |
 | 🔥 | [Isolated Video-Based Sign Language Recognition Using a Hybri](https://www.semanticscholar.org/paper/fef413d4970c737ebf559fcf39e766910716795b) | 2024 | 4.7 |
-| 🔥 | [Effects of Different Attention Mechanisms Applied on 3D Mode](https://arxiv.org/abs/2601.10854) | 2026 | 4.6 |
 
-*... 共 110 篇，仅显示前 15 篇*
+*... 共 112 篇，仅显示前 15 篇*
 
 ---
 
@@ -222,4 +222,4 @@
 | 🔥 | [DS2TA: Denoising Spiking Transformer with Attenuated Spatiot](http://arxiv.org/abs/2409.15375v1) | 2024 | 4.2 |
 | 🔥 | [Representation-Centric Survey of Supervised Skeletal Action ](http://arxiv.org/abs/2205.02071v7) | 2022 | 4.2 |
 
-*... 共 64 篇，仅显示前 15 篇*
+*... 共 65 篇，仅显示前 15 篇*
