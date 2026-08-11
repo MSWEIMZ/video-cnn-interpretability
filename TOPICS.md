@@ -1,20 +1,20 @@
 # 📂 主题视图
 
-> 共 8 个主题 | 最后更新: 2026-08-10 03:16
+> 共 8 个主题 | 最后更新: 2026-08-11 03:07
 
 ## 📊 主题概览
 
 | 主题 | 论文数 | 核心论文 | 说明 |
 |------|--------|----------|------|
-| 时序解释 | 649 | 279 | 聚焦于视频时序维度的可解释性研究 |
-| 动作识别可解释性 | 238 | 113 | 视频动作识别 / 分类任务的可解释性研究 |
+| 时序解释 | 662 | 287 | 聚焦于视频时序维度的可解释性研究 |
+| 动作识别可解释性 | 239 | 114 | 视频动作识别 / 分类任务的可解释性研究 |
 | 视频 Transformer 可解释性 | 220 | 91 | Vision Transformer / Video Transformer 的可解释性 |
-| 网络解剖 | 175 | 66 | 网络内部单元 / 特征可视化与解剖 |
+| 网络解剖 | 177 | 68 | 网络内部单元 / 特征可视化与解剖 |
 | 3D CNN 解释 | 117 | 59 | 3D 卷积网络 / R(2+1)D 等时空卷积模型的可解释性 |
-| 注意力与归因 | 112 | 42 | 注意力机制分析与梯度归因方法 |
+| 注意力与归因 | 114 | 43 | 注意力机制分析与梯度归因方法 |
 | 视频显著性 | 95 | 37 | 视频/空间显著性检测与可视化 |
 | 鲁棒性与对抗 | 65 | 22 | 视频模型的鲁棒性与对抗攻击/防御 |
-| 未分类 | 32 | - | - |
+| 未分类 | 33 | - | - |
 
 ---
 
@@ -40,7 +40,7 @@
 | 🔥 | [Searching Videos as Trees: Self-Correcting Agents for Ground](http://arxiv.org/abs/2607.16189v1) | 2026 | 5.5 |
 | 🔥 | [GROVE: Growing and Reasoning over Temporally Stratified Memo](http://arxiv.org/abs/2608.02392v1) | 2026 | 5.5 |
 
-*... 共 649 篇，仅显示前 15 篇*
+*... 共 662 篇，仅显示前 15 篇*
 
 ---
 
@@ -66,7 +66,7 @@
 | 🔥 | [A review of Convolutional-Neural-Network-based action recogn](https://www.semanticscholar.org/paper/2c12495bfb2f47881191ce0cb672f0372c6a31e2) | 2019 | 5.3 |
 | 🔥 | [Spatiotemporal distilled dense-connectivity network for vide](https://www.semanticscholar.org/paper/04d27bbbc875bd8fe52521112841d47b21950e7c) | 2019 | 5.3 |
 
-*... 共 238 篇，仅显示前 15 篇*
+*... 共 239 篇，仅显示前 15 篇*
 
 ---
 
@@ -118,7 +118,7 @@
 | 🔥 | [Exo2EgoPose: Leveraging Exocentric Demonstrations for Vision](http://arxiv.org/abs/2607.15890v1) | 2026 | 5.0 |
 | 🔥 | [UniFormerV2: Spatiotemporal Learning by Arming Image ViTs wi](https://arxiv.org/abs/2211.09552) | 2022 | 5.0 |
 
-*... 共 175 篇，仅显示前 15 篇*
+*... 共 177 篇，仅显示前 15 篇*
 
 ---
 
@@ -170,7 +170,7 @@
 | 🔥 | [UniJEPA: A Unified Joint-Embedding Predictive Architecture f](http://arxiv.org/abs/2608.07409v1) | 2026 | 4.7 |
 | 🔥 | [Isolated Video-Based Sign Language Recognition Using a Hybri](https://www.semanticscholar.org/paper/fef413d4970c737ebf559fcf39e766910716795b) | 2024 | 4.7 |
 
-*... 共 112 篇，仅显示前 15 篇*
+*... 共 114 篇，仅显示前 15 篇*
 
 ---
 
