@@ -4,12 +4,12 @@
 <p align="center"><em>视频深度学习与可解释性论文自动搜集系统</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-776-blue" alt="papers" />
-  <img src="https://img.shields.io/badge/core-319-green" alt="core" />
-  <img src="https://img.shields.io/badge/strongly_related-457-yellow" alt="strongly_related" />
-  <img src="https://img.shields.io/badge/arXiv-460-critical" alt="arXiv" />
+  <img src="https://img.shields.io/badge/papers-791-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/core-327-green" alt="core" />
+  <img src="https://img.shields.io/badge/strongly_related-464-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/arXiv-475-critical" alt="arXiv" />
   <img src="https://img.shields.io/badge/Semantic_Scholar-311-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-08-11-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/last_update-2026-08-12-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -23,15 +23,15 @@
 
 | 指标 | 数量 |
 |------|------|
-| 📚 论文总数 | **776** |
-| 🔥 核心论文 | **319** |
-| 📎 高相关论文 | **457** |
-| 🆕 本月新增 | **79** |
-| 📡 arXiv | 460 |
+| 📚 论文总数 | **791** |
+| 🔥 核心论文 | **327** |
+| 📎 高相关论文 | **464** |
+| 🆕 本月新增 | **94** |
+| 📡 arXiv | 475 |
 | 🔬 Semantic Scholar | 311 |
 | 🔗 CrossRef 增强 | 6 |
 | ✍️ 手工整理 | 5 |
-| ⏰ 最后更新 | 2026-08-11 03:07:55 |
+| ⏰ 最后更新 | 2026-08-12 03:27:10 |
 
 ## 🏆 高影响力论文 Top 5
 
@@ -102,7 +102,7 @@
 ---
 
 <details>
-<summary>📅 2026 年 (282 篇)</summary>
+<summary>📅 2026 年 (297 篇)</summary>
 
 | 标签 | 标题 | 摘要 | 作者 | 分数 |
 |------|------|------|------|------|
@@ -119,7 +119,7 @@
 | 🔥 | [HAS: Highlight-guided Attention Steering for Multi](http://arxiv.org/abs/2607.17994v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于研究模型表示、推理能力及应用效果。 | Rui Chu, Yingjie Lao | 5.2 |
 | 🔥 | [Time-Reversed Imaging: A Multimodal Benchmark and ](http://arxiv.org/abs/2607.22352v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于构建或评估基准并比较不同方法。 | Jorge Bacca, Kebin Contreras+ | 5.2 |
 
-*仅展示前 12 篇，完整 282 篇请查看 [ALL_PAPERS_zh.md](ALL_PAPERS_zh.md)。*
+*仅展示前 12 篇，完整 297 篇请查看 [ALL_PAPERS_zh.md](ALL_PAPERS_zh.md)。*
 
 </details>
 
