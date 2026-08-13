@@ -4,12 +4,12 @@
 <p align="center"><em>Automated paper curation for video deep learning & explainability research</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-791-blue" alt="papers" />
-  <img src="https://img.shields.io/badge/core-327-green" alt="core" />
-  <img src="https://img.shields.io/badge/strongly_related-464-yellow" alt="strongly_related" />
-  <img src="https://img.shields.io/badge/arXiv-475-critical" alt="arXiv" />
+  <img src="https://img.shields.io/badge/papers-808-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/core-338-green" alt="core" />
+  <img src="https://img.shields.io/badge/strongly_related-470-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/arXiv-492-critical" alt="arXiv" />
   <img src="https://img.shields.io/badge/Semantic_Scholar-311-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-08-12-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/last_update-2026-08-13-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -23,15 +23,15 @@
 
 | Metric | Count |
 |--------|-------|
-| 📚 Total Papers | **791** |
-| 🔥 Core Papers | **327** |
-| 📎 Strongly Related | **464** |
-| 🆕 New This Month | **94** |
-| 📡 arXiv | 475 |
+| 📚 Total Papers | **808** |
+| 🔥 Core Papers | **338** |
+| 📎 Strongly Related | **470** |
+| 🆕 New This Month | **111** |
+| 📡 arXiv | 492 |
 | 🔬 Semantic Scholar | 311 |
-| 🔗 CrossRef Enriched | 6 |
+| 🔗 CrossRef Enriched | 7 |
 | ✍️ Manual | 5 |
-| ⏰ Last Updated | 2026-08-12 03:27:10 |
+| ⏰ Last Updated | 2026-08-13 03:30:48 |
 
 ## 🏆 Top 5 Most Influential
 
@@ -102,7 +102,7 @@
 ---
 
 <details>
-<summary>📅 2026 (297 papers)</summary>
+<summary>📅 2026 (314 papers)</summary>
 
 | Tag | Title | Summary | Author | Score |
 |------|------|------|------|------|
@@ -119,7 +119,7 @@
 | 🔥 | [HAS: Highlight-guided Attention Steering for Multi](http://arxiv.org/abs/2607.17994v1) | Video understanding has become more and more important with the growth | Rui Chu, Yingjie Lao | 5.2 |
 | 🔥 | [Time-Reversed Imaging: A Multimodal Benchmark and ](http://arxiv.org/abs/2607.22352v1) | We introduce time-reversed imaging, a new paradigm that infers what ju | Jorge Bacca, Kebin Contreras+ | 5.2 |
 
-*Showing 12 of 297 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
+*Showing 12 of 314 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
 
 </details>
 

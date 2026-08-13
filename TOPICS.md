@@ -1,19 +1,19 @@
 # 📂 主题视图
 
-> 共 8 个主题 | 最后更新: 2026-08-12 03:27
+> 共 8 个主题 | 最后更新: 2026-08-13 03:30
 
 ## 📊 主题概览
 
 | 主题 | 论文数 | 核心论文 | 说明 |
 |------|--------|----------|------|
-| 时序解释 | 674 | 293 | 聚焦于视频时序维度的可解释性研究 |
+| 时序解释 | 691 | 304 | 聚焦于视频时序维度的可解释性研究 |
 | 动作识别可解释性 | 241 | 115 | 视频动作识别 / 分类任务的可解释性研究 |
-| 视频 Transformer 可解释性 | 221 | 91 | Vision Transformer / Video Transformer 的可解释性 |
-| 网络解剖 | 179 | 68 | 网络内部单元 / 特征可视化与解剖 |
+| 视频 Transformer 可解释性 | 223 | 92 | Vision Transformer / Video Transformer 的可解释性 |
+| 网络解剖 | 186 | 71 | 网络内部单元 / 特征可视化与解剖 |
 | 3D CNN 解释 | 117 | 59 | 3D 卷积网络 / R(2+1)D 等时空卷积模型的可解释性 |
-| 注意力与归因 | 114 | 43 | 注意力机制分析与梯度归因方法 |
+| 注意力与归因 | 115 | 44 | 注意力机制分析与梯度归因方法 |
 | 视频显著性 | 95 | 37 | 视频/空间显著性检测与可视化 |
-| 鲁棒性与对抗 | 67 | 23 | 视频模型的鲁棒性与对抗攻击/防御 |
+| 鲁棒性与对抗 | 68 | 23 | 视频模型的鲁棒性与对抗攻击/防御 |
 | 未分类 | 35 | - | - |
 
 ---
@@ -40,7 +40,7 @@
 | 🔥 | [Searching Videos as Trees: Self-Correcting Agents for Ground](http://arxiv.org/abs/2607.16189v1) | 2026 | 5.5 |
 | 🔥 | [GROVE: Growing and Reasoning over Temporally Stratified Memo](http://arxiv.org/abs/2608.02392v1) | 2026 | 5.5 |
 
-*... 共 674 篇，仅显示前 15 篇*
+*... 共 691 篇，仅显示前 15 篇*
 
 ---
 
@@ -92,7 +92,7 @@
 | 🔥 | [RANP: Resource Aware Neuron Pruning at Initialization for 3D](http://arxiv.org/abs/2010.02488v3) | 2020 | 5.2 |
 | 🔥 | [IVEX-WA and IVEX-MetaStack Ensemble Models: A Transfer Learn](https://www.semanticscholar.org/paper/95b40a68c7bc69ad435a644ae21803289f429352) | 2026 | 5.0 |
 
-*... 共 221 篇，仅显示前 15 篇*
+*... 共 223 篇，仅显示前 15 篇*
 
 ---
 
@@ -118,7 +118,7 @@
 | 🔥 | [Exo2EgoPose: Leveraging Exocentric Demonstrations for Vision](http://arxiv.org/abs/2607.15890v1) | 2026 | 5.0 |
 | 🔥 | [UniFormerV2: Spatiotemporal Learning by Arming Image ViTs wi](https://arxiv.org/abs/2211.09552) | 2022 | 5.0 |
 
-*... 共 179 篇，仅显示前 15 篇*
+*... 共 186 篇，仅显示前 15 篇*
 
 ---
 
@@ -170,7 +170,7 @@
 | 🔥 | [UniJEPA: A Unified Joint-Embedding Predictive Architecture f](http://arxiv.org/abs/2608.07409v1) | 2026 | 4.7 |
 | 🔥 | [Isolated Video-Based Sign Language Recognition Using a Hybri](https://www.semanticscholar.org/paper/fef413d4970c737ebf559fcf39e766910716795b) | 2024 | 4.7 |
 
-*... 共 114 篇，仅显示前 15 篇*
+*... 共 115 篇，仅显示前 15 篇*
 
 ---
 
@@ -222,4 +222,4 @@
 | 🔥 | [StreamForest: Efficient Online Video Understanding with Pers](https://arxiv.org/abs/2509.24871) | 2025 | 4.2 |
 | 🔥 | [DS2TA: Denoising Spiking Transformer with Attenuated Spatiot](http://arxiv.org/abs/2409.15375v1) | 2024 | 4.2 |
 
-*... 共 67 篇，仅显示前 15 篇*
+*... 共 68 篇，仅显示前 15 篇*
