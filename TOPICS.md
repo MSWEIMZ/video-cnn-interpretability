@@ -1,20 +1,20 @@
 # 📂 主题视图
 
-> 共 8 个主题 | 最后更新: 2026-08-16 02:24
+> 共 8 个主题 | 最后更新: 2026-08-17 02:23
 
 ## 📊 主题概览
 
 | 主题 | 论文数 | 核心论文 | 说明 |
 |------|--------|----------|------|
-| 时序解释 | 708 | 315 | 聚焦于视频时序维度的可解释性研究 |
-| 动作识别可解释性 | 246 | 117 | 视频动作识别 / 分类任务的可解释性研究 |
-| 视频 Transformer 可解释性 | 225 | 93 | Vision Transformer / Video Transformer 的可解释性 |
-| 网络解剖 | 193 | 74 | 网络内部单元 / 特征可视化与解剖 |
+| 时序解释 | 718 | 321 | 聚焦于视频时序维度的可解释性研究 |
+| 动作识别可解释性 | 247 | 118 | 视频动作识别 / 分类任务的可解释性研究 |
+| 视频 Transformer 可解释性 | 229 | 95 | Vision Transformer / Video Transformer 的可解释性 |
+| 网络解剖 | 195 | 75 | 网络内部单元 / 特征可视化与解剖 |
 | 注意力与归因 | 117 | 45 | 注意力机制分析与梯度归因方法 |
 | 3D CNN 解释 | 117 | 59 | 3D 卷积网络 / R(2+1)D 等时空卷积模型的可解释性 |
 | 视频显著性 | 96 | 38 | 视频/空间显著性检测与可视化 |
-| 鲁棒性与对抗 | 70 | 25 | 视频模型的鲁棒性与对抗攻击/防御 |
-| 未分类 | 36 | - | - |
+| 鲁棒性与对抗 | 73 | 28 | 视频模型的鲁棒性与对抗攻击/防御 |
+| 未分类 | 37 | - | - |
 
 ---
 
@@ -40,7 +40,7 @@
 | 🔥 | [Searching Videos as Trees: Self-Correcting Agents for Ground](http://arxiv.org/abs/2607.16189v1) | 2026 | 5.5 |
 | 🔥 | [GROVE: Growing and Reasoning over Temporally Stratified Memo](http://arxiv.org/abs/2608.02392v1) | 2026 | 5.5 |
 
-*... 共 708 篇，仅显示前 15 篇*
+*... 共 718 篇，仅显示前 15 篇*
 
 ---
 
@@ -66,7 +66,7 @@
 | 🔥 | [A review of Convolutional-Neural-Network-based action recogn](https://www.semanticscholar.org/paper/2c12495bfb2f47881191ce0cb672f0372c6a31e2) | 2019 | 5.3 |
 | 🔥 | [Spatiotemporal distilled dense-connectivity network for vide](https://www.semanticscholar.org/paper/04d27bbbc875bd8fe52521112841d47b21950e7c) | 2019 | 5.3 |
 
-*... 共 246 篇，仅显示前 15 篇*
+*... 共 247 篇，仅显示前 15 篇*
 
 ---
 
@@ -92,7 +92,7 @@
 | 🔥 | [RANP: Resource Aware Neuron Pruning at Initialization for 3D](http://arxiv.org/abs/2010.02488v3) | 2020 | 5.2 |
 | 🔥 | [IVEX-WA and IVEX-MetaStack Ensemble Models: A Transfer Learn](https://www.semanticscholar.org/paper/95b40a68c7bc69ad435a644ae21803289f429352) | 2026 | 5.0 |
 
-*... 共 225 篇，仅显示前 15 篇*
+*... 共 229 篇，仅显示前 15 篇*
 
 ---
 
@@ -118,7 +118,7 @@
 | 🔥 | [Exo2EgoPose: Leveraging Exocentric Demonstrations for Vision](http://arxiv.org/abs/2607.15890v1) | 2026 | 5.0 |
 | 🔥 | [UniFormerV2: Spatiotemporal Learning by Arming Image ViTs wi](https://arxiv.org/abs/2211.09552) | 2022 | 5.0 |
 
-*... 共 193 篇，仅显示前 15 篇*
+*... 共 195 篇，仅显示前 15 篇*
 
 ---
 
@@ -209,8 +209,11 @@
 | 🔥 | [Large-scale Robustness Analysis of Video Action Recognition ](http://arxiv.org/abs/2207.01398v2) | 2022 | 5.5 |
 | 🔥 | [Audio-Visual Flamingo: Open Audio-Visual Intelligence for Lo](http://arxiv.org/abs/2607.16107v1) | 2026 | 5.2 |
 | 🔥 | [EgoPlay: Event-Triggered Video Editing for Egocentric Stream](http://arxiv.org/abs/2607.24560v1) | 2026 | 5.2 |
+| 🔥 | [GBU-Palm: A Multimodal Video Dataset and Benchmark for Palm ](http://arxiv.org/abs/2608.14389v1) | 2026 | 5.2 |
 | 🔥 | [Video deepfake detection using a hybrid CNN-LSTM-Transformer](https://www.semanticscholar.org/paper/e17c9359b8cbf6f327523694fcf4019a65134a09) | 2025 | 5.0 |
 | 🔥 | [Token Shift Transformer for Video Classification](https://arxiv.org/abs/2108.02432) | 2021 | 5.0 |
+| 🔥 | [Can We Defend Against AI-Generated Video Attacks on Real-Wor](http://arxiv.org/abs/2608.14391v1) | 2026 | 4.9 |
+| 🔥 | [On the Robustness of Temporal Vision-Language Models for Sur](http://arxiv.org/abs/2608.14262v1) | 2026 | 4.9 |
 | 🔥 | [InstructMixup: Instruction-Guided Salient Patch Editing for ](http://arxiv.org/abs/2607.19324v1) | 2026 | 4.7 |
 | 🔥 | [Sign Language Video Synthesis via Loss-Guided Multi-Expert G](http://arxiv.org/abs/2608.13368v1) | 2026 | 4.7 |
 | 🔥 | [VideoMamba: State Space Model for Efficient Video Understand](https://arxiv.org/abs/2403.06977) | 2024 | 4.7 |
@@ -218,8 +221,5 @@
 | 🔥 | [Dynamic Attention Mechanism in Spatiotemporal Memory Network](http://arxiv.org/abs/2503.16768v1) | 2025 | 4.5 |
 | 🔥 | [SafeCA: Safe Cross-Attention Localization and Regulation for](http://arxiv.org/abs/2608.10933v1) | 2026 | 4.4 |
 | 🔥 | [GS$^{2}$CI: Robust Gaussian Splatting For Snapshot Compressi](http://arxiv.org/abs/2608.13502v1) | 2026 | 4.4 |
-| 🔥 | [Parallel Decoding Distillation for Fast Image and Video Gene](http://arxiv.org/abs/2607.26004v1) | 2026 | 4.3 |
-| 🔥 | [Mitigating Compounding Error via Video Representation Regula](http://arxiv.org/abs/2607.27036v1) | 2026 | 4.3 |
-| 🔥 | [IDG-ViolenceNet: A Video Violence Detection Model Integratin](https://www.semanticscholar.org/paper/2ca23e2ac47a9906c614fc82d66232291d124ff3) | 2025 | 4.3 |
 
-*... 共 70 篇，仅显示前 15 篇*
+*... 共 73 篇，仅显示前 15 篇*
