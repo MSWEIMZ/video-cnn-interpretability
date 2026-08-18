@@ -1,20 +1,20 @@
 # 📂 主题视图
 
-> 共 8 个主题 | 最后更新: 2026-08-17 02:23
+> 共 8 个主题 | 最后更新: 2026-08-18 02:19
 
 ## 📊 主题概览
 
 | 主题 | 论文数 | 核心论文 | 说明 |
 |------|--------|----------|------|
-| 时序解释 | 718 | 321 | 聚焦于视频时序维度的可解释性研究 |
+| 时序解释 | 729 | 326 | 聚焦于视频时序维度的可解释性研究 |
 | 动作识别可解释性 | 247 | 118 | 视频动作识别 / 分类任务的可解释性研究 |
-| 视频 Transformer 可解释性 | 229 | 95 | Vision Transformer / Video Transformer 的可解释性 |
-| 网络解剖 | 195 | 75 | 网络内部单元 / 特征可视化与解剖 |
+| 视频 Transformer 可解释性 | 232 | 97 | Vision Transformer / Video Transformer 的可解释性 |
+| 网络解剖 | 197 | 75 | 网络内部单元 / 特征可视化与解剖 |
 | 注意力与归因 | 117 | 45 | 注意力机制分析与梯度归因方法 |
 | 3D CNN 解释 | 117 | 59 | 3D 卷积网络 / R(2+1)D 等时空卷积模型的可解释性 |
 | 视频显著性 | 96 | 38 | 视频/空间显著性检测与可视化 |
 | 鲁棒性与对抗 | 73 | 28 | 视频模型的鲁棒性与对抗攻击/防御 |
-| 未分类 | 37 | - | - |
+| 未分类 | 38 | - | - |
 
 ---
 
@@ -40,7 +40,7 @@
 | 🔥 | [Searching Videos as Trees: Self-Correcting Agents for Ground](http://arxiv.org/abs/2607.16189v1) | 2026 | 5.5 |
 | 🔥 | [GROVE: Growing and Reasoning over Temporally Stratified Memo](http://arxiv.org/abs/2608.02392v1) | 2026 | 5.5 |
 
-*... 共 718 篇，仅显示前 15 篇*
+*... 共 729 篇，仅显示前 15 篇*
 
 ---
 
@@ -92,7 +92,7 @@
 | 🔥 | [RANP: Resource Aware Neuron Pruning at Initialization for 3D](http://arxiv.org/abs/2010.02488v3) | 2020 | 5.2 |
 | 🔥 | [IVEX-WA and IVEX-MetaStack Ensemble Models: A Transfer Learn](https://www.semanticscholar.org/paper/95b40a68c7bc69ad435a644ae21803289f429352) | 2026 | 5.0 |
 
-*... 共 229 篇，仅显示前 15 篇*
+*... 共 232 篇，仅显示前 15 篇*
 
 ---
 
@@ -118,7 +118,7 @@
 | 🔥 | [Exo2EgoPose: Leveraging Exocentric Demonstrations for Vision](http://arxiv.org/abs/2607.15890v1) | 2026 | 5.0 |
 | 🔥 | [UniFormerV2: Spatiotemporal Learning by Arming Image ViTs wi](https://arxiv.org/abs/2211.09552) | 2022 | 5.0 |
 
-*... 共 195 篇，仅显示前 15 篇*
+*... 共 197 篇，仅显示前 15 篇*
 
 ---
 
