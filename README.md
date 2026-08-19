@@ -4,12 +4,12 @@
 <p align="center"><em>Automated paper curation for video deep learning & explainability research</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-853-blue" alt="papers" />
-  <img src="https://img.shields.io/badge/core-365-green" alt="core" />
-  <img src="https://img.shields.io/badge/strongly_related-488-yellow" alt="strongly_related" />
-  <img src="https://img.shields.io/badge/arXiv-537-critical" alt="arXiv" />
-  <img src="https://img.shields.io/badge/Semantic_Scholar-311-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-08-18-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/papers-868-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/core-368-green" alt="core" />
+  <img src="https://img.shields.io/badge/strongly_related-500-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/arXiv-551-critical" alt="arXiv" />
+  <img src="https://img.shields.io/badge/Semantic_Scholar-312-blueviolet" alt="Semantic Scholar" />
+  <img src="https://img.shields.io/badge/last_update-2026-08-19-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -23,15 +23,15 @@
 
 | Metric | Count |
 |--------|-------|
-| 📚 Total Papers | **853** |
-| 🔥 Core Papers | **365** |
-| 📎 Strongly Related | **488** |
-| 🆕 New This Month | **156** |
-| 📡 arXiv | 537 |
-| 🔬 Semantic Scholar | 311 |
-| 🔗 CrossRef Enriched | 7 |
+| 📚 Total Papers | **868** |
+| 🔥 Core Papers | **368** |
+| 📎 Strongly Related | **500** |
+| 🆕 New This Month | **170** |
+| 📡 arXiv | 551 |
+| 🔬 Semantic Scholar | 312 |
+| 🔗 CrossRef Enriched | 8 |
 | ✍️ Manual | 5 |
-| ⏰ Last Updated | 2026-08-18 02:19:43 |
+| ⏰ Last Updated | 2026-08-19 02:21:53 |
 
 ## 🏆 Top 5 Most Influential
 
@@ -102,7 +102,7 @@
 ---
 
 <details>
-<summary>📅 2026 (359 papers)</summary>
+<summary>📅 2026 (374 papers)</summary>
 
 | Tag | Title | Summary | Author | Score |
 |------|------|------|------|------|
@@ -119,7 +119,7 @@
 | 🔥 | [HAS: Highlight-guided Attention Steering for Multi](http://arxiv.org/abs/2607.17994v1) | Video understanding has become more and more important with the growth | Rui Chu, Yingjie Lao | 5.2 |
 | 🔥 | [Time-Reversed Imaging: A Multimodal Benchmark and ](http://arxiv.org/abs/2607.22352v1) | We introduce time-reversed imaging, a new paradigm that infers what ju | Jorge Bacca, Kebin Contreras+ | 5.2 |
 
-*Showing 12 of 359 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
+*Showing 12 of 374 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
 
 </details>
 
