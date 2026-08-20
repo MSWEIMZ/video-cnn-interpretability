@@ -4,12 +4,12 @@
 <p align="center"><em>Automated paper curation for video deep learning & explainability research</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-868-blue" alt="papers" />
-  <img src="https://img.shields.io/badge/core-368-green" alt="core" />
-  <img src="https://img.shields.io/badge/strongly_related-500-yellow" alt="strongly_related" />
-  <img src="https://img.shields.io/badge/arXiv-551-critical" alt="arXiv" />
+  <img src="https://img.shields.io/badge/papers-879-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/core-373-green" alt="core" />
+  <img src="https://img.shields.io/badge/strongly_related-506-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/arXiv-562-critical" alt="arXiv" />
   <img src="https://img.shields.io/badge/Semantic_Scholar-312-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-08-19-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/last_update-2026-08-20-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -23,15 +23,15 @@
 
 | Metric | Count |
 |--------|-------|
-| 📚 Total Papers | **868** |
-| 🔥 Core Papers | **368** |
-| 📎 Strongly Related | **500** |
-| 🆕 New This Month | **170** |
-| 📡 arXiv | 551 |
+| 📚 Total Papers | **879** |
+| 🔥 Core Papers | **373** |
+| 📎 Strongly Related | **506** |
+| 🆕 New This Month | **181** |
+| 📡 arXiv | 562 |
 | 🔬 Semantic Scholar | 312 |
 | 🔗 CrossRef Enriched | 8 |
 | ✍️ Manual | 5 |
-| ⏰ Last Updated | 2026-08-19 02:21:53 |
+| ⏰ Last Updated | 2026-08-20 02:21:19 |
 
 ## 🏆 Top 5 Most Influential
 
@@ -69,6 +69,7 @@
 | 2026 | [Video-DeepResearch: Towards the Next-Generation Multimodal D](http://arxiv.org/abs/2608.03979v1) | We introduce Video-DeepResearch (Video-DR), extending multimodal agents from sta | Zhen Fang, Yu Zeng+ | 5.5 |
 | 2026 | [HelloWorld: Enabling Socially Interactive Characters in Vide](http://arxiv.org/abs/2608.05070v1) | Despite the remarkable recent progress of video world models, social interaction | Liangyang Ouyang, Ruicong Liu+ | 5.5 |
 | 2026 | [Towards Expert-level Medical AI for Real-time Video Consulta](http://arxiv.org/abs/2608.09861v1) | Audio-visual interaction is the standard for patient-physician consultations, en | Mahvish Nagda, Jihyeon Lee+ | 5.5 |
+| 2026 | [X-LMC: Cross-View Spatiotemporal Collateral Circulation Scor](http://arxiv.org/abs/2608.18986v1) | Digital subtraction angiography (DSA) is the reference standard for leptomeninge | Maedeh Hafezi Moghadas, Hakim Baazaoui+ | 5.5 |
 | 2026 | [Visual Representation Matters: Exploiting Temporal Differenc](http://arxiv.org/abs/2608.04902v1) | Video-to-audio (V2A) generation extends image-to-audio generation (I2A) by intro | Zehua Chen, Junyou Wang+ | 5.4 |
 | 2026 | [Video Understanding: From Geometry and Semantics to Unified ](http://arxiv.org/abs/2603.17840v1) | Video understanding aims to enable models to perceive, reason about, and interac | Zhaochong An, Zirui Li+ | 5.2 |
 | 2026 | [Audio-Visual Flamingo: Open Audio-Visual Intelligence for Lo](http://arxiv.org/abs/2607.16107v1) | We present Audio-Visual Flamingo (AV-Flamingo), a fully open state-of-the-art au | Sreyan Ghosh, Arushi Goel+ | 5.2 |
@@ -82,7 +83,6 @@
 | 2026 | [EchoCache: Energy-Guided Cross-Modal Caching for Efficient A](http://arxiv.org/abs/2608.02474v1) | Audio-driven video generation (A2V) has achieved promising progress in synthesiz | Jiayu Chen, Xiaoyu Wu+ | 5.2 |
 | 2026 | [Robust and Efficient Motion Reasoning for Privacy-Aware Clas](http://arxiv.org/abs/2608.05115v1) | Can computer vision help make classrooms safer? In this pilot study, we investig | Paritosh Parmar, Landy Lan+ | 5.2 |
 | 2026 | [HOPE: Hand-Object Pressure Estimation from Monocular Videos](http://arxiv.org/abs/2608.06192v1) | Estimating physical pressure from vision is essential for understanding contact- | Subin Jeon, Byungjun Kim+ | 5.2 |
-| 2026 | [Conformal Coverage Guarantees for Any Video Temporal Grounde](http://arxiv.org/abs/2608.07434v1) | Event boundaries in continuous video are ambiguous: re-annotate the same query-v | Aseel Mohamed, Rasul Khanbayov+ | 5.2 |
 
 ## 📎 Strongly Related Papers
 
@@ -102,7 +102,7 @@
 ---
 
 <details>
-<summary>📅 2026 (374 papers)</summary>
+<summary>📅 2026 (385 papers)</summary>
 
 | Tag | Title | Summary | Author | Score |
 |------|------|------|------|------|
@@ -112,14 +112,14 @@
 | 🔥 | [Video-DeepResearch: Towards the Next-Generation Mu](http://arxiv.org/abs/2608.03979v1) | We introduce Video-DeepResearch (Video-DR), extending multimodal agent | Zhen Fang, Yu Zeng+ | 5.5 |
 | 🔥 | [HelloWorld: Enabling Socially Interactive Characte](http://arxiv.org/abs/2608.05070v1) | Despite the remarkable recent progress of video world models, social i | Liangyang Ouyang, Ruicong Liu+ | 5.5 |
 | 🔥 | [Towards Expert-level Medical AI for Real-time Vide](http://arxiv.org/abs/2608.09861v1) | Audio-visual interaction is the standard for patient-physician consult | Mahvish Nagda, Jihyeon Lee+ | 5.5 |
+| 🔥 | [X-LMC: Cross-View Spatiotemporal Collateral Circul](http://arxiv.org/abs/2608.18986v1) | Digital subtraction angiography (DSA) is the reference standard for le | Maedeh Hafezi Moghadas, Hakim Baazaoui+ | 5.5 |
 | 🔥 | [Visual Representation Matters: Exploiting Temporal](http://arxiv.org/abs/2608.04902v1) | Video-to-audio (V2A) generation extends image-to-audio generation (I2A | Zehua Chen, Junyou Wang+ | 5.4 |
 | 🔥 | [Video Understanding: From Geometry and Semantics t](http://arxiv.org/abs/2603.17840v1) | Video understanding aims to enable models to perceive, reason about, a | Zhaochong An, Zirui Li+ | 5.2 |
 | 🔥 | [Audio-Visual Flamingo: Open Audio-Visual Intellige](http://arxiv.org/abs/2607.16107v1) | We present Audio-Visual Flamingo (AV-Flamingo), a fully open state-of- | Sreyan Ghosh, Arushi Goel+ | 5.2 |
 | 🔥 | [Sparse Evidence Can Suffice: Agentic Evidence Seek](http://arxiv.org/abs/2607.18080v1) | Multimodal video misinformation detection is commonly formulated as a  | Haochen Zhao, Yongxiu Xu+ | 5.2 |
 | 🔥 | [HAS: Highlight-guided Attention Steering for Multi](http://arxiv.org/abs/2607.17994v1) | Video understanding has become more and more important with the growth | Rui Chu, Yingjie Lao | 5.2 |
-| 🔥 | [Time-Reversed Imaging: A Multimodal Benchmark and ](http://arxiv.org/abs/2607.22352v1) | We introduce time-reversed imaging, a new paradigm that infers what ju | Jorge Bacca, Kebin Contreras+ | 5.2 |
 
-*Showing 12 of 374 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
+*Showing 12 of 385 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
 
 </details>
 
