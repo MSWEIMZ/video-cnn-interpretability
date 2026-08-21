@@ -4,12 +4,12 @@
 <p align="center"><em>Automated paper curation for video deep learning & explainability research</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-879-blue" alt="papers" />
-  <img src="https://img.shields.io/badge/core-373-green" alt="core" />
-  <img src="https://img.shields.io/badge/strongly_related-506-yellow" alt="strongly_related" />
-  <img src="https://img.shields.io/badge/arXiv-562-critical" alt="arXiv" />
-  <img src="https://img.shields.io/badge/Semantic_Scholar-312-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-08-20-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/papers-893-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/core-379-green" alt="core" />
+  <img src="https://img.shields.io/badge/strongly_related-514-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/arXiv-575-critical" alt="arXiv" />
+  <img src="https://img.shields.io/badge/Semantic_Scholar-313-blueviolet" alt="Semantic Scholar" />
+  <img src="https://img.shields.io/badge/last_update-2026-08-21-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -23,15 +23,15 @@
 
 | Metric | Count |
 |--------|-------|
-| 📚 Total Papers | **879** |
-| 🔥 Core Papers | **373** |
-| 📎 Strongly Related | **506** |
-| 🆕 New This Month | **181** |
-| 📡 arXiv | 562 |
-| 🔬 Semantic Scholar | 312 |
-| 🔗 CrossRef Enriched | 8 |
+| 📚 Total Papers | **893** |
+| 🔥 Core Papers | **379** |
+| 📎 Strongly Related | **514** |
+| 🆕 New This Month | **194** |
+| 📡 arXiv | 575 |
+| 🔬 Semantic Scholar | 313 |
+| 🔗 CrossRef Enriched | 9 |
 | ✍️ Manual | 5 |
-| ⏰ Last Updated | 2026-08-20 02:21:19 |
+| ⏰ Last Updated | 2026-08-21 02:26:56 |
 
 ## 🏆 Top 5 Most Influential
 
@@ -102,7 +102,7 @@
 ---
 
 <details>
-<summary>📅 2026 (385 papers)</summary>
+<summary>📅 2026 (398 papers)</summary>
 
 | Tag | Title | Summary | Author | Score |
 |------|------|------|------|------|
@@ -119,7 +119,7 @@
 | 🔥 | [Sparse Evidence Can Suffice: Agentic Evidence Seek](http://arxiv.org/abs/2607.18080v1) | Multimodal video misinformation detection is commonly formulated as a  | Haochen Zhao, Yongxiu Xu+ | 5.2 |
 | 🔥 | [HAS: Highlight-guided Attention Steering for Multi](http://arxiv.org/abs/2607.17994v1) | Video understanding has become more and more important with the growth | Rui Chu, Yingjie Lao | 5.2 |
 
-*Showing 12 of 385 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
+*Showing 12 of 398 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
 
 </details>
 
@@ -146,7 +146,7 @@
 </details>
 
 <details>
-<summary>📅 2024 (102 papers)</summary>
+<summary>📅 2024 (103 papers)</summary>
 
 | Tag | Title | Summary | Author | Score |
 |------|------|------|------|------|
@@ -163,7 +163,7 @@
 | 🔥 | [Facial Expression Recognition in Video Using 3D-CN](https://www.semanticscholar.org/paper/d51b1682dcc00343bdf208ad9e92c65ae96ca307) | The focus of research work presented in this paper on improving perfor | Sathisha G, C. K. Subbaraya+ | 4.3 |
 | 🔥 | [Interpretability in Video-based Human Action Recog](https://www.semanticscholar.org/paper/af8a0f4ed9f1d4d5ab6ba6f38ab297c5bfaf2fad) | Interpretability plays a vital role in understanding complex deep lear | Jorge Garcia-Torres Fernandez | 4.3 |
 
-*Showing 12 of 102 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
+*Showing 12 of 103 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
 
 </details>
 
@@ -205,7 +205,7 @@
 | 🔥 | [Skeleton Graph-Neural-Network-Based Human Action R](https://www.semanticscholar.org/paper/fae9bc1faa5e1b35d24a6b5addc4ea5c21185563) | Human action recognition has been applied in many fields, such as vide | Miao Feng, Jean Meunier | 4.4 |
 | 🔥 | [Two-stream fusion model using 3D-CNN and 2D-CNN vi](https://www.semanticscholar.org/paper/9cd751daa50a96b389e9a697c8c65bc61a0cc25f) | Hand gestures are useful tools for many applications in the human-comp | Debajit Sarma, V. Kavyasree+ | 4.3 |
 | 🔥 | [Sign Language Recognition Based on R(2+1)D With Sp](https://www.semanticscholar.org/paper/d6075672a619913dc1ef9ae808dd4cb0c1acd71a) | Previous work utilized three-dimensional (3-D) convolutional neural ne | Xiangzu Han, Fei Lu+ | 4.3 |
-| 🔥 | [An Effective Video Transformer With Synchronized S](https://www.semanticscholar.org/paper/2ba86f6ac3a9bd6dbd1cddc79634712efb2637ef) | Convolutional neural networks (CNNs) have come to dominate vision-base | S. Alfasly, C. Chui+ | 4.3 |
+| 🔥 | [Video Visual Relation Detection via 3D Convolution](https://www.semanticscholar.org/paper/da895422ce7bc018062b151bf3bf829ed0b03a61) | Video visual relation detection, which aims to detect the visual relat | Mingcheng Qu, Jianxun Cui+ | 4.3 |
 
 *Showing 12 of 51 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
 

@@ -4,12 +4,12 @@
 <p align="center"><em>视频深度学习与可解释性论文自动搜集系统</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-879-blue" alt="papers" />
-  <img src="https://img.shields.io/badge/core-373-green" alt="core" />
-  <img src="https://img.shields.io/badge/strongly_related-506-yellow" alt="strongly_related" />
-  <img src="https://img.shields.io/badge/arXiv-562-critical" alt="arXiv" />
-  <img src="https://img.shields.io/badge/Semantic_Scholar-312-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-08-20-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/papers-893-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/core-379-green" alt="core" />
+  <img src="https://img.shields.io/badge/strongly_related-514-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/arXiv-575-critical" alt="arXiv" />
+  <img src="https://img.shields.io/badge/Semantic_Scholar-313-blueviolet" alt="Semantic Scholar" />
+  <img src="https://img.shields.io/badge/last_update-2026-08-21-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -23,15 +23,15 @@
 
 | 指标 | 数量 |
 |------|------|
-| 📚 论文总数 | **879** |
-| 🔥 核心论文 | **373** |
-| 📎 高相关论文 | **506** |
-| 🆕 本月新增 | **181** |
-| 📡 arXiv | 562 |
-| 🔬 Semantic Scholar | 312 |
-| 🔗 CrossRef 增强 | 8 |
+| 📚 论文总数 | **893** |
+| 🔥 核心论文 | **379** |
+| 📎 高相关论文 | **514** |
+| 🆕 本月新增 | **194** |
+| 📡 arXiv | 575 |
+| 🔬 Semantic Scholar | 313 |
+| 🔗 CrossRef 增强 | 9 |
 | ✍️ 手工整理 | 5 |
-| ⏰ 最后更新 | 2026-08-20 02:21:19 |
+| ⏰ 最后更新 | 2026-08-21 02:26:56 |
 
 ## 🏆 高影响力论文 Top 5
 
@@ -102,7 +102,7 @@
 ---
 
 <details>
-<summary>📅 2026 年 (385 篇)</summary>
+<summary>📅 2026 年 (398 篇)</summary>
 
 | 标签 | 标题 | 摘要 | 作者 | 分数 |
 |------|------|------|------|------|
@@ -119,7 +119,7 @@
 | 🔥 | [Sparse Evidence Can Suffice: Agentic Evidence Seek](http://arxiv.org/abs/2607.18080v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于完成识别或分类任务并评估模型表现。 | Haochen Zhao, Yongxiu Xu+ | 5.2 |
 | 🔥 | [HAS: Highlight-guided Attention Steering for Multi](http://arxiv.org/abs/2607.17994v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于研究模型表示、推理能力及应用效果。 | Rui Chu, Yingjie Lao | 5.2 |
 
-*仅展示前 12 篇，完整 385 篇请查看 [ALL_PAPERS_zh.md](ALL_PAPERS_zh.md)。*
+*仅展示前 12 篇，完整 398 篇请查看 [ALL_PAPERS_zh.md](ALL_PAPERS_zh.md)。*
 
 </details>
 
@@ -146,7 +146,7 @@
 </details>
 
 <details>
-<summary>📅 2024 年 (102 篇)</summary>
+<summary>📅 2024 年 (103 篇)</summary>
 
 | 标签 | 标题 | 摘要 | 作者 | 分数 |
 |------|------|------|------|------|
@@ -163,7 +163,7 @@
 | 🔥 | [Facial Expression Recognition in Video Using 3D-CN](https://www.semanticscholar.org/paper/d51b1682dcc00343bdf208ad9e92c65ae96ca307) | 本文聚焦视频动作识别与时空建模，采用分解式时空卷积，主要用于完成识别或分类任务并评估模型表现。 | Sathisha G, C. K. Subbaraya+ | 4.3 |
 | 🔥 | [Interpretability in Video-based Human Action Recog](https://www.semanticscholar.org/paper/af8a0f4ed9f1d4d5ab6ba6f38ab297c5bfaf2fad) | 本文聚焦视频模型可解释性，采用梯度归因、显著性或概念分析，主要用于分析模型依据及关键空间或时间区域。 | Jorge Garcia-Torres Fernandez | 4.3 |
 
-*仅展示前 12 篇，完整 102 篇请查看 [ALL_PAPERS_zh.md](ALL_PAPERS_zh.md)。*
+*仅展示前 12 篇，完整 103 篇请查看 [ALL_PAPERS_zh.md](ALL_PAPERS_zh.md)。*
 
 </details>
 
@@ -205,7 +205,7 @@
 | 🔥 | [Skeleton Graph-Neural-Network-Based Human Action R](https://www.semanticscholar.org/paper/fae9bc1faa5e1b35d24a6b5addc4ea5c21185563) | 本文聚焦视频动作识别，采用深度时空特征建模，主要用于系统梳理相关方法、数据集与研究趋势。 | Miao Feng, Jean Meunier | 4.4 |
 | 🔥 | [Two-stream fusion model using 3D-CNN and 2D-CNN vi](https://www.semanticscholar.org/paper/9cd751daa50a96b389e9a697c8c65bc61a0cc25f) | 本文聚焦视频时空表征学习，采用三维卷积网络，主要用于完成识别或分类任务并评估模型表现。 | Debajit Sarma, V. Kavyasree+ | 4.3 |
 | 🔥 | [Sign Language Recognition Based on R(2+1)D With Sp](https://www.semanticscholar.org/paper/d6075672a619913dc1ef9ae808dd4cb0c1acd71a) | 本文聚焦视频动作识别与时空建模，采用分解式时空卷积，主要用于完成识别或分类任务并评估模型表现。 | Xiangzu Han, Fei Lu+ | 4.3 |
-| 🔥 | [An Effective Video Transformer With Synchronized S](https://www.semanticscholar.org/paper/2ba86f6ac3a9bd6dbd1cddc79634712efb2637ef) | 本文聚焦视频理解与时序推理，采用时空注意力或 Transformer，主要用于完成识别或分类任务并评估模型表现。 | S. Alfasly, C. Chui+ | 4.3 |
+| 🔥 | [Video Visual Relation Detection via 3D Convolution](https://www.semanticscholar.org/paper/da895422ce7bc018062b151bf3bf829ed0b03a61) | 本文聚焦视频时空表征学习，采用三维卷积网络，主要用于完成识别或分类任务并评估模型表现。 | Mingcheng Qu, Jianxun Cui+ | 4.3 |
 
 *仅展示前 12 篇，完整 51 篇请查看 [ALL_PAPERS_zh.md](ALL_PAPERS_zh.md)。*
 

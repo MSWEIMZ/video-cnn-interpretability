@@ -1,19 +1,19 @@
 # 📂 主题视图
 
-> 共 8 个主题 | 最后更新: 2026-08-20 02:21
+> 共 8 个主题 | 最后更新: 2026-08-21 02:26
 
 ## 📊 主题概览
 
 | 主题 | 论文数 | 核心论文 | 说明 |
 |------|--------|----------|------|
-| 时序解释 | 753 | 334 | 聚焦于视频时序维度的可解释性研究 |
-| 动作识别可解释性 | 251 | 121 | 视频动作识别 / 分类任务的可解释性研究 |
-| 视频 Transformer 可解释性 | 236 | 99 | Vision Transformer / Video Transformer 的可解释性 |
-| 网络解剖 | 206 | 80 | 网络内部单元 / 特征可视化与解剖 |
-| 注意力与归因 | 120 | 46 | 注意力机制分析与梯度归因方法 |
+| 时序解释 | 766 | 340 | 聚焦于视频时序维度的可解释性研究 |
+| 动作识别可解释性 | 252 | 121 | 视频动作识别 / 分类任务的可解释性研究 |
+| 视频 Transformer 可解释性 | 239 | 98 | Vision Transformer / Video Transformer 的可解释性 |
+| 网络解剖 | 209 | 81 | 网络内部单元 / 特征可视化与解剖 |
+| 注意力与归因 | 121 | 46 | 注意力机制分析与梯度归因方法 |
 | 3D CNN 解释 | 119 | 60 | 3D 卷积网络 / R(2+1)D 等时空卷积模型的可解释性 |
-| 视频显著性 | 96 | 38 | 视频/空间显著性检测与可视化 |
-| 鲁棒性与对抗 | 76 | 28 | 视频模型的鲁棒性与对抗攻击/防御 |
+| 视频显著性 | 96 | 37 | 视频/空间显著性检测与可视化 |
+| 鲁棒性与对抗 | 78 | 28 | 视频模型的鲁棒性与对抗攻击/防御 |
 | 未分类 | 39 | - | - |
 
 ---
@@ -40,7 +40,7 @@
 | 🔥 | [Searching Videos as Trees: Self-Correcting Agents for Ground](http://arxiv.org/abs/2607.16189v1) | 2026 | 5.5 |
 | 🔥 | [GROVE: Growing and Reasoning over Temporally Stratified Memo](http://arxiv.org/abs/2608.02392v1) | 2026 | 5.5 |
 
-*... 共 753 篇，仅显示前 15 篇*
+*... 共 766 篇，仅显示前 15 篇*
 
 ---
 
@@ -66,7 +66,7 @@
 | 🔥 | [A review of Convolutional-Neural-Network-based action recogn](https://www.semanticscholar.org/paper/2c12495bfb2f47881191ce0cb672f0372c6a31e2) | 2019 | 5.3 |
 | 🔥 | [Spatiotemporal distilled dense-connectivity network for vide](https://www.semanticscholar.org/paper/04d27bbbc875bd8fe52521112841d47b21950e7c) | 2019 | 5.3 |
 
-*... 共 251 篇，仅显示前 15 篇*
+*... 共 252 篇，仅显示前 15 篇*
 
 ---
 
@@ -92,7 +92,7 @@
 | 🔥 | [RANP: Resource Aware Neuron Pruning at Initialization for 3D](http://arxiv.org/abs/2010.02488v3) | 2020 | 5.2 |
 | 🔥 | [IVEX-WA and IVEX-MetaStack Ensemble Models: A Transfer Learn](https://www.semanticscholar.org/paper/95b40a68c7bc69ad435a644ae21803289f429352) | 2026 | 5.0 |
 
-*... 共 236 篇，仅显示前 15 篇*
+*... 共 239 篇，仅显示前 15 篇*
 
 ---
 
@@ -118,7 +118,7 @@
 | 🔥 | [Developing Motion Code Embedding for Action Recognition in V](http://arxiv.org/abs/2012.05438v1) | 2020 | 5.2 |
 | 🔥 | [Exo2EgoPose: Leveraging Exocentric Demonstrations for Vision](http://arxiv.org/abs/2607.15890v1) | 2026 | 5.0 |
 
-*... 共 206 篇，仅显示前 15 篇*
+*... 共 209 篇，仅显示前 15 篇*
 
 ---
 
@@ -144,7 +144,7 @@
 | 🔥 | [UniJEPA: A Unified Joint-Embedding Predictive Architecture f](http://arxiv.org/abs/2608.07409v1) | 2026 | 4.7 |
 | 🔥 | [Isolated Video-Based Sign Language Recognition Using a Hybri](https://www.semanticscholar.org/paper/fef413d4970c737ebf559fcf39e766910716795b) | 2024 | 4.7 |
 
-*... 共 120 篇，仅显示前 15 篇*
+*... 共 121 篇，仅显示前 15 篇*
 
 ---
 
@@ -222,4 +222,4 @@
 | 🔥 | [SafeCA: Safe Cross-Attention Localization and Regulation for](http://arxiv.org/abs/2608.10933v1) | 2026 | 4.4 |
 | 🔥 | [GS$^{2}$CI: Robust Gaussian Splatting For Snapshot Compressi](http://arxiv.org/abs/2608.13502v1) | 2026 | 4.4 |
 
-*... 共 76 篇，仅显示前 15 篇*
+*... 共 78 篇，仅显示前 15 篇*
