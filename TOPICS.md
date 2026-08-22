@@ -1,18 +1,18 @@
 # 📂 主题视图
 
-> 共 8 个主题 | 最后更新: 2026-08-21 02:26
+> 共 8 个主题 | 最后更新: 2026-08-22 02:19
 
 ## 📊 主题概览
 
 | 主题 | 论文数 | 核心论文 | 说明 |
 |------|--------|----------|------|
-| 时序解释 | 766 | 340 | 聚焦于视频时序维度的可解释性研究 |
+| 时序解释 | 767 | 340 | 聚焦于视频时序维度的可解释性研究 |
 | 动作识别可解释性 | 252 | 121 | 视频动作识别 / 分类任务的可解释性研究 |
-| 视频 Transformer 可解释性 | 239 | 98 | Vision Transformer / Video Transformer 的可解释性 |
-| 网络解剖 | 209 | 81 | 网络内部单元 / 特征可视化与解剖 |
-| 注意力与归因 | 121 | 46 | 注意力机制分析与梯度归因方法 |
+| 视频 Transformer 可解释性 | 240 | 98 | Vision Transformer / Video Transformer 的可解释性 |
+| 网络解剖 | 210 | 81 | 网络内部单元 / 特征可视化与解剖 |
+| 注意力与归因 | 122 | 46 | 注意力机制分析与梯度归因方法 |
 | 3D CNN 解释 | 119 | 60 | 3D 卷积网络 / R(2+1)D 等时空卷积模型的可解释性 |
-| 视频显著性 | 96 | 37 | 视频/空间显著性检测与可视化 |
+| 视频显著性 | 97 | 37 | 视频/空间显著性检测与可视化 |
 | 鲁棒性与对抗 | 78 | 28 | 视频模型的鲁棒性与对抗攻击/防御 |
 | 未分类 | 39 | - | - |
 
@@ -40,7 +40,7 @@
 | 🔥 | [Searching Videos as Trees: Self-Correcting Agents for Ground](http://arxiv.org/abs/2607.16189v1) | 2026 | 5.5 |
 | 🔥 | [GROVE: Growing and Reasoning over Temporally Stratified Memo](http://arxiv.org/abs/2608.02392v1) | 2026 | 5.5 |
 
-*... 共 766 篇，仅显示前 15 篇*
+*... 共 767 篇，仅显示前 15 篇*
 
 ---
 
@@ -92,7 +92,7 @@
 | 🔥 | [RANP: Resource Aware Neuron Pruning at Initialization for 3D](http://arxiv.org/abs/2010.02488v3) | 2020 | 5.2 |
 | 🔥 | [IVEX-WA and IVEX-MetaStack Ensemble Models: A Transfer Learn](https://www.semanticscholar.org/paper/95b40a68c7bc69ad435a644ae21803289f429352) | 2026 | 5.0 |
 
-*... 共 239 篇，仅显示前 15 篇*
+*... 共 240 篇，仅显示前 15 篇*
 
 ---
 
@@ -109,7 +109,6 @@
 | 🔥 | [X-LMC: Cross-View Spatiotemporal Collateral Circulation Scor](http://arxiv.org/abs/2608.18986v1) | 2026 | 5.5 |
 | 🔥 | [Video-FocalNets: Spatio-Temporal Focal Modulation for Video ](http://arxiv.org/abs/2307.06947v4) | 2023 | 5.5 |
 | 🔥 | [Visual Representation Matters: Exploiting Temporal Differenc](http://arxiv.org/abs/2608.04902v1) | 2026 | 5.4 |
-| 🔥 | [Revisiting Video Saliency Prediction in the Deep Learning Er](https://www.semanticscholar.org/paper/124fd51a1d09fdfa340414c9719f797133507583) | 2021 | 5.3 |
 | 🔥 | [Spatiotemporal distilled dense-connectivity network for vide](https://www.semanticscholar.org/paper/04d27bbbc875bd8fe52521112841d47b21950e7c) | 2019 | 5.3 |
 | 🔥 | [Revisiting Video Saliency: A Large-scale Benchmark and a New](http://arxiv.org/abs/1801.07424v3) | 2018 | 5.3 |
 | 🔥 | [Robust and Efficient Motion Reasoning for Privacy-Aware Clas](http://arxiv.org/abs/2608.05115v1) | 2026 | 5.2 |
@@ -117,8 +116,9 @@
 | 🔥 | [RANP: Resource Aware Neuron Pruning at Initialization for 3D](http://arxiv.org/abs/2010.02488v3) | 2020 | 5.2 |
 | 🔥 | [Developing Motion Code Embedding for Action Recognition in V](http://arxiv.org/abs/2012.05438v1) | 2020 | 5.2 |
 | 🔥 | [Exo2EgoPose: Leveraging Exocentric Demonstrations for Vision](http://arxiv.org/abs/2607.15890v1) | 2026 | 5.0 |
+| 🔥 | [UniFormerV2: Spatiotemporal Learning by Arming Image ViTs wi](https://arxiv.org/abs/2211.09552) | 2022 | 5.0 |
 
-*... 共 209 篇，仅显示前 15 篇*
+*... 共 210 篇，仅显示前 15 篇*
 
 ---
 
@@ -131,7 +131,6 @@
 | 🔥 | [Interpretable Spatio-temporal Attention for Video Action Rec](http://arxiv.org/abs/1810.04511v2) | 2018 | 7.4 |
 | 🔥 | [Action Transformer: A Self-Attention Model for Short-Time Po](http://arxiv.org/abs/2107.00606v6) | 2021 | 5.7 |
 | 🔥 | [A Hybrid 3D CNNs Transformer Architecture for Video-Based Hu](https://www.semanticscholar.org/paper/e6b804076db44eb636ebe9d8ec47bcd3aa31a067) | 2025 | 5.4 |
-| 🔥 | [Revisiting Video Saliency Prediction in the Deep Learning Er](https://www.semanticscholar.org/paper/124fd51a1d09fdfa340414c9719f797133507583) | 2021 | 5.3 |
 | 🔥 | [Revisiting Video Saliency: A Large-scale Benchmark and a New](http://arxiv.org/abs/1801.07424v3) | 2018 | 5.3 |
 | 🔥 | [HOPE: Hand-Object Pressure Estimation from Monocular Videos](http://arxiv.org/abs/2608.06192v1) | 2026 | 5.2 |
 | 🔥 | [RANP: Resource Aware Neuron Pruning at Initialization for 3D](http://arxiv.org/abs/2010.02488v3) | 2020 | 5.2 |
@@ -143,8 +142,9 @@
 | 🔥 | [Human Action Recognition Based on 3D Convolution and Multi-A](https://www.semanticscholar.org/paper/778274e1b626aff5327dfe9cf4234ed6d55c2ea7) | 2025 | 4.8 |
 | 🔥 | [UniJEPA: A Unified Joint-Embedding Predictive Architecture f](http://arxiv.org/abs/2608.07409v1) | 2026 | 4.7 |
 | 🔥 | [Isolated Video-Based Sign Language Recognition Using a Hybri](https://www.semanticscholar.org/paper/fef413d4970c737ebf559fcf39e766910716795b) | 2024 | 4.7 |
+| 🔥 | [Effects of Different Attention Mechanisms Applied on 3D Mode](https://arxiv.org/abs/2601.10854) | 2026 | 4.6 |
 
-*... 共 121 篇，仅显示前 15 篇*
+*... 共 122 篇，仅显示前 15 篇*
 
 ---
 
@@ -184,7 +184,6 @@
 | 🔥 | [Hierarchical Spatiotemporal Feature Fusion Network For Video](https://www.semanticscholar.org/paper/dace1a1869929071f20269cb375ebd5c25b74b7c) | 2023 | 5.7 |
 | 🔥 | [Unified Image and Video Saliency Modeling](http://arxiv.org/abs/2003.05477v3) | 2020 | 5.7 |
 | 🔥 | [Is Space-Time Attention All You Need for Video Understanding](https://arxiv.org/abs/2102.05095) | 2021 | 5.6 |
-| 🔥 | [Revisiting Video Saliency Prediction in the Deep Learning Er](https://www.semanticscholar.org/paper/124fd51a1d09fdfa340414c9719f797133507583) | 2021 | 5.3 |
 | 🔥 | [Revisiting Video Saliency: A Large-scale Benchmark and a New](http://arxiv.org/abs/1801.07424v3) | 2018 | 5.3 |
 | 🔥 | [EchoCache: Energy-Guided Cross-Modal Caching for Efficient A](http://arxiv.org/abs/2608.02474v1) | 2026 | 5.2 |
 | 🔥 | [Audio-visual Saliency for Omnidirectional Videos](http://arxiv.org/abs/2311.05190v1) | 2023 | 5.2 |
@@ -195,8 +194,9 @@
 | 🔥 | [No-Reference Video Quality Assessment Using Multi-Pooled, Sa](https://www.semanticscholar.org/paper/0d15b4ca86a7b7a8f26c4957a8f7b86b4e5fc3e6) | 2022 | 4.8 |
 | 🔥 | [Graph-Theoretic Spatiotemporal Context Modeling for Video Sa](http://arxiv.org/abs/1707.07815v1) | 2017 | 4.8 |
 | 🔥 | [InstructMixup: Instruction-Guided Salient Patch Editing for ](http://arxiv.org/abs/2607.19324v1) | 2026 | 4.7 |
+| 🔥 | [Token Merging via Spatiotemporal Information Mining for Surg](http://arxiv.org/abs/2509.23672v1) | 2025 | 4.7 |
 
-*... 共 96 篇，仅显示前 15 篇*
+*... 共 97 篇，仅显示前 15 篇*
 
 ---
 

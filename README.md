@@ -4,12 +4,12 @@
 <p align="center"><em>Automated paper curation for video deep learning & explainability research</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-893-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/papers-894-blue" alt="papers" />
   <img src="https://img.shields.io/badge/core-379-green" alt="core" />
-  <img src="https://img.shields.io/badge/strongly_related-514-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/strongly_related-515-yellow" alt="strongly_related" />
   <img src="https://img.shields.io/badge/arXiv-575-critical" alt="arXiv" />
-  <img src="https://img.shields.io/badge/Semantic_Scholar-313-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-08-21-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/Semantic_Scholar-314-blueviolet" alt="Semantic Scholar" />
+  <img src="https://img.shields.io/badge/last_update-2026-08-22-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -23,15 +23,15 @@
 
 | Metric | Count |
 |--------|-------|
-| 📚 Total Papers | **893** |
+| 📚 Total Papers | **894** |
 | 🔥 Core Papers | **379** |
-| 📎 Strongly Related | **514** |
+| 📎 Strongly Related | **515** |
 | 🆕 New This Month | **194** |
 | 📡 arXiv | 575 |
-| 🔬 Semantic Scholar | 313 |
-| 🔗 CrossRef Enriched | 9 |
+| 🔬 Semantic Scholar | 314 |
+| 🔗 CrossRef Enriched | 10 |
 | ✍️ Manual | 5 |
-| ⏰ Last Updated | 2026-08-21 02:26:56 |
+| ⏰ Last Updated | 2026-08-22 02:19:05 |
 
 ## 🏆 Top 5 Most Influential
 
@@ -102,7 +102,7 @@
 ---
 
 <details>
-<summary>📅 2026 (398 papers)</summary>
+<summary>📅 2026 (399 papers)</summary>
 
 | Tag | Title | Summary | Author | Score |
 |------|------|------|------|------|
@@ -119,7 +119,7 @@
 | 🔥 | [Sparse Evidence Can Suffice: Agentic Evidence Seek](http://arxiv.org/abs/2607.18080v1) | Multimodal video misinformation detection is commonly formulated as a  | Haochen Zhao, Yongxiu Xu+ | 5.2 |
 | 🔥 | [HAS: Highlight-guided Attention Steering for Multi](http://arxiv.org/abs/2607.17994v1) | Video understanding has become more and more important with the growth | Rui Chu, Yingjie Lao | 5.2 |
 
-*Showing 12 of 398 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
+*Showing 12 of 399 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
 
 </details>
 
@@ -220,13 +220,13 @@
 | 🔥 | [Action Transformer: A Self-Attention Model for Sho](http://arxiv.org/abs/2107.00606v6) | Deep neural networks based purely on attention have been successful ac | Vittorio Mazzia, Simone Angarano+ | 5.7 |
 | 🔥 | [Temporal-attentive Covariance Pooling Networks for](http://arxiv.org/abs/2110.14381v3) | For video recognition task, a global representation summarizing the wh | Zilin Gao, Qilong Wang+ | 5.7 |
 | 🔥 | [Is Space-Time Attention All You Need for Video Und](https://arxiv.org/abs/2102.05095) | We present a convolution-free approach to video classification built e | Gedas Bertasius, Heng Wang+ | 5.6 |
-| 🔥 | [Revisiting Video Saliency Prediction in the Deep L](https://www.semanticscholar.org/paper/124fd51a1d09fdfa340414c9719f797133507583) | Predicting where people look in static scenes, a. k. a visual saliency | Wenguan Wang, Jianbing Shen+ | 5.3 |
 | 🔥 | [TAda! Temporally-Adaptive Convolutions for Video U](http://arxiv.org/abs/2110.06178v4) | Spatial convolutions are widely used in numerous deep video models. It | Ziyuan Huang, Shiwei Zhang+ | 5.2 |
 | 🔥 | [Efficient Action Recognition with Introducing R(2+](https://www.semanticscholar.org/paper/3baee2afb894b99d52b24a3ccd45788036fd07c9) | The mainstream methods in video action recognition includes 3D convolu | Hao Jin, Jianming Yang+ | 5.2 |
 | 🔥 | [Token Shift Transformer for Video Classification](https://arxiv.org/abs/2108.02432) | Transformer achieves remarkable successes in understanding 1 and 2-dim | Hao Zhang, Y. Hao+ | 5.0 |
 | 🔥 | [Improved CNN-based Learning of Interpolation Filte](http://arxiv.org/abs/2106.08936v1) | The versatility of recent machine learning approaches makes them ideal | Luka Murn, Saverio Blasi+ | 4.9 |
 | 🔥 | [SAIC_Cambridge-HuPBA-FBK Submission to the EPIC-Ki](http://arxiv.org/abs/2110.02902v1) | This report presents the technical details of our submission to the EP | Swathikiran Sudhakaran, Adrian Bulat+ | 4.7 |
 | 🔥 | ["Knights": First Place Submission for VIPriors21 A](http://arxiv.org/abs/2110.07758v1) | This technical report presents our approach "Knights" to solve the act | Ishan Dave, Naman Biyani+ | 4.4 |
+| 🔥 | [Revisiting Video Saliency Prediction in the Deep L](https://www.semanticscholar.org/paper/124fd51a1d09fdfa340414c9719f797133507583) | Predicting where people look in static scenes, a. k. a visual saliency | Wenguan Wang, Jianbing Shen+ | 4.3 |
 | 🔥 | [Recent Advances in Video Action Recognition with 3](https://www.semanticscholar.org/paper/662288676e52adf90909b6e1ebce4192570a35da) | SUMMARY The performance of video action recognition has improved signi | Kensho Hara | 4.3 |
 
 *Showing 12 of 49 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*

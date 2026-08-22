@@ -1,10 +1,10 @@
 # 📚 Complete Paper List — Video CNN/XAI Research Hub
 
-> Last updated: 2026-08-21 02:26:56 | 893 papers total
+> Last updated: 2026-08-22 02:19:05 | 894 papers total
 
 ---
 
-## 2026 (398 papers)
+## 2026 (399 papers)
 
 | Tag | Title | Summary | Author | Score | Query Type | Source |
 |------|------|------|------|----------|------|--------|
@@ -325,6 +325,7 @@
 | 📎 | [Memory Tree Guided Key Frame Querying for Efficient 3D Quest](http://arxiv.org/abs/2608.18009v1) | Answering questions accurately and efficiently in embodied s | Hsiang-Wei Huang, Fu-Chen Chen+ | 3.3 | core | arxiv |
 | 📎 | [LinCa: Accelerating Diffusion Models via Learnable Decompose](http://arxiv.org/abs/2608.17973v1) | Diffusion models have achieved remarkable success in image a | Jinshan Liu, Haoran Qin+ | 3.3 | core | arxiv |
 | 📎 | [Vision-Language Models for Analog Gauge Reading: An Empirica](http://arxiv.org/abs/2608.17723v1) | Analog gauges remain common in industrial environments where | Abdul Mueez, Aaditya Baranwal+ | 3.3 | core | arxiv |
+| 📎 | [Transformer-based heterogeneous attention and multiscale fea](https://www.semanticscholar.org/paper/f166929f4492fec9b9939464a14bbe596d6d3db0) | Video saliency prediction aims to estimate the regions in dy | Yunxiang Liao, Zeyu Zhao | 3.3 | expanded | semantic_scholar |
 | 📎 | [SAR Image and Video Colorization Using Deep Learning for Def](https://www.semanticscholar.org/paper/62188eec2effa21f560d2f95b1a511132382274b) | Synthetic Aperture Radar (SAR) is widely used in defence and | Deep Chakraborty | 3.2 | expanded | semantic_scholar |
 | 📎 | [FilmWorld: Agentic Novel-to-Film Generation through Dynamic ](http://arxiv.org/abs/2607.19038v1) | Translating novels into films poses a grand challenge for ge | Jialong Zuo, Haotong Zuo+ | 3.2 | exploratory | arxiv |
 | 📎 | [RSC-GestureNet: Reliability-Aware Selective Causal Recogniti](http://arxiv.org/abs/2608.02200v1) | Traffic police gestures are safety-critical perception cues  | Cheng Li, Renjun Gao+ | 3.2 | exploratory | arxiv |
@@ -752,13 +753,13 @@
 | 🔥 | [Action Transformer: A Self-Attention Model for Short-Time Po](http://arxiv.org/abs/2107.00606v6) | Deep neural networks based purely on attention have been suc | Vittorio Mazzia, Simone Angarano+ | 5.7 | core | arxiv |
 | 🔥 | [Temporal-attentive Covariance Pooling Networks for Video Rec](http://arxiv.org/abs/2110.14381v3) | For video recognition task, a global representation summariz | Zilin Gao, Qilong Wang+ | 5.7 | core | arxiv |
 | 🔥 | [Is Space-Time Attention All You Need for Video Understanding](https://arxiv.org/abs/2102.05095) | We present a convolution-free approach to video classificati | Gedas Bertasius, Heng Wang+ | 5.6 | core | semantic_scholar |
-| 🔥 | [Revisiting Video Saliency Prediction in the Deep Learning Er](https://www.semanticscholar.org/paper/124fd51a1d09fdfa340414c9719f797133507583) | Predicting where people look in static scenes, a. k. a visua | Wenguan Wang, Jianbing Shen+ | 5.3 | core | semantic_scholar |
 | 🔥 | [TAda! Temporally-Adaptive Convolutions for Video Understandi](http://arxiv.org/abs/2110.06178v4) | Spatial convolutions are widely used in numerous deep video  | Ziyuan Huang, Shiwei Zhang+ | 5.2 | core | arxiv |
 | 🔥 | [Efficient Action Recognition with Introducing R(2+1)D Convol](https://www.semanticscholar.org/paper/3baee2afb894b99d52b24a3ccd45788036fd07c9) | The mainstream methods in video action recognition includes  | Hao Jin, Jianming Yang+ | 5.2 | core | semantic_scholar |
 | 🔥 | [Token Shift Transformer for Video Classification](https://arxiv.org/abs/2108.02432) | Transformer achieves remarkable successes in understanding 1 | Hao Zhang, Y. Hao+ | 5.0 | core | semantic_scholar |
 | 🔥 | [Improved CNN-based Learning of Interpolation Filters for Low](http://arxiv.org/abs/2106.08936v1) | The versatility of recent machine learning approaches makes  | Luka Murn, Saverio Blasi+ | 4.9 | core | arxiv |
 | 🔥 | [SAIC_Cambridge-HuPBA-FBK Submission to the EPIC-Kitchens-100](http://arxiv.org/abs/2110.02902v1) | This report presents the technical details of our submission | Swathikiran Sudhakaran, Adrian Bulat+ | 4.7 | core | arxiv |
 | 🔥 | ["Knights": First Place Submission for VIPriors21 Action Reco](http://arxiv.org/abs/2110.07758v1) | This technical report presents our approach "Knights" to sol | Ishan Dave, Naman Biyani+ | 4.4 | core | arxiv |
+| 🔥 | [Revisiting Video Saliency Prediction in the Deep Learning Er](https://www.semanticscholar.org/paper/124fd51a1d09fdfa340414c9719f797133507583) | Predicting where people look in static scenes, a. k. a visua | Wenguan Wang, Jianbing Shen+ | 4.3 | expanded | semantic_scholar |
 | 🔥 | [Recent Advances in Video Action Recognition with 3D Convolut](https://www.semanticscholar.org/paper/662288676e52adf90909b6e1ebce4192570a35da) | SUMMARY The performance of video action recognition has impr | Kensho Hara | 4.3 | core | semantic_scholar |
 | 🔥 | [Temporal-Spatial Feature Pyramid for Video Saliency Detectio](http://arxiv.org/abs/2105.04213v2) | Multi-level features are important for saliency detection. B | Qinyao Chang, Shiping Zhu | 4.2 | expanded | arxiv |
 | 🔥 | [Space-time Mixing Attention for Video Transformer](http://arxiv.org/abs/2106.05968v2) | This paper is on video recognition using Transformers. Very  | Adrian Bulat, Juan-Manuel Perez-Rua+ | 4.2 | expanded | arxiv |
@@ -838,7 +839,7 @@
 | 📎 | [Blind Video Temporal Consistency via Deep Video Prior](http://arxiv.org/abs/2010.11838v1) | Applying image processing algorithms independently to each v | Chenyang Lei, Yazhou Xing+ | 3.1 | expanded | arxiv |
 | 📎 | [A high performance approach to detecting small targets in lo](http://arxiv.org/abs/2012.02579v1) | Since targets are small in long range infrared (IR) videos,  | Chiman Kwan, Bence Budavari | 3.1 | exploratory | arxiv |
 | 📎 | [Deep Multi-Scale 3D Convolutional Neural Network (CNN) for M](https://www.semanticscholar.org/paper/b92853ee8bd5314b0457f3eae1aa17375f35477d) | Deep Multi-Scale 3D Convolutional Neural Network (CNN) for M | Hiba Mzoughi, Ines Njeh+ | 3.1 | core | semantic_scholar |
-| 📎 | [Effective Video Saliency Mapping for Object Detection using ](https://www.semanticscholar.org/paper/e258e1b7cc7a2129c7b2a66946be16348da28607) | In this paper, we propose a new novel DNN-based video salien | R. V. Priyavadhana, G. Priya+ | 3.0 | expanded | semantic_scholar |
+| 📎 | [Effective Video Saliency Mapping for Object Detection using ](https://www.semanticscholar.org/paper/e258e1b7cc7a2129c7b2a66946be16348da28607) | In this paper, we propose a new novel DNN-based video salien | R. Priyavadhana, G. Priya+ | 3.0 | expanded | semantic_scholar |
 | 📎 | [A spatiotemporal attention mechanism-based model for multi-s](https://www.semanticscholar.org/paper/7d10ea7a7f82b2e3ee1e815639d8de2b9d17f365) | Abstract In taxi dispatch systems, predicting citywide passe | Yirong Zhou, Jun Li+ | 2.9 | expanded | semantic_scholar |
 | 📎 | [A 3D Convolutional Neural Network for Emotion Recognition ba](https://www.semanticscholar.org/paper/0406c5e730964d05be6c498c6cd30b597254295e) | As an important field of research in Human-Machine Interacti | Yuxuan Zhao, Jin Yang+ | 2.9 | core | semantic_scholar |
 | 📎 | [Play Fair: Frame Attributions in Video Models](https://arxiv.org/abs/2011.12372) | In this paper, we introduce an attribution method for explai | Will Price, D. Damen | 2.7 | expanded | semantic_scholar |

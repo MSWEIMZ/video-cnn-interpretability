@@ -4,12 +4,12 @@
 <p align="center"><em>视频深度学习与可解释性论文自动搜集系统</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-893-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/papers-894-blue" alt="papers" />
   <img src="https://img.shields.io/badge/core-379-green" alt="core" />
-  <img src="https://img.shields.io/badge/strongly_related-514-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/strongly_related-515-yellow" alt="strongly_related" />
   <img src="https://img.shields.io/badge/arXiv-575-critical" alt="arXiv" />
-  <img src="https://img.shields.io/badge/Semantic_Scholar-313-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-08-21-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/Semantic_Scholar-314-blueviolet" alt="Semantic Scholar" />
+  <img src="https://img.shields.io/badge/last_update-2026-08-22-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -23,15 +23,15 @@
 
 | 指标 | 数量 |
 |------|------|
-| 📚 论文总数 | **893** |
+| 📚 论文总数 | **894** |
 | 🔥 核心论文 | **379** |
-| 📎 高相关论文 | **514** |
+| 📎 高相关论文 | **515** |
 | 🆕 本月新增 | **194** |
 | 📡 arXiv | 575 |
-| 🔬 Semantic Scholar | 313 |
-| 🔗 CrossRef 增强 | 9 |
+| 🔬 Semantic Scholar | 314 |
+| 🔗 CrossRef 增强 | 10 |
 | ✍️ 手工整理 | 5 |
-| ⏰ 最后更新 | 2026-08-21 02:26:56 |
+| ⏰ 最后更新 | 2026-08-22 02:19:05 |
 
 ## 🏆 高影响力论文 Top 5
 
@@ -102,7 +102,7 @@
 ---
 
 <details>
-<summary>📅 2026 年 (398 篇)</summary>
+<summary>📅 2026 年 (399 篇)</summary>
 
 | 标签 | 标题 | 摘要 | 作者 | 分数 |
 |------|------|------|------|------|
@@ -119,7 +119,7 @@
 | 🔥 | [Sparse Evidence Can Suffice: Agentic Evidence Seek](http://arxiv.org/abs/2607.18080v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于完成识别或分类任务并评估模型表现。 | Haochen Zhao, Yongxiu Xu+ | 5.2 |
 | 🔥 | [HAS: Highlight-guided Attention Steering for Multi](http://arxiv.org/abs/2607.17994v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于研究模型表示、推理能力及应用效果。 | Rui Chu, Yingjie Lao | 5.2 |
 
-*仅展示前 12 篇，完整 398 篇请查看 [ALL_PAPERS_zh.md](ALL_PAPERS_zh.md)。*
+*仅展示前 12 篇，完整 399 篇请查看 [ALL_PAPERS_zh.md](ALL_PAPERS_zh.md)。*
 
 </details>
 
@@ -220,13 +220,13 @@
 | 🔥 | [Action Transformer: A Self-Attention Model for Sho](http://arxiv.org/abs/2107.00606v6) | 本文聚焦视频理解与时序推理，采用时空注意力或 Transformer，主要用于完成识别或分类任务并评估模型表现。 | Vittorio Mazzia, Simone Angarano+ | 5.7 |
 | 🔥 | [Temporal-attentive Covariance Pooling Networks for](http://arxiv.org/abs/2110.14381v3) | 本文聚焦视频理解与时序推理，采用时空注意力或 Transformer，主要用于完成识别或分类任务并评估模型表现。 | Zilin Gao, Qilong Wang+ | 5.7 |
 | 🔥 | [Is Space-Time Attention All You Need for Video Und](https://arxiv.org/abs/2102.05095) | 本文聚焦视频时空表征学习，采用三维卷积网络，主要用于完成识别或分类任务并评估模型表现。 | Gedas Bertasius, Heng Wang+ | 5.6 |
-| 🔥 | [Revisiting Video Saliency Prediction in the Deep L](https://www.semanticscholar.org/paper/124fd51a1d09fdfa340414c9719f797133507583) | 本文聚焦视频模型可解释性，采用梯度归因、显著性或概念分析，主要用于分析模型依据及关键空间或时间区域。 | Wenguan Wang, Jianbing Shen+ | 5.3 |
 | 🔥 | [TAda! Temporally-Adaptive Convolutions for Video U](http://arxiv.org/abs/2110.06178v4) | 本文聚焦视频动作识别，采用深度时空特征建模，主要用于完成识别或分类任务并评估模型表现。 | Ziyuan Huang, Shiwei Zhang+ | 5.2 |
 | 🔥 | [Efficient Action Recognition with Introducing R(2+](https://www.semanticscholar.org/paper/3baee2afb894b99d52b24a3ccd45788036fd07c9) | 本文聚焦视频动作识别与时空建模，采用分解式时空卷积，主要用于完成识别或分类任务并评估模型表现。 | Hao Jin, Jianming Yang+ | 5.2 |
 | 🔥 | [Token Shift Transformer for Video Classification](https://arxiv.org/abs/2108.02432) | 本文聚焦视频模型可解释性，采用梯度归因、显著性或概念分析，主要用于完成识别或分类任务并评估模型表现。 | Hao Zhang, Y. Hao+ | 5.0 |
 | 🔥 | [Improved CNN-based Learning of Interpolation Filte](http://arxiv.org/abs/2106.08936v1) | 本文聚焦视频模型可解释性，采用梯度归因、显著性或概念分析，主要用于分析模型依据及关键空间或时间区域。 | Luka Murn, Saverio Blasi+ | 4.9 |
 | 🔥 | [SAIC_Cambridge-HuPBA-FBK Submission to the EPIC-Ki](http://arxiv.org/abs/2110.02902v1) | 本文聚焦视频理解与时序推理，采用时空注意力或 Transformer，主要用于完成识别或分类任务并评估模型表现。 | Swathikiran Sudhakaran, Adrian Bulat+ | 4.7 |
 | 🔥 | ["Knights": First Place Submission for VIPriors21 A](http://arxiv.org/abs/2110.07758v1) | 本文聚焦视频理解与时序推理，采用时空注意力或 Transformer，主要用于完成识别或分类任务并评估模型表现。 | Ishan Dave, Naman Biyani+ | 4.4 |
+| 🔥 | [Revisiting Video Saliency Prediction in the Deep L](https://www.semanticscholar.org/paper/124fd51a1d09fdfa340414c9719f797133507583) | 本文聚焦视频模型可解释性，采用梯度归因、显著性或概念分析，主要用于分析模型依据及关键空间或时间区域。 | Wenguan Wang, Jianbing Shen+ | 4.3 |
 | 🔥 | [Recent Advances in Video Action Recognition with 3](https://www.semanticscholar.org/paper/662288676e52adf90909b6e1ebce4192570a35da) | 本文聚焦视频时空表征学习，采用三维卷积网络，主要用于完成识别或分类任务并评估模型表现。 | Kensho Hara | 4.3 |
 
 *仅展示前 12 篇，完整 49 篇请查看 [ALL_PAPERS_zh.md](ALL_PAPERS_zh.md)。*
