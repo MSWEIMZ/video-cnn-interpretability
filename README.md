@@ -4,12 +4,12 @@
 <p align="center"><em>Automated paper curation for video deep learning & explainability research</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-894-blue" alt="papers" />
-  <img src="https://img.shields.io/badge/core-379-green" alt="core" />
-  <img src="https://img.shields.io/badge/strongly_related-515-yellow" alt="strongly_related" />
-  <img src="https://img.shields.io/badge/arXiv-575-critical" alt="arXiv" />
+  <img src="https://img.shields.io/badge/papers-904-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/core-388-green" alt="core" />
+  <img src="https://img.shields.io/badge/strongly_related-516-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/arXiv-585-critical" alt="arXiv" />
   <img src="https://img.shields.io/badge/Semantic_Scholar-314-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-08-23-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/last_update-2026-08-24-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -23,15 +23,15 @@
 
 | Metric | Count |
 |--------|-------|
-| 📚 Total Papers | **894** |
-| 🔥 Core Papers | **379** |
-| 📎 Strongly Related | **515** |
-| 🆕 New This Month | **194** |
-| 📡 arXiv | 575 |
+| 📚 Total Papers | **904** |
+| 🔥 Core Papers | **388** |
+| 📎 Strongly Related | **516** |
+| 🆕 New This Month | **204** |
+| 📡 arXiv | 585 |
 | 🔬 Semantic Scholar | 314 |
 | 🔗 CrossRef Enriched | 10 |
 | ✍️ Manual | 5 |
-| ⏰ Last Updated | 2026-08-23 02:27:02 |
+| ⏰ Last Updated | 2026-08-24 02:26:15 |
 
 ## 🏆 Top 5 Most Influential
 
@@ -63,6 +63,7 @@
 
 | Year | Title | Summary | Author | Score |
 |------|------|------|------|------|
+| 2026 | [WA-JEPA: Rethinking the Video JEPA Paradigm for World-Action](http://arxiv.org/abs/2608.20974v1) | Video Joint Embedding Predictive Architecture (V-JEPA) learns powerful spatiotem | Xinlin Wang, Yujiao Xiang+ | 5.8 |
 | 2026 | [Addressable Memory for Video World Models](http://arxiv.org/abs/2608.07408v1) | We study visual persistence in interactive video world models. These models rely | Xindi Wu, Sven Elflein+ | 5.7 |
 | 2026 | [Searching Videos as Trees: Self-Correcting Agents for Ground](http://arxiv.org/abs/2607.16189v1) | Grounded long-video question answering (Grounded LVQA) requires answering a ques | Ce Zhang, Ziyang Wang+ | 5.5 |
 | 2026 | [GROVE: Growing and Reasoning over Temporally Stratified Memo](http://arxiv.org/abs/2608.02392v1) | A wearable assistant should both answer questions about its visual history and r | Sitong Gong, Caixin Kang+ | 5.5 |
@@ -82,7 +83,6 @@
 | 2026 | [Ripple: Real-Time Streaming Audio-Video Generation With Cros](http://arxiv.org/abs/2607.26818v1) | Audio-video generative models achieve impressive quality but suffer from high la | Yanbo Ding, Zhizhi Guo+ | 5.2 |
 | 2026 | [EchoCache: Energy-Guided Cross-Modal Caching for Efficient A](http://arxiv.org/abs/2608.02474v1) | Audio-driven video generation (A2V) has achieved promising progress in synthesiz | Jiayu Chen, Xiaoyu Wu+ | 5.2 |
 | 2026 | [Robust and Efficient Motion Reasoning for Privacy-Aware Clas](http://arxiv.org/abs/2608.05115v1) | Can computer vision help make classrooms safer? In this pilot study, we investig | Paritosh Parmar, Landy Lan+ | 5.2 |
-| 2026 | [HOPE: Hand-Object Pressure Estimation from Monocular Videos](http://arxiv.org/abs/2608.06192v1) | Estimating physical pressure from vision is essential for understanding contact- | Subin Jeon, Byungjun Kim+ | 5.2 |
 
 ## 📎 Strongly Related Papers
 
@@ -102,10 +102,11 @@
 ---
 
 <details>
-<summary>📅 2026 (399 papers)</summary>
+<summary>📅 2026 (409 papers)</summary>
 
 | Tag | Title | Summary | Author | Score |
 |------|------|------|------|------|
+| 🔥 | [WA-JEPA: Rethinking the Video JEPA Paradigm for Wo](http://arxiv.org/abs/2608.20974v1) | Video Joint Embedding Predictive Architecture (V-JEPA) learns powerful | Xinlin Wang, Yujiao Xiang+ | 5.8 |
 | 🔥 | [Addressable Memory for Video World Models](http://arxiv.org/abs/2608.07408v1) | We study visual persistence in interactive video world models. These m | Xindi Wu, Sven Elflein+ | 5.7 |
 | 🔥 | [Searching Videos as Trees: Self-Correcting Agents ](http://arxiv.org/abs/2607.16189v1) | Grounded long-video question answering (Grounded LVQA) requires answer | Ce Zhang, Ziyang Wang+ | 5.5 |
 | 🔥 | [GROVE: Growing and Reasoning over Temporally Strat](http://arxiv.org/abs/2608.02392v1) | A wearable assistant should both answer questions about its visual his | Sitong Gong, Caixin Kang+ | 5.5 |
@@ -117,9 +118,8 @@
 | 🔥 | [Video Understanding: From Geometry and Semantics t](http://arxiv.org/abs/2603.17840v1) | Video understanding aims to enable models to perceive, reason about, a | Zhaochong An, Zirui Li+ | 5.2 |
 | 🔥 | [Audio-Visual Flamingo: Open Audio-Visual Intellige](http://arxiv.org/abs/2607.16107v1) | We present Audio-Visual Flamingo (AV-Flamingo), a fully open state-of- | Sreyan Ghosh, Arushi Goel+ | 5.2 |
 | 🔥 | [Sparse Evidence Can Suffice: Agentic Evidence Seek](http://arxiv.org/abs/2607.18080v1) | Multimodal video misinformation detection is commonly formulated as a  | Haochen Zhao, Yongxiu Xu+ | 5.2 |
-| 🔥 | [HAS: Highlight-guided Attention Steering for Multi](http://arxiv.org/abs/2607.17994v1) | Video understanding has become more and more important with the growth | Rui Chu, Yingjie Lao | 5.2 |
 
-*Showing 12 of 399 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
+*Showing 12 of 409 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
 
 </details>
 
