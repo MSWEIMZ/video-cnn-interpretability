@@ -1,16 +1,16 @@
 # 📂 主题视图
 
-> 共 8 个主题 | 最后更新: 2026-08-25 02:21
+> 共 8 个主题 | 最后更新: 2026-08-26 02:28
 
 ## 📊 主题概览
 
 | 主题 | 论文数 | 核心论文 | 说明 |
 |------|--------|----------|------|
-| 时序解释 | 790 | 355 | 聚焦于视频时序维度的可解释性研究 |
-| 动作识别可解释性 | 255 | 124 | 视频动作识别 / 分类任务的可解释性研究 |
-| 视频 Transformer 可解释性 | 244 | 101 | Vision Transformer / Video Transformer 的可解释性 |
-| 网络解剖 | 217 | 87 | 网络内部单元 / 特征可视化与解剖 |
-| 注意力与归因 | 126 | 49 | 注意力机制分析与梯度归因方法 |
+| 时序解释 | 798 | 362 | 聚焦于视频时序维度的可解释性研究 |
+| 动作识别可解释性 | 256 | 125 | 视频动作识别 / 分类任务的可解释性研究 |
+| 视频 Transformer 可解释性 | 246 | 102 | Vision Transformer / Video Transformer 的可解释性 |
+| 网络解剖 | 219 | 89 | 网络内部单元 / 特征可视化与解剖 |
+| 注意力与归因 | 127 | 50 | 注意力机制分析与梯度归因方法 |
 | 3D CNN 解释 | 119 | 60 | 3D 卷积网络 / R(2+1)D 等时空卷积模型的可解释性 |
 | 视频显著性 | 97 | 37 | 视频/空间显著性检测与可视化 |
 | 鲁棒性与对抗 | 80 | 29 | 视频模型的鲁棒性与对抗攻击/防御 |
@@ -40,7 +40,7 @@
 | 🔥 | [C3D: Generic Features for Video Analysis](https://arxiv.org/abs/1412.4314) | 2015 | 5.7 |
 | 🔥 | [Is Space-Time Attention All You Need for Video Understanding](https://arxiv.org/abs/2102.05095) | 2021 | 5.6 |
 
-*... 共 790 篇，仅显示前 15 篇*
+*... 共 798 篇，仅显示前 15 篇*
 
 ---
 
@@ -55,6 +55,7 @@
 | 🔥 | [Enhancing Video Understanding: Deep Neural Networks for Spat](http://arxiv.org/abs/2502.07277v1) | 2025 | 5.8 |
 | 🔥 | [Deep Analysis of CNN-based Spatio-temporal Representations f](http://arxiv.org/abs/2010.11757v4) | 2020 | 5.8 |
 | 🔥 | [Spatio-Temporal FAST 3D Convolutions for Human Action Recogn](http://arxiv.org/abs/1909.13474v2) | 2019 | 5.8 |
+| 🔥 | [MoTE: Mixture of Task Experts for Multi-Task Video Understan](http://arxiv.org/abs/2608.24763v1) | 2026 | 5.7 |
 | 🔥 | [Action Transformer: A Self-Attention Model for Short-Time Po](http://arxiv.org/abs/2107.00606v6) | 2021 | 5.7 |
 | 🔥 | [Is Space-Time Attention All You Need for Video Understanding](https://arxiv.org/abs/2102.05095) | 2021 | 5.6 |
 | 🔥 | [Video-FocalNets: Spatio-Temporal Focal Modulation for Video ](http://arxiv.org/abs/2307.06947v4) | 2023 | 5.5 |
@@ -64,9 +65,8 @@
 | 🔥 | [TEA: Temporal Excitation and Aggregation for Action Recognit](http://arxiv.org/abs/2004.01398v1) | 2020 | 5.5 |
 | 🔥 | [Fine tuning 3D Convolutional Networks for enhanced Action Re](https://www.semanticscholar.org/paper/5117082498715afed2125ea29c0db60380ff027c) | 2025 | 5.4 |
 | 🔥 | [A Hybrid 3D CNNs Transformer Architecture for Video-Based Hu](https://www.semanticscholar.org/paper/e6b804076db44eb636ebe9d8ec47bcd3aa31a067) | 2025 | 5.4 |
-| 🔥 | [A review of Convolutional-Neural-Network-based action recogn](https://www.semanticscholar.org/paper/2c12495bfb2f47881191ce0cb672f0372c6a31e2) | 2019 | 5.3 |
 
-*... 共 255 篇，仅显示前 15 篇*
+*... 共 256 篇，仅显示前 15 篇*
 
 ---
 
@@ -76,6 +76,7 @@
 
 | 标签 | 标题 | 年份 | 分数 |
 |------|------|------|------|
+| 🔥 | [MoTE: Mixture of Task Experts for Multi-Task Video Understan](http://arxiv.org/abs/2608.24763v1) | 2026 | 5.7 |
 | 🔥 | [Action Transformer: A Self-Attention Model for Short-Time Po](http://arxiv.org/abs/2107.00606v6) | 2021 | 5.7 |
 | 🔥 | [TAM: Temporal Adaptive Module for Video Recognition](http://arxiv.org/abs/2005.06803v3) | 2020 | 5.7 |
 | 🔥 | [Is Space-Time Attention All You Need for Video Understanding](https://arxiv.org/abs/2102.05095) | 2021 | 5.6 |
@@ -90,9 +91,8 @@
 | 🔥 | [HOPE: Hand-Object Pressure Estimation from Monocular Videos](http://arxiv.org/abs/2608.06192v1) | 2026 | 5.2 |
 | 🔥 | [COMET: Contrastive Motion-Enhanced Temporal Reasoning for Vi](http://arxiv.org/abs/2608.21030v1) | 2026 | 5.2 |
 | 🔥 | [What's the Catch? Evaluating Temporal Consistency in Vision-](http://arxiv.org/abs/2608.23474v1) | 2026 | 5.2 |
-| 🔥 | [Efficient Action Recognition with Introducing R(2+1)D Convol](https://www.semanticscholar.org/paper/3baee2afb894b99d52b24a3ccd45788036fd07c9) | 2021 | 5.2 |
 
-*... 共 244 篇，仅显示前 15 篇*
+*... 共 246 篇，仅显示前 15 篇*
 
 ---
 
@@ -118,7 +118,7 @@
 | 🔥 | [Efficient Action Recognition with Introducing R(2+1)D Convol](https://www.semanticscholar.org/paper/3baee2afb894b99d52b24a3ccd45788036fd07c9) | 2021 | 5.2 |
 | 🔥 | [RANP: Resource Aware Neuron Pruning at Initialization for 3D](http://arxiv.org/abs/2010.02488v3) | 2020 | 5.2 |
 
-*... 共 217 篇，仅显示前 15 篇*
+*... 共 219 篇，仅显示前 15 篇*
 
 ---
 
@@ -144,7 +144,7 @@
 | 🔥 | [Human Action Recognition Based on 3D Convolution and Multi-A](https://www.semanticscholar.org/paper/778274e1b626aff5327dfe9cf4234ed6d55c2ea7) | 2025 | 4.8 |
 | 🔥 | [UniJEPA: A Unified Joint-Embedding Predictive Architecture f](http://arxiv.org/abs/2608.07409v1) | 2026 | 4.7 |
 
-*... 共 126 篇，仅显示前 15 篇*
+*... 共 127 篇，仅显示前 15 篇*
 
 ---
 
