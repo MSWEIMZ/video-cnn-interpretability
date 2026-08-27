@@ -4,12 +4,12 @@
 <p align="center"><em>Automated paper curation for video deep learning & explainability research</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-932-blue" alt="papers" />
-  <img src="https://img.shields.io/badge/core-403-green" alt="core" />
-  <img src="https://img.shields.io/badge/strongly_related-529-yellow" alt="strongly_related" />
-  <img src="https://img.shields.io/badge/arXiv-613-critical" alt="arXiv" />
+  <img src="https://img.shields.io/badge/papers-944-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/core-412-green" alt="core" />
+  <img src="https://img.shields.io/badge/strongly_related-532-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/arXiv-625-critical" alt="arXiv" />
   <img src="https://img.shields.io/badge/Semantic_Scholar-314-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-08-26-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/last_update-2026-08-27-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -23,15 +23,15 @@
 
 | Metric | Count |
 |--------|-------|
-| 📚 Total Papers | **932** |
-| 🔥 Core Papers | **403** |
-| 📎 Strongly Related | **529** |
-| 🆕 New This Month | **232** |
-| 📡 arXiv | 613 |
+| 📚 Total Papers | **944** |
+| 🔥 Core Papers | **412** |
+| 📎 Strongly Related | **532** |
+| 🆕 New This Month | **244** |
+| 📡 arXiv | 625 |
 | 🔬 Semantic Scholar | 314 |
 | 🔗 CrossRef Enriched | 10 |
 | ✍️ Manual | 5 |
-| ⏰ Last Updated | 2026-08-26 02:28:17 |
+| ⏰ Last Updated | 2026-08-27 11:07:17 |
 
 ## 🏆 Top 5 Most Influential
 
@@ -65,6 +65,8 @@
 |------|------|------|------|------|
 | 2026 | [WA-JEPA: Rethinking the Video JEPA Paradigm for World-Action](http://arxiv.org/abs/2608.20974v1) | Video Joint Embedding Predictive Architecture (V-JEPA) learns powerful spatiotem | Xinlin Wang, Yujiao Xiang+ | 5.8 |
 | 2026 | [Thinking Beyond Videos: Unifying Video Reasoning and Deep Re](http://arxiv.org/abs/2608.23329v1) | Open-world video understanding often requires a model to locate sparse visual ev | Wenqi Liu, Shijie Ma+ | 5.8 |
+| 2026 | [VBVR-Pro: A Scalable and Verifiable Suite for Native Visual ](http://arxiv.org/abs/2608.26105v1) | Native visual reasoning treats visual generation as the medium of reasoning itse | Junxiang Xu, Ruisi Wang+ | 5.8 |
+| 2026 | [MyoMechanix: Biomechanically-Grounded Compositional Skilled ](http://arxiv.org/abs/2608.26094v1) | Existing action quality assessment (AQA) datasets and methods rely primarily on  | Hao Yin, Paritosh Parmar+ | 5.8 |
 | 2026 | [Addressable Memory for Video World Models](http://arxiv.org/abs/2608.07408v1) | We study visual persistence in interactive video world models. These models rely | Xindi Wu, Sven Elflein+ | 5.7 |
 | 2026 | [MoTE: Mixture of Task Experts for Multi-Task Video Understan](http://arxiv.org/abs/2608.24763v1) | Procedural video-language models must solve heterogeneous tasks from the same vi | Muhammad Asad Ali, Umar Khan+ | 5.7 |
 | 2026 | [Searching Videos as Trees: Self-Correcting Agents for Ground](http://arxiv.org/abs/2607.16189v1) | Grounded long-video question answering (Grounded LVQA) requires answering a ques | Ce Zhang, Ziyang Wang+ | 5.5 |
@@ -81,8 +83,6 @@
 | 2026 | [HAS: Highlight-guided Attention Steering for Multimodal LLM ](http://arxiv.org/abs/2607.17994v1) | Video understanding has become more and more important with the growth of Artifi | Rui Chu, Yingjie Lao | 5.2 |
 | 2026 | [Time-Reversed Imaging: A Multimodal Benchmark and Framework ](http://arxiv.org/abs/2607.22352v1) | We introduce time-reversed imaging, a new paradigm that infers what just happene | Jorge Bacca, Kebin Contreras+ | 5.2 |
 | 2026 | [Test-Time Adaptation via Dual Distillation for Videos Under ](http://arxiv.org/abs/2607.24611v1) | Deep learning models have achieved state-of-the-art performance in several compu | André Sacilotti, Samuel Felipe dos Santos+ | 5.2 |
-| 2026 | [CADER: Confidence-Aware Dynamic Evidence Reasoning for Long-](http://arxiv.org/abs/2607.24582v1) | Long-video understanding increasingly relies on large vision-language models and | Jinlong Yang, Wenhao Zhang+ | 5.2 |
-| 2026 | [EgoPlay: Event-Triggered Video Editing for Egocentric Stream](http://arxiv.org/abs/2607.24560v1) | We introduce EgoPlay, an event-triggered video-to-video editor for egocentric st | Jinjie Mai, Gordon Guocheng Qian+ | 5.2 |
 
 ## 📎 Strongly Related Papers
 
@@ -102,12 +102,14 @@
 ---
 
 <details>
-<summary>📅 2026 (437 papers)</summary>
+<summary>📅 2026 (449 papers)</summary>
 
 | Tag | Title | Summary | Author | Score |
 |------|------|------|------|------|
 | 🔥 | [WA-JEPA: Rethinking the Video JEPA Paradigm for Wo](http://arxiv.org/abs/2608.20974v1) | Video Joint Embedding Predictive Architecture (V-JEPA) learns powerful | Xinlin Wang, Yujiao Xiang+ | 5.8 |
 | 🔥 | [Thinking Beyond Videos: Unifying Video Reasoning a](http://arxiv.org/abs/2608.23329v1) | Open-world video understanding often requires a model to locate sparse | Wenqi Liu, Shijie Ma+ | 5.8 |
+| 🔥 | [VBVR-Pro: A Scalable and Verifiable Suite for Nati](http://arxiv.org/abs/2608.26105v1) | Native visual reasoning treats visual generation as the medium of reas | Junxiang Xu, Ruisi Wang+ | 5.8 |
+| 🔥 | [MyoMechanix: Biomechanically-Grounded Compositiona](http://arxiv.org/abs/2608.26094v1) | Existing action quality assessment (AQA) datasets and methods rely pri | Hao Yin, Paritosh Parmar+ | 5.8 |
 | 🔥 | [Addressable Memory for Video World Models](http://arxiv.org/abs/2608.07408v1) | We study visual persistence in interactive video world models. These m | Xindi Wu, Sven Elflein+ | 5.7 |
 | 🔥 | [MoTE: Mixture of Task Experts for Multi-Task Video](http://arxiv.org/abs/2608.24763v1) | Procedural video-language models must solve heterogeneous tasks from t | Muhammad Asad Ali, Umar Khan+ | 5.7 |
 | 🔥 | [Searching Videos as Trees: Self-Correcting Agents ](http://arxiv.org/abs/2607.16189v1) | Grounded long-video question answering (Grounded LVQA) requires answer | Ce Zhang, Ziyang Wang+ | 5.5 |
@@ -116,10 +118,8 @@
 | 🔥 | [HelloWorld: Enabling Socially Interactive Characte](http://arxiv.org/abs/2608.05070v1) | Despite the remarkable recent progress of video world models, social i | Liangyang Ouyang, Ruicong Liu+ | 5.5 |
 | 🔥 | [Towards Expert-level Medical AI for Real-time Vide](http://arxiv.org/abs/2608.09861v1) | Audio-visual interaction is the standard for patient-physician consult | Mahvish Nagda, Jihyeon Lee+ | 5.5 |
 | 🔥 | [X-LMC: Cross-View Spatiotemporal Collateral Circul](http://arxiv.org/abs/2608.18986v1) | Digital subtraction angiography (DSA) is the reference standard for le | Maedeh Hafezi Moghadas, Hakim Baazaoui+ | 5.5 |
-| 🔥 | [Visual Representation Matters: Exploiting Temporal](http://arxiv.org/abs/2608.04902v1) | Video-to-audio (V2A) generation extends image-to-audio generation (I2A | Zehua Chen, Junyou Wang+ | 5.4 |
-| 🔥 | [LAION-BVD: A 10-Million-Hour Open Video Dataset fo](http://arxiv.org/abs/2608.24845v1) | We present LAION-BVD, a large-scale open video dataset for multimodal  | Andreas Hochlehnert, Marianna Nezhurina+ | 5.4 |
 
-*Showing 12 of 437 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
+*Showing 12 of 449 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
 
 </details>
 
