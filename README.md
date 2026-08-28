@@ -4,12 +4,12 @@
 <p align="center"><em>Automated paper curation for video deep learning & explainability research</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-944-blue" alt="papers" />
-  <img src="https://img.shields.io/badge/core-412-green" alt="core" />
-  <img src="https://img.shields.io/badge/strongly_related-532-yellow" alt="strongly_related" />
-  <img src="https://img.shields.io/badge/arXiv-625-critical" alt="arXiv" />
+  <img src="https://img.shields.io/badge/papers-959-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/core-417-green" alt="core" />
+  <img src="https://img.shields.io/badge/strongly_related-542-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/arXiv-640-critical" alt="arXiv" />
   <img src="https://img.shields.io/badge/Semantic_Scholar-314-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-08-27-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/last_update-2026-08-28-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -23,15 +23,15 @@
 
 | Metric | Count |
 |--------|-------|
-| 📚 Total Papers | **944** |
-| 🔥 Core Papers | **412** |
-| 📎 Strongly Related | **532** |
-| 🆕 New This Month | **244** |
-| 📡 arXiv | 625 |
+| 📚 Total Papers | **959** |
+| 🔥 Core Papers | **417** |
+| 📎 Strongly Related | **542** |
+| 🆕 New This Month | **259** |
+| 📡 arXiv | 640 |
 | 🔬 Semantic Scholar | 314 |
 | 🔗 CrossRef Enriched | 10 |
 | ✍️ Manual | 5 |
-| ⏰ Last Updated | 2026-08-27 11:07:17 |
+| ⏰ Last Updated | 2026-08-28 12:39:52 |
 
 ## 🏆 Top 5 Most Influential
 
@@ -75,6 +75,7 @@
 | 2026 | [HelloWorld: Enabling Socially Interactive Characters in Vide](http://arxiv.org/abs/2608.05070v1) | Despite the remarkable recent progress of video world models, social interaction | Liangyang Ouyang, Ruicong Liu+ | 5.5 |
 | 2026 | [Towards Expert-level Medical AI for Real-time Video Consulta](http://arxiv.org/abs/2608.09861v1) | Audio-visual interaction is the standard for patient-physician consultations, en | Mahvish Nagda, Jihyeon Lee+ | 5.5 |
 | 2026 | [X-LMC: Cross-View Spatiotemporal Collateral Circulation Scor](http://arxiv.org/abs/2608.18986v1) | Digital subtraction angiography (DSA) is the reference standard for leptomeninge | Maedeh Hafezi Moghadas, Hakim Baazaoui+ | 5.5 |
+| 2026 | [LeVJEPA: Efficient & Scalable Video Pretraining without the ](http://arxiv.org/abs/2608.27395v1) | Video carries the temporal structure of the physical world, yet learning represe | Lukas Kuhn, Lucas Maes+ | 5.5 |
 | 2026 | [Visual Representation Matters: Exploiting Temporal Differenc](http://arxiv.org/abs/2608.04902v1) | Video-to-audio (V2A) generation extends image-to-audio generation (I2A) by intro | Zehua Chen, Junyou Wang+ | 5.4 |
 | 2026 | [LAION-BVD: A 10-Million-Hour Open Video Dataset for Multimod](http://arxiv.org/abs/2608.24845v1) | We present LAION-BVD, a large-scale open video dataset for multimodal learning,  | Andreas Hochlehnert, Marianna Nezhurina+ | 5.4 |
 | 2026 | [Video Understanding: From Geometry and Semantics to Unified ](http://arxiv.org/abs/2603.17840v1) | Video understanding aims to enable models to perceive, reason about, and interac | Zhaochong An, Zirui Li+ | 5.2 |
@@ -82,7 +83,6 @@
 | 2026 | [Sparse Evidence Can Suffice: Agentic Evidence Seeking for Mu](http://arxiv.org/abs/2607.18080v1) | Multimodal video misinformation detection is commonly formulated as a holistic v | Haochen Zhao, Yongxiu Xu+ | 5.2 |
 | 2026 | [HAS: Highlight-guided Attention Steering for Multimodal LLM ](http://arxiv.org/abs/2607.17994v1) | Video understanding has become more and more important with the growth of Artifi | Rui Chu, Yingjie Lao | 5.2 |
 | 2026 | [Time-Reversed Imaging: A Multimodal Benchmark and Framework ](http://arxiv.org/abs/2607.22352v1) | We introduce time-reversed imaging, a new paradigm that infers what just happene | Jorge Bacca, Kebin Contreras+ | 5.2 |
-| 2026 | [Test-Time Adaptation via Dual Distillation for Videos Under ](http://arxiv.org/abs/2607.24611v1) | Deep learning models have achieved state-of-the-art performance in several compu | André Sacilotti, Samuel Felipe dos Santos+ | 5.2 |
 
 ## 📎 Strongly Related Papers
 
@@ -102,7 +102,7 @@
 ---
 
 <details>
-<summary>📅 2026 (449 papers)</summary>
+<summary>📅 2026 (464 papers)</summary>
 
 | Tag | Title | Summary | Author | Score |
 |------|------|------|------|------|
@@ -119,7 +119,7 @@
 | 🔥 | [Towards Expert-level Medical AI for Real-time Vide](http://arxiv.org/abs/2608.09861v1) | Audio-visual interaction is the standard for patient-physician consult | Mahvish Nagda, Jihyeon Lee+ | 5.5 |
 | 🔥 | [X-LMC: Cross-View Spatiotemporal Collateral Circul](http://arxiv.org/abs/2608.18986v1) | Digital subtraction angiography (DSA) is the reference standard for le | Maedeh Hafezi Moghadas, Hakim Baazaoui+ | 5.5 |
 
-*Showing 12 of 449 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
+*Showing 12 of 464 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
 
 </details>
 

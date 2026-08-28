@@ -4,12 +4,12 @@
 <p align="center"><em>视频深度学习与可解释性论文自动搜集系统</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-944-blue" alt="papers" />
-  <img src="https://img.shields.io/badge/core-412-green" alt="core" />
-  <img src="https://img.shields.io/badge/strongly_related-532-yellow" alt="strongly_related" />
-  <img src="https://img.shields.io/badge/arXiv-625-critical" alt="arXiv" />
+  <img src="https://img.shields.io/badge/papers-959-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/core-417-green" alt="core" />
+  <img src="https://img.shields.io/badge/strongly_related-542-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/arXiv-640-critical" alt="arXiv" />
   <img src="https://img.shields.io/badge/Semantic_Scholar-314-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-08-27-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/last_update-2026-08-28-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -23,15 +23,15 @@
 
 | 指标 | 数量 |
 |------|------|
-| 📚 论文总数 | **944** |
-| 🔥 核心论文 | **412** |
-| 📎 高相关论文 | **532** |
-| 🆕 本月新增 | **244** |
-| 📡 arXiv | 625 |
+| 📚 论文总数 | **959** |
+| 🔥 核心论文 | **417** |
+| 📎 高相关论文 | **542** |
+| 🆕 本月新增 | **259** |
+| 📡 arXiv | 640 |
 | 🔬 Semantic Scholar | 314 |
 | 🔗 CrossRef 增强 | 10 |
 | ✍️ 手工整理 | 5 |
-| ⏰ 最后更新 | 2026-08-27 11:07:17 |
+| ⏰ 最后更新 | 2026-08-28 12:39:52 |
 
 ## 🏆 高影响力论文 Top 5
 
@@ -75,6 +75,7 @@
 | 2026 | [HelloWorld: Enabling Socially Interactive Characters in Vide](http://arxiv.org/abs/2608.05070v1) | 本文聚焦视频理解与时序推理，采用时空注意力或 Transformer，主要用于研究模型表示、推理能力及应用效果。 | Liangyang Ouyang, Ruicong Liu+ | 5.5 |
 | 2026 | [Towards Expert-level Medical AI for Real-time Video Consulta](http://arxiv.org/abs/2608.09861v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于分析模型依据及关键空间或时间区域。 | Mahvish Nagda, Jihyeon Lee+ | 5.5 |
 | 2026 | [X-LMC: Cross-View Spatiotemporal Collateral Circulation Scor](http://arxiv.org/abs/2608.18986v1) | 本文聚焦视频理解与时序推理，采用时空注意力或 Transformer，主要用于研究模型表示、推理能力及应用效果。 | Maedeh Hafezi Moghadas, Hakim Baazaoui+ | 5.5 |
+| 2026 | [LeVJEPA: Efficient & Scalable Video Pretraining without the ](http://arxiv.org/abs/2608.27395v1) | 本文聚焦视频理解与时序推理，采用时空注意力或 Transformer，主要用于研究模型表示、推理能力及应用效果。 | Lukas Kuhn, Lucas Maes+ | 5.5 |
 | 2026 | [Visual Representation Matters: Exploiting Temporal Differenc](http://arxiv.org/abs/2608.04902v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于研究模型表示、推理能力及应用效果。 | Zehua Chen, Junyou Wang+ | 5.4 |
 | 2026 | [LAION-BVD: A 10-Million-Hour Open Video Dataset for Multimod](http://arxiv.org/abs/2608.24845v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于构建或评估基准并比较不同方法。 | Andreas Hochlehnert, Marianna Nezhurina+ | 5.4 |
 | 2026 | [Video Understanding: From Geometry and Semantics to Unified ](http://arxiv.org/abs/2603.17840v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Zhaochong An, Zirui Li+ | 5.2 |
@@ -82,7 +83,6 @@
 | 2026 | [Sparse Evidence Can Suffice: Agentic Evidence Seeking for Mu](http://arxiv.org/abs/2607.18080v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于完成识别或分类任务并评估模型表现。 | Haochen Zhao, Yongxiu Xu+ | 5.2 |
 | 2026 | [HAS: Highlight-guided Attention Steering for Multimodal LLM ](http://arxiv.org/abs/2607.17994v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于研究模型表示、推理能力及应用效果。 | Rui Chu, Yingjie Lao | 5.2 |
 | 2026 | [Time-Reversed Imaging: A Multimodal Benchmark and Framework ](http://arxiv.org/abs/2607.22352v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于构建或评估基准并比较不同方法。 | Jorge Bacca, Kebin Contreras+ | 5.2 |
-| 2026 | [Test-Time Adaptation via Dual Distillation for Videos Under ](http://arxiv.org/abs/2607.24611v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于完成识别或分类任务并评估模型表现。 | André Sacilotti, Samuel Felipe dos Santos+ | 5.2 |
 
 ## 📎 高相关论文
 
@@ -102,7 +102,7 @@
 ---
 
 <details>
-<summary>📅 2026 年 (449 篇)</summary>
+<summary>📅 2026 年 (464 篇)</summary>
 
 | 标签 | 标题 | 摘要 | 作者 | 分数 |
 |------|------|------|------|------|
@@ -119,7 +119,7 @@
 | 🔥 | [Towards Expert-level Medical AI for Real-time Vide](http://arxiv.org/abs/2608.09861v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于分析模型依据及关键空间或时间区域。 | Mahvish Nagda, Jihyeon Lee+ | 5.5 |
 | 🔥 | [X-LMC: Cross-View Spatiotemporal Collateral Circul](http://arxiv.org/abs/2608.18986v1) | 本文聚焦视频理解与时序推理，采用时空注意力或 Transformer，主要用于研究模型表示、推理能力及应用效果。 | Maedeh Hafezi Moghadas, Hakim Baazaoui+ | 5.5 |
 
-*仅展示前 12 篇，完整 449 篇请查看 [ALL_PAPERS_zh.md](ALL_PAPERS_zh.md)。*
+*仅展示前 12 篇，完整 464 篇请查看 [ALL_PAPERS_zh.md](ALL_PAPERS_zh.md)。*
 
 </details>
 
