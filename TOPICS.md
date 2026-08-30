@@ -1,18 +1,18 @@
 # 📂 主题视图
 
-> 共 8 个主题 | 最后更新: 2026-08-29 07:48
+> 共 8 个主题 | 最后更新: 2026-08-30 06:28
 
 ## 📊 主题概览
 
 | 主题 | 论文数 | 核心论文 | 说明 |
 |------|--------|----------|------|
-| 时序解释 | 819 | 373 | 聚焦于视频时序维度的可解释性研究 |
-| 动作识别可解释性 | 258 | 126 | 视频动作识别 / 分类任务的可解释性研究 |
-| 视频 Transformer 可解释性 | 250 | 105 | Vision Transformer / Video Transformer 的可解释性 |
-| 网络解剖 | 224 | 93 | 网络内部单元 / 特征可视化与解剖 |
-| 注意力与归因 | 134 | 54 | 注意力机制分析与梯度归因方法 |
-| 3D CNN 解释 | 119 | 60 | 3D 卷积网络 / R(2+1)D 等时空卷积模型的可解释性 |
-| 视频显著性 | 97 | 37 | 视频/空间显著性检测与可视化 |
+| 时序解释 | 821 | 376 | 聚焦于视频时序维度的可解释性研究 |
+| 动作识别可解释性 | 260 | 129 | 视频动作识别 / 分类任务的可解释性研究 |
+| 视频 Transformer 可解释性 | 250 | 106 | Vision Transformer / Video Transformer 的可解释性 |
+| 网络解剖 | 226 | 96 | 网络内部单元 / 特征可视化与解剖 |
+| 注意力与归因 | 135 | 55 | 注意力机制分析与梯度归因方法 |
+| 3D CNN 解释 | 121 | 62 | 3D 卷积网络 / R(2+1)D 等时空卷积模型的可解释性 |
+| 视频显著性 | 97 | 38 | 视频/空间显著性检测与可视化 |
 | 鲁棒性与对抗 | 81 | 29 | 视频模型的鲁棒性与对抗攻击/防御 |
 | 未分类 | 45 | - | - |
 
@@ -40,7 +40,7 @@
 | 🔥 | [TAM: Temporal Adaptive Module for Video Recognition](http://arxiv.org/abs/2005.06803v3) | 2020 | 5.7 |
 | 🔥 | [C3D: Generic Features for Video Analysis](https://arxiv.org/abs/1412.4314) | 2015 | 5.7 |
 
-*... 共 819 篇，仅显示前 15 篇*
+*... 共 821 篇，仅显示前 15 篇*
 
 ---
 
@@ -66,7 +66,7 @@
 | 🔥 | [Fine tuning 3D Convolutional Networks for enhanced Action Re](https://www.semanticscholar.org/paper/5117082498715afed2125ea29c0db60380ff027c) | 2025 | 5.4 |
 | 🔥 | [A Hybrid 3D CNNs Transformer Architecture for Video-Based Hu](https://www.semanticscholar.org/paper/e6b804076db44eb636ebe9d8ec47bcd3aa31a067) | 2025 | 5.4 |
 
-*... 共 258 篇，仅显示前 15 篇*
+*... 共 260 篇，仅显示前 15 篇*
 
 ---
 
@@ -118,7 +118,7 @@
 | 🔥 | [COMET: Contrastive Motion-Enhanced Temporal Reasoning for Vi](http://arxiv.org/abs/2608.21030v1) | 2026 | 5.2 |
 | 🔥 | [Act with Intent: Distilling Behavior Intent for Vision-Langu](http://arxiv.org/abs/2608.23478v1) | 2026 | 5.2 |
 
-*... 共 224 篇，仅显示前 15 篇*
+*... 共 226 篇，仅显示前 15 篇*
 
 ---
 
@@ -144,7 +144,7 @@
 | 🔥 | [Kinematic Knowledge Maps for Pattern Alignment: Structured L](http://arxiv.org/abs/2608.20969v1) | 2026 | 4.8 |
 | 🔥 | [RepAttn3D: Re-parameterizing 3D attention with spatiotempora](https://www.semanticscholar.org/paper/10363be6ea7467ba7979e10a46379c461ee93c2b) | 2025 | 4.8 |
 
-*... 共 134 篇，仅显示前 15 篇*
+*... 共 135 篇，仅显示前 15 篇*
 
 ---
 
@@ -170,7 +170,7 @@
 | 🔥 | [3D Convolutional with Attention for Action Recognition](http://arxiv.org/abs/2206.02203v1) | 2022 | 5.0 |
 | 🔥 | [Would Mega-scale Datasets Further Enhance Spatiotemporal 3D ](http://arxiv.org/abs/2004.04968v1) | 2020 | 5.0 |
 
-*... 共 119 篇，仅显示前 15 篇*
+*... 共 121 篇，仅显示前 15 篇*
 
 ---
 
@@ -217,9 +217,9 @@
 | 🔥 | [IntentQA: Intent Question Answering in Videos by Cognitive C](http://arxiv.org/abs/2608.23330v1) | 2026 | 4.9 |
 | 🔥 | [InstructMixup: Instruction-Guided Salient Patch Editing for ](http://arxiv.org/abs/2607.19324v1) | 2026 | 4.7 |
 | 🔥 | [Sign Language Video Synthesis via Loss-Guided Multi-Expert G](http://arxiv.org/abs/2608.13368v1) | 2026 | 4.7 |
+| 🔥 | [StreamForest: Efficient Online Video Understanding with Pers](https://arxiv.org/abs/2509.24871) | 2025 | 4.7 |
 | 🔥 | [VideoMamba: State Space Model for Efficient Video Understand](https://arxiv.org/abs/2403.06977) | 2024 | 4.7 |
 | 🔥 | [Towards Video Thinking Test: A Holistic Benchmark for Advanc](http://arxiv.org/abs/2507.15028v1) | 2025 | 4.6 |
 | 🔥 | [Dynamic Attention Mechanism in Spatiotemporal Memory Network](http://arxiv.org/abs/2503.16768v1) | 2025 | 4.5 |
-| 🔥 | [SafeCA: Safe Cross-Attention Localization and Regulation for](http://arxiv.org/abs/2608.10933v1) | 2026 | 4.4 |
 
 *... 共 81 篇，仅显示前 15 篇*

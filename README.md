@@ -4,12 +4,12 @@
 <p align="center"><em>Automated paper curation for video deep learning & explainability research</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-959-blue" alt="papers" />
-  <img src="https://img.shields.io/badge/core-417-green" alt="core" />
-  <img src="https://img.shields.io/badge/strongly_related-542-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/papers-961-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/core-420-green" alt="core" />
+  <img src="https://img.shields.io/badge/strongly_related-541-yellow" alt="strongly_related" />
   <img src="https://img.shields.io/badge/arXiv-640-critical" alt="arXiv" />
-  <img src="https://img.shields.io/badge/Semantic_Scholar-314-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-08-29-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/Semantic_Scholar-316-blueviolet" alt="Semantic Scholar" />
+  <img src="https://img.shields.io/badge/last_update-2026-08-30-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -23,15 +23,15 @@
 
 | Metric | Count |
 |--------|-------|
-| 📚 Total Papers | **959** |
-| 🔥 Core Papers | **417** |
-| 📎 Strongly Related | **542** |
+| 📚 Total Papers | **961** |
+| 🔥 Core Papers | **420** |
+| 📎 Strongly Related | **541** |
 | 🆕 New This Month | **259** |
 | 📡 arXiv | 640 |
-| 🔬 Semantic Scholar | 314 |
-| 🔗 CrossRef Enriched | 10 |
+| 🔬 Semantic Scholar | 316 |
+| 🔗 CrossRef Enriched | 11 |
 | ✍️ Manual | 5 |
-| ⏰ Last Updated | 2026-08-29 07:48:09 |
+| ⏰ Last Updated | 2026-08-30 06:28:19 |
 
 ## 🏆 Top 5 Most Influential
 
@@ -40,7 +40,7 @@
 | Rank | Title | Citations | Score |
 |------|------|--------|------|
 | 1 | [Visualizing and Understanding Convolutional Networks](https://arxiv.org/abs/1311.2901) | 7502 | 5.4 |
-| 2 | [Is Space-Time Attention All You Need for Video Understanding](https://arxiv.org/abs/2102.05095) | 3135 | 5.6 |
+| 2 | [Is Space-Time Attention All You Need for Video Understanding](https://arxiv.org/abs/2102.05095) | 3289 | 5.6 |
 | 3 | [A Closer Look at Spatiotemporal Convolutions for Action Reco](https://arxiv.org/abs/1711.11248) | 3638 | 5.1 |
 | 4 | [Convolutional Two-Stream Network Fusion for Video Action Rec](https://arxiv.org/abs/1604.06573) | 2771 | 5.0 |
 | 5 | [A survey of methods for explaining Black Box Models](https://arxiv.org/abs/1802.01933) | 3548 | 4.1 |
@@ -51,11 +51,11 @@
 
 | Year | Title | Summary | Citations | Score |
 |------|------|------|--------|------|
-| 2024 | [VideoMamba: State Space Model for Efficient Video Understand](https://arxiv.org/abs/2403.06977) | Addressing the dual challenges of local redundancy and global dependencies in vi | 551 | 4.7 |
-| 2024 | [LongVU: Spatiotemporal Adaptive Compression for Long Video-L](https://arxiv.org/abs/2410.17434) | Multimodal Large Language Models (MLLMs) have shown promising progress in unders | 314 | 4.7 |
+| 2024 | [VideoMamba: State Space Model for Efficient Video Understand](https://arxiv.org/abs/2403.06977) | Addressing the dual challenges of local redundancy and global dependencies in vi | 598 | 4.7 |
+| 2024 | [LongVU: Spatiotemporal Adaptive Compression for Long Video-L](https://arxiv.org/abs/2410.17434) | Multimodal Large Language Models (MLLMs) have shown promising progress in unders | 354 | 4.7 |
 | 2024 | [Benchmarking Micro-Action Recognition: Dataset, Methods, and](https://arxiv.org/abs/2403.05234) | Micro-action is an imperceptible non-verbal behaviour characterised by low-inten | 138 | 4.0 |
-| 2024 | [Isolated Video-Based Sign Language Recognition Using a Hybri](https://www.semanticscholar.org/paper/fef413d4970c737ebf559fcf39e766910716795b) | Sign language is a complex language that uses hand gestures, body movements, and | 54 | 4.7 |
-| 2025 | [Video deepfake detection using a hybrid CNN-LSTM-Transformer](https://www.semanticscholar.org/paper/e17c9359b8cbf6f327523694fcf4019a65134a09) | The proliferation of deepfake technology poses significant challenges due to its | 51 | 5.0 |
+| 2025 | [Video deepfake detection using a hybrid CNN-LSTM-Transformer](https://www.semanticscholar.org/paper/e17c9359b8cbf6f327523694fcf4019a65134a09) | The proliferation of deepfake technology poses significant challenges due to its | 61 | 5.0 |
+| 2025 | [StreamForest: Efficient Online Video Understanding with Pers](https://arxiv.org/abs/2509.24871) | Multimodal Large Language Models (MLLMs) have recently achieved remarkable progr | 57 | 4.7 |
 
 ---
 
@@ -102,7 +102,7 @@
 ---
 
 <details>
-<summary>📅 2026 (464 papers)</summary>
+<summary>📅 2026 (465 papers)</summary>
 
 | Tag | Title | Summary | Author | Score |
 |------|------|------|------|------|
@@ -119,12 +119,12 @@
 | 🔥 | [Towards Expert-level Medical AI for Real-time Vide](http://arxiv.org/abs/2608.09861v1) | Audio-visual interaction is the standard for patient-physician consult | Mahvish Nagda, Jihyeon Lee+ | 5.5 |
 | 🔥 | [X-LMC: Cross-View Spatiotemporal Collateral Circul](http://arxiv.org/abs/2608.18986v1) | Digital subtraction angiography (DSA) is the reference standard for le | Maedeh Hafezi Moghadas, Hakim Baazaoui+ | 5.5 |
 
-*Showing 12 of 464 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
+*Showing 12 of 465 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
 
 </details>
 
 <details>
-<summary>📅 2025 (106 papers)</summary>
+<summary>📅 2025 (107 papers)</summary>
 
 | Tag | Title | Summary | Author | Score |
 |------|------|------|------|------|
@@ -141,7 +141,7 @@
 | 🔥 | [A Novel 3D Convolutional Neural Network-Based Deep](https://www.semanticscholar.org/paper/6641c1664e33a1a7c43c67a39d9c8bc570b3f34f) | Accurate analysis of medical videos remains a major challenge in deep  | M. K. Dhar, Mou Deb+ | 4.9 |
 | 🔥 | [RepAttn3D: Re-parameterizing 3D attention with spa](https://www.semanticscholar.org/paper/10363be6ea7467ba7979e10a46379c461ee93c2b) | The technique of structural re-parameterization has been widely adopte | Xiusheng Lu, Lechao Cheng+ | 4.8 |
 
-*Showing 12 of 106 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
+*Showing 12 of 107 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
 
 </details>
 

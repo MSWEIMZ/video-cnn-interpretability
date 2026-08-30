@@ -1,10 +1,10 @@
 # 📚 Complete Paper List — Video CNN/XAI Research Hub
 
-> Last updated: 2026-08-29 07:48:09 | 959 papers total
+> Last updated: 2026-08-30 06:28:19 | 961 papers total
 
 ---
 
-## 2026 (464 papers)
+## 2026 (465 papers)
 
 | Tag | Title | Summary | Author | Score | Query Type | Source |
 |------|------|------|------|----------|------|--------|
@@ -182,6 +182,7 @@
 | 🔥 | [EditaLive! Unified Character Video Editing for Live Streamin](http://arxiv.org/abs/2608.27123v1) | Conventional video editing primarily focuses on scene-level  | Zhiyuan Li, Chi-Man Pun+ | 4.4 | core | arxiv |
 | 🔥 | [Parallel Decoding Distillation for Fast Image and Video Gene](http://arxiv.org/abs/2607.26004v1) | Generation in video diffusion or flow models is computationa | Neta Shaul, Chao Liu+ | 4.3 | core | arxiv |
 | 🔥 | [Mitigating Compounding Error via Video Representation Regula](http://arxiv.org/abs/2607.27036v1) | Video diffusion-based world models enable long autoregressiv | Taiye Chen, Qi Zhang+ | 4.3 | core | arxiv |
+| 🔥 | [Multistage spatio-temporal fusion network for action recogni](https://www.semanticscholar.org/paper/db6de2efa1a3733679f93d41488706f14031772f) | In the field of action recognition, current mainstream metho | Xin Lan, Longye Wang+ | 4.3 | core | semantic_scholar |
 | 🔥 | [QuantiSpect: A Structure-Aware Lightweight 3D CNN Pre-Decode](http://arxiv.org/abs/2607.18204v1) | Real-time decoding is a critical bottleneck for large-scale  | Pan Gao, Xu-Sheng Xu+ | 4.2 | core | arxiv |
 | 🔥 | [Multi-Task Learning for Heterogeneous Prediction from Video ](http://arxiv.org/abs/2607.21290v1) | Multi-task learning (MTL) is a promising approach for predic | Jonas Peché, Aliaksei Tsishurou+ | 4.2 | core | arxiv |
 | 🔥 | [MPIE-Bench: Benchmarking Anatomically Plausible Multi-Person](http://arxiv.org/abs/2607.27616v1) | Text-to-image and personalized editing models now synthesize | Jiajia Lin, Mingxuan Du+ | 4.2 | expanded | arxiv |
@@ -473,7 +474,7 @@
 | 📎 | [Dynamics of local quantum information in random unitary circ](http://arxiv.org/abs/2608.27440v1) | The physics of information scrambling in quantum many-body s | Ratul Thakur, Sthitadhi Roy | 2.6 | core | arxiv |
 | 📎 | [Property-Specific Recoverability from Contact PPG to Camera ](http://arxiv.org/abs/2608.27392v1) | Camera-derived remote photoplethysmography (rPPG) is commonl | Timothy Oladunni, Farouk Ganiyu-Adewumi | 2.6 | core | arxiv |
 
-## 2025 (106 papers)
+## 2025 (107 papers)
 
 | Tag | Title | Summary | Author | Score | Query Type | Source |
 |------|------|------|------|----------|------|--------|
@@ -490,8 +491,10 @@
 | 🔥 | [A Novel 3D Convolutional Neural Network-Based Deep Learning ](https://www.semanticscholar.org/paper/6641c1664e33a1a7c43c67a39d9c8bc570b3f34f) | Accurate analysis of medical videos remains a major challeng | M. K. Dhar, Mou Deb+ | 4.9 | core | semantic_scholar |
 | 🔥 | [RepAttn3D: Re-parameterizing 3D attention with spatiotempora](https://www.semanticscholar.org/paper/10363be6ea7467ba7979e10a46379c461ee93c2b) | The technique of structural re-parameterization has been wid | Xiusheng Lu, Lechao Cheng+ | 4.8 | core | semantic_scholar |
 | 🔥 | [Human Action Recognition Based on 3D Convolution and Multi-A](https://www.semanticscholar.org/paper/778274e1b626aff5327dfe9cf4234ed6d55c2ea7) | To address the limitations of traditional two-stream network | Minghua Liu, Wenjing Li+ | 4.8 | core | semantic_scholar |
+| 🔥 | [ReynoldsFlow: Physics-Inspired Spatiotemporal Flow Represent](https://arxiv.org/abs/2503.04500) | Video understanding has largely relied on deep spatiotempora | Yu-Hsi Chen, Ching-Kai Lin+ | 4.8 | core | semantic_scholar |
 | 🔥 | [Token Merging via Spatiotemporal Information Mining for Surg](http://arxiv.org/abs/2509.23672v1) | Vision Transformer models have shown impressive effectivenes | Xixi Jiang, Chen Yang+ | 4.7 | core | arxiv |
 | 🔥 | [STORM: Token-Efficient Long Video Understanding for Multimod](https://arxiv.org/abs/2503.04130) | Recent advances in video-based multimodal large language mod | Jindong Jiang, Xiuyu Li+ | 4.7 | core | semantic_scholar |
+| 🔥 | [StreamForest: Efficient Online Video Understanding with Pers](https://arxiv.org/abs/2509.24871) | Multimodal Large Language Models (MLLMs) have recently achie | Xiangyun Zeng, Kefan Qiu+ | 4.7 | core | semantic_scholar |
 | 🔥 | [Towards Video Thinking Test: A Holistic Benchmark for Advanc](http://arxiv.org/abs/2507.15028v1) | Human intelligence requires correctness and robustness, with | Yuanhan Zhang, Yunice Chew+ | 4.6 | core | arxiv |
 | 🔥 | [A histogram transformer approach using attention-based 3D re](https://www.semanticscholar.org/paper/4f640015dbdf76b15e438c82d275996614d88789) | This paper proposes a lightweight video action recognition f | Maojin Sun, Luyi Sun | 4.6 | core | semantic_scholar |
 | 🔥 | [Radial Attention: $O(n\\log n)$ Sparse Attention with Energy ](http://arxiv.org/abs/2506.19852v2) | Recent advances in diffusion models have enabled high-qualit | Xingyang Li, Muyang Li+ | 4.5 | expanded | arxiv |
@@ -504,7 +507,6 @@
 | 🔥 | [EFNet: estimation of left ventricular ejection fraction from](https://www.semanticscholar.org/paper/f0be5de4d966ee634c9c10407c60adde395c11d3) | The ejection fraction (EF) is a vital metric for assessing c | Waqas Ali, Wesam H. Alsabban+ | 4.3 | core | semantic_scholar |
 | 🔥 | [IDG-ViolenceNet: A Video Violence Detection Model Integratin](https://www.semanticscholar.org/paper/2ca23e2ac47a9906c614fc82d66232291d124ff3) | Highlights What are the main findings? The proposed method e | Hong Huang, Qingping Jiang | 4.3 | core | semantic_scholar |
 | 🔥 | [Seeing in the Dark: A Teacher-Student Framework for Dark Vid](https://arxiv.org/abs/2502.03724) | Action recognition in dark or low-light (under-exposed) vide | Sharana Dharshikgan Suresh Dass, H. Barua+ | 4.3 | core | semantic_scholar |
-| 🔥 | [StreamForest: Efficient Online Video Understanding with Pers](https://arxiv.org/abs/2509.24871) | Multimodal Large Language Models (MLLMs) have recently achie | Xiangyun Zeng, Kefan Qiu+ | 4.2 | core | semantic_scholar |
 | 🔥 | [S^2VG: 3D Stereoscopic and Spatial Video Generation via Deno](http://arxiv.org/abs/2508.08048v2) | While video generation models excel at producing high-qualit | Peng Dai, Feitong Tan+ | 4.1 | core | arxiv |
 | 🔥 | [CoS: Chain-of-Shot Prompting for Long Video Understanding](http://arxiv.org/abs/2502.06428v2) | Multi-modal Large Language Models (MLLMs) struggle with long | Jian Hu, Zixu Cheng+ | 4.1 | core | arxiv |
 | 🔥 | [Unified Video Action Model](http://arxiv.org/abs/2503.00200v3) | A unified video and action model holds significant promise f | Shuang Li, Yihuai Gao+ | 4.1 | core | arxiv |
@@ -770,6 +772,7 @@
 | 🔥 | [Two-stream fusion model using 3D-CNN and 2D-CNN via video-fr](https://www.semanticscholar.org/paper/9cd751daa50a96b389e9a697c8c65bc61a0cc25f) | Hand gestures are useful tools for many applications in the  | Debajit Sarma, V. Kavyasree+ | 4.3 | core | semantic_scholar |
 | 🔥 | [Sign Language Recognition Based on R(2+1)D With Spatial–Temp](https://www.semanticscholar.org/paper/d6075672a619913dc1ef9ae808dd4cb0c1acd71a) | Previous work utilized three-dimensional (3-D) convolutional | Xiangzu Han, Fei Lu+ | 4.3 | core | semantic_scholar |
 | 🔥 | [Video Visual Relation Detection via 3D Convolutional Neural ](https://www.semanticscholar.org/paper/da895422ce7bc018062b151bf3bf829ed0b03a61) | Video visual relation detection, which aims to detect the vi | Mingcheng Qu, Jianxun Cui+ | 4.3 | core | semantic_scholar |
+| 🔥 | [An Effective Video Transformer With Synchronized Spatiotempo](https://www.semanticscholar.org/paper/2ba86f6ac3a9bd6dbd1cddc79634712efb2637ef) | Convolutional neural networks (CNNs) have come to dominate v | S. Alfasly, C. Chui+ | 4.3 | core | semantic_scholar |
 | 🔥 | [Spatiotemporal Estimation of TROPOMI NO2 Column with Depthwi](http://arxiv.org/abs/2204.05917v1) | Satellite-derived measurements are negatively impacted by cl | Yannic Lops, Masoud Ghahremanloo+ | 4.2 | core | arxiv |
 | 🔥 | [Representation-Centric Survey of Supervised Skeletal Action ](http://arxiv.org/abs/2205.02071v7) | 3D skeletal action recognition has emerged as a powerful alt | Yang Liu, Jiyao Yang+ | 4.2 | expanded | arxiv |
 | 🔥 | [View-Adaptive Graph Neural Network for Action Recognition](https://www.semanticscholar.org/paper/9874ace36bf702d731844b27f5db0fb87a9ad7c2) | Skeleton-based recognition of human actions has received att | A. Shahid, Mehmood Nawaz+ | 4.2 | core | semantic_scholar |
@@ -789,7 +792,6 @@
 | 📎 | [Hand action recognition in rehabilitation exercise method us](https://www.semanticscholar.org/paper/74f9908943c23752c48e4b0812af6243f1d5b0e5) | Hand action recognition in rehabilitation exercises is to au | Nguyen Sinh Huy, Le Thi Thu Hong+ | 3.4 | core | semantic_scholar |
 | 📎 | [Abnormal behavior capture of video dynamic target based on 3](https://www.semanticscholar.org/paper/d1738ef8856d5f58dd3a5b5571bb645c0a21bbd4) | The use of computers to understand video content can accurat | Fei Chen | 3.4 | core | semantic_scholar |
 | 📎 | [Generalizable Permeability Prediction of Digital Porous Medi](https://www.semanticscholar.org/paper/2b61676c480b89afc2fd0e69fd0c8f3d244bb0d1) | Subsurface characterization is critical in understanding and | Mohamed Elmorsy, W. El-Dakhakhni+ | 3.4 | core | semantic_scholar |
-| 📎 | [An Effective Video Transformer With Synchronized Spatiotempo](https://www.semanticscholar.org/paper/2ba86f6ac3a9bd6dbd1cddc79634712efb2637ef) | Convolutional neural networks (CNNs) have come to dominate v | S. Alfasly, C. Chui+ | 3.3 | expanded | semantic_scholar |
 | 📎 | [Exploiting Feature Diversity for Make-up Temporal Video Grou](http://arxiv.org/abs/2208.06179v1) | This technical report presents the 3rd winning solution for  | Xiujun Shu, Wei Wen+ | 3.2 | exploratory | arxiv |
 | 📎 | [Synthesizing Light Field Video from Monocular Video](http://arxiv.org/abs/2207.10357v1) | The hardware challenges associated with light-field(LF) imag | Shrisudhan Govindarajan, Prasan Shedligeri+ | 3.1 | core | arxiv |
 | 📎 | [Recent Trends in 2D Object Detection and Applications in Vid](http://arxiv.org/abs/2202.03206v1) | Object detection serves as a significant step in improving p | Prithwish Jana, Partha Pratim Mohanta | 3.1 | expanded | arxiv |
