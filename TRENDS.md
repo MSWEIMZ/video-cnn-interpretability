@@ -1,6 +1,6 @@
 # 📈 论文趋势报告
 
-> 生成时间: 2026-08-30 06:28:19 | 共 961 篇论文
+> 生成时间: 2026-08-31 06:54:18 | 共 972 篇论文
 
 ---
 
@@ -8,7 +8,7 @@
 
 | 季度 | 数量 |
 |------|------|
-| 2026 Q3 | 433 |
+| 2026 Q3 | 444 |
 | 2026 Q2 | 6 |
 | 2026 Q1 | 26 |
 | 2025 Q4 | 6 |
@@ -60,11 +60,11 @@
 
 | 主题 | 数量 |
 |------|------|
-| temporal_explanation | 821 |
+| temporal_explanation | 829 |
 | action_recognition_interpretability | 260 |
-| video_transformer | 250 |
+| video_transformer | 255 |
 | network_dissection | 226 |
-| attention_attribution | 135 |
+| attention_attribution | 138 |
 | 3d_cnn_explanation | 121 |
 | video_saliency | 97 |
 | robustness_adversarial | 81 |
@@ -75,13 +75,13 @@
 
 | 方法类型 | 数量 |
 |------|------|
-| benchmark | 670 |
-| attention-based | 324 |
-| generative | 314 |
-| visualization | 139 |
+| benchmark | 678 |
+| attention-based | 330 |
+| generative | 321 |
+| visualization | 141 |
 | perturbation-based | 134 |
 | other | 82 |
-| concept-based | 64 |
+| concept-based | 65 |
 | gradient-based | 62 |
 | decomposition | 37 |
 | probing | 24 |
@@ -92,6 +92,6 @@
 
 | 来源 | 数量 |
 |------|------|
-| arxiv | 640 |
+| arxiv | 651 |
 | semantic_scholar | 316 |
 | manual | 5 |

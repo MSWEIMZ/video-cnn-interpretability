@@ -1,20 +1,20 @@
 # 📂 主题视图
 
-> 共 8 个主题 | 最后更新: 2026-08-30 06:28
+> 共 8 个主题 | 最后更新: 2026-08-31 06:54
 
 ## 📊 主题概览
 
 | 主题 | 论文数 | 核心论文 | 说明 |
 |------|--------|----------|------|
-| 时序解释 | 821 | 376 | 聚焦于视频时序维度的可解释性研究 |
+| 时序解释 | 829 | 381 | 聚焦于视频时序维度的可解释性研究 |
 | 动作识别可解释性 | 260 | 129 | 视频动作识别 / 分类任务的可解释性研究 |
-| 视频 Transformer 可解释性 | 250 | 106 | Vision Transformer / Video Transformer 的可解释性 |
+| 视频 Transformer 可解释性 | 255 | 111 | Vision Transformer / Video Transformer 的可解释性 |
 | 网络解剖 | 226 | 96 | 网络内部单元 / 特征可视化与解剖 |
-| 注意力与归因 | 135 | 55 | 注意力机制分析与梯度归因方法 |
+| 注意力与归因 | 138 | 58 | 注意力机制分析与梯度归因方法 |
 | 3D CNN 解释 | 121 | 62 | 3D 卷积网络 / R(2+1)D 等时空卷积模型的可解释性 |
 | 视频显著性 | 97 | 38 | 视频/空间显著性检测与可视化 |
 | 鲁棒性与对抗 | 81 | 29 | 视频模型的鲁棒性与对抗攻击/防御 |
-| 未分类 | 45 | - | - |
+| 未分类 | 46 | - | - |
 
 ---
 
@@ -40,7 +40,7 @@
 | 🔥 | [TAM: Temporal Adaptive Module for Video Recognition](http://arxiv.org/abs/2005.06803v3) | 2020 | 5.7 |
 | 🔥 | [C3D: Generic Features for Video Analysis](https://arxiv.org/abs/1412.4314) | 2015 | 5.7 |
 
-*... 共 821 篇，仅显示前 15 篇*
+*... 共 829 篇，仅显示前 15 篇*
 
 ---
 
@@ -86,13 +86,13 @@
 | 🔥 | [Video-FocalNets: Spatio-Temporal Focal Modulation for Video ](http://arxiv.org/abs/2307.06947v4) | 2023 | 5.5 |
 | 🔥 | [Large-scale Robustness Analysis of Video Action Recognition ](http://arxiv.org/abs/2207.01398v2) | 2022 | 5.5 |
 | 🔥 | [VRT: A Video Restoration Transformer](http://arxiv.org/abs/2201.12288v2) | 2022 | 5.5 |
+| 🔥 | [Post-Training VLMs for Video Mistake Detection](http://arxiv.org/abs/2608.28406v1) | 2026 | 5.4 |
 | 🔥 | [Fine tuning 3D Convolutional Networks for enhanced Action Re](https://www.semanticscholar.org/paper/5117082498715afed2125ea29c0db60380ff027c) | 2025 | 5.4 |
 | 🔥 | [A Hybrid 3D CNNs Transformer Architecture for Video-Based Hu](https://www.semanticscholar.org/paper/e6b804076db44eb636ebe9d8ec47bcd3aa31a067) | 2025 | 5.4 |
 | 🔥 | [Spatiotemporal distilled dense-connectivity network for vide](https://www.semanticscholar.org/paper/04d27bbbc875bd8fe52521112841d47b21950e7c) | 2019 | 5.3 |
 | 🔥 | [EgoPlay: Event-Triggered Video Editing for Egocentric Stream](http://arxiv.org/abs/2607.24560v1) | 2026 | 5.2 |
-| 🔥 | [HOPE: Hand-Object Pressure Estimation from Monocular Videos](http://arxiv.org/abs/2608.06192v1) | 2026 | 5.2 |
 
-*... 共 250 篇，仅显示前 15 篇*
+*... 共 255 篇，仅显示前 15 篇*
 
 ---
 
@@ -144,7 +144,7 @@
 | 🔥 | [Kinematic Knowledge Maps for Pattern Alignment: Structured L](http://arxiv.org/abs/2608.20969v1) | 2026 | 4.8 |
 | 🔥 | [RepAttn3D: Re-parameterizing 3D attention with spatiotempora](https://www.semanticscholar.org/paper/10363be6ea7467ba7979e10a46379c461ee93c2b) | 2025 | 4.8 |
 
-*... 共 135 篇，仅显示前 15 篇*
+*... 共 138 篇，仅显示前 15 篇*
 
 ---
 
