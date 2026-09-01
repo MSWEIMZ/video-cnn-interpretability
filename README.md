@@ -4,12 +4,12 @@
 <p align="center"><em>Automated paper curation for video deep learning & explainability research</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-972-blue" alt="papers" />
-  <img src="https://img.shields.io/badge/core-428-green" alt="core" />
-  <img src="https://img.shields.io/badge/strongly_related-544-yellow" alt="strongly_related" />
-  <img src="https://img.shields.io/badge/arXiv-651-critical" alt="arXiv" />
+  <img src="https://img.shields.io/badge/papers-992-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/core-437-green" alt="core" />
+  <img src="https://img.shields.io/badge/strongly_related-555-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/arXiv-671-critical" alt="arXiv" />
   <img src="https://img.shields.io/badge/Semantic_Scholar-316-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-08-31-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/last_update-2026-09-01-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -23,15 +23,15 @@
 
 | Metric | Count |
 |--------|-------|
-| 📚 Total Papers | **972** |
-| 🔥 Core Papers | **428** |
-| 📎 Strongly Related | **544** |
-| 🆕 New This Month | **270** |
-| 📡 arXiv | 651 |
+| 📚 Total Papers | **992** |
+| 🔥 Core Papers | **437** |
+| 📎 Strongly Related | **555** |
+| 🆕 New This Month | **0** |
+| 📡 arXiv | 671 |
 | 🔬 Semantic Scholar | 316 |
 | 🔗 CrossRef Enriched | 11 |
 | ✍️ Manual | 5 |
-| ⏰ Last Updated | 2026-08-31 06:54:18 |
+| ⏰ Last Updated | 2026-09-01 06:12:15 |
 
 ## 🏆 Top 5 Most Influential
 
@@ -79,10 +79,10 @@
 | 2026 | [Visual Representation Matters: Exploiting Temporal Differenc](http://arxiv.org/abs/2608.04902v1) | Video-to-audio (V2A) generation extends image-to-audio generation (I2A) by intro | Zehua Chen, Junyou Wang+ | 5.4 |
 | 2026 | [LAION-BVD: A 10-Million-Hour Open Video Dataset for Multimod](http://arxiv.org/abs/2608.24845v1) | We present LAION-BVD, a large-scale open video dataset for multimodal learning,  | Andreas Hochlehnert, Marianna Nezhurina+ | 5.4 |
 | 2026 | [Post-Training VLMs for Video Mistake Detection](http://arxiv.org/abs/2608.28406v1) | Human mistakes are inevitable when following instructions, yet they can lead to  | Federico Spurio, Olga Zatsarynna+ | 5.4 |
+| 2026 | [TSPFN: A Temporal Tabular Foundation Model for Physiological](http://arxiv.org/abs/2608.31013v1) | Designing models that generalize effectively in low- to medium-data regimes rema | Jérémie Stym-Popper, Clément Rambour+ | 5.4 |
+| 2026 | [MR-JEPA: A General Purpose Video Foundation Model for Cardia](http://arxiv.org/abs/2608.30975v1) | Cardiac magnetic resonance imaging (CMR) produces rich sequential data such as t | Athira J. Jacob, Puneet Sharma+ | 5.3 |
 | 2026 | [Video Understanding: From Geometry and Semantics to Unified ](http://arxiv.org/abs/2603.17840v1) | Video understanding aims to enable models to perceive, reason about, and interac | Zhaochong An, Zirui Li+ | 5.2 |
 | 2026 | [Audio-Visual Flamingo: Open Audio-Visual Intelligence for Lo](http://arxiv.org/abs/2607.16107v1) | We present Audio-Visual Flamingo (AV-Flamingo), a fully open state-of-the-art au | Sreyan Ghosh, Arushi Goel+ | 5.2 |
-| 2026 | [Sparse Evidence Can Suffice: Agentic Evidence Seeking for Mu](http://arxiv.org/abs/2607.18080v1) | Multimodal video misinformation detection is commonly formulated as a holistic v | Haochen Zhao, Yongxiu Xu+ | 5.2 |
-| 2026 | [HAS: Highlight-guided Attention Steering for Multimodal LLM ](http://arxiv.org/abs/2607.17994v1) | Video understanding has become more and more important with the growth of Artifi | Rui Chu, Yingjie Lao | 5.2 |
 
 ## 📎 Strongly Related Papers
 
@@ -102,7 +102,7 @@
 ---
 
 <details>
-<summary>📅 2026 (476 papers)</summary>
+<summary>📅 2026 (496 papers)</summary>
 
 | Tag | Title | Summary | Author | Score |
 |------|------|------|------|------|
@@ -119,7 +119,7 @@
 | 🔥 | [Towards Expert-level Medical AI for Real-time Vide](http://arxiv.org/abs/2608.09861v1) | Audio-visual interaction is the standard for patient-physician consult | Mahvish Nagda, Jihyeon Lee+ | 5.5 |
 | 🔥 | [X-LMC: Cross-View Spatiotemporal Collateral Circul](http://arxiv.org/abs/2608.18986v1) | Digital subtraction angiography (DSA) is the reference standard for le | Maedeh Hafezi Moghadas, Hakim Baazaoui+ | 5.5 |
 
-*Showing 12 of 476 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
+*Showing 12 of 496 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
 
 </details>
 
