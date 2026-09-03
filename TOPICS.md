@@ -1,20 +1,20 @@
 # 📂 主题视图
 
-> 共 8 个主题 | 最后更新: 2026-09-02 05:38
+> 共 8 个主题 | 最后更新: 2026-09-03 05:38
 
 ## 📊 主题概览
 
 | 主题 | 论文数 | 核心论文 | 说明 |
 |------|--------|----------|------|
-| 时序解释 | 850 | 393 | 聚焦于视频时序维度的可解释性研究 |
-| 视频 Transformer 可解释性 | 262 | 114 | Vision Transformer / Video Transformer 的可解释性 |
-| 动作识别可解释性 | 261 | 129 | 视频动作识别 / 分类任务的可解释性研究 |
-| 网络解剖 | 231 | 100 | 网络内部单元 / 特征可视化与解剖 |
-| 注意力与归因 | 142 | 59 | 注意力机制分析与梯度归因方法 |
+| 时序解释 | 860 | 398 | 聚焦于视频时序维度的可解释性研究 |
+| 视频 Transformer 可解释性 | 264 | 115 | Vision Transformer / Video Transformer 的可解释性 |
+| 动作识别可解释性 | 262 | 130 | 视频动作识别 / 分类任务的可解释性研究 |
+| 网络解剖 | 236 | 102 | 网络内部单元 / 特征可视化与解剖 |
+| 注意力与归因 | 143 | 59 | 注意力机制分析与梯度归因方法 |
 | 3D CNN 解释 | 121 | 62 | 3D 卷积网络 / R(2+1)D 等时空卷积模型的可解释性 |
-| 视频显著性 | 97 | 38 | 视频/空间显著性检测与可视化 |
-| 鲁棒性与对抗 | 84 | 29 | 视频模型的鲁棒性与对抗攻击/防御 |
-| 未分类 | 52 | - | - |
+| 视频显著性 | 98 | 39 | 视频/空间显著性检测与可视化 |
+| 鲁棒性与对抗 | 86 | 30 | 视频模型的鲁棒性与对抗攻击/防御 |
+| 未分类 | 53 | - | - |
 
 ---
 
@@ -40,7 +40,7 @@
 | 🔥 | [TAM: Temporal Adaptive Module for Video Recognition](http://arxiv.org/abs/2005.06803v3) | 2020 | 5.7 |
 | 🔥 | [C3D: Generic Features for Video Analysis](https://arxiv.org/abs/1412.4314) | 2015 | 5.7 |
 
-*... 共 850 篇，仅显示前 15 篇*
+*... 共 860 篇，仅显示前 15 篇*
 
 ---
 
@@ -66,7 +66,7 @@
 | 🔥 | [Spatiotemporal distilled dense-connectivity network for vide](https://www.semanticscholar.org/paper/04d27bbbc875bd8fe52521112841d47b21950e7c) | 2019 | 5.3 |
 | 🔥 | [EgoPlay: Event-Triggered Video Editing for Egocentric Stream](http://arxiv.org/abs/2607.24560v1) | 2026 | 5.2 |
 
-*... 共 262 篇，仅显示前 15 篇*
+*... 共 264 篇，仅显示前 15 篇*
 
 ---
 
@@ -92,7 +92,7 @@
 | 🔥 | [Fine tuning 3D Convolutional Networks for enhanced Action Re](https://www.semanticscholar.org/paper/5117082498715afed2125ea29c0db60380ff027c) | 2025 | 5.4 |
 | 🔥 | [A Hybrid 3D CNNs Transformer Architecture for Video-Based Hu](https://www.semanticscholar.org/paper/e6b804076db44eb636ebe9d8ec47bcd3aa31a067) | 2025 | 5.4 |
 
-*... 共 261 篇，仅显示前 15 篇*
+*... 共 262 篇，仅显示前 15 篇*
 
 ---
 
@@ -110,15 +110,15 @@
 | 🔥 | [Temporal-attentive Covariance Pooling Networks for Video Rec](http://arxiv.org/abs/2110.14381v3) | 2021 | 5.7 |
 | 🔥 | [X-LMC: Cross-View Spatiotemporal Collateral Circulation Scor](http://arxiv.org/abs/2608.18986v1) | 2026 | 5.5 |
 | 🔥 | [LeVJEPA: Efficient & Scalable Video Pretraining without the ](http://arxiv.org/abs/2608.27395v1) | 2026 | 5.5 |
+| 🔥 | [MARS: What Retrieval Signals Are Hidden in Multimodal Large ](http://arxiv.org/abs/2609.02565v1) | 2026 | 5.5 |
 | 🔥 | [Video-FocalNets: Spatio-Temporal Focal Modulation for Video ](http://arxiv.org/abs/2307.06947v4) | 2023 | 5.5 |
 | 🔥 | [Visual Representation Matters: Exploiting Temporal Differenc](http://arxiv.org/abs/2608.04902v1) | 2026 | 5.4 |
 | 🔥 | [TSPFN: A Temporal Tabular Foundation Model for Physiological](http://arxiv.org/abs/2608.31013v1) | 2026 | 5.4 |
 | 🔥 | [Spatiotemporal distilled dense-connectivity network for vide](https://www.semanticscholar.org/paper/04d27bbbc875bd8fe52521112841d47b21950e7c) | 2019 | 5.3 |
 | 🔥 | [Revisiting Video Saliency: A Large-scale Benchmark and a New](http://arxiv.org/abs/1801.07424v3) | 2018 | 5.3 |
 | 🔥 | [Robust and Efficient Motion Reasoning for Privacy-Aware Clas](http://arxiv.org/abs/2608.05115v1) | 2026 | 5.2 |
-| 🔥 | [COMET: Contrastive Motion-Enhanced Temporal Reasoning for Vi](http://arxiv.org/abs/2608.21030v1) | 2026 | 5.2 |
 
-*... 共 231 篇，仅显示前 15 篇*
+*... 共 236 篇，仅显示前 15 篇*
 
 ---
 
@@ -144,7 +144,7 @@
 | 🔥 | [Analytic Dynamics: Learning Physics-Grounded Representation ](http://arxiv.org/abs/2608.31025v1) | 2026 | 4.9 |
 | 🔥 | [Kinematic Knowledge Maps for Pattern Alignment: Structured L](http://arxiv.org/abs/2608.20969v1) | 2026 | 4.8 |
 
-*... 共 142 篇，仅显示前 15 篇*
+*... 共 143 篇，仅显示前 15 篇*
 
 ---
 
@@ -184,6 +184,7 @@
 | 🔥 | [Hierarchical Spatiotemporal Feature Fusion Network For Video](https://www.semanticscholar.org/paper/dace1a1869929071f20269cb375ebd5c25b74b7c) | 2023 | 5.7 |
 | 🔥 | [Unified Image and Video Saliency Modeling](http://arxiv.org/abs/2003.05477v3) | 2020 | 5.7 |
 | 🔥 | [Is Space-Time Attention All You Need for Video Understanding](https://arxiv.org/abs/2102.05095) | 2021 | 5.6 |
+| 🔥 | [Video-Based Palm-Vein Authentication under Challenging Condi](http://arxiv.org/abs/2609.02776v1) | 2026 | 5.5 |
 | 🔥 | [Revisiting Video Saliency: A Large-scale Benchmark and a New](http://arxiv.org/abs/1801.07424v3) | 2018 | 5.3 |
 | 🔥 | [EchoCache: Energy-Guided Cross-Modal Caching for Efficient A](http://arxiv.org/abs/2608.02474v1) | 2026 | 5.2 |
 | 🔥 | [Audio-visual Saliency for Omnidirectional Videos](http://arxiv.org/abs/2311.05190v1) | 2023 | 5.2 |
@@ -194,9 +195,8 @@
 | 🔥 | [No-Reference Video Quality Assessment Using Multi-Pooled, Sa](https://www.semanticscholar.org/paper/0d15b4ca86a7b7a8f26c4957a8f7b86b4e5fc3e6) | 2022 | 4.8 |
 | 🔥 | [Graph-Theoretic Spatiotemporal Context Modeling for Video Sa](http://arxiv.org/abs/1707.07815v1) | 2017 | 4.8 |
 | 🔥 | [InstructMixup: Instruction-Guided Salient Patch Editing for ](http://arxiv.org/abs/2607.19324v1) | 2026 | 4.7 |
-| 🔥 | [Token Merging via Spatiotemporal Information Mining for Surg](http://arxiv.org/abs/2509.23672v1) | 2025 | 4.7 |
 
-*... 共 97 篇，仅显示前 15 篇*
+*... 共 98 篇，仅显示前 15 篇*
 
 ---
 
@@ -206,6 +206,7 @@
 
 | 标签 | 标题 | 年份 | 分数 |
 |------|------|------|------|
+| 🔥 | [Video-Based Palm-Vein Authentication under Challenging Condi](http://arxiv.org/abs/2609.02776v1) | 2026 | 5.5 |
 | 🔥 | [Large-scale Robustness Analysis of Video Action Recognition ](http://arxiv.org/abs/2207.01398v2) | 2022 | 5.5 |
 | 🔥 | [Audio-Visual Flamingo: Open Audio-Visual Intelligence for Lo](http://arxiv.org/abs/2607.16107v1) | 2026 | 5.2 |
 | 🔥 | [EgoPlay: Event-Triggered Video Editing for Egocentric Stream](http://arxiv.org/abs/2607.24560v1) | 2026 | 5.2 |
@@ -220,6 +221,5 @@
 | 🔥 | [StreamForest: Efficient Online Video Understanding with Pers](https://arxiv.org/abs/2509.24871) | 2025 | 4.7 |
 | 🔥 | [VideoMamba: State Space Model for Efficient Video Understand](https://arxiv.org/abs/2403.06977) | 2024 | 4.7 |
 | 🔥 | [Towards Video Thinking Test: A Holistic Benchmark for Advanc](http://arxiv.org/abs/2507.15028v1) | 2025 | 4.6 |
-| 🔥 | [Dynamic Attention Mechanism in Spatiotemporal Memory Network](http://arxiv.org/abs/2503.16768v1) | 2025 | 4.5 |
 
-*... 共 84 篇，仅显示前 15 篇*
+*... 共 86 篇，仅显示前 15 篇*
