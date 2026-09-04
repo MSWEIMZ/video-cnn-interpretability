@@ -4,12 +4,12 @@
 <p align="center"><em>视频深度学习与可解释性论文自动搜集系统</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-1015-blue" alt="papers" />
-  <img src="https://img.shields.io/badge/core-448-green" alt="core" />
-  <img src="https://img.shields.io/badge/strongly_related-567-yellow" alt="strongly_related" />
-  <img src="https://img.shields.io/badge/arXiv-694-critical" alt="arXiv" />
+  <img src="https://img.shields.io/badge/papers-1030-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/core-457-green" alt="core" />
+  <img src="https://img.shields.io/badge/strongly_related-573-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/arXiv-709-critical" alt="arXiv" />
   <img src="https://img.shields.io/badge/Semantic_Scholar-316-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-09-03-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/last_update-2026-09-04-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -23,15 +23,15 @@
 
 | 指标 | 数量 |
 |------|------|
-| 📚 论文总数 | **1015** |
-| 🔥 核心论文 | **448** |
-| 📎 高相关论文 | **567** |
-| 🆕 本月新增 | **23** |
-| 📡 arXiv | 694 |
+| 📚 论文总数 | **1030** |
+| 🔥 核心论文 | **457** |
+| 📎 高相关论文 | **573** |
+| 🆕 本月新增 | **38** |
+| 📡 arXiv | 709 |
 | 🔬 Semantic Scholar | 316 |
 | 🔗 CrossRef 增强 | 11 |
 | ✍️ 手工整理 | 5 |
-| ⏰ 最后更新 | 2026-09-03 05:38:13 |
+| ⏰ 最后更新 | 2026-09-04 05:43:46 |
 
 ## 🏆 高影响力论文 Top 5
 
@@ -102,7 +102,7 @@
 ---
 
 <details>
-<summary>📅 2026 年 (519 篇)</summary>
+<summary>📅 2026 年 (534 篇)</summary>
 
 | 标签 | 标题 | 摘要 | 作者 | 分数 |
 |------|------|------|------|------|
@@ -119,7 +119,7 @@
 | 🔥 | [Towards Expert-level Medical AI for Real-time Vide](http://arxiv.org/abs/2608.09861v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于分析模型依据及关键空间或时间区域。 | Mahvish Nagda, Jihyeon Lee+ | 5.5 |
 | 🔥 | [X-LMC: Cross-View Spatiotemporal Collateral Circul](http://arxiv.org/abs/2608.18986v1) | 本文聚焦视频理解与时序推理，采用时空注意力或 Transformer，主要用于研究模型表示、推理能力及应用效果。 | Maedeh Hafezi Moghadas, Hakim Baazaoui+ | 5.5 |
 
-*仅展示前 12 篇，完整 519 篇请查看 [ALL_PAPERS_zh.md](ALL_PAPERS_zh.md)。*
+*仅展示前 12 篇，完整 534 篇请查看 [ALL_PAPERS_zh.md](ALL_PAPERS_zh.md)。*
 
 </details>
 
