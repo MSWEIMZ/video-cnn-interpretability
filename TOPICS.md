@@ -1,20 +1,20 @@
 # 📂 主题视图
 
-> 共 8 个主题 | 最后更新: 2026-09-08 05:49
+> 共 8 个主题 | 最后更新: 2026-09-09 05:54
 
 ## 📊 主题概览
 
 | 主题 | 论文数 | 核心论文 | 说明 |
 |------|--------|----------|------|
-| 时序解释 | 881 | 411 | 聚焦于视频时序维度的可解释性研究 |
-| 视频 Transformer 可解释性 | 269 | 117 | Vision Transformer / Video Transformer 的可解释性 |
+| 时序解释 | 893 | 417 | 聚焦于视频时序维度的可解释性研究 |
+| 视频 Transformer 可解释性 | 270 | 118 | Vision Transformer / Video Transformer 的可解释性 |
 | 动作识别可解释性 | 264 | 132 | 视频动作识别 / 分类任务的可解释性研究 |
-| 网络解剖 | 243 | 106 | 网络内部单元 / 特征可视化与解剖 |
-| 注意力与归因 | 145 | 60 | 注意力机制分析与梯度归因方法 |
+| 网络解剖 | 249 | 109 | 网络内部单元 / 特征可视化与解剖 |
+| 注意力与归因 | 146 | 60 | 注意力机制分析与梯度归因方法 |
 | 3D CNN 解释 | 122 | 62 | 3D 卷积网络 / R(2+1)D 等时空卷积模型的可解释性 |
 | 视频显著性 | 100 | 40 | 视频/空间显著性检测与可视化 |
-| 鲁棒性与对抗 | 88 | 31 | 视频模型的鲁棒性与对抗攻击/防御 |
-| 未分类 | 53 | - | - |
+| 鲁棒性与对抗 | 91 | 32 | 视频模型的鲁棒性与对抗攻击/防御 |
+| 未分类 | 54 | - | - |
 
 ---
 
@@ -40,7 +40,7 @@
 | 🔥 | [TAM: Temporal Adaptive Module for Video Recognition](http://arxiv.org/abs/2005.06803v3) | 2020 | 5.7 |
 | 🔥 | [C3D: Generic Features for Video Analysis](https://arxiv.org/abs/1412.4314) | 2015 | 5.7 |
 
-*... 共 881 篇，仅显示前 15 篇*
+*... 共 893 篇，仅显示前 15 篇*
 
 ---
 
@@ -66,7 +66,7 @@
 | 🔥 | [Spatiotemporal distilled dense-connectivity network for vide](https://www.semanticscholar.org/paper/04d27bbbc875bd8fe52521112841d47b21950e7c) | 2019 | 5.3 |
 | 🔥 | [EgoPlay: Event-Triggered Video Editing for Egocentric Stream](http://arxiv.org/abs/2607.24560v1) | 2026 | 5.2 |
 
-*... 共 269 篇，仅显示前 15 篇*
+*... 共 270 篇，仅显示前 15 篇*
 
 ---
 
@@ -118,7 +118,7 @@
 | 🔥 | [Revisiting Video Saliency: A Large-scale Benchmark and a New](http://arxiv.org/abs/1801.07424v3) | 2018 | 5.3 |
 | 🔥 | [Robust and Efficient Motion Reasoning for Privacy-Aware Clas](http://arxiv.org/abs/2608.05115v1) | 2026 | 5.2 |
 
-*... 共 243 篇，仅显示前 15 篇*
+*... 共 249 篇，仅显示前 15 篇*
 
 ---
 
@@ -144,7 +144,7 @@
 | 🔥 | [Analytic Dynamics: Learning Physics-Grounded Representation ](http://arxiv.org/abs/2608.31025v1) | 2026 | 4.9 |
 | 🔥 | [The Shape of Time: Video-Token Contrast for Temporal Underst](http://arxiv.org/abs/2609.04110v1) | 2026 | 4.9 |
 
-*... 共 145 篇，仅显示前 15 篇*
+*... 共 146 篇，仅显示前 15 篇*
 
 ---
 
@@ -222,4 +222,4 @@
 | 🔥 | [VideoMamba: State Space Model for Efficient Video Understand](https://arxiv.org/abs/2403.06977) | 2024 | 4.7 |
 | 🔥 | [Towards Video Thinking Test: A Holistic Benchmark for Advanc](http://arxiv.org/abs/2507.15028v1) | 2025 | 4.6 |
 
-*... 共 88 篇，仅显示前 15 篇*
+*... 共 91 篇，仅显示前 15 篇*
