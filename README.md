@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/strongly_related-598-yellow" alt="strongly_related" />
   <img src="https://img.shields.io/badge/arXiv-756-critical" alt="arXiv" />
   <img src="https://img.shields.io/badge/Semantic_Scholar-316-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-09-11-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/last_update-2026-09-12-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -31,7 +31,7 @@
 | 🔬 Semantic Scholar | 316 |
 | 🔗 CrossRef Enriched | 12 |
 | ✍️ Manual | 5 |
-| ⏰ Last Updated | 2026-09-11 05:47:47 |
+| ⏰ Last Updated | 2026-09-12 05:35:16 |
 
 ## 🏆 Top 5 Most Influential
 
