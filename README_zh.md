@@ -4,12 +4,12 @@
 <p align="center"><em>视频深度学习与可解释性论文自动搜集系统</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-1088-blue" alt="papers" />
-  <img src="https://img.shields.io/badge/core-484-green" alt="core" />
-  <img src="https://img.shields.io/badge/strongly_related-604-yellow" alt="strongly_related" />
-  <img src="https://img.shields.io/badge/arXiv-767-critical" alt="arXiv" />
+  <img src="https://img.shields.io/badge/papers-1103-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/core-489-green" alt="core" />
+  <img src="https://img.shields.io/badge/strongly_related-614-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/arXiv-782-critical" alt="arXiv" />
   <img src="https://img.shields.io/badge/Semantic_Scholar-316-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-09-16-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/last_update-2026-09-17-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -23,15 +23,15 @@
 
 | 指标 | 数量 |
 |------|------|
-| 📚 论文总数 | **1088** |
-| 🔥 核心论文 | **484** |
-| 📎 高相关论文 | **604** |
-| 🆕 本月新增 | **96** |
-| 📡 arXiv | 767 |
+| 📚 论文总数 | **1103** |
+| 🔥 核心论文 | **489** |
+| 📎 高相关论文 | **614** |
+| 🆕 本月新增 | **111** |
+| 📡 arXiv | 782 |
 | 🔬 Semantic Scholar | 316 |
-| 🔗 CrossRef 增强 | 14 |
+| 🔗 CrossRef 增强 | 16 |
 | ✍️ 手工整理 | 5 |
-| ⏰ 最后更新 | 2026-09-16 05:52:35 |
+| ⏰ 最后更新 | 2026-09-17 06:01:00 |
 
 ## 🏆 高影响力论文 Top 5
 
@@ -102,7 +102,7 @@
 ---
 
 <details>
-<summary>📅 2026 年 (592 篇)</summary>
+<summary>📅 2026 年 (607 篇)</summary>
 
 | 标签 | 标题 | 摘要 | 作者 | 分数 |
 |------|------|------|------|------|
@@ -119,7 +119,7 @@
 | 🔥 | [Towards Expert-level Medical AI for Real-time Vide](http://arxiv.org/abs/2608.09861v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于分析模型依据及关键空间或时间区域。 | Mahvish Nagda, Jihyeon Lee+ | 5.5 |
 | 🔥 | [X-LMC: Cross-View Spatiotemporal Collateral Circul](http://arxiv.org/abs/2608.18986v1) | 本文聚焦视频理解与时序推理，采用时空注意力或 Transformer，主要用于研究模型表示、推理能力及应用效果。 | Maedeh Hafezi Moghadas, Hakim Baazaoui+ | 5.5 |
 
-*仅展示前 12 篇，完整 592 篇请查看 [ALL_PAPERS_zh.md](ALL_PAPERS_zh.md)。*
+*仅展示前 12 篇，完整 607 篇请查看 [ALL_PAPERS_zh.md](ALL_PAPERS_zh.md)。*
 
 </details>
 
