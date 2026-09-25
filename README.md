@@ -4,12 +4,12 @@
 <p align="center"><em>Automated paper curation for video deep learning & explainability research</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-1151-blue" alt="papers" />
-  <img src="https://img.shields.io/badge/core-513-green" alt="core" />
-  <img src="https://img.shields.io/badge/strongly_related-638-yellow" alt="strongly_related" />
-  <img src="https://img.shields.io/badge/arXiv-830-critical" alt="arXiv" />
+  <img src="https://img.shields.io/badge/papers-1169-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/core-522-green" alt="core" />
+  <img src="https://img.shields.io/badge/strongly_related-647-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/arXiv-848-critical" alt="arXiv" />
   <img src="https://img.shields.io/badge/Semantic_Scholar-316-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-09-24-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/last_update-2026-09-25-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -23,15 +23,15 @@
 
 | Metric | Count |
 |--------|-------|
-| 📚 Total Papers | **1151** |
-| 🔥 Core Papers | **513** |
-| 📎 Strongly Related | **638** |
-| 🆕 New This Month | **159** |
-| 📡 arXiv | 830 |
+| 📚 Total Papers | **1169** |
+| 🔥 Core Papers | **522** |
+| 📎 Strongly Related | **647** |
+| 🆕 New This Month | **177** |
+| 📡 arXiv | 848 |
 | 🔬 Semantic Scholar | 316 |
 | 🔗 CrossRef Enriched | 16 |
 | ✍️ Manual | 5 |
-| ⏰ Last Updated | 2026-09-24 06:01:44 |
+| ⏰ Last Updated | 2026-09-25 06:02:58 |
 
 ## 🏆 Top 5 Most Influential
 
@@ -102,7 +102,7 @@
 ---
 
 <details>
-<summary>📅 2026 (655 papers)</summary>
+<summary>📅 2026 (673 papers)</summary>
 
 | Tag | Title | Summary | Author | Score |
 |------|------|------|------|------|
@@ -119,7 +119,7 @@
 | 🔥 | [Towards Expert-level Medical AI for Real-time Vide](http://arxiv.org/abs/2608.09861v1) | Audio-visual interaction is the standard for patient-physician consult | Mahvish Nagda, Jihyeon Lee+ | 5.5 |
 | 🔥 | [X-LMC: Cross-View Spatiotemporal Collateral Circul](http://arxiv.org/abs/2608.18986v1) | Digital subtraction angiography (DSA) is the reference standard for le | Maedeh Hafezi Moghadas, Hakim Baazaoui+ | 5.5 |
 
-*Showing 12 of 655 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
+*Showing 12 of 673 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
 
 </details>
 
