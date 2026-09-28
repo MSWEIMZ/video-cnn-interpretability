@@ -4,12 +4,12 @@
 <p align="center"><em>Automated paper curation for video deep learning & explainability research</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-1169-blue" alt="papers" />
-  <img src="https://img.shields.io/badge/core-522-green" alt="core" />
-  <img src="https://img.shields.io/badge/strongly_related-647-yellow" alt="strongly_related" />
-  <img src="https://img.shields.io/badge/arXiv-848-critical" alt="arXiv" />
+  <img src="https://img.shields.io/badge/papers-1183-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/core-525-green" alt="core" />
+  <img src="https://img.shields.io/badge/strongly_related-658-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/arXiv-862-critical" alt="arXiv" />
   <img src="https://img.shields.io/badge/Semantic_Scholar-316-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-09-27-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/last_update-2026-09-28-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -23,15 +23,15 @@
 
 | Metric | Count |
 |--------|-------|
-| 📚 Total Papers | **1169** |
-| 🔥 Core Papers | **522** |
-| 📎 Strongly Related | **647** |
-| 🆕 New This Month | **177** |
-| 📡 arXiv | 848 |
+| 📚 Total Papers | **1183** |
+| 🔥 Core Papers | **525** |
+| 📎 Strongly Related | **658** |
+| 🆕 New This Month | **191** |
+| 📡 arXiv | 862 |
 | 🔬 Semantic Scholar | 316 |
 | 🔗 CrossRef Enriched | 16 |
 | ✍️ Manual | 5 |
-| ⏰ Last Updated | 2026-09-27 06:29:25 |
+| ⏰ Last Updated | 2026-09-28 06:37:29 |
 
 ## 🏆 Top 5 Most Influential
 
@@ -80,9 +80,9 @@
 | 2026 | [MARS: What Retrieval Signals Are Hidden in Multimodal Large ](http://arxiv.org/abs/2609.02565v1) | Text-video retrieval requires representations that can distinguish videos with s | Uicheol Jung, Juyoung Hong+ | 5.5 |
 | 2026 | [Video-HolmesV2: Can MLLMs Reason with Spatio-Temporal Audio-](http://arxiv.org/abs/2609.17248v1) | Multimodal Large Language Models have demonstrated impressive video understandin | Zhaoyang Wei, Zipeng Wang+ | 5.5 |
 | 2026 | [QuantWM: Temporally Consistent 2-Bit KV Cache Quantization f](http://arxiv.org/abs/2609.26425v1) | KV cache memory has become a major deployment bottleneck for video generation an | Jiaqi Zhao, Xiaobin Hu+ | 5.5 |
+| 2026 | [DyMD: Preserving Interaction Dynamics through Distribution M](http://arxiv.org/abs/2609.31349v1) | Large video diffusion models offer expressive priors for embodied prediction and | Haojun Xu, Jie Huang+ | 5.5 |
 | 2026 | [Visual Representation Matters: Exploiting Temporal Differenc](http://arxiv.org/abs/2608.04902v1) | Video-to-audio (V2A) generation extends image-to-audio generation (I2A) by intro | Zehua Chen, Junyou Wang+ | 5.4 |
 | 2026 | [LAION-BVD: A 10-Million-Hour Open Video Dataset for Multimod](http://arxiv.org/abs/2608.24845v1) | We present LAION-BVD, a large-scale open video dataset for multimodal learning,  | Andreas Hochlehnert, Marianna Nezhurina+ | 5.4 |
-| 2026 | [Post-Training VLMs for Video Mistake Detection](http://arxiv.org/abs/2608.28406v1) | Human mistakes are inevitable when following instructions, yet they can lead to  | Federico Spurio, Olga Zatsarynna+ | 5.4 |
 
 ## 📎 Strongly Related Papers
 
@@ -102,7 +102,7 @@
 ---
 
 <details>
-<summary>📅 2026 (673 papers)</summary>
+<summary>📅 2026 (687 papers)</summary>
 
 | Tag | Title | Summary | Author | Score |
 |------|------|------|------|------|
@@ -119,7 +119,7 @@
 | 🔥 | [Towards Expert-level Medical AI for Real-time Vide](http://arxiv.org/abs/2608.09861v1) | Audio-visual interaction is the standard for patient-physician consult | Mahvish Nagda, Jihyeon Lee+ | 5.5 |
 | 🔥 | [X-LMC: Cross-View Spatiotemporal Collateral Circul](http://arxiv.org/abs/2608.18986v1) | Digital subtraction angiography (DSA) is the reference standard for le | Maedeh Hafezi Moghadas, Hakim Baazaoui+ | 5.5 |
 
-*Showing 12 of 673 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
+*Showing 12 of 687 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
 
 </details>
 
