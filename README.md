@@ -4,12 +4,12 @@
 <p align="center"><em>Automated paper curation for video deep learning & explainability research</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-1198-blue" alt="papers" />
-  <img src="https://img.shields.io/badge/core-534-green" alt="core" />
-  <img src="https://img.shields.io/badge/strongly_related-664-yellow" alt="strongly_related" />
-  <img src="https://img.shields.io/badge/arXiv-877-critical" alt="arXiv" />
+  <img src="https://img.shields.io/badge/papers-1220-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/core-548-green" alt="core" />
+  <img src="https://img.shields.io/badge/strongly_related-672-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/arXiv-899-critical" alt="arXiv" />
   <img src="https://img.shields.io/badge/Semantic_Scholar-316-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-09-29-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/last_update-2026-09-30-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -23,15 +23,15 @@
 
 | Metric | Count |
 |--------|-------|
-| 📚 Total Papers | **1198** |
-| 🔥 Core Papers | **534** |
-| 📎 Strongly Related | **664** |
-| 🆕 New This Month | **206** |
-| 📡 arXiv | 877 |
+| 📚 Total Papers | **1220** |
+| 🔥 Core Papers | **548** |
+| 📎 Strongly Related | **672** |
+| 🆕 New This Month | **228** |
+| 📡 arXiv | 899 |
 | 🔬 Semantic Scholar | 316 |
 | 🔗 CrossRef Enriched | 16 |
 | ✍️ Manual | 5 |
-| ⏰ Last Updated | 2026-09-29 06:45:22 |
+| ⏰ Last Updated | 2026-09-30 06:34:12 |
 
 ## 🏆 Top 5 Most Influential
 
@@ -67,8 +67,10 @@
 | 2026 | [Thinking Beyond Videos: Unifying Video Reasoning and Deep Re](http://arxiv.org/abs/2608.23329v1) | Open-world video understanding often requires a model to locate sparse visual ev | Wenqi Liu, Shijie Ma+ | 5.8 |
 | 2026 | [VBVR-Pro: A Scalable and Verifiable Suite for Native Visual ](http://arxiv.org/abs/2608.26105v1) | Native visual reasoning treats visual generation as the medium of reasoning itse | Junxiang Xu, Ruisi Wang+ | 5.8 |
 | 2026 | [MyoMechanix: Biomechanically-Grounded Compositional Skilled ](http://arxiv.org/abs/2608.26094v1) | Existing action quality assessment (AQA) datasets and methods rely primarily on  | Hao Yin, Paritosh Parmar+ | 5.8 |
+| 2026 | [Breaking the Uniformity Trap: Scaling Video Diffusion Model ](http://arxiv.org/abs/2609.38140v1) | Mixture-of-Experts (MoE), popularized by large language models, is a promising p | Yu Xu, Yuxin Zhang+ | 5.8 |
 | 2026 | [Addressable Memory for Video World Models](http://arxiv.org/abs/2608.07408v1) | We study visual persistence in interactive video world models. These models rely | Xindi Wu, Sven Elflein+ | 5.7 |
 | 2026 | [MoTE: Mixture of Task Experts for Multi-Task Video Understan](http://arxiv.org/abs/2608.24763v1) | Procedural video-language models must solve heterogeneous tasks from the same vi | Muhammad Asad Ali, Umar Khan+ | 5.7 |
+| 2026 | [Beyond the Timeline: Augmenting Long-Video Memory with Groun](http://arxiv.org/abs/2609.38155v1) | Answering questions about long videos often requires connecting events involving | Hui Ren, Lei Fan+ | 5.7 |
 | 2026 | [Searching Videos as Trees: Self-Correcting Agents for Ground](http://arxiv.org/abs/2607.16189v1) | Grounded long-video question answering (Grounded LVQA) requires answering a ques | Ce Zhang, Ziyang Wang+ | 5.5 |
 | 2026 | [GROVE: Growing and Reasoning over Temporally Stratified Memo](http://arxiv.org/abs/2608.02392v1) | A wearable assistant should both answer questions about its visual history and r | Sitong Gong, Caixin Kang+ | 5.5 |
 | 2026 | [Video-DeepResearch: Towards the Next-Generation Multimodal D](http://arxiv.org/abs/2608.03979v1) | We introduce Video-DeepResearch (Video-DR), extending multimodal agents from sta | Zhen Fang, Yu Zeng+ | 5.5 |
@@ -81,8 +83,6 @@
 | 2026 | [Video-HolmesV2: Can MLLMs Reason with Spatio-Temporal Audio-](http://arxiv.org/abs/2609.17248v1) | Multimodal Large Language Models have demonstrated impressive video understandin | Zhaoyang Wei, Zipeng Wang+ | 5.5 |
 | 2026 | [QuantWM: Temporally Consistent 2-Bit KV Cache Quantization f](http://arxiv.org/abs/2609.26425v1) | KV cache memory has become a major deployment bottleneck for video generation an | Jiaqi Zhao, Xiaobin Hu+ | 5.5 |
 | 2026 | [DyMD: Preserving Interaction Dynamics through Distribution M](http://arxiv.org/abs/2609.31349v1) | Large video diffusion models offer expressive priors for embodied prediction and | Haojun Xu, Jie Huang+ | 5.5 |
-| 2026 | [Visual Representation Matters: Exploiting Temporal Differenc](http://arxiv.org/abs/2608.04902v1) | Video-to-audio (V2A) generation extends image-to-audio generation (I2A) by intro | Zehua Chen, Junyou Wang+ | 5.4 |
-| 2026 | [LAION-BVD: A 10-Million-Hour Open Video Dataset for Multimod](http://arxiv.org/abs/2608.24845v1) | We present LAION-BVD, a large-scale open video dataset for multimodal learning,  | Andreas Hochlehnert, Marianna Nezhurina+ | 5.4 |
 
 ## 📎 Strongly Related Papers
 
@@ -102,7 +102,7 @@
 ---
 
 <details>
-<summary>📅 2026 (702 papers)</summary>
+<summary>📅 2026 (724 papers)</summary>
 
 | Tag | Title | Summary | Author | Score |
 |------|------|------|------|------|
@@ -110,16 +110,16 @@
 | 🔥 | [Thinking Beyond Videos: Unifying Video Reasoning a](http://arxiv.org/abs/2608.23329v1) | Open-world video understanding often requires a model to locate sparse | Wenqi Liu, Shijie Ma+ | 5.8 |
 | 🔥 | [VBVR-Pro: A Scalable and Verifiable Suite for Nati](http://arxiv.org/abs/2608.26105v1) | Native visual reasoning treats visual generation as the medium of reas | Junxiang Xu, Ruisi Wang+ | 5.8 |
 | 🔥 | [MyoMechanix: Biomechanically-Grounded Compositiona](http://arxiv.org/abs/2608.26094v1) | Existing action quality assessment (AQA) datasets and methods rely pri | Hao Yin, Paritosh Parmar+ | 5.8 |
+| 🔥 | [Breaking the Uniformity Trap: Scaling Video Diffus](http://arxiv.org/abs/2609.38140v1) | Mixture-of-Experts (MoE), popularized by large language models, is a p | Yu Xu, Yuxin Zhang+ | 5.8 |
 | 🔥 | [Addressable Memory for Video World Models](http://arxiv.org/abs/2608.07408v1) | We study visual persistence in interactive video world models. These m | Xindi Wu, Sven Elflein+ | 5.7 |
 | 🔥 | [MoTE: Mixture of Task Experts for Multi-Task Video](http://arxiv.org/abs/2608.24763v1) | Procedural video-language models must solve heterogeneous tasks from t | Muhammad Asad Ali, Umar Khan+ | 5.7 |
+| 🔥 | [Beyond the Timeline: Augmenting Long-Video Memory ](http://arxiv.org/abs/2609.38155v1) | Answering questions about long videos often requires connecting events | Hui Ren, Lei Fan+ | 5.7 |
 | 🔥 | [Searching Videos as Trees: Self-Correcting Agents ](http://arxiv.org/abs/2607.16189v1) | Grounded long-video question answering (Grounded LVQA) requires answer | Ce Zhang, Ziyang Wang+ | 5.5 |
 | 🔥 | [GROVE: Growing and Reasoning over Temporally Strat](http://arxiv.org/abs/2608.02392v1) | A wearable assistant should both answer questions about its visual his | Sitong Gong, Caixin Kang+ | 5.5 |
 | 🔥 | [Video-DeepResearch: Towards the Next-Generation Mu](http://arxiv.org/abs/2608.03979v1) | We introduce Video-DeepResearch (Video-DR), extending multimodal agent | Zhen Fang, Yu Zeng+ | 5.5 |
 | 🔥 | [HelloWorld: Enabling Socially Interactive Characte](http://arxiv.org/abs/2608.05070v1) | Despite the remarkable recent progress of video world models, social i | Liangyang Ouyang, Ruicong Liu+ | 5.5 |
-| 🔥 | [Towards Expert-level Medical AI for Real-time Vide](http://arxiv.org/abs/2608.09861v1) | Audio-visual interaction is the standard for patient-physician consult | Mahvish Nagda, Jihyeon Lee+ | 5.5 |
-| 🔥 | [X-LMC: Cross-View Spatiotemporal Collateral Circul](http://arxiv.org/abs/2608.18986v1) | Digital subtraction angiography (DSA) is the reference standard for le | Maedeh Hafezi Moghadas, Hakim Baazaoui+ | 5.5 |
 
-*Showing 12 of 702 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
+*Showing 12 of 724 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
 
 </details>
 
