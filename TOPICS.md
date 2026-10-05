@@ -1,20 +1,20 @@
 # 📂 主题视图
 
-> 共 8 个主题 | 最后更新: 2026-10-04 06:44
+> 共 8 个主题 | 最后更新: 2026-10-05 06:48
 
 ## 📊 主题概览
 
 | 主题 | 论文数 | 核心论文 | 说明 |
 |------|--------|----------|------|
-| 时序解释 | 1038 | 487 | 聚焦于视频时序维度的可解释性研究 |
-| 视频 Transformer 可解释性 | 302 | 134 | Vision Transformer / Video Transformer 的可解释性 |
-| 网络解剖 | 289 | 124 | 网络内部单元 / 特征可视化与解剖 |
-| 动作识别可解释性 | 280 | 143 | 视频动作识别 / 分类任务的可解释性研究 |
-| 注意力与归因 | 164 | 69 | 注意力机制分析与梯度归因方法 |
+| 时序解释 | 1050 | 493 | 聚焦于视频时序维度的可解释性研究 |
+| 视频 Transformer 可解释性 | 305 | 136 | Vision Transformer / Video Transformer 的可解释性 |
+| 网络解剖 | 295 | 128 | 网络内部单元 / 特征可视化与解剖 |
+| 动作识别可解释性 | 281 | 143 | 视频动作识别 / 分类任务的可解释性研究 |
+| 注意力与归因 | 165 | 69 | 注意力机制分析与梯度归因方法 |
 | 3D CNN 解释 | 123 | 63 | 3D 卷积网络 / R(2+1)D 等时空卷积模型的可解释性 |
+| 视频显著性 | 105 | 43 | 视频/空间显著性检测与可视化 |
 | 鲁棒性与对抗 | 105 | 37 | 视频模型的鲁棒性与对抗攻击/防御 |
-| 视频显著性 | 103 | 41 | 视频/空间显著性检测与可视化 |
-| 未分类 | 76 | - | - |
+| 未分类 | 79 | - | - |
 
 ---
 
@@ -40,7 +40,7 @@
 | 🔥 | [Temporal-attentive Covariance Pooling Networks for Video Rec](http://arxiv.org/abs/2110.14381v3) | 2021 | 5.7 |
 | 🔥 | [Unified Image and Video Saliency Modeling](http://arxiv.org/abs/2003.05477v3) | 2020 | 5.7 |
 
-*... 共 1038 篇，仅显示前 15 篇*
+*... 共 1050 篇，仅显示前 15 篇*
 
 ---
 
@@ -66,7 +66,7 @@
 | 🔥 | [Fine tuning 3D Convolutional Networks for enhanced Action Re](https://www.semanticscholar.org/paper/5117082498715afed2125ea29c0db60380ff027c) | 2025 | 5.4 |
 | 🔥 | [A Hybrid 3D CNNs Transformer Architecture for Video-Based Hu](https://www.semanticscholar.org/paper/e6b804076db44eb636ebe9d8ec47bcd3aa31a067) | 2025 | 5.4 |
 
-*... 共 302 篇，仅显示前 15 篇*
+*... 共 305 篇，仅显示前 15 篇*
 
 ---
 
@@ -92,7 +92,7 @@
 | 🔥 | [Revisiting Video Saliency: A Large-scale Benchmark and a New](http://arxiv.org/abs/1801.07424v3) | 2018 | 5.3 |
 | 🔥 | [Robust and Efficient Motion Reasoning for Privacy-Aware Clas](http://arxiv.org/abs/2608.05115v1) | 2026 | 5.2 |
 
-*... 共 289 篇，仅显示前 15 篇*
+*... 共 295 篇，仅显示前 15 篇*
 
 ---
 
@@ -118,7 +118,7 @@
 | 🔥 | [TEA: Temporal Excitation and Aggregation for Action Recognit](http://arxiv.org/abs/2004.01398v1) | 2020 | 5.5 |
 | 🔥 | [Fine tuning 3D Convolutional Networks for enhanced Action Re](https://www.semanticscholar.org/paper/5117082498715afed2125ea29c0db60380ff027c) | 2025 | 5.4 |
 
-*... 共 280 篇，仅显示前 15 篇*
+*... 共 281 篇，仅显示前 15 篇*
 
 ---
 
@@ -144,7 +144,7 @@
 | 🔥 | [Analytic Dynamics: Learning Physics-Grounded Representation ](http://arxiv.org/abs/2608.31025v1) | 2026 | 4.9 |
 | 🔥 | [The Shape of Time: Video-Token Contrast for Temporal Underst](http://arxiv.org/abs/2609.04110v1) | 2026 | 4.9 |
 
-*... 共 164 篇，仅显示前 15 篇*
+*... 共 165 篇，仅显示前 15 篇*
 
 ---
 
@@ -174,6 +174,32 @@
 
 ---
 
+## 视频显著性 (Video Saliency)
+
+> 视频/空间显著性检测与可视化
+
+| 标签 | 标题 | 年份 | 分数 |
+|------|------|------|------|
+| 🔥 | [Interpretable Spatio-temporal Attention for Video Action Rec](http://arxiv.org/abs/1810.04511v2) | 2018 | 7.4 |
+| 🔥 | [Hierarchical Spatiotemporal Feature Fusion Network For Video](https://www.semanticscholar.org/paper/dace1a1869929071f20269cb375ebd5c25b74b7c) | 2023 | 5.7 |
+| 🔥 | [Unified Image and Video Saliency Modeling](http://arxiv.org/abs/2003.05477v3) | 2020 | 5.7 |
+| 🔥 | [Is Space-Time Attention All You Need for Video Understanding](https://arxiv.org/abs/2102.05095) | 2021 | 5.6 |
+| 🔥 | [Video-Based Palm-Vein Authentication under Challenging Condi](http://arxiv.org/abs/2609.02776v1) | 2026 | 5.5 |
+| 🔥 | [Revisiting Video Saliency: A Large-scale Benchmark and a New](http://arxiv.org/abs/1801.07424v3) | 2018 | 5.3 |
+| 🔥 | [EchoCache: Energy-Guided Cross-Modal Caching for Efficient A](http://arxiv.org/abs/2608.02474v1) | 2026 | 5.2 |
+| 🔥 | [Audio-visual Saliency for Omnidirectional Videos](http://arxiv.org/abs/2311.05190v1) | 2023 | 5.2 |
+| 🔥 | [IVEX-WA and IVEX-MetaStack Ensemble Models: A Transfer Learn](https://www.semanticscholar.org/paper/95b40a68c7bc69ad435a644ae21803289f429352) | 2026 | 5.0 |
+| 🔥 | [CARA: Concept-Aware Risk Attention for Interpretable Collisi](http://arxiv.org/abs/2607.22494v1) | 2026 | 5.0 |
+| 🔥 | [Review of Visual Saliency Detection with Comprehensive Infor](http://arxiv.org/abs/1803.03391v2) | 2018 | 5.0 |
+| 🔥 | [Predicting Video Saliency with Object-to-Motion CNN and Two-](http://arxiv.org/abs/1709.06316v3) | 2017 | 5.0 |
+| 🔥 | [No-Reference Video Quality Assessment Using Multi-Pooled, Sa](https://www.semanticscholar.org/paper/0d15b4ca86a7b7a8f26c4957a8f7b86b4e5fc3e6) | 2022 | 4.8 |
+| 🔥 | [Graph-Theoretic Spatiotemporal Context Modeling for Video Sa](http://arxiv.org/abs/1707.07815v1) | 2017 | 4.8 |
+| 🔥 | [InstructMixup: Instruction-Guided Salient Patch Editing for ](http://arxiv.org/abs/2607.19324v1) | 2026 | 4.7 |
+
+*... 共 105 篇，仅显示前 15 篇*
+
+---
+
 ## 鲁棒性与对抗 (Robustness & Adversarial)
 
 > 视频模型的鲁棒性与对抗攻击/防御
@@ -197,29 +223,3 @@
 | 🔥 | [VideoMamba: State Space Model for Efficient Video Understand](https://arxiv.org/abs/2403.06977) | 2024 | 4.7 |
 
 *... 共 105 篇，仅显示前 15 篇*
-
----
-
-## 视频显著性 (Video Saliency)
-
-> 视频/空间显著性检测与可视化
-
-| 标签 | 标题 | 年份 | 分数 |
-|------|------|------|------|
-| 🔥 | [Interpretable Spatio-temporal Attention for Video Action Rec](http://arxiv.org/abs/1810.04511v2) | 2018 | 7.4 |
-| 🔥 | [Hierarchical Spatiotemporal Feature Fusion Network For Video](https://www.semanticscholar.org/paper/dace1a1869929071f20269cb375ebd5c25b74b7c) | 2023 | 5.7 |
-| 🔥 | [Unified Image and Video Saliency Modeling](http://arxiv.org/abs/2003.05477v3) | 2020 | 5.7 |
-| 🔥 | [Is Space-Time Attention All You Need for Video Understanding](https://arxiv.org/abs/2102.05095) | 2021 | 5.6 |
-| 🔥 | [Video-Based Palm-Vein Authentication under Challenging Condi](http://arxiv.org/abs/2609.02776v1) | 2026 | 5.5 |
-| 🔥 | [Revisiting Video Saliency: A Large-scale Benchmark and a New](http://arxiv.org/abs/1801.07424v3) | 2018 | 5.3 |
-| 🔥 | [EchoCache: Energy-Guided Cross-Modal Caching for Efficient A](http://arxiv.org/abs/2608.02474v1) | 2026 | 5.2 |
-| 🔥 | [Audio-visual Saliency for Omnidirectional Videos](http://arxiv.org/abs/2311.05190v1) | 2023 | 5.2 |
-| 🔥 | [IVEX-WA and IVEX-MetaStack Ensemble Models: A Transfer Learn](https://www.semanticscholar.org/paper/95b40a68c7bc69ad435a644ae21803289f429352) | 2026 | 5.0 |
-| 🔥 | [CARA: Concept-Aware Risk Attention for Interpretable Collisi](http://arxiv.org/abs/2607.22494v1) | 2026 | 5.0 |
-| 🔥 | [Review of Visual Saliency Detection with Comprehensive Infor](http://arxiv.org/abs/1803.03391v2) | 2018 | 5.0 |
-| 🔥 | [Predicting Video Saliency with Object-to-Motion CNN and Two-](http://arxiv.org/abs/1709.06316v3) | 2017 | 5.0 |
-| 🔥 | [No-Reference Video Quality Assessment Using Multi-Pooled, Sa](https://www.semanticscholar.org/paper/0d15b4ca86a7b7a8f26c4957a8f7b86b4e5fc3e6) | 2022 | 4.8 |
-| 🔥 | [Graph-Theoretic Spatiotemporal Context Modeling for Video Sa](http://arxiv.org/abs/1707.07815v1) | 2017 | 4.8 |
-| 🔥 | [InstructMixup: Instruction-Guided Salient Patch Editing for ](http://arxiv.org/abs/2607.19324v1) | 2026 | 4.7 |
-
-*... 共 103 篇，仅显示前 15 篇*
