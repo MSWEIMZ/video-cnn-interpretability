@@ -1,20 +1,20 @@
 # 📂 主题视图
 
-> 共 8 个主题 | 最后更新: 2026-10-11 06:59
+> 共 8 个主题 | 最后更新: 2026-10-12 07:13
 
 ## 📊 主题概览
 
 | 主题 | 论文数 | 核心论文 | 说明 |
 |------|--------|----------|------|
-| 时序解释 | 1080 | 511 | 聚焦于视频时序维度的可解释性研究 |
-| 视频 Transformer 可解释性 | 312 | 140 | Vision Transformer / Video Transformer 的可解释性 |
-| 网络解剖 | 301 | 132 | 网络内部单元 / 特征可视化与解剖 |
-| 动作识别可解释性 | 286 | 147 | 视频动作识别 / 分类任务的可解释性研究 |
-| 注意力与归因 | 168 | 71 | 注意力机制分析与梯度归因方法 |
+| 时序解释 | 1095 | 517 | 聚焦于视频时序维度的可解释性研究 |
+| 视频 Transformer 可解释性 | 319 | 142 | Vision Transformer / Video Transformer 的可解释性 |
+| 网络解剖 | 308 | 136 | 网络内部单元 / 特征可视化与解剖 |
+| 动作识别可解释性 | 287 | 148 | 视频动作识别 / 分类任务的可解释性研究 |
+| 注意力与归因 | 171 | 73 | 注意力机制分析与梯度归因方法 |
 | 3D CNN 解释 | 124 | 63 | 3D 卷积网络 / R(2+1)D 等时空卷积模型的可解释性 |
-| 鲁棒性与对抗 | 107 | 38 | 视频模型的鲁棒性与对抗攻击/防御 |
+| 鲁棒性与对抗 | 109 | 40 | 视频模型的鲁棒性与对抗攻击/防御 |
 | 视频显著性 | 106 | 43 | 视频/空间显著性检测与可视化 |
-| 未分类 | 83 | - | - |
+| 未分类 | 84 | - | - |
 
 ---
 
@@ -40,7 +40,7 @@
 | 🔥 | [Temporal-attentive Covariance Pooling Networks for Video Rec](http://arxiv.org/abs/2110.14381v3) | 2021 | 5.7 |
 | 🔥 | [Unified Image and Video Saliency Modeling](http://arxiv.org/abs/2003.05477v3) | 2020 | 5.7 |
 
-*... 共 1080 篇，仅显示前 15 篇*
+*... 共 1095 篇，仅显示前 15 篇*
 
 ---
 
@@ -66,7 +66,7 @@
 | 🔥 | [Fine tuning 3D Convolutional Networks for enhanced Action Re](https://www.semanticscholar.org/paper/5117082498715afed2125ea29c0db60380ff027c) | 2025 | 5.4 |
 | 🔥 | [A Hybrid 3D CNNs Transformer Architecture for Video-Based Hu](https://www.semanticscholar.org/paper/e6b804076db44eb636ebe9d8ec47bcd3aa31a067) | 2025 | 5.4 |
 
-*... 共 312 篇，仅显示前 15 篇*
+*... 共 319 篇，仅显示前 15 篇*
 
 ---
 
@@ -92,7 +92,7 @@
 | 🔥 | [Spatiotemporal distilled dense-connectivity network for vide](https://www.semanticscholar.org/paper/04d27bbbc875bd8fe52521112841d47b21950e7c) | 2019 | 5.3 |
 | 🔥 | [Revisiting Video Saliency: A Large-scale Benchmark and a New](http://arxiv.org/abs/1801.07424v3) | 2018 | 5.3 |
 
-*... 共 301 篇，仅显示前 15 篇*
+*... 共 308 篇，仅显示前 15 篇*
 
 ---
 
@@ -118,7 +118,7 @@
 | 🔥 | [TEA: Temporal Excitation and Aggregation for Action Recognit](http://arxiv.org/abs/2004.01398v1) | 2020 | 5.5 |
 | 🔥 | [Fine tuning 3D Convolutional Networks for enhanced Action Re](https://www.semanticscholar.org/paper/5117082498715afed2125ea29c0db60380ff027c) | 2025 | 5.4 |
 
-*... 共 286 篇，仅显示前 15 篇*
+*... 共 287 篇，仅显示前 15 篇*
 
 ---
 
@@ -144,7 +144,7 @@
 | 🔥 | [Analytic Dynamics: Learning Physics-Grounded Representation ](http://arxiv.org/abs/2608.31025v1) | 2026 | 4.9 |
 | 🔥 | [The Shape of Time: Video-Token Contrast for Temporal Underst](http://arxiv.org/abs/2609.04110v1) | 2026 | 4.9 |
 
-*... 共 168 篇，仅显示前 15 篇*
+*... 共 171 篇，仅显示前 15 篇*
 
 ---
 
@@ -187,6 +187,7 @@
 | 🔥 | [EgoPlay: Event-Triggered Video Editing for Egocentric Stream](http://arxiv.org/abs/2607.24560v1) | 2026 | 5.2 |
 | 🔥 | [GBU-Palm: A Multimodal Video Dataset and Benchmark for Palm ](http://arxiv.org/abs/2608.14389v1) | 2026 | 5.2 |
 | 🔥 | [WOVEN: Weaving Visual World Modeling into Multimodal LLMs](http://arxiv.org/abs/2610.12417v1) | 2026 | 5.2 |
+| 🔥 | [Neurons++: A Unified Visual-Stream Framework for Image and V](http://arxiv.org/abs/2610.13763v1) | 2026 | 5.2 |
 | 🔥 | [Video deepfake detection using a hybrid CNN-LSTM-Transformer](https://www.semanticscholar.org/paper/e17c9359b8cbf6f327523694fcf4019a65134a09) | 2025 | 5.0 |
 | 🔥 | [Token Shift Transformer for Video Classification](https://arxiv.org/abs/2108.02432) | 2021 | 5.0 |
 | 🔥 | [Can We Defend Against AI-Generated Video Attacks on Real-Wor](http://arxiv.org/abs/2608.14391v1) | 2026 | 4.9 |
@@ -194,9 +195,8 @@
 | 🔥 | [IntentQA: Intent Question Answering in Videos by Cognitive C](http://arxiv.org/abs/2608.23330v1) | 2026 | 4.9 |
 | 🔥 | [InstructMixup: Instruction-Guided Salient Patch Editing for ](http://arxiv.org/abs/2607.19324v1) | 2026 | 4.7 |
 | 🔥 | [Sign Language Video Synthesis via Loss-Guided Multi-Expert G](http://arxiv.org/abs/2608.13368v1) | 2026 | 4.7 |
-| 🔥 | [StreamForest: Efficient Online Video Understanding with Pers](https://arxiv.org/abs/2509.24871) | 2025 | 4.7 |
 
-*... 共 107 篇，仅显示前 15 篇*
+*... 共 109 篇，仅显示前 15 篇*
 
 ---
 
