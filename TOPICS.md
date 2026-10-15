@@ -1,16 +1,16 @@
 # 📂 主题视图
 
-> 共 8 个主题 | 最后更新: 2026-10-13 07:36
+> 共 8 个主题 | 最后更新: 2026-10-15 05:46
 
 ## 📊 主题概览
 
 | 主题 | 论文数 | 核心论文 | 说明 |
 |------|--------|----------|------|
-| 时序解释 | 1095 | 517 | 聚焦于视频时序维度的可解释性研究 |
-| 视频 Transformer 可解释性 | 319 | 142 | Vision Transformer / Video Transformer 的可解释性 |
-| 网络解剖 | 308 | 136 | 网络内部单元 / 特征可视化与解剖 |
+| 时序解释 | 1107 | 524 | 聚焦于视频时序维度的可解释性研究 |
+| 视频 Transformer 可解释性 | 322 | 144 | Vision Transformer / Video Transformer 的可解释性 |
+| 网络解剖 | 314 | 139 | 网络内部单元 / 特征可视化与解剖 |
 | 动作识别可解释性 | 287 | 148 | 视频动作识别 / 分类任务的可解释性研究 |
-| 注意力与归因 | 171 | 73 | 注意力机制分析与梯度归因方法 |
+| 注意力与归因 | 172 | 74 | 注意力机制分析与梯度归因方法 |
 | 3D CNN 解释 | 124 | 63 | 3D 卷积网络 / R(2+1)D 等时空卷积模型的可解释性 |
 | 鲁棒性与对抗 | 109 | 40 | 视频模型的鲁棒性与对抗攻击/防御 |
 | 视频显著性 | 106 | 43 | 视频/空间显著性检测与可视化 |
@@ -40,7 +40,7 @@
 | 🔥 | [Temporal-attentive Covariance Pooling Networks for Video Rec](http://arxiv.org/abs/2110.14381v3) | 2021 | 5.7 |
 | 🔥 | [Unified Image and Video Saliency Modeling](http://arxiv.org/abs/2003.05477v3) | 2020 | 5.7 |
 
-*... 共 1095 篇，仅显示前 15 篇*
+*... 共 1107 篇，仅显示前 15 篇*
 
 ---
 
@@ -66,7 +66,7 @@
 | 🔥 | [Fine tuning 3D Convolutional Networks for enhanced Action Re](https://www.semanticscholar.org/paper/5117082498715afed2125ea29c0db60380ff027c) | 2025 | 5.4 |
 | 🔥 | [A Hybrid 3D CNNs Transformer Architecture for Video-Based Hu](https://www.semanticscholar.org/paper/e6b804076db44eb636ebe9d8ec47bcd3aa31a067) | 2025 | 5.4 |
 
-*... 共 319 篇，仅显示前 15 篇*
+*... 共 322 篇，仅显示前 15 篇*
 
 ---
 
@@ -92,7 +92,7 @@
 | 🔥 | [Spatiotemporal distilled dense-connectivity network for vide](https://www.semanticscholar.org/paper/04d27bbbc875bd8fe52521112841d47b21950e7c) | 2019 | 5.3 |
 | 🔥 | [Revisiting Video Saliency: A Large-scale Benchmark and a New](http://arxiv.org/abs/1801.07424v3) | 2018 | 5.3 |
 
-*... 共 308 篇，仅显示前 15 篇*
+*... 共 314 篇，仅显示前 15 篇*
 
 ---
 
@@ -144,7 +144,7 @@
 | 🔥 | [Analytic Dynamics: Learning Physics-Grounded Representation ](http://arxiv.org/abs/2608.31025v1) | 2026 | 4.9 |
 | 🔥 | [The Shape of Time: Video-Token Contrast for Temporal Underst](http://arxiv.org/abs/2609.04110v1) | 2026 | 4.9 |
 
-*... 共 171 篇，仅显示前 15 篇*
+*... 共 172 篇，仅显示前 15 篇*
 
 ---
 
