@@ -4,12 +4,12 @@
 <p align="center"><em>视频深度学习与可解释性论文自动搜集系统</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-1333-blue" alt="papers" />
-  <img src="https://img.shields.io/badge/core-605-green" alt="core" />
-  <img src="https://img.shields.io/badge/strongly_related-728-yellow" alt="strongly_related" />
-  <img src="https://img.shields.io/badge/arXiv-1012-critical" alt="arXiv" />
+  <img src="https://img.shields.io/badge/papers-1343-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/core-610-green" alt="core" />
+  <img src="https://img.shields.io/badge/strongly_related-733-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/arXiv-1022-critical" alt="arXiv" />
   <img src="https://img.shields.io/badge/Semantic_Scholar-316-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-10-18-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/last_update-2026-10-19-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -23,15 +23,15 @@
 
 | 指标 | 数量 |
 |------|------|
-| 📚 论文总数 | **1333** |
-| 🔥 核心论文 | **605** |
-| 📎 高相关论文 | **728** |
-| 🆕 本月新增 | **113** |
-| 📡 arXiv | 1012 |
+| 📚 论文总数 | **1343** |
+| 🔥 核心论文 | **610** |
+| 📎 高相关论文 | **733** |
+| 🆕 本月新增 | **123** |
+| 📡 arXiv | 1022 |
 | 🔬 Semantic Scholar | 316 |
 | 🔗 CrossRef 增强 | 16 |
 | ✍️ 手工整理 | 5 |
-| ⏰ 最后更新 | 2026-10-18 05:40:40 |
+| ⏰ 最后更新 | 2026-10-19 05:58:19 |
 
 ## 🏆 高影响力论文 Top 5
 
@@ -102,7 +102,7 @@
 ---
 
 <details>
-<summary>📅 2026 年 (837 篇)</summary>
+<summary>📅 2026 年 (847 篇)</summary>
 
 | 标签 | 标题 | 摘要 | 作者 | 分数 |
 |------|------|------|------|------|
@@ -119,7 +119,7 @@
 | 🔥 | [Video-DeepResearch: Towards the Next-Generation Mu](http://arxiv.org/abs/2608.03979v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于研究模型表示、推理能力及应用效果。 | Zhen Fang, Yu Zeng+ | 5.5 |
 | 🔥 | [HelloWorld: Enabling Socially Interactive Characte](http://arxiv.org/abs/2608.05070v1) | 本文聚焦视频理解与时序推理，采用时空注意力或 Transformer，主要用于研究模型表示、推理能力及应用效果。 | Liangyang Ouyang, Ruicong Liu+ | 5.5 |
 
-*仅展示前 12 篇，完整 837 篇请查看 [ALL_PAPERS_zh.md](ALL_PAPERS_zh.md)。*
+*仅展示前 12 篇，完整 847 篇请查看 [ALL_PAPERS_zh.md](ALL_PAPERS_zh.md)。*
 
 </details>
 
