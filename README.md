@@ -4,12 +4,12 @@
 <p align="center"><em>Automated paper curation for video deep learning & explainability research</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-1388-blue" alt="papers" />
-  <img src="https://img.shields.io/badge/core-632-green" alt="core" />
-  <img src="https://img.shields.io/badge/strongly_related-756-yellow" alt="strongly_related" />
-  <img src="https://img.shields.io/badge/arXiv-1067-critical" alt="arXiv" />
+  <img src="https://img.shields.io/badge/papers-1400-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/core-641-green" alt="core" />
+  <img src="https://img.shields.io/badge/strongly_related-759-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/arXiv-1079-critical" alt="arXiv" />
   <img src="https://img.shields.io/badge/Semantic_Scholar-316-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-10-21-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/last_update-2026-10-22-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -23,15 +23,15 @@
 
 | Metric | Count |
 |--------|-------|
-| 📚 Total Papers | **1388** |
-| 🔥 Core Papers | **632** |
-| 📎 Strongly Related | **756** |
-| 🆕 New This Month | **168** |
-| 📡 arXiv | 1067 |
+| 📚 Total Papers | **1400** |
+| 🔥 Core Papers | **641** |
+| 📎 Strongly Related | **759** |
+| 🆕 New This Month | **180** |
+| 📡 arXiv | 1079 |
 | 🔬 Semantic Scholar | 316 |
 | 🔗 CrossRef Enriched | 16 |
 | ✍️ Manual | 5 |
-| ⏰ Last Updated | 2026-10-21 05:53:52 |
+| ⏰ Last Updated | 2026-10-22 05:57:53 |
 
 ## 🏆 Top 5 Most Influential
 
@@ -102,7 +102,7 @@
 ---
 
 <details>
-<summary>📅 2026 (892 papers)</summary>
+<summary>📅 2026 (904 papers)</summary>
 
 | Tag | Title | Summary | Author | Score |
 |------|------|------|------|------|
@@ -119,7 +119,7 @@
 | 🔥 | [Video-DeepResearch: Towards the Next-Generation Mu](http://arxiv.org/abs/2608.03979v1) | We introduce Video-DeepResearch (Video-DR), extending multimodal agent | Zhen Fang, Yu Zeng+ | 5.5 |
 | 🔥 | [HelloWorld: Enabling Socially Interactive Characte](http://arxiv.org/abs/2608.05070v1) | Despite the remarkable recent progress of video world models, social i | Liangyang Ouyang, Ruicong Liu+ | 5.5 |
 
-*Showing 12 of 892 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
+*Showing 12 of 904 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
 
 </details>
 
