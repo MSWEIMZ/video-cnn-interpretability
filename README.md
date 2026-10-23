@@ -4,12 +4,12 @@
 <p align="center"><em>Automated paper curation for video deep learning & explainability research</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-1400-blue" alt="papers" />
-  <img src="https://img.shields.io/badge/core-641-green" alt="core" />
-  <img src="https://img.shields.io/badge/strongly_related-759-yellow" alt="strongly_related" />
-  <img src="https://img.shields.io/badge/arXiv-1079-critical" alt="arXiv" />
+  <img src="https://img.shields.io/badge/papers-1418-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/core-651-green" alt="core" />
+  <img src="https://img.shields.io/badge/strongly_related-767-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/arXiv-1097-critical" alt="arXiv" />
   <img src="https://img.shields.io/badge/Semantic_Scholar-316-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-10-22-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/last_update-2026-10-23-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -23,15 +23,15 @@
 
 | Metric | Count |
 |--------|-------|
-| 📚 Total Papers | **1400** |
-| 🔥 Core Papers | **641** |
-| 📎 Strongly Related | **759** |
-| 🆕 New This Month | **180** |
-| 📡 arXiv | 1079 |
+| 📚 Total Papers | **1418** |
+| 🔥 Core Papers | **651** |
+| 📎 Strongly Related | **767** |
+| 🆕 New This Month | **198** |
+| 📡 arXiv | 1097 |
 | 🔬 Semantic Scholar | 316 |
 | 🔗 CrossRef Enriched | 16 |
 | ✍️ Manual | 5 |
-| ⏰ Last Updated | 2026-10-22 05:57:53 |
+| ⏰ Last Updated | 2026-10-23 05:54:25 |
 
 ## 🏆 Top 5 Most Influential
 
@@ -63,6 +63,7 @@
 
 | Year | Title | Summary | Author | Score |
 |------|------|------|------|------|
+| 2026 | [MoG-VLM: Efficient Video Anomaly Detection through Motion-Gu](http://arxiv.org/abs/2610.31478v1) | Vision-Language Models (VLMs) have shown strong potential for video anomaly dete | Khaled Waleed Dawoud, Muhammad Zaigham Zaheer+ | 6.0 |
 | 2026 | [WA-JEPA: Rethinking the Video JEPA Paradigm for World-Action](http://arxiv.org/abs/2608.20974v1) | Video Joint Embedding Predictive Architecture (V-JEPA) learns powerful spatiotem | Xinlin Wang, Yujiao Xiang+ | 5.8 |
 | 2026 | [Thinking Beyond Videos: Unifying Video Reasoning and Deep Re](http://arxiv.org/abs/2608.23329v1) | Open-world video understanding often requires a model to locate sparse visual ev | Wenqi Liu, Shijie Ma+ | 5.8 |
 | 2026 | [VBVR-Pro: A Scalable and Verifiable Suite for Native Visual ](http://arxiv.org/abs/2608.26105v1) | Native visual reasoning treats visual generation as the medium of reasoning itse | Junxiang Xu, Ruisi Wang+ | 5.8 |
@@ -82,7 +83,6 @@
 | 2026 | [MARS: What Retrieval Signals Are Hidden in Multimodal Large ](http://arxiv.org/abs/2609.02565v1) | Text-video retrieval requires representations that can distinguish videos with s | Uicheol Jung, Juyoung Hong+ | 5.5 |
 | 2026 | [Video-HolmesV2: Can MLLMs Reason with Spatio-Temporal Audio-](http://arxiv.org/abs/2609.17248v1) | Multimodal Large Language Models have demonstrated impressive video understandin | Zhaoyang Wei, Zipeng Wang+ | 5.5 |
 | 2026 | [QuantWM: Temporally Consistent 2-Bit KV Cache Quantization f](http://arxiv.org/abs/2609.26425v1) | KV cache memory has become a major deployment bottleneck for video generation an | Jiaqi Zhao, Xiaobin Hu+ | 5.5 |
-| 2026 | [DyMD: Preserving Interaction Dynamics through Distribution M](http://arxiv.org/abs/2609.31349v1) | Large video diffusion models offer expressive priors for embodied prediction and | Haojun Xu, Jie Huang+ | 5.5 |
 
 ## 📎 Strongly Related Papers
 
@@ -102,10 +102,11 @@
 ---
 
 <details>
-<summary>📅 2026 (904 papers)</summary>
+<summary>📅 2026 (922 papers)</summary>
 
 | Tag | Title | Summary | Author | Score |
 |------|------|------|------|------|
+| 🔥 | [MoG-VLM: Efficient Video Anomaly Detection through](http://arxiv.org/abs/2610.31478v1) | Vision-Language Models (VLMs) have shown strong potential for video an | Khaled Waleed Dawoud, Muhammad Zaigham Zaheer+ | 6.0 |
 | 🔥 | [WA-JEPA: Rethinking the Video JEPA Paradigm for Wo](http://arxiv.org/abs/2608.20974v1) | Video Joint Embedding Predictive Architecture (V-JEPA) learns powerful | Xinlin Wang, Yujiao Xiang+ | 5.8 |
 | 🔥 | [Thinking Beyond Videos: Unifying Video Reasoning a](http://arxiv.org/abs/2608.23329v1) | Open-world video understanding often requires a model to locate sparse | Wenqi Liu, Shijie Ma+ | 5.8 |
 | 🔥 | [VBVR-Pro: A Scalable and Verifiable Suite for Nati](http://arxiv.org/abs/2608.26105v1) | Native visual reasoning treats visual generation as the medium of reas | Junxiang Xu, Ruisi Wang+ | 5.8 |
@@ -117,9 +118,8 @@
 | 🔥 | [Searching Videos as Trees: Self-Correcting Agents ](http://arxiv.org/abs/2607.16189v1) | Grounded long-video question answering (Grounded LVQA) requires answer | Ce Zhang, Ziyang Wang+ | 5.5 |
 | 🔥 | [GROVE: Growing and Reasoning over Temporally Strat](http://arxiv.org/abs/2608.02392v1) | A wearable assistant should both answer questions about its visual his | Sitong Gong, Caixin Kang+ | 5.5 |
 | 🔥 | [Video-DeepResearch: Towards the Next-Generation Mu](http://arxiv.org/abs/2608.03979v1) | We introduce Video-DeepResearch (Video-DR), extending multimodal agent | Zhen Fang, Yu Zeng+ | 5.5 |
-| 🔥 | [HelloWorld: Enabling Socially Interactive Characte](http://arxiv.org/abs/2608.05070v1) | Despite the remarkable recent progress of video world models, social i | Liangyang Ouyang, Ruicong Liu+ | 5.5 |
 
-*Showing 12 of 904 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
+*Showing 12 of 922 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
 
 </details>
 

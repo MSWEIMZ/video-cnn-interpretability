@@ -1,13 +1,14 @@
 # 📚 完整论文列表 — Video CNN/XAI Research Hub
 
-> 最后更新: 2026-10-22 05:57:53 | 共 1400 篇
+> 最后更新: 2026-10-23 05:54:25 | 共 1418 篇
 
 ---
 
-## 2026 年 (904 篇)
+## 2026 年 (922 篇)
 
 | 标签 | 标题 | 摘要 | 作者 | 分数 | 查询类型 | 来源 |
 |------|------|------|------|----------|------|--------|
+| 🔥 | [MoG-VLM: Efficient Video Anomaly Detection through Motion-Gu](http://arxiv.org/abs/2610.31478v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于完成识别或分类任务并评估模型表现。 | Khaled Waleed Dawoud, Muhammad Zaigham Zaheer+ | 6.0 | core | arxiv |
 | 🔥 | [WA-JEPA: Rethinking the Video JEPA Paradigm for World-Action](http://arxiv.org/abs/2608.20974v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Xinlin Wang, Yujiao Xiang+ | 5.8 | core | arxiv |
 | 🔥 | [Thinking Beyond Videos: Unifying Video Reasoning and Deep Re](http://arxiv.org/abs/2608.23329v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于研究模型表示、推理能力及应用效果。 | Wenqi Liu, Shijie Ma+ | 5.8 | core | arxiv |
 | 🔥 | [VBVR-Pro: A Scalable and Verifiable Suite for Native Visual ](http://arxiv.org/abs/2608.26105v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Junxiang Xu, Ruisi Wang+ | 5.8 | core | arxiv |
@@ -85,6 +86,7 @@
 | 🔥 | [Touch-JEPA: Tactile Representation Learning from Hand-Object](http://arxiv.org/abs/2610.28519v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Minseong Kweon, Qiao Feng+ | 5.2 | core | arxiv |
 | 🔥 | [RealMe: Immersive Volumetric Video from Minimal Captures](http://arxiv.org/abs/2610.30023v1) | 本文聚焦视频理解与时序推理，采用时空注意力或 Transformer，主要用于研究模型表示、推理能力及应用效果。 | Chenxu Zhou, Zhiyuan Yu+ | 5.2 | core | arxiv |
 | 🔥 | [CausalAlign: Causal Alignment of Video Generation Models for](http://arxiv.org/abs/2610.29915v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Kai Zhu, Yintianrun Zhang+ | 5.2 | core | arxiv |
+| 🔥 | [Reading, Writing, Sharing, and Interacting with the World th](http://arxiv.org/abs/2610.31668v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于完成识别或分类任务并评估模型表现。 | Shengqiong Wu, Meng Luo+ | 5.2 | core | arxiv |
 | 🔥 | [MirrorWorld: Taming Video Diffusion Models for Mirror Reflec](http://arxiv.org/abs/2608.07463v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Youjun Zhao, Alex Warren+ | 5.1 | core | arxiv |
 | 🔥 | [TraVEL: Trajectory-Guided Video Embedding Learning for Drivi](http://arxiv.org/abs/2608.13495v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于研究模型表示、推理能力及应用效果。 | Yi-Chung Chen, Philip Jacobson+ | 5.1 | core | arxiv |
 | 🔥 | [IVEX-WA and IVEX-MetaStack Ensemble Models: A Transfer Learn](https://www.semanticscholar.org/paper/95b40a68c7bc69ad435a644ae21803289f429352) | 本文聚焦视频模型可解释性，采用梯度归因、显著性或概念分析，主要用于分析模型依据及关键空间或时间区域。 | Md Tasnim Alam, Subhram Dasgupta+ | 5.0 | expanded | semantic_scholar |
@@ -149,6 +151,7 @@
 | 🔥 | [Any Time, Any Space: A World-State-Centric Framework for Age](http://arxiv.org/abs/2610.20571v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Weijie Wang, Haomin Zhang+ | 4.9 | core | arxiv |
 | 🔥 | [Video Diffusion Avatars: Taming Video Diffusion Models into ](http://arxiv.org/abs/2610.23772v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Simon Giebenhain, Tobias Kirschstein+ | 4.9 | core | arxiv |
 | 🔥 | [PsycheMME: A Psychology-Informed Benchmark for Social Unders](http://arxiv.org/abs/2610.28625v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于构建或评估基准并比较不同方法。 | Heran Hu, Yuhang Dong+ | 4.9 | core | arxiv |
+| 🔥 | [Ask About the Right Moment: Training-Free Object Identity Re](http://arxiv.org/abs/2610.31471v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于分析模型依据及关键空间或时间区域。 | Di Yang, Xiaochang Li+ | 4.9 | core | arxiv |
 | 🔥 | [A Very Big Video Reasoning Suite](http://arxiv.org/abs/2602.20159v2) | 本文聚焦视频模型可解释性，采用梯度归因、显著性或概念分析，主要用于分析模型依据及关键空间或时间区域。 | Maijunxian Wang, Ruisi Wang+ | 4.8 | exploratory | arxiv |
 | 🔥 | [HyperClaim: Fine-Grained Cross-Modal Hypergraph Reasoning fo](http://arxiv.org/abs/2607.28375v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于完成识别或分类任务并评估模型表现。 | Xiangbo Wang, Jiasheng Zhang+ | 4.8 | core | arxiv |
 | 🔥 | [Kinematic Knowledge Maps for Pattern Alignment: Structured L](http://arxiv.org/abs/2608.20969v1) | 本文聚焦视频模型可解释性，采用梯度归因、显著性或概念分析，主要用于分析模型依据及关键空间或时间区域。 | Chen Dong, He Zonglin+ | 4.8 | core | arxiv |
@@ -340,6 +343,9 @@
 | 🔥 | [Rethinking Video Autoencoders for Interactive World Models](http://arxiv.org/abs/2610.30129v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Adrien Ramanana Rahary, Yutong Bai+ | 4.4 | core | arxiv |
 | 🔥 | [Looking Ahead: Modeling Future Evolution in Autoregressive V](http://arxiv.org/abs/2610.29989v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于分析模型依据及关键空间或时间区域。 | Ruopeng Gao, Yukun Huang+ | 4.4 | core | arxiv |
 | 🔥 | [DewHand: Direct Metric World-Space Hand Motion Reconstructio](http://arxiv.org/abs/2610.29936v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Naru Suzuki, Satoshi Ikehata+ | 4.4 | core | arxiv |
+| 🔥 | [AnyGameRenderer: Entity-Consistent Generative Rendering Acro](http://arxiv.org/abs/2610.31466v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于构建或评估基准并比较不同方法。 | Ruicong Liu, Liangyang Ouyang+ | 4.4 | core | arxiv |
+| 🔥 | [CellTrack-Bench: Microscopic Cell Tracking Benchmark for Vis](http://arxiv.org/abs/2610.31566v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于构建或评估基准并比较不同方法。 | Ilan Theodoro, Jordão Bragantini+ | 4.4 | core | arxiv |
+| 🔥 | [Retrieval-Augmented Online Textual Memory for Episodic Memor](http://arxiv.org/abs/2610.31284v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于研究模型表示、推理能力及应用效果。 | Raffaele Cali, Giuseppe Lando+ | 4.4 | core | arxiv |
 | 🔥 | [Parallel Decoding Distillation for Fast Image and Video Gene](http://arxiv.org/abs/2607.26004v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Neta Shaul, Chao Liu+ | 4.3 | core | arxiv |
 | 🔥 | [Mitigating Compounding Error via Video Representation Regula](http://arxiv.org/abs/2607.27036v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Taiye Chen, Qi Zhang+ | 4.3 | core | arxiv |
 | 🔥 | [Multistage spatio-temporal fusion network for action recogni](https://www.semanticscholar.org/paper/db6de2efa1a3733679f93d41488706f14031772f) | 本文聚焦视频时空表征学习，采用三维卷积网络，主要用于完成识别或分类任务并评估模型表现。 | Xin Lan, Longye Wang+ | 4.3 | core | semantic_scholar |
@@ -462,6 +468,10 @@
 | 🔥 | [SolarRenderer: Few-Step Generative Reference Rendering](http://arxiv.org/abs/2610.28630v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Guian Fang, Shengju Qian+ | 4.1 | core | arxiv |
 | 🔥 | [Attn-Forcing: Learning Full-Context Attention Proxies for St](http://arxiv.org/abs/2610.30036v1) | 本文聚焦视频理解与时序推理，采用时空注意力或 Transformer，主要用于研究模型表示、推理能力及应用效果。 | Junyao Gao, Sibo Liu+ | 4.1 | core | arxiv |
 | 🔥 | [Asking a Multimodal LLM Whether Someone Fell: Zero-Shot Scre](http://arxiv.org/abs/2610.29913v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于研究模型表示、推理能力及应用效果。 | Marcos Junca, Mauro Junca | 4.1 | core | arxiv |
+| 🔥 | [UniVOE: A Removal-Driven Framework for Interaction-Aware Uni](http://arxiv.org/abs/2610.31641v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Shuzhou Yang, Lanqing Guo+ | 4.1 | core | arxiv |
+| 🔥 | [WorldForge V2: Eliciting Camera-Trajectory Alignment in Vide](http://arxiv.org/abs/2610.31640v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Chenxi Song, Yanming Yang+ | 4.1 | core | arxiv |
+| 🔥 | [HiP3R: Hierarchical Pose Graphs for Long-Horizon 3D Reconstr](http://arxiv.org/abs/2610.31635v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Zunnan Xu, Shangchen Zhou+ | 4.1 | core | arxiv |
+| 🔥 | [AgentVQA: A Unified Benchmark for Agentic Visual Understandi](http://arxiv.org/abs/2610.31494v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于构建或评估基准并比较不同方法。 | Advait Gupta, Sachin Konan+ | 4.1 | core | arxiv |
 | 🔥 | [ReViV: Reconstructing the Viewer and the View in 4D from Mon](http://arxiv.org/abs/2607.17790v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于研究模型表示、推理能力及应用效果。 | Xiaozhong Lyu, Gen Li+ | 4.0 | exploratory | arxiv |
 | 🔥 | [Quality Action Assurance: Multimodal Verification of Examine](http://arxiv.org/abs/2607.19063v1) | 本文聚焦视频模型可解释性，采用梯度归因、显著性或概念分析，主要用于分析模型依据及关键空间或时间区域。 | Harry Rogers, Sally Shiels+ | 4.0 | core | arxiv |
 | 🔥 | [Learning Explicit Physical Parameter Control and Benchmarkin](http://arxiv.org/abs/2607.18924v1) | 本文聚焦视频理解与时序推理，采用时空注意力或 Transformer，主要用于构建或评估基准并比较不同方法。 | Yanxun Li, Hao Wen+ | 4.0 | exploratory | arxiv |
@@ -574,6 +584,7 @@
 | 📎 | [CoopUQ: Robust Multi-Robot Social Navigation via Uncertainty](http://arxiv.org/abs/2610.26852v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Zehao Wang, Jianpeng Yao+ | 3.7 | core | arxiv |
 | 📎 | [DISTRACT: Degradation-Indexed Study of Textual Reference Acr](http://arxiv.org/abs/2610.28419v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于研究模型表示、推理能力及应用效果。 | Dan Zlotnikov, Ohad Ben-Shahar | 3.7 | exploratory | arxiv |
 | 📎 | [Code2Video-Compass: A Comprehensive Benchmark for General-Pu](http://arxiv.org/abs/2610.28416v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于构建或评估基准并比较不同方法。 | Zhenghan Chen, Zekai Shao+ | 3.7 | exploratory | arxiv |
+| 📎 | [PhysTrace: Interpretable Temporal Evaluation of Physical Con](http://arxiv.org/abs/2610.31429v1) | 本文聚焦视频模型可解释性，采用梯度归因、显著性或概念分析，主要用于分析模型依据及关键空间或时间区域。 | Taekoan Yoo, Wonkyung Jung+ | 3.7 | core | arxiv |
 | 📎 | [DPNeXt: A Lightweight Multi-Scale Feature Fusion Framework f](http://arxiv.org/abs/2607.16012v1) | 本文聚焦视频理解与时序推理，采用时空注意力或 Transformer，主要用于研究模型表示、推理能力及应用效果。 | Jehun Kang, Jungha Wang+ | 3.6 | core | arxiv |
 | 📎 | [Examining the Associations between Visual and Non-Visual Ele](http://arxiv.org/abs/2607.15808v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Heyang Hua, Koichi Ito+ | 3.6 | core | arxiv |
 | 📎 | [On the Geometry of Learned Representations in Event-Based Mu](http://arxiv.org/abs/2607.15794v1) | 本文聚焦视频理解与时序推理，采用时空注意力或 Transformer，主要用于研究模型表示、推理能力及应用效果。 | Stefano Silvestrini, Michele Ceresoli | 3.6 | core | arxiv |
@@ -619,6 +630,7 @@
 | 📎 | [A Paired RGB-Sonar Dataset for Fish Monitoring with Consumer](http://arxiv.org/abs/2610.23759v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于构建或评估基准并比较不同方法。 | Mourad Derbedrosian, Michael Hobley+ | 3.6 | core | arxiv |
 | 📎 | [PDNet: Exploring Pruning and Distillation for Real-Time Work](http://arxiv.org/abs/2610.26491v1) | 本文聚焦视频时空表征学习，采用三维卷积网络，主要用于完成识别或分类任务并评估模型表现。 | Malek Baba, Thinesh Thiyakesan Ponbagavathi+ | 3.6 | core | arxiv |
 | 📎 | [Risk Decomposition for Hallucination-Aware Video Sampling](http://arxiv.org/abs/2610.26069v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于分析模型依据及关键空间或时间区域。 | Chenyan Zheng, Fan Wu+ | 3.6 | expanded | arxiv |
+| 📎 | [Verus-Insight: Towards Explainable Artifact Detection in AI-](http://arxiv.org/abs/2610.30866v1) | 本文聚焦视频模型可解释性，采用梯度归因、显著性或概念分析，主要用于分析模型依据及关键空间或时间区域。 | Zhuoran Zhang, Yang Shi+ | 3.6 | expanded | arxiv |
 | 📎 | [A Deep Learning Based Approach to Real Time Video Content An](https://www.semanticscholar.org/paper/5a5505995fce05952158e1df54ec57d0e0150d8b) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于分析模型依据及关键空间或时间区域。 | Arsito Ari Kuncoro, Siswanto Siswanto+ | 3.5 | expanded | semantic_scholar |
 | 📎 | [Neuro-Prismatic Video Models for Causality-Aware Action Reco](https://www.semanticscholar.org/paper/3c101fad76600998d739be5500075ef386087a50) | 本文聚焦视频时空表征学习，采用三维卷积网络，主要用于完成识别或分类任务并评估模型表现。 | Hend Alshaya | 3.5 | expanded | semantic_scholar |
 | 📎 | [Artificial Intelligence-Based Visualization System for Preci](https://www.semanticscholar.org/paper/a36e9843d1cca4b2936cf182a4511fb64e858063) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于分析模型依据及关键空间或时间区域。 | Shuiting Pei | 3.5 | core | semantic_scholar |
@@ -629,6 +641,7 @@
 | 📎 | [LiAM-SAM: Lifecycle-Aware Memory for Robust SAM2-Based MOT](http://arxiv.org/abs/2609.28078v1) | 本文聚焦视频理解与时序推理，采用时空注意力或 Transformer，主要用于研究模型表示、推理能力及应用效果。 | Grégoire Francisco, Alessandro D'Amico+ | 3.5 | exploratory | arxiv |
 | 📎 | [BrainNet Studio: A Unified Toolkit for Brain Network Constru](http://arxiv.org/abs/2609.37956v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于分析模型依据及关键空间或时间区域。 | Xiwei Zeng, Shengrong Li+ | 3.5 | core | arxiv |
 | 📎 | [MS2CAST: A Video Anomaly Detection Framework via Multi-Scale](http://arxiv.org/abs/2610.29649v1) | 本文聚焦视频理解与时序推理，采用时空注意力或 Transformer，主要用于完成识别或分类任务并评估模型表现。 | Ali Safaei, Mohammad Kazemi | 3.5 | exploratory | arxiv |
+| 📎 | [Lightweight Frame Compensation for Real-Time Polyp Segmentat](http://arxiv.org/abs/2610.31228v1) | 本文聚焦视频理解与时序推理，采用时空注意力或 Transformer，主要用于研究模型表示、推理能力及应用效果。 | Weihao Gao | 3.5 | exploratory | arxiv |
 | 📎 | [Grounding Video Reasoning in Physical Signals](http://arxiv.org/abs/2604.21873v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Alibay Osmanli, Zixu Cheng+ | 3.4 | exploratory | arxiv |
 | 📎 | [EvoGround: Self-Evolving Video Agents for Video Temporal Gro](http://arxiv.org/abs/2605.13803v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Minjoon Jung, Byoung-Tak Zhang+ | 3.4 | exploratory | arxiv |
 | 📎 | [An approach for identification of driver drowsiness, emotion](https://www.semanticscholar.org/paper/e03e84e3ed1becc8ba91fe1b58262f726ac74027) | 本文聚焦视频模型可解释性，采用梯度归因、显著性或概念分析，主要用于分析模型依据及关键空间或时间区域。 | A. Sah, Moitreyee Das+ | 3.4 | expanded | semantic_scholar |
@@ -787,6 +800,8 @@
 | 📎 | [Geometry-Agnostic Data-Driven Discovery of Extreme Scenarios](http://arxiv.org/abs/2610.28487v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于分析模型依据及关键空间或时间区域。 | Angeline Hu, Ava K. Tse+ | 3.1 | core | arxiv |
 | 📎 | [Auto-Director: Leveraging Multi-Agent Collaboration for Auto](http://arxiv.org/abs/2610.28346v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Yuxia Chen, Wenbo Zhu+ | 3.1 | exploratory | arxiv |
 | 📎 | [PACE: Plan, Attend, Check, and Emit for Training-Free Respon](http://arxiv.org/abs/2610.28323v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Siqi Guo, Yuxia Chen+ | 3.1 | exploratory | arxiv |
+| 📎 | [Drift Says When, Budget Says How Much: Rate-Controlled KV Re](http://arxiv.org/abs/2610.31433v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于研究模型表示、推理能力及应用效果。 | Bin Hu, Yingbo Xiao | 3.1 | core | arxiv |
+| 📎 | [Beyond Watching and Searching: Benchmarking Agents for Video](http://arxiv.org/abs/2610.31158v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于构建或评估基准并比较不同方法。 | Jiahao Meng, Qize Yang+ | 3.1 | exploratory | arxiv |
 | 📎 | [Rethinking Model Complexity: Contrastive Frame Embedding in ](https://www.semanticscholar.org/paper/51409999d92d79a4f4d7434f485240ea75c378f9) | 本文聚焦视频模型可解释性，采用梯度归因、显著性或概念分析，主要用于分析模型依据及关键空间或时间区域。 | Shaunna Wang, Yishan Zhong+ | 3.0 | expanded | semantic_scholar |
 | 📎 | [DEPART: Multi-Task Interpretable Depression and Parkinson's ](https://www.semanticscholar.org/paper/0bfe9911a151c82a1c959fed5a9a4366db95992e) | 本文聚焦视频模型可解释性，采用梯度归因、显著性或概念分析，主要用于分析模型依据及关键空间或时间区域。 | E. Ryumina, A. Axyonov+ | 3.0 | expanded | semantic_scholar |
 | 📎 | [Classification of Smartphone Interaction Using Multimodal Ph](https://www.semanticscholar.org/paper/9949b1b648710498043c3c4eb3efeff60f209d3d) | 本文聚焦视频模型可解释性，采用梯度归因、显著性或概念分析，主要用于完成识别或分类任务并评估模型表现。 | Prakash Mishra, Vaibhav Kagathara+ | 3.0 | expanded | semantic_scholar |
@@ -911,6 +926,9 @@
 | 📎 | [OneLA: Learning Many Worlds from Latent Actions](http://arxiv.org/abs/2610.20160v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Ziyu Zhu, Zhaoxu Sun+ | 2.6 | exploratory | arxiv |
 | 📎 | [Analysis of Transient Microscopy Data in Reciprocal Space](http://arxiv.org/abs/2610.23756v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Thomas J. Sheehan, William A. Tisdale | 2.6 | core | arxiv |
 | 📎 | [From Legacy to Contemporary: Scalable Color Modernization fo](http://arxiv.org/abs/2610.26391v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Dongyun Kim, Jiwoo Choi+ | 2.6 | exploratory | arxiv |
+| 📎 | [Confinement of hybridized light modes in nonlinear-optical s](http://arxiv.org/abs/2610.31643v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Federico Presutti, Ryotatsu Yanagimoto | 2.6 | core | arxiv |
+| 📎 | [Hydrodynamic and Stochastic Limits of Space-Time Hawkes Proc](http://arxiv.org/abs/2610.31604v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Fuqing Gao, Yingli Wang+ | 2.6 | core | arxiv |
+| 📎 | [Moving Regions, Not Moving Objects: Segmenting What Actually](http://arxiv.org/abs/2610.31209v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于分析模型依据及关键空间或时间区域。 | Wenhua Jin, Tiancheng Chen+ | 2.6 | exploratory | arxiv |
 | 📎 | [TriWorldBench: A Tri-View Consistency Perspective on Embodie](http://arxiv.org/abs/2609.26314v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Xuanyi Liu, Haofeng Wang+ | 2.5 | exploratory | arxiv |
 
 ## 2025 年 (107 篇)

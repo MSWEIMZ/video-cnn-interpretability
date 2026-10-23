@@ -4,12 +4,12 @@
 <p align="center"><em>视频深度学习与可解释性论文自动搜集系统</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-1400-blue" alt="papers" />
-  <img src="https://img.shields.io/badge/core-641-green" alt="core" />
-  <img src="https://img.shields.io/badge/strongly_related-759-yellow" alt="strongly_related" />
-  <img src="https://img.shields.io/badge/arXiv-1079-critical" alt="arXiv" />
+  <img src="https://img.shields.io/badge/papers-1418-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/core-651-green" alt="core" />
+  <img src="https://img.shields.io/badge/strongly_related-767-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/arXiv-1097-critical" alt="arXiv" />
   <img src="https://img.shields.io/badge/Semantic_Scholar-316-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-10-22-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/last_update-2026-10-23-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -23,15 +23,15 @@
 
 | 指标 | 数量 |
 |------|------|
-| 📚 论文总数 | **1400** |
-| 🔥 核心论文 | **641** |
-| 📎 高相关论文 | **759** |
-| 🆕 本月新增 | **180** |
-| 📡 arXiv | 1079 |
+| 📚 论文总数 | **1418** |
+| 🔥 核心论文 | **651** |
+| 📎 高相关论文 | **767** |
+| 🆕 本月新增 | **198** |
+| 📡 arXiv | 1097 |
 | 🔬 Semantic Scholar | 316 |
 | 🔗 CrossRef 增强 | 16 |
 | ✍️ 手工整理 | 5 |
-| ⏰ 最后更新 | 2026-10-22 05:57:53 |
+| ⏰ 最后更新 | 2026-10-23 05:54:25 |
 
 ## 🏆 高影响力论文 Top 5
 
@@ -63,6 +63,7 @@
 
 | 年份 | 标题 | 摘要 | 作者 | 分数 |
 |------|------|------|------|------|
+| 2026 | [MoG-VLM: Efficient Video Anomaly Detection through Motion-Gu](http://arxiv.org/abs/2610.31478v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于完成识别或分类任务并评估模型表现。 | Khaled Waleed Dawoud, Muhammad Zaigham Zaheer+ | 6.0 |
 | 2026 | [WA-JEPA: Rethinking the Video JEPA Paradigm for World-Action](http://arxiv.org/abs/2608.20974v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Xinlin Wang, Yujiao Xiang+ | 5.8 |
 | 2026 | [Thinking Beyond Videos: Unifying Video Reasoning and Deep Re](http://arxiv.org/abs/2608.23329v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于研究模型表示、推理能力及应用效果。 | Wenqi Liu, Shijie Ma+ | 5.8 |
 | 2026 | [VBVR-Pro: A Scalable and Verifiable Suite for Native Visual ](http://arxiv.org/abs/2608.26105v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Junxiang Xu, Ruisi Wang+ | 5.8 |
@@ -82,7 +83,6 @@
 | 2026 | [MARS: What Retrieval Signals Are Hidden in Multimodal Large ](http://arxiv.org/abs/2609.02565v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于研究模型表示、推理能力及应用效果。 | Uicheol Jung, Juyoung Hong+ | 5.5 |
 | 2026 | [Video-HolmesV2: Can MLLMs Reason with Spatio-Temporal Audio-](http://arxiv.org/abs/2609.17248v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于研究模型表示、推理能力及应用效果。 | Zhaoyang Wei, Zipeng Wang+ | 5.5 |
 | 2026 | [QuantWM: Temporally Consistent 2-Bit KV Cache Quantization f](http://arxiv.org/abs/2609.26425v1) | 本文聚焦视频理解与时序推理，采用时空注意力或 Transformer，主要用于研究模型表示、推理能力及应用效果。 | Jiaqi Zhao, Xiaobin Hu+ | 5.5 |
-| 2026 | [DyMD: Preserving Interaction Dynamics through Distribution M](http://arxiv.org/abs/2609.31349v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Haojun Xu, Jie Huang+ | 5.5 |
 
 ## 📎 高相关论文
 
@@ -102,10 +102,11 @@
 ---
 
 <details>
-<summary>📅 2026 年 (904 篇)</summary>
+<summary>📅 2026 年 (922 篇)</summary>
 
 | 标签 | 标题 | 摘要 | 作者 | 分数 |
 |------|------|------|------|------|
+| 🔥 | [MoG-VLM: Efficient Video Anomaly Detection through](http://arxiv.org/abs/2610.31478v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于完成识别或分类任务并评估模型表现。 | Khaled Waleed Dawoud, Muhammad Zaigham Zaheer+ | 6.0 |
 | 🔥 | [WA-JEPA: Rethinking the Video JEPA Paradigm for Wo](http://arxiv.org/abs/2608.20974v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Xinlin Wang, Yujiao Xiang+ | 5.8 |
 | 🔥 | [Thinking Beyond Videos: Unifying Video Reasoning a](http://arxiv.org/abs/2608.23329v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于研究模型表示、推理能力及应用效果。 | Wenqi Liu, Shijie Ma+ | 5.8 |
 | 🔥 | [VBVR-Pro: A Scalable and Verifiable Suite for Nati](http://arxiv.org/abs/2608.26105v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Junxiang Xu, Ruisi Wang+ | 5.8 |
@@ -117,9 +118,8 @@
 | 🔥 | [Searching Videos as Trees: Self-Correcting Agents ](http://arxiv.org/abs/2607.16189v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Ce Zhang, Ziyang Wang+ | 5.5 |
 | 🔥 | [GROVE: Growing and Reasoning over Temporally Strat](http://arxiv.org/abs/2608.02392v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Sitong Gong, Caixin Kang+ | 5.5 |
 | 🔥 | [Video-DeepResearch: Towards the Next-Generation Mu](http://arxiv.org/abs/2608.03979v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于研究模型表示、推理能力及应用效果。 | Zhen Fang, Yu Zeng+ | 5.5 |
-| 🔥 | [HelloWorld: Enabling Socially Interactive Characte](http://arxiv.org/abs/2608.05070v1) | 本文聚焦视频理解与时序推理，采用时空注意力或 Transformer，主要用于研究模型表示、推理能力及应用效果。 | Liangyang Ouyang, Ruicong Liu+ | 5.5 |
 
-*仅展示前 12 篇，完整 904 篇请查看 [ALL_PAPERS_zh.md](ALL_PAPERS_zh.md)。*
+*仅展示前 12 篇，完整 922 篇请查看 [ALL_PAPERS_zh.md](ALL_PAPERS_zh.md)。*
 
 </details>
 
