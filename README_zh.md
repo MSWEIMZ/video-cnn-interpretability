@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/strongly_related-767-yellow" alt="strongly_related" />
   <img src="https://img.shields.io/badge/arXiv-1097-critical" alt="arXiv" />
   <img src="https://img.shields.io/badge/Semantic_Scholar-316-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-10-23-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/last_update-2026-10-24-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -31,7 +31,7 @@
 | 🔬 Semantic Scholar | 316 |
 | 🔗 CrossRef 增强 | 16 |
 | ✍️ 手工整理 | 5 |
-| ⏰ 最后更新 | 2026-10-23 05:54:25 |
+| ⏰ 最后更新 | 2026-10-24 05:38:23 |
 
 ## 🏆 高影响力论文 Top 5
 
