@@ -4,12 +4,12 @@
 <p align="center"><em>Automated paper curation for video deep learning & explainability research</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-1418-blue" alt="papers" />
-  <img src="https://img.shields.io/badge/core-651-green" alt="core" />
-  <img src="https://img.shields.io/badge/strongly_related-767-yellow" alt="strongly_related" />
-  <img src="https://img.shields.io/badge/arXiv-1097-critical" alt="arXiv" />
+  <img src="https://img.shields.io/badge/papers-1431-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/core-656-green" alt="core" />
+  <img src="https://img.shields.io/badge/strongly_related-775-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/arXiv-1110-critical" alt="arXiv" />
   <img src="https://img.shields.io/badge/Semantic_Scholar-316-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-10-25-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/last_update-2026-10-26-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -23,15 +23,15 @@
 
 | Metric | Count |
 |--------|-------|
-| 📚 Total Papers | **1418** |
-| 🔥 Core Papers | **651** |
-| 📎 Strongly Related | **767** |
-| 🆕 New This Month | **198** |
-| 📡 arXiv | 1097 |
+| 📚 Total Papers | **1431** |
+| 🔥 Core Papers | **656** |
+| 📎 Strongly Related | **775** |
+| 🆕 New This Month | **211** |
+| 📡 arXiv | 1110 |
 | 🔬 Semantic Scholar | 316 |
 | 🔗 CrossRef Enriched | 16 |
 | ✍️ Manual | 5 |
-| ⏰ Last Updated | 2026-10-25 05:53:20 |
+| ⏰ Last Updated | 2026-10-26 05:57:07 |
 
 ## 🏆 Top 5 Most Influential
 
@@ -102,7 +102,7 @@
 ---
 
 <details>
-<summary>📅 2026 (922 papers)</summary>
+<summary>📅 2026 (935 papers)</summary>
 
 | Tag | Title | Summary | Author | Score |
 |------|------|------|------|------|
@@ -119,7 +119,7 @@
 | 🔥 | [GROVE: Growing and Reasoning over Temporally Strat](http://arxiv.org/abs/2608.02392v1) | A wearable assistant should both answer questions about its visual his | Sitong Gong, Caixin Kang+ | 5.5 |
 | 🔥 | [Video-DeepResearch: Towards the Next-Generation Mu](http://arxiv.org/abs/2608.03979v1) | We introduce Video-DeepResearch (Video-DR), extending multimodal agent | Zhen Fang, Yu Zeng+ | 5.5 |
 
-*Showing 12 of 922 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
+*Showing 12 of 935 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
 
 </details>
 
