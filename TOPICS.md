@@ -1,20 +1,20 @@
 # 📂 主题视图
 
-> 共 8 个主题 | 最后更新: 2026-11-04 07:25
+> 共 8 个主题 | 最后更新: 2026-11-05 07:52
 
 ## 📊 主题概览
 
 | 主题 | 论文数 | 核心论文 | 说明 |
 |------|--------|----------|------|
-| 时序解释 | 1266 | 611 | 聚焦于视频时序维度的可解释性研究 |
-| 网络解剖 | 368 | 172 | 网络内部单元 / 特征可视化与解剖 |
-| 视频 Transformer 可解释性 | 358 | 159 | Vision Transformer / Video Transformer 的可解释性 |
-| 动作识别可解释性 | 295 | 153 | 视频动作识别 / 分类任务的可解释性研究 |
-| 注意力与归因 | 180 | 78 | 注意力机制分析与梯度归因方法 |
+| 时序解释 | 1279 | 622 | 聚焦于视频时序维度的可解释性研究 |
+| 网络解剖 | 370 | 174 | 网络内部单元 / 特征可视化与解剖 |
+| 视频 Transformer 可解释性 | 359 | 159 | Vision Transformer / Video Transformer 的可解释性 |
+| 动作识别可解释性 | 296 | 154 | 视频动作识别 / 分类任务的可解释性研究 |
+| 注意力与归因 | 181 | 79 | 注意力机制分析与梯度归因方法 |
+| 鲁棒性与对抗 | 126 | 45 | 视频模型的鲁棒性与对抗攻击/防御 |
 | 3D CNN 解释 | 126 | 63 | 3D 卷积网络 / R(2+1)D 等时空卷积模型的可解释性 |
-| 鲁棒性与对抗 | 125 | 45 | 视频模型的鲁棒性与对抗攻击/防御 |
-| 视频显著性 | 107 | 44 | 视频/空间显著性检测与可视化 |
-| 未分类 | 98 | - | - |
+| 视频显著性 | 108 | 45 | 视频/空间显著性检测与可视化 |
+| 未分类 | 99 | - | - |
 
 ---
 
@@ -40,7 +40,7 @@
 | 🔥 | [Action Transformer: A Self-Attention Model for Short-Time Po](http://arxiv.org/abs/2107.00606v6) | 2021 | 5.7 |
 | 🔥 | [Temporal-attentive Covariance Pooling Networks for Video Rec](http://arxiv.org/abs/2110.14381v3) | 2021 | 5.7 |
 
-*... 共 1266 篇，仅显示前 15 篇*
+*... 共 1279 篇，仅显示前 15 篇*
 
 ---
 
@@ -66,7 +66,7 @@
 | 🔥 | [Spatiotemporal distilled dense-connectivity network for vide](https://www.semanticscholar.org/paper/04d27bbbc875bd8fe52521112841d47b21950e7c) | 2019 | 5.3 |
 | 🔥 | [Revisiting Video Saliency: A Large-scale Benchmark and a New](http://arxiv.org/abs/1801.07424v3) | 2018 | 5.3 |
 
-*... 共 368 篇，仅显示前 15 篇*
+*... 共 370 篇，仅显示前 15 篇*
 
 ---
 
@@ -92,7 +92,7 @@
 | 🔥 | [Fine tuning 3D Convolutional Networks for enhanced Action Re](https://www.semanticscholar.org/paper/5117082498715afed2125ea29c0db60380ff027c) | 2025 | 5.4 |
 | 🔥 | [A Hybrid 3D CNNs Transformer Architecture for Video-Based Hu](https://www.semanticscholar.org/paper/e6b804076db44eb636ebe9d8ec47bcd3aa31a067) | 2025 | 5.4 |
 
-*... 共 358 篇，仅显示前 15 篇*
+*... 共 359 篇，仅显示前 15 篇*
 
 ---
 
@@ -118,7 +118,7 @@
 | 🔥 | [TEA: Temporal Excitation and Aggregation for Action Recognit](http://arxiv.org/abs/2004.01398v1) | 2020 | 5.5 |
 | 🔥 | [Fine tuning 3D Convolutional Networks for enhanced Action Re](https://www.semanticscholar.org/paper/5117082498715afed2125ea29c0db60380ff027c) | 2025 | 5.4 |
 
-*... 共 295 篇，仅显示前 15 篇*
+*... 共 296 篇，仅显示前 15 篇*
 
 ---
 
@@ -144,7 +144,33 @@
 | 🔥 | [3D Convolutional with Attention for Action Recognition](http://arxiv.org/abs/2206.02203v1) | 2022 | 5.0 |
 | 🔥 | [Analytic Dynamics: Learning Physics-Grounded Representation ](http://arxiv.org/abs/2608.31025v1) | 2026 | 4.9 |
 
-*... 共 180 篇，仅显示前 15 篇*
+*... 共 181 篇，仅显示前 15 篇*
+
+---
+
+## 鲁棒性与对抗 (Robustness & Adversarial)
+
+> 视频模型的鲁棒性与对抗攻击/防御
+
+| 标签 | 标题 | 年份 | 分数 |
+|------|------|------|------|
+| 🔥 | [Video-Based Palm-Vein Authentication under Challenging Condi](http://arxiv.org/abs/2609.02776v1) | 2026 | 5.5 |
+| 🔥 | [QuantWM: Temporally Consistent 2-Bit KV Cache Quantization f](http://arxiv.org/abs/2609.26425v1) | 2026 | 5.5 |
+| 🔥 | [Large-scale Robustness Analysis of Video Action Recognition ](http://arxiv.org/abs/2207.01398v2) | 2022 | 5.5 |
+| 🔥 | [Audio-Visual Flamingo: Open Audio-Visual Intelligence for Lo](http://arxiv.org/abs/2607.16107v1) | 2026 | 5.2 |
+| 🔥 | [EgoPlay: Event-Triggered Video Editing for Egocentric Stream](http://arxiv.org/abs/2607.24560v1) | 2026 | 5.2 |
+| 🔥 | [GBU-Palm: A Multimodal Video Dataset and Benchmark for Palm ](http://arxiv.org/abs/2608.14389v1) | 2026 | 5.2 |
+| 🔥 | [WOVEN: Weaving Visual World Modeling into Multimodal LLMs](http://arxiv.org/abs/2610.12417v1) | 2026 | 5.2 |
+| 🔥 | [Neurons++: A Unified Visual-Stream Framework for Image and V](http://arxiv.org/abs/2610.13763v1) | 2026 | 5.2 |
+| 🔥 | [Video deepfake detection using a hybrid CNN-LSTM-Transformer](https://www.semanticscholar.org/paper/e17c9359b8cbf6f327523694fcf4019a65134a09) | 2025 | 5.0 |
+| 🔥 | [Token Shift Transformer for Video Classification](https://arxiv.org/abs/2108.02432) | 2021 | 5.0 |
+| 🔥 | [Can We Defend Against AI-Generated Video Attacks on Real-Wor](http://arxiv.org/abs/2608.14391v1) | 2026 | 4.9 |
+| 🔥 | [On the Robustness of Temporal Vision-Language Models for Sur](http://arxiv.org/abs/2608.14262v1) | 2026 | 4.9 |
+| 🔥 | [IntentQA: Intent Question Answering in Videos by Cognitive C](http://arxiv.org/abs/2608.23330v1) | 2026 | 4.9 |
+| 🔥 | [InstructMixup: Instruction-Guided Salient Patch Editing for ](http://arxiv.org/abs/2607.19324v1) | 2026 | 4.7 |
+| 🔥 | [Sign Language Video Synthesis via Loss-Guided Multi-Expert G](http://arxiv.org/abs/2608.13368v1) | 2026 | 4.7 |
+
+*... 共 126 篇，仅显示前 15 篇*
 
 ---
 
@@ -174,32 +200,6 @@
 
 ---
 
-## 鲁棒性与对抗 (Robustness & Adversarial)
-
-> 视频模型的鲁棒性与对抗攻击/防御
-
-| 标签 | 标题 | 年份 | 分数 |
-|------|------|------|------|
-| 🔥 | [Video-Based Palm-Vein Authentication under Challenging Condi](http://arxiv.org/abs/2609.02776v1) | 2026 | 5.5 |
-| 🔥 | [QuantWM: Temporally Consistent 2-Bit KV Cache Quantization f](http://arxiv.org/abs/2609.26425v1) | 2026 | 5.5 |
-| 🔥 | [Large-scale Robustness Analysis of Video Action Recognition ](http://arxiv.org/abs/2207.01398v2) | 2022 | 5.5 |
-| 🔥 | [Audio-Visual Flamingo: Open Audio-Visual Intelligence for Lo](http://arxiv.org/abs/2607.16107v1) | 2026 | 5.2 |
-| 🔥 | [EgoPlay: Event-Triggered Video Editing for Egocentric Stream](http://arxiv.org/abs/2607.24560v1) | 2026 | 5.2 |
-| 🔥 | [GBU-Palm: A Multimodal Video Dataset and Benchmark for Palm ](http://arxiv.org/abs/2608.14389v1) | 2026 | 5.2 |
-| 🔥 | [WOVEN: Weaving Visual World Modeling into Multimodal LLMs](http://arxiv.org/abs/2610.12417v1) | 2026 | 5.2 |
-| 🔥 | [Neurons++: A Unified Visual-Stream Framework for Image and V](http://arxiv.org/abs/2610.13763v1) | 2026 | 5.2 |
-| 🔥 | [Video deepfake detection using a hybrid CNN-LSTM-Transformer](https://www.semanticscholar.org/paper/e17c9359b8cbf6f327523694fcf4019a65134a09) | 2025 | 5.0 |
-| 🔥 | [Token Shift Transformer for Video Classification](https://arxiv.org/abs/2108.02432) | 2021 | 5.0 |
-| 🔥 | [Can We Defend Against AI-Generated Video Attacks on Real-Wor](http://arxiv.org/abs/2608.14391v1) | 2026 | 4.9 |
-| 🔥 | [On the Robustness of Temporal Vision-Language Models for Sur](http://arxiv.org/abs/2608.14262v1) | 2026 | 4.9 |
-| 🔥 | [IntentQA: Intent Question Answering in Videos by Cognitive C](http://arxiv.org/abs/2608.23330v1) | 2026 | 4.9 |
-| 🔥 | [InstructMixup: Instruction-Guided Salient Patch Editing for ](http://arxiv.org/abs/2607.19324v1) | 2026 | 4.7 |
-| 🔥 | [Sign Language Video Synthesis via Loss-Guided Multi-Expert G](http://arxiv.org/abs/2608.13368v1) | 2026 | 4.7 |
-
-*... 共 125 篇，仅显示前 15 篇*
-
----
-
 ## 视频显著性 (Video Saliency)
 
 > 视频/空间显著性检测与可视化
@@ -222,4 +222,4 @@
 | 🔥 | [Graph-Theoretic Spatiotemporal Context Modeling for Video Sa](http://arxiv.org/abs/1707.07815v1) | 2017 | 4.8 |
 | 🔥 | [InstructMixup: Instruction-Guided Salient Patch Editing for ](http://arxiv.org/abs/2607.19324v1) | 2026 | 4.7 |
 
-*... 共 107 篇，仅显示前 15 篇*
+*... 共 108 篇，仅显示前 15 篇*
