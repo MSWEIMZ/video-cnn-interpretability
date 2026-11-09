@@ -1,18 +1,18 @@
 # 📂 主题视图
 
-> 共 8 个主题 | 最后更新: 2026-11-08 07:07
+> 共 8 个主题 | 最后更新: 2026-11-09 07:50
 
 ## 📊 主题概览
 
 | 主题 | 论文数 | 核心论文 | 说明 |
 |------|--------|----------|------|
-| 时序解释 | 1289 | 628 | 聚焦于视频时序维度的可解释性研究 |
-| 网络解剖 | 375 | 176 | 网络内部单元 / 特征可视化与解剖 |
-| 视频 Transformer 可解释性 | 363 | 160 | Vision Transformer / Video Transformer 的可解释性 |
+| 时序解释 | 1301 | 638 | 聚焦于视频时序维度的可解释性研究 |
+| 网络解剖 | 379 | 179 | 网络内部单元 / 特征可视化与解剖 |
+| 视频 Transformer 可解释性 | 367 | 162 | Vision Transformer / Video Transformer 的可解释性 |
 | 动作识别可解释性 | 297 | 154 | 视频动作识别 / 分类任务的可解释性研究 |
-| 注意力与归因 | 182 | 80 | 注意力机制分析与梯度归因方法 |
-| 鲁棒性与对抗 | 127 | 45 | 视频模型的鲁棒性与对抗攻击/防御 |
-| 3D CNN 解释 | 126 | 63 | 3D 卷积网络 / R(2+1)D 等时空卷积模型的可解释性 |
+| 注意力与归因 | 184 | 81 | 注意力机制分析与梯度归因方法 |
+| 鲁棒性与对抗 | 128 | 46 | 视频模型的鲁棒性与对抗攻击/防御 |
+| 3D CNN 解释 | 127 | 63 | 3D 卷积网络 / R(2+1)D 等时空卷积模型的可解释性 |
 | 视频显著性 | 108 | 45 | 视频/空间显著性检测与可视化 |
 | 未分类 | 99 | - | - |
 
@@ -40,7 +40,7 @@
 | 🔥 | [Action Transformer: A Self-Attention Model for Short-Time Po](http://arxiv.org/abs/2107.00606v6) | 2021 | 5.7 |
 | 🔥 | [Temporal-attentive Covariance Pooling Networks for Video Rec](http://arxiv.org/abs/2110.14381v3) | 2021 | 5.7 |
 
-*... 共 1289 篇，仅显示前 15 篇*
+*... 共 1301 篇，仅显示前 15 篇*
 
 ---
 
@@ -66,7 +66,7 @@
 | 🔥 | [Spatiotemporal distilled dense-connectivity network for vide](https://www.semanticscholar.org/paper/04d27bbbc875bd8fe52521112841d47b21950e7c) | 2019 | 5.3 |
 | 🔥 | [Revisiting Video Saliency: A Large-scale Benchmark and a New](http://arxiv.org/abs/1801.07424v3) | 2018 | 5.3 |
 
-*... 共 375 篇，仅显示前 15 篇*
+*... 共 379 篇，仅显示前 15 篇*
 
 ---
 
@@ -92,7 +92,7 @@
 | 🔥 | [Fine tuning 3D Convolutional Networks for enhanced Action Re](https://www.semanticscholar.org/paper/5117082498715afed2125ea29c0db60380ff027c) | 2025 | 5.4 |
 | 🔥 | [A Hybrid 3D CNNs Transformer Architecture for Video-Based Hu](https://www.semanticscholar.org/paper/e6b804076db44eb636ebe9d8ec47bcd3aa31a067) | 2025 | 5.4 |
 
-*... 共 363 篇，仅显示前 15 篇*
+*... 共 367 篇，仅显示前 15 篇*
 
 ---
 
@@ -144,7 +144,7 @@
 | 🔥 | [3D Convolutional with Attention for Action Recognition](http://arxiv.org/abs/2206.02203v1) | 2022 | 5.0 |
 | 🔥 | [Analytic Dynamics: Learning Physics-Grounded Representation ](http://arxiv.org/abs/2608.31025v1) | 2026 | 4.9 |
 
-*... 共 182 篇，仅显示前 15 篇*
+*... 共 184 篇，仅显示前 15 篇*
 
 ---
 
@@ -170,7 +170,7 @@
 | 🔥 | [InstructMixup: Instruction-Guided Salient Patch Editing for ](http://arxiv.org/abs/2607.19324v1) | 2026 | 4.7 |
 | 🔥 | [Sign Language Video Synthesis via Loss-Guided Multi-Expert G](http://arxiv.org/abs/2608.13368v1) | 2026 | 4.7 |
 
-*... 共 127 篇，仅显示前 15 篇*
+*... 共 128 篇，仅显示前 15 篇*
 
 ---
 
@@ -196,7 +196,7 @@
 | 🔥 | [3D Convolutional with Attention for Action Recognition](http://arxiv.org/abs/2206.02203v1) | 2022 | 5.0 |
 | 🔥 | [Would Mega-scale Datasets Further Enhance Spatiotemporal 3D ](http://arxiv.org/abs/2004.04968v1) | 2020 | 5.0 |
 
-*... 共 126 篇，仅显示前 15 篇*
+*... 共 127 篇，仅显示前 15 篇*
 
 ---
 
