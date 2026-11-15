@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/strongly_related-831-yellow" alt="strongly_related" />
   <img src="https://img.shields.io/badge/arXiv-1264-critical" alt="arXiv" />
   <img src="https://img.shields.io/badge/Semantic_Scholar-316-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-11-14-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/last_update-2026-11-15-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -31,7 +31,7 @@
 | 🔬 Semantic Scholar | 316 |
 | 🔗 CrossRef 增强 | 19 |
 | ✍️ 手工整理 | 5 |
-| ⏰ 最后更新 | 2026-11-14 07:31:34 |
+| ⏰ 最后更新 | 2026-11-15 07:44:28 |
 
 ## 🏆 高影响力论文 Top 5
 
@@ -226,7 +226,7 @@
 | 🔥 | [Improved CNN-based Learning of Interpolation Filte](http://arxiv.org/abs/2106.08936v1) | 本文聚焦视频模型可解释性，采用梯度归因、显著性或概念分析，主要用于分析模型依据及关键空间或时间区域。 | Luka Murn, Saverio Blasi+ | 4.9 |
 | 🔥 | [SAIC_Cambridge-HuPBA-FBK Submission to the EPIC-Ki](http://arxiv.org/abs/2110.02902v1) | 本文聚焦视频理解与时序推理，采用时空注意力或 Transformer，主要用于完成识别或分类任务并评估模型表现。 | Swathikiran Sudhakaran, Adrian Bulat+ | 4.7 |
 | 🔥 | ["Knights": First Place Submission for VIPriors21 A](http://arxiv.org/abs/2110.07758v1) | 本文聚焦视频理解与时序推理，采用时空注意力或 Transformer，主要用于完成识别或分类任务并评估模型表现。 | Ishan Dave, Naman Biyani+ | 4.4 |
-| 🔥 | [Revisiting Video Saliency Prediction in the Deep L](https://www.semanticscholar.org/paper/124fd51a1d09fdfa340414c9719f797133507583) | 本文聚焦视频模型可解释性，采用梯度归因、显著性或概念分析，主要用于分析模型依据及关键空间或时间区域。 | Wenguan Wang, Jianbing Shen+ | 4.3 |
+| 🔥 | [Revisiting Video Saliency Prediction in the Deep L](https://www.semanticscholar.org/paper/124fd51a1d09fdfa340414c9719f797133507583) | 本文聚焦视频模型可解释性，采用梯度归因、显著性或概念分析，主要用于分析模型依据及关键空间或时间区域。 | Wen-Guan Wang, Jian-Bing Shen+ | 4.3 |
 | 🔥 | [Recent Advances in Video Action Recognition with 3](https://www.semanticscholar.org/paper/662288676e52adf90909b6e1ebce4192570a35da) | 本文聚焦视频时空表征学习，采用三维卷积网络，主要用于完成识别或分类任务并评估模型表现。 | Kensho Hara | 4.3 |
 
 *仅展示前 12 篇，完整 49 篇请查看 [ALL_PAPERS_zh.md](ALL_PAPERS_zh.md)。*

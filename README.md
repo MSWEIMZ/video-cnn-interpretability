@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/strongly_related-831-yellow" alt="strongly_related" />
   <img src="https://img.shields.io/badge/arXiv-1264-critical" alt="arXiv" />
   <img src="https://img.shields.io/badge/Semantic_Scholar-316-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-11-14-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/last_update-2026-11-15-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -31,7 +31,7 @@
 | 🔬 Semantic Scholar | 316 |
 | 🔗 CrossRef Enriched | 19 |
 | ✍️ Manual | 5 |
-| ⏰ Last Updated | 2026-11-14 07:31:34 |
+| ⏰ Last Updated | 2026-11-15 07:44:28 |
 
 ## 🏆 Top 5 Most Influential
 
@@ -226,7 +226,7 @@
 | 🔥 | [Improved CNN-based Learning of Interpolation Filte](http://arxiv.org/abs/2106.08936v1) | The versatility of recent machine learning approaches makes them ideal | Luka Murn, Saverio Blasi+ | 4.9 |
 | 🔥 | [SAIC_Cambridge-HuPBA-FBK Submission to the EPIC-Ki](http://arxiv.org/abs/2110.02902v1) | This report presents the technical details of our submission to the EP | Swathikiran Sudhakaran, Adrian Bulat+ | 4.7 |
 | 🔥 | ["Knights": First Place Submission for VIPriors21 A](http://arxiv.org/abs/2110.07758v1) | This technical report presents our approach "Knights" to solve the act | Ishan Dave, Naman Biyani+ | 4.4 |
-| 🔥 | [Revisiting Video Saliency Prediction in the Deep L](https://www.semanticscholar.org/paper/124fd51a1d09fdfa340414c9719f797133507583) | Predicting where people look in static scenes, a. k. a visual saliency | Wenguan Wang, Jianbing Shen+ | 4.3 |
+| 🔥 | [Revisiting Video Saliency Prediction in the Deep L](https://www.semanticscholar.org/paper/124fd51a1d09fdfa340414c9719f797133507583) | Predicting where people look in static scenes, a. k. a visual saliency | Wen-Guan Wang, Jian-Bing Shen+ | 4.3 |
 | 🔥 | [Recent Advances in Video Action Recognition with 3](https://www.semanticscholar.org/paper/662288676e52adf90909b6e1ebce4192570a35da) | SUMMARY The performance of video action recognition has improved signi | Kensho Hara | 4.3 |
 
 *Showing 12 of 49 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*

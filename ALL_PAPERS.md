@@ -1,6 +1,6 @@
 # 📚 Complete Paper List — Video CNN/XAI Research Hub
 
-> Last updated: 2026-11-14 07:31:34 | 1585 papers total
+> Last updated: 2026-11-15 07:44:28 | 1585 papers total
 
 ---
 
@@ -1176,7 +1176,7 @@
 | 📎 | [Design of an Iterative Model for Hierarchical Context Aware ](https://www.semanticscholar.org/paper/d870e636bd329a33f2d2644b53035155fc5bebea) | Summation algorithms with great compactness and contextual r | A. R. Satish, Balajee Maram+ | 3.3 | expanded | semantic_scholar |
 | 📎 | [A Study on Interpretable Electric Load Forecasting Model wit](https://www.semanticscholar.org/paper/f73a3911ded0e42a49525ff57decc2ef9b815004) | Driven by the global “double carbon” goal, the volatility of | Shuaishuai Li, Weizhen Chen | 3.3 | expanded | semantic_scholar |
 | 📎 | [STAA: Spatio-Temporal Attention Attribution for Real-Time In](https://www.semanticscholar.org/paper/0cc475f3ae922a0dae188e7bc89906bc1f0eba9c) | Transformer-based video models have performed SOTA in variou | Zerui Wang, Yan Liu | 3.3 | expanded | semantic_scholar |
-| 📎 | [Developing Evolving Adaptability in Biological Intelligence:](https://www.semanticscholar.org/paper/bf6611bf8df64d23e6434ea936a18faeae506f84) | In the era of deep learning, video saliency prediction task  | Dandan Zhu, Kaiwei Zhang+ | 3.2 | expanded | semantic_scholar |
+| 📎 | [Developing Evolving Adaptability in Biological Intelligence:](https://www.semanticscholar.org/paper/bf6611bf8df64d23e6434ea936a18faeae506f84) | In the era of deep learning, video saliency prediction task  | Dan-Dan Zhu, Kai-Wei Zhang+ | 3.2 | expanded | semantic_scholar |
 | 📎 | [Automated ARAT Scoring Using Multimodal Video Analysis, Mult](https://arxiv.org/abs/2505.01680) | Manual scoring of the Action Research Arm Test (ARAT) for up | Tamim Ahmed, T. Rikakis | 3.2 | expanded | semantic_scholar |
 | 📎 | [VTAN: A Novel Video Transformer Attention-Based Network for ](https://www.semanticscholar.org/paper/5765ada954611d151d411bc9000789162d53bd4d) | Dynamic sign language recognition holds significant importan | Ziyang Deng, Mengxue Liu+ | 3.2 | expanded | semantic_scholar |
 | 📎 | [ViSS-R1: Self-Supervised Reinforcement Video Reasoning](http://arxiv.org/abs/2511.13054v1) | Complex video reasoning remains a significant challenge for  | Bo Fang, Yuxin Song+ | 3.1 | exploratory | arxiv |
@@ -1279,7 +1279,7 @@
 | 📎 | [DARNet: Dual Attention Refinement Network with Spatiotempora](http://arxiv.org/abs/2410.11181v2) | At a cocktail party, humans exhibit an impressive ability to | Sheng Yan, Cunhang fan+ | 3.2 | expanded | arxiv |
 | 📎 | [Referring Atomic Video Action Recognition](https://arxiv.org/abs/2407.01872) | We introduce a new task called Referring Atomic Video Action | Kunyu Peng, Jianyang Fu+ | 3.2 | expanded | semantic_scholar |
 | 📎 | [ActionAtlas: A VideoQA Benchmark for Domain-specialized Acti](https://arxiv.org/abs/2410.05774) | Our world is full of varied actions and moves across special | Mohammadreza Salehi, J. Park+ | 3.2 | expanded | semantic_scholar |
-| 📎 | [Artificial Intelligence-Based Video Saliency Prediction: Cha](https://www.semanticscholar.org/paper/3f1ad85c638c84e37beba8776ebb97782cc83ee1) | Video saliency prediction (VSP) aims to identify regions in  | Jiongzhi Lin, Baitao Huang+ | 3.2 | expanded | semantic_scholar |
+| 📎 | [Artificial Intelligence-Based Video Saliency Prediction: Cha](https://www.semanticscholar.org/paper/3f1ad85c638c84e37beba8776ebb97782cc83ee1) | Video saliency prediction (VSP) aims to identify regions in  | Jiong-Zhi Lin, Bai-Tao Huang+ | 3.2 | expanded | semantic_scholar |
 | 📎 | [Towards Synthetic Data Generation for Improved Pain Recognit](http://arxiv.org/abs/2409.16382v1) | Recognizing pain in video is crucial for improving patient-c | Jonas Nasimzada, Jens Kleesiek+ | 3.1 | expanded | arxiv |
 | 📎 | [Slot-VLM: SlowFast Slots for Video-Language Modeling](http://arxiv.org/abs/2402.13088v1) | Video-Language Models (VLMs), powered by the advancements in | Jiaqi Xu, Cuiling Lan+ | 3.1 | expanded | arxiv |
 | 📎 | [Foundation Models for Video Understanding: A Survey](http://arxiv.org/abs/2405.03770v1) | Video Foundation Models (ViFMs) aim to learn a general-purpo | Neelu Madan, Andreas Moegelmose+ | 3.1 | exploratory | arxiv |
@@ -1293,7 +1293,7 @@
 | 📎 | [Optimizing Human Action Recognition in Still Images Using De](https://www.semanticscholar.org/paper/9fcaf6ef09be1f596df26c8b4e9baa072960b003) | Human action recognition(HAR) enables the detection and clas | Md Tasnim Alam, Subhram Dasgupta+ | 3.0 | expanded | semantic_scholar |
 | 📎 | [Emotion Recognition Model Based on Visual Cues and Explainab](https://www.semanticscholar.org/paper/ba1f785c80e054521c73dfd6d690a950d12d0c33) | Emotion recognition is vital for improving human-computer in | H. S, H. B.+ | 3.0 | expanded | semantic_scholar |
 | 📎 | [An End-to-End Two-Stream Network Based on RGB Flow and Repre](https://arxiv.org/abs/2411.18002) | With the rapid development of deep learning, the performance | Songjiang Lai, Tsun-hin Cheung+ | 3.0 | expanded | semantic_scholar |
-| 📎 | [From Discrete Representation to Continuous Modeling: A Novel](https://www.semanticscholar.org/paper/9ada7f4032fb71a35fe4c1afe988e17b1e68bcab) | In the era of deep learning, audio-visual saliency predictio | Dandan Zhu, Kaiwei Zhang+ | 3.0 | expanded | semantic_scholar |
+| 📎 | [From Discrete Representation to Continuous Modeling: A Novel](https://www.semanticscholar.org/paper/9ada7f4032fb71a35fe4c1afe988e17b1e68bcab) | In the era of deep learning, audio-visual saliency predictio | Dan-Dan Zhu, Kai-Wei Zhang+ | 3.0 | expanded | semantic_scholar |
 | 📎 | [Understanding Video Transformers via Universal Concept Disco](https://arxiv.org/abs/2401.10831) | This paper studies the problem of concept-based inter-pretab | M. Kowal, Achal Dave+ | 3.0 | expanded | semantic_scholar |
 | 📎 | [Situated Visualization in Motion for Video Games](http://arxiv.org/abs/2409.07031v1) | We contribute a systematic review of situated visualizations | Federica Bucchieri, Lijie Yao+ | 2.9 | expanded | arxiv |
 | 📎 | [Grounded-VideoLLM: Sharpening Fine-grained Temporal Groundin](http://arxiv.org/abs/2410.03290v2) | Video Large Language Models (Video-LLMs) have demonstrated r | Haibo Wang, Zhiyang Xu+ | 2.9 | exploratory | arxiv |
@@ -1316,7 +1316,7 @@
 | 📎 | [WhisperNetV2: SlowFast Siamese Network For Lip-Based Biometr](http://arxiv.org/abs/2407.08717v1) | Lip-based biometric authentication (LBBA) has attracted many | Abdollah Zakeri, Hamid Hassanpour+ | 2.6 | expanded | arxiv |
 | 📎 | [A Comprehensive Design of Hybrid Residual (2+1)-Dimensional ](https://www.semanticscholar.org/paper/a74585a2df16f46818a618f62bbd123fb07538ad) | Fish is one of the most demanding protein sources in the foo | I. Syafalni, Agape D'sky+ | 2.6 | core | semantic_scholar |
 | 📎 | [Enhancing Object Detection Interpretability for Class-Discri](https://www.semanticscholar.org/paper/4c00d95f26b05b3d25afdcd5cb5dcc2612793ab4) | Computer vision has benefited greatly from deep learning; it | Md Fatin Ishrak, J. Nahar+ | 2.5 | expanded | semantic_scholar |
-| 📎 | [Audio-Visual Saliency Prediction Model with Implicit Neural ](https://www.semanticscholar.org/paper/03bf6772a17e550064825439831a1f9b0fbf1ab7) | With the remarkable advancement of deep learning techniques  | Nana Zhang, Min Xiong+ | 2.5 | expanded | semantic_scholar |
+| 📎 | [Audio-Visual Saliency Prediction Model with Implicit Neural ](https://www.semanticscholar.org/paper/03bf6772a17e550064825439831a1f9b0fbf1ab7) | With the remarkable advancement of deep learning techniques  | Na-Na Zhang, Min Xiong+ | 2.5 | expanded | semantic_scholar |
 
 ## 2023 (57 papers)
 
@@ -1450,7 +1450,7 @@
 | 🔥 | [Improved CNN-based Learning of Interpolation Filters for Low](http://arxiv.org/abs/2106.08936v1) | The versatility of recent machine learning approaches makes  | Luka Murn, Saverio Blasi+ | 4.9 | core | arxiv |
 | 🔥 | [SAIC_Cambridge-HuPBA-FBK Submission to the EPIC-Kitchens-100](http://arxiv.org/abs/2110.02902v1) | This report presents the technical details of our submission | Swathikiran Sudhakaran, Adrian Bulat+ | 4.7 | core | arxiv |
 | 🔥 | ["Knights": First Place Submission for VIPriors21 Action Reco](http://arxiv.org/abs/2110.07758v1) | This technical report presents our approach "Knights" to sol | Ishan Dave, Naman Biyani+ | 4.4 | core | arxiv |
-| 🔥 | [Revisiting Video Saliency Prediction in the Deep Learning Er](https://www.semanticscholar.org/paper/124fd51a1d09fdfa340414c9719f797133507583) | Predicting where people look in static scenes, a. k. a visua | Wenguan Wang, Jianbing Shen+ | 4.3 | expanded | semantic_scholar |
+| 🔥 | [Revisiting Video Saliency Prediction in the Deep Learning Er](https://www.semanticscholar.org/paper/124fd51a1d09fdfa340414c9719f797133507583) | Predicting where people look in static scenes, a. k. a visua | Wen-Guan Wang, Jian-Bing Shen+ | 4.3 | expanded | semantic_scholar |
 | 🔥 | [Recent Advances in Video Action Recognition with 3D Convolut](https://www.semanticscholar.org/paper/662288676e52adf90909b6e1ebce4192570a35da) | SUMMARY The performance of video action recognition has impr | Kensho Hara | 4.3 | core | semantic_scholar |
 | 🔥 | [Temporal-Spatial Feature Pyramid for Video Saliency Detectio](http://arxiv.org/abs/2105.04213v2) | Multi-level features are important for saliency detection. B | Qinyao Chang, Shiping Zhu | 4.2 | expanded | arxiv |
 | 🔥 | [Space-time Mixing Attention for Video Transformer](http://arxiv.org/abs/2106.05968v2) | This paper is on video recognition using Transformers. Very  | Adrian Bulat, Juan-Manuel Perez-Rua+ | 4.2 | expanded | arxiv |
@@ -1488,7 +1488,7 @@
 | 📎 | [Human action recognition using three orthogonal planes with ](https://www.semanticscholar.org/paper/49e0b4dd7e0c1e469745aa98c3e649e2e93bdd1c) | Human action recognition using three orthogonal planes with  | Amany Abdelbaky, S. Aly | 2.8 | core | semantic_scholar |
 | 📎 | [(2+1)D-SLR: an efficient network for video sign language rec](https://www.semanticscholar.org/paper/ef770157c6f8b602dd31bdfa3eb10f175b16bd71) | (2+1)D-SLR: an efficient network for video sign language rec | Fei Wang, Yu Du+ | 2.8 | core | semantic_scholar |
 | 📎 | [Automated Diagnosis of Major Depressive Disorder Using Brain](https://www.semanticscholar.org/paper/44047bdad78f20c7b4e2acf4c815c87f3a2f2c84) | Major depressive disorder (MDD), which is also known as unip | Danish M. Khan, N. Yahya+ | 2.8 | core | semantic_scholar |
-| 📎 | [Learn to Look Around: Deep Reinforcement Learning Agent for ](https://www.semanticscholar.org/paper/286d0554e7248dc1e40eb3d8430563ed54e5913d) | In the video saliency prediction task, one of the key issues | Yiran Tao, Yaosi Hu+ | 2.7 | expanded | semantic_scholar |
+| 📎 | [Learn to Look Around: Deep Reinforcement Learning Agent for ](https://www.semanticscholar.org/paper/286d0554e7248dc1e40eb3d8430563ed54e5913d) | In the video saliency prediction task, one of the key issues | Yiran Tao, Yao-Si Hu+ | 2.7 | expanded | semantic_scholar |
 
 ## 2020 (41 papers)
 
@@ -1623,7 +1623,7 @@
 | 📎 | [Beyond Frame-level CNN: Saliency-Aware 3-D CNN With LSTM for](https://www.semanticscholar.org/paper/4d972b4b6d2eae0bc810225dc3fd3b89e861dd56) | Beyond Frame-level CNN: Saliency-Aware 3-D CNN With LSTM for | Xuanhan Wang, Lianli Gao+ | 3.2 | expanded | semantic_scholar |
 | 📎 | [Assessing Visual Quality of Omnidirectional Videos](http://arxiv.org/abs/1709.06342v4) | In contrast with traditional video, omnidirectional video en | Mai Xu, Chen Li+ | 2.8 | core | arxiv |
 | 📎 | [Network Coding Algorithms for Multi-Layered Video Broadcast](http://arxiv.org/abs/1712.06435v1) | In this paper we give network coding algorithms for multi-la | Erika R. Bérczi-Kovács, Zoltán Király | 2.8 | core | arxiv |
-| 📎 | [Attentive models in vision: Computing saliency maps in the d](https://www.semanticscholar.org/paper/fcab88ece5f4ce26a79f660c56051ebf27c39f1f) | Estimating the focus of attention of a person looking at an  | Marcella Cornia, Davide Abati+ | 2.8 | expanded | semantic_scholar |
+| 📎 | [Attentive models in vision: Computing saliency maps in the d](https://www.semanticscholar.org/paper/fcab88ece5f4ce26a79f660c56051ebf27c39f1f) | Estimating the focus of attention of a person looking at an  | M. Cornia, Davide Abati+ | 2.8 | expanded | semantic_scholar |
 
 ## 2016 (6 papers)
 
