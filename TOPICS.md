@@ -1,20 +1,20 @@
 # 📂 主题视图
 
-> 共 8 个主题 | 最后更新: 2026-11-16 07:51
+> 共 8 个主题 | 最后更新: 2026-11-17 09:00
 
 ## 📊 主题概览
 
 | 主题 | 论文数 | 核心论文 | 说明 |
 |------|--------|----------|------|
-| 时序解释 | 1344 | 670 | 聚焦于视频时序维度的可解释性研究 |
+| 时序解释 | 1355 | 678 | 聚焦于视频时序维度的可解释性研究 |
 | 网络解剖 | 391 | 188 | 网络内部单元 / 特征可视化与解剖 |
-| 视频 Transformer 可解释性 | 379 | 170 | Vision Transformer / Video Transformer 的可解释性 |
-| 动作识别可解释性 | 297 | 154 | 视频动作识别 / 分类任务的可解释性研究 |
-| 注意力与归因 | 191 | 85 | 注意力机制分析与梯度归因方法 |
+| 视频 Transformer 可解释性 | 380 | 171 | Vision Transformer / Video Transformer 的可解释性 |
+| 动作识别可解释性 | 298 | 155 | 视频动作识别 / 分类任务的可解释性研究 |
+| 注意力与归因 | 192 | 86 | 注意力机制分析与梯度归因方法 |
 | 鲁棒性与对抗 | 129 | 47 | 视频模型的鲁棒性与对抗攻击/防御 |
 | 3D CNN 解释 | 128 | 64 | 3D 卷积网络 / R(2+1)D 等时空卷积模型的可解释性 |
-| 视频显著性 | 108 | 45 | 视频/空间显著性检测与可视化 |
-| 未分类 | 103 | - | - |
+| 视频显著性 | 110 | 46 | 视频/空间显著性检测与可视化 |
+| 未分类 | 107 | - | - |
 
 ---
 
@@ -40,7 +40,7 @@
 | 🔥 | [Action Transformer: A Self-Attention Model for Short-Time Po](http://arxiv.org/abs/2107.00606v6) | 2021 | 5.7 |
 | 🔥 | [Temporal-attentive Covariance Pooling Networks for Video Rec](http://arxiv.org/abs/2110.14381v3) | 2021 | 5.7 |
 
-*... 共 1344 篇，仅显示前 15 篇*
+*... 共 1355 篇，仅显示前 15 篇*
 
 ---
 
@@ -92,7 +92,7 @@
 | 🔥 | [Fine tuning 3D Convolutional Networks for enhanced Action Re](https://www.semanticscholar.org/paper/5117082498715afed2125ea29c0db60380ff027c) | 2025 | 5.4 |
 | 🔥 | [A Hybrid 3D CNNs Transformer Architecture for Video-Based Hu](https://www.semanticscholar.org/paper/e6b804076db44eb636ebe9d8ec47bcd3aa31a067) | 2025 | 5.4 |
 
-*... 共 379 篇，仅显示前 15 篇*
+*... 共 380 篇，仅显示前 15 篇*
 
 ---
 
@@ -118,7 +118,7 @@
 | 🔥 | [TEA: Temporal Excitation and Aggregation for Action Recognit](http://arxiv.org/abs/2004.01398v1) | 2020 | 5.5 |
 | 🔥 | [Fine tuning 3D Convolutional Networks for enhanced Action Re](https://www.semanticscholar.org/paper/5117082498715afed2125ea29c0db60380ff027c) | 2025 | 5.4 |
 
-*... 共 297 篇，仅显示前 15 篇*
+*... 共 298 篇，仅显示前 15 篇*
 
 ---
 
@@ -144,7 +144,7 @@
 | 🔥 | [Obscured Wildfire Flame Detection by Spatio-temporal Analysi](http://arxiv.org/abs/2611.14074v1) | 2026 | 5.0 |
 | 🔥 | [3D Convolutional with Attention for Action Recognition](http://arxiv.org/abs/2206.02203v1) | 2022 | 5.0 |
 
-*... 共 191 篇，仅显示前 15 篇*
+*... 共 192 篇，仅显示前 15 篇*
 
 ---
 
@@ -222,4 +222,4 @@
 | 🔥 | [Graph-Theoretic Spatiotemporal Context Modeling for Video Sa](http://arxiv.org/abs/1707.07815v1) | 2017 | 4.8 |
 | 🔥 | [InstructMixup: Instruction-Guided Salient Patch Editing for ](http://arxiv.org/abs/2607.19324v1) | 2026 | 4.7 |
 
-*... 共 108 篇，仅显示前 15 篇*
+*... 共 110 篇，仅显示前 15 篇*
