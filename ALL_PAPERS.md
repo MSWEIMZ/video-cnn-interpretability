@@ -1,10 +1,10 @@
 # 📚 Complete Paper List — Video CNN/XAI Research Hub
 
-> Last updated: 2026-11-17 09:00:57 | 1610 papers total
+> Last updated: 2026-11-19 08:36:14 | 1622 papers total
 
 ---
 
-## 2026 (1114 papers)
+## 2026 (1126 papers)
 
 | Tag | Title | Summary | Author | Score | Query Type | Source |
 |------|------|------|------|----------|------|--------|
@@ -183,6 +183,8 @@
 | 🔥 | [Restoring Diversity in Distilled Image and Video Generators ](http://arxiv.org/abs/2611.18550v1) | Distilling diffusion models into few-step student models sub | Furkan Horoz, Ozgur Kara+ | 4.9 | core | arxiv |
 | 🔥 | [BLIP-Live: Balancing Timeliness & Firing Precision in Proact](http://arxiv.org/abs/2611.21553v1) | Streaming video understanding is becoming increasingly impor | Kanchana Ranasinghe, Honglu Zhou+ | 4.9 | core | arxiv |
 | 🔥 | [ALIVE: Making Streaming Video Models Interactive](http://arxiv.org/abs/2611.21366v1) | Streaming video LLMs can continuously observe the world, yet | Jinzhao Li, Yuan Xu+ | 4.9 | core | arxiv |
+| 🔥 | [$Z$-sight: Unifying Vision-Language-Action and Latent World ](http://arxiv.org/abs/2611.24940v1) | We introduce $Z$-sight, a unified robot foundation model tha | Junjie Ye, Yiqi Zhao+ | 4.9 | core | arxiv |
+| 🔥 | [A$^3$Bench: Compositional Reasoning over Aggressive Interact](http://arxiv.org/abs/2611.24762v1) | Recent Multimodal Large Language Models (MLLMs) have achieve | Austin C Baker, Raiyaan Abdullah+ | 4.9 | core | arxiv |
 | 🔥 | [A Very Big Video Reasoning Suite](http://arxiv.org/abs/2602.20159v2) | Rapid progress in video models has largely focused on visual | Maijunxian Wang, Ruisi Wang+ | 4.8 | exploratory | arxiv |
 | 🔥 | [HyperClaim: Fine-Grained Cross-Modal Hypergraph Reasoning fo](http://arxiv.org/abs/2607.28375v1) | Video misinformation detection is often approached through g | Xiangbo Wang, Jiasheng Zhang+ | 4.8 | core | arxiv |
 | 🔥 | [Kinematic Knowledge Maps for Pattern Alignment: Structured L](http://arxiv.org/abs/2608.20969v1) | Multimodal clinical AI is limited by weakly aligned inputs a | Chen Dong, He Zonglin+ | 4.8 | core | arxiv |
@@ -242,6 +244,7 @@
 | 🔥 | [Measuring Robustness and Efficiency in a Connectome-Constrai](http://arxiv.org/abs/2611.14498v1) | Biological visual systems compute reliably under tight metab | Alexandre Garcia-Duran, Alejandro Rodriguez-Garcia+ | 4.7 | core | arxiv |
 | 🔥 | [Vision-Language-Action Models: A Life-Cycle Survey of Design](http://arxiv.org/abs/2611.18372v1) | Vision-language-action (VLA) models adapt web-pretrained vis | Suvarna Kadam, Soran Parsa | 4.7 | core | arxiv |
 | 🔥 | [Reference Forcing: Long Video Generation with Region-Guided ](http://arxiv.org/abs/2611.21559v1) | Long video generation should keep the subject and background | Sheng Zhao, Haitian Zheng+ | 4.7 | core | arxiv |
+| 🔥 | [HandWorldBench: A Unified Benchmark for Hand-Centric World M](http://arxiv.org/abs/2611.24731v1) | Recent advances in world models are opening new possibilitie | Zhaolu Wang, Jiacheng Xu+ | 4.7 | core | arxiv |
 | 🔥 | [Effects of Different Attention Mechanisms Applied on 3D Mode](https://arxiv.org/abs/2601.10854) | Human action recognition has become an important research fo | Mohammad Rasras, Iuliana Marin+ | 4.6 | core | semantic_scholar |
 | 🔥 | [fMRI2Face: A Full-HD fMRI-Video Dataset and Geometry-Guided ](http://arxiv.org/abs/2607.22302v1) | Reconstructing dynamic human faces from brain activity provi | Jingyang Huo, Xiangru Huang+ | 4.6 | core | arxiv |
 | 🔥 | [Spatio-Temporal Conditional Denoising Transformer for Modali](http://arxiv.org/abs/2607.24701v1) | Missing modalities in RGBT tracking often lead to incomplete | Andong Lu, Ziyi Zha+ | 4.6 | core | arxiv |
@@ -280,6 +283,7 @@
 | 🔥 | [CRTrack-Cap: A New Benchmark for Cross-View Dense Video Obje](http://arxiv.org/abs/2611.09617v1) | Dense video object captioning (DVOC) localizes, tracks, and  | Xiangqun Zhang, Likai Wang+ | 4.6 | core | arxiv |
 | 🔥 | [K2V: Generative Keyframing For Physically Plausible Video Ge](http://arxiv.org/abs/2611.17324v1) | Video diffusion models are able to generate samples with hig | Felix O'Mahony, Daniel Olmeda Reino+ | 4.6 | core | arxiv |
 | 🔥 | [Consensus Capture in Reference-Based UAV Video Stabilization](http://arxiv.org/abs/2611.17190v1) | Reference-frame stabilization registers every frame of a hov | Robert Fonod, Nikolas Geroliminis | 4.6 | core | arxiv |
+| 🔥 | [Training-free motion statistics match self-supervised behavi](http://arxiv.org/abs/2611.24792v1) | Self-supervised encoders for animal behavior are often train | Ziwen Chen | 4.6 | core | arxiv |
 | 🔥 | [Physics-Based Deep Spatiotemporal Hyperlocal Radar Nowcastin](http://arxiv.org/abs/2607.16080v1) | Precipitation nowcasting over the immediate 10-90 min period | Akshay Sunil, Muhammed Rashid+ | 4.5 | core | arxiv |
 | 🔥 | [Chimera: Designing and Chinchilla-Scaling Hybrid Visual Diff](http://arxiv.org/abs/2607.28611v1) | Visual generation increasingly requires high-resolution imag | Chongjian Ge, Hanwen Jiang+ | 4.5 | core | arxiv |
 | 🔥 | [QuantWAMs: Calibrating at the Right Granularity for World Ac](http://arxiv.org/abs/2607.28405v1) | World Action Models (WAMs) jointly predict future observatio | Jiacheng Zhou, Jinfan Lv+ | 4.5 | core | arxiv |
@@ -454,6 +458,7 @@
 | 🔥 | [PDRVLA: A Vision-Language-Action Model with Physical Dynamic](http://arxiv.org/abs/2610.37381v1) | Vision--Language--Action (VLA) models generate robot actions | Hanqing Wang, Zhaotian Cai+ | 4.2 | exploratory | arxiv |
 | 🔥 | [D&A: Decoupling Description and Assessment Enables VLMs as Z](http://arxiv.org/abs/2611.03622v1) | Vision-Language Models (VLMs) hold promise for zero-shot vid | Marius Memmel, Shawn Yin+ | 4.2 | core | arxiv |
 | 🔥 | [Evaluating Video LLMs' Understanding of Corner Cases in Auto](http://arxiv.org/abs/2611.16767v1) | Natural language explanations promised by modern Video Large | Gabriel Manalu, Minh Son Hoang+ | 4.2 | expanded | arxiv |
+| 🔥 | [Horizontal Flow Matching for Single-Cell Spatiotemporal Dyna](http://arxiv.org/abs/2611.24764v1) | Learning the spatiotemporal dynamics of cells from spatial t | Zihan Wang, Jianzhe Li+ | 4.2 | core | arxiv |
 | 🔥 | [BCAT-Net: Binocular Cross-Attention Transformer Network for ](https://www.semanticscholar.org/paper/54fcb1e69b041e5ce6be3c7132457b81e80fd163) | The selective nature of human visual attention is fundamenta | Kaushal Kumar | 4.1 | expanded | semantic_scholar |
 | 🔥 | [Beyond CNNs: A Comparative Framework for Explainable and Hyb](https://www.semanticscholar.org/paper/6361115ec031c08a1ebc6131f50842a10ad558a8) | Unstructured environments, shifting motion patterns, and a l | Akshita M B, Abhinay Kumar+ | 4.1 | expanded | semantic_scholar |
 | 🔥 | [Online Neural Space Time Memory for Dynamic Novel View Synth](http://arxiv.org/abs/2607.15271v1) | Online novel view synthesis from multi-view streaming videos | Baback Elmieh, Lynn Tsai+ | 4.1 | core | arxiv |
@@ -585,6 +590,8 @@
 | 🔥 | [Report of the 8th LSVOS Challenge: Mobile Unified Multimodal](http://arxiv.org/abs/2611.16925v1) | This report summarizes the Mobile Unified Multimodal Underst | Chang Liu, Henghui Ding+ | 4.1 | core | arxiv |
 | 🔥 | [Lost in the Hallway: Benchmarking Persistent Spatial Memory ](http://arxiv.org/abs/2611.21485v1) | Persistent spatial understanding is essential for embodied a | Henry Zheng, Weibo Gong+ | 4.1 | core | arxiv |
 | 🔥 | [Quality and Similarity Indicators for Video-Based Heart Rate](http://arxiv.org/abs/2611.21419v1) | Camera-based heart rate (HR) and respiratory rate (RR) estim | Nhi Nguyen, Le Nguyen+ | 4.1 | core | arxiv |
+| 🔥 | [Can Omni-modal LLMs Understand Spoken Intentions?](http://arxiv.org/abs/2611.24706v1) | Omni-modal large language models (omni-modal LLMs) can respo | Zijie Xin, Tianyi Wang+ | 4.1 | core | arxiv |
+| 🔥 | [H3Remover: Reinforcing Video Object Removal without Paired D](http://arxiv.org/abs/2611.24633v1) | Pretrained video editors possess rich removal and completion | Kangjie Chen, Xiangyu Li+ | 4.1 | core | arxiv |
 | 🔥 | [ReViV: Reconstructing the Viewer and the View in 4D from Mon](http://arxiv.org/abs/2607.17790v1) | Egocentric devices, such as wearable front-facing cameras, p | Xiaozhong Lyu, Gen Li+ | 4.0 | exploratory | arxiv |
 | 🔥 | [Quality Action Assurance: Multimodal Verification of Examine](http://arxiv.org/abs/2607.19063v1) | Objective Structured Clinical Examinations (OSCEs) are the g | Harry Rogers, Sally Shiels+ | 4.0 | core | arxiv |
 | 🔥 | [Learning Explicit Physical Parameter Control and Benchmarkin](http://arxiv.org/abs/2607.18924v1) | Recent advances in image-to-video generation have improved v | Yanxun Li, Hao Wen+ | 4.0 | exploratory | arxiv |
@@ -722,6 +729,7 @@
 | 📎 | [Learning High-Quality Pseudo-Labels for Point-Supervised Tem](http://arxiv.org/abs/2610.35516v1) | Point-supervised temporal action localization (PTAL) aims to | Zhenying Fang | 3.7 | exploratory | arxiv |
 | 📎 | [PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator f](http://arxiv.org/abs/2611.05320v1) | Teleoperation remains the default way to collect robot demon | Kewei Zhang, Juncheng Ma+ | 3.7 | core | arxiv |
 | 📎 | [SURE:Spatiotemporal Uncertainty Representation for Efficient](http://arxiv.org/abs/2611.09684v1) | Vision-language-action (VLA) policies have become a promisin | Jingye Zhang, Choo Sin Wai+ | 3.7 | core | arxiv |
+| 📎 | [SCRiD: Spatial and Contextual References for Generalizable A](http://arxiv.org/abs/2611.24524v1) | Generalizable AI-generated video detection remains challengi | Hao Tan, Zekai Zuo+ | 3.7 | exploratory | arxiv |
 | 📎 | [DPNeXt: A Lightweight Multi-Scale Feature Fusion Framework f](http://arxiv.org/abs/2607.16012v1) | Multi-Task Learning (MTL) in robotics perception systems sup | Jehun Kang, Jungha Wang+ | 3.6 | core | arxiv |
 | 📎 | [Examining the Associations between Visual and Non-Visual Ele](http://arxiv.org/abs/2607.15808v1) | Understanding cyclist preferences for the characteristics of | Heyang Hua, Koichi Ito+ | 3.6 | core | arxiv |
 | 📎 | [On the Geometry of Learned Representations in Event-Based Mu](http://arxiv.org/abs/2607.15794v1) | Classical approaches to event-based egomotion estimation, in | Stefano Silvestrini, Michele Ceresoli | 3.6 | core | arxiv |
@@ -778,7 +786,8 @@
 | 📎 | [Learning to Track Cells from Sparse Annotations in 3D Time-L](http://arxiv.org/abs/2611.06624v1) | Reconstructing cell lineages from 3D time-lapse microscopy r | Yusuke Uchida | 3.6 | core | arxiv |
 | 📎 | [Dual Architecture Fusion Vehicle Lidar 3D Target Detection](http://arxiv.org/abs/2611.09664v1) | In this paper, a 3D backbone network (SpconvTransformer) bas | Muyun Li, Weizheng Jin+ | 3.6 | core | arxiv |
 | 📎 | [BoviShift: A Six-Year Multi-Attribute Audit of Visual Cattle](http://arxiv.org/abs/2611.14476v1) | Computer vision offers a scalable, non-contact means of esti | Mobasshir Bhuiya Shagor, Nilambar Halder Tonmoy+ | 3.6 | core | arxiv |
-| 📎 | [A Deep Learning Based Approach to Real Time Video Content An](https://www.semanticscholar.org/paper/5a5505995fce05952158e1df54ec57d0e0150d8b) | This study explores the integration of deep learning based a | Arsito Ari Kuncoro, Siswanto Siswanto+ | 3.5 | expanded | semantic_scholar |
+| 📎 | [Reconstruction vs. Prediction Pre-Training of Discrete Video](http://arxiv.org/abs/2611.24781v1) | Self-supervised video encoders are commonly trained to eithe | Ron Kosova, Francesco Croce | 3.6 | core | arxiv |
+| 📎 | [A Deep Learning Based Approach to Real Time Video Content An](https://www.semanticscholar.org/paper/5a5505995fce05952158e1df54ec57d0e0150d8b) | This study explores the integration of deep learning based a | A. Kuncoro, S. Siswanto+ | 3.5 | expanded | semantic_scholar |
 | 📎 | [Neuro-Prismatic Video Models for Causality-Aware Action Reco](https://www.semanticscholar.org/paper/3c101fad76600998d739be5500075ef386087a50) | Video-based action recognition for neural rehabilitation—spa | Hend Alshaya | 3.5 | expanded | semantic_scholar |
 | 📎 | [Artificial Intelligence-Based Visualization System for Preci](https://www.semanticscholar.org/paper/a36e9843d1cca4b2936cf182a4511fb64e858063) | With the widespread application of AI in sports training, th | Shuiting Pei | 3.5 | core | semantic_scholar |
 | 📎 | [The LAIA Dataset: Labelled Attention for Intelligent Automob](http://arxiv.org/abs/2607.25570v1) | The development of autonomous vehicles (AVs) usually relies  | A. Contreras, D. Porres+ | 3.5 | expanded | arxiv |
@@ -969,6 +978,7 @@
 | 📎 | [Beyond Watching and Searching: Benchmarking Agents for Video](http://arxiv.org/abs/2610.31158v1) | Deep research agents synthesize open-web evidence into long  | Jiahao Meng, Qize Yang+ | 3.1 | exploratory | arxiv |
 | 📎 | [VideoMemBench: How Well Do MLLMs Remember in Video Conversat](http://arxiv.org/abs/2610.40131v1) | Multimodal large language models (MLLMs) can now process hou | Zhengdong Hu, Chao Wang+ | 3.1 | exploratory | arxiv |
 | 📎 | [VISTA: Vision-Language Integrated Semantic Triage Architectu](http://arxiv.org/abs/2611.04932v1) | Clustering faces by identity in long, continuous video strea | Jiashu Liao, Joanne Garde-Hansen+ | 3.1 | exploratory | arxiv |
+| 📎 | [Every Query Routes Itself: Accelerating Video Diffusion Tran](http://arxiv.org/abs/2611.24479v1) | Self-attention over long token sequences dominates the infer | Zhen Huang, Shuwei Li+ | 3.1 | exploratory | arxiv |
 | 📎 | [Rethinking Model Complexity: Contrastive Frame Embedding in ](https://www.semanticscholar.org/paper/51409999d92d79a4f4d7434f485240ea75c378f9) | Ejection fraction (EF) is a key indicator of left ventricula | Shaunna Wang, Yishan Zhong+ | 3.0 | expanded | semantic_scholar |
 | 📎 | [DEPART: Multi-Task Interpretable Depression and Parkinson's ](https://www.semanticscholar.org/paper/0bfe9911a151c82a1c959fed5a9a4366db95992e) | Automated video-based detection of cognitive disorders can e | E. Ryumina, A. Axyonov+ | 3.0 | expanded | semantic_scholar |
 | 📎 | [Classification of Smartphone Interaction Using Multimodal Ph](https://www.semanticscholar.org/paper/9949b1b648710498043c3c4eb3efeff60f209d3d) | Distinct smartphone interaction behaviors, like short-form v | Prakash Mishra, Vaibhav Kagathara+ | 3.0 | expanded | semantic_scholar |
@@ -1031,6 +1041,7 @@
 | 📎 | [PlayGen2: Learning Real-Time Playable Worlds with Explicit 3](http://arxiv.org/abs/2611.07867v1) | Building a playable world requires more than generating plau | Jihai Zhang, Yuhan Zhou+ | 2.9 | exploratory | arxiv |
 | 📎 | [Bridging Task Planning and Execution for Language-Conditione](http://arxiv.org/abs/2611.12409v1) | Robots are increasingly expected to execute natural-language | Emanuele Cuzzocrea, Giuseppina Iannotti+ | 2.9 | core | arxiv |
 | 📎 | [Share your Screen and Talk to Gemini: How Young Learners Int](http://arxiv.org/abs/2611.21306v1) | Children using Scratch to learn programming can struggle wit | Sven Jacobs, Lukas Berning+ | 2.9 | core | arxiv |
+| 📎 | [WorldRuler: Interactive World Modeling under Configurable Ru](http://arxiv.org/abs/2611.24869v1) | Rules govern how player actions change interactive worlds. D | Mingliang Zhai, Chuanhao Li+ | 2.9 | core | arxiv |
 | 📎 | [Deep Learning-Based Integrated 2D-3D Video Analysis for Haza](https://www.semanticscholar.org/paper/af46dfd33cceaa5f8d64f83162aef5a87b899774) | Deep Learning-Based Integrated 2D-3D Video Analysis for Haza | Dongchil Kim, Kyeongeun Seo+ | 2.8 | core | semantic_scholar |
 | 📎 | [Quantifying Rodda and Graham Gait Classification from 3D Mak](https://arxiv.org/abs/2605.11314) | Cerebral Palsy (CP) is a neurological disorder of movement a | L. Reddy, Seth Donahue+ | 2.8 | core | semantic_scholar |
 | 📎 | [Analytic finite-rank corrections for singularly weighted est](http://arxiv.org/abs/2607.15256v1) | Computer-assisted proofs of self-similar singularity formati | Jiajie Chen, Thomas Y. Hou | 2.8 | core | arxiv |
@@ -1052,6 +1063,7 @@
 | 📎 | [Pushing Dexterity and Safety for In-Hand Object Pose Reachin](http://arxiv.org/abs/2610.37652v1) | Dexterous manipulation with multi-fingered hands is the next | Ian Chuang, Hiya Shah+ | 2.8 | core | arxiv |
 | 📎 | [Dynamic bigraphical Matérn--Whittle processes: learning depe](http://arxiv.org/abs/2611.18454v1) | Many studies record several variables at the same sites over | Alokesh Manna, Debangan Dey | 2.8 | core | arxiv |
 | 📎 | [Run it Back: Autoregression vs. Video Diffusion for Final-Co](http://arxiv.org/abs/2611.21521v1) | Low-likelihood, high-impact extremes are projected to increa | Jerry Lin, Elizabeth A. Barnes | 2.8 | core | arxiv |
+| 📎 | [Cap-and-Track: Optimizing LLM Inference Request Dispatch Acr](http://arxiv.org/abs/2611.24891v1) | A fixed dispatch rate for LLM inference becomes stale as ser | Benjamin Novotny, Doug Szeto+ | 2.8 | core | arxiv |
 | 📎 | [The Lift Spectrum: How Measurement-to-Space Adaptivity Shape](http://arxiv.org/abs/2607.22077v1) | Single-pixel sensing encodes a scene as a short sequence of  | Yuyuan Han, Jingwei Li+ | 2.7 | exploratory | arxiv |
 | 📎 | [Multi-Task Multi-Frame Visual Piano Transcription](http://arxiv.org/abs/2608.03419v1) | Audio-based piano transcription performs well on onset, pitc | Yonghyun Kim, Hoyeol Sohn+ | 2.7 | exploratory | arxiv |
 | 📎 | [Dynamic token sparsification and cross-path attention-based ](https://www.semanticscholar.org/paper/bcfa037c34de1440c17e5682eb24373628cecd5b) | The SlowFast network effectively models spatial and temporal | Junxin Luo, Longye Wang+ | 2.7 | expanded | semantic_scholar |
@@ -1151,7 +1163,7 @@
 | 🔥 | [Dynamic Attention Mechanism in Spatiotemporal Memory Network](http://arxiv.org/abs/2503.16768v1) | Mainstream visual object tracking frameworks predominantly r | Meng Zhou, Jiadong Xie+ | 4.5 | expanded | arxiv |
 | 🔥 | [Point Long-Term Locality-Aware Transformer for Point Cloud V](https://www.semanticscholar.org/paper/d3f84ce51f30436a0a0d07739420780a3a2b8343) | Point cloud videos are widely applied in understanding 3D dy | Zhi Zuo, Pan Gao+ | 4.5 | core | semantic_scholar |
 | 🔥 | [Spatiotemporal decoupling attention transformer for 3D skele](https://www.semanticscholar.org/paper/6720b67b81aa46686f53380456436f41127c470e) | Driver action recognition is crucial for in-vehicle safety.  | Zhuoyan Xu, Jingke Xu | 4.5 | core | semantic_scholar |
-| 🔥 | [A Novel Human Action Recognition Model by Grad-CAM Visualiza](https://www.semanticscholar.org/paper/2fcc66044c82994332b86a1b8ee153b7056fc56e) | Human action recognition is essential in many real-world sce | Jayamohan Manoharan, Yuvaraj Sivagnanam | 4.4 | expanded | semantic_scholar |
+| 🔥 | [A Novel Human Action Recognition Model by Grad-CAM Visualiza](https://www.semanticscholar.org/paper/2fcc66044c82994332b86a1b8ee153b7056fc56e) | Human action recognition is essential in many real-world sce | J. Manoharan, Yuvaraj Sivagnanam | 4.4 | expanded | semantic_scholar |
 | 🔥 | [Concepts in Motion: Temporal Concept Bottleneck Model for In](http://arxiv.org/abs/2509.20899v3) | Concept Bottleneck Models (CBMs) enable interpretable image  | Patrick Knab, Sascha Marton+ | 4.3 | exploratory | arxiv |
 | 🔥 | [EFNet: estimation of left ventricular ejection fraction from](https://www.semanticscholar.org/paper/f0be5de4d966ee634c9c10407c60adde395c11d3) | The ejection fraction (EF) is a vital metric for assessing c | Waqas Ali, Wesam H. Alsabban+ | 4.3 | core | semantic_scholar |
 | 🔥 | [IDG-ViolenceNet: A Video Violence Detection Model Integratin](https://www.semanticscholar.org/paper/2ca23e2ac47a9906c614fc82d66232291d124ff3) | Highlights What are the main findings? The proposed method e | Hong Huang, Qingping Jiang | 4.3 | core | semantic_scholar |
@@ -1212,7 +1224,7 @@
 | 📎 | [Leveraging 3DCNN and Weighted Similarity Metrics for Enhance](https://www.semanticscholar.org/paper/9771e0c76223def1b379c3a25b1ca0c66a1d91d1) | Leveraging 3DCNN and Weighted Similarity Metrics for Enhance | Farooq Shaik, Ashu Abdul+ | 3.1 | core | semantic_scholar |
 | 📎 | [AI-based video action recognition and analysis of teachers a](https://www.semanticscholar.org/paper/8f0acab279ee9337a5c674443b848698026fbf39) | AI-based video action recognition and analysis of teachers a | Han Wei, Lei Ma+ | 3.1 | core | semantic_scholar |
 | 📎 | [End-to-End Canine Emotion Recognition from Images to Video: ](https://www.semanticscholar.org/paper/e021d5cd04cf6de40d5e19e5774528914da9974e) | This study presents a system for the automatic classificatio | Lucía Montaluisa, Roberto Andrade+ | 3.0 | expanded | semantic_scholar |
-| 📎 | [TemporalGRU-FusedDown: A Lightweight Spatiotemporal Feature ](https://www.semanticscholar.org/paper/ce72858f1469eb51a1fc28ae2662c0961ca02641) | Real-time and accurate detection of abnormal behaviors, such | Jianxia Wang, Nan Shen+ | 3.0 | expanded | semantic_scholar |
+| 📎 | [TemporalGRU-FusedDown: A Lightweight Spatiotemporal Feature ](https://www.semanticscholar.org/paper/ce72858f1469eb51a1fc28ae2662c0961ca02641) | Real-time and accurate detection of abnormal behaviors, such | Jian-Xia Wang, Na-Na Shen+ | 3.0 | expanded | semantic_scholar |
 | 📎 | [Importance-Guided Interpretability and Pruning for Video Tra](https://www.semanticscholar.org/paper/bfe7e5e0458b518cc5bc15c69821e630317679a7) | Recently, transformers have gained prominence in video actio | R. Panadero, Dominik Schörkhuber+ | 3.0 | expanded | semantic_scholar |
 | 📎 | [FUVAS: Few-shot Unsupervised Video Anomaly Segmentation via ](https://www.semanticscholar.org/paper/01b5f4e81a7a976b431681f7c6b4a551d04ce8d7) | Video anomaly detection (VAD) methods analyze untrimmed vide | Jiaxiang Jiang, I. Ndiour+ | 3.0 | expanded | semantic_scholar |
 | 📎 | [Spatiotemporal Attention Mechanism on ResNet-ConvGRU for Vid](https://www.semanticscholar.org/paper/b990481f15d2b4ea0c95ffca6ac1f35c2d48a107) | Video-based violence detection faces the challenge of balanc | Irma Amelia Dewi, Jihan Nur Amalina Firzanah+ | 3.0 | expanded | semantic_scholar |
@@ -1222,7 +1234,7 @@
 | 📎 | [Brain Effective Connectivity Estimation via Fourier Spatiote](http://arxiv.org/abs/2503.11283v1) | Estimating brain effective connectivity (EC) from functional | Wen Xiong, Jinduo Liu+ | 2.9 | expanded | arxiv |
 | 📎 | [MomentSeeker: A Task-Oriented Benchmark For Long-Video Momen](https://arxiv.org/abs/2502.12558) | Accurately locating key moments within long videos is crucia | Huaying Yuan, Jian Ni+ | 2.9 | expanded | semantic_scholar |
 | 📎 | [SurgBench: A Unified Large-Scale Benchmark for Surgical Vide](https://arxiv.org/abs/2506.07603) | Surgical video understanding is pivotal for enabling automat | Jianhui Wei, Zikai Xiao+ | 2.9 | expanded | semantic_scholar |
-| 📎 | [Enhanced feature-based image stitching for endoscopic videos](https://arxiv.org/abs/2502.04207) | Video endoscopy represents a major advance in the investigat | Juming Xiong, Muyang Li+ | 2.9 | expanded | semantic_scholar |
+| 📎 | [Enhanced feature-based image stitching for endoscopic videos](https://arxiv.org/abs/2502.04207) | Video endoscopy represents a major advance in the investigat | Ju-Ming Xiong, Muyang Li+ | 2.9 | expanded | semantic_scholar |
 | 📎 | [FullTransNet: Full Transformer With Local-Global Attention f](https://arxiv.org/abs/2501.00882) | Video summarization aims to generate a compact, informative, | Libin Lan, Lu Jiang+ | 2.9 | expanded | semantic_scholar |
 | 📎 | [Skeleton-based human action recognition using LSTM and depth](https://www.semanticscholar.org/paper/a3d9fb574a94aa45ec0e45891f1e5124a68f5be2) | Skeleton-based human action recognition using LSTM and depth | Hoangcong Le, Cheng-Kai Lu+ | 2.8 | core | semantic_scholar |
 | 📎 | [Artificial intelligence supported colonoscopy bowel preparat](https://www.semanticscholar.org/paper/9548a43523fce0e0cb931ece4910414b49dffb44) | Artificial intelligence supported colonoscopy bowel preparat | Faruk Enes Oğuz, Ahmet Alkan+ | 2.8 | core | semantic_scholar |
@@ -1396,7 +1408,7 @@
 | 📎 | [Skeleton-based human action recognition by fusing attention ](https://www.semanticscholar.org/paper/8ca57c81a2749fc1fd1ad0271d7fd989ee598015) | Skeleton-based human action recognition by fusing attention  | Fang Ren, Chao Tang+ | 3.1 | core | semantic_scholar |
 | 📎 | [Predicting Outcomes in Long COVID Patients with Spatiotempor](http://arxiv.org/abs/2307.04770v1) | Long COVID is a general term of post-acute sequelae of COVID | Degan Hao, Mohammadreza Negahdar | 2.9 | expanded | arxiv |
 | 📎 | [ViLP: Knowledge Exploration using Vision, Language, and Pose](https://arxiv.org/abs/2308.03908) | Video Action Recognition (VAR) is a challenging task due to  | S. Chaudhuri, Saumik Bhattacharya | 2.9 | expanded | semantic_scholar |
-| 📎 | [Artificial intelligence for video game visualization, advanc](https://www.semanticscholar.org/paper/9042f0a9a7207a8a2708b3f112f468628e9788fe) | In recent years, the field of artificial intelligence (AI) h | Yueliang Wu, Aolong Yi+ | 2.9 | expanded | semantic_scholar |
+| 📎 | [Artificial intelligence for video game visualization, advanc](https://www.semanticscholar.org/paper/9042f0a9a7207a8a2708b3f112f468628e9788fe) | In recent years, the field of artificial intelligence (AI) h | Yue-Liang Wu, Aolong Yi+ | 2.9 | expanded | semantic_scholar |
 | 📎 | [Automata Quest: NCAs as a Video Game Life Mechanic](http://arxiv.org/abs/2309.14364v1) | We study life over the course of video game history as repre | Hiroki Sato, Tanner Lund+ | 2.8 | core | arxiv |
 | 📎 | [Boosting Breast Ultrasound Video Classification by the Guida](https://arxiv.org/abs/2306.06877) | Breast ultrasound videos contain richer information than ult | Anlan Sun, Zhao Zhang+ | 2.7 | expanded | semantic_scholar |
 | 📎 | [Local motion feature extraction and spatiotemporal attention](https://www.semanticscholar.org/paper/f6b7f51cc33b2cdcefed1dd9a07b901edb35cabb) | Local motion feature extraction and spatiotemporal attention | Xiaogang Song, Dongdong Zhang+ | 2.7 | expanded | semantic_scholar |
@@ -1451,7 +1463,7 @@
 | 📎 | [Temporal-based Swin Transformer network for workflow recogni](https://www.semanticscholar.org/paper/8373003566c562ae1a276573c33175a4ac6b872c) | Temporal-based Swin Transformer network for workflow recogni | Xiaoying Pan, Xuanrong Gao+ | 3.1 | core | semantic_scholar |
 | 📎 | [Vitranspad: Video Transformer Using Convolution And Self-Att](https://arxiv.org/abs/2203.01562) | Face Presentation Attack Detection (PAD) is an important mea | Zuheng Ming, Zitong Yu+ | 3.0 | expanded | semantic_scholar |
 | 📎 | [Deep Video Prior for Video Consistency and Propagation](http://arxiv.org/abs/2201.11632v1) | Applying an image processing algorithm independently to each | Chenyang Lei, Yazhou Xing+ | 2.9 | exploratory | arxiv |
-| 📎 | [Masked Video Distillation: Rethinking Masked Feature Modelin](https://arxiv.org/abs/2212.04500) | Benefiting from masked visual modeling, self-supervised vide | Rui Wang, Dongdong Chen+ | 2.9 | expanded | semantic_scholar |
+| 📎 | [Masked Video Distillation: Rethinking Masked Feature Modelin](https://arxiv.org/abs/2212.04500) | Benefiting from masked visual modeling, self-supervised vide | Rui Wang, Dong-Dong Chen+ | 2.9 | expanded | semantic_scholar |
 | 📎 | [Sfcnn: a novel scoring function based on 3D convolutional ne](https://www.semanticscholar.org/paper/e6c189b58bbb83a709d5fd31d53cbbb34da65efc) | Computer-aided drug design provides an effective method of i | Yu Wang, Zhengxiao Wei+ | 2.9 | core | semantic_scholar |
 | 📎 | [Perceptual Quality Assessment of Virtual Reality Videos in t](http://arxiv.org/abs/2206.08751v3) | Investigating how people perceive virtual reality (VR) video | Wen Wen, Mu Li+ | 2.8 | expanded | arxiv |
 | 📎 | [Object-ABN: Learning to Generate Sharp Attention Maps for Ac](https://arxiv.org/abs/2207.13306) | In this paper we propose an extension of the Attention Branc | Tomoya Nitta, Tsubasa Hirakawa+ | 2.7 | expanded | semantic_scholar |
