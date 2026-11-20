@@ -4,12 +4,12 @@
 <p align="center"><em>视频深度学习与可解释性论文自动搜集系统</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-1622-blue" alt="papers" />
-  <img src="https://img.shields.io/badge/core-776-green" alt="core" />
-  <img src="https://img.shields.io/badge/strongly_related-846-yellow" alt="strongly_related" />
-  <img src="https://img.shields.io/badge/arXiv-1301-critical" alt="arXiv" />
-  <img src="https://img.shields.io/badge/Semantic_Scholar-316-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-11-19-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/papers-1644-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/core-785-green" alt="core" />
+  <img src="https://img.shields.io/badge/strongly_related-859-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/arXiv-1322-critical" alt="arXiv" />
+  <img src="https://img.shields.io/badge/Semantic_Scholar-317-blueviolet" alt="Semantic Scholar" />
+  <img src="https://img.shields.io/badge/last_update-2026-11-20-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -23,15 +23,15 @@
 
 | 指标 | 数量 |
 |------|------|
-| 📚 论文总数 | **1622** |
-| 🔥 核心论文 | **776** |
-| 📎 高相关论文 | **846** |
-| 🆕 本月新增 | **144** |
-| 📡 arXiv | 1301 |
-| 🔬 Semantic Scholar | 316 |
+| 📚 论文总数 | **1644** |
+| 🔥 核心论文 | **785** |
+| 📎 高相关论文 | **859** |
+| 🆕 本月新增 | **165** |
+| 📡 arXiv | 1322 |
+| 🔬 Semantic Scholar | 317 |
 | 🔗 CrossRef 增强 | 20 |
 | ✍️ 手工整理 | 5 |
-| ⏰ 最后更新 | 2026-11-19 08:36:14 |
+| ⏰ 最后更新 | 2026-11-20 08:20:18 |
 
 ## 🏆 高影响力论文 Top 5
 
@@ -102,7 +102,7 @@
 ---
 
 <details>
-<summary>📅 2026 年 (1126 篇)</summary>
+<summary>📅 2026 年 (1148 篇)</summary>
 
 | 标签 | 标题 | 摘要 | 作者 | 分数 |
 |------|------|------|------|------|
@@ -119,7 +119,7 @@
 | 🔥 | [GROVE: Growing and Reasoning over Temporally Strat](http://arxiv.org/abs/2608.02392v1) | 本文聚焦视频理解与时序建模，采用深度学习与时空特征分析，主要用于研究模型表示、推理能力及应用效果。 | Sitong Gong, Caixin Kang+ | 5.5 |
 | 🔥 | [Video-DeepResearch: Towards the Next-Generation Mu](http://arxiv.org/abs/2608.03979v1) | 本文聚焦多模态视频理解，采用视觉语言联合建模，主要用于研究模型表示、推理能力及应用效果。 | Zhen Fang, Yu Zeng+ | 5.5 |
 
-*仅展示前 12 篇，完整 1126 篇请查看 [ALL_PAPERS_zh.md](ALL_PAPERS_zh.md)。*
+*仅展示前 12 篇，完整 1148 篇请查看 [ALL_PAPERS_zh.md](ALL_PAPERS_zh.md)。*
 
 </details>
 
