@@ -1,10 +1,10 @@
 # 📚 Complete Paper List — Video CNN/XAI Research Hub
 
-> Last updated: 2026-11-22 07:56:08 | 1644 papers total
+> Last updated: 2026-11-23 08:50:56 | 1659 papers total
 
 ---
 
-## 2026 (1148 papers)
+## 2026 (1163 papers)
 
 | Tag | Title | Summary | Author | Score | Query Type | Source |
 |------|------|------|------|----------|------|--------|
@@ -37,6 +37,7 @@
 | 🔥 | [TSPFN: A Temporal Tabular Foundation Model for Physiological](http://arxiv.org/abs/2608.31013v1) | Designing models that generalize effectively in low- to medi | Jérémie Stym-Popper, Clément Rambour+ | 5.4 | core | arxiv |
 | 🔥 | [Beyond Spatio-Temporal Priors: A Generalizable Approach for ](http://arxiv.org/abs/2610.12421v1) | Dense correspondence matching has historically been bounded  | Luping Liu, Bingyi Kang+ | 5.4 | core | arxiv |
 | 🔥 | [MR-JEPA: A General Purpose Video Foundation Model for Cardia](http://arxiv.org/abs/2608.30975v1) | Cardiac magnetic resonance imaging (CMR) produces rich seque | Athira J. Jacob, Puneet Sharma+ | 5.3 | core | arxiv |
+| 🔥 | [Spatiotemporal Graph Neural Networks for Fault Detection and](http://arxiv.org/abs/2611.27698v1) | Classical Fault Detection and Diagnosis (FDD) methods, inclu | Rayane Ammar Khodja, Alexandre Voisin+ | 5.3 | core | arxiv |
 | 🔥 | [Video Understanding: From Geometry and Semantics to Unified ](http://arxiv.org/abs/2603.17840v1) | Video understanding aims to enable models to perceive, reaso | Zhaochong An, Zirui Li+ | 5.2 | core | arxiv |
 | 🔥 | [Audio-Visual Flamingo: Open Audio-Visual Intelligence for Lo](http://arxiv.org/abs/2607.16107v1) | We present Audio-Visual Flamingo (AV-Flamingo), a fully open | Sreyan Ghosh, Arushi Goel+ | 5.2 | core | arxiv |
 | 🔥 | [Sparse Evidence Can Suffice: Agentic Evidence Seeking for Mu](http://arxiv.org/abs/2607.18080v1) | Multimodal video misinformation detection is commonly formul | Haochen Zhao, Yongxiu Xu+ | 5.2 | core | arxiv |
@@ -249,6 +250,7 @@
 | 🔥 | [Reference Forcing: Long Video Generation with Region-Guided ](http://arxiv.org/abs/2611.21559v1) | Long video generation should keep the subject and background | Sheng Zhao, Haitian Zheng+ | 4.7 | core | arxiv |
 | 🔥 | [HandWorldBench: A Unified Benchmark for Hand-Centric World M](http://arxiv.org/abs/2611.24731v1) | Recent advances in world models are opening new possibilitie | Zhaolu Wang, Jiacheng Xu+ | 4.7 | core | arxiv |
 | 🔥 | [AURA: AUdio-dRiven streaming Avatar](http://arxiv.org/abs/2611.26540v1) | Current audio-driven video diffusion models can synthesize r | Nathaniel Cohen, Nicolas Dufour+ | 4.7 | core | arxiv |
+| 🔥 | [Non-penetrating World Models](http://arxiv.org/abs/2611.27963v1) | We study a new problem of preventing object penetration in i | Yuhang Dai, Yinwei Wu+ | 4.7 | core | arxiv |
 | 🔥 | [Effects of Different Attention Mechanisms Applied on 3D Mode](https://arxiv.org/abs/2601.10854) | Human action recognition has become an important research fo | Mohammad Rasras, Iuliana Marin+ | 4.6 | core | semantic_scholar |
 | 🔥 | [fMRI2Face: A Full-HD fMRI-Video Dataset and Geometry-Guided ](http://arxiv.org/abs/2607.22302v1) | Reconstructing dynamic human faces from brain activity provi | Jingyang Huo, Xiangru Huang+ | 4.6 | core | arxiv |
 | 🔥 | [Spatio-Temporal Conditional Denoising Transformer for Modali](http://arxiv.org/abs/2607.24701v1) | Missing modalities in RGBT tracking often lead to incomplete | Andong Lu, Ziyi Zha+ | 4.6 | core | arxiv |
@@ -435,6 +437,7 @@
 | 🔥 | [LynnReal-Hand: Unlocking World Interaction with Hand Control](http://arxiv.org/abs/2611.21479v1) | Interactive video world models enable exploration through te | Shaohao Rui, Chaoyang Zhang+ | 4.4 | core | arxiv |
 | 🔥 | [VideoNexus: Video Perception Beyond the Reasoning Context](http://arxiv.org/abs/2611.21392v1) | Understanding long videos requires locating evidence, resolv | Yancheng Long, Xuanyu Zheng+ | 4.4 | core | arxiv |
 | 🔥 | [MovieRoll: A Systematic Framework for Rolling Out Long-Form ](http://arxiv.org/abs/2611.21339v1) | Streaming video generation must sustain quality beyond the t | Yunyang Ge, Weijie Kong+ | 4.4 | core | arxiv |
+| 🔥 | [Refrain: Learning Multi-Shot Consistency from Inconsistent R](http://arxiv.org/abs/2611.27806v1) | A comic-book character, a photorealistic cityscape, an oil-p | Hongru Yan, Yue Wu+ | 4.4 | core | arxiv |
 | 🔥 | [Parallel Decoding Distillation for Fast Image and Video Gene](http://arxiv.org/abs/2607.26004v1) | Generation in video diffusion or flow models is computationa | Neta Shaul, Chao Liu+ | 4.3 | core | arxiv |
 | 🔥 | [Mitigating Compounding Error via Video Representation Regula](http://arxiv.org/abs/2607.27036v1) | Video diffusion-based world models enable long autoregressiv | Taiye Chen, Qi Zhang+ | 4.3 | core | arxiv |
 | 🔥 | [Multistage spatio-temporal fusion network for action recogni](https://www.semanticscholar.org/paper/db6de2efa1a3733679f93d41488706f14031772f) | In the field of action recognition, current mainstream metho | Xin Lan, Longye Wang+ | 4.3 | core | semantic_scholar |
@@ -599,6 +602,7 @@
 | 🔥 | [Can Omni-modal LLMs Understand Spoken Intentions?](http://arxiv.org/abs/2611.24706v1) | Omni-modal large language models (omni-modal LLMs) can respo | Zijie Xin, Tianyi Wang+ | 4.1 | core | arxiv |
 | 🔥 | [H3Remover: Reinforcing Video Object Removal without Paired D](http://arxiv.org/abs/2611.24633v1) | Pretrained video editors possess rich removal and completion | Kangjie Chen, Xiangyu Li+ | 4.1 | core | arxiv |
 | 🔥 | [RL Post-Training in Diffusion Transformers Is Activation Ste](http://arxiv.org/abs/2611.26627v1) | Reinforcement learning (RL) post-training substantially impr | Tuna Han Salih Meral, Kaan Oktay+ | 4.1 | core | arxiv |
+| 🔥 | [GameScrub: Learning HUD Removal from Real Gameplay with Reco](http://arxiv.org/abs/2611.27547v1) | Gameplay videos are a rich source of experience for learning | Mohammad Areeb Qazi, Yiyan Hu+ | 4.1 | core | arxiv |
 | 🔥 | [ReViV: Reconstructing the Viewer and the View in 4D from Mon](http://arxiv.org/abs/2607.17790v1) | Egocentric devices, such as wearable front-facing cameras, p | Xiaozhong Lyu, Gen Li+ | 4.0 | exploratory | arxiv |
 | 🔥 | [Quality Action Assurance: Multimodal Verification of Examine](http://arxiv.org/abs/2607.19063v1) | Objective Structured Clinical Examinations (OSCEs) are the g | Harry Rogers, Sally Shiels+ | 4.0 | core | arxiv |
 | 🔥 | [Learning Explicit Physical Parameter Control and Benchmarkin](http://arxiv.org/abs/2607.18924v1) | Recent advances in image-to-video generation have improved v | Yanxun Li, Hao Wen+ | 4.0 | exploratory | arxiv |
@@ -614,6 +618,7 @@
 | 🔥 | [Region-VAD: Video Anomaly Localization and Detection via Reg](http://arxiv.org/abs/2611.21132v1) | Anomalies are local events, yet weakly supervised video anom | Giacomo D'Amicantonio | 4.0 | exploratory | arxiv |
 | 🔥 | [GraphEP: A Calibrated Data System and Benchmark for Learning](http://arxiv.org/abs/2611.26551v1) | High-fidelity simulations generate spatiotemporal data that  | Matteo Baldan, Chiara D'Ercoli+ | 4.0 | core | arxiv |
 | 🔥 | [EgoCaptioner: Towards Comprehensive and Fine-Grained Egocent](http://arxiv.org/abs/2611.26380v1) | Egocentric video captioning requires fine-grained detail and | Yuqi Tang, Yang Shi+ | 4.0 | exploratory | arxiv |
+| 🔥 | [VMSA: Video Memory Skill Agent for Long Video Understanding](http://arxiv.org/abs/2611.27381v1) | Long-video question answering requires retrieving and integr | Changin Choi, Jungwon Park+ | 4.0 | exploratory | arxiv |
 | 📎 | [SM4RT: Learning Structured Motion Geometry for 4D Reconstruc](http://arxiv.org/abs/2607.22534v1) | Geometry Foundation Models (GFMs) have substantially advance | Shing Ho J. Lin, Wenzhao Zheng+ | 3.9 | core | arxiv |
 | 📎 | [From Local Payoffs to Global Instabilities: A Spectral Carto](http://arxiv.org/abs/2607.24638v1) | We develop a motif-based framework for spatiotemporal chaos  | Ozgur Aydogmus | 3.9 | core | arxiv |
 | 📎 | [From Passive Video to Editable Experience: Physically Ground](http://arxiv.org/abs/2607.26903v1) | The key bottleneck in embodied AI is not model architecture  | Jia Luo | 3.9 | core | arxiv |
@@ -707,6 +712,8 @@
 | 📎 | [Towards Reconstructing and Recognizing Objects behind Fragme](http://arxiv.org/abs/2611.12624v1) | Perceiving objects through fragmented occlusions, such as fo | Roman Pflugfelder, Michael Lindenbaum+ | 3.8 | core | arxiv |
 | 📎 | [JVT: Just Video Transformer makes pixel-space video diffusio](http://arxiv.org/abs/2611.18549v1) | Direct diffusion modeling of high-dimensional raw video data | Jianjun Zhou, Hua Geng+ | 3.8 | core | arxiv |
 | 📎 | [SHUSH: Emission-Aware Reward Design for Proactive Video Assi](http://arxiv.org/abs/2611.26478v1) | Proactive video assistants must decide not only what to say, | Shawn Liang, Soamar Homsi+ | 3.8 | core | arxiv |
+| 📎 | [DiTraR: Diverse Scorers and Transcript-Guided Re-ranking for](http://arxiv.org/abs/2611.27931v1) | Video corpus moment retrieval asks a system to find, in a la | Mohammad Alijanpour Shalmani, Alale Rezvani Boroujeni+ | 3.8 | core | arxiv |
+| 📎 | [MoHA: Model-Conditioned Harness Adaptation for Long-Video Ag](http://arxiv.org/abs/2611.27646v1) | Long-video understanding increasingly relies on agentic syst | Jianghan Chao, Wenhui Tan+ | 3.8 | core | arxiv |
 | 📎 | [ViASNet: A Video Ad Saliency Network for Predicting Dynamic ](http://arxiv.org/abs/2605.29302v1) | The digital media landscape has seen a pervasive shift towar | Jianping Ye, Michel Wedel | 3.7 | expanded | arxiv |
 | 📎 | [Genflow Ad Studio: A Compound AI Architecture for Brand-Alig](http://arxiv.org/abs/2605.16748v1) | Recent advancements in generative video models demonstrate h | Debanshu Das, Lavi Nigam+ | 3.7 | exploratory | arxiv |
 | 📎 | [Learning Face–Hand Interaction With a Convolutional Network ](https://www.semanticscholar.org/paper/075576f9c5f52bf17751c4862834a56290e4749d) | Understanding sign language requires careful consideration o | Jiin Takeda, N. Mukai+ | 3.7 | core | semantic_scholar |
@@ -813,6 +820,7 @@
 | 📎 | [MS2CAST: A Video Anomaly Detection Framework via Multi-Scale](http://arxiv.org/abs/2610.29649v1) | Video anomaly detection (VAD) is a challenging task for surv | Ali Safaei, Mohammad Kazemi | 3.5 | exploratory | arxiv |
 | 📎 | [Lightweight Frame Compensation for Real-Time Polyp Segmentat](http://arxiv.org/abs/2610.31228v1) | Real-time polyp segmentation in computer-assisted colonoscop | Weihao Gao | 3.5 | exploratory | arxiv |
 | 📎 | [R$^2$-Omni: Reducing Structural and Precision Redundancy in ](http://arxiv.org/abs/2611.03247v1) | Omni-modal large language models (Omni-LLMs) typically proce | Bolong Feng, Pengfei Zhou+ | 3.5 | exploratory | arxiv |
+| 📎 | [PanoUAV-Track: Full-Spherical UAV Visual Tracking in the Wil](http://arxiv.org/abs/2611.27383v1) | Existing UAV tracking benchmarks predominantly rely on persp | Bingyu Li, Lichang Yang+ | 3.5 | exploratory | arxiv |
 | 📎 | [Grounding Video Reasoning in Physical Signals](http://arxiv.org/abs/2604.21873v1) | Physical video understanding requires more than naming an ev | Alibay Osmanli, Zixu Cheng+ | 3.4 | exploratory | arxiv |
 | 📎 | [EvoGround: Self-Evolving Video Agents for Video Temporal Gro](http://arxiv.org/abs/2605.13803v1) | Video temporal grounding (VTG) takes an untrimmed video and  | Minjoon Jung, Byoung-Tak Zhang+ | 3.4 | exploratory | arxiv |
 | 📎 | [An approach for identification of driver drowsiness, emotion](https://www.semanticscholar.org/paper/e03e84e3ed1becc8ba91fe1b58262f726ac74027) | Driver safety is a major issue in modern transportation syst | A. Sah, Moitreyee Das+ | 3.4 | expanded | semantic_scholar |
@@ -944,6 +952,7 @@
 | 📎 | [Kosmo-GFM: A Production-Ready Geometry Foundation Model](http://arxiv.org/abs/2611.16840v1) | We present Kosmo-GFM, a scene reconstruction system that int | Sheng Tang, Shengzhe Wei+ | 3.3 | core | arxiv |
 | 📎 | [Posterior Matching Distillation](http://arxiv.org/abs/2611.26629v1) | Diffusion distillation accelerates image and video generatio | Hidir Yesiltepe, Julius Berner+ | 3.3 | core | arxiv |
 | 📎 | [ScaleWorld: High-Resolution World Generation through Shared ](http://arxiv.org/abs/2611.26615v1) | High-resolution generation enables video world models to ren | Yansong Qu, Wesker Zheng+ | 3.3 | core | arxiv |
+| 📎 | [Ref-YOLO-World: Decoupling Text-Side Computation for Efficie](http://arxiv.org/abs/2611.27756v1) | Many high-accuracy referring expression comprehension (REC)  | Yuki Aoki, Hiroo Bekku+ | 3.3 | core | arxiv |
 | 📎 | [SAR Image and Video Colorization Using Deep Learning for Def](https://www.semanticscholar.org/paper/62188eec2effa21f560d2f95b1a511132382274b) | Synthetic Aperture Radar (SAR) is widely used in defence and | Deep Chakraborty | 3.2 | expanded | semantic_scholar |
 | 📎 | [FilmWorld: Agentic Novel-to-Film Generation through Dynamic ](http://arxiv.org/abs/2607.19038v1) | Translating novels into films poses a grand challenge for ge | Jialong Zuo, Haotong Zuo+ | 3.2 | exploratory | arxiv |
 | 📎 | [RSC-GestureNet: Reliability-Aware Selective Causal Recogniti](http://arxiv.org/abs/2608.02200v1) | Traffic police gestures are safety-critical perception cues  | Cheng Li, Renjun Gao+ | 3.2 | exploratory | arxiv |
@@ -999,6 +1008,8 @@
 | 📎 | [BRUCE (Bayesian Rio Urban Climate Estimator): spatiotemporal](http://arxiv.org/abs/2611.26612v1) | Accurate characterization of intra-urban temperature variabi | Ayrton Sena Gouveia, Rafael Santos de Oliveira+ | 3.1 | core | arxiv |
 | 📎 | [Spatiotemporal Risk-Based Hotspot Dynamics Assessment](http://arxiv.org/abs/2611.26490v1) | Analysis of hotspots often constitutes the final objective i | José M. Angulo, Ana E. Madrid | 3.1 | core | arxiv |
 | 📎 | [ViDecide: Teaching Video Diffusion Models to Reason and Plan](http://arxiv.org/abs/2611.26389v1) | Current leading video generation models can synthesize highl | Kaiwen Zhang, Yiming Gao+ | 3.1 | exploratory | arxiv |
+| 📎 | [Efficient VLA Reinforcement Learning via Subchunk Rollouts i](http://arxiv.org/abs/2611.27645v1) | Model-based reinforcement learning (MBRL) can improve pretra | Nan Tang, Han-Tao Zhang+ | 3.1 | core | arxiv |
+| 📎 | [TITAN: DRL-Based Dynamic Scheduling and Resource Allocation ](http://arxiv.org/abs/2611.27560v1) | Tactile Internet (TI) applications require ultra-reliable, l | Qingrui Fan, Vineet Gokhale+ | 3.1 | core | arxiv |
 | 📎 | [Rethinking Model Complexity: Contrastive Frame Embedding in ](https://www.semanticscholar.org/paper/51409999d92d79a4f4d7434f485240ea75c378f9) | Ejection fraction (EF) is a key indicator of left ventricula | Shaunna Wang, Yishan Zhong+ | 3.0 | expanded | semantic_scholar |
 | 📎 | [DEPART: Multi-Task Interpretable Depression and Parkinson's ](https://www.semanticscholar.org/paper/0bfe9911a151c82a1c959fed5a9a4366db95992e) | Automated video-based detection of cognitive disorders can e | E. Ryumina, A. Axyonov+ | 3.0 | expanded | semantic_scholar |
 | 📎 | [Classification of Smartphone Interaction Using Multimodal Ph](https://www.semanticscholar.org/paper/9949b1b648710498043c3c4eb3efeff60f209d3d) | Distinct smartphone interaction behaviors, like short-form v | Prakash Mishra, Vaibhav Kagathara+ | 3.0 | expanded | semantic_scholar |
@@ -1064,6 +1075,7 @@
 | 📎 | [Share your Screen and Talk to Gemini: How Young Learners Int](http://arxiv.org/abs/2611.21306v1) | Children using Scratch to learn programming can struggle wit | Sven Jacobs, Lukas Berning+ | 2.9 | core | arxiv |
 | 📎 | [WorldRuler: Interactive World Modeling under Configurable Ru](http://arxiv.org/abs/2611.24869v1) | Rules govern how player actions change interactive worlds. D | Mingliang Zhai, Chuanhao Li+ | 2.9 | core | arxiv |
 | 📎 | [Online Temporal Rotations for 2 Bit KV-Cache Quantization in](http://arxiv.org/abs/2611.26334v1) | Video diffusion transformers reuse key--value (KV) caches ac | Ryan Lucas, Petros Prastakos+ | 2.9 | exploratory | arxiv |
+| 📎 | [Taking Apart and Putting Together: Tracking Objects Through ](http://arxiv.org/abs/2611.27398v1) | We introduce Transformation Tracking and Understanding (TTU) | Davide Gardenal, Mingxuan Liu+ | 2.9 | exploratory | arxiv |
 | 📎 | [Deep Learning-Based Integrated 2D-3D Video Analysis for Haza](https://www.semanticscholar.org/paper/af46dfd33cceaa5f8d64f83162aef5a87b899774) | Deep Learning-Based Integrated 2D-3D Video Analysis for Haza | Dongchil Kim, Kyeongeun Seo+ | 2.8 | core | semantic_scholar |
 | 📎 | [Quantifying Rodda and Graham Gait Classification from 3D Mak](https://arxiv.org/abs/2605.11314) | Cerebral Palsy (CP) is a neurological disorder of movement a | L. Reddy, Seth Donahue+ | 2.8 | core | semantic_scholar |
 | 📎 | [Analytic finite-rank corrections for singularly weighted est](http://arxiv.org/abs/2607.15256v1) | Computer-assisted proofs of self-similar singularity formati | Jiajie Chen, Thomas Y. Hou | 2.8 | core | arxiv |
@@ -1155,6 +1167,9 @@
 | 📎 | [Your Vision Foundation Model Is Secretly an EEG Foundation M](http://arxiv.org/abs/2611.17031v1) | Electroencephalography (EEG) foundation models are pretraine | Guoan Wang, Feng Liu | 2.6 | core | arxiv |
 | 📎 | [An In-Silico Audit of Topographic Organization in a Multimod](http://arxiv.org/abs/2611.18105v1) | TRIBE v2 (d'Ascoli et al. , 2026) predicts fMRI responses ac | Jakub Strawa | 2.6 | core | arxiv |
 | 📎 | [VAE Rhythm: Temporal Decoding Traces for AI-Generated Video ](http://arxiv.org/abs/2611.21114v1) | Visible artifacts are an unreliable cue for detecting genera | Ke Sun, Shuwei Li+ | 2.6 | exploratory | arxiv |
+| 📎 | [Spatial model of neurogliovascular unit: arachidonic acid ca](http://arxiv.org/abs/2611.27888v1) | Arachidonic acid metabolites can have both vasoconstrictor a | Darya V. Verveyko, Andrey Yu. Verisokin+ | 2.6 | core | arxiv |
+| 📎 | [World Models for Learning Quantum Many-Body Dynamics](http://arxiv.org/abs/2611.27871v1) | We propose using world models for learning Hamiltonians from | Yuan Wang, Oleksandr Kyriienko | 2.6 | core | arxiv |
+| 📎 | [Pose-based Co-speech Gesture Detection](http://arxiv.org/abs/2611.27415v1) | Co-speech gesture detection identifies the spans in which a  | Frances Yung, Ninlawat Phuangschoke | 2.6 | exploratory | arxiv |
 | 📎 | [TriWorldBench: A Tri-View Consistency Perspective on Embodie](http://arxiv.org/abs/2609.26314v1) | Embodied world models predict the outcomes of robot actions  | Xuanyi Liu, Haofeng Wang+ | 2.5 | exploratory | arxiv |
 
 ## 2025 (107 papers)
