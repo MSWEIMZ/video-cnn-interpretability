@@ -4,12 +4,12 @@
 <p align="center"><em>Automated paper curation for video deep learning & explainability research</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-1716-blue" alt="papers" />
-  <img src="https://img.shields.io/badge/core-820-green" alt="core" />
-  <img src="https://img.shields.io/badge/strongly_related-896-yellow" alt="strongly_related" />
+  <img src="https://img.shields.io/badge/papers-1719-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/core-821-green" alt="core" />
+  <img src="https://img.shields.io/badge/strongly_related-898-yellow" alt="strongly_related" />
   <img src="https://img.shields.io/badge/arXiv-1394-critical" alt="arXiv" />
-  <img src="https://img.shields.io/badge/Semantic_Scholar-317-blueviolet" alt="Semantic Scholar" />
-  <img src="https://img.shields.io/badge/last_update-2026-11-26-orange" alt="last_update" />
+  <img src="https://img.shields.io/badge/Semantic_Scholar-320-blueviolet" alt="Semantic Scholar" />
+  <img src="https://img.shields.io/badge/last_update-2026-11-27-orange" alt="last_update" />
   <img src="https://img.shields.io/badge/license-academic--only-lightgrey" alt="license" />
 </p>
 
@@ -23,15 +23,15 @@
 
 | Metric | Count |
 |--------|-------|
-| 📚 Total Papers | **1716** |
-| 🔥 Core Papers | **820** |
-| 📎 Strongly Related | **896** |
+| 📚 Total Papers | **1719** |
+| 🔥 Core Papers | **821** |
+| 📎 Strongly Related | **898** |
 | 🆕 New This Month | **237** |
 | 📡 arXiv | 1394 |
-| 🔬 Semantic Scholar | 317 |
-| 🔗 CrossRef Enriched | 22 |
+| 🔬 Semantic Scholar | 320 |
+| 🔗 CrossRef Enriched | 24 |
 | ✍️ Manual | 5 |
-| ⏰ Last Updated | 2026-11-26 09:21:13 |
+| ⏰ Last Updated | 2026-11-27 09:35:15 |
 
 ## 🏆 Top 5 Most Influential
 
@@ -54,8 +54,8 @@
 | 2024 | [VideoMamba: State Space Model for Efficient Video Understand](https://arxiv.org/abs/2403.06977) | Addressing the dual challenges of local redundancy and global dependencies in vi | 598 | 4.7 |
 | 2024 | [LongVU: Spatiotemporal Adaptive Compression for Long Video-L](https://arxiv.org/abs/2410.17434) | Multimodal Large Language Models (MLLMs) have shown promising progress in unders | 354 | 4.7 |
 | 2024 | [Benchmarking Micro-Action Recognition: Dataset, Methods, and](https://arxiv.org/abs/2403.05234) | Micro-action is an imperceptible non-verbal behaviour characterised by low-inten | 138 | 4.0 |
+| 2024 | [Isolated Video-Based Sign Language Recognition Using a Hybri](https://www.semanticscholar.org/paper/fef413d4970c737ebf559fcf39e766910716795b) | Sign language is a complex language that uses hand gestures, body movements, and | 71 | 4.7 |
 | 2025 | [Video deepfake detection using a hybrid CNN-LSTM-Transformer](https://www.semanticscholar.org/paper/e17c9359b8cbf6f327523694fcf4019a65134a09) | The proliferation of deepfake technology poses significant challenges due to its | 61 | 5.0 |
-| 2025 | [StreamForest: Efficient Online Video Understanding with Pers](https://arxiv.org/abs/2509.24871) | Multimodal Large Language Models (MLLMs) have recently achieved remarkable progr | 57 | 4.7 |
 
 ---
 
@@ -102,7 +102,7 @@
 ---
 
 <details>
-<summary>📅 2026 (1220 papers)</summary>
+<summary>📅 2026 (1221 papers)</summary>
 
 | Tag | Title | Summary | Author | Score |
 |------|------|------|------|------|
@@ -119,7 +119,7 @@
 | 🔥 | [GROVE: Growing and Reasoning over Temporally Strat](http://arxiv.org/abs/2608.02392v1) | A wearable assistant should both answer questions about its visual his | Sitong Gong, Caixin Kang+ | 5.5 |
 | 🔥 | [Video-DeepResearch: Towards the Next-Generation Mu](http://arxiv.org/abs/2608.03979v1) | We introduce Video-DeepResearch (Video-DR), extending multimodal agent | Zhen Fang, Yu Zeng+ | 5.5 |
 
-*Showing 12 of 1220 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
+*Showing 12 of 1221 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
 
 </details>
 
@@ -146,7 +146,7 @@
 </details>
 
 <details>
-<summary>📅 2024 (103 papers)</summary>
+<summary>📅 2024 (105 papers)</summary>
 
 | Tag | Title | Summary | Author | Score |
 |------|------|------|------|------|
@@ -155,7 +155,7 @@
 | 🔥 | [Video-based Exercise Classification and Activated ](http://arxiv.org/abs/2406.06703v2) | This paper introduces a simple yet effective strategy for exercise cla | Manvik Pasula, Pramit Saha | 4.7 |
 | 🔥 | [LongVU: Spatiotemporal Adaptive Compression for Lo](https://arxiv.org/abs/2410.17434) | Multimodal Large Language Models (MLLMs) have shown promising progress | Xiaoqian Shen, Yunyang Xiong+ | 4.7 |
 | 🔥 | [VideoMamba: State Space Model for Efficient Video ](https://arxiv.org/abs/2403.06977) | Addressing the dual challenges of local redundancy and global dependen | Kunchang Li, Xinhao Li+ | 4.7 |
-| 🔥 | [Isolated Video-Based Sign Language Recognition Usi](https://www.semanticscholar.org/paper/fef413d4970c737ebf559fcf39e766910716795b) | Sign language is a complex language that uses hand gestures, body move | Diksha Kumari, Radhey Shyam Anand | 4.7 |
+| 🔥 | [Isolated Video-Based Sign Language Recognition Usi](https://www.semanticscholar.org/paper/fef413d4970c737ebf559fcf39e766910716795b) | Sign language is a complex language that uses hand gestures, body move | D. Kumari, Radhey Shyam Anand | 4.7 |
 | 🔥 | [Can VLMs be used on videos for action recognition?](http://arxiv.org/abs/2407.14834v1) | Recent advancements have introduced multiple vision-language models (V | Harsh Lunia | 4.4 |
 | 🔥 | [Prompting Video-Language Foundation Models with Do](http://arxiv.org/abs/2410.09380v1) | Video Question Answering (VideoQA) represents a crucial intersection b | Ting Yu, Kunhao Fu+ | 4.4 |
 | 🔥 | [Relevance-guided Audio Visual Fusion for Video Sal](http://arxiv.org/abs/2411.11454v1) | Audio data, often synchronized with video frames, plays a crucial role | Li Yu, Xuanzhe Sun+ | 4.4 |
@@ -163,7 +163,7 @@
 | 🔥 | [Facial Expression Recognition in Video Using 3D-CN](https://www.semanticscholar.org/paper/d51b1682dcc00343bdf208ad9e92c65ae96ca307) | The focus of research work presented in this paper on improving perfor | Sathisha G, C. K. Subbaraya+ | 4.3 |
 | 🔥 | [Interpretability in Video-based Human Action Recog](https://www.semanticscholar.org/paper/af8a0f4ed9f1d4d5ab6ba6f38ab297c5bfaf2fad) | Interpretability plays a vital role in understanding complex deep lear | Jorge Garcia-Torres Fernandez | 4.3 |
 
-*Showing 12 of 103 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
+*Showing 12 of 105 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
 
 </details>
 
@@ -199,13 +199,13 @@
 | 🔥 | [3D Convolutional with Attention for Action Recogni](http://arxiv.org/abs/2206.02203v1) | Human action recognition is one of the challenging tasks in computer v | Labina Shrestha, Shikha Dubey+ | 5.0 |
 | 🔥 | [UniFormerV2: Spatiotemporal Learning by Arming Ima](https://arxiv.org/abs/2211.09552) | Learning discriminative spatiotemporal representation is the key probl | Kunchang Li, Yali Wang+ | 5.0 |
 | 🔥 | [Video Human Action Recognition Algorithm Based on ](https://www.semanticscholar.org/paper/c2424880775f037a531c36342120f87733886c3a) | The traditional action recognition algorithm based on manual feature e | Yu Wang, Jiaxi Sun | 4.8 |
-| 🔥 | [No-Reference Video Quality Assessment Using Multi-](https://www.semanticscholar.org/paper/0d15b4ca86a7b7a8f26c4957a8f7b86b4e5fc3e6) | With the constantly growing popularity of video-based services and app | D. Varga | 4.8 |
+| 🔥 | [No-Reference Video Quality Assessment Using Multi-](https://www.semanticscholar.org/paper/0d15b4ca86a7b7a8f26c4957a8f7b86b4e5fc3e6) | With the constantly growing popularity of video-based services and app | Domonkos Varga | 4.8 |
 | 🔥 | [Action Recognition Using Action Sequences Optimiza](https://www.semanticscholar.org/paper/a0d612070c8212a2f29011841953f036bc89d8ee) | Effective extraction and representation of action information are crit | Xin Xiong, Weidong Min+ | 4.5 |
 | 🔥 | [Enhancing Deformable Convolution based Video Frame](http://arxiv.org/abs/2202.07731v2) | This paper presents a new deformable convolution-based video frame int | Duolikun Danier, Fan Zhang+ | 4.4 |
 | 🔥 | [Skeleton Graph-Neural-Network-Based Human Action R](https://www.semanticscholar.org/paper/fae9bc1faa5e1b35d24a6b5addc4ea5c21185563) | Human action recognition has been applied in many fields, such as vide | Miao Feng, Jean Meunier | 4.4 |
 | 🔥 | [Two-stream fusion model using 3D-CNN and 2D-CNN vi](https://www.semanticscholar.org/paper/9cd751daa50a96b389e9a697c8c65bc61a0cc25f) | Hand gestures are useful tools for many applications in the human-comp | Debajit Sarma, V. Kavyasree+ | 4.3 |
 | 🔥 | [Sign Language Recognition Based on R(2+1)D With Sp](https://www.semanticscholar.org/paper/d6075672a619913dc1ef9ae808dd4cb0c1acd71a) | Previous work utilized three-dimensional (3-D) convolutional neural ne | Xiangzu Han, Fei Lu+ | 4.3 |
-| 🔥 | [Video Visual Relation Detection via 3D Convolution](https://www.semanticscholar.org/paper/da895422ce7bc018062b151bf3bf829ed0b03a61) | Video visual relation detection, which aims to detect the visual relat | Mingcheng Qu, Jianxun Cui+ | 4.3 |
+| 🔥 | [Video Visual Relation Detection via 3D Convolution](https://www.semanticscholar.org/paper/da895422ce7bc018062b151bf3bf829ed0b03a61) | Video visual relation detection, which aims to detect the visual relat | Ming-Cheng Qu, Jian-Xun Cui+ | 4.3 |
 
 *Showing 12 of 51 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
 
@@ -220,13 +220,13 @@
 | 🔥 | [Action Transformer: A Self-Attention Model for Sho](http://arxiv.org/abs/2107.00606v6) | Deep neural networks based purely on attention have been successful ac | Vittorio Mazzia, Simone Angarano+ | 5.7 |
 | 🔥 | [Temporal-attentive Covariance Pooling Networks for](http://arxiv.org/abs/2110.14381v3) | For video recognition task, a global representation summarizing the wh | Zilin Gao, Qilong Wang+ | 5.7 |
 | 🔥 | [Is Space-Time Attention All You Need for Video Und](https://arxiv.org/abs/2102.05095) | We present a convolution-free approach to video classification built e | Gedas Bertasius, Heng Wang+ | 5.6 |
+| 🔥 | [Revisiting Video Saliency Prediction in the Deep L](https://www.semanticscholar.org/paper/124fd51a1d09fdfa340414c9719f797133507583) | Predicting where people look in static scenes, a. k. a visual saliency | Wen-Guan Wang, Jian-Bing Shen+ | 5.3 |
 | 🔥 | [TAda! Temporally-Adaptive Convolutions for Video U](http://arxiv.org/abs/2110.06178v4) | Spatial convolutions are widely used in numerous deep video models. It | Ziyuan Huang, Shiwei Zhang+ | 5.2 |
 | 🔥 | [Efficient Action Recognition with Introducing R(2+](https://www.semanticscholar.org/paper/3baee2afb894b99d52b24a3ccd45788036fd07c9) | The mainstream methods in video action recognition includes 3D convolu | Hao Jin, Jianming Yang+ | 5.2 |
 | 🔥 | [Token Shift Transformer for Video Classification](https://arxiv.org/abs/2108.02432) | Transformer achieves remarkable successes in understanding 1 and 2-dim | Hao Zhang, Y. Hao+ | 5.0 |
 | 🔥 | [Improved CNN-based Learning of Interpolation Filte](http://arxiv.org/abs/2106.08936v1) | The versatility of recent machine learning approaches makes them ideal | Luka Murn, Saverio Blasi+ | 4.9 |
 | 🔥 | [SAIC_Cambridge-HuPBA-FBK Submission to the EPIC-Ki](http://arxiv.org/abs/2110.02902v1) | This report presents the technical details of our submission to the EP | Swathikiran Sudhakaran, Adrian Bulat+ | 4.7 |
 | 🔥 | ["Knights": First Place Submission for VIPriors21 A](http://arxiv.org/abs/2110.07758v1) | This technical report presents our approach "Knights" to solve the act | Ishan Dave, Naman Biyani+ | 4.4 |
-| 🔥 | [Revisiting Video Saliency Prediction in the Deep L](https://www.semanticscholar.org/paper/124fd51a1d09fdfa340414c9719f797133507583) | Predicting where people look in static scenes, a. k. a visual saliency | Wen-Guan Wang, Jian-Bing Shen+ | 4.3 |
 | 🔥 | [Recent Advances in Video Action Recognition with 3](https://www.semanticscholar.org/paper/662288676e52adf90909b6e1ebce4192570a35da) | SUMMARY The performance of video action recognition has improved signi | Kensho Hara | 4.3 |
 
 *Showing 12 of 49 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
@@ -311,11 +311,11 @@
 | 🔥 | [Graph-Theoretic Spatiotemporal Context Modeling fo](http://arxiv.org/abs/1707.07815v1) | As an important and challenging problem in computer vision, video sali | Lina Wei, Fangfang Wang+ | 4.8 |
 | 🔥 | [Video Classification With CNNs: Using The Codec As](http://arxiv.org/abs/1710.05112v2) | We investigate video classification via a two-stream convolutional neu | Aaron Chadha, Alhabib Abbas+ | 4.7 |
 | 🔥 | [Facial Expression Recognition Using Enhanced Deep ](http://arxiv.org/abs/1705.07871v1) | Deep Neural Networks (DNNs) have shown to outperform traditional metho | Behzad Hasani, Mohammad H. Mahoor | 4.4 |
-| 🔥 | [Temporal Relational Reasoning in Videos](https://arxiv.org/abs/1711.08496) | Temporal relational reasoning, the ability to link meaningful transfor | Bolei Zhou, A. Andonian+ | 4.2 |
+| 🔥 | [Temporal Relational Reasoning in Videos](https://arxiv.org/abs/1711.08496) | Temporal relational reasoning, the ability to link meaningful transfor | Bo-Lei Zhou, Alex J. Andonian+ | 4.2 |
 | 🔥 | [Two-Stream 3D Convolutional Neural Network for Ske](https://arxiv.org/abs/1705.08106) | It remains a challenge to efficiently extract spatialtemporal informat | Hong Liu, Juanhui Tu+ | 4.2 |
+| 🔥 | [Beyond Frame-level CNN: Saliency-Aware 3-D CNN Wit](https://www.semanticscholar.org/paper/4d972b4b6d2eae0bc810225dc3fd3b89e861dd56) | Beyond Frame-level CNN: Saliency-Aware 3-D CNN With LSTM for Video Act | Xuan-Han Wang, Lian-Li Gao+ | 4.2 |
 | 🔥 | [Spatio-Temporal Facial Expression Recognition Usin](http://arxiv.org/abs/1703.06995v2) | Automated Facial Expression Recognition (FER) has been a challenging t | Behzad Hasani, Mohammad H. Mahoor | 4.1 |
 | 📎 | [A Brief Survey of Deep Reinforcement Learning](http://arxiv.org/abs/1708.05866v2) | Deep reinforcement learning is poised to revolutionise the field of AI | Kai Arulkumaran, Marc Peter Deisenroth+ | 3.9 |
-| 📎 | [Rethinking Spatiotemporal Feature Learning For Vid](https://www.semanticscholar.org/paper/4fa0d73b8ba114578744c2ebaf610d2ca9694f45) | Rethinking Spatiotemporal Feature Learning For Video Understanding | Saining Xie, Chen Sun+ | 3.9 |
 
 *Showing 12 of 19 papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for all entries.*
 
@@ -345,7 +345,7 @@
 | 📎 | [Activity Recognition Using A Combination of Catego](http://arxiv.org/abs/1503.00081v1) | This paper presents a novel approach for automatic recognition of huma | Weiyao Lin, Ming-Ting Sun+ | 3.8 |
 | 📎 | [A new network-based algorithm for human activity r](http://arxiv.org/abs/1502.06075v1) | In this paper, a new network-transmission-based (NTB) algorithm is pro | Weiyao Lin, Yuanzhe Chen+ | 3.8 |
 | 📎 | [Group Event Detection with a Varying Number of Gro](http://arxiv.org/abs/1503.00082v1) | This paper presents a novel approach for automatic recognition of grou | Weiyao Lin, Ming-Ting Sun+ | 2.9 |
-| 📎 | [VoxNet: A 3D Convolutional Neural Network for real](https://www.semanticscholar.org/paper/3f1c6749edfaf4f89bac38b2d15a0493bd9aa253) | VoxNet: A 3D Convolutional Neural Network for real-time object recogni | D. Maturana, S. Scherer | 2.8 |
+| 📎 | [VoxNet: A 3D Convolutional Neural Network for real](https://www.semanticscholar.org/paper/3f1c6749edfaf4f89bac38b2d15a0493bd9aa253) | VoxNet: A 3D Convolutional Neural Network for real-time object recogni | Daniel Maturana, S. Scherer | 2.8 |
 
 </details>
 

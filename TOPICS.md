@@ -1,19 +1,19 @@
 # 📂 主题视图
 
-> 共 8 个主题 | 最后更新: 2026-11-26 09:21
+> 共 8 个主题 | 最后更新: 2026-11-27 09:35
 
 ## 📊 主题概览
 
 | 主题 | 论文数 | 核心论文 | 说明 |
 |------|--------|----------|------|
-| 时序解释 | 1440 | 719 | 聚焦于视频时序维度的可解释性研究 |
-| 网络解剖 | 406 | 194 | 网络内部单元 / 特征可视化与解剖 |
+| 时序解释 | 1442 | 720 | 聚焦于视频时序维度的可解释性研究 |
+| 网络解剖 | 407 | 194 | 网络内部单元 / 特征可视化与解剖 |
 | 视频 Transformer 可解释性 | 400 | 182 | Vision Transformer / Video Transformer 的可解释性 |
-| 动作识别可解释性 | 308 | 162 | 视频动作识别 / 分类任务的可解释性研究 |
+| 动作识别可解释性 | 308 | 163 | 视频动作识别 / 分类任务的可解释性研究 |
 | 注意力与归因 | 204 | 89 | 注意力机制分析与梯度归因方法 |
 | 鲁棒性与对抗 | 133 | 48 | 视频模型的鲁棒性与对抗攻击/防御 |
-| 3D CNN 解释 | 129 | 65 | 3D 卷积网络 / R(2+1)D 等时空卷积模型的可解释性 |
-| 视频显著性 | 112 | 47 | 视频/空间显著性检测与可视化 |
+| 3D CNN 解释 | 130 | 65 | 3D 卷积网络 / R(2+1)D 等时空卷积模型的可解释性 |
+| 视频显著性 | 113 | 48 | 视频/空间显著性检测与可视化 |
 | 未分类 | 117 | - | - |
 
 ---
@@ -40,7 +40,7 @@
 | 🔥 | [Action Transformer: A Self-Attention Model for Short-Time Po](http://arxiv.org/abs/2107.00606v6) | 2021 | 5.7 |
 | 🔥 | [Temporal-attentive Covariance Pooling Networks for Video Rec](http://arxiv.org/abs/2110.14381v3) | 2021 | 5.7 |
 
-*... 共 1440 篇，仅显示前 15 篇*
+*... 共 1442 篇，仅显示前 15 篇*
 
 ---
 
@@ -63,10 +63,10 @@
 | 🔥 | [Visual Representation Matters: Exploiting Temporal Differenc](http://arxiv.org/abs/2608.04902v1) | 2026 | 5.4 |
 | 🔥 | [TSPFN: A Temporal Tabular Foundation Model for Physiological](http://arxiv.org/abs/2608.31013v1) | 2026 | 5.4 |
 | 🔥 | [Beyond Spatio-Temporal Priors: A Generalizable Approach for ](http://arxiv.org/abs/2610.12421v1) | 2026 | 5.4 |
+| 🔥 | [Revisiting Video Saliency Prediction in the Deep Learning Er](https://www.semanticscholar.org/paper/124fd51a1d09fdfa340414c9719f797133507583) | 2021 | 5.3 |
 | 🔥 | [Spatiotemporal distilled dense-connectivity network for vide](https://www.semanticscholar.org/paper/04d27bbbc875bd8fe52521112841d47b21950e7c) | 2019 | 5.3 |
-| 🔥 | [Revisiting Video Saliency: A Large-scale Benchmark and a New](http://arxiv.org/abs/1801.07424v3) | 2018 | 5.3 |
 
-*... 共 406 篇，仅显示前 15 篇*
+*... 共 407 篇，仅显示前 15 篇*
 
 ---
 
@@ -135,6 +135,7 @@
 | 🔥 | [Action Transformer: A Self-Attention Model for Short-Time Po](http://arxiv.org/abs/2107.00606v6) | 2021 | 5.7 |
 | 🔥 | [LeVJEPA: Efficient & Scalable Video Pretraining without the ](http://arxiv.org/abs/2608.27395v1) | 2026 | 5.5 |
 | 🔥 | [A Hybrid 3D CNNs Transformer Architecture for Video-Based Hu](https://www.semanticscholar.org/paper/e6b804076db44eb636ebe9d8ec47bcd3aa31a067) | 2025 | 5.4 |
+| 🔥 | [Revisiting Video Saliency Prediction in the Deep Learning Er](https://www.semanticscholar.org/paper/124fd51a1d09fdfa340414c9719f797133507583) | 2021 | 5.3 |
 | 🔥 | [Revisiting Video Saliency: A Large-scale Benchmark and a New](http://arxiv.org/abs/1801.07424v3) | 2018 | 5.3 |
 | 🔥 | [HOPE: Hand-Object Pressure Estimation from Monocular Videos](http://arxiv.org/abs/2608.06192v1) | 2026 | 5.2 |
 | 🔥 | [RANP: Resource Aware Neuron Pruning at Initialization for 3D](http://arxiv.org/abs/2010.02488v3) | 2020 | 5.2 |
@@ -142,7 +143,6 @@
 | 🔥 | [Hierarchical Denoising For Multi-Step Visual Reasoning](http://arxiv.org/abs/2607.15278v1) | 2026 | 5.0 |
 | 🔥 | [Exo2EgoPose: Leveraging Exocentric Demonstrations for Vision](http://arxiv.org/abs/2607.15890v1) | 2026 | 5.0 |
 | 🔥 | [Obscured Wildfire Flame Detection by Spatio-temporal Analysi](http://arxiv.org/abs/2611.14074v1) | 2026 | 5.0 |
-| 🔥 | [3D Convolutional with Attention for Action Recognition](http://arxiv.org/abs/2206.02203v1) | 2022 | 5.0 |
 
 *... 共 204 篇，仅显示前 15 篇*
 
@@ -196,7 +196,7 @@
 | 🔥 | [A Closer Look at Spatiotemporal Convolutions for Action Reco](https://arxiv.org/abs/1711.11248) | 2017 | 5.1 |
 | 🔥 | [3D Convolutional with Attention for Action Recognition](http://arxiv.org/abs/2206.02203v1) | 2022 | 5.0 |
 
-*... 共 129 篇，仅显示前 15 篇*
+*... 共 130 篇，仅显示前 15 篇*
 
 ---
 
@@ -211,6 +211,7 @@
 | 🔥 | [Unified Image and Video Saliency Modeling](http://arxiv.org/abs/2003.05477v3) | 2020 | 5.7 |
 | 🔥 | [Is Space-Time Attention All You Need for Video Understanding](https://arxiv.org/abs/2102.05095) | 2021 | 5.6 |
 | 🔥 | [Video-Based Palm-Vein Authentication under Challenging Condi](http://arxiv.org/abs/2609.02776v1) | 2026 | 5.5 |
+| 🔥 | [Revisiting Video Saliency Prediction in the Deep Learning Er](https://www.semanticscholar.org/paper/124fd51a1d09fdfa340414c9719f797133507583) | 2021 | 5.3 |
 | 🔥 | [Revisiting Video Saliency: A Large-scale Benchmark and a New](http://arxiv.org/abs/1801.07424v3) | 2018 | 5.3 |
 | 🔥 | [EchoCache: Energy-Guided Cross-Modal Caching for Efficient A](http://arxiv.org/abs/2608.02474v1) | 2026 | 5.2 |
 | 🔥 | [Audio-visual Saliency for Omnidirectional Videos](http://arxiv.org/abs/2311.05190v1) | 2023 | 5.2 |
@@ -220,6 +221,5 @@
 | 🔥 | [Predicting Video Saliency with Object-to-Motion CNN and Two-](http://arxiv.org/abs/1709.06316v3) | 2017 | 5.0 |
 | 🔥 | [No-Reference Video Quality Assessment Using Multi-Pooled, Sa](https://www.semanticscholar.org/paper/0d15b4ca86a7b7a8f26c4957a8f7b86b4e5fc3e6) | 2022 | 4.8 |
 | 🔥 | [Graph-Theoretic Spatiotemporal Context Modeling for Video Sa](http://arxiv.org/abs/1707.07815v1) | 2017 | 4.8 |
-| 🔥 | [InstructMixup: Instruction-Guided Salient Patch Editing for ](http://arxiv.org/abs/2607.19324v1) | 2026 | 4.7 |
 
-*... 共 112 篇，仅显示前 15 篇*
+*... 共 113 篇，仅显示前 15 篇*
